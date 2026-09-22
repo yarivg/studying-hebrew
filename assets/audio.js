@@ -146,6 +146,9 @@ window.Say = (function () {
   // Nothing else reads it: a failure in the middle of a lesson should not put
   // an error message where the learner is trying to read.
   var lastError = '';
+  // Set when the chosen voice turned out to be silent and the engine was
+  // asked to pick instead. The Test button is the only thing that says so.
+  var fellBack = false;
 
   /* Two long-standing engine bugs, both of which present as "the voice does
      not work at all", and neither of which is anything to do with the voice.
@@ -160,6 +163,24 @@ window.Say = (function () {
      nothing anywhere else. */
 
   var ticker = null;
+
+  /* A third failure, and the one that leaves a voice sitting in the menu
+     doing nothing: the browser lists a voice it cannot actually drive.
+     Chrome on macOS does this with the Apple voices. The utterance is
+     accepted, `end` fires within a few milliseconds, and nothing is heard.
+
+     There is no flag for it, so it is measured. Hebrew at the rate below
+     runs about 78ms a character; an utterance that ends in a fraction of
+     what it should have taken did not speak. Naming no voice at all and
+     asking for he-IL usually works where naming one did not, because the
+     engine then picks for itself. */
+
+  var silent = {};      // voiceURI -> we have caught it returning silence
+
+  function tooFast(say, rate, ms) {
+    var should = say.length * 78 / (rate || 1);
+    return ms < Math.min(500, should * 0.25);
+  }
 
   function startTicker() {
     if (ticker) return;
@@ -205,28 +226,50 @@ window.Say = (function () {
       if (opts.onEnd) opts.onEnd(finished && mine === epoch);
     }
 
-    function go() {
+    var rate = (opts.slow || prefs.slow) ? 0.6 : 0.9;
+    var began = 0;
+
+    // `named` is whether to hand the engine the chosen voice. False is the
+    // fallback: lang alone, and let it choose.
+    function go(named) {
       // Something else started speaking while we were waiting out the cancel.
       if (mine !== epoch) { done(false); return; }
+      var use = named && current && !silent[current.voiceURI] ? current : null;
       var u = new SpeechSynthesisUtterance(say);
-      u.lang = current ? current.lang : 'he-IL';
-      if (current) u.voice = current;
-      u.rate = (opts.slow || prefs.slow) ? 0.6 : 0.9;
+      u.lang = use ? use.lang : 'he-IL';
+      if (use) u.voice = use;
+      u.rate = rate;
       u.pitch = 1;
       u.onstart = function () { lastError = ''; startTicker(); };
-      u.onend = function () { done(true); };
+      u.onend = function () {
+        if (use && tooFast(say, rate, Date.now() - began)) {
+          silent[use.voiceURI] = 1;
+          fellBack = true;
+          go(false);
+          return;
+        }
+        done(true);
+      };
       u.onerror = function (e) {
         var err = e && e.error;
-        var mine_ = err !== 'interrupted' && err !== 'canceled';
-        if (err && mine_) lastError = err;
-        done(mine_);
+        var ours = err !== 'interrupted' && err !== 'canceled';
+        // Same fallback for a voice the engine refuses outright.
+        if (ours && use) {
+          silent[use.voiceURI] = 1;
+          fellBack = true;
+          go(false);
+          return;
+        }
+        if (err && ours) lastError = err;
+        done(ours);
       };
+      began = Date.now();
       synth.speak(u);
       startTicker();
     }
 
-    if (busy) setTimeout(go, 140);
-    else go();
+    if (busy) setTimeout(function () { go(true); }, 140);
+    else go(true);
     return true;
   }
 
@@ -481,6 +524,7 @@ window.Say = (function () {
       if (!e.target.closest('[data-act="test"]')) return;
       var out = document.getElementById('audioResult');
       lastError = '';
+      fellBack = false;
       if (out) out.textContent = 'Speaking\u2026';
       var started = speak(
         '\u05e9\u05c1\u05b8\u05dc\u05d5\u05b9\u05dd, \u05d0\u05b2\u05e0\u05b4\u05d9 ' +
@@ -488,6 +532,10 @@ window.Say = (function () {
         { onEnd: function (finished) {
             if (!out) return;
             if (lastError) out.textContent = 'The browser refused: ' + lastError + '.';
+            else if (fellBack) out.textContent = 'This browser lists ' +
+              (current ? current.name : 'that voice') + ' but cannot drive it, ' +
+              'so the system voice was used instead. Safari drives the Apple ' +
+              'voices properly if this still sounds wrong.';
             else if (finished) out.textContent = 'That is ' +
               (current ? current.name : 'the system voice') + '.';
             else out.textContent = '';
@@ -527,6 +575,12 @@ window.Say = (function () {
         : '<p class="audio-note">No Hebrew voice is installed in this browser. ' +
           'On macOS add Carmit under System Settings > Accessibility > Spoken Content > ' +
           'System Voice > Manage Voices. On iOS and Android it is built in.</p>') +
+      (voices.length === 1
+        ? '<p class="audio-note">Carmit is the only Hebrew voice Apple ships, so ' +
+          'there is nothing else to pick here. If it stays silent, try the same ' +
+          'page in Safari: Chrome lists the Apple voices but cannot always ' +
+          'drive them.</p>'
+        : '') +
       '<p class="audio-note">Click any Hebrew example to hear it. Shift-click reads it slowly.</p>';
   }
 
