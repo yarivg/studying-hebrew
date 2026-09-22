@@ -1,0 +1,170 @@
+{
+ "ch": "vav-yod",
+ "title": "Vav and yod as vowels",
+ "questions": [
+  {
+   "id": "vav-yod-01",
+   "type": "mcq",
+   "q": "You meet a ו inside an unpointed Hebrew word. What should you try first?",
+   "choices": [
+    "o or u",
+    "the consonant v",
+    "a or e",
+    "i"
+   ],
+   "a": 0,
+   "why": "A ו in unpointed text is the vowel o or u far more often than it is the consonant v. The two letters used this way are called אִמּוֹת קְרִיאָה, mothers of reading, and trying the vowel first is the habit that gets you through a street sign."
+  },
+  {
+   "id": "vav-yod-02",
+   "type": "mcq",
+   "q": "And a י inside an unpointed word?",
+   "choices": [
+    "i or e",
+    "the consonant y",
+    "a",
+    "o or u"
+   ],
+   "a": 0,
+   "why": "י stands for i, and for the e of a צֵירֵי that already had a yod with it: עִיר is /ir/ and בֵּית is /bet/, both written with the same letter. The consonant y is the rarer reading."
+  },
+  {
+   "id": "vav-yod-03",
+   "type": "mcq",
+   "q": "What do the terms כְּתִיב מָלֵא and כְּתִיב חָסֵר mean?",
+   "choices": [
+    "Full spelling and defective spelling",
+    "Printed text and handwritten text",
+    "Pointed text and unpointed text",
+    "Formal writing and spoken writing"
+   ],
+   "a": 0,
+   "why": "כְּתִיב מָלֵא writes the ו and the י generously, כְּתִיב חָסֵר leaves them out and lets the points carry the vowel. They are about which letters are on the page, not about whether the nikud is there: this course writes full spelling with the points on top, so both readers are served."
+  },
+  {
+   "id": "vav-yod-04",
+   "type": "fill",
+   "q": "Write the Hebrew word for good, read /tov/, the way it appears on a sign: no nikud.",
+   "a": [
+    "טוב",
+    "טוֹב"
+   ],
+   "why": "The ו stays, because it is the letter carrying the o. Rule one of full spelling: o and u are written with ו, so גָּדוֹל is written גדול and קוּם is written קום.",
+   "tags": [
+    "unpointed"
+   ]
+  },
+  {
+   "id": "vav-yod-05",
+   "type": "fill",
+   "q": "Write the Hebrew word for a city, read /ir/, with no nikud.",
+   "a": [
+    "עיר",
+    "עִיר"
+   ],
+   "why": "Rule two: i is written with י. The silent ע still has to be there, and the reader takes the vowel from the yod, which is the only reason the bare word is readable at all.",
+   "tags": [
+    "unpointed"
+   ]
+  },
+  {
+   "id": "vav-yod-06",
+   "type": "fill",
+   "q": "Write the Hebrew word for a market, read /shuk/, with no nikud.",
+   "a": [
+    "שוק",
+    "שׁוּק"
+   ],
+   "why": "The ו that held the שׁוּרוּק stays on the page and now does the whole job on its own. The shin dot goes with the points, which is why an unpointed ש has to be guessed, and sh is the better guess.",
+   "tags": [
+    "unpointed"
+   ]
+  },
+  {
+   "id": "vav-yod-07",
+   "type": "mcq",
+   "q": "This course writes the word for a table as שׁוּלְחָן. Which unpointed spelling is that, and which one do Israelis write?",
+   "choices": [
+    "שולחן",
+    "שלחן"
+   ],
+   "a": 0,
+   "why": "Take the points off שׁוּלְחָן and שולחן is left, which is what is on the furniture shop's sign. The older pointed spelling puts the u in a קוּבּוּץ under the ש instead, and stripping that leaves שלחן, which nobody writes. That is the whole reason this course points full spellings rather than defective ones."
+  },
+  {
+   "id": "vav-yod-08",
+   "type": "order",
+   "q": "Build the phrase: a school.",
+   "words": [
+    "סֵפֶר",
+    "בֵּית"
+   ],
+   "a": [
+    "בֵּית",
+    "סֵפֶר"
+   ],
+   "why": "Literally a house of book. The first word keeps the י that its צֵירֵי already had, the second never had one, so unpointed it is בית ספר: two e vowels, only one of them written. Rule three of full spelling in a single phrase."
+  },
+  {
+   "id": "vav-yod-09",
+   "type": "listen",
+   "say": "כְּתוֹבֶת",
+   "q": "Type what you hear.",
+   "a": [
+    "כְּתוֹבֶת"
+   ],
+   "why": "An address, /ktovet/. The opening shva is silence, so the word starts ktv, and the only vowel written into the letters is the ו carrying the o. Read the consonant skeleton aloud and listen for what it nearly is: that is how unpointed Hebrew is actually read."
+  },
+  {
+   "id": "vav-yod-10",
+   "type": "say",
+   "q": "Say this out loud.",
+   "target": "אֲוִויר",
+   "why": "Air, /avir/. The doubled vav is rule four: a consonant v between vowels is written וו, because a single one would be read as the vowel o or u. Unpointed it is אוויר, and the י after it is the i."
+  },
+  {
+   "id": "vav-yod-11",
+   "type": "mcq",
+   "q": "Why is the word for a commandment written with two vavs?",
+   "choices": [
+    "The first is a consonant v, and one vav alone would read as a vowel",
+    "The word has a long v sound",
+    "Every word with a ו in the middle doubles it",
+    "It marks the word as borrowed"
+   ],
+   "a": 0,
+   "why": "Doubling is how full spelling says consonant. The same rule gives אוויר for air and בניינים for the verb patterns, and it is why a pointed word can look crowded: the extra letter is for the unpointed reader, the points are for you."
+  },
+  {
+   "id": "vav-yod-12",
+   "type": "mcq",
+   "q": "The unpointed spelling ספר can be read as several different words. Which set is right?",
+   "choices": [
+    "a book, a barber, he told",
+    "a book, a river, a number",
+    "he counted, a barber, a bird",
+    "a book and nothing else"
+   ],
+   "a": 0,
+   "why": "סֵפֶר, סַפָּר and סִפֵּר share one consonant skeleton, because full spelling still does not write a or e. Four readings and no ambiguity in practice: a book sits on a table, a barber cuts hair, and a verb stands where a verb belongs."
+  },
+  {
+   "id": "vav-yod-13",
+   "type": "fill",
+   "q": "Type the Hebrew term for full spelling, the two words read /ktiv male/.",
+   "a": [
+    "כְּתִיב מָלֵא"
+   ],
+   "why": "The style this course is written in, with the points added on top. Its opposite is כְּתִיב חָסֵר, and the test of which you are looking at is what survives when the nikud is switched off."
+  },
+  {
+   "id": "vav-yod-14",
+   "type": "open",
+   "q": "Why does this course write full spelling with the points on top rather than pointed defective spelling? Give the argument and an example.",
+   "a": [
+    "Because the points are for reading practice and the letters are for real life, and full spelling serves both at once. Written שׁוּלְחָן, switching the nikud off leaves שולחן, exactly what is written on a sign in Israel. Written the defective way, switching the points off would leave שלחן, which no Israeli writes, so the practice would be teaching a spelling you will never meet. The same holds for מִצְוָוה against a single vav, and for בִּנְיָינִים."
+   ],
+   "why": "The two notations answer different questions: the points say how to say it, the ו and the י say how it is spelled outside a textbook. Carrying both is redundant only if you never intend to read anything unpointed."
+  }
+ ]
+}

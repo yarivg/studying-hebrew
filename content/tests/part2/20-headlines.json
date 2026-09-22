@@ -1,0 +1,90 @@
+{
+  "ch": "headlines",
+  "title": "Reading a headline",
+  "questions": [
+    { "id": "headlines-01", "type": "mcq",
+      "q": "A headline reads: הפגנה גדולה בתל אביב. Why is there no verb in it?",
+      "choices": ["Headlines drop the linking verb and read as a noun phrase", "The verb is hidden inside the first word", "Hebrew has no verb \"to be\" in any tense", "Because the headline is a question"],
+      "a": 0,
+      "why": "The noun phrase is the whole headline, exactly as English writes \"Minister in Washington\". Pointed, it is הַפְגָּנָה גְּדוֹלָה בְּתֵל אָבִיב, a large demonstration in Tel Aviv, and nothing is missing that a reader needs." },
+
+    { "id": "headlines-02", "type": "mcq",
+      "q": "A headline reads: צה\"ל: אין נפגעים. What is the colon doing?",
+      "choices": ["It means \"said\"", "It introduces a list", "It stands for \"and\"", "It marks a question"],
+      "a": 0,
+      "why": "A colon in a headline means said, and the name in front of it is the source: צַהַ\"ל: אֵין נִפְגָּעִים is the army saying there are no casualties, not a heading over a list." },
+
+    { "id": "headlines-03", "type": "mcq",
+      "q": "Where does the gershayim ״ sit in a Hebrew abbreviation?",
+      "choices": ["Before the last letter", "After the last letter", "After the first letter", "At the very start"],
+      "a": 0,
+      "why": "Before the last letter, always, and moving it makes a different word: חַ\"כּ is a member of Knesset, חכ\"ם is something else entirely. A single stroke ׳, the geresh, marks a word cut short instead, as in וְכוּלֵּי." },
+
+    { "id": "headlines-04", "type": "fill",
+      "q": "Write the abbreviation the Israeli army is called by in a headline, the one read as a single word.",
+      "a": ["צַהַ\"ל", "צְבָא הַהֲגָנָה לְיִשְׂרָאֵל"],
+      "why": "It stands for צְבָא הַהֲגָנָה לְיִשְׂרָאֵל, the army of defence for Israel, and Israelis read it at a glance as one word, /tsahal/, not as three letters." },
+
+    { "id": "headlines-05", "type": "fill",
+      "q": "Write the abbreviation a newspaper uses for the United States.",
+      "a": ["אַרְהַ\"ב", "אַרְצוֹת הַבְּרִית"],
+      "why": "It stands for אַרְצוֹת הַבְּרִית, literally the states of the covenant, and like צַהַ\"ל it is read as a word rather than spelled out." },
+
+    { "id": "headlines-06", "type": "mcq",
+      "q": "A headline mentions a ח\"כ. Who is that?",
+      "choices": ["A member of Knesset, חֲבֵר כְּנֶסֶת", "A lawyer, עוֹרֵךְ דִּין", "The High Court, בֵּית הַמִּשְׁפָּט הַגָּבוֹהַּ לְצֶדֶק", "A chief executive, מְנַהֵל כְּלָלִי"],
+      "a": 0,
+      "why": "חַ\"כּ is חֲבֵר כְּנֶסֶת. The other three have abbreviations of their own that turn up just as often: עו\"ד, בַּגָּ\"ץ and מַנְכָּ\"ל." },
+
+    { "id": "headlines-07", "type": "mcq",
+      "q": "A headline says a driver got a דו\"ח. What is it?",
+      "choices": ["A report, and also the word for a traffic fine", "A court summons", "A driving licence", "A government spokesman"],
+      "a": 0,
+      "why": "דּוּ\"חַ is short for דִּין וְחֶשְׁבּוֹן, a statement of account. It is the everyday word for an official report and, on the road, for the fine itself." },
+
+    { "id": "headlines-08", "type": "fill",
+      "q": "Write \"the defence minister\" in Hebrew, as a headline would print it.",
+      "a": ["שַׂר הַבִּיטָּחוֹן"],
+      "why": "A smikhut chain: שַׂר, minister, in the construct form, and only the last noun takes the הַ. The whole pair is definite because of that one article." },
+
+    { "id": "headlines-09", "type": "order",
+      "q": "Build the chain: the head of the government of Israel",
+      "words": ["רֹאשׁ", "מֶמְשֶׁלֶת", "יִשְׂרָאֵל"],
+      "a": ["רֹאשׁ", "מֶמְשֶׁלֶת", "יִשְׂרָאֵל"],
+      "why": "Read a chain from the right and translate it from the left: head, of the government, of Israel. Every noun before the last one is in its construct form, which is why מֶמְשָׁלָה appears as מֶמְשֶׁלֶת." },
+
+    { "id": "headlines-10", "type": "mcq",
+      "q": "In the chain ראש ממשלת ישראל, which noun carries the הַ?",
+      "choices": ["None of them", "רֹאשׁ", "מֶמְשֶׁלֶת", "יִשְׂרָאֵל"],
+      "a": 0,
+      "why": "Only the last noun in a chain can take the article, and here that noun is a name, which is definite already. Compare רֹאשׁ הַמֶּמְשָׁלָה, where the last noun is an ordinary one and does take it." },
+
+    { "id": "headlines-11", "type": "listen",
+      "say": "מַשְׁבֵּר בְּמַעֲרֶכֶת הַחִינּוּךְ",
+      "q": "Type what you hear.",
+      "a": ["מַשְׁבֵּר בְּמַעֲרֶכֶת הַחִינּוּךְ"],
+      "why": "A crisis in the education system: a verbless headline built on a chain, with בְּ fused onto the construct form מַעֲרֶכֶת. מַשְׁבֵּר is a mishkal noun of chapter 5, on the root of a verb meaning to break." },
+
+    { "id": "headlines-12", "type": "say",
+      "q": "Read this headline out loud: a large demonstration in Tel Aviv.",
+      "target": "הַפְגָּנָה גְּדוֹלָה בְּתֵל אָבִיב",
+      "why": "הַפְגָּנָה is a hif'il verbal noun of chapter 17, on the shape הַ.ְ.ָ.ָה, so it is feminine and the adjective after it is גְּדוֹלָה. A newspaper prints all of this with no points at all." },
+
+    { "id": "headlines-13", "type": "mcq",
+      "q": "This morning's paper says: ראש הממשלה יוצא לאירופה. When does he leave?",
+      "choices": ["Some time soon, but not now", "At this moment", "He has already left", "He leaves regularly, as a habit"],
+      "a": 0,
+      "why": "Where a headline does use a verb, past tense reports what happened and present tense announces what is about to happen. יוֹצֵא here is tomorrow, not now." },
+
+    { "id": "headlines-14", "type": "mcq",
+      "q": "In the headline הכנסת אישרה את ההסכם עם ארה\"ב, which binyan is אישרה?",
+      "choices": ["pi'el", "pa'al", "hif'il", "nif'al"],
+      "a": 0,
+      "why": "אִישְּׁרָה is pi'el past, third person feminine singular, from א-ש-ר, to approve, and it is feminine because כְּנֶסֶת is. The אֶת after it tells you הַהֶסְכֵּם is the object before you have parsed anything else." },
+
+    { "id": "headlines-15", "type": "open",
+      "q": "Name the four things that make a Hebrew headline harder than the article under it, and the one move that sorts it out.",
+      "a": ["No vowels, with no context and no sentence before it to guess from; no verb, because the linking verb is dropped and the headline is a noun phrase; smikhut chains three and four nouns deep, where only the last noun takes the הַ; and abbreviations marked with a gershayim before the last letter, such as צַהַ\"ל, אַרְהַ\"ב and דּוּ\"חַ. The move is to read the headline, decide what you think the story is, then read the first sentence of the article: it is a full sentence with the verbs the headline dropped, and it confirms or corrects you in five seconds."],
+      "why": "Reading a headline is guesswork by design, and the guess is meant to be checked rather than perfected. Israelis misread headlines too and fix themselves at the next line." }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+ "ch": "nikud",
+ "title": "Nikud: the vowel points",
+ "questions": [
+  { "id": "nikud-01", "type": "mcq",
+    "q": "How many vowel sounds does modern Israeli Hebrew have?",
+    "choices": ["Five", "Ten", "Seven", "Three"],
+    "a": 0,
+    "why": "Five: a, e, i, o, u. There are about ten signs to write them, because the system was designed for a pronunciation that still had long and short vowels. Israeli Hebrew dropped the length and kept the signs." },
+
+  { "id": "nikud-02", "type": "mcq",
+    "q": "Which two signs both say the vowel a?",
+    "choices": ["קָמָץ and פַּתָּח", "צֵירֵי and סֶגּוֹל", "חִירִיק and שׁוּרוּק", "חוֹלָם and קוּבּוּץ"],
+    "a": 0,
+    "why": "קָמָץ and פַּתָּח are both /a/, as צֵירֵי and סֶגּוֹל are both /e/ and קוּבּוּץ and שׁוּרוּק are both /u/. Reading them is easy because each pair gives one instruction; writing them is not, which is why you learn the spelling with the word." },
+
+  { "id": "nikud-03", "type": "mcq",
+    "q": "Which vowel sign is under the first letter of בַּיִת?",
+    "choices": ["קָמָץ", "פַּתָּח", "סֶגּוֹל", "צֵירֵי"],
+    "a": 1,
+    "why": "It is a פַּתָּח, a single horizontal stroke. A קָמָץ has a small tail hanging under that stroke, and in modern speech the two say exactly the same thing, so they are told apart by shape and never by ear." },
+
+  { "id": "nikud-04", "type": "mcq",
+    "q": "Which sign usually marks no vowel at all?",
+    "choices": ["שְׁוָוא", "חִירִיק", "סֶגּוֹל", "קוּבּוּץ"],
+    "a": 0,
+    "why": "שְׁוָוא is two dots stacked vertically. In the middle of a word it is silence, and at the start of a word it is a faint /e/. An English speaker's instinct is to insert a full vowel, and that extra vowel is what sounds foreign." },
+
+  { "id": "nikud-05", "type": "order",
+    "q": "Put these sign names in the order of the sounds a, e, i, o, u.",
+    "words": ["חוֹלָם", "חִירִיק", "קָמָץ", "שׁוּרוּק", "צֵירֵי"],
+    "a": ["קָמָץ", "צֵירֵי", "חִירִיק", "חוֹלָם", "שׁוּרוּק"],
+    "why": "One sign per sound, in the order a, e, i, o, u. Each of these has a twin that says the same thing: פַּתָּח for a, סֶגּוֹל for e, and קוּבּוּץ for u. That is ten signs doing five jobs." },
+
+  { "id": "nikud-06", "type": "fill",
+    "q": "Type the Hebrew word for a market, read /shuk/.",
+    "a": ["שׁוּק"],
+    "why": "The u is a שׁוּרוּק, a ו with a dot in its belly. Compare a חוֹלָם מָלֵא, which is the same ו with the dot sitting above it and to the left: the position of one dot is the whole difference between /u/ and /o/." },
+
+  { "id": "nikud-07", "type": "fill",
+    "q": "Type the Hebrew word for a city, read /ir/.",
+    "a": ["עִיר"],
+    "why": "The i is a חִירִיק, one dot under the letter, and here it has a י after it to carry the sound once the points come off. The opening ע is silent: the word starts on the vowel." },
+
+  { "id": "nikud-08", "type": "listen",
+    "say": "סְפָרִים",
+    "q": "Type what you hear.",
+    "a": ["סְפָרִים"],
+    "why": "Books, /sfarim/. The shva under the ס is silence, so the word opens with a consonant cluster and has two syllables, not three. Saying se-fa-rim inserts a vowel that is not written and not there." },
+
+  { "id": "nikud-09", "type": "say",
+    "q": "Say this out loud.",
+    "target": "אֲנִי",
+    "why": "The sign under the א is a חֲטָף פַּתָּח, a shva with a patakh beside it, and it is a very short /a/ rather than a full one. The gutturals א ה ח ע take these compounds because they resist a bare shva." },
+
+  { "id": "nikud-10", "type": "mcq",
+    "q": "Why do א, ה, ח and ע take a חֲטָף instead of a plain שְׁוָוא?",
+    "choices": ["They are gutturals and resist a bare shva", "They are the only letters that can start a word", "A shva cannot be written under a wide letter", "They are silent, so they need a sign of their own"],
+    "a": 0,
+    "why": "The four gutturals want something to lean on, so the shva is compounded with a vowel: חֲטָף פַּתָּח, חֲטָף סֶגּוֹל, חֲטָף קָמָץ. You never choose one, it belongs to the spelling of the word; you only need to read it as a short vowel." },
+
+  { "id": "nikud-11", "type": "say",
+    "q": "Say this out loud.",
+    "target": "חֲבֵרִים",
+    "why": "Friends, /khaverim/. A חֲטָף פַּתָּח under the ח, a צֵירֵי under the ב, and the stress on the last syllable. The short opening vowel is what keeps it from sounding like a full kha." },
+
+  { "id": "nikud-12", "type": "fill",
+    "q": "Type the Hebrew word for truth, read /emet/.",
+    "a": ["אֱמֶת"],
+    "why": "Under the א is a חֲטָף סֶגּוֹל, a very short /e/, and under the מ a full סֶגּוֹל. The same sound written two ways in one three-letter word, because the guttural takes the compound and the ordinary letter does not." },
+
+  { "id": "nikud-13", "type": "mcq",
+    "q": "In the word כָּל, meaning all, how is the kamatz read?",
+    "choices": ["o", "a", "e", "u"],
+    "a": 0,
+    "why": "This is a קָמָץ קָטָן, the one kamatz that says /o/: כָּל is /kol/. It belongs to a small and learnable set of words, so meet each one as it comes rather than trying to predict it." },
+
+  { "id": "nikud-14", "type": "open",
+    "q": "Why can you not work out by ear whether a word is written with a קָמָץ or a פַּתָּח, and what follows from that for a learner?",
+    "a": ["Because Israeli Hebrew merged the two: both are /a/, and the historical difference in length is gone. So listening can never tell you which to write. What follows is that you learn a spelling together with the word, you do not try to derive it, and you spend your effort on reading the points rather than producing them, since almost nothing outside a dictionary or a children's book is pointed anyway."],
+    "why": "The same applies to צֵירֵי against סֶגּוֹל and to קוּבּוּץ against שׁוּרוּק. Recognising that the writing system is finer than the sound system saves a lot of wasted effort trying to hear a distinction that no longer exists." }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+  "ch": "cause-purpose",
+  "title": "Cause and purpose",
+  "questions": [
+    { "id": "cause-purpose-01", "type": "mcq",
+      "q": "Which of these connectors is followed by a noun rather than by a clause?",
+      "choices": ["בִּגְלַל", "כִּי", "מִפְּנֵי שֶׁ", "מִשּׁוּם שֶׁ"],
+      "a": 0,
+      "why": "The division is mechanical: בִּגְלַל, עֵקֶב and בְּשֶׁל take a noun, while כִּי, מִפְּנֵי שֶׁ, מִשּׁוּם שֶׁ and מֵאַחַר שֶׁ take a whole clause with a verb in it." },
+
+    { "id": "cause-purpose-02", "type": "fill",
+      "q": "Write the Hebrew for \"because of the rain\", the two words on their own.",
+      "a": ["בִּגְלַל הַגֶּשֶׁם"],
+      "why": "בִּגְלַל is a preposition, so what follows it is a noun and nothing else. Notice the faint negative colouring: for a cause you are glad about, Hebrew reaches for בִּזְכוּת instead." },
+
+    { "id": "cause-purpose-03", "type": "fill",
+      "q": "Now say \"because it rained\", with a verb in it this time.",
+      "a": ["כִּי יָרַד גֶּשֶׁם", "מִפְּנֵי שֶׁיָּרַד גֶּשֶׁם", "מִשּׁוּם שֶׁיָּרַד גֶּשֶׁם"],
+      "why": "Once there is a verb, the connector has to be one that takes a clause: כִּי in speech and in most writing, מִפְּנֵי שֶׁ one notch up, מִשּׁוּם שֶׁ in writing proper." },
+
+    { "id": "cause-purpose-04", "type": "mcq",
+      "q": "Why is בִּגְלַל שֶׁלֹּא הָיָה זְמַן objected to in writing?",
+      "choices": ["בִּגְלַל takes a noun, so a clause needs כִּי or מִפְּנֵי שֶׁ", "בִּגְלַל cannot open a sentence", "the verb after בִּגְלַל has to be in the future", "בִּגְלַל is only used for causes you welcome"],
+      "a": 0,
+      "why": "Everybody says בִּגְלַל שֶׁ and the Academy has objected for eighty years without effect. Keep בִּגְלַל for nouns and כִּי or מִפְּנֵי שֶׁ for clauses and you are safe in both directions." },
+
+    { "id": "cause-purpose-05", "type": "mcq",
+      "q": "Which word introduces a cause you are glad about, as in \"thanks to her we succeeded\"?",
+      "choices": ["בִּזְכוּת", "בִּגְלַל", "עֵקֶב", "בְּשֶׁל"],
+      "a": 0,
+      "why": "בִּזְכוּתָהּ הִצְלַחְנוּ is the good half of the pair; בִּגְלַל carries the blame, like English \"because of him we were late\". עֵקֶב and בְּשֶׁל are the written, neutral versions." },
+
+    { "id": "cause-purpose-06", "type": "mcq",
+      "q": "Which of these means \"therefore\" and not \"because\"?",
+      "choices": ["מִשּׁוּם כָּךְ", "מִשּׁוּם שֶׁ", "מֵאַחַר שֶׁ", "הוֹאִיל וְ"],
+      "a": 0,
+      "why": "One letter apart in speech and opposite directions of the arrow: מִשּׁוּם שֶׁ points back at the cause, מִשּׁוּם כָּךְ points forward at the result, like לָכֵן and כְּתוֹצָאָה מִכָּךְ." },
+
+    { "id": "cause-purpose-07", "type": "order",
+      "q": "Build the sentence: it rained, so we stayed home",
+      "words": ["יָרַד", "גֶּשֶׁם", "לָכֵן", "נִשְׁאַרְנוּ", "בַּבַּיִת"],
+      "a": ["יָרַד", "גֶּשֶׁם", "לָכֵן", "נִשְׁאַרְנוּ", "בַּבַּיִת"],
+      "why": "A result connector joins two full sentences and stands at the front of the second one. לָכֵן never links a noun: for that you would need a cause word like בִּגְלַל." },
+
+    { "id": "cause-purpose-08", "type": "fill",
+      "q": "Say \"I came in order to study\". The person who comes is the person who studies.",
+      "a": ["בָּאתִי כְּדֵי לִלְמוֹד"],
+      "why": "Same subject in both halves, so the second verb has nothing to mark and stays an infinitive. An infinitive cannot carry a subject, which is exactly why it fits here and nowhere else." },
+
+    { "id": "cause-purpose-09", "type": "fill",
+      "q": "Now say \"I came so that you would study\", speaking to a man. The subject changes.",
+      "a": ["בָּאתִי כְּדֵי שֶׁתִּלְמַד"],
+      "why": "A new subject appears, the infinitive has no room for it, and Hebrew switches to שֶׁ plus a finite verb in the future. בָּאתִי כְּדֵי שֶׁאַתָּה לוֹמֵד is simply not Hebrew." },
+
+    { "id": "cause-purpose-10", "type": "mcq",
+      "q": "What tense does the verb after כְּדֵי שֶׁ take?",
+      "choices": ["the future, whatever the tense of the main clause", "the same tense as the main clause", "the present", "the infinitive"],
+      "a": 0,
+      "why": "Always the future, even when the main clause is in the past: בָּאתִי אֶתְמוֹל כְּדֵי שֶׁתָּבִין, I came yesterday so that you would understand. English backshifts the tense here and Hebrew does not." },
+
+    { "id": "cause-purpose-11", "type": "mcq",
+      "q": "Which sentence is correct for \"she works hard so that the children will succeed\"?",
+      "choices": ["הִיא עוֹבֶדֶת קָשֶׁה כְּדֵי שֶׁהַיְלָדִים יַצְלִיחוּ", "הִיא עוֹבֶדֶת קָשֶׁה כְּדֵי הַיְלָדִים לְהַצְלִיחַ", "הִיא עוֹבֶדֶת קָשֶׁה כְּדֵי שֶׁהַיְלָדִים מַצְלִיחִים", "הִיא עוֹבֶדֶת קָשֶׁה כְּדֵי שֶׁהַיְלָדִים הִצְלִיחוּ"],
+      "a": 0,
+      "why": "Two subjects, so כְּדֵי שֶׁ with a future verb. כְּדֵי followed by a subject and an infinitive is the English sentence translated word for word, and it is ungrammatical in Hebrew." },
+
+    { "id": "cause-purpose-12", "type": "order",
+      "q": "Build the sentence: I spoke quietly so the child would not wake",
+      "words": ["דִּיבַּרְתִּי", "בְּשֶׁקֶט", "כְּדֵי", "שֶׁהַיֶּלֶד", "לֹא", "יִתְעוֹרֵר"],
+      "a": ["דִּיבַּרְתִּי", "בְּשֶׁקֶט", "כְּדֵי", "שֶׁהַיֶּלֶד", "לֹא", "יִתְעוֹרֵר"],
+      "also": [["כְּדֵי", "שֶׁהַיֶּלֶד", "לֹא", "יִתְעוֹרֵר", "דִּיבַּרְתִּי", "בְּשֶׁקֶט"]],
+      "why": "A negative purpose clause changes nothing except that לֹא goes straight in front of the future verb. With one subject it would be כְּדֵי לֹא, as in יָצָאתִי מוּקְדָּם כְּדֵי לֹא לְאַחֵר." },
+
+    { "id": "cause-purpose-13", "type": "listen",
+      "say": "לֹא הִגַּעְנוּ בִּגְלַל הַגֶּשֶׁם",
+      "q": "Type what you hear.",
+      "a": ["לֹא הִגַּעְנוּ בִּגְלַל הַגֶּשֶׁם"],
+      "why": "The same thought with a clause would be לֹא הִגַּעְנוּ כִּי יָרַד גֶּשֶׁם. Which connector you need is decided by what comes after it, not by what you want to say." },
+
+    { "id": "cause-purpose-14", "type": "say",
+      "q": "Say this out loud.",
+      "target": "עָשִׂינוּ זֹאת לְמַעַן הַיְלָדִים",
+      "why": "לְמַעַן is the elevated purpose word and takes a noun here, \"for the children's sake\". With שֶׁ it takes a future verb like כְּדֵי שֶׁ, and זֹאת in place of זֶה is part of the same raised register." },
+
+    { "id": "cause-purpose-15", "type": "open",
+      "q": "When does Hebrew use כְּדֵי with an infinitive and when כְּדֵי שֶׁ with a future verb? Give an example of each.",
+      "a": ["Same subject in both halves: כְּדֵי plus an infinitive, בָּאתִי כְּדֵי לִלְמוֹד. A different subject in the purpose clause: כְּדֵי שֶׁ plus a verb in the future, whatever the main clause is doing, בָּאתִי כְּדֵי שֶׁתִּלְמַד. עַל מְנָת and עַל מְנָת שֶׁ split the same way in careful writing."],
+      "why": "English uses \"to\" for both halves of this distinction, so nothing in the English sentence warns you which one is needed. The subject is the only test, and it is worth applying before you open your mouth." }
+  ]
+}

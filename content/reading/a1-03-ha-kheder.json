@@ -1,0 +1,108 @@
+{
+  "id": "a1-03-ha-kheder",
+  "title": "הַחֶדֶר שֶׁל תֵּאוֹ",
+  "level": "A1",
+  "blurb": "One small room, from the window to under the bed: יֵשׁ and אֵין, place words, adjectives that agree, and the ownership endings.",
+  "grammar": [
+    "yesh-ein",
+    "adjectives",
+    "time-place-adverbs",
+    "prepositions-suffixes"
+  ],
+  "text": "זֶה הַחֶדֶר שֶׁל תֵּאוֹ.\nהוּא קָטָן אֲבָל מָלֵא אוֹר.\n\nמִתַּחַת לַחַלּוֹן יֵשׁ מִיטָּה כְּחוּלָּה.\nלְיַד הַמִּיטָּה יֵשׁ שׁוּלְחָן עִם מַחְשֵׁב וּמְנוֹרָה צְהוּבָּה יְשָׁנָה.\nמֵאֲחוֹרֵי הַדֶּלֶת יֵשׁ כִּיסֵּא עִם כָּל הַבְּגָדִים שֶׁלּוֹ.\nאֵין אָרוֹן בַּחֶדֶר.\n\nאִמָּא שֶׁלּוֹ נִכְנֶסֶת וּמִסְתַּכֶּלֶת עַל הַכִּיסֵּא.\n“הַחֶדֶר שֶׁלְּךָ לֹא נָקִי, תֵּאוֹ”.\nתֵּאוֹ מְחַפֵּשׂ תְּשׁוּבָה טוֹבָה.\n“אֲבָל אִמָּא, אֵין שׁוּם דָּבָר עַל הָרִצְפָּה!”\n\nאִמָּא שֶׁלּוֹ לֹא אוֹמֶרֶת כְּלוּם.\nהִיא מִסְתַּכֶּלֶת מִתַּחַת לַמִּיטָּה.\nמִתַּחַת לַמִּיטָּה יֵשׁ שְׁתֵּי צַלָּחוֹת, סְוֶדֶר שָׁחוֹר יָשָׁן וְהֶחָתוּל שֶׁל הַמִּשְׁפָּחָה.\nהֶחָתוּל יוֹצֵא, מִסְתַּכֵּל עַל תֵּאוֹ, וְחוֹזֵר מִתַּחַת לַמִּיטָּה.",
+  "gloss": {
+    "אוֹר": "light",
+    "מֵאֲחוֹרֵי": "behind",
+    "מִסְתַּכֵּל": "looks at",
+    "מִסְתַּכֶּלֶת": "looks at (she)",
+    "כְּלוּם": "nothing, a thing",
+    "סְוֶדֶר": "jumper, sweater"
+  },
+  "aloud": [
+    "מִתַּחַת לַחַלּוֹן יֵשׁ מִיטָּה כְּחוּלָּה.",
+    "אֲבָל אִמָּא, אֵין שׁוּם דָּבָר עַל הָרִצְפָּה!"
+  ],
+  "questions": [
+    {
+      "id": "a1-03-01",
+      "type": "mcq",
+      "q": "Where is Teo's bed?",
+      "choices": [
+        "Under the window",
+        "Behind the door",
+        "Next to the door",
+        "Opposite the table"
+      ],
+      "a": 0,
+      "why": "מִתַּחַת לַחַלּוֹן יֵשׁ מִיטָּה כְּחוּלָּה. Hebrew is happy to put the place phrase first and יֵשׁ second, which is how a description usually runs."
+    },
+    {
+      "id": "a1-03-02",
+      "type": "mcq",
+      "q": "What is under the bed?",
+      "choices": [
+        "Nothing at all",
+        "All of Teo's clothes",
+        "Two plates, a black jumper and the cat",
+        "An old yellow lamp"
+      ],
+      "a": 2,
+      "why": "The turn of the passage: Teo says there is nothing on the floor, and his mother simply looks in the one place he did not mention."
+    },
+    {
+      "id": "a1-03-03",
+      "type": "fill",
+      "q": "___ הַדֶּלֶת יֵשׁ כִּיסֵּא.",
+      "a": [
+        "מֵאֲחוֹרֵי",
+        "מאחורי"
+      ],
+      "why": "מֵאֲחוֹרֵי is the opposite of לִפְנֵי. The chair is out of sight from the doorway, which is exactly why the clothes on it go unmentioned."
+    },
+    {
+      "id": "a1-03-04",
+      "type": "fill",
+      "q": "Make the adjective agree: מְנוֹרָה ___ (יָשָׁן)",
+      "a": [
+        "יְשָׁנָה",
+        "ישנה"
+      ],
+      "why": "A Hebrew adjective follows its noun and copies its gender and number: מְנוֹרָה יְשָׁנָה, שׁוּלְחָן יָשָׁן, בְּגָדִים יְשָׁנִים. English puts the adjective in front; Hebrew never does."
+    },
+    {
+      "id": "a1-03-05",
+      "type": "mcq",
+      "q": "His mother says: הַחֶדֶר ___ לֹא נָקִי.",
+      "choices": [
+        "שֶׁלְּךָ",
+        "שֶׁלָּךְ",
+        "שֶׁלּוֹ",
+        "שֶׁלִּי"
+      ],
+      "a": 0,
+      "why": "She is speaking to Teo, so the ending is second person masculine: שֶׁלְּךָ. שֶׁלָּךְ would be said to a girl, and שֶׁלּוֹ is what the narrator uses about him."
+    },
+    {
+      "id": "a1-03-06",
+      "type": "mcq",
+      "q": "Make it negative: יֵשׁ אָרוֹן בַּחֶדֶר. →",
+      "choices": [
+        "אֵין אָרוֹן בַּחֶדֶר.",
+        "לֹא יֵשׁ אָרוֹן בַּחֶדֶר.",
+        "יֵשׁ אָרוֹן לֹא בַּחֶדֶר.",
+        "אֵין לֹא אָרוֹן בַּחֶדֶר."
+      ],
+      "a": 0,
+      "why": "אֵין is the whole negative of יֵשׁ, one word for one word, and לֹא never stands in front of יֵשׁ. לֹא negates verbs and adjectives instead: הַחֶדֶר לֹא נָקִי."
+    },
+    {
+      "id": "a1-03-07",
+      "type": "open",
+      "q": "Describe your own room in five Hebrew sentences. Use יֵשׁ or אֵין in each one, and at least three place words.",
+      "a": [
+        "בַּחֶדֶר שֶׁלִּי יֵשׁ מִיטָּה גְּדוֹלָה. לְיַד הַמִּיטָּה יֵשׁ שׁוּלְחָן קָטָן. עַל הַשּׁוּלְחָן יֵשׁ סְפָרִים וּמְנוֹרָה. אֵין טֶלֶוִיזְיָה בַּחֶדֶר. מֵאֲחוֹרֵי הַדֶּלֶת יֵשׁ הַבְּגָדִים שֶׁלִּי."
+      ],
+      "why": "יֵשׁ plus a place word is the whole engine of description in Hebrew, and יֵשׁ never changes for what follows it: יֵשׁ סֵפֶר and יֵשׁ עֲשָׂרָה סְפָרִים use the same one word."
+    }
+  ]
+}

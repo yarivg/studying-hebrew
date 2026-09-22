@@ -1,0 +1,89 @@
+{
+ "ch": "past-paal",
+ "title": "Past tense: pa'al",
+ "questions": [
+  { "id": "past-paal-01", "type": "mcq",
+    "q": "How many distinct forms does a Hebrew verb have in the past tense?",
+    "choices": ["nine", "four", "six", "three"],
+    "a": 0,
+    "why": "The present has four forms and asks only masculine or feminine, singular or plural. The past also marks who did it, so there are nine, with הֵם and הֵן sharing כָּתְבוּ." },
+
+  { "id": "past-paal-02", "type": "mcq",
+    "q": "In כָּתַבְתִּי, what tells you that the person who wrote was \"I\"?",
+    "choices": ["the ending ־ְתִּי", "the kamatz under the כ", "nothing in the verb, so the pronoun is compulsory", "the dagesh in the כ"],
+    "a": 0,
+    "why": "The past puts the person on the end of the verb. That is why the pronoun is optional in the first and second person: כָּתַבְתִּי already says \"I\", and אֲנִי כָּתַבְתִּי is emphasis, not grammar." },
+
+  { "id": "past-paal-03", "type": "mcq",
+    "q": "Which of these is \"she wrote\"?",
+    "choices": ["כָּתְבָה", "כּוֹתֶבֶת", "כָּתְבוּ", "כָּתַבְתְּ"],
+    "a": 0,
+    "why": "The הִיא ending is ־ָה, and the stem loses its second a in front of it: כָּתְבָה, not כָּתַבָה. כּוֹתֶבֶת is the present, \"she writes\", and כָּתְבוּ is \"they wrote\"." },
+
+  { "id": "past-paal-04", "type": "fill",
+    "q": "Write \"we learned\", from לִלְמוֹד.",
+    "a": ["לָמַדְנוּ"],
+    "why": "אֲנַחְנוּ takes ־ְנוּ on any verb in any binyan. Strip the infinitive to its three letters, pour them into the a-a stem לָמַד, and hang the ending on: לָמַדְנוּ." },
+
+  { "id": "past-paal-05", "type": "fill",
+    "q": "Write \"I closed\", from לִסְגּוֹר.",
+    "a": ["סָגַרְתִּי"],
+    "why": "Nothing new happens from verb to verb, only the three letters change: ס-ג-ר gives סָגַרְתִּי exactly as כ-ת-ב gives כָּתַבְתִּי. The stem is סָגַר and ־ְתִּי is the person." },
+
+  { "id": "past-paal-06", "type": "order",
+    "q": "Build the sentence: I did not write the letter",
+    "words": ["אֲנִי", "לֹא", "כָּתַבְתִּי", "אֶת", "הַמִּכְתָּב"],
+    "a": ["אֲנִי", "לֹא", "כָּתַבְתִּי", "אֶת", "הַמִּכְתָּב"],
+    "why": "Hebrew has no auxiliary \"did\": לֹא stands in front of the verb and nothing else moves. The object is definite, so אֶת comes before it, as it always does." },
+
+  { "id": "past-paal-07", "type": "mcq",
+    "q": "Why does הוּא כָּתַב keep its pronoun when כָּתַבְתִּי does not need one?",
+    "choices": ["the third person has no personal ending, so nothing in the verb says who", "third person pronouns are never optional in any language", "כָּתַב is a dictionary form and dictionary forms need a subject", "a Hebrew sentence cannot begin with a verb"],
+    "a": 0,
+    "why": "כָּתַב is the bare stem with nothing on the end, so it cannot say whether he, the teacher or the dog did the writing. In the first and second person the ending does that job and the pronoun is free to go." },
+
+  { "id": "past-paal-08", "type": "fill",
+    "q": "Write \"they wrote\", from לִכְתּוֹב.",
+    "a": ["כָּתְבוּ"],
+    "why": "One form covers הֵם and הֵן, and the vowel ending ־וּ pulls the second a out of the stem just as ־ָה does: כָּתְבוּ, not כָּתַבוּ. It also covers \"they were writing\" and \"they had written\": Hebrew has one past tense." },
+
+  { "id": "past-paal-09", "type": "listen",
+    "say": "לָמָּה לֹא כָּתַבְתְּ",
+    "q": "Type what you hear.",
+    "a": ["לָמָּה לֹא כָּתַבְתְּ"],
+    "why": "The verb stops dead on the ת: /katavt/ is said to a woman, /katavta/ to a man. Once the points come off both are כתבת, so the ear is all you have." },
+
+  { "id": "past-paal-10", "type": "say",
+    "q": "Say this out loud: \"you wrote\", to a woman.",
+    "target": "כָּתַבְתְּ",
+    "why": "End on the consonant, /katavt/, with no vowel after the ת. Let the smallest /a/ escape and you have said כָּתַבְתָּ, which addresses a man." },
+
+  { "id": "past-paal-11", "type": "order",
+    "q": "Build the sentence: he wrote and she read",
+    "words": ["הוּא", "כָּתַב", "וְהִיא", "קָרְאָה"],
+    "a": ["הוּא", "כָּתַב", "וְהִיא", "קָרְאָה"],
+    "why": "Both verbs are third person, so both keep their subject. The וְ is glued to the word after it and never stands alone, and קָרְאָה carries the same ־ָה ending as כָּתְבָה." },
+
+  { "id": "past-paal-12", "type": "fill",
+    "q": "Write \"she learned\", from לִלְמוֹד.",
+    "a": ["לָמְדָה"],
+    "why": "The הִיא form and the two plural forms all drop the second a of the stem: לָמַד becomes לָמְדָה, never לָמַדָה, exactly as כָּתַב becomes כָּתְבָה." },
+
+  { "id": "past-paal-13", "type": "mcq",
+    "q": "Why do Hebrew dictionaries list a verb as כָּתַב rather than as לִכְתּוֹב?",
+    "choices": ["it is the third person masculine singular, the bare root in the a-a shape with nothing added", "it is the command form, which is the simplest one", "it is the infinitive with the ל taken off", "it is the present tense masculine singular"],
+    "a": 0,
+    "why": "With no ending on it, that form shows the three root letters most clearly, and the binyan names are built the same way: פָּעַל is פ-ע-ל in that shape and by itself means \"he did\". This course cites לִכְתּוֹב because that is the form you say after רוֹצֶה or צָרִיךְ." },
+
+  { "id": "past-paal-14", "type": "mcq",
+    "q": "The Academy writes כְּתַבְתֶּם for \"you (m pl) wrote\". What will you actually hear on the bus?",
+    "choices": ["katavtem, with the stem vowel restored and the stress pulled back onto the stem", "ktavtem, exactly as the Academy writes it", "the present tense with a time word instead", "the ending dropped and the pronoun אַתֶּם put in front"],
+    "a": 0,
+    "why": "The אַתֶּם and אַתֶּן forms are the only two that open with a shva and stress the ending, and ordinary speech undoes both. Expect to hear that one form used for a room of women too: the ־ְתֶּן ending is quietly disappearing." },
+
+  { "id": "past-paal-15", "type": "open",
+    "q": "Write out all nine past forms of לִסְגּוֹר, \"to close\", each with the pronoun it belongs to.",
+    "a": ["אֲנִי סָגַרְתִּי, אַתָּה סָגַרְתָּ, אַתְּ סָגַרְתְּ, הוּא סָגַר, הִיא סָגְרָה, אֲנַחְנוּ סָגַרְנוּ, אַתֶּם סְגַרְתֶּם, אַתֶּן סְגַרְתֶּן, הֵם וְהֵן סָגְרוּ"],
+    "why": "The nine endings are ־ְתִּי, ־ְתָּ, ־ְתְּ, nothing, ־ָה, ־ְנוּ, ־ְתֶּם, ־ְתֶּן and ־וּ, and they do not change from verb to verb or, as the next chapter shows, from binyan to binyan. Watch the two vowel shifts: הִיא and the plurals lose the second a, אַתֶּם and אַתֶּן lose the first." }
+ ]
+}

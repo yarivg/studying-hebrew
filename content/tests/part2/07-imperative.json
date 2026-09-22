@@ -1,0 +1,88 @@
+{
+  "ch": "imperative",
+  "title": "Commands and requests",
+  "questions": [
+    { "id": "imperative-01", "type": "mcq",
+      "q": "How many forms does the Hebrew imperative have?",
+      "choices": ["two", "three", "four", "six"],
+      "a": 1,
+      "why": "You, feminine you, and plural: כְּתוֹב, כִּתְבִי, כִּתְבוּ. There is no imperative for הוּא or אֲנִי, because you cannot order somebody who is not in the room." },
+
+    { "id": "imperative-02", "type": "mcq",
+      "q": "How is the written imperative built?",
+      "choices": ["by taking the future and dropping its prefix", "by taking the infinitive and dropping its לְ", "by taking the past and adding a ה", "it is a separate form with nothing behind it"],
+      "a": 0,
+      "why": "תִּכְתּוֹב gives כְּתוֹב, תְּדַבְּרִי gives דַּבְּרִי. Nothing changes except the vowels that have to shift once the prefix is gone." },
+
+    { "id": "imperative-03", "type": "mcq",
+      "q": "You want a colleague to write to you. What would an Israeli actually say?",
+      "choices": ["תִּכְתּוֹב לִי", "כְּתוֹב לִי", "לִכְתּוֹב לִי", "אַתָּה כּוֹתֵב לִי"],
+      "a": 0,
+      "why": "The future tense as it stands is the ordinary spoken command. כְּתוֹב לִי is not wrong, it is what an officer says and what a form says, and in a conversation it sounds military or faintly biblical." },
+
+    { "id": "imperative-04", "type": "fill",
+      "q": "Turn the future form תְּדַבְּרִי into the written imperative.",
+      "a": ["דַּבְּרִי"],
+      "why": "The תְּ prefix comes off and the vowels settle: דַּבְּרִי, speak (f). This is pi'el, where the prefix simply disappears; in hif'il and hitpa'el it changes instead of vanishing." },
+
+    { "id": "imperative-05", "type": "fill",
+      "q": "Tell a man to write, the way it is said in speech rather than the way it is printed on a form.",
+      "a": ["תִּכְתּוֹב"],
+      "why": "Future for a command in speech, imperative on a page. The future form is neither more nor less polite than כְּתוֹב; it is simply the normal one." },
+
+    { "id": "imperative-06", "type": "mcq",
+      "q": "How do you tell a man not to come tomorrow?",
+      "choices": ["לֹא תָּבוֹא מָחָר", "אַל תָּבוֹא מָחָר", "אַל בּוֹא מָחָר", "לֹא בּוֹא מָחָר"],
+      "a": 1,
+      "why": "A negative command is אַל plus the future, never לֹא and never אַל plus an imperative. The imperative has no negative of its own at all." },
+
+    { "id": "imperative-07", "type": "fill",
+      "q": "Tell a group not to forget.",
+      "a": ["אַל תִּשְׁכְּחוּ"],
+      "why": "אַל takes the plural future תִּשְׁכְּחוּ. The same shape covers the feminine, אַל תִּדְאֲגִי, and the masculine singular, אַל תִּכְתּוֹב." },
+
+    { "id": "imperative-08", "type": "say",
+      "q": "Say this out loud.",
+      "target": "אַל תִּדְאֲגִי",
+      "why": "\"Don't worry\", to a woman. אַל is stressed lightly and runs straight into the verb: al-tid-a-GI, with the stress at the end as usual." },
+
+    { "id": "imperative-09", "type": "mcq",
+      "q": "What does לֹא תִּכְתּוֹב mean?",
+      "choices": ["don't write", "you will not write", "you are not writing", "you did not write"],
+      "a": 1,
+      "why": "לֹא plus the future is a plain prediction, not an instruction. That is exactly why a command needs אַל: לֹא תִּשְׁכַּח tells somebody what will happen, אַל תִּשְׁכַּח tells them what to do." },
+
+    { "id": "imperative-10", "type": "fill",
+      "q": "Write what a public sign says to forbid smoking, in the impersonal form that begins with the word for \"please\".",
+      "a": ["נָא לֹא לְעַשֵּׁן", "לֹא לְעַשֵּׁן"],
+      "why": "A notice addresses nobody in particular, so it uses the infinitive, usually softened by נָא. This is the one place לֹא does negate an instruction, because no particular person is being told anything." },
+
+    { "id": "imperative-11", "type": "mcq",
+      "q": "The future is תַּסְבִּיר, explain (m). What is the imperative?",
+      "choices": ["סְבִּיר", "תַּסְבֵּר", "הַסְבֵּר", "הִסְבִּיר"],
+      "a": 2,
+      "why": "In hif'il and hitpa'el the prefix changes rather than disappears: תַּסְבִּיר gives הַסְבֵּר, תִּתְלַבֵּשׁ gives הִתְלַבֵּשׁ. הִסְבִּיר is the past tense, \"he explained\"." },
+
+    { "id": "imperative-12", "type": "listen",
+      "say": "אַל תָּבוֹא מָחָר",
+      "q": "Type what you hear.",
+      "a": ["אַל תָּבוֹא מָחָר"],
+      "why": "Hear אַל and you know a command is coming, whatever the verb turns out to be. Swap it for לֹא and the same three words become a forecast about tomorrow." },
+
+    { "id": "imperative-13", "type": "order",
+      "q": "Build the polite request: could I have the bill?",
+      "words": ["אֶפְשָׁר", "לְקַבֵּל", "אֶת", "הַחֶשְׁבּוֹן"],
+      "a": ["אֶפְשָׁר", "לְקַבֵּל", "אֶת", "הַחֶשְׁבּוֹן"],
+      "why": "אֶפְשָׁר plus an infinitive is the workhorse of polite Hebrew: it has no subject, so nobody is being told to do anything. Turning a command into a question is one of the only two softening moves the language uses, the other being בְּבַקָּשָׁה." },
+
+    { "id": "imperative-14", "type": "say",
+      "q": "Say this out loud.",
+      "target": "תֵּשֵׁב בְּבַקָּשָׁה",
+      "why": "The spoken command plus בְּבַקָּשָׁה is as polite as ordinary Hebrew gets, and it is not cold: Hebrew has no phrase doing the work of \"would you mind\", so politeness rides on בְּבַקָּשָׁה, the question form and tone." },
+
+    { "id": "imperative-15", "type": "open",
+      "q": "Hebrew has three ways of telling somebody what to do. Name them, say where each belongs, and give the rule for the negative.",
+      "a": ["One: the written imperative, built by knocking the prefix off the future, כְּתוֹב, כִּתְבִי, כִּתְבוּ, and in hif'il and hitpa'el by changing it, הַסְבֵּר, הִתְלַבֵּשׁ. It belongs to signs, forms, recipes, instructions and app buttons: הַזֵּן סִיסְמָה, בְּחַר קוֹבֶץ. Recognise it, do not produce it. Two: the future tense used as it stands, תִּכְתּוֹב, תֵּשֵׁב, תַּגִּיד, which is the ordinary spoken command and carries no rudeness. Three: the infinitive, usually with נָא, for an impersonal public instruction: נָא לֹא לְעַשֵּׁן. The negative is אַל plus the future, never לֹא: אַל תִּשְׁכַּח. לֹא תִּשְׁכַּח means \"you will not forget\", a prediction. The one exception is the impersonal sign, where לֹא sits in front of an infinitive, לֹא לְהַפְרִיעַ, and nobody in particular is being addressed."],
+      "why": "The split is written against spoken, not polite against rude, and the negative is the place the two systems refuse to mix: there is no negative imperative in use at all, so every \"don't\" goes through אַל plus the future." }
+  ]
+}

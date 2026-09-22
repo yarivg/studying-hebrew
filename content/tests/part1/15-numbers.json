@@ -1,0 +1,88 @@
+{
+ "ch": "numbers",
+ "title": "Numbers 1 to 100",
+ "questions": [
+  { "id": "numbers-01", "type": "mcq",
+    "q": "Which set of numbers do you use to say a bus number, a phone number or to count out loud with no noun at all?",
+    "choices": ["the feminine set", "the masculine set", "either set, it makes no difference", "whichever set matches the speaker's own gender"],
+    "a": 0,
+    "why": "The feminine set is the default: it counts in the abstract and it also agrees with feminine nouns. The masculine set has exactly one job, which is standing in front of a masculine noun." },
+
+  { "id": "numbers-02", "type": "mcq",
+    "q": "How do you say \"three pupils\", about a group of boys (תַּלְמִידִים)?",
+    "choices": ["שְׁלוֹשָׁה תַּלְמִידִים", "שָׁלוֹשׁ תַּלְמִידִים", "שְׁלוֹשִׁים תַּלְמִידִים", "תַּלְמִידִים שְׁלוֹשָׁה"],
+    "a": 0,
+    "why": "The masculine number is the one wearing the ־ָה ending, which looks feminine and is not. שָׁלוֹשׁ is the feminine form, שְׁלוֹשִׁים is thirty, and every number except אֶחָד stands in front of its noun." },
+
+  { "id": "numbers-03", "type": "fill",
+    "q": "Write the number five in the form that goes in front of a masculine noun.",
+    "a": ["חֲמִישָּׁה"],
+    "why": "The bare form חָמֵשׁ is feminine and the one with the ־ָה ending is masculine. Reading the two columns as if the endings behaved like nouns is the mistake that produces חָמֵשׁ שְׁקָלִים." },
+
+  { "id": "numbers-04", "type": "mcq",
+    "q": "Where does אֶחָד stand in relation to the noun it counts?",
+    "choices": ["after the noun", "before the noun", "either side, freely", "at the end of the whole sentence"],
+    "a": 0,
+    "why": "אֶחָד and אַחַת are built like adjectives and still behave like them, so they follow the noun: תַּלְמִיד אֶחָד. Every other number in the language comes before it: שְׁלוֹשָׁה תַּלְמִידִים." },
+
+  { "id": "numbers-05", "type": "order",
+    "q": "Build the phrase: one female pupil",
+    "words": ["תַּלְמִידָה", "אַחַת"],
+    "a": ["תַּלְמִידָה", "אַחַת"],
+    "why": "The number follows the noun here because it is behaving like an adjective, and it takes the feminine form to agree with תַּלְמִידָה. אַחַת תַּלְמִידָה is the word order of English, not of Hebrew." },
+
+  { "id": "numbers-06", "type": "order",
+    "q": "Build the phrase: three female pupils",
+    "words": ["שָׁלוֹשׁ", "תַּלְמִידוֹת"],
+    "a": ["שָׁלוֹשׁ", "תַּלְמִידוֹת"],
+    "why": "From two upwards the number leads, and with a feminine noun it is the bare form שָׁלוֹשׁ. Compare שְׁלוֹשָׁה תַּלְמִידִים: same position, other gender." },
+
+  { "id": "numbers-07", "type": "fill",
+    "q": "How do you say \"two books\", using the plural of סֵפֶר? Write both words.",
+    "a": ["שְׁנֵי סְפָרִים"],
+    "why": "שְׁנַיִים is the counting form and it shortens to שְׁנֵי the moment a noun follows, exactly as שְׁתַּיִים shortens to שְׁתֵּי. No other number in the language changes shape like this, and שְׁנַיִים סְפָרִים gets corrected on the spot." },
+
+  { "id": "numbers-08", "type": "listen",
+    "say": "שְׁתֵּי מַחְבָּרוֹת",
+    "q": "Type what you hear.",
+    "a": ["שְׁתֵּי מַחְבָּרוֹת"],
+    "why": "מַחְבֶּרֶת is feminine, so the number is the feminine two, and because a noun follows it, the counting form שְׁתַּיִים has shortened to שְׁתֵּי." },
+
+  { "id": "numbers-09", "type": "mcq",
+    "q": "How do you say \"fifteen notebooks\"?",
+    "choices": ["חֲמֵשׁ עֶשְׂרֵה מַחְבָּרוֹת", "חֲמִישָּׁה עָשָׂר מַחְבָּרוֹת", "מַחְבָּרוֹת חֲמֵשׁ עֶשְׂרֵה", "חֲמִישִּׁים מַחְבָּרוֹת"],
+    "a": 0,
+    "why": "A teen is the unit followed by the word for ten, and the ten-word is fixed per gender: עֶשְׂרֵה with a feminine noun, עָשָׂר with a masculine one. מַחְבֶּרֶת is feminine, and חֲמִישִּׁים would be fifty." },
+
+  { "id": "numbers-10", "type": "fill",
+    "q": "Write the Hebrew for the number thirty.",
+    "a": ["שְׁלוֹשִׁים"],
+    "why": "From twenty up the tens are the plural ending ־ִים stuck on the number, and there is only one form for both genders. The gender problem disappears entirely above nineteen, except on the unit that follows." },
+
+  { "id": "numbers-11", "type": "mcq",
+    "q": "How do you say \"twenty-one\" in front of a masculine noun?",
+    "choices": ["עֶשְׂרִים וְאֶחָד", "עֶשְׂרִים וְאַחַת", "אֶחָד וְעֶשְׂרִים", "עֶשְׂרִים אֶחָד"],
+    "a": 0,
+    "why": "The ten comes first, then וְ, then the unit, and the unit is the only part that still picks a gender. עֶשְׂרִים וְאַחַת is the same number when counting or with a feminine noun." },
+
+  { "id": "numbers-12", "type": "fill",
+    "q": "Write the Hebrew word for a hundred.",
+    "a": ["מֵאָה"],
+    "why": "מֵאָה ends the range this chapter covers and behaves like a noun rather than like the tens: it is not built from a unit plus an ending the way שְׁלוֹשִׁים is." },
+
+  { "id": "numbers-13", "type": "say",
+    "q": "Say \"three pupils\", about a group of boys.",
+    "target": "שְׁלוֹשָׁה תַּלְמִידִים",
+    "why": "Say it as one phrase, stressing shlo-SHA and tal-mi-DIM on the last syllable of each. Getting the masculine number out of your mouth at speed is the point: in fast speech Israelis often reach for שָׁלוֹשׁ here, and it is still counted as careless." },
+
+  { "id": "numbers-14", "type": "say",
+    "q": "Say \"bus number four\".",
+    "target": "אוֹטוֹבּוּס אַרְבַּע",
+    "why": "The number is feminine even though אוֹטוֹבּוּס is masculine, because nothing is being counted: the number is a label, not a quantity. That is the same reason phone numbers and arithmetic use the feminine set." },
+
+  { "id": "numbers-15", "type": "open",
+    "q": "Hebrew has two complete sets of numbers from one to ten. Say which set is the default and why, and name the one number that behaves unlike all the others.",
+    "a": ["The feminine set is the default: it is used for counting in the abstract (bus numbers, phone numbers, arithmetic, counting to ten) and it also agrees with feminine nouns, so it does two jobs while the masculine set does one. אֶחָד and אַחַת break the pattern by following the noun instead of preceding it, because they behave like adjectives."],
+    "why": "The confusing part is that the masculine set is the one carrying the ־ָה ending, which chapter 9 taught as a feminine marker. There is no explanation for it, so the two columns have to be learned as shapes rather than reasoned out." }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "ch": "present-paal",
+ "title": "Present tense: pa'al",
+ "questions": [
+  { "id": "present-paal-01", "type": "mcq",
+    "q": "How many forms does a Hebrew verb have in the present tense?",
+    "choices": ["four", "six", "three", "twelve"],
+    "a": 0,
+    "why": "The present marks gender and number only: masculine and feminine, singular and plural. It marks the person not at all, so אֲנִי כּוֹתֵב, אַתָּה כּוֹתֵב and הוּא כּוֹתֵב are one identical word." },
+
+  { "id": "present-paal-02", "type": "mcq",
+    "q": "What is the feminine singular of כּוֹתֵב?",
+    "choices": ["כּוֹתֶבֶת", "כּוֹתְבָה", "כּוֹתְבִים", "כּוֹתְבוֹת"],
+    "a": 0,
+    "why": "Beginners reach for ־ָה because that is what feminine nouns and adjectives do, and for pa'al sound verbs it is simply wrong. The ending is ־ֶת, with the vowel inside shifting to segol; כּוֹתְבִים and כּוֹתְבוֹת are the two plurals." },
+
+  { "id": "present-paal-03", "type": "mcq",
+    "q": "Why is כּוֹתֵב on its own not a sentence?",
+    "choices": ["the present tense has no person, so the pronoun is compulsory", "it is missing the definite article", "a verb cannot start a Hebrew sentence", "it needs an object after it"],
+    "a": 0,
+    "why": "Because one word covers I, you and he, the verb cannot tell you who is doing the writing, so the pronoun has to. In the past tense, in Part II, the verb does carry the person and the pronoun can be dropped; in the present it never can." },
+
+  { "id": "present-paal-04", "type": "mcq",
+    "q": "A root whose three letters all stay put through the conjugation pours into which vowel frame in the present tense?",
+    "choices": ["o then e: kotev, lomed, shomer", "a then a: katav, lamad, shamar", "e then o: ketov, lemod", "i then a: kitev, limed"],
+    "a": 0,
+    "why": "First root letter takes cholam, second takes tzere. Once you can hear the o-e shape you will recognise a pa'al present verb inside a sentence you otherwise cannot read." },
+
+  { "id": "present-paal-05", "type": "fill",
+    "q": "Write the feminine singular present of לִלְמוֹד, \"to study\".",
+    "a": ["לוֹמֶדֶת"],
+    "why": "Throw away the לִ and the vowels, keep the three consonants, pour them into the o-e frame, then add the feminine ־ֶת. The same four steps build the feminine of any sound root." },
+
+  { "id": "present-paal-06", "type": "fill",
+    "q": "Write the masculine plural present of לִשְׁמוֹר, \"to guard\".",
+    "a": ["שׁוֹמְרִים"],
+    "why": "The plurals push the tzere out entirely and take the ordinary noun endings ־ִים and ־וֹת. That is why the middle of the word thins out: שׁוֹמֵר has a vowel there and שׁוֹמְרִים does not." },
+
+  { "id": "present-paal-07", "type": "fill",
+    "q": "Write the feminine plural present of לִסְגּוֹר, \"to close\".",
+    "a": ["סוֹגְרוֹת"],
+    "why": "One frame, any root: ס-ג-ר gives סוֹגֵר, סוֹגֶרֶת, סוֹגְרִים, סוֹגְרוֹת. Learning the pattern rather than the word is what turns four roots into sixteen forms." },
+
+  { "id": "present-paal-08", "type": "order",
+    "q": "Build the sentence: she is writing a letter",
+    "words": ["הִיא", "כּוֹתֶבֶת", "מִכְתָּב"],
+    "a": ["הִיא", "כּוֹתֶבֶת", "מִכְתָּב"],
+    "why": "One Hebrew form covers both \"she writes\" and \"she is writing\": there is no separate continuous tense and no helper verb to build one with. The object is indefinite, so nothing stands in front of it." },
+
+  { "id": "present-paal-09", "type": "order",
+    "q": "Build the sentence: we are closing the door",
+    "words": ["אֲנַחְנוּ", "סוֹגְרִים", "אֶת", "הַדֶּלֶת"],
+    "a": ["אֲנַחְנוּ", "סוֹגְרִים", "אֶת", "הַדֶּלֶת"],
+    "why": "Subject, verb, object, and the object is definite so אֶת appears in front of it, exactly as chapter 18 said it would. This is the first chapter where that frame has a verb to sit in." },
+
+  { "id": "present-paal-10", "type": "mcq",
+    "q": "What is the root of בּוֹדְקִים?",
+    "choices": ["ב-ד-ק", "ב-ו-ד-ק", "ב-ד-ק-ם", "ב-ק-ד"],
+    "a": 0,
+    "why": "The cholam and the ending are the pattern, not the root: strip everything the frame contributed and three consonants are left. The ו you can see is the cholam written in full spelling, not a fourth root letter." },
+
+  { "id": "present-paal-11", "type": "fill",
+    "q": "Write the dictionary form, the infinitive, of the verb שׁוֹמֵר.",
+    "a": ["לִשְׁמוֹר"],
+    "why": "Hebrew verbs are listed by the infinitive, which always begins with ל. It is not what you build the present from, though: the present comes from the root poured into the o-e frame." },
+
+  { "id": "present-paal-12", "type": "mcq",
+    "q": "Besides \"guards\", what else can the word שׁוֹמֵר mean?",
+    "choices": ["a guard, the person who does it", "a guarded thing", "the act of guarding", "to guard"],
+    "a": 0,
+    "why": "A present-tense verb doubles as the noun for the person who does the action, with no ending added and no vowel changed: מוֹכֵר sells and is a seller, שׁוֹפֵט judges and is a judge. Context decides, and usually it is obvious." },
+
+  { "id": "present-paal-13", "type": "listen",
+    "say": "הִיא לוֹמֶדֶת עִבְרִית",
+    "q": "Type what you hear.",
+    "a": ["הִיא לוֹמֶדֶת עִבְרִית"],
+    "why": "The feminine ending is the audible part: lo-ME-det, three syllables, against lo-MED for a man. If you hear a /t/ at the end, the subject is a woman." },
+
+  { "id": "present-paal-14", "type": "say",
+    "q": "Say \"we are closing the door\", as a group of men.",
+    "target": "אֲנַחְנוּ סוֹגְרִים אֶת הַדֶּלֶת",
+    "why": "The pronoun cannot be dropped, and אֶת הַ runs together into one chunk. Stress so-g'RIM on the last syllable: the vowel that disappeared in the middle really is gone in speech too." },
+
+  { "id": "present-paal-15", "type": "open",
+    "q": "Give the four present-tense forms of לִלְמוֹד and say what each one is for.",
+    "a": ["לוֹמֵד for a masculine singular subject, לוֹמֶדֶת for a feminine singular one, לוֹמְדִים for a masculine plural (or mixed) group and לוֹמְדוֹת for a group of women. None of the four tells you the person, so אֲנִי, אַתָּה and הוּא all take לוֹמֵד and the pronoun is what distinguishes them."],
+    "why": "Four forms and no person is the whole of the present tense. Everything left to learn about it is which family the root belongs to, which is the next chapter." }
+ ]
+}

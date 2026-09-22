@@ -1,0 +1,93 @@
+{
+  "ch": "contrast-clauses",
+  "title": "Contrast and concession",
+  "questions": [
+    { "id": "contrast-clauses-01", "type": "mcq",
+      "q": "Which word is the ordinary \"but\", joining two statements that both stand?",
+      "choices": ["אֲבָל", "אֶלָּא", "לַמְרוֹת", "בְּעוֹד שֶׁ"],
+      "a": 0,
+      "why": "אֲבָל concedes: both halves are true and merely pull against each other, as in הַמִּסְעָדָה יְקָרָה אֲבָל הָאוֹכֶל מְצוּיָן. אֶלָּא does something else entirely, and לַמְרוֹת is a preposition, not a conjunction." },
+
+    { "id": "contrast-clauses-02", "type": "mcq",
+      "q": "What has to appear in the first half of the sentence before אֶלָּא is allowed at all?",
+      "choices": ["a negative, לֹא or אֵין", "a past tense verb", "the word שֶׁ", "a definite noun"],
+      "a": 0,
+      "why": "אֶלָּא supplies the true version of something just denied, so there has to be a denial. רָצִיתִי לָלֶכֶת אֶלָּא לֹא הָיָה זְמַן is not a sentence at all: no לֹא, no אֶלָּא." },
+
+    { "id": "contrast-clauses-03", "type": "order",
+      "q": "Build the sentence: despite the rain we went out for a walk",
+      "words": ["לַמְרוֹת", "הַגֶּשֶׁם", "יָצָאנוּ", "לְטִיּוּל"],
+      "a": ["לַמְרוֹת", "הַגֶּשֶׁם", "יָצָאנוּ", "לְטִיּוּל"],
+      "why": "לַמְרוֹת is a preposition, so it takes a bare noun with no שֶׁ after it. Learners often read it as a verb and try to conjugate it; it never changes." },
+
+    { "id": "contrast-clauses-04", "type": "say",
+      "q": "Say this out loud.",
+      "target": "הוּא לֹא מוֹרֶה אֶלָּא רוֹפֵא",
+      "why": "A straight replacement: doctor takes the place of teacher, which the first half denied. Say אֶלָּא as /ela/, with the stress on the last syllable." },
+
+    { "id": "contrast-clauses-05", "type": "mcq",
+      "q": "Which word fills the gap: לֹא רָצִיתִי לָלֶכֶת ___ הָלַכְתִּי (\"I did not want to go but I went\")?",
+      "choices": ["אֲבָל", "אֶלָּא", "אֶלָּא שֶׁ", "לַמְרוֹת"],
+      "a": 0,
+      "why": "The negative in front is not enough on its own. Going is not a correction of not wanting to go: both things happened, so this concedes, and a concession is אֲבָל. Compare לֹא רָצִיתִי לָלֶכֶת אֶלָּא לְהִישָּׁאֵר, where staying replaces going." },
+
+    { "id": "contrast-clauses-06", "type": "fill",
+      "q": "Fill the gap with one word: הוּא לֹא מוֹרֶה ___ רוֹפֵא (\"he is not a teacher but a doctor\").",
+      "pre": "הוּא לֹא מוֹרֶה",
+      "post": "רוֹפֵא",
+      "a": ["אֶלָּא"],
+      "why": "The second half hands you the true version of what the first half denied, which is exactly what אֶלָּא is for. With אֲבָל the sentence would claim he is a doctor as well as not being a teacher, which is not what it says." },
+
+    { "id": "contrast-clauses-07", "type": "listen",
+      "say": "לַמְרוֹת הַגֶּשֶׁם יָצָאנוּ",
+      "q": "Type what you hear.",
+      "a": ["לַמְרוֹת הַגֶּשֶׁם יָצָאנוּ"],
+      "why": "לַמְרוֹת /lamrot/ runs straight into its noun with nothing between them. Hearing a definite noun and no שֶׁ is the clue that this is the preposition and not לַמְרוֹת שֶׁ." },
+
+    { "id": "contrast-clauses-08", "type": "mcq",
+      "q": "Which is correct for \"although it was raining, we went out for a walk\"?",
+      "choices": ["לַמְרוֹת שֶׁיָּרַד גֶּשֶׁם יָצָאנוּ לְטִיּוּל", "לַמְרוֹת יָרַד גֶּשֶׁם יָצָאנוּ לְטִיּוּל", "לַמְרוֹת הַגֶּשֶׁם שֶׁיָּרַד יָצָאנוּ לְטִיּוּל", "אֲבָל יָרַד גֶּשֶׁם יָצָאנוּ לְטִיּוּל"],
+      "a": 0,
+      "why": "A whole clause with a verb in it needs שֶׁ glued on: לַמְרוֹת שֶׁ. Bare לַמְרוֹת can only be followed by a noun, as in לַמְרוֹת הַגֶּשֶׁם. Unlike בִּגְלַל שֶׁ, לַמְרוֹת שֶׁ is fully accepted at every register." },
+
+    { "id": "contrast-clauses-09", "type": "fill",
+      "q": "Write \"although he is young\" using אַף עַל פִּי, the careful written connector.",
+      "a": ["אַף עַל פִּי שֶׁהוּא צָעִיר"],
+      "why": "אַף עַל פִּי takes a clause, so it too needs שֶׁ. In unpointed text it is regularly abbreviated to אעפ״י, which is worth recognising on the page." },
+
+    { "id": "contrast-clauses-10", "type": "order",
+      "q": "Build the sentence: I did not want to go but to stay",
+      "words": ["לֹא", "רָצִיתִי", "לָלֶכֶת", "אֶלָּא", "לְהִישָּׁאֵר"],
+      "a": ["לֹא", "רָצִיתִי", "לָלֶכֶת", "אֶלָּא", "לְהִישָּׁאֵר"],
+      "why": "אֶלָּא swaps one infinitive for the other: לְהִישָּׁאֵר takes the place of לָלֶכֶת. That substitution is the test, and English hides it by using \"but\" for this and for אֲבָל alike." },
+
+    { "id": "contrast-clauses-11", "type": "mcq",
+      "q": "How do you say \"he not only speaks Hebrew but also writes it\"?",
+      "choices": ["הוּא לֹא רַק מְדַבֵּר עִבְרִית אֶלָּא גַּם כּוֹתֵב", "הוּא לֹא רַק מְדַבֵּר עִבְרִית אֲבָל גַּם כּוֹתֵב", "הוּא רַק מְדַבֵּר עִבְרִית אֶלָּא גַּם כּוֹתֵב", "הוּא לֹא רַק מְדַבֵּר עִבְרִית לַמְרוֹת שֶׁכּוֹתֵב"],
+      "a": 0,
+      "why": "לֹא רַק ... אֶלָּא גַּם is the same logic frozen into a frame: the לֹא רַק is the negative that licenses אֶלָּא. Swapping in אֲבָל breaks the frame, and dropping the לֹא leaves אֶלָּא with nothing to correct." },
+
+    { "id": "contrast-clauses-12", "type": "say",
+      "q": "Say this out loud.",
+      "target": "וּבְכָל זֹאת יָצָאנוּ",
+      "why": "When the concession has already been stated in its own sentence, the turn is carried by an adverb: וּבְכָל זֹאת, or וְאַף עַל פִּי כֵן in more careful speech. It opens the second sentence rather than joining two clauses." },
+
+    { "id": "contrast-clauses-13", "type": "fill",
+      "q": "Complete the pair: מִצַּד אֶחָד זֶה זוֹל, ___ זֶה רָחוֹק (\"on the one hand it is cheap, on the other hand it is far\").",
+      "pre": "מִצַּד אֶחָד זֶה זוֹל",
+      "post": "זֶה רָחוֹק",
+      "a": ["מִצַּד שֵׁנִי"],
+      "why": "This group concedes nothing: it holds two facts up side by side for comparison. מִצַּד אֶחָד opens the frame and מִצַּד שֵׁנִי closes it, the way בְּעוֹד שֶׁ and לְעוּמַת זֹאת do elsewhere." },
+
+    { "id": "contrast-clauses-14", "type": "mcq",
+      "q": "Which connector opens a whole sentence and means \"by contrast\"?",
+      "choices": ["לְעוּמַת זֹאת", "לְעוּמַת", "בְּעוֹד שֶׁ", "אֶלָּא שֶׁ"],
+      "a": 0,
+      "why": "לְעוּמַת on its own is a preposition needing a noun, הַמְּחִירִים כָּאן גְּבוֹהִים לְעוּמַת שְׁאָר הָאֵזוֹר; לְעוּמַת זֹאת is the sentence adverb built on it. בְּעוֹד שֶׁ joins a clause, and אֶלָּא שֶׁ is \"except that\"." },
+
+    { "id": "contrast-clauses-15", "type": "open",
+      "q": "State the rule that decides between אֲבָל and אֶלָּא, and explain why לֹא רָצִיתִי לָלֶכֶת אֲבָל הָלַכְתִּי keeps אֲבָל even though it has a negative in it.",
+      "a": ["אֶלָּא corrects, אֲבָל concedes. If the second half supplies the true version of what the first half denied, it is אֶלָּא, and it can only stand after a לֹא or an אֵין. If both halves are true and merely pull against each other, it is אֲבָל, negative or no negative. In לֹא רָצִיתִי לָלֶכֶת אֲבָל הָלַכְתִּי nothing is being replaced: not wanting to go and going both happened, so the negative is irrelevant. In לֹא רָצִיתִי לָלֶכֶת אֶלָּא לְהִישָּׁאֵר, לְהִישָּׁאֵר takes the place of לָלֶכֶת, and that substitution is the whole test."],
+      "why": "A negative in front of the gap is a necessary condition for אֶלָּא, never a sufficient one. The question to ask is whether the second half replaces something or merely pushes against it." }
+  ]
+}

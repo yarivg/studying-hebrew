@@ -1,0 +1,109 @@
+{
+  "id": "a2-01-sof-shavua",
+  "title": "סוֹף הַשָּׁבוּעַ שֶׁל שָׂרָה",
+  "level": "A2",
+  "blurb": "A quiet Friday that does not stay quiet: the past tense in pa'al and in the other binyanim, הָיָה, the relative שֶׁ and the direction ־ָה.",
+  "grammar": [
+    "past-paal",
+    "past-other-binyanim",
+    "haya",
+    "relative-she",
+    "direction-hey"
+  ],
+  "text": "בְּיוֹם שִׁישִּׁי בַּבּוֹקֶר שָׂרָה קָמָה מְאוּחָר מְאוֹד.\nקוֹדֶם כֹּל הִיא שָׁתְתָה קָפֶה לְיַד הַחַלּוֹן.\nהַבַּיִת הָיָה שָׁקֵט.\nאַחַר כָּךְ הִיא קָרְאָה בְּסֵפֶר בְּמֶשֶׁךְ שְׁעָתַיִים.\nהִיא לֹא עָשְׂתָה שׁוּם דָּבָר אַחֵר, וְהִיא מְאוֹד אָהֲבָה אֶת זֶה.\n\nבַּצָּהֳרַיִים הַטֶּלֶפוֹן שֶׁלָּהּ צִלְצֵל.\n“אֲנִי בְּתַחֲנַת הָרַכֶּבֶת”, אָמַר הָאָח שֶׁלָּהּ.\n“אַתְּ בָּאָה לָקַחַת אוֹתִי?”\nשָׂרָה לֹא עָנְתָה מִיָּד.\nהִיא הִסְתַּכְּלָה עַל הַסֵּפֶר וְסָגְרָה אוֹתוֹ.\nאַחַר כָּךְ הִיא לָבְשָׁה מְעִיל וְיָצְאָה.\n\nהֵם הָלְכוּ בָּרֶגֶל עַד הַגַּן הַגָּדוֹל.\nאַחֲרֵי זֶה הֵם אָכְלוּ פִּיצָה וְדִיבְּרוּ כָּל אַחַר הַצָּהֳרַיִים.\nבָּעֶרֶב הֵם הָלְכוּ לַקּוֹלְנוֹעַ.\nשָׂרָה חָזְרָה הַבַּיְתָה בְּאַחַת עֶשְׂרֵה בַּלַּיְלָה וְהָלְכָה לִישׁוֹן מִיָּד.\n\nלְבַסּוֹף הִיא לֹא גָּמְרָה אֶת הַסֵּפֶר שֶׁהִיא הִתְחִילָה בַּבּוֹקֶר.\nאֲבָל בְּשַׁבָּת הִיא סִיפְּרָה עַל הַיּוֹם הַזֶּה לְכוּלָּם, פַּעֲמַיִים.\nאֶת הַסֵּפֶר הִיא כְּבָר שָׁכְחָה.",
+  "gloss": {
+    "שָׁקֵט": "quiet",
+    "צִלְצֵל": "rang",
+    "הִסְתַּכְּלָה": "looked at",
+    "בָּרֶגֶל": "on foot",
+    "קוֹלְנוֹעַ": "cinema",
+    "פַּעֲמַיִים": "twice"
+  },
+  "aloud": [
+    "קוֹדֶם כֹּל הִיא שָׁתְתָה קָפֶה לְיַד הַחַלּוֹן.",
+    "אַחַר כָּךְ הִיא לָבְשָׁה מְעִיל וְיָצְאָה."
+  ],
+  "questions": [
+    {
+      "id": "a2-01-01",
+      "type": "mcq",
+      "q": "מָה שָׂרָה עָשְׂתָה קוֹדֶם כֹּל בַּבּוֹקֶר?",
+      "choices": [
+        "קָרְאָה בְּסֵפֶר",
+        "שָׁתְתָה קָפֶה",
+        "הִתְקַשְּׁרָה לָאָח שֶׁלָּהּ",
+        "הָלְכָה לַתַּחֲנָה"
+      ],
+      "a": 1,
+      "why": "קוֹדֶם כֹּל marks it: coffee first, the book second (אַחַר כָּךְ). The order words, not the verbs, are what carry the sequence in a Hebrew narrative."
+    },
+    {
+      "id": "a2-01-02",
+      "type": "mcq",
+      "q": "לָמָּה שָׂרָה יָצְאָה מֵהַבַּיִת?",
+      "choices": [
+        "כְּדֵי לָלֶכֶת לַקּוֹלְנוֹעַ",
+        "כְּדֵי לִקְנוֹת פִּיצָה",
+        "כִּי הָאָח שֶׁלָּהּ הִגִּיעַ לְתַחֲנַת הָרַכֶּבֶת",
+        "כִּי הִיא גָּמְרָה אֶת הַסֵּפֶר"
+      ],
+      "a": 2,
+      "why": "The phone call is the turn of the story. Everything after it happens because a brother turned up unannounced, and the cinema and the pizza are consequences, not reasons."
+    },
+    {
+      "id": "a2-01-03",
+      "type": "fill",
+      "q": "שָׂרָה ___ קָפֶה לְיַד הַחַלּוֹן. (לִשְׁתּוֹת)",
+      "a": [
+        "שָׁתְתָה",
+        "שתתה"
+      ],
+      "why": "לִשְׁתּוֹת is a ל\"ה root: the final ה drops out in the past and the third person feminine ending ־ָה attaches straight to the stem, giving שָׁתְתָה with two tavs. Compare קָרְאָה, where the root ends in א and nothing drops."
+    },
+    {
+      "id": "a2-01-04",
+      "type": "fill",
+      "q": "הֵם ___ פִּיצָה בַּגַּן. (לֶאֱכוֹל)",
+      "a": [
+        "אָכְלוּ",
+        "אכלו"
+      ],
+      "why": "Third person plural in the past is one ending, ־וּ, for all three genders and both of them: הֵם אָכְלוּ, הֵן אָכְלוּ. Hebrew drops the pronoun far more often than it keeps it here."
+    },
+    {
+      "id": "a2-01-05",
+      "type": "mcq",
+      "q": "אֵיזוֹ צוּרָה נְכוֹנָה?",
+      "choices": [
+        "שָׂרָה חָזְרָה הַבַּיְתָה.",
+        "שָׂרָה חָזְרָה לַהַבַּיְתָה.",
+        "שָׂרָה חָזְרָה אֶת הַבַּיִת.",
+        "שָׂרָה חָזְרָה בַּבַּיְתָה."
+      ],
+      "a": 0,
+      "why": "The direction ending ־ָה already means *to*, so it never takes a preposition as well: הַבַּיְתָה, הָעִירָה, שָׁמָה. Adding לְ or בְּ in front of it is the standard mistake."
+    },
+    {
+      "id": "a2-01-06",
+      "type": "mcq",
+      "q": "בַּמִּשְׁפָּט הַסֵּפֶר שֶׁהִיא הִתְחִילָה בַּבּוֹקֶר, מָה הַתַּפְקִיד שֶׁל שֶׁ?",
+      "choices": [
+        "הִיא שׁוֹאֶלֶת שְׁאֵלָה",
+        "הִיא מְחַבֶּרֶת מִשְׁפָּט שָׁלֵם לְשֵׁם עֶצֶם",
+        "הִיא מְסַמֶּנֶת עָבָר",
+        "הִיא שְׁלִילָה"
+      ],
+      "a": 1,
+      "why": "שֶׁ glues a whole clause onto a noun, the way English *that* or *which* does. Unlike English it can never be left out: הַסֵּפֶר הִיא הִתְחִילָה is not Hebrew."
+    },
+    {
+      "id": "a2-01-07",
+      "type": "open",
+      "q": "סַפְּרוּ עַל סוֹף הַשָּׁבוּעַ הָאַחֲרוֹן שֶׁלָּכֶם בַּחֲמִישָּׁה מִשְׁפָּטִים בֶּעָבָר, עִם שָׁלוֹשׁ מִילּוֹת סֵדֶר לְפָחוֹת.",
+      "a": [
+        "קוֹדֶם כֹּל קַמְתִּי מְאוּחָר. אַחַר כָּךְ שָׁתִיתִי קָפֶה וְקָרָאתִי עִיתּוֹן. אַחֲרֵי זֶה יָצָאתִי עִם חָבֵר. בָּעֶרֶב אָכַלְנוּ בְּמִסְעָדָה. לְבַסּוֹף חָזַרְתִּי הַבַּיְתָה מְאוּחָר מְאוֹד."
+      ],
+      "why": "The past endings and the ordering words have to be practised together: without קוֹדֶם כֹּל, אַחַר כָּךְ and לְבַסּוֹף the result reads as a list of events rather than as a story."
+    }
+  ]
+}

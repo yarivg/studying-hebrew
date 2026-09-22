@@ -1,0 +1,88 @@
+{
+  "ch": "adjectives-from-nouns",
+  "title": "Making adjectives out of nouns",
+  "questions": [
+    { "id": "adjectives-from-nouns-01", "type": "mcq",
+      "q": "Which ending turns a noun into an adjective meaning \"of that thing, to do with that thing\"?",
+      "choices": ["ִי", "וּת", "ָה", "ִים"],
+      "a": 0,
+      "why": "A single yod, the יַחַס or nisba ending, is the most productive suffix in modern Hebrew: יִשְׂרָאֵל gives יִשְׂרְאֵלִי. וּת goes the other way and builds an abstract noun." },
+
+    { "id": "adjectives-from-nouns-02", "type": "fill",
+      "q": "Make an adjective out of יִשְׂרָאֵל meaning \"Israeli\".",
+      "a": ["יִשְׂרְאֵלִי"],
+      "why": "Add the yod and the stem vowels reduce on the way, exactly as they do in smikhut: יִשְׂרָאֵל becomes יִשְׂרְאֵ־ before the ending lands." },
+
+    { "id": "adjectives-from-nouns-03", "type": "fill",
+      "q": "Make an adjective out of חוֹרֶף meaning \"wintry\".",
+      "a": ["חוֹרְפִּי"],
+      "why": "The same reduction: the segol under the ר drops to a shva, and the פ, now starting a syllable after a silent shva, takes back its dagesh. אָבִיב gives אֲבִיבִי the same way." },
+
+    { "id": "adjectives-from-nouns-04", "type": "mcq",
+      "q": "What is the feminine singular of יִשְׂרְאֵלִי?",
+      "choices": ["יִשְׂרְאֵלִית", "יִשְׂרְאֵלִיָּה", "יִשְׂרְאֵלָה", "יִשְׂרְאֵלִיּוֹת"],
+      "a": 0,
+      "why": "A relation adjective inflects like any other adjective, in four forms: יִשְׂרְאֵלִי, יִשְׂרְאֵלִית, יִשְׂרְאֵלִים, יִשְׂרְאֵלִיּוֹת. The feminine singular adds ת, not ָה, and יִשְׂרְאֵלִיּוֹת is the plural of it." },
+
+    { "id": "adjectives-from-nouns-05", "type": "listen",
+      "say": "סְטוּדֶנְטִים יִשְׂרְאֵלִים",
+      "q": "Type what you hear.",
+      "a": ["סְטוּדֶנְטִים יִשְׂרְאֵלִים"],
+      "why": "The adjective follows its noun and agrees with it in gender, number and definiteness like any other. In careful writing a thing rather than a person takes two yods, מוּצָרִים יִשְׂרְאֵלִיִּים, but people stay יִשְׂרְאֵלִים." },
+
+    { "id": "adjectives-from-nouns-06", "type": "order",
+      "q": "Build the phrase: Israeli families",
+      "words": ["מִשְׁפָּחוֹת", "יִשְׂרְאֵלִיּוֹת"],
+      "a": ["מִשְׁפָּחוֹת", "יִשְׂרְאֵלִיּוֹת"],
+      "why": "Feminine plural on both words, and the adjective comes second, as always in Hebrew. The יּוֹת ending is the ordinary feminine plural stacked on the yod of the relation ending." },
+
+    { "id": "adjectives-from-nouns-07", "type": "fill",
+      "q": "Make an adjective out of מִשְׁפָּחָה meaning \"family, familial\".",
+      "a": ["מִשְׁפַּחְתִּי"],
+      "why": "A noun whose feminine ending is ָה drops it and brings back the older ת before the yod. שָׁנָה gives שְׁנָתִי and חֶבְרָה gives חֶבְרָתִי by the same route." },
+
+    { "id": "adjectives-from-nouns-08", "type": "mcq",
+      "q": "Which is the adjective built from שָׁנָה, meaning \"annual\"?",
+      "choices": ["שְׁנָתִי", "שָׁנִי", "שָׁנָהִי", "שְׁנָתִית"],
+      "a": 0,
+      "why": "The ָה gives way to the old ת and the first vowel reduces: שְׁנָתִי. שְׁנָתִית exists, but it is the feminine form of it, not the dictionary form." },
+
+    { "id": "adjectives-from-nouns-09", "type": "say",
+      "q": "Say this out loud.",
+      "target": "חֶבְרָה יִשְׂרְאֵלִית",
+      "why": "The stress on a relation adjective sits on the ending: khev-RA yis-re-e-LIT. The same word doubles as a noun, so הִיא יִשְׂרְאֵלִית is both \"she is Israeli\" and \"she is an Israeli\"." },
+
+    { "id": "adjectives-from-nouns-10", "type": "fill",
+      "q": "Which noun does the adjective עִירוֹנִי, \"urban\", come from?",
+      "a": ["עִיר"],
+      "why": "Running the ending backwards is how you guess a new word's meaning. עִירוֹנִי shows the extended form וֹנִי, as does רִאשׁוֹנִי; ָנִי is the other extension, as in רוּחָנִי and עַצְבָּנִי." },
+
+    { "id": "adjectives-from-nouns-11", "type": "mcq",
+      "q": "Which noun does the adjective כַּלְכָּלִי, \"economic\", come from?",
+      "choices": ["כַּלְכָּלָה", "כְּלָל", "מֶרְכָּז", "עִיר"],
+      "a": 0,
+      "why": "כַּלְכָּלָה, economy, loses its ָה and takes the yod. כְּלָל is a different noun and gives כְּלָלִי, general, which is a word learners regularly confuse with this one." },
+
+    { "id": "adjectives-from-nouns-12", "type": "fill",
+      "q": "Build the abstract noun from יֶלֶד that means \"childhood\".",
+      "a": ["יַלְדוּת"],
+      "why": "וּת makes a noun of quality out of almost anything: סַבְלָן gives סַבְלָנוּת, עַצְמָאִי gives עַצְמָאוּת, אַחֲרַאי gives אַחְרָיוּת. Some, like חֵירוּת, have no modern noun left beside them." },
+
+    { "id": "adjectives-from-nouns-13", "type": "mcq",
+      "q": "אֱנוֹשׁ gives אֱנוֹשִׁי, human. What is the abstract noun built on top of that, \"humanity\"?",
+      "choices": ["אֱנוֹשִׁיּוּת", "אֱנוֹשׁוּת", "אֱנוֹשִׁית", "אֱנוֹשִׁים"],
+      "a": 0,
+      "why": "The two endings stack: ִי makes the adjective and וּת is then added to the whole adjective, yod and all, which is where the doubled yod comes from. מִקְצוֹעִי gives מִקְצוֹעִיּוּת the same way." },
+
+    { "id": "adjectives-from-nouns-14", "type": "mcq",
+      "q": "How do you say \"a history book\" in Hebrew?",
+      "choices": ["סֵפֶר הִיסְטוֹרְיָה", "סֵפֶר הִיסְטוֹרִי", "הַסֵּפֶר הַהִיסְטוֹרִי", "הִיסְטוֹרְיָה סֵפֶר"],
+      "a": 0,
+      "why": "English piles noun in front of noun; Hebrew answers with smikhut. סֵפֶר הִיסְטוֹרִי would mean a book that is itself historic, and the relation ending is only right when the meaning really is \"having the character of\". A coffee cup is סֵפֶל קָפֶה for the same reason." },
+
+    { "id": "adjectives-from-nouns-15", "type": "open",
+      "q": "What shape is עָצוּב, what else is built on it, and why is that shape not really a separate adjective pattern at all?",
+      "a": ["It is the .ָ.וּ. shape: עָצוּב, שָׁמוּר, סָגוּר, בָּרוּר. It is not a pattern of its own, because it is the passive participle of pa'al, the form pa'al keeps for itself. סָגוּר is literally \"having been closed\", and the same thing happens in the other binyanim, whose present participles do adjective duty directly: מְעַנְיֵין, מְסוּדָּר, מַתְאִים."],
+      "why": "Three more shapes cover most of the remaining adjectives, .ָ.ִי. as in עָשִׁיר and צָעִיר, .ָ.וֹ. as in גָּדוֹל and עָמוֹק, and .ָ.ָ. as in חָכָם and חָדָשׁ. Recognising a shape lets you guess a meaning and a feminine form before you look anything up." }
+  ]
+}

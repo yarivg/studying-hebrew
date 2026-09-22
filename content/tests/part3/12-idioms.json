@@ -1,0 +1,93 @@
+{
+  "ch": "idioms",
+  "title": "Idioms and set phrases",
+  "questions": [
+    { "id": "idioms-01", "type": "mcq",
+      "q": "A friend suggests getting up at five in the morning and you answer אֵין מַצָּב. What have you said?",
+      "choices": ["no chance", "there is no situation like that", "there is no room left", "it makes no difference"],
+      "a": 0,
+      "why": "Literally \"there is no situation\", which is exactly the reading that leads a learner nowhere. It is the everyday refusal, and it is safe: אֵין מַצָּב שֶׁאֲנִי קָם בְּחָמֵשׁ בַּבּוֹקֶר." },
+
+    { "id": "idioms-02", "type": "mcq",
+      "q": "Which answer means \"out of the question\"?",
+      "choices": ["לֹא בָּא בְּחֶשְׁבּוֹן", "בְּסֵדֶר גָּמוּר", "אֵין בְּעָיָה", "בְּטַח"],
+      "a": 0,
+      "why": "Its words say \"it does not enter the account\", and it is a flat refusal. The other three all agree: בְּסֵדֶר גָּמוּר is \"absolutely fine\", אֵין בְּעָיָה is \"no problem\" and בְּטַח is \"of course\"." },
+
+    { "id": "idioms-03", "type": "fill",
+      "q": "Fill the gap with the two-word phrase for \"terrible, rubbish\": הָאוֹכֶל בַּמִּסְעָדָה הַזֹּאת ___.",
+      "pre": "הָאוֹכֶל בַּמִּסְעָדָה הַזֹּאת",
+      "a": ["עַל הַפָּנִים"],
+      "why": "Literally \"on the face\", which is the image of something flat on the floor. It is safe for a learner and it attaches to anything: a film, a meal, a week, a mood." },
+
+    { "id": "idioms-04", "type": "mcq",
+      "q": "הַסֶּרֶט הָיָה חֲבָל עַל הַזְּמַן. What did they think of the film?",
+      "choices": ["it was outstanding", "it was a waste of their evening", "it was too long", "they left before the end"],
+      "a": 0,
+      "why": "This is the trap of the chapter: the words say \"a pity about the time\" and the phrase normally means the exact opposite, high praise. It can still be used literally, and only tone and context separate the two, so understand it before you say it." },
+
+    { "id": "idioms-05", "type": "say",
+      "q": "Say this out loud.",
+      "target": "הַחוּמוּס שָׁם סוֹף הַדֶּרֶךְ",
+      "why": "סוֹף הַדֶּרֶךְ is \"the end of the road\" and means the best there is, and note that no verb joins it to the hummus: Hebrew simply drops the \"is\". Say it as one unit, sof-ha-DERECH, not as three separate words." },
+
+    { "id": "idioms-06", "type": "listen",
+      "say": "נִמְאַס לִי לְחַכּוֹת",
+      "q": "Type what you hear.",
+      "a": ["נִמְאַס לִי לְחַכּוֹת"],
+      "why": "\"It has become loathsome to me to wait\", which is how Hebrew says \"I am sick of waiting\". The thing you are sick of is the subject of the verb and you are the לְ, so the verb never agrees with you." },
+
+    { "id": "idioms-07", "type": "fill",
+      "q": "Fill the gap with the one word that means \"ages ago\": הוּא עָזַב אֶת הָעִיר ___.",
+      "pre": "הוּא עָזַב אֶת הָעִיר",
+      "a": ["מִזְּמַן"],
+      "why": "Literally \"from time\". It also does duty for \"long since\" with a present tense verb, and it is one of the highest-frequency words in the chapter, so it is worth having on the tip of the tongue." },
+
+    { "id": "idioms-08", "type": "mcq",
+      "q": "A negotiation is described as בֵּין הַשְּׁמָשׁוֹת. What is being said about it?",
+      "choices": ["it is caught between two states, neither one thing nor the other", "it is happening at midday", "it has been going on for two days", "it is out in the open, in public"],
+      "a": 0,
+      "why": "The phrase is the gap between sunset and full dark, which matters in religious law because the day changes inside it. Ordinary speech has borrowed it for anything undecided, which is a long way from \"between the suns\"." },
+
+    { "id": "idioms-09", "type": "mcq",
+      "q": "Which of these can a foreigner with an accent use tomorrow without it sounding like an impression?",
+      "choices": ["בֶּן אָדָם", "נְשָׁמָה", "כַּפָּרָה עָלֶיךָ", "אָח שֶׁלִּי"],
+      "a": 0,
+      "why": "בֶּן אָדָם is neutral: a human being, and \"mate\" when you address someone with it. The other three are terms of endearment, and the problem is not rudeness but intimacy: they need a relationship behind them, and כַּפָּרָה עָלֶיךָ is one to understand and not say." },
+
+    { "id": "idioms-10", "type": "mcq",
+      "q": "Someone says יָצָא לִי מֵהָאַף about a holiday they have just come back from. What do they mean?",
+      "choices": ["it was spoiled for them, they have had more than enough of it", "they came back with a cold", "they paid far too much for it", "they cannot stop talking about it"],
+      "a": 0,
+      "why": "Literally \"it came out of my nose\": something you had so much of that it stopped being a pleasure. It is real Hebrew and it is on the avoid list, which in this chapter means understand it and let an Israeli be the one to say it." },
+
+    { "id": "idioms-11", "type": "order",
+      "q": "Build the sentence: see you tomorrow, God willing",
+      "words": ["נִתְרָאֶה", "מָחָר", "בְּעֶזְרַת הַשֵּׁם"],
+      "a": ["נִתְרָאֶה", "מָחָר", "בְּעֶזְרַת הַשֵּׁם"],
+      "also": [["מָחָר", "נִתְרָאֶה", "בְּעֶזְרַת הַשֵּׁם"]],
+      "why": "בְּעֶזְרַת הַשֵּׁם is two words read as one chip, and it has been emptied of belief: thoroughly secular Israelis say it several times a day and mean \"I hope so\". It sits at the end of the sentence, as an afterthought does." },
+
+    { "id": "idioms-12", "type": "mcq",
+      "q": "You are asked מַה שְׁלוֹמְךָ and you answer בָּרוּךְ הַשֵּׁם. What does that answer do, beyond saying you are fine?",
+      "choices": ["it places you as traditional or religious", "it is rude unless you know the person well", "it means you are in fact not fine", "nothing at all, everybody says it"],
+      "a": 0,
+      "why": "The religious phrases are marked careful because they place you, not because they are holy. בְּעֶזְרַת הַשֵּׁם is said by everyone and places nobody; בָּרוּךְ הַשֵּׁם as an answer to \"how are you\" reads as traditional." },
+
+    { "id": "idioms-13", "type": "fill",
+      "q": "Fill the gap with the three-word phrase for \"God forbid\": ___ שֶׁיִּקְרֶה לוֹ מַשֶּׁהוּ.",
+      "post": "שֶׁיִּקְרֶה לוֹ מַשֶּׁהוּ",
+      "a": ["חַס וְחָלִילָה"],
+      "why": "Literally \"mercy and forbid\". Like תּוֹדָה לָאֵל and בְּעֶזְרַת הַשֵּׁם it is safe for anyone to use, because the belief has drained out of it and only the grammar is left." },
+
+    { "id": "idioms-14", "type": "say",
+      "q": "Say this out loud, as a request: come on, help me out.",
+      "target": "בְּחַיֶּיךָ תַּעֲזוֹר לִי",
+      "why": "בְּחַיֶּיךָ changes meaning with the tune. Rising and drawn out it is this, a plea; flat and falling it is \"you're kidding\". Get the intonation wrong and you have asked a favour when you meant to express doubt." },
+
+    { "id": "idioms-15", "type": "open",
+      "q": "The chapter marks idioms safe, careful or avoid. Explain what \"careful\" and \"avoid\" are actually protecting you from, and name two phrases whose literal words would lead a learner to the wrong meaning.",
+      "a": ["The reason is almost never that the phrase is rude. It is that it is intimate, or that it places you: an endearment such as נְשָׁמָה, אָח שֶׁלִּי or כַּפָּרָה עָלֶיךָ claims a closeness that has not been earned, and a foreign accent on top of it sounds like an impression rather than speech, while בָּרוּךְ הַשֵּׁם or אִם יִרְצֶה הַשֵּׁם reads you as traditional or religious whether you meant that or not. Two phrases whose words point the wrong way: חֲבָל עַל הַזְּמַן, which sounds like \"a waste of time\" and normally means outstanding, and אֵין מַצָּב, which sounds like \"there is no situation\" and means \"no chance\". עַל הַפָּנִים and יָצָא לִי מֵהָאַף work the same way. The fix is to meet an idiom inside three whole sentences before using it, never as a table row, because a phrase learned from a list comes out at the wrong speed and in the wrong place."],
+      "why": "An idiom is the one part of a language grammar cannot help with, so the only handles are meaning, register and volume of exposure. Knowing which phrases are not yours to say yet is part of knowing them." }
+  ]
+}

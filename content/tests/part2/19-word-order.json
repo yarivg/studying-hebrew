@@ -1,0 +1,91 @@
+{
+  "ch": "word-order",
+  "title": "Word order and emphasis",
+  "questions": [
+    { "id": "word-order-01", "type": "mcq",
+      "q": "What is the neutral word order of a modern Hebrew sentence?",
+      "choices": ["Subject, verb, object", "Verb, subject, object", "Object, verb, subject", "Subject, object, verb"],
+      "a": 0,
+      "why": "Modern Hebrew is an SVO language like English, so most of the time the English order is the right order. Everything else in this chapter is what happens when you move something out of that order on purpose." },
+
+    { "id": "word-order-02", "type": "order",
+      "q": "Build in neutral order: the children are eating breakfast",
+      "words": ["הַיְלָדִים", "אוֹכְלִים", "אֲרוּחַת בּוֹקֶר"],
+      "a": ["הַיְלָדִים", "אוֹכְלִים", "אֲרוּחַת בּוֹקֶר"],
+      "why": "Subject, verb, object, with nothing emphasised. This is the order a sentence returns to after any of the moves below, and the one to use when you have no particular point to make." },
+
+    { "id": "word-order-03", "type": "fill",
+      "q": "Write \"one book\" in Hebrew.",
+      "a": ["סֵפֶר אֶחָד"],
+      "why": "אֶחָד is the one number that behaves like an adjective, so it follows its noun. Every other number counts from in front: שְׁלוֹשָׁה סְפָרִים." },
+
+    { "id": "word-order-04", "type": "order",
+      "q": "A woman came into the room, told as a story moving forward. Build the verb-first version.",
+      "words": ["נִכְנְסָה", "אִישָּׁה", "לַחֶדֶר"],
+      "a": ["נִכְנְסָה", "אִישָּׁה", "לַחֶדֶר"],
+      "why": "Verb before subject introduces something new: this is a woman entering for the first time. הָאִישָּׁה נִכְנְסָה לַחֶדֶר is the woman we already know about, and now here is what she did." },
+
+    { "id": "word-order-05", "type": "mcq",
+      "q": "What does putting the verb in front of its subject signal?",
+      "choices": ["Something new coming into the story, the flavour of \"and then\"", "A question", "A biblical or poetic register", "That the sentence is in the past"],
+      "a": 0,
+      "why": "It is a normal choice in narrative and in writing, not a poetic one, and it goes with an indefinite subject far more often than a definite one. English does the same work with \"a\" against \"the\"." },
+
+    { "id": "word-order-06", "type": "order",
+      "q": "Dani read THE BOOK, with the object spotlighted at the front. Build it.",
+      "words": ["אֶת", "הַסֵּפֶר", "קָרָא", "דָּנִי"],
+      "a": ["אֶת", "הַסֵּפֶר", "קָרָא", "דָּנִי"],
+      "why": "The marker travels with the object, so אֶת הַסֵּפֶר is still the object even sitting in the subject's chair. The meaning does not change; the book is simply under a spotlight, this one as against some other." },
+
+    { "id": "word-order-07", "type": "mcq",
+      "q": "Why can Hebrew front an object where English cannot?",
+      "choices": ["אֶת marks the object wherever it stands", "Hebrew verbs come before their subjects anyway", "Hebrew has no subject pronouns", "Because a Hebrew object is always definite"],
+      "a": 0,
+      "why": "English has nothing marking an object, so a fronted noun reads as the subject: \"the man bit the dog\". אֶת הָאִישׁ נָשַׁךְ הַכֶּלֶב has only one reading, and the dog did the biting." },
+
+    { "id": "word-order-08", "type": "mcq",
+      "q": "In הַסֵּפֶר הַזֶּה, קָרָאתִי אוֹתוֹ, why is there no אֶת on הַסֵּפֶר הַזֶּה?",
+      "choices": ["Because it is not the object any more: אוֹתוֹ is", "Because אֶת is never used in speech", "Because a fronted noun loses its article too", "Because קָרָאתִי has no object"],
+      "a": 0,
+      "why": "This is the other way to front: lift the noun out with a pause and leave a resumptive pronoun in its place, the same pronoun you met in chapter 8 with שֶׁ. The pronoun carries the object role, so the topic is bare." },
+
+    { "id": "word-order-09", "type": "fill",
+      "q": "Write: it was not I who read the book.",
+      "a": ["לֹא אֲנִי קָרָאתִי אֶת הַסֵּפֶר"],
+      "why": "לֹא negates whatever comes immediately after it, so moving it moves the denial: אֲנִי לֹא קָרָאתִי אֶת הַסֵּפֶר denies the reading, and לֹא אֲנִי denies that it was me." },
+
+    { "id": "word-order-10", "type": "mcq",
+      "q": "Which element is NOT free to move around the sentence?",
+      "choices": ["An adjective, which always follows its noun", "A time adverb such as אֶתְמוֹל", "The object of the verb", "The subject of the verb"],
+      "a": 0,
+      "why": "The short list that cannot move is: the adjective after its noun, the number in front of it, אֶחָד after it, a שֶׁל phrase after it, the question word first, and לֹא immediately before what it negates." },
+
+    { "id": "word-order-11", "type": "order",
+      "q": "Build the neutral version of: I went to the sea yesterday.",
+      "words": ["הָלַכְתִּי", "לַיָּם", "אֶתְמוֹל"],
+      "a": ["הָלַכְתִּי", "לַיָּם", "אֶתְמוֹל"],
+      "also": [["אֶתְמוֹל", "הָלַכְתִּי", "לַיָּם"], ["הָלַכְתִּי", "אֶתְמוֹל", "לַיָּם"]],
+      "why": "Time adverbs are genuinely free and all three positions are correct. Final is the neutral one, an added detail; front sets the scene, so the sentence is about yesterday; the middle is the least common and sounds slightly formal." },
+
+    { "id": "word-order-12", "type": "fill",
+      "q": "Write: only Dani knows.",
+      "a": ["רַק דָּנִי יוֹדֵעַ"],
+      "why": "The small adverbs כְּבָר, עֲדַיִין, תָּמִיד and רַק sit immediately in front of whatever they apply to, so moving רַק moves the meaning: דָּנִי יוֹדֵעַ רַק אֶת זֶה is Dani knowing only this." },
+
+    { "id": "word-order-13", "type": "listen",
+      "say": "אֶת דָּנִי לֹא רָאִיתִי הַיּוֹם",
+      "q": "Type what you hear.",
+      "a": ["אֶת דָּנִי לֹא רָאִיתִי הַיּוֹם"],
+      "why": "A fronted object with אֶת in front of it, and no subject pronoun at all: the תִּי ending of רָאִיתִי has already said who. Hebrew can drop what the verb ending carries." },
+
+    { "id": "word-order-14", "type": "say",
+      "q": "Say this out loud: something strange happened.",
+      "target": "קָרָה מַשֶּׁהוּ מוּזָר",
+      "why": "Verb first, and the subject is as indefinite as a subject gets, which is exactly the company verb-first keeps. Note the adjective still sits after its noun: מַשֶּׁהוּ מוּזָר." },
+
+    { "id": "word-order-15", "type": "open",
+      "q": "English leans on word order because it has almost nothing else. Name the two things Hebrew has instead, and say what they free the word order up to do.",
+      "a": ["אֶת says which noun is the object, and the verb ending says which person is the subject, so the roles stay clear wherever the words stand. That leaves the order free to carry emphasis instead of grammar: verb first for a new event, object first for a spotlight, a topic out in front with a resumptive pronoun behind it, and לֹא parked in front of whatever is being denied."],
+      "why": "\"The dog bit the man\" and \"the man bit the dog\" differ in English only by order. אֶת הָאִישׁ נָשַׁךְ הַכֶּלֶב has the object first and the subject last and still only one reading." }
+  ]
+}

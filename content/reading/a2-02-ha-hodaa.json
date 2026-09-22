@@ -1,0 +1,106 @@
+{
+  "id": "a2-02-ha-hodaa",
+  "title": "הַהוֹדָעָה",
+  "level": "A2",
+  "blurb": "A message from a number nobody knows: the future tense, the forms of a question, and the whole family of negative words.",
+  "grammar": [
+    "future",
+    "haya",
+    "questions",
+    "negation"
+  ],
+  "text": "נוֹעָה מִסְתַּכֶּלֶת בַּטֶּלֶפוֹן שֶׁלָּהּ.\nהוֹדָעָה מַגִּיעָה מִמִּיסְפָּר לֹא מוּכָּר.\n\n“שָׁלוֹם! מָחָר נִהְיֶה בְּתֵל אָבִיב בְּעֶרֶךְ בְּעֶשֶׂר.\nתָּבוֹאִי לַתַּחֲנָה?\nלֹא יִהְיֶה לָנוּ הַרְבֵּה זְמַן, אֲבָל נֹאכַל יַחַד.\nמִי עוֹד יִהְיֶה שָׁם?”\n\nנוֹעָה לֹא מַכִּירָה אֶת הַמִּיסְפָּר הַזֶּה.\nהִיא לֹא מְחַכָּה לְאַף אֶחָד מָחָר.\nהִיא עוֹנָה: “שָׁלוֹם. מִי זֶה?”\n\nהַתְּשׁוּבָה מַגִּיעָה מִיָּד.\n“זֶה אֲנִי, סַבָּא! יֵשׁ לִי טֶלֶפוֹן חָדָשׁ”.\n\nנוֹעָה מְחַיֶּיכֶת.\nסַבָּא שֶׁלָּהּ אַף פַּעַם לֹא כּוֹתֵב הוֹדָעוֹת.\nהוּא לֹא יוֹדֵעַ לִשְׁלוֹחַ תְּמוּנָה וְהוּא לֹא אוֹהֵב מַחְשְׁבִים.\nכְּשֶׁתִּהְיֶה לוֹ בְּעָיָיה, הוּא יִתְקַשֵּׁר, כְּמוֹ תָּמִיד.\n\nאֲבָל מָחָר הוּא יִהְיֶה בַּתַּחֲנָה בְּעֶשֶׂר, וְגַם הִיא תִּהְיֶה שָׁם.\nכְּשֶׁהִיא תִּרְאֶה אוֹתוֹ, הִיא לֹא תַּגִּיד לוֹ כְּלוּם עַל הַהוֹדָעָה.\nהִיא רַק תַּגִּיד: “סַבָּא, אַתָּה כּוֹתֵב יָפֶה מְאוֹד עַכְשָׁיו”.",
+  "gloss": {
+    "מוּכָּר": "familiar, known",
+    "מִסְתַּכֶּלֶת": "looks at",
+    "מְחַיֶּיכֶת": "smiles",
+    "כְּלוּם": "nothing, a thing"
+  },
+  "aloud": [
+    "נוֹעָה לֹא מַכִּירָה אֶת הַמִּיסְפָּר הַזֶּה.",
+    "סַבָּא שֶׁלָּהּ אַף פַּעַם לֹא כּוֹתֵב הוֹדָעוֹת."
+  ],
+  "questions": [
+    {
+      "id": "a2-02-01",
+      "type": "mcq",
+      "q": "מִי שָׁלַח אֶת הַהוֹדָעָה?",
+      "choices": [
+        "הָאָח שֶׁל נוֹעָה",
+        "סַבָּא שֶׁלָּהּ",
+        "חֲבֵרָה מִתֵּל אָבִיב",
+        "אַף אֶחָד, זוֹ טָעוּת"
+      ],
+      "a": 1,
+      "why": "The reply signs itself: זֶה אֲנִי, סַבָּא, and then explains itself: יֵשׁ לִי טֶלֶפוֹן חָדָשׁ, which is why the number came up unknown."
+    },
+    {
+      "id": "a2-02-02",
+      "type": "mcq",
+      "q": "לָמָּה נוֹעָה לֹא מַכִּירָה אֶת הַמִּיסְפָּר?",
+      "choices": [
+        "כִּי יֵשׁ לְסַבָּא טֶלֶפוֹן חָדָשׁ",
+        "כִּי הִיא אִיבְּדָה אֶת הַטֶּלֶפוֹן שֶׁלָּהּ",
+        "כִּי הַהוֹדָעָה בָּאָה מֵעִיר אַחֶרֶת",
+        "כִּי לְסַבָּא אֵין אֶת הַמִּיסְפָּר שֶׁלָּהּ"
+      ],
+      "a": 0,
+      "why": "The whole misunderstanding rests on one short line of the reply. Everything before it is Noa guessing, and guessing wrongly."
+    },
+    {
+      "id": "a2-02-03",
+      "type": "fill",
+      "q": "מָחָר אֲנַחְנוּ ___ בְּתֵל אָבִיב. (לִהְיוֹת)",
+      "a": [
+        "נִהְיֶה",
+        "נהיה"
+      ],
+      "why": "לִהְיוֹת is the one verb Hebrew has no present form for, but its future is perfectly regular: אֶהְיֶה, תִּהְיֶה, יִהְיֶה, נִהְיֶה. The prefix, not the ending, is what marks the person."
+    },
+    {
+      "id": "a2-02-04",
+      "type": "fill",
+      "q": "מָחָר הִיא ___ אֶת סַבָּא בַּתַּחֲנָה. (לִרְאוֹת)",
+      "a": [
+        "תִּרְאֶה",
+        "תראה"
+      ],
+      "why": "The ת prefix covers both *you (m.)* and *she*, so תִּרְאֶה is ambiguous on its own and the subject has to be said. That is why Hebrew keeps the pronoun in the future far more often than in the past."
+    },
+    {
+      "id": "a2-02-05",
+      "type": "mcq",
+      "q": "הַשְׁלִימוּ: סַבָּא שֶׁלָּהּ ___ לֹא כּוֹתֵב הוֹדָעוֹת.",
+      "choices": [
+        "אַף פַּעַם",
+        "שׁוּם דָּבָר",
+        "אַף אֶחָד",
+        "כְּלוּם"
+      ],
+      "a": 0,
+      "why": "אַף פַּעַם is *never*, and like every negative word in Hebrew it still needs its לֹא: אַף פַּעַם לֹא כּוֹתֵב. שׁוּם דָּבָר and כְּלוּם are things, אַף אֶחָד is a person, so none of them fits in front of a verb."
+    },
+    {
+      "id": "a2-02-06",
+      "type": "mcq",
+      "q": "בַּמִּשְׁפָּט כְּשֶׁהִיא תִּרְאֶה אוֹתוֹ, לָמָּה הַפּוֹעַל אַחֲרֵי כְּשֶׁ הוּא בֶּעָתִיד?",
+      "choices": [
+        "זוֹ טָעוּת, צָרִיךְ הוֹוֶה",
+        "כִּי כְּשֶׁהַמִּשְׁפָּט כּוּלּוֹ בֶּעָתִיד, גַּם הַפּוֹעַל אַחֲרֵי כְּשֶׁ בֶּעָתִיד",
+        "כִּי כְּשֶׁ הִיא מִילַּת שְׁאֵלָה",
+        "כִּי הַפּוֹעַל לֹא סָדִיר"
+      ],
+      "a": 1,
+      "why": "English says *when she sees him* with a present tense. Hebrew puts the future on both sides of כְּשֶׁ, and the same holds after אִם and after אַחֲרֵי שֶׁ."
+    },
+    {
+      "id": "a2-02-07",
+      "type": "open",
+      "q": "כִּתְבוּ אֶת הַתְּשׁוּבָה שֶׁל נוֹעָה לְסַבָּא: אַרְבָּעָה מִשְׁפָּטִים בֶּעָתִיד, עִם שְׁאֵלָה אַחַת לְפָחוֹת.",
+      "a": [
+        "סַבָּא, אֲנִי אֶהְיֶה בַּתַּחֲנָה בְּעֶשֶׂר. תָּבִיא מִזְוָודָה? נֹאכַל יַחַד לְיַד הַתַּחֲנָה. כְּשֶׁתַּגִּיעַ, אֲחַכֶּה לְךָ בַּכְּנִיסָה."
+      ],
+      "why": "Arranging to meet is where the future tense earns its keep, and it pulls in the כְּשֶׁ rule on its own, because half of any arrangement is a clause beginning *when you get there*."
+    }
+  ]
+}

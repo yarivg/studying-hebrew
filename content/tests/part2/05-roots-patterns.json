@@ -1,0 +1,84 @@
+{
+ "ch": "roots-patterns",
+ "title": "Roots and patterns",
+ "questions": [
+  { "id": "roots-patterns-01", "type": "mcq",
+    "q": "In a Hebrew word, what does the root carry and what does the pattern carry?",
+    "choices": ["the root carries the meaning, the pattern carries what kind of word it is", "the root carries the tense, the pattern carries the meaning", "the root carries the vowels, the pattern carries the consonants", "the root carries the gender, the pattern carries the number"],
+    "a": 0,
+    "why": "Hebrew words are not built by gluing pieces onto a stem; a set of consonants is poured into a mould. כ-ת-ב is about writing wherever it appears, and the mould decides whether the result is a verb, a tool, a place or a person." },
+
+  { "id": "roots-patterns-02", "type": "mcq",
+    "q": "A verb pattern is called a בִּנְיָין. What is the equivalent for nouns called?",
+    "choices": ["מִשְׁקָל", "שׁוֹרֶשׁ", "מִכְתָּב", "תַּלְמִיד"],
+    "a": 0,
+    "why": "מִשְׁקָל literally means a weight, and there are a few dozen of them. שׁוֹרֶשׁ is the root itself, the three consonants that the מִשְׁקָל is poured around." },
+
+  { "id": "roots-patterns-03", "type": "fill",
+    "q": "What is the root of הִתְלַבֵּשׁ? Write its three letters.",
+    "a": ["ל-ב-שׁ", "לָבַשׁ"],
+    "why": "הִתְ is the binyan, not part of the root, so the word is filed in a dictionary under ל-ב-שׁ, next to לְבוּשׁ clothing and מַלְבּוּשׁ a garment. Strip off whatever the pattern contributed and three consonants are left." },
+
+  { "id": "roots-patterns-04", "type": "mcq",
+    "q": "מַזְלֵג a fork, מַפְתֵּחַ a key and מַחְשֵׁב a computer share a mishkal. What does it make?",
+    "choices": ["instruments, the tool that does the root", "places where the root happens", "people who do the root for a living", "the name of the action itself"],
+    "a": 0,
+    "why": "The מַ.ְ.ֵ. shape is the instrument mishkal, so מַחְשֵׁב is the thing that does ח-שׁ-ב, to calculate. A word starting with מַ and having three more consonants is very often a tool: a guess, not a law, but right often enough to make." },
+
+  { "id": "roots-patterns-05", "type": "mcq",
+    "q": "From its shape alone, what kind of word is מִטְבָּח?",
+    "choices": ["a place", "a tool", "a profession", "an action"],
+    "a": 0,
+    "why": "מִ.ְ.ָ. is the place mishkal: מִשְׂרָד an office, מִטְבָּח a kitchen, מִדְבָּר a desert, which is literally the place of ד-ב-ר. The מַ of מַחְשֵׁב and the מִ of מִדְבָּר differ by one vowel and point at two different kinds of word." },
+
+  { "id": "roots-patterns-06", "type": "fill",
+    "q": "Form the act-noun of ק-ר-א, the word for reading as an activity.",
+    "a": ["קְרִיאָה"],
+    "why": "The .ְ.ִי.ָה mishkal names the act of doing: כְּתִיבָה writing, קְרִיאָה reading, שְׁתִייָּה drinking. Once you know the shape you can build it on any root you already have." },
+
+  { "id": "roots-patterns-07", "type": "fill",
+    "q": "What is the root of מַחְשֵׁב? Write its three letters.",
+    "a": ["ח-שׁ-ב", "חָשַׁב"],
+    "why": "The מַ belongs to the instrument mishkal, not to the root, so what is left is ח-שׁ-ב, to think or to calculate. A computer is literally the thing that does the calculating." },
+
+  { "id": "roots-patterns-08", "type": "order",
+    "q": "Put these three forms of כ-ת-ב in order: past, present, future",
+    "words": ["כּוֹתֵב", "כָּתַב", "יִכְתּוֹב"],
+    "a": ["כָּתַב", "כּוֹתֵב", "יִכְתּוֹב"],
+    "why": "Three tenses, one root, three different moulds. Unpoint them and every one still shows כ, ת, ב in that order, which is exactly what an Israeli reading unpointed text is working from." },
+
+  { "id": "roots-patterns-09", "type": "listen",
+    "say": "כְּתִיבָה וּקְרִיאָה",
+    "q": "Type what you hear.",
+    "a": ["כְּתִיבָה וּקְרִיאָה"],
+    "why": "Two nouns in the same act mishkal, from two different roots. The וְ becomes וּ in front of a letter carrying a shva, which is why it sounds like /u/ here rather than /ve/." },
+
+  { "id": "roots-patterns-10", "type": "say",
+    "q": "Say this out loud: \"a key\".",
+    "target": "מַפְתֵּחַ",
+    "why": "Say it /mafteach/, with the final a heard before the ח and the stress on the middle syllable. The מַ is the instrument mishkal and the root underneath is פ-ת-ח, to open." },
+
+  { "id": "roots-patterns-11", "type": "mcq",
+    "q": "Which of these is NOT built on ק-ר-א?",
+    "choices": ["קָרוֹב", "קְרִיאָה", "קוֹרֵא", "קָרְאָה"],
+    "a": 0,
+    "why": "קָרוֹב, near, is from ק-ר-ב: the third letter is a ב, so the family is a different one entirely. The other three all show ק, ר, א in that order under different patterns." },
+
+  { "id": "roots-patterns-12", "type": "mcq",
+    "q": "Is מוֹרֶה, a teacher, built on ל-מ-ד?",
+    "choices": ["no, its root is י-ר-ה", "yes, the ל has dropped out", "yes, it is the instrument mishkal of ל-מ-ד", "no, it has no root at all"],
+    "a": 0,
+    "why": "The obvious-looking word is often from somewhere else, which is exactly why you check the three letters instead of trusting the general sense. ל-מ-ד does give לוֹמֵד, לִימֵּד and תַּלְמִיד, but not this one." },
+
+  { "id": "roots-patterns-13", "type": "mcq",
+    "q": "Why is a Hebrew dictionary sorted by root rather than alphabetically by word?",
+    "choices": ["because every form of every related word contains the root, so one lookup gives a whole family", "because Hebrew has no fixed alphabetical order", "because prefixes change too often to sort on", "because the root is always the first three letters of the word"],
+    "a": 0,
+    "why": "הִתְלַבֵּשׁ is filed under ל-ב-שׁ, not under ה. Annoying the first time, useful ever after: you look up one word and collect three, which is also why the root is not always at the front of the word." },
+
+  { "id": "roots-patterns-14", "type": "open",
+    "q": "Give three words built on ל-מ-ד, with what each one means, and then say what the root ס-פ-ר shows about how far the meaning link can be trusted.",
+    "a": ["From ל-מ-ד: לוֹמֵד learning or studying, לִימֵּד he taught, תַּלְמִיד a pupil, and לִימּוּדִים studies. From ס-פ-ר: סֵפֶר a book, סִפְרִייָּה a library, סִיפֵּר he told a story, מִסְפָּר a number and סַפָּר a barber, all one root. So the link is real often enough to rely on for remembering a word you have already met, and stretched often enough that guessing a meaning from the root alone will embarrass you."],
+    "why": "Use the root to organise what you know, not to invent what you do not. Books, counting and haircuts sharing three letters is the standing reminder of the difference." }
+ ]
+}

@@ -1,0 +1,88 @@
+{
+  "ch": "present-other-binyanim",
+  "title": "Present tense: pi'el, hif'il, hitpa'el",
+  "questions": [
+    { "id": "present-other-binyanim-01", "type": "mcq",
+      "q": "Every present-tense verb outside pa'al begins with the same letter. Which one?",
+      "choices": ["מ", "ה", "ל", "ת"],
+      "a": 0,
+      "why": "Pi'el מְדַבֵּר, hif'il מַסְבִּיר and hitpa'el מִתְלַבֵּשׁ all open with מ. Pa'al is the one family with no prefix at all, which is why כּוֹתֵב and רוֹצֶה start on a root letter." },
+
+    { "id": "present-other-binyanim-02", "type": "mcq",
+      "q": "Which of these present-tense verbs is pa'al?",
+      "choices": ["מְדַבֵּר", "מַסְבִּיר", "כּוֹתֵב", "מִתְלַבֵּשׁ"],
+      "a": 2,
+      "why": "The absence of the מ is the evidence. Pa'al present is built straight on the root, so a verb with no prefix is pa'al and a verb with one is not." },
+
+    { "id": "present-other-binyanim-03", "type": "mcq",
+      "q": "Which binyan is מַסְבִּיר?",
+      "choices": ["פָּעַל", "פִּיעֵל", "הִפְעִיל", "הִתְפַּעֵל"],
+      "a": 2,
+      "why": "מַ with a patach, then an i vowel before the last root letter, is hif'il: מַסְבִּיר, מַתְחִיל, מַרְגִּישׁ. A מְ with a shva and a dagesh in the middle letter would make it pi'el instead." },
+
+    { "id": "present-other-binyanim-04", "type": "mcq",
+      "q": "Which binyan is מִתְקַשֵּׁר?",
+      "choices": ["פָּעַל", "פִּיעֵל", "הִפְעִיל", "הִתְפַּעֵל"],
+      "a": 3,
+      "why": "The מִתְ prefix belongs to hitpa'el and to nothing else. Hitpa'el is often reflexive, but מִתְקַשֵּׁר, phones, shows that the shape is reliable while the meaning is only a tendency." },
+
+    { "id": "present-other-binyanim-05", "type": "fill",
+      "q": "Write the feminine singular of מַסְבִּיר.",
+      "a": ["מַסְבִּירָה"],
+      "why": "Hif'il is the only one of the four whose feminine singular ends in ָה. Pi'el and hitpa'el on either side of it take ֶת, which is why מַסְבִּירֶת is the commonest slip in the whole chapter." },
+
+    { "id": "present-other-binyanim-06", "type": "fill",
+      "q": "Write the feminine singular of מְדַבֵּר.",
+      "a": ["מְדַבֶּרֶת"],
+      "why": "Pi'el takes ֶת in the feminine singular, exactly as a pa'al sound root does: מְדַבֶּרֶת, מְבַשֶּׁלֶת, מְשַׁלֶּמֶת. Only hif'il breaks the pattern." },
+
+    { "id": "present-other-binyanim-07", "type": "mcq",
+      "q": "Three of the four binyanim form the feminine singular the same way. Which one is the odd one out?",
+      "choices": ["פָּעַל", "פִּיעֵל", "הִפְעִיל", "הִתְפַּעֵל"],
+      "a": 2,
+      "why": "Pa'al כּוֹתֶבֶת, pi'el מְדַבֶּרֶת and hitpa'el מִתְלַבֶּשֶׁת all end in ֶת. Hif'il alone says מַסְבִּירָה, and being surrounded by ֶת on both sides is exactly what makes it easy to get wrong." },
+
+    { "id": "present-other-binyanim-08", "type": "fill",
+      "q": "Write the infinitive of מְשַׁלֵּם.",
+      "a": ["לְשַׁלֵּם"],
+      "why": "A pi'el infinitive swaps the מְ for a לְ with a shva, never לִ. The same trade works across the family: מְדַבֵּר gives לְדַבֵּר, מְבַשֵּׁל gives לְבַשֵּׁל." },
+
+    { "id": "present-other-binyanim-09", "type": "order",
+      "q": "Build the sentence: she is cooking soup",
+      "words": ["הִיא", "מְבַשֶּׁלֶת", "מָרָק"],
+      "a": ["הִיא", "מְבַשֶּׁלֶת", "מָרָק"],
+      "why": "מְבַשֶּׁלֶת is pi'el, so the feminine singular ends in ֶת. The pronoun stays in place because the present tense shows gender and number but never person." },
+
+    { "id": "present-other-binyanim-10", "type": "order",
+      "q": "Build the sentence: they (m.) pay by card",
+      "words": ["הֵם", "מְשַׁלְּמִים", "בְּכַרְטִיס"],
+      "a": ["הֵם", "מְשַׁלְּמִים", "בְּכַרְטִיס"],
+      "why": "The masculine plural adds ־ִים to the same מְ stem, and the shva inside slides: מְשַׁלֵּם gives מְשַׁלְּמִים. The בְּ is glued to its noun and never stands as a word of its own." },
+
+    { "id": "present-other-binyanim-11", "type": "listen",
+      "say": "אֲנִי מִתְרַחֵץ בַּבּוֹקֶר",
+      "q": "Type what you hear.",
+      "a": ["אֲנִי מִתְרַחֵץ בַּבּוֹקֶר"],
+      "why": "The opening מִתְ marks the verb as hitpa'el, and here it is genuinely reflexive: washing yourself. The בַּ on the last word is בְּ and הַ fused together, so it means in the morning, not in a morning." },
+
+    { "id": "present-other-binyanim-12", "type": "say",
+      "q": "Say this out loud.",
+      "target": "הוּא מַסְבִּיר אֶת הַשִּׁיעוּר",
+      "why": "/masbir/ carries its stress on the last syllable, and the מַ is a short patach rather than anything drawn out. אֶת is there because הַשִּׁיעוּר is definite." },
+
+    { "id": "present-other-binyanim-13", "type": "say",
+      "q": "Say this out loud.",
+      "target": "אֲנִי מֵבִין עִבְרִית",
+      "why": "לְהָבִין is hif'il on a root whose middle letter is י, so the מַ collapses to מֵ and the verb comes out /mevin/, two syllables. Learn it as a word instead of deriving it." },
+
+    { "id": "present-other-binyanim-14", "type": "fill",
+      "q": "Say \"they are cooking\" about a group of women.",
+      "a": ["הֵן מְבַשְּׁלוֹת"],
+      "why": "הֵן is the feminine plural pronoun and the verb takes ־וֹת. Hebrew keeps the pronoun in the present tense because the verb itself never tells you who is speaking." },
+
+    { "id": "present-other-binyanim-15", "type": "open",
+      "q": "How do you tell pa'al, pi'el, hif'il and hitpa'el apart when you see a present-tense verb?",
+      "a": ["No מ at all is pa'al, as in כּוֹתֵב. מְ with a dagesh in the middle root letter is pi'el, as in מְדַבֵּר. מַ with an i vowel before the last root letter is hif'il, as in מַסְבִּיר. מִתְ is hitpa'el, as in מִתְלַבֵּשׁ. The feminine singular confirms it: ָה only for hif'il, ֶת for the other three."],
+      "why": "Recognising the binyan from the shape is what lets you find the verbs in unpointed text. The meaning of a binyan is a tendency and belongs in the dictionary; the shape is a rule and belongs in your eye." }
+  ]
+}

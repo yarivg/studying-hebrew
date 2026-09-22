@@ -1,0 +1,90 @@
+{
+ "ch": "prepositions-plural",
+ "title": "Prepositions that decline in the plural",
+ "questions": [
+  { "id": "prepositions-plural-01", "type": "mcq",
+    "q": "Which form of עַל means \"on me\"?",
+    "choices": ["עָלַיי", "עָלֶיךָ", "עָלֵינוּ", "עָלָיו"],
+    "a": 0,
+    "why": "עַל takes the endings that belong on a plural noun, so \"on me\" comes out with the doubled yod of סְפָרַיי. עָלֶיךָ is on you, עָלֵינוּ on us, עָלָיו on him." },
+
+  { "id": "prepositions-plural-02", "type": "mcq",
+    "q": "עָלַיי is built with plural endings. How many people does it refer to?",
+    "choices": ["one: it means \"on me\"", "several: it means \"on us\"", "one, but only of things owned", "it means \"on my things\""],
+    "a": 0,
+    "why": "The plural shape is a fossil: these prepositions were once nouns in the construct plural and the endings stuck. Nothing about the meaning is plural, which is exactly what makes the set feel wrong at first." },
+
+  { "id": "prepositions-plural-03", "type": "fill",
+    "q": "Write the form of עַל that means \"on us\".",
+    "a": ["עָלֵינוּ"],
+    "why": "The ־ֵינוּ ending is the same one on סְפָרֵינוּ, אֵלֵינוּ, לְפָנֵינוּ and אַחֲרֵינוּ: learn it once and it covers the whole second declension." },
+
+  { "id": "prepositions-plural-04", "type": "mcq",
+    "q": "Which form completes שָׁמַעְתִּי ___ , \"I heard about her\"?",
+    "choices": ["עָלֶיהָ", "עָלָיו", "עֲלֵיהֶם", "עָלַיִיךְ"],
+    "a": 0,
+    "why": "עַל is \"on\" physically and \"about\" after verbs of speaking and hearing, so דִּיבַּרְנוּ עָלֶיךָ is \"we talked about you\", never \"on you\". The ־ֶיהָ ending is the feminine third person." },
+
+  { "id": "prepositions-plural-05", "type": "mcq",
+    "q": "In an unpointed text you meet עליו. Whose is it?",
+    "choices": ["his: the vav form is always masculine", "hers: the vav form is always feminine", "either one, the points are the only clue", "theirs, masculine plural"],
+    "a": 0,
+    "why": "עָלָיו and עָלֶיהָ are עליו and עליה once the points come off, and so are אֵלָיו and אֵלֶיהָ. The vav is masculine and the he feminine every time, but at reading speed the two letters blur, so the fix is the subject mentioned nearby, not sharper eyes." },
+
+  { "id": "prepositions-plural-06", "type": "mcq",
+    "q": "Which sentence means \"he came to us\"?",
+    "choices": ["הוּא בָּא אֵלֵינוּ", "הוּא בָּא אֶלְנוּ", "הוּא בָּא עָלֵינוּ", "הוּא בָּא לְנוּ"],
+    "a": 0,
+    "why": "אֶל belongs to the second declension, so its endings are the plural set and the word itself becomes אֵל before them. הוּא בָּא עָלֵינוּ would be \"he came at us\", and לְנוּ is not a form at all: לְ gives לָנוּ." },
+
+  { "id": "prepositions-plural-07", "type": "fill",
+    "q": "Write the form of לִפְנֵי that means \"in front of him\".",
+    "a": ["לְפָנָיו"],
+    "why": "Same ־ָיו as in עָלָיו and אַחֲרָיו: once you have one word of this declension you have all of them. Note that לִפְנֵי shifts to לְפָנ־ before an ending, the way עַל shifts to עָל־." },
+
+  { "id": "prepositions-plural-08", "type": "mcq",
+    "q": "Which of these takes the singular endings, the לִי and לְךָ set?",
+    "choices": ["בִּשְׁבִיל", "עַל", "אֶל", "אַחֲרֵי"],
+    "a": 0,
+    "why": "The rule of thumb is that a preposition already ending in a vowel or already looking plural takes the plural set, and a single closed syllable takes the singular one. בִּשְׁבִיל is long but it is the exception: בִּשְׁבִילִי, בִּשְׁבִילְךָ, בִּשְׁבִילָהּ." },
+
+  { "id": "prepositions-plural-09", "type": "fill",
+    "q": "Write the form of בִּשְׁבִיל that means \"for me\", in the sense of on my behalf.",
+    "a": ["בִּשְׁבִילִי"],
+    "why": "Plain ־ִי on the full word, with nothing shifting inside it, which is what makes this preposition easy next to עָלַיי. It is purpose or benefit, never cause." },
+
+  { "id": "prepositions-plural-10", "type": "mcq",
+    "q": "How do you say \"I came because of you\", speaking to a man?",
+    "choices": ["בָּאתִי בִּגְלַלְךָ", "בָּאתִי בִּשְׁבִילְךָ", "בָּאתִי אֵלֶיךָ", "בָּאתִי עָלֶיךָ"],
+    "a": 0,
+    "why": "English \"for\" hides two different things. בִּשְׁבִיל is purpose or benefit, so בָּאתִי בִּשְׁבִילְךָ is \"I came for your sake\", and בִּגְלַל is cause, so בָּאתִי בִּגְלַלְךָ is \"you are the reason I came\"." },
+
+  { "id": "prepositions-plural-11", "type": "order",
+    "q": "Build the sentence: she is taller than me",
+    "words": ["הִיא", "גְּבוֹהָה", "מִמֶּנִּי"],
+    "a": ["הִיא", "גְּבוֹהָה", "מִמֶּנִּי"],
+    "why": "מִן carries the comparison and swallows the pronoun, so no separate word for \"than\" appears. The adjective agrees with הִיא, and the compared thing comes last, exactly where English puts it." },
+
+  { "id": "prepositions-plural-12", "type": "mcq",
+    "q": "Speech avoids one meaning of מִמֶּנּוּ. Which word does it use instead?",
+    "choices": ["מֵאִיתָּנוּ for \"from us\"", "מִמֶּנָּה for \"from us\"", "מִמְּךָ for \"from him\"", "מֵהֶם for \"from him\""],
+    "a": 0,
+    "why": "מִמֶּנּוּ is both \"from him\" and, in formal Hebrew, \"from us\". Rather than live with the clash, speech hands \"from us\" to מֵאִיתָּנוּ and leaves מִמֶּנּוּ to the masculine singular." },
+
+  { "id": "prepositions-plural-13", "type": "listen",
+    "say": "שָׁמַעְתִּי עָלֶיהָ",
+    "q": "Type what you hear.",
+    "a": ["שָׁמַעְתִּי עָלֶיהָ"],
+    "why": "Two words, and the second is the one that needs deciding: /aleha/ is the feminine, /alav/ the masculine, and the ear separates them cleanly even where the unpointed page does not." },
+
+  { "id": "prepositions-plural-14", "type": "say",
+    "q": "Say \"he came to me\".",
+    "target": "הוּא בָּא אֵלַיי",
+    "why": "אֵלַיי is /elay/, two syllables with the stress at the end, and it is the word to reach for in front of a person: הוּא בָּא לִי would mean something else entirely." },
+
+  { "id": "prepositions-plural-15", "type": "open",
+    "q": "State the rule of thumb for which prepositions take the plural endings, name three that do and three that do not, and say why the plural shape is misleading.",
+    "a": ["A preposition that already ends in a vowel or already looks plural takes the plural endings: עַל, אֶל, לִפְנֵי, אַחֲרֵי, תַּחַת, בֵּין give עָלַיי, אֵלַיי, לְפָנַיי, אַחֲרַיי. A preposition that is one closed syllable takes the singular endings: לְ, בְּ, עִם, מִן give לִי, בִּי, אִיתִּי, מִמֶּנִּי, and בִּשְׁבִיל joins them despite its length. The plural shape says nothing about number: עָלַיי is on one person. It is a fossil from a time when these words were nouns in the construct plural. The rule of thumb is not a law and there are prepositions it misses, but it is right often enough to guess with."],
+    "why": "Two declensions and one heuristic is the whole chapter; the rest is the reading problem that עליו and עליה create once the points are gone." }
+ ]
+}

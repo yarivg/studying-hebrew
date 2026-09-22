@@ -1,0 +1,94 @@
+{
+ "ch": "conditional",
+ "title": "If",
+ "questions": [
+  { "id": "conditional-01", "type": "mcq",
+    "q": "אִם and עִם are pronounced identically. What is the difference?",
+    "choices": ["אִם is \"if\" and עִם is \"with\"", "אִם is \"with\" and עִם is \"if\"", "they are two spellings of one word", "אִם is formal and עִם is spoken"],
+    "a": 0,
+    "why": "א and ע say nothing at all in modern Israeli Hebrew, so the pair is identical in speech and one letter apart on the page. Only the sentence tells you which you are looking at: אִם אַתָּה בָּא is \"if you come\", עִם אַתָּה is not a sentence." },
+
+  { "id": "conditional-02", "type": "mcq",
+    "q": "Which sentence is the right way to say \"if it rains, we will stay home\"?",
+    "choices": ["אִם יֵרֵד גֶּשֶׁם, נִישָּׁאֵר בַּבַּיִת", "אִם יוֹרֵד גֶּשֶׁם, נִישָּׁאֵר בַּבַּיִת", "אִם יֵרֵד גֶּשֶׁם, נִשְׁאַרְנוּ בַּבַּיִת", "אִם הָיָה יוֹרֵד גֶּשֶׁם, נִישָּׁאֵר בַּבַּיִת"],
+    "a": 0,
+    "why": "A condition about the future takes the future tense in both halves. English puts a present tense in the \"if\" half, \"if it rains\", and that habit is exactly what has to be unlearned here." },
+
+  { "id": "conditional-03", "type": "mcq",
+    "q": "What does אִם יוֹרֵד גֶּשֶׁם shift the meaning to?",
+    "choices": ["if it is raining, right now", "if it rained yesterday", "if it were to rain, which it will not", "nothing changes, the two are the same"],
+    "a": 0,
+    "why": "The present tense is not ungrammatical after אִם, it just says something else: a condition about the state of things at this moment rather than about what may happen. An Israeli hears the shift even though the English translation hides it." },
+
+  { "id": "conditional-04", "type": "fill",
+    "q": "Fill the gap so the sentence means \"if you come tomorrow, we will go together\", speaking to a man: אִם ___ מָחָר, נֵלֵךְ יַחַד",
+    "pre": "אִם",
+    "post": "מָחָר, נֵלֵךְ יַחַד",
+    "a": ["תָּבוֹא"],
+    "why": "Future in the אִם half as well as the other one, so the verb is תָּבוֹא and not בָּא. The second half, נֵלֵךְ, is already future, which is the half English gets right on its own." },
+
+  { "id": "conditional-05", "type": "mcq",
+    "q": "Which is the way to say \"if I were rich, I would buy a house\"?",
+    "choices": ["אִם הָיִיתִי עָשִׁיר, הָיִיתִי קוֹנֶה בַּיִת", "אִם אֲנִי עָשִׁיר, אֲנִי קוֹנֶה בַּיִת", "אִם אֶהְיֶה עָשִׁיר, אֶקְנֶה בַּיִת", "אִם הָיִיתִי עָשִׁיר, קָנִיתִי בַּיִת"],
+    "a": 0,
+    "why": "An unreal condition is הָיָה in the past, agreeing with the subject, plus the present participle, and both halves do it. The third option is good Hebrew but a different sentence: it is a real condition, \"if I become rich, I will buy\"." },
+
+  { "id": "conditional-06", "type": "fill",
+    "q": "Complete the sentence so it means \"if I had time, I would come\", a man speaking: אִם הָיָה לִי זְמַן, ___",
+    "pre": "אִם הָיָה לִי זְמַן,",
+    "a": ["הָיִיתִי בָּא"],
+    "why": "הָיָה plus the participle, twice over: once in the condition and once in the result. The participle is the present tense form, so a woman would say הָיִיתִי בָּאָה with the same הָיִיתִי in front of it." },
+
+  { "id": "conditional-07", "type": "mcq",
+    "q": "Does Hebrew distinguish \"if I were rich\" from \"if I had been rich\"?",
+    "choices": ["no, the same הָיָה plus participle does both, and context or an adverb fixes the time", "yes, the unreal past adds a second הָיָה", "yes, the unreal past uses אִילּוּ and the unreal present uses אִם", "no, because Hebrew has no unreal conditions at all"],
+    "a": 0,
+    "why": "One construction covers an unreal present and an unreal past alike. אִם הָיִינוּ יוֹצְאִים מוּקְדָּם is read as past because of מוּקְדָּם and the sentence around it, and if you need to be explicit you add אֶתְמוֹל or אָז." },
+
+  { "id": "conditional-08", "type": "mcq",
+    "q": "Where does אִילּוּ belong?",
+    "choices": ["written Hebrew and careful speech, for the unreal condition, with the same construction after it", "casual speech only, replacing אִם everywhere", "questions, where it means \"whether\"", "real conditions about the future, where אִם would be wrong"],
+    "a": 0,
+    "why": "אִילּוּ יָדַעְתִּי, הָיִיתִי אוֹמֵר לְךָ is the same הָיָה construction with a dedicated word in front of it, and לוּ is higher still. Using אִם where a writer would use אִילּוּ is never wrong, only plainer." },
+
+  { "id": "conditional-09", "type": "mcq",
+    "q": "You are certain you will finish; it is only a question of when. Which word opens the sentence?",
+    "choices": ["כְּשֶׁ", "אִם", "אִילּוּ", "לוּ"],
+    "a": 0,
+    "why": "כְּשֶׁ is \"when it happens\" and אִם is \"if it happens\", and the choice is about certainty, not about time. כְּשֶׁאֶגְמוֹר, אֲנִי אֶתְקַשֵּׁר and אִם אֶגְמוֹר, אֲנִי אֶתְקַשֵּׁר are both correct and say different things." },
+
+  { "id": "conditional-10", "type": "order",
+    "q": "Build the sentence: when I finish, I will call",
+    "words": ["כְּשֶׁאֶגְמוֹר", "אֲנִי", "אֶתְקַשֵּׁר"],
+    "also": [["אֲנִי", "אֶתְקַשֵּׁר", "כְּשֶׁאֶגְמוֹר"]],
+    "a": ["כְּשֶׁאֶגְמוֹר", "אֲנִי", "אֶתְקַשֵּׁר"],
+    "why": "כְּשֶׁ is glued to its verb as one word, and it takes the future exactly as אִם does, even though English says \"when I finish\" with a present tense. The clause can lead or follow; only the tense is fixed." },
+
+  { "id": "conditional-11", "type": "fill",
+    "q": "Write the four words that mean \"unless you call\", speaking to a man.",
+    "a": ["אֶלָּא אִם כֵּן תִּתְקַשֵּׁר"],
+    "why": "אֶלָּא אִם כֵּן is \"unless\", and its length is not a sign that it is formal: it is the normal way to say it. Learn the four words as one unit and put an ordinary future verb after them." },
+
+  { "id": "conditional-12", "type": "mcq",
+    "q": "What does הַלְוַאי mean?",
+    "choices": ["if only, I wish", "in that case", "if so", "unless"],
+    "a": 0,
+    "why": "It is the one place לוּ survives in everyday speech, and it is a wish rather than a condition: הַלְוַאי שֶׁתָּבוֹא, I wish you would come. The connectives אִם כָּךְ and אִם כֵּן are the ones that mean \"in that case\" and \"if so\"." },
+
+  { "id": "conditional-13", "type": "listen",
+    "say": "אִם שָׁכַחְתָּ, אֵין בְּעָיָה",
+    "q": "Type what you hear.",
+    "a": ["אִם שָׁכַחְתָּ, אֵין בְּעָיָה", "אִם שָׁכַחְתָּ אֵין בְּעָיָה"],
+    "why": "A condition about the past takes the past in both halves and behaves just as English does, so this is the one shape that needs no rewiring. Note that what you hear is /im/, which could equally be עִם: only the sense decides." },
+
+  { "id": "conditional-14", "type": "say",
+    "q": "Say \"if I have time\", the opening of a condition about tomorrow.",
+    "target": "אִם יִהְיֶה לִי זְמַן",
+    "why": "English \"if I have\" is a present tense, and Hebrew insists on the future: יִהְיֶה לִי, not יֵשׁ לִי. The whole sentence runs אִם יִהְיֶה לִי זְמַן, אֲנִי אֶתְקַשֵּׁר." },
+
+  { "id": "conditional-15", "type": "open",
+    "q": "Explain how Hebrew builds a real condition and an unreal one, and say what English habit has to be unlearned for each.",
+    "a": ["A real condition about the future is אִם plus the future tense in both halves: אִם יֵרֵד גֶּשֶׁם, נִישָּׁאֵר בַּבַּיִת. The English habit to drop is the present tense in the \"if\" half; the same applies after כְּשֶׁ. A condition about the past uses the past in both halves and matches English. An unreal condition is אִם, or אִילּוּ or לוּ in a higher register, plus הָיָה in the past agreeing with the subject and the present participle, in both halves: אִם הָיִיתִי עָשִׁיר, הָיִיתִי קוֹנֶה בַּיִת. The habit to drop there is expecting a separate form for \"if I were\" and \"if I had been\": Hebrew has one construction for both and leaves the time to context."],
+    "why": "The two constructions are short, and almost every mistake an English speaker makes here is a tense carried over rather than a word forgotten." }
+ ]
+}

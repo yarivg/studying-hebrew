@@ -1,0 +1,89 @@
+{
+ "ch": "past-other-binyanim",
+ "title": "Past tense: the other binyanim",
+ "questions": [
+  { "id": "past-other-binyanim-01", "type": "mcq",
+    "q": "What changes between one binyan and another in the past tense?",
+    "choices": ["only the stem; the nine endings are the same everywhere", "only the endings; the stem is the same everywhere", "both the stem and the endings", "nothing, the binyanim differ only in the present"],
+    "a": 0,
+    "why": "One set of nine endings and four stems, not four sets of nine forms. ־ְתִּי means \"I\" on כָּתַבְתִּי, דִּיבַּרְתִּי, הִסְבַּרְתִּי and נִכְנַסְתִּי alike, because the person is independent of the binyan." },
+
+  { "id": "past-other-binyanim-02", "type": "mcq",
+    "q": "A past verb begins with הִתְ. Which binyan is it?",
+    "choices": ["hitpa'el", "hif'il", "nif'al", "pi'el"],
+    "a": 0,
+    "why": "הִתְ opens every hitpa'el past, and nothing else does: הִתְלַבֵּשׁ, הִתְלַבַּשְׁתִּי. Hif'il also opens with ה, so the tell is the ת straight after it." },
+
+  { "id": "past-other-binyanim-03", "type": "mcq",
+    "q": "Is מְדַבֵּר past or present?",
+    "choices": ["present", "past", "either, depending on the sentence", "past in pi'el, present in pa'al"],
+    "a": 0,
+    "why": "No past form in any binyan begins with מ. A verb opening with מְ, מַ or מִתְ is present, full stop, which makes that one letter the fastest tense test on the page." },
+
+  { "id": "past-other-binyanim-04", "type": "mcq",
+    "q": "הִסְבִּיר and הִתְלַבֵּשׁ both open with ה. What separates them?",
+    "choices": ["a ת straight after the ה means hitpa'el; nothing else does", "the length of the word", "hif'il is always three letters after the ה", "the dagesh in the second letter"],
+    "a": 0,
+    "why": "Hif'il is הִ plus the root with a long i in the middle: הִסְבִּיר. Hitpa'el wedges a ת in: הִתְלַבֵּשׁ. Both lose the ה in the present (מַסְבִּיר, מִתְלַבֵּשׁ) and get it back in the past." },
+
+  { "id": "past-other-binyanim-05", "type": "fill",
+    "q": "Write \"she spoke\", from לְדַבֵּר.",
+    "a": ["דִּיבְּרָה"],
+    "why": "The ־ָה ending is the same one as in כָּתְבָה, and the pi'el stem thins out in front of it exactly as the pa'al stem does. Only the i-e stem and the dagesh in the middle letter say pi'el." },
+
+  { "id": "past-other-binyanim-06", "type": "fill",
+    "q": "Write \"I explained\", from לְהַסְבִּיר.",
+    "a": ["הִסְבַּרְתִּי"],
+    "why": "Before a consonant ending the long i of הִסְבִּיר collapses to a: הִסְבַּרְתִּי. Before a vowel ending it survives: הִסְבִּירָה, הִסְבִּירוּ. That one rule covers the whole hif'il past." },
+
+  { "id": "past-other-binyanim-07", "type": "mcq",
+    "q": "Why is it הִסְבִּירָה but הִסְבַּרְתִּי?",
+    "choices": ["the i survives before a vowel ending and collapses to a before a consonant ending", "the feminine always keeps the i", "the first person always shortens the stem", "the two verbs are in different binyanim"],
+    "a": 0,
+    "why": "־ָה and ־וּ start with a vowel, so the syllable stays open and the i holds. ־ְתִּי, ־ְתָּ and ־ְנוּ start with a consonant, the syllable closes and the vowel shortens. The same shift turns דִּיבֵּר into דִּיבַּרְתִּי." },
+
+  { "id": "past-other-binyanim-08", "type": "fill",
+    "q": "Write \"we entered\", from the nif'al stem נִכְנַס.",
+    "a": ["נִכְנַסְנוּ"],
+    "why": "The נִ is the binyan and the ־ְנוּ is the person: two separate pieces doing two separate jobs. Nothing about nif'al changes the endings you already know." },
+
+  { "id": "past-other-binyanim-09", "type": "order",
+    "q": "Build the sentence: I did not go into the room",
+    "words": ["לֹא", "נִכְנַסְתִּי", "לַחֶדֶר"],
+    "a": ["לֹא", "נִכְנַסְתִּי", "לַחֶדֶר"],
+    "why": "לֹא goes straight in front of the verb, and the ending ־ְתִּי already says \"I\", so no pronoun is needed. לַחֶדֶר is לְ plus הַ run together, so it stays one word." },
+
+  { "id": "past-other-binyanim-10", "type": "fill",
+    "q": "Write \"they got dressed\", from לְהִתְלַבֵּשׁ.",
+    "a": ["הִתְלַבְּשׁוּ"],
+    "why": "־וּ is the plural ending in every binyan, and the e of הִתְלַבֵּשׁ thins to a shva in front of it. Compare הִתְלַבַּשְׁתִּי, where the consonant ending turns the same e into a." },
+
+  { "id": "past-other-binyanim-11", "type": "order",
+    "q": "Build the sentence: the book is on the table",
+    "words": ["הַסֵּפֶר", "נִמְצָא", "עַל", "הַשּׁוּלְחָן"],
+    "a": ["הַסֵּפֶר", "נִמְצָא", "עַל", "הַשּׁוּלְחָן"],
+    "why": "נִמְצָא is a past form used with a present meaning, \"is located\". A nif'al often describes the state something ended up in, and Hebrew is content to say that with a past verb." },
+
+  { "id": "past-other-binyanim-12", "type": "listen",
+    "say": "הַשִּׁיעוּר נִגְמַר",
+    "q": "Type what you hear.",
+    "a": ["הַשִּׁיעוּר נִגְמַר"],
+    "why": "Another nif'al of the same kind: literally \"the lesson got finished\", used for \"the lesson is over\". The נִ at the front is the binyan, not part of the root ג-מ-ר." },
+
+  { "id": "past-other-binyanim-13", "type": "say",
+    "q": "Say this out loud: \"I got dressed\".",
+    "target": "הִתְלַבַּשְׁתִּי",
+    "why": "Four syllables, hit-la-BASH-ti, with the stress on the ending. The הִתְ is a whole syllable of its own: do not swallow it, because it is the only thing marking the binyan." },
+
+  { "id": "past-other-binyanim-14", "type": "mcq",
+    "q": "Which of these is the nif'al past of כ-ת-ב, \"it was written\"?",
+    "choices": ["נִכְתַּב", "כָּתַב", "מִכְתָּב", "כּוֹתֵב"],
+    "a": 0,
+    "why": "Nif'al is often the passive of pa'al: כָּתַב he wrote, נִכְתַּב it was written. Just as often it is not passive at all but simply intransitive, as in נִכְנַסְתִּי or נִשְׁאַרְתִּי, where nobody is named as the doer." },
+
+  { "id": "past-other-binyanim-15", "type": "open",
+    "q": "Name the four binyan markers you can see in a past verb, with one example of each, and say why the endings do not need to be listed with them.",
+    "a": ["A dagesh in the middle letter with an i-e stem is pi'el, דִּיבֵּר; הִ plus a long i is hif'il, הִסְבִּיר; הִתְ is hitpa'el, הִתְלַבֵּשׁ; נִ is nif'al, נִכְנַס; and three letters with a-a and no marker at all is pa'al, כָּתַב. The endings are not listed because they are the same nine in every binyan: the binyan lives in the stem, the person lives on the end."],
+    "why": "Reading a past verb is two independent questions, never one: what is in front of the root tells you the binyan, what is behind it tells you the person. Add the rule that no past form starts with מ and you can place almost any verb you meet." }
+ ]
+}

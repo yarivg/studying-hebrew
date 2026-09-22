@@ -1,0 +1,88 @@
+{
+  "ch": "time-place-adverbs",
+  "title": "Time, days and where things are",
+  "questions": [
+    { "id": "time-place-adverbs-01", "type": "mcq",
+      "q": "Which day of the week is יוֹם רִאשׁוֹן?",
+      "choices": ["Sunday", "Monday", "Friday", "Saturday"],
+      "a": 0,
+      "why": "Hebrew counts its days instead of naming them, and day one is Sunday, because the Israeli week genuinely begins then. Sunday is a full working day, not part of the weekend." },
+
+    { "id": "time-place-adverbs-02", "type": "mcq",
+      "q": "Which day of the week is יוֹם שְׁלִישִׁי?",
+      "choices": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+      "a": 1,
+      "why": "Day three counting from Sunday is Tuesday. The count is off by one against English instinct the whole way along, which is why יוֹם שְׁלִישִׁי is so often heard as Wednesday." },
+
+    { "id": "time-place-adverbs-03", "type": "mcq",
+      "q": "Which day has a name of its own rather than a number?",
+      "choices": ["יוֹם רִאשׁוֹן", "שַׁבָּת", "יוֹם שִׁישִּׁי", "יוֹם חֲמִישִׁי"],
+      "a": 1,
+      "why": "שַׁבָּת is Saturday and the only named day; every other day is numbered away from it. The Israeli weekend is Friday and Saturday, and the week starts again on Sunday." },
+
+    { "id": "time-place-adverbs-04", "type": "fill",
+      "q": "Write the Hebrew for \"tomorrow\".",
+      "a": ["מָחָר"],
+      "why": "מָחָר is tomorrow, הַיּוֹם is today and אֶתְמוֹל is yesterday. Only הַיּוֹם is built out of parts you can see: literally \"the day\"." },
+
+    { "id": "time-place-adverbs-05", "type": "mcq",
+      "q": "How do you say \"it's three o'clock\"?",
+      "choices": ["הַשָּׁעָה שָׁלוֹשׁ", "הַשָּׁעָה שְׁלוֹשָׁה", "הַשָּׁעָה שָׁלוֹשׁ שָׁעוֹת", "שָׁלוֹשׁ הַשָּׁעָה"],
+      "a": 0,
+      "why": "The clock uses the feminine numbers, because שָׁעָה, hour, is feminine. שְׁלוֹשָׁה is the masculine three and is never used for the time." },
+
+    { "id": "time-place-adverbs-06", "type": "fill",
+      "q": "Say \"it's five o'clock\".",
+      "a": ["הַשָּׁעָה חָמֵשׁ"],
+      "why": "חָמֵשׁ is the feminine five, and the hour is always feminine. The masculine חֲמִישָּׁה would count five objects, never five o'clock." },
+
+    { "id": "time-place-adverbs-07", "type": "listen",
+      "say": "הַשִּׁיעוּר בְּשָׁלוֹשׁ",
+      "q": "Type what you hear.",
+      "a": ["הַשִּׁיעוּר בְּשָׁלוֹשׁ"],
+      "why": "To say when something happens, put בְּ on the hour, glued to it as one word. The בְּ here is not \"in three\" but \"at three\"." },
+
+    { "id": "time-place-adverbs-08", "type": "fill",
+      "q": "Say \"half past nine\".",
+      "a": ["תֵּשַׁע וָחֵצִי"],
+      "why": "וְ adds minutes to the hour just gone, so the hour comes first and the half after it. חֵצִי is a half and רֶבַע is a quarter; anything else is simply a number." },
+
+    { "id": "time-place-adverbs-09", "type": "mcq",
+      "q": "How do you say \"quarter to four\"?",
+      "choices": ["רֶבַע לְאַרְבַּע", "אַרְבַּע וָרֶבַע", "רֶבַע וְאַרְבַּע", "אַרְבַּע לְרֶבַע"],
+      "a": 0,
+      "why": "לְ counts down to the hour that is coming, so the minutes come first: רֶבַע לְאַרְבַּע. With וְ the hour comes first and the minutes are added to it: אַרְבַּע וָרֶבַע is quarter past four." },
+
+    { "id": "time-place-adverbs-10", "type": "say",
+      "q": "Say this out loud.",
+      "target": "מָה הַשָּׁעָה",
+      "why": "This is the whole question, with no verb in it, and it is what you ask a stranger. A timetable will answer in twenty-four hour time, but a person will not." },
+
+    { "id": "time-place-adverbs-11", "type": "fill",
+      "q": "Write the Hebrew for \"in the morning\".",
+      "a": ["בַּבּוֹקֶר"],
+      "why": "The parts of the day take בַּ, the בְּ and the הַ of chapter 10 fused into one vowel. The same pattern gives בָּעֶרֶב and בַּלַּיְלָה." },
+
+    { "id": "time-place-adverbs-12", "type": "say",
+      "q": "Say this out loud.",
+      "target": "אַחַר הַצָּהֳרַיִים",
+      "why": "This one keeps its הַ as a separate word, unlike בַּצָּהֳרַיִים at midday. The dual ending on צָהֳרַיִים is the one from chapter 9, here for no reason anyone can reconstruct." },
+
+    { "id": "time-place-adverbs-13", "type": "order",
+      "q": "Build the sentence: I (m.) am never late",
+      "words": ["אֲנִי", "אַף פַּעַם", "לֹא", "מְאַחֵר"],
+      "a": ["אֲנִי", "אַף פַּעַם", "לֹא", "מְאַחֵר"],
+      "why": "אַף פַּעַם keeps its לֹא, the same way אַף אֶחָד did in chapter 22. Word for word it is \"I never not am late\", and Hebrew wants both halves." },
+
+    { "id": "time-place-adverbs-14", "type": "mcq",
+      "q": "Which word do you say to a taxi driver for \"turn right\"?",
+      "choices": ["יָמִין", "יָמִינָה", "מִיָּמִין", "שְׂמֹאלָה"],
+      "a": 1,
+      "why": "The ָה on the end turns a place into a direction: יָמִין is the right hand, יָמִינָה is towards it. Something that merely sits on the right is מִיָּמִין." },
+
+    { "id": "time-place-adverbs-15", "type": "open",
+      "q": "How is the Israeli week laid out, and when is the weekend?",
+      "a": ["The week begins on Sunday, יוֹם רִאשׁוֹן, and the days are counted: שֵׁנִי Monday, שְׁלִישִׁי Tuesday, רְבִיעִי Wednesday, חֲמִישִׁי Thursday, שִׁישִּׁי Friday. שַׁבָּת, Saturday, is the only day with a name. The weekend, סוֹף שָׁבוּעַ, is Friday and Saturday, and Sunday is an ordinary working day."],
+      "why": "Everything about Hebrew dates and opening hours follows from the week starting on Sunday. In writing the days are usually shortened to a letter, יוֹם א׳ and יוֹם ב׳, which assumes you can count in letters." }
+  ]
+}

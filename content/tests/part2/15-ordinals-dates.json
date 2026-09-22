@@ -1,0 +1,90 @@
+{
+ "ch": "ordinals-dates",
+ "title": "Ordinals, dates and the calendar",
+ "questions": [
+  { "id": "ordinals-dates-01", "type": "mcq",
+    "q": "How do you say \"the first chapter\"?",
+    "choices": ["הַפֶּרֶק הָרִאשׁוֹן", "הָרִאשׁוֹן הַפֶּרֶק", "רִאשׁוֹן הַפֶּרֶק", "הַפֶּרֶק רִאשׁוֹן"],
+    "a": 0,
+    "why": "An ordinal is an ordinary adjective: it follows the noun, agrees with it and repeats the article. הַפֶּרֶק רִאשׁוֹן, with only one ה, reads as a sentence, \"the chapter is first\", exactly as הַבַּיִת גָּדוֹל does." },
+
+  { "id": "ordinals-dates-02", "type": "mcq",
+    "q": "What is the feminine of שְׁלִישִׁי?",
+    "choices": ["שְׁלִישִׁית", "שְׁלִישִׁיָּה", "שְׁלוֹשָׁה", "שְׁלִישׁ"],
+    "a": 0,
+    "why": "From third to tenth the feminine ordinal ends in ־ִית: שְׁלִישִׁית, רְבִיעִית, חֲמִישִׁית. Only the first two break the pattern, with רִאשׁוֹנָה and שְׁנִיָּיה. שְׁלִישׁ is a different word, the fraction \"a third\"." },
+
+  { "id": "ordinals-dates-03", "type": "fill",
+    "q": "Write \"the second floor\". The noun קוֹמָה, floor, is feminine.",
+    "a": ["הַקּוֹמָה הַשְּׁנִיָּיה"],
+    "why": "Gender, number and definiteness all have to agree, so a feminine noun pulls שֵׁנִי into שְׁנִיָּיה and the ה appears twice. This is the phrase you will read in every lift in Israel." },
+
+  { "id": "ordinals-dates-04", "type": "mcq",
+    "q": "Eight of the ten ordinals are built on their cardinal number. Why is רִאשׁוֹן not?",
+    "choices": ["it comes from רֹאשׁ, head, rather than from אֶחָד", "it is borrowed from Aramaic", "it is a shortened form of אֶחָד with an ending", "it is the only one that is really an adverb"],
+    "a": 0,
+    "why": "שְׁלִישִׁי, רְבִיעִי, חֲמִישִׁי and the rest are their cardinal plus an ־ִי ending, which is why they are guessable. רִאשׁוֹן has a different root altogether, and it is the one to learn as a word rather than as a pattern." },
+
+  { "id": "ordinals-dates-05", "type": "mcq",
+    "q": "How does Hebrew say \"the thirteenth floor\"?",
+    "choices": ["קוֹמָה שְׁלוֹשׁ עֶשְׂרֵה", "קוֹמָה שְׁלוֹשׁ עֶשְׂרִית", "הַקּוֹמָה הַשְּׁלִישִׁית עֶשְׂרֵה", "קוֹמָה שְׁלִישִׁית עֶשְׂרֵה"],
+    "a": 0,
+    "why": "Hebrew builds proper ordinals only as far as ten and then reuses the cardinal in the same slot: הַמֵּאָה הָעֶשְׂרִים, פֶּרֶק שְׁתֵּים עֶשְׂרֵה. There is no such thing as an ordinal for thirteen, so nothing has to be learned above ten." },
+
+  { "id": "ordinals-dates-06", "type": "order",
+    "q": "Build the phrase: the twentieth century",
+    "words": ["הַמֵּאָה", "הָעֶשְׂרִים"],
+    "a": ["הַמֵּאָה", "הָעֶשְׂרִים"],
+    "why": "Above ten the cardinal steps into the ordinal's place, but it still behaves like the adjective it replaced: it follows the noun and takes the article with it. Both halves carry a ה, and the vowel of the article lengthens before the ע." },
+
+  { "id": "ordinals-dates-07", "type": "mcq",
+    "q": "Which day of the week is יוֹם שְׁלִישִׁי?",
+    "choices": ["Tuesday", "Wednesday", "Thursday", "Monday"],
+    "a": 0,
+    "why": "The week starts on Sunday, יוֹם רִאשׁוֹן, so the ordinal is always one ahead of what an English speaker expects. Only שַׁבָּת has a name rather than a number, so the count stops at יוֹם שִׁישִּׁי. Note that יוֹם שֵׁנִי is Monday and never \"the second day of the trip\", which is הַיּוֹם הַשֵּׁנִי." },
+
+  { "id": "ordinals-dates-08", "type": "fill",
+    "q": "Write the Hebrew for Sunday.",
+    "a": ["יוֹם רִאשׁוֹן"],
+    "why": "The days are ordinals in masculine form, because יוֹם is masculine, and they take no article: יוֹם רִאשׁוֹן, יוֹם שֵׁנִי, up to יוֹם שִׁישִּׁי. In writing they are abbreviated to a single letter, יוֹם א׳ through יוֹם ו׳." },
+
+  { "id": "ordinals-dates-09", "type": "mcq",
+    "q": "An Israeli form is dated 3.5.2026. Which date is that?",
+    "choices": ["the third of May", "the fifth of March", "either, it depends on the form", "the third of the fifth week"],
+    "a": 0,
+    "why": "Israel writes the day first, always, and the American order never appears, so a date written 3.5 has exactly one reading. The same order is used when the date is spelled out: ה-22 בְּסֶפְּטֶמְבֶּר." },
+
+  { "id": "ordinals-dates-10", "type": "mcq",
+    "q": "How is a date said aloud in Hebrew?",
+    "choices": ["the masculine cardinal with the article, then בְּ and the month: הָאֶחָד בְּיָנוּאָר", "the ordinal with the article: הָרִאשׁוֹן בְּיָנוּאָר", "the feminine cardinal, as when counting: אַחַת בְּיָנוּאָר", "the bare number with no article: אֶחָד יָנוּאָר"],
+    "a": 0,
+    "why": "This is the one place where the ordinals you have just learned are not wanted: a date is a cardinal, and it is the masculine set, with the article in front of it. הַשְּׁלוֹשָׁה בְּמַאי, the third of May." },
+
+  { "id": "ordinals-dates-11", "type": "fill",
+    "q": "Write \"the third of May\" as it is said aloud.",
+    "a": ["הַשְּׁלוֹשָׁה בְּמַאי"],
+    "why": "Masculine cardinal, article, then בְּ glued to the month name. The Gregorian months keep their European names lightly respelled, so מַאי, יוּנִי and יוּלִי need no learning beyond their spelling." },
+
+  { "id": "ordinals-dates-12", "type": "mcq",
+    "q": "Which Hebrew month does פֶּסַח fall in?",
+    "choices": ["נִיסָן", "תִּשְׁרֵי", "כִּסְלֵו", "אֲדָר"],
+    "a": 0,
+    "why": "נִיסָן lands around March and April, which is why Passover moves against the Gregorian calendar. The others are worth pairing with their holidays too: תִּשְׁרֵי holds רֹאשׁ הַשָּׁנָה and יוֹם כִּיפּוּר, כִּסְלֵו holds חֲנוּכָּה and אֲדָר holds פּוּרִים." },
+
+  { "id": "ordinals-dates-13", "type": "listen",
+    "say": "הַפַּעַם הַשְּׁלִישִׁית",
+    "q": "Type what you hear.",
+    "a": ["הַפַּעַם הַשְּׁלִישִׁית"],
+    "why": "פַּעַם is feminine, so the ordinal is the ־ִית form, and the article is audible twice, once on each word. That doubled /ha/ is the clearest signal in speech that an adjective is attached to a definite noun." },
+
+  { "id": "ordinals-dates-14", "type": "say",
+    "q": "Say the date \"the twenty second of September\".",
+    "target": "הָעֶשְׂרִים וּשְׁנַיִם בְּסֶפְּטֶמְבֶּר",
+    "why": "Tens first and the unit joined with a vav that becomes וּ before a shva, so it is וּשְׁנַיִם. The article sits on the number, not on the month, and בְּ never carries one." },
+
+  { "id": "ordinals-dates-15", "type": "open",
+    "q": "Explain how ordinals behave in a phrase, what happens above ten, and where the ordinals turn up in the calendar.",
+    "a": ["Ordinals are ordinary adjectives: they follow the noun, agree with it in gender and number, and take the article when the noun does, so it is הַפֶּרֶק הָרִאשׁוֹן and הַקּוֹמָה הַשְּׁנִיָּיה. Hebrew builds them only as far as ten; above that it puts the cardinal in the same slot, as in הַמֵּאָה הָעֶשְׂרִים and קוֹמָה שְׁלוֹשׁ עֶשְׂרֵה. The days of the week are ordinals in masculine form because יוֹם is masculine, from יוֹם רִאשׁוֹן on Sunday to יוֹם שִׁישִּׁי, with שַׁבָּת the only day with a name. Dates are the exception: they are said with the masculine cardinal and the article, הַשְּׁלוֹשָׁה בְּמַאי, not with an ordinal."],
+    "why": "One rule for the phrase, one cut-off at ten, and one exception for dates: with those three the chapter is done, and the month names are recognition work rather than grammar." }
+ ]
+}

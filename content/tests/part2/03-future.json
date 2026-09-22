@@ -1,0 +1,88 @@
+{
+ "ch": "future",
+ "title": "Future tense",
+ "questions": [
+  { "id": "future-01", "type": "mcq",
+    "q": "Where does a future verb carry the person?",
+    "choices": ["in a prefix at the front", "in an ending at the back", "in the vowel of the middle letter", "nowhere, so the pronoun is compulsory"],
+    "a": 0,
+    "why": "The past puts everything on the end; the future works from both ends. The prefix says who, and a suffix, where there is one, adds the gender and number. No prefix, no future." },
+
+  { "id": "future-02", "type": "mcq",
+    "q": "Which prefix means \"we\"?",
+    "choices": ["נִ", "אֶ", "תִּ", "יִ"],
+    "a": 0,
+    "why": "Four prefixes cover six persons: אֶ for I, תִּ for every \"you\" and for she, יִ for he and they, נִ for we. The same four letters do the job in every binyan; only the vowel under them changes." },
+
+  { "id": "future-03", "type": "fill",
+    "q": "Write \"I will write\", from לִכְתּוֹב.",
+    "a": ["אֶכְתּוֹב"],
+    "why": "There is no word for \"will\" to translate. אֶכְתּוֹב is one word doing all of it: אֶ is the person and the rest is the verb." },
+
+  { "id": "future-04", "type": "mcq",
+    "q": "תִּכְתּוֹב is the future form of which two subjects?",
+    "choices": ["you (m singular) and she", "you (f singular) and he", "she and they", "you (plural) and we"],
+    "a": 0,
+    "why": "תִּ covers every \"you\" and also she, and with no suffix to split them the masculine singular \"you\" and \"she\" land on the same word. This is the one genuine ambiguity in the Hebrew verb, and it holds in every binyan and every root." },
+
+  { "id": "future-05", "type": "fill",
+    "q": "Write the future of לִכְתּוֹב for הִיא, \"she will write\".",
+    "a": ["תִּכְתּוֹב"],
+    "why": "Identical to \"you (m) will write\": eight rows of the table give seven distinct words, and this is the pair that collapses. When context cannot sort it out, Israelis put the pronoun in, and say הִיא תִּכְתּוֹב." },
+
+  { "id": "future-06", "type": "fill",
+    "q": "Write \"they will write\", from לִכְתּוֹב.",
+    "a": ["יִכְתְּבוּ"],
+    "why": "יִ is the person, shared with \"he\", and ־וּ is what makes it plural. The vowel of the stem thins to a shva in front of any suffix: יִכְתּוֹב against יִכְתְּבוּ." },
+
+  { "id": "future-07", "type": "fill",
+    "q": "Write \"you will write\", speaking to one woman.",
+    "a": ["תִּכְתְּבִי"],
+    "why": "The ־ִי suffix is the only thing marking the feminine singular, and it is also what saves this form from the תִּכְתּוֹב ambiguity. The plural is תִּכְתְּבוּ, with the same stem and the plural ending." },
+
+  { "id": "future-08", "type": "order",
+    "q": "Build the sentence: tomorrow I will write to you (to a woman)",
+    "words": ["מָחָר", "אֶכְתּוֹב", "לָךְ"],
+    "a": ["מָחָר", "אֶכְתּוֹב", "לָךְ"],
+    "why": "A time word is comfortable at the front of a Hebrew sentence, and it is often what tells you the verb is future at all. The verb needs no pronoun: the אֶ prefix already says who." },
+
+  { "id": "future-09", "type": "mcq",
+    "q": "תִּכְתּוֹב, תְּדַבֵּר and תַּסְבִּיר all start with ת. What does the vowel under it tell you?",
+    "choices": ["the binyan: i is pa'al, a shva is pi'el, a is hif'il", "the gender of the subject", "whether the verb is future or a command", "whether the object is definite"],
+    "a": 0,
+    "why": "The prefix letter is the person and the prefix vowel is the binyan, so one syllable carries both pieces of information. Note that the ה of לְהַסְבִּיר disappears in the future, exactly as it does in the present." },
+
+  { "id": "future-10", "type": "fill",
+    "q": "Write \"we will explain\", from לְהַסְבִּיר.",
+    "a": ["נַסְבִּיר"],
+    "why": "Hif'il prefixes carry an a, so the נִ of נִכְתּוֹב becomes נַ here, and the ה of the infinitive is gone. The long i of the stem survives because nothing is attached behind it." },
+
+  { "id": "future-11", "type": "listen",
+    "say": "הִיא תְּדַבֵּר עִם הַמּוֹרֶה",
+    "q": "Type what you hear.",
+    "a": ["הִיא תְּדַבֵּר עִם הַמּוֹרֶה"],
+    "why": "The pronoun is doing real work here: without הִיא, תְּדַבֵּר could just as well be \"you (m) will speak\". Pi'el keeps its i-e stem in the future and takes a shva under the prefix." },
+
+  { "id": "future-12", "type": "order",
+    "q": "Build the sentence: they won't write it",
+    "words": ["הֵם", "לֹא", "יִכְתְּבוּ", "אֶת", "זֶה"],
+    "a": ["הֵם", "לֹא", "יִכְתְּבוּ", "אֶת", "זֶה"],
+    "why": "Negation in the future needs nothing new: לֹא sits in front of the verb, as it does in the past. אֶת appears because זֶה counts as definite." },
+
+  { "id": "future-13", "type": "say",
+    "q": "Say this out loud: \"close the door\", to several people.",
+    "target": "תִּסְגְּרוּ אֶת הַדֶּלֶת",
+    "why": "This is the plain future used as an everyday request, and it is the polite way to ask. Nothing is added and nothing is dropped: the same word means \"you will close\" and \"close\"." },
+
+  { "id": "future-14", "type": "mcq",
+    "q": "You want to ask one man to write to you. What do you say?",
+    "choices": ["תִּכְתּוֹב לִי", "לִכְתּוֹב לִי", "אַתָּה כּוֹתֵב לִי", "אֶכְתּוֹב לִי"],
+    "a": 0,
+    "why": "In speech the ordinary future does the work of a command, and tone and situation separate \"write to me\" from \"you will write to me\". The infinitive on its own is not a request, and אֶכְתּוֹב says that you will do the writing." },
+
+  { "id": "future-15", "type": "open",
+    "q": "List the four future prefixes and the two suffixes, say what each one marks, and explain why תִּכְתּוֹבְנָה is not the form to use.",
+    "a": ["אֶ is I, תִּ is every \"you\" and also she, יִ is he and they, נִ is we; the suffix ־ִי marks the feminine singular \"you\" and ־וּ marks any plural. תִּכְתּוֹבְנָה is the Academy's feminine plural for אַתֶּן and הֵן; nobody says it in ordinary speech, so recognise it in older texts and say תִּכְתְּבוּ and יִכְתְּבוּ."],
+    "why": "Prefix for the person, suffix for the gender and number: that split is the whole tense. The feminine plural forms have gone the same way as כְּתַבְתֶּן in the past, which is a pattern worth expecting rather than relearning each time." }
+ ]
+}

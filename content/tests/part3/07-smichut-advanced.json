@@ -1,0 +1,89 @@
+{
+  "ch": "smichut-advanced",
+  "title": "Smichut in depth",
+  "questions": [
+    { "id": "smichut-advanced-01", "type": "mcq",
+      "q": "סְפָרִים is \"books\". How do you say \"textbooks\", literally \"books of study\"?",
+      "choices": ["סִפְרֵי לִימּוּד", "סְפָרִים לִימּוּד", "סְפָרִים שֶׁל לִימּוּד", "לִימּוּד סְפָרִים"],
+      "a": 0,
+      "why": "A masculine plural in ִים becomes ֵי in the construct state and the ם is dropped. The stem vowels reduce at the same time: סֵפֶר, סְפָרִים, סִפְרֵי." },
+
+    { "id": "smichut-advanced-02", "type": "fill",
+      "q": "Write the construct form of the plural בָּתִּים, \"houses\".",
+      "a": ["בָּתֵּי"],
+      "why": "The same rule as סִפְרֵי: ִים gives way to ֵי. It is the most useful construct rule in the language, because it applies to every masculine plural, not to a memorised list." },
+
+    { "id": "smichut-advanced-03", "type": "fill",
+      "q": "Say \"schools\" in Hebrew, in the plural.",
+      "a": ["בָּתֵּי סֵפֶר"],
+      "why": "Only the first noun of a chain is pluralised; the second is frozen. It is בָּתֵּי סֵפֶר, never בָּתֵּי סְפָרִים, because what there are several of is houses, not books." },
+
+    { "id": "smichut-advanced-04", "type": "order",
+      "q": "Build the phrase: a big house",
+      "words": ["בַּיִת", "גָּדוֹל"],
+      "a": ["בַּיִת", "גָּדוֹל"],
+      "why": "בַּיִת is the free form, a house standing on its own, and the adjective simply follows it. Keep it apart from בֵּית, which differs by one vowel and is the front half of a compound." },
+
+    { "id": "smichut-advanced-05", "type": "order",
+      "q": "Build the phrase: a big school",
+      "words": ["בֵּית", "סֵפֶר", "גָּדוֹל"],
+      "a": ["בֵּית", "סֵפֶר", "גָּדוֹל"],
+      "why": "The adjective waits until the whole chain is finished; nothing may sit between the two nouns. Nothing here is definite, so nothing takes הַ, and if you hear בֵּית with no second noun after it you misheard." },
+
+    { "id": "smichut-advanced-06", "type": "order",
+      "q": "Build the phrase: the big school",
+      "words": ["בֵּית", "הַסֵּפֶר", "הַגָּדוֹל"],
+      "a": ["בֵּית", "הַסֵּפֶר", "הַגָּדוֹל"],
+      "why": "One הַ per chain, on the last noun, and it makes the whole chain definite. The adjective then agrees in definiteness too and takes its own הַ, which is why a definite chain carries two of them and a house carries one, הַבַּיִת הַגָּדוֹל." },
+
+    { "id": "smichut-advanced-07", "type": "mcq",
+      "q": "Why is הַבֵּית סֵפֶר wrong?",
+      "choices": ["The article can never go on the first noun of a chain; it must be בֵּית הַסֵּפֶר", "בֵּית is not a word, so it cannot take הַ", "A chain can never be made definite at all", "It should be הַבַּיִת סֵפֶר, with the free form"],
+      "a": 0,
+      "why": "The chain feels like one word and the article wants to go at the front, which is exactly why this mistake is so common. You will hear הַבֵּית חוֹלִים from Israelis too; it is still not correct." },
+
+    { "id": "smichut-advanced-08", "type": "mcq",
+      "q": "How do you say \"the schools\"?",
+      "choices": ["בָּתֵּי הַסֵּפֶר", "בָּתֵּי הַסְּפָרִים", "הַבָּתֵּי סֵפֶר", "הַבָּתִּים סֵפֶר"],
+      "a": 0,
+      "why": "The plural sits on the first noun and the article on the last, and the two rules apply at once without touching each other. The second noun stays singular and frozen even when the thing itself is plural." },
+
+    { "id": "smichut-advanced-09", "type": "fill",
+      "q": "Say \"chocolate cakes\" in Hebrew, using the plural of עוּגָה.",
+      "a": ["עוּגוֹת שׁוֹקוֹלָד"],
+      "why": "Feminine plurals are the easy half: the וֹת ending does not change at all in the construct. The stem vowels may still reduce, as מִשְׁפָּחוֹת does to מִשְׁפְּחוֹת, but in speech people often leave them alone and nobody minds." },
+
+    { "id": "smichut-advanced-10", "type": "listen",
+      "say": "בָּתֵּי הַסֵּפֶר הַחֲדָשִׁים",
+      "q": "Type what you hear.",
+      "a": ["בָּתֵּי הַסֵּפֶר הַחֲדָשִׁים"],
+      "why": "הַחֲדָשִׁים is masculine plural because בָּתִּים is, not because סֵפֶר is singular. The adjective agrees with the head of the chain, which is always the first noun." },
+
+    { "id": "smichut-advanced-11", "type": "mcq",
+      "q": "Which is \"the Prime Minister of Israel\"?",
+      "choices": ["רֹאשׁ מֶמְשֶׁלֶת יִשְׂרָאֵל", "רֹאשׁ הַמֶּמְשָׁלָה יִשְׂרָאֵל", "הָרֹאשׁ מֶמְשֶׁלֶת יִשְׂרָאֵל", "רֹאשׁ מֶמְשָׁלָה יִשְׂרָאֵל"],
+      "a": 0,
+      "why": "A construct noun can govern another construct noun, and every link except the last is in the construct state: מֶמְשָׁלָה becomes מֶמְשֶׁלֶת in the middle of the chain. Read it from the right and it unpacks: head, of the government, of Israel." },
+
+    { "id": "smichut-advanced-12", "type": "say",
+      "q": "Say this out loud.",
+      "target": "מִשְׂרַד רֹאשׁ הַמֶּמְשָׁלָה",
+      "why": "Three links, and only the last one carries the article: the Prime Minister's Office. Newspaper Hebrew stacks these three and four deep, so learning to hear where one chain ends is worth the effort." },
+
+    { "id": "smichut-advanced-13", "type": "mcq",
+      "q": "How do you say \"dad's car\"?",
+      "choices": ["הַמְּכוֹנִית שֶׁל אַבָּא", "מְכוֹנִית אַבָּא", "הַמְּכוֹנִית אַבָּא", "מְכוֹנִית הָאַבָּא"],
+      "a": 0,
+      "why": "Smikhut is not the general possessive: it forms fixed compounds, a kind of thing, while שֶׁל says whose thing it is. בֵּית חוֹלִים and תַּחֲנַת אוֹטוֹבּוּס are categories; a car belonging to dad is not." },
+
+    { "id": "smichut-advanced-14", "type": "fill",
+      "q": "Say \"the teacher's new book\" in Hebrew.",
+      "a": ["הַסֵּפֶר הֶחָדָשׁ שֶׁל הַמּוֹרֶה"],
+      "why": "An adjective cannot get inside a construct chain, so as soon as either noun is modified there is no smikhut version available and שֶׁל is forced. That, plus ordinary possession and any pairing that does not name a recognised category, is the whole list." },
+
+    { "id": "smichut-advanced-15", "type": "open",
+      "q": "Split רַמְזוֹר, קוֹלְנוֹעַ and מַדְחוֹם into the two words each is built from, and say what that suggests about long unfamiliar Hebrew words.",
+      "a": ["רַמְזוֹר is רֶמֶז plus אוֹר, a hint of light, a traffic light. קוֹלְנוֹעַ is קוֹל plus נוֹעַ, sound and movement, a cinema. מַדְחוֹם is מַד plus חוֹם, a measure of heat, a thermometer. A very large part of the modern lexicon is a construct chain that stopped being felt as two words, some still written apart like כַּדּוּר רֶגֶל and בֵּית מִשְׁפָּט and some fused on the page like מִגְדַּלּוֹר and כַּדּוּרֶגֶל. So when you meet a long word you do not know, try splitting it: half the time both halves are words you already have."],
+      "why": "Compounding is the main way Hebrew makes new vocabulary, so a word you have never seen is often two words you have. It is the cheapest reading trick in the language." }
+  ]
+}

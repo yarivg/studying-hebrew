@@ -1,0 +1,90 @@
+{
+  "ch": "reported-speech",
+  "title": "Reporting what someone said",
+  "questions": [
+    { "id": "reported-speech-01", "type": "mcq",
+      "q": "Which is \"he said he was coming\" in Hebrew?",
+      "choices": ["הוּא אָמַר שֶׁהוּא בָּא", "הוּא אָמַר שֶׁהוּא הָיָה בָּא", "הוּא אָמַר הוּא בָּא", "הוּא אָמַר שֶׁהוּא יָבוֹא"],
+      "a": 0,
+      "why": "Hebrew does not push the tense back. The speaker said אֲנִי בָּא in the present, so the report keeps the present: הוּא אָמַר שֶׁהוּא בָּא, literally \"he said that he is coming\"." },
+
+    { "id": "reported-speech-02", "type": "mcq",
+      "q": "Which is \"I thought you lived in Haifa\", speaking to a man?",
+      "choices": ["חָשַׁבְתִּי שֶׁאַתָּה גָּר בְּחֵיפָה", "חָשַׁבְתִּי שֶׁאַתָּה גַּרְתָּ בְּחֵיפָה", "חָשַׁבְתִּי שֶׁאַתָּה הָיִיתָ גָּר בְּחֵיפָה", "חָשַׁבְתִּי אַתָּה גָּר בְּחֵיפָה"],
+      "a": 0,
+      "why": "The English past \"lived\" is only there because \"thought\" is past. Hebrew measures the tense from the moment of the thought, and at that moment you lived there, so the verb stays present: גָּר." },
+
+    { "id": "reported-speech-03", "type": "fill",
+      "q": "He said: \"אֲנִי עָיֵיף\". Report it: he said that ...",
+      "a": ["הוּא אָמַר שֶׁהוּא עָיֵיף"],
+      "why": "Two things happen and only two: שֶׁ stitches the clause on, and the pronoun moves from אֲנִי to הוּא. The tense does not move at all." },
+
+    { "id": "reported-speech-04", "type": "mcq",
+      "q": "What does הוּא אָמַר שֶׁהוּא הָיָה בָּא actually mean?",
+      "choices": ["He said he would have come", "He said he was coming", "He said he had come", "He said he was not coming"],
+      "a": 0,
+      "why": "הָיָה plus a present participle is the conditional of chapter 14, not a polite backdating. Reaching for a past tense to translate English \"he was coming\" changes the meaning rather than reporting it." },
+
+    { "id": "reported-speech-05", "type": "fill",
+      "q": "Write: she asked if I was coming.",
+      "a": ["הִיא שָׁאֲלָה אִם אֲנִי בָּא"],
+      "why": "A reported yes or no question is joined with אִם. The formal הַאִם of a direct question drops its הַ once the question is reported, and אִם with an alef is not עִם, with, which has an ayin." },
+
+    { "id": "reported-speech-06", "type": "mcq",
+      "q": "Which is \"he asked when I was coming\"?",
+      "choices": ["הוּא שָׁאַל מָתַי אֲנִי בָּא", "הוּא שָׁאַל אִם מָתַי אֲנִי בָּא", "הוּא שָׁאַל אִם אֲנִי בָּא מָתַי", "הוּא שָׁאַל מָתַי הָיִיתִי בָּא"],
+      "a": 0,
+      "why": "A question word is its own joiner, so it takes no אִם: אִם is only for the yes or no kind. Never both at once, and never the two together as שָׁאַל אִם מָתַי." },
+
+    { "id": "reported-speech-07", "type": "order",
+      "q": "Build: he said he would call.",
+      "words": ["הוּא", "אָמַר", "שֶׁהוּא", "יִתְקַשֵּׁר"],
+      "a": ["הוּא", "אָמַר", "שֶׁהוּא", "יִתְקַשֵּׁר"],
+      "why": "The rule is not \"always use the present\": it is \"keep what the speaker used\". He said אֲנִי אֶתְקַשֵּׁר in the future, so the report stays in the future. Note that שֶׁ is glued to the word after it." },
+
+    { "id": "reported-speech-08", "type": "order",
+      "q": "Build: she said she had already eaten.",
+      "words": ["הִיא", "אָמְרָה", "שֶׁהִיא", "כְּבָר", "אָכְלָה"],
+      "a": ["הִיא", "אָמְרָה", "שֶׁהִיא", "כְּבָר", "אָכְלָה"],
+      "also": [["הִיא", "אָמְרָה", "שֶׁהִיא", "אָכְלָה", "כְּבָר"]],
+      "why": "Her words were כְּבָר אָכַלְתִּי, a past, so the report is a past too. English's \"had eaten\" is one step further back than Hebrew ever goes." },
+
+    { "id": "reported-speech-09", "type": "fill",
+      "q": "Write: he promised he would help.",
+      "a": ["הוּא הִבְטִיחַ שֶׁהוּא יַעֲזוֹר"],
+      "why": "Every verb that introduces a clause takes the same שֶׁ and behaves the same way: אָמַר, סִיפֵּר, חָשַׁב, יָדַע, הֶחְלִיט, הִבְטִיחַ. What he promised was יַעֲזוֹר, and the future stays future." },
+
+    { "id": "reported-speech-10", "type": "listen",
+      "say": "הוּא שָׁאַל אִם אֲנִי בָּא",
+      "q": "Type what you hear.",
+      "a": ["הוּא שָׁאַל אִם אֲנִי בָּא"],
+      "why": "A reported question loses its question mark and its rising tone and gains a joiner, but nothing else moves: the words are in the same order as the direct question, because Hebrew never inverts subject and verb to ask." },
+
+    { "id": "reported-speech-11", "type": "say",
+      "q": "Say this out loud: I thought you were at work.",
+      "target": "חָשַׁבְתִּי שֶׁאַתְּ בָּעֲבוֹדָה",
+      "why": "שֶׁ is a prefix, so it is read straight into the next word with no pause: /she-AT/. The אַתְּ is feminine, and the sentence is present because that is what was true when you thought it." },
+
+    { "id": "reported-speech-12", "type": "mcq",
+      "q": "What is wrong with אָמַר הוּא בָּא?",
+      "choices": ["The שֶׁ is missing", "The verb should be in the past", "The pronoun should be אֲנִי", "Nothing is wrong with it"],
+      "a": 0,
+      "why": "English can drop \"that\" and Hebrew can never drop שֶׁ. Every reported clause is stitched on with it, written as a prefix with no space after it." },
+
+    { "id": "reported-speech-13", "type": "fill",
+      "q": "She said to you: \"אַתָּה צוֹדֵק\". Report what she said.",
+      "a": ["הִיא אָמְרָה שֶׁאֲנִי צוֹדֵק"],
+      "why": "The person is the one thing that does move, because the speaker and the reporter are different people. Her אַתָּה is you, and you reporting it say אֲנִי." },
+
+    { "id": "reported-speech-14", "type": "mcq",
+      "q": "Which verb is the one for telling something at some length, as against just saying it?",
+      "choices": ["סִיפֵּר", "אָמַר", "שָׁאַל", "יָדַע"],
+      "a": 0,
+      "why": "אָמַר and סִיפֵּר divide the ground English covers with \"said\" and \"told\": אָמַר is the plain one, סִיפֵּר is telling at length. Both take לְ for the listener: אָמַרְתִּי לוֹ, סִיפְּרָה לִי." },
+
+    { "id": "reported-speech-15", "type": "open",
+      "q": "Explain what Hebrew does to the tense of a reported verb, and give an example with a present, a past and a future.",
+      "a": ["It does nothing to it. The tense is measured from the moment of speaking, not the moment of reporting, so the verb stays exactly as the speaker said it: הוּא אָמַר שֶׁהוּא בָּא for \"he said he was coming\", הִיא אָמְרָה שֶׁהִיא כְּבָר אָכְלָה for \"she said she had eaten\", and הוּא אָמַר שֶׁהוּא יִתְקַשֵּׁר for \"he said he would call\". Only the pronouns, and the verb endings that carry the person, move."],
+      "why": "English backshifts and Hebrew does not, so the work is unlearning a habit rather than learning a rule. The one trap is הָיָה plus a present participle, which is a conditional and not a backdated present." }
+  ]
+}

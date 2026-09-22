@@ -1,0 +1,89 @@
+{
+  "ch": "comparatives",
+  "title": "Comparison and the most",
+  "questions": [
+    { "id": "comparatives-01", "type": "mcq",
+      "q": "How does Hebrew say \"bigger\"?",
+      "choices": ["יוֹתֵר גָּדוֹל", "גְּדוֹלִי", "הֲכִי גָּדוֹל", "גָּדוֹל מְאוֹד"],
+      "a": 0,
+      "why": "There is no Hebrew word that behaves like \"bigger\": comparison is יוֹתֵר plus the plain adjective. הֲכִי גָּדוֹל is the superlative, biggest, and גָּדוֹל מְאוֹד is only \"very big\"." },
+
+    { "id": "comparatives-02", "type": "fill",
+      "q": "Say \"he is taller than me\".",
+      "a": ["הוּא יוֹתֵר גָּבוֹהַּ מִמֶּנִּי", "הוּא גָּבוֹהַּ יוֹתֵר מִמֶּנִּי"],
+      "why": "יוֹתֵר can stand before the adjective or after it and both are ordinary, before being a shade more colloquial. The adjective itself does not move an inch: גָּבוֹהַּ stays גָּבוֹהַּ." },
+
+    { "id": "comparatives-03", "type": "mcq",
+      "q": "Which form of מִן means \"than her\"?",
+      "choices": ["מִמֶּנִּי", "מִמֵּךְ", "מִמֶּנָּה", "מִמֶּנּוּ"],
+      "a": 2,
+      "why": "The set is irregular and worth learning as a table: מִמֶּנִּי than me, מִמְּךָ and מִמֵּךְ than you, מִמֶּנּוּ than him, מִמֶּנָּה than her. מִמֵּךְ is \"than you\" to a woman, which is a different person from \"than her\"." },
+
+    { "id": "comparatives-04", "type": "mcq",
+      "q": "Which is the safer way to say \"than us\" in modern Hebrew?",
+      "choices": ["מִמֶּנּוּ", "מֵאִיתָּנוּ", "מִמֶּנִּי", "מִכֶּם"],
+      "a": 1,
+      "why": "מִמֶּנּוּ is both \"than him\" and, in the older grammar, \"than us\". Modern Hebrew settles the ambiguity with מֵאִיתָּנוּ for us and leaves מִמֶּנּוּ to him, so you will never be misheard." },
+
+    { "id": "comparatives-05", "type": "fill",
+      "q": "In הַסֵּפֶר פָּחוֹת מְעַנְיֵין ... , write the two words you need for \"than the film\" as one Hebrew word.",
+      "a": ["מֵהַסֶּרֶט"],
+      "why": "מִ attaches to the noun directly and swallows nothing: before a definite noun it simply becomes מֵ, the same behaviour בְּ and לְ show in front of הַ. Endings are only for pronouns." },
+
+    { "id": "comparatives-06", "type": "order",
+      "q": "Build the sentence: the book is less interesting than the film",
+      "words": ["הַסֵּפֶר", "פָּחוֹת", "מְעַנְיֵין", "מֵהַסֶּרֶט"],
+      "a": ["הַסֵּפֶר", "פָּחוֹת", "מְעַנְיֵין", "מֵהַסֶּרֶט"],
+      "also": [["הַסֵּפֶר", "מְעַנְיֵין", "פָּחוֹת", "מֵהַסֶּרֶט"]],
+      "why": "פָּחוֹת works exactly like יוֹתֵר, including the freedom to sit either side of the adjective. Everything Hebrew needs for a comparison is in those two words plus the מִ." },
+
+    { "id": "comparatives-07", "type": "mcq",
+      "q": "Which is \"he is the tallest in the class\"?",
+      "choices": ["הוּא יוֹתֵר גָּבוֹהַּ בַּכִּיתָּה", "הוּא הֲכִי גָּבוֹהַּ בַּכִּיתָּה", "הוּא הַגָּבוֹהַּ הֲכִי בַּכִּיתָּה", "הוּא גָּבוֹהַּ מִכֶּם בַּכִּיתָּה"],
+      "a": 1,
+      "why": "הֲכִי goes in front of the adjective and does the whole job; nothing declines and the adjective needs no article of its own. Where English finishes the comparison with \"in\" or \"of\", Hebrew uses בְּ: הֲכִי טוֹב בָּעוֹלָם." },
+
+    { "id": "comparatives-08", "type": "fill",
+      "q": "Say \"the biggest house\", the everyday way.",
+      "a": ["הַבַּיִת הֲכִי גָּדוֹל"],
+      "why": "The noun keeps its article and הֲכִי is dropped in front of the plain adjective. The formal alternative moves the whole thing: הַבַּיִת הַגָּדוֹל בְּיוֹתֵר." },
+
+    { "id": "comparatives-09", "type": "mcq",
+      "q": "Which is the formal written superlative, the one you would meet in a report?",
+      "choices": ["הַהַחְלָטָה הֲכִי חֲשׁוּבָה", "הַהַחְלָטָה הַחֲשׁוּבָה בְּיוֹתֵר", "הַהַחְלָטָה יוֹתֵר חֲשׁוּבָה", "הַהַחְלָטָה חֲשׁוּבָה מִכּוּלָּם"],
+      "a": 1,
+      "why": "הַ plus a definite adjective plus בְּיוֹתֵר is the formal prose version, and it means exactly what הֲכִי means. הֲכִי covers speech and most writing." },
+
+    { "id": "comparatives-10", "type": "listen",
+      "say": "זֶה הַרְבֵּה יוֹתֵר טוֹב",
+      "q": "Type what you hear.",
+      "a": ["זֶה הַרְבֵּה יוֹתֵר טוֹב"],
+      "why": "\"That is much better.\" הַרְבֵּה in front of יוֹתֵר is how you say \"much\" more of something, and קְצָת is how you say a little: קְצָת יוֹתֵר לְאַט." },
+
+    { "id": "comparatives-11", "type": "say",
+      "q": "Say this out loud.",
+      "target": "הוּא עוֹבֵד כָּמוֹנִי",
+      "why": "\"He works like me.\" כְּמוֹ takes endings like other prepositions, כָּמוֹנִי, כָּמוֹךָ, כָּמוֹהוּ, and the vowel under the כ opens up to a kamatz once an ending is on it." },
+
+    { "id": "comparatives-12", "type": "fill",
+      "q": "Say \"he is as tall as his brother\".",
+      "a": ["הוּא גָּבוֹהַּ כְּמוֹ אָחִיו"],
+      "why": "Equality needs no special construction: the adjective stays flat here too and כְּמוֹ simply sits between the two things being matched. Nothing is added to גָּבוֹהַּ in any of the three degrees." },
+
+    { "id": "comparatives-13", "type": "mcq",
+      "q": "Which is \"the coffee is too hot\"?",
+      "choices": ["הַקָּפֶה מִדַּי חַם", "הַקָּפֶה חַם מִדַּי", "הַקָּפֶה יוֹתֵר חַם", "הַקָּפֶה מַסְפִּיק חַם"],
+      "a": 1,
+      "why": "מִדַּי follows the adjective, unlike English \"too\". Its cousin יוֹתֵר מִדַּי comes in front of a noun, יוֹתֵר מִדַּי אֲנָשִׁים, and מַסְפִּיק goes in front of both: מַסְפִּיק גָּדוֹל, מַסְפִּיק זְמַן." },
+
+    { "id": "comparatives-14", "type": "fill",
+      "q": "Say \"there is enough time\".",
+      "a": ["יֵשׁ מַסְפִּיק זְמַן"],
+      "why": "מַסְפִּיק comes before the noun and before an adjective alike, which makes it the easy one of the three: זֶה מַסְפִּיק גָּדוֹל, it is big enough." },
+
+    { "id": "comparatives-15", "type": "open",
+      "q": "Why is there no Hebrew word for \"bigger\", and what does Hebrew change instead when you compare two things?",
+      "a": ["Because Hebrew never modifies the adjective. גָּדוֹל is גָּדוֹל in every degree: יוֹתֵר גָּדוֹל bigger, הֲכִי גָּדוֹל biggest, גָּדוֹל כְּמוֹ as big as. What changes is what surrounds it: יוֹתֵר or פָּחוֹת in front of it or just after it, הֲכִי in front of it for the superlative, or the formal הַ plus the definite adjective plus בְּיוֹתֵר. The second thing being compared is introduced by מִ attached to it, which becomes מֵ before a definite noun, מֵהַסֶּרֶט, and which takes irregular endings when it is a pronoun: מִמֶּנִּי, מִמְּךָ, מִמֵּךְ, מִמֶּנּוּ, מִמֶּנָּה, מֵאִיתָּנוּ. So there is no good/better/best and no deciding between \"commoner\" and \"more common\"."],
+      "why": "English carries comparison inside the adjective with an ending and Hebrew carries it outside with a separate word, which is why the Hebrew system has no irregular forms to memorise at all." }
+  ]
+}

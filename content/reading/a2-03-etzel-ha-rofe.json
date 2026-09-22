@@ -1,0 +1,109 @@
+{
+  "id": "a2-03-etzel-ha-rofe",
+  "title": "אֵצֶל הָרוֹפֵא",
+  "level": "A2",
+  "blurb": "A tired man, a waiting room and one awkward question: the negative words, יֵשׁ and אֵין, prepositions with endings, and the relative שֶׁ.",
+  "grammar": [
+    "negation",
+    "yesh-ein",
+    "prepositions-suffixes",
+    "relative-she",
+    "present-other-binyanim"
+  ],
+  "text": "עִידוֹ לֹא מַרְגִּישׁ טוֹב מִיּוֹם שֵׁנִי.\nהוּא כְּבָר לֹא יָשֵׁן בַּלַּיְלָה, הוּא כִּמְעַט לֹא אוֹכֵל, וְכָל בּוֹקֶר הוּא קָם עָיֵיף מְאוֹד.\nאָז הוּא הוֹלֵךְ לָרוֹפֵא.\n\nבַּחֲדַר הַהַמְתָּנָה יֵשׁ שִׁישָּׁה אֲנָשִׁים.\nעִידוֹ יוֹשֵׁב וּמְחַכֶּה.\nאֵין שָׁם מָה לִקְרוֹא, רַק עִיתּוֹן שֶׁכְּבָר אַף אֶחָד לֹא רוֹצֶה.\n\nלְבַסּוֹף הָרוֹפֵא קוֹרֵא לוֹ.\n“אָז מָה לֹא בְּסֵדֶר?”\nעִידוֹ מְסַפֵּר לוֹ הַכֹּל: הָעֲיֵיפוּת, הָרֹאשׁ, הַלֵּילוֹת.\nהָרוֹפֵא מַקְשִׁיב לוֹ וְלֹא אוֹמֵר כְּלוּם.\nאַחַר כָּךְ הוּא שׁוֹאֵל אוֹתוֹ שְׁאֵלָה אַחַת בִּלְבַד.\n“כַּמָּה כּוֹסוֹת קָפֶה אַתָּה שׁוֹתֶה בְּיוֹם?”\n\nעִידוֹ חוֹשֵׁב.\n“שֵׁשׁ. אוּלַי שֶׁבַע”.\n“גַּם בָּעֶרֶב?”\n“גַּם בָּעֶרֶב”.\n\nהָרוֹפֵא לֹא נוֹתֵן לוֹ תְּרוּפוֹת.\nהוּא נוֹתֵן לוֹ דַּף עִם שָׁלוֹשׁ מִילִּים: מַיִם, הֲלִיכָה, שֵׁינָה.\nעִידוֹ קָם וְלֹא אוֹמֵר כְּלוּם.\nבָּרְחוֹב הוּא עוֹבֵר לְיַד בֵּית קָפֶה וְלֹא נִכְנָס.",
+  "gloss": {
+    "הַמְתָּנָה": "waiting (חֲדַר הַמְתָּנָה = waiting room)",
+    "עֲיֵיפוּת": "tiredness",
+    "בִּלְבַד": "only, no more than that",
+    "כְּלוּם": "nothing, a thing",
+    "הֲלִיכָה": "walking",
+    "שֵׁינָה": "sleep"
+  },
+  "aloud": [
+    "עִידוֹ לֹא מַרְגִּישׁ טוֹב מִיּוֹם שֵׁנִי.",
+    "הָרוֹפֵא לֹא נוֹתֵן לוֹ תְּרוּפוֹת."
+  ],
+  "questions": [
+    {
+      "id": "a2-03-01",
+      "type": "mcq",
+      "q": "כַּמָּה אֲנָשִׁים יֵשׁ בַּחֲדַר הַהַמְתָּנָה?",
+      "choices": [
+        "שְׁלוֹשָׁה",
+        "שִׁישָּׁה",
+        "שִׁבְעָה",
+        "הַטֶּקְסְט לֹא אוֹמֵר"
+      ],
+      "a": 1,
+      "why": "יֵשׁ שִׁישָּׁה אֲנָשִׁים. Careful: שֵׁשׁ and שֶׁבַע both come back a paragraph later as cups of coffee, which is the trap here."
+    },
+    {
+      "id": "a2-03-02",
+      "type": "mcq",
+      "q": "מָה הַבְּעָיָיה הָאֲמִיתִּית שֶׁל עִידוֹ?",
+      "choices": [
+        "הוּא חוֹלֶה",
+        "הוּא עוֹבֵד יוֹתֵר מִדַּי",
+        "הוּא שׁוֹתֶה יוֹתֵר מִדַּי קָפֶה",
+        "הוּא לֹא אוֹכֵל מַסְפִּיק"
+      ],
+      "a": 2,
+      "why": "The doctor asks one question and then stops. Six or seven cups, evenings included, is the whole diagnosis, and the last line shows that Ido has worked it out for himself."
+    },
+    {
+      "id": "a2-03-03",
+      "type": "fill",
+      "q": "עִידוֹ מְסַפֵּר לָרוֹפֵא הַכֹּל. → עִידוֹ מְסַפֵּר ___ הַכֹּל.",
+      "a": [
+        "לוֹ",
+        "לו"
+      ],
+      "why": "לְסַפֵּר takes its listener with לְ, so the pronoun is the לְ carrying an ending: לִי, לְךָ, לוֹ, לָהּ. Compare שׁוֹאֵל אוֹתוֹ in the same paragraph: לִשְׁאוֹל takes אֶת, so its pronoun is built on אֶת instead."
+    },
+    {
+      "id": "a2-03-04",
+      "type": "fill",
+      "q": "יֵשׁ עִיתּוֹן חָדָשׁ בַּחֶדֶר. → ___ עִיתּוֹן חָדָשׁ בַּחֶדֶר.",
+      "a": [
+        "אֵין",
+        "אין"
+      ],
+      "why": "אֵין is the one-word negative of יֵשׁ, and it never takes לֹא beside it. לֹא is for verbs and adjectives: הוּא לֹא אוֹמֵר כְּלוּם, הוּא לֹא עָיֵיף."
+    },
+    {
+      "id": "a2-03-05",
+      "type": "mcq",
+      "q": "מָה הַמַּשְׁמָעוּת שֶׁל הוּא כְּבָר לֹא יָשֵׁן?",
+      "choices": [
+        "הוּא אַף פַּעַם לֹא יָשֵׁן",
+        "הוּא עֲדַיִין לֹא יָשֵׁן",
+        "קוֹדֶם הוּא יָשַׁן, וְעַכְשָׁיו כְּבָר לֹא",
+        "הוּא יָשֵׁן הַרְבֵּה"
+      ],
+      "a": 2,
+      "why": "כְּבָר לֹא says something has stopped, the way English says *not any more*. אַף פַּעַם לֹא would say it never happened at all, and עֲדַיִין לֹא that it has not started yet."
+    },
+    {
+      "id": "a2-03-06",
+      "type": "mcq",
+      "q": "בַּמִּשְׁפָּט עִיתּוֹן שֶׁכְּבָר אַף אֶחָד לֹא רוֹצֶה, מִי לֹא רוֹצֶה אֶת הָעִיתּוֹן?",
+      "choices": [
+        "הָרוֹפֵא",
+        "עִידוֹ",
+        "אַף אֶחָד מֵהָאֲנָשִׁים בַּחֶדֶר",
+        "הַמַּזְכִּירָה"
+      ],
+      "a": 2,
+      "why": "שֶׁ attaches the clause to עִיתּוֹן, and inside that clause אַף אֶחָד לֹא is the subject: nobody at all. Hebrew keeps the לֹא even though אַף אֶחָד is already negative, which English would call a double negative."
+    },
+    {
+      "id": "a2-03-07",
+      "type": "open",
+      "q": "אַתֶּם הָרוֹפֵא. כִּתְבוּ אַרְבַּע עֵצוֹת לְעִידוֹ, וּבְכָל מִשְׁפָּט הִשְׁתַּמְּשׁוּ בִּשְׁלִילָה: לֹא, אֵין, אַף פַּעַם אוֹ כְּבָר לֹא.",
+      "a": [
+        "כְּדַאי לְךָ לֹא לִשְׁתּוֹת קָפֶה אַחֲרֵי הַצָּהֳרַיִים. אֵין סִיבָּה לַעֲבוֹד בָּעֶרֶב. אַף פַּעַם אַל תֵּלֵךְ לִישׁוֹן רָעֵב. כְּבָר לֹא צָרִיךְ טֶלֶפוֹן בַּמִּיטָּה."
+      ],
+      "why": "Advice is where the negative words all show up at once, and it forces the choice between them: לֹא for a verb, אֵין for existence and having, אַף פַּעַם and כְּבָר לֹא for how often and since when."
+    }
+  ]
+}

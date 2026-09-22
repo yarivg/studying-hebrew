@@ -1,0 +1,83 @@
+{
+ "ch": "stress",
+ "title": "Stress and syllables",
+ "questions": [
+  { "id": "stress-01", "type": "mcq",
+    "q": "Where does the stress fall in a Hebrew word, if you have nothing else to go on?",
+    "choices": ["On the last syllable", "On the first syllable", "On the second syllable", "It is unpredictable"],
+    "a": 0,
+    "why": "Final stress is the norm, and guessing it is right most of the time. English pulls the emphasis towards the front, so the English-style error is both the commonest and the more noticeable of the two." },
+
+  { "id": "stress-02", "type": "mcq",
+    "q": "What does מִלְּרַע mean?",
+    "choices": ["Stress on the final syllable", "Stress on the second syllable from the end", "A word with no stress at all", "A word of one syllable"],
+    "a": 0,
+    "why": "מִלְּרַע is from below, the final syllable, and it is the default. מִלְּעֵיל is from above, the second from last, and it belongs to recognisable groups rather than being scattered at random." },
+
+  { "id": "stress-03", "type": "say",
+    "q": "Say this out loud.",
+    "target": "תּוֹדָה",
+    "why": "The stress is on the last syllable: to-DA, not TO-da. It is a two-syllable word that an English speaker will almost always get wrong on the first attempt, because English would front it." },
+
+  { "id": "stress-04", "type": "mcq",
+    "q": "Which of these is stressed on the second syllable from the end?",
+    "choices": ["סֵפֶר", "שָׁלוֹם", "עִבְרִית", "מִשְׁפָּחָה"],
+    "a": 0,
+    "why": "SE-fer is a segolate noun, and every segolate is מִלְּעֵיל. The other three are regular: sha-LOM, iv-RIT, mish-pa-KHA, all stressed at the end." },
+
+  { "id": "stress-05", "type": "say",
+    "q": "Say this out loud.",
+    "target": "סֵפֶר",
+    "why": "SE-fer, stress at the front. Two syllables with an e in the second is the shape of a segolate, and they behave as a group: מֶלֶךְ, דֶּלֶת, כֶּסֶף, יֶלֶד, עֶרֶב all do the same thing." },
+
+  { "id": "stress-06", "type": "mcq",
+    "q": "What is a segolate noun?",
+    "choices": ["A two-syllable noun with an e in the second syllable, stressed at the front", "Any noun ending in a guttural", "A noun borrowed from another language", "A noun whose plural is irregular"],
+    "a": 0,
+    "why": "Named after the סֶגּוֹל that usually writes that e. There are hundreds of them, they are everyday words, and recognising the shape on sight buys you the stress without having to learn each one." },
+
+  { "id": "stress-07", "type": "fill",
+    "q": "Type the Hebrew word for a child, read /YE-led/.",
+    "a": ["יֶלֶד"],
+    "why": "A textbook segolate: two syllables, an e in each, and the stress at the front. Say it ye-LED and it stops sounding like the word, even though every letter is right." },
+
+  { "id": "stress-08", "type": "mcq",
+    "q": "How many syllables does סְפָרִים have?",
+    "choices": ["Two", "Three", "Four", "One"],
+    "a": 0,
+    "why": "Two: sfa-rim. The shva under the ס marks the end of nothing and the start of a cluster, not a vowel. A Hebrew syllable always starts with a consonant, and Hebrew is comfortable with clusters that English would break up." },
+
+  { "id": "stress-09", "type": "listen",
+    "say": "מִשְׁפָּחָה",
+    "q": "Type what you hear.",
+    "a": ["מִשְׁפָּחָה"],
+    "why": "A family, mish-pa-KHA, three syllables with the stress at the end. The shva under the ש is silent, which is what closes the first syllable rather than adding a fourth." },
+
+  { "id": "stress-10", "type": "mcq",
+    "q": "טֶלֶפוֹן is stressed TE-le-fon, not te-le-FON. Why?",
+    "choices": ["Borrowed words keep something close to their original stress", "Any word of three syllables is stressed at the front", "The סֶגּוֹל always takes the stress", "It is a segolate noun"],
+    "a": 0,
+    "why": "Loanwords are one of the reliable groups of מִלְּעֵיל words, alongside the segolates: אוֹטוֹבּוּס is O-to-bus and פּוֹלִיטִיקָה is po-LI-ti-ka. Hebraising their stress is a mistake in the opposite direction." },
+
+  { "id": "stress-11", "type": "fill",
+    "q": "Type the Hebrew word for yesterday, read /ET-mol/.",
+    "a": ["אֶתְמוֹל"],
+    "why": "One of the handful of very common words that are מִלְּעֵיל for no reason you can derive, so it has to be learned as it is. Compare עַכְשָׁיו, now, which is akh-SHAV and perfectly regular." },
+
+  { "id": "stress-12", "type": "say",
+    "q": "Say this out loud.",
+    "target": "לְהִתְרָאוֹת",
+    "why": "See you, le-hit-ra-OT. Four syllables, stress on the last, and the opening shva is a faint e rather than a full one. Front-stressing it is the single fastest way to sound foreign in a goodbye." },
+
+  { "id": "stress-13", "type": "order",
+    "q": "Build the greeting: good morning.",
+    "words": ["טוֹב", "בּוֹקֶר"],
+    "a": ["בּוֹקֶר", "טוֹב"],
+    "why": "BO-ker TOV: the noun comes first and each word keeps its own stress, the segolate at the front and the one-syllable word wherever it lands. Hebrew does not merge the two into one stress pattern." },
+
+  { "id": "stress-14", "type": "open",
+    "q": "Give the chapter's example of two words that differ only in stress, and say why that argues for building the habit early.",
+    "a": ["בָּאָה with the stress at the end is she comes, and בָּאָה with the stress earlier is she came. The letters and the points are identical, so stress is the only thing the listener has to go on, and it separates a present tense from a past one across a whole class of verbs. Getting it wrong is not an accent, it is the wrong tense."],
+    "why": "Most stress errors only cost you a foreign accent, but this class of verbs costs you the meaning. That is the reason to default to the last syllable now rather than after the grammar arrives." }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+  "ch": "pronoun-suffixes-verbs",
+  "title": "Object endings on verbs",
+  "questions": [
+    { "id": "pronoun-suffixes-verbs-01", "type": "mcq",
+      "q": "You meet רְאִיתִיו in a novel. What does it mean?",
+      "choices": ["I saw him", "he saw me", "I will see him", "he was seen"],
+      "a": 0,
+      "why": "It is רָאִיתִי with the object folded onto the end: תִּי is still \"I\" and the final ו is \"him\". Nothing is added to the meaning; only the register changes." },
+
+    { "id": "pronoun-suffixes-verbs-02", "type": "mcq",
+      "q": "Should you use רְאִיתִיו when you speak?",
+      "choices": ["No: recognise it in print and say רָאִיתִי אוֹתוֹ", "Yes, it is the ordinary spoken form", "Yes, but only with people you know well", "No, because it is not correct Hebrew"],
+      "a": 0,
+      "why": "This chapter is a reading skill and nothing else. The form is perfectly correct and perfectly alive in law, literature and liturgy, and out of a learner's mouth it sounds like a nineteenth century novel walking about." },
+
+    { "id": "pronoun-suffixes-verbs-03", "type": "mcq",
+      "q": "Which ending on a verb means \"her\"?",
+      "choices": ["הָ", "וֹ", "ם", "נִי"],
+      "a": 0,
+      "why": "The set is וֹ him, הָ her, ם them, ךָ you, נִי me, נוּ us, and it is the same set that hangs off a preposition in עָלֶיהָ or a noun in סִפְרוֹ. Hebrew has one collection of pronoun suffixes and attaches it to whatever will take it." },
+
+    { "id": "pronoun-suffixes-verbs-04", "type": "fill",
+      "q": "Rewrite רְאִיתִיו the ordinary way, with the pronoun riding on אֶת.",
+      "a": ["רָאִיתִי אוֹתוֹ"],
+      "why": "Unfolding is mechanical: take the ending off, restore the verb's own vowels, and put the pronoun back on אֶת as אוֹתוֹ. The kamatz that thinned to a shva in רְאִיתִיו comes back once the stress moves off the ending." },
+
+    { "id": "pronoun-suffixes-verbs-05", "type": "fill",
+      "q": "Rewrite שְׁמַרְתִּים the ordinary way.",
+      "a": ["שָׁמַרְתִּי אוֹתָם"],
+      "why": "The ם at the end is \"them\", and what is left in front of it is an ordinary first person past tense. Whenever you see תִּיו, תִּים or תִּיהָ closing a word, cut the ending off and a plain תִּי verb is standing underneath." },
+
+    { "id": "pronoun-suffixes-verbs-06", "type": "fill",
+      "q": "Chop the ending off מְצָאתִיהָ. Write the verb that is left, on its own.",
+      "a": ["מָצָאתִי"],
+      "why": "מָצָאתִי, \"I found\", and the הָ that came off is the object, \"her\". That chopping test is the whole recognition trick: if a verb you know is left behind, the piece you removed was the object." },
+
+    { "id": "pronoun-suffixes-verbs-07", "type": "mcq",
+      "q": "A court report has הַחְלָטָה לְפַטְּרוֹ. What was decided?",
+      "choices": ["to dismiss him", "to detain him", "to release him", "to summon him"],
+      "a": 0,
+      "why": "לְפַטֵּר plus וֹ, with the tzere of the last syllable thinning to a shva to make room. The other three turn up in the same genre as לְעוֹצְרוֹ, לְשַׁחְרְרוֹ and לְזַמְּנוֹ, built exactly the same way." },
+
+    { "id": "pronoun-suffixes-verbs-08", "type": "mcq",
+      "q": "בֵּית הַמִּשְׁפָּט הוֹרָה לְשַׁחְרְרוֹ לְמַעֲצַר בַּיִת. What did the court order?",
+      "choices": ["that he be released to house arrest", "that he be held until the trial", "that he be summoned to testify", "that he be dismissed from his post"],
+      "a": 0,
+      "why": "The infinitive with an ending is the one form of this system you will genuinely meet, because court reporting runs on it. לַעֲצוֹר אוֹתוֹ and לְשַׁחְרֵר אוֹתוֹ are equally correct Hebrew and are simply not that genre's house style." },
+
+    { "id": "pronoun-suffixes-verbs-09", "type": "mcq",
+      "q": "What does לְהַכִּירָהּ mean?",
+      "choices": ["to get to know her", "to get to know him", "she knows him", "to be known"],
+      "a": 0,
+      "why": "לְהַכִּיר plus הָ, \"her\". The mappiq dot inside the final ה is what marks it as a consonant and so as the pronoun, rather than the plain ה that ends a feminine noun." },
+
+    { "id": "pronoun-suffixes-verbs-10", "type": "mcq",
+      "q": "Why can אָמַר לוֹ not be compressed into one word?",
+      "choices": ["לוֹ is a preposition with an ending, not the verb's object", "אָמַר is an irregular verb", "the sentence is already in the spoken register", "it can: the one word is אֲמָרוֹ"],
+      "a": 0,
+      "why": "Only a pronoun that was riding on אֶת may climb onto the verb, and לוֹ is לְ with an ending. אֲמָרוֹ is a real word, but it means \"he said it\", which is a different sentence." },
+
+    { "id": "pronoun-suffixes-verbs-11", "type": "mcq",
+      "q": "Is עָלָיו a formal word you should avoid saying?",
+      "choices": ["No, it is the everyday form and the only one there is", "Yes, speech says עַל אוֹתוֹ", "Yes, speech says עַל הוּא", "Only in the past tense"],
+      "a": 0,
+      "why": "This is the line that matters: a preposition in Hebrew must take its pronoun as a suffix, so עָלָיו and מִמֶּנּוּ have no alternative at all. A verb may take one, and in speech never does." },
+
+    { "id": "pronoun-suffixes-verbs-12", "type": "order",
+      "q": "Build the ordinary version of שְׁמָרוֹ: he kept it",
+      "words": ["הוּא", "שָׁמַר", "אוֹתוֹ"],
+      "a": ["הוּא", "שָׁמַר", "אוֹתוֹ"],
+      "why": "שְׁמָרוֹ packs all three words into one, and the vowels show the squeeze: the kamatz of שָׁמַר thins to a shva once the stress moves onto the ending. Speech puts the pronoun back in too, where the formal register trusts the morphology." },
+
+    { "id": "pronoun-suffixes-verbs-13", "type": "listen",
+      "say": "רָאִיתִי אוֹתוֹ בַּשַּׁעַר",
+      "q": "Type what you hear.",
+      "a": ["רָאִיתִי אוֹתוֹ בַּשַּׁעַר", "ראיתי אותו בשער"],
+      "why": "This is the sentence that רְאִיתִיו בַּשַּׁעַר compresses, and it is the one you should be able to produce. Hearing the two apart is the whole point: the written form is a single word, the spoken one is three." },
+
+    { "id": "pronoun-suffixes-verbs-14", "type": "say",
+      "q": "Say this out loud.",
+      "target": "דִּיבַּרְתִּי אִיתּוֹ עָלֶיהָ",
+      "why": "Both pronouns here are suffixes, on אִת and on עַל, and both are everyday Hebrew. This half of the system you use constantly; the half that sits on a verb you only read." },
+
+    { "id": "pronoun-suffixes-verbs-15", "type": "open",
+      "q": "Explain the trick for spotting an object ending on an unfamiliar verb, and say which suffix looks like one and is not.",
+      "a": ["Chop וֹ, הָ, ם, ן, ךָ, נִי or נוּ off the end and see whether a verb you know is left: if it is, the piece you removed is the object, as in מְצָאתִיהָ which leaves מָצָאתִי. A suffix on a preposition is not an object: אָמַר לוֹ keeps its pronoun on לְ, דִּיבַּרְתִּי אִיתּוֹ on עִם and פָּנִיתִי אֵלֶיהָ on אֶל, and only a pronoun that was riding on אֶת can climb onto the verb."],
+      "why": "One set of endings does three jobs in Hebrew: object of a verb, object of a preposition, possessor of a noun. Telling which job it is doing is a matter of what the ending is sitting on, not of what the ending looks like." }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "a1-02-ba-shuk",
+  "title": "בַּשּׁוּק",
+  "level": "A1",
+  "blurb": "A shopping list at the market: numbers, quantities in smichut, יֵשׁ and אֵין, and this and that.",
+  "grammar": [
+    "numbers",
+    "smichut",
+    "yesh-ein",
+    "demonstratives"
+  ],
+  "text": "יוֹם שִׁישִּׁי, יוֹתָם הוֹלֵךְ לַשּׁוּק עִם אִמָּא שֶׁלּוֹ.\nיֵשׁ לָהּ רְשִׁימָה: קִילוֹ תַּפּוּחִים, שֵׁשׁ בֵּיצִים, לֶחֶם וּקְצָת גְּבִינָה.\nיוֹתָם נוֹשֵׂא אֶת הַסַּל.\n\nלִפְנֵיהֶם יֵשׁ הַרְבֵּה אֲנָשִׁים.\nהַמּוֹכֵר מוֹכֵר עַגְבָנִיּוֹת בְּשִׁישָּׁה שְׁקָלִים הַקִּילוֹ.\n“שְׁנֵי קִילוֹ עַגְבָנִיּוֹת, בְּבַקָּשָׁה”, אוֹמֶרֶת אִמָּא שֶׁל יוֹתָם.\nהַמּוֹכֵר סוֹפֵר אֶת הַכֹּל: “עֶשְׂרִים וּשְׁנַיִם שְׁקָלִים וַחֲמִישִּׁים”.\n\nבָּרְחוֹב יוֹתָם סוֹפֵר אֶת הַכֹּל שׁוּב.\nהוּא רוֹאֶה תַּפּוּחִים, בֵּיצִים, לֶחֶם וְעַגְבָנִיּוֹת.\nאֵין גְּבִינָה.\n“אִמָּא, אֵין לָנוּ גְּבִינָה!”\n\nאִמָּא שֶׁלּוֹ מְחַיֶּיכֶת.\nהִיא מִסְתַּכֶּלֶת עַל הַיָּד הַיְּמָנִית שֶׁל יוֹתָם.\nבַּיָּד הַזֹּאת יֵשׁ חֲתִיכָה גְּדוֹלָה שֶׁל גְּבִינָה.",
+  "gloss": {
+    "רְשִׁימָה": "list",
+    "סַל": "basket",
+    "נוֹשֵׂא": "carries",
+    "שְׁקָלִים": "shekels",
+    "מְחַיֶּיכֶת": "smiles",
+    "מִסְתַּכֶּלֶת": "looks at",
+    "יְמָנִית": "right, right-hand",
+    "חֲתִיכָה": "piece"
+  },
+  "aloud": [
+    "יוֹתָם הוֹלֵךְ לַשּׁוּק עִם אִמָּא שֶׁלּוֹ.",
+    "שְׁנֵי קִילוֹ עַגְבָנִיּוֹת, בְּבַקָּשָׁה"
+  ],
+  "questions": [
+    {
+      "id": "a1-02-01",
+      "type": "mcq",
+      "q": "How many kilos of tomatoes does Yotam's mother buy?",
+      "choices": [
+        "One kilo",
+        "Two kilos",
+        "Six kilos",
+        "Twenty-two kilos"
+      ],
+      "a": 1,
+      "why": "She asks for שְׁנֵי קִילוֹ. The שִׁישָּׁה is the price per kilo and the שֵׁשׁ belongs to the eggs: the passage stacks three numbers close together on purpose."
+    },
+    {
+      "id": "a1-02-02",
+      "type": "mcq",
+      "q": "Where is the cheese at the end?",
+      "choices": [
+        "In the basket",
+        "Still at the stall",
+        "In Yotam's hand",
+        "At home"
+      ],
+      "a": 2,
+      "why": "The turn: he has been holding it the whole time. בַּיָּד הַזֹּאת יֵשׁ חֲתִיכָה גְּדוֹלָה שֶׁל גְּבִינָה."
+    },
+    {
+      "id": "a1-02-03",
+      "type": "fill",
+      "q": "Two kilos of tomatoes: ___ קִילוֹ עַגְבָנִיּוֹת.",
+      "a": [
+        "שְׁנֵי",
+        "שני"
+      ],
+      "why": "שְׁנַיִם shortens to שְׁנֵי in front of the noun it counts, and שְׁתַּיִם to שְׁתֵּי. It is the one Hebrew number that changes shape before its noun."
+    },
+    {
+      "id": "a1-02-04",
+      "type": "fill",
+      "q": "Write the price in words: 22",
+      "a": [
+        "עֶשְׂרִים וּשְׁנַיִם",
+        "עשרים ושניים",
+        "עשרים ושנים"
+      ],
+      "why": "Tens come first and the unit is joined with וְ: עֶשְׂרִים וּשְׁנַיִם. The vav becomes וּ before the sheva of שְׁ, which is why it is written וּשְׁנַיִם and not וְשְׁנַיִם."
+    },
+    {
+      "id": "a1-02-05",
+      "type": "mcq",
+      "q": "Make it negative: יֵשׁ לָנוּ גְּבִינָה. →",
+      "choices": [
+        "אֵין לָנוּ גְּבִינָה.",
+        "לֹא יֵשׁ לָנוּ גְּבִינָה.",
+        "יֵשׁ לָנוּ לֹא גְּבִינָה.",
+        "אֵין לָנוּ אֶת גְּבִינָה."
+      ],
+      "a": 0,
+      "why": "Having is יֵשׁ לְ and not having is אֵין לְ. The pronoun ending stays on the לְ: לָנוּ, לוֹ, לָהּ. An indefinite thing owned never takes אֶת."
+    },
+    {
+      "id": "a1-02-06",
+      "type": "mcq",
+      "q": "Why does the text say בַּיָּד הַזֹּאת and not בַּיָּד הַזֶּה?",
+      "choices": [
+        "Because the hand is far away",
+        "Because יָד is feminine",
+        "Because it comes after a preposition",
+        "Because it is plural"
+      ],
+      "a": 1,
+      "why": "This and that agree with their noun: זֶה for masculine, זֹאת for feminine, אֵלֶּה for both plurals. יָד is feminine even though it has no ־ָה ending, and it takes the definite article twice: הַיָּד הַזֹּאת."
+    },
+    {
+      "id": "a1-02-07",
+      "type": "open",
+      "q": "Write your own shopping list in Hebrew: five items, each with a number or a quantity.",
+      "a": [
+        "קִילוֹ תַּפּוּחִים, שְׁתֵּי פִּיתּוֹת, קְצָת גְּבִינָה, שֵׁשׁ בֵּיצִים וּבַקְבּוּק מַיִם."
+      ],
+      "why": "A list forces the two Hebrew quantity patterns to alternate: a bare number in front of the noun (שֵׁשׁ בֵּיצִים) and a measure word bound to it in smichut (קִילוֹ תַּפּוּחִים), with no word for *of* in between."
+    }
+  ]
+}

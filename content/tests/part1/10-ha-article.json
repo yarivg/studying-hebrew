@@ -1,0 +1,89 @@
+{
+ "ch": "ha-article",
+ "title": "The definite article ה",
+ "questions": [
+  { "id": "ha-article-01", "type": "mcq",
+    "q": "How do you say \"a house\" in Hebrew?",
+    "choices": ["בַּיִת", "הַבַּיִת", "אֶחָד בַּיִת", "בַּיִת אֶחָד"],
+    "a": 0,
+    "why": "Hebrew has no indefinite article. A bare noun is already \"a house\", and adding הַ is what makes it definite, so there is nothing to translate \"a\" with." },
+
+  { "id": "ha-article-02", "type": "mcq",
+    "q": "What does the article change about the noun it sits on?",
+    "choices": ["nothing: not the gender, not the number, not the word", "the ending, which becomes plural", "the gender, which becomes masculine", "the stress, which moves to the front"],
+    "a": 0,
+    "why": "One prefix serves a masculine singular, a feminine plural and everything between: הַסֵּפֶר, הַיְלָדִים, הַמִּשְׁפָּחָה. After French or German this is a genuine gift." },
+
+  { "id": "ha-article-03", "type": "fill",
+    "q": "Make סֵפֶר definite.",
+    "a": ["הַסֵּפֶר"],
+    "why": "The prefix goes on and the word itself is untouched. The dot that appears inside the first letter is the old doubling the article used to cause, and modern Israeli Hebrew does not pronounce it." },
+
+  { "id": "ha-article-04", "type": "mcq",
+    "q": "Why does the סָמֶךְ of הַסֵּפֶר carry a dot that the bare word does not have?",
+    "choices": ["the article historically doubled the following consonant", "it marks the start of a definite word", "it shows where the stress falls", "it marks the noun as masculine"],
+    "a": 0,
+    "why": "The dagesh is a record of a doubling nobody says any more, so you can read past it. It matters on בּ כּ פּ, where the dot is audible: הַכֶּלֶב is hakelev, not hakhelev." },
+
+  { "id": "ha-article-05", "type": "fill",
+    "q": "Make עִיר definite.",
+    "a": ["הָעִיר"],
+    "why": "A guttural refuses the dagesh, so the article lengthens its own vowel instead. Read הָ and הֶ as the same article wearing a different vowel, not as some other word." },
+
+  { "id": "ha-article-06", "type": "mcq",
+    "q": "Which group of letters refuses a dagesh, forcing the article to lengthen its vowel?",
+    "choices": ["אָלֶף, הֵא, חֵית, עַיִן and רֵישׁ", "בֵּית, כַּף and פֵּא", "the five final letters", "שִׁין and שִׂין"],
+    "a": 0,
+    "why": "The four gutturals plus רֵישׁ will not take the dot, which is why it is הָאִישׁ, הָעִיר, הָרְחוֹב. Before an unstressed חָ or הָ the article goes further and becomes הֶ, as in הֶחָבֵר." },
+
+  { "id": "ha-article-07", "type": "fill",
+    "q": "Write \"in the house\" as the single word Hebrew makes of it.",
+    "a": ["בַּבַּיִת"],
+    "why": "בְּ plus הַ fuses to בַּ: the ה is swallowed and its vowel moves onto the preposition. לְ and כְּ do the same, giving לַבַּיִת and כַּבַּיִת." },
+
+  { "id": "ha-article-08", "type": "mcq",
+    "q": "Which of these is simply wrong, rather than a matter of style?",
+    "choices": ["בְּהַבַּיִת", "בַּבַּיִת", "לַבַּיִת", "כַּבַּיִת"],
+    "a": 0,
+    "why": "The fusion is compulsory. Writing the preposition and the article separately is not an old-fashioned spelling or a formal register, it is a mistake." },
+
+  { "id": "ha-article-09", "type": "fill",
+    "q": "Write \"from the city\", where the preposition does not swallow the article.",
+    "a": ["מֵהָעִיר"],
+    "why": "מִן behaves unlike בְּ, לְ and כְּ: it contracts to מֵ and leaves the ה standing where you can see it. So מֵהַבַּיִת keeps its article and בַּבַּיִת has hidden one." },
+
+  { "id": "ha-article-10", "type": "order",
+    "q": "Build the phrase: the big house",
+    "words": ["הַגָּדוֹל", "הַבַּיִת"],
+    "a": ["הַבַּיִת", "הַגָּדוֹל"],
+    "why": "Once a noun is definite, everything hanging off it must be too, so the describing word repeats the ה. With only one ה this stops being a phrase at all." },
+
+  { "id": "ha-article-11", "type": "order",
+    "q": "Build the sentence: the house is big",
+    "words": ["גָּדוֹל", "הַבַּיִת"],
+    "a": ["הַבַּיִת", "גָּדוֹל"],
+    "why": "Same two words, one ה fewer, and it is now a statement rather than a thing. Definite noun plus indefinite description is the commonest sentence shape in beginner's Hebrew, and dropping that second ה by accident is the commonest beginner's mistake." },
+
+  { "id": "ha-article-12", "type": "say",
+    "q": "Say this out loud: the small girl is in the house.",
+    "target": "הַיַּלְדָּה הַקְּטַנָּה בַּבַּיִת",
+    "why": "Three definite words and only two visible articles, because the third is fused inside בַּ. Say it as ha-yal-DA ha-kta-NA ba-BA-yit and listen to how often ha comes round."},
+
+  { "id": "ha-article-13", "type": "mcq",
+    "q": "Why does תֵּל אָבִיב never take הַ?",
+    "choices": ["a proper name is already definite", "names beginning with a תָּו refuse the article", "city names take the article only in writing", "the article is only used on masculine nouns"],
+    "a": 0,
+    "why": "Names of people, cities and countries are definite by nature, and so is a noun with a possessive on it: הַסֵּפֶר שֶׁלִּי keeps one ה and adds nothing. A few frozen names carry the article as part of themselves, such as הַנֶּגֶב." },
+
+  { "id": "ha-article-14", "type": "listen",
+    "say": "הַכֶּלֶב בַּבַּיִת",
+    "q": "Type what you hear.",
+    "a": ["הַכֶּלֶב בַּבַּיִת"],
+    "why": "Two definite nouns, but only one visible ה: the second is hiding inside the fused בַּ. The ear hears ha twice, which is the clue that both words are definite." },
+
+  { "id": "ha-article-15", "type": "open",
+    "q": "What is the difference between הַבַּיִת הַגָּדוֹל and הַבַּיִת גָּדוֹל, and why does one letter carry it?",
+    "a": ["הַבַּיִת הַגָּדוֹל is a phrase, the big house: both words are definite, so they lock together into one thing. הַבַּיִת גָּדוֹל is a whole sentence, the house is big: the describing word does not match the noun in definiteness, so it cannot be describing it, and the only reading left is a statement about it."],
+    "why": "One letter is the difference between naming a thing and saying something about it, which is why beginners who drop it are understood to have said something else entirely. Chapter 12 turns this into a rule you can apply in both directions." }
+ ]
+}

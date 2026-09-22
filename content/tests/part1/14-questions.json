@@ -1,0 +1,83 @@
+{
+ "ch": "questions",
+ "title": "Questions",
+ "questions": [
+  { "id": "questions-01", "type": "mcq",
+    "q": "Which word asks \"where\"?",
+    "choices": ["אֵיפֹה", "מָתַי", "אֵיךְ", "מִי"],
+    "a": 0,
+    "why": "אֵיפֹה asks about a location that is standing still. מָתַי asks when, אֵיךְ asks how, and מִי asks who: four different words where English reuses the same question shape." },
+
+  { "id": "questions-02", "type": "mcq",
+    "q": "You are talking to a friend in a kitchen and want to ask \"why?\". Which word do you use?",
+    "choices": ["לָמָּה", "מַדּוּעַ", "כַּמָּה", "מֵאַיִן"],
+    "a": 0,
+    "why": "לָמָּה and מַדּוּעַ mean exactly the same thing, but מַדּוּעַ belongs to the news and to formal writing. Using it in conversation sounds like reciting rather than talking." },
+
+  { "id": "questions-03", "type": "fill",
+    "q": "Write the Hebrew question word that means \"when\".",
+    "a": ["מָתַי"],
+    "why": "מָתַי goes straight on the front of the statement: מָתַי הַשִּׁיעוּר? is the sentence הַשִּׁיעוּר with one word added and nothing moved." },
+
+  { "id": "questions-04", "type": "mcq",
+    "q": "What happens to the word order of a Hebrew statement when it becomes a question?",
+    "choices": ["Nothing changes; the question word just goes on the front", "The subject and the verb swap places", "A helper word like English \"do\" is added", "The question word goes at the end"],
+    "a": 0,
+    "why": "English inverts (\"are you a student\") or borrows a helper (\"does he live here\"). Hebrew does neither, and in a present-tense sentence there is nothing to invert anyway, because there is no verb in it." },
+
+  { "id": "questions-05", "type": "order",
+    "q": "Build the question: where is the book?",
+    "words": ["אֵיפֹה", "הַסֵּפֶר"],
+    "a": ["אֵיפֹה", "הַסֵּפֶר"],
+    "why": "The question word comes first and the statement follows it untouched. There is no word for \"is\", so the two words are the whole question." },
+
+  { "id": "questions-06", "type": "fill",
+    "q": "Which word means \"which\" in front of a feminine noun such as מַחְבֶּרֶת?",
+    "a": ["אֵיזוֹ"],
+    "why": "אֵיזוֹ agrees with a feminine noun and אֵיזֶה with a masculine one, the way an adjective would. In fast speech most Israelis use אֵיזֶה for both, but the written pair is worth knowing." },
+
+  { "id": "questions-07", "type": "mcq",
+    "q": "Which of these asks \"how many pupils?\"",
+    "choices": ["כַּמָּה תַּלְמִידִים?", "אֵיךְ תַּלְמִידִים?", "מָה תַּלְמִידִים?", "אֵיזֶה תַּלְמִידִים?"],
+    "a": 0,
+    "why": "כַּמָּה covers both \"how many\" and \"how much\", and it takes the noun straight after it. אֵיךְ asks about manner, which is why אֵיךְ הָאוֹכֶל? is \"how is the food\" and not \"how much food\"." },
+
+  { "id": "questions-08", "type": "order",
+    "q": "Build the question: who is this man?",
+    "words": ["מִי", "הָאִישׁ", "הַזֶּה"],
+    "a": ["מִי", "הָאִישׁ", "הַזֶּה"],
+    "why": "מִי leads, then the noun phrase in its usual order, with הַזֶּה after the definite noun as in chapter 13. Nothing is added to make it a question." },
+
+  { "id": "questions-09", "type": "fill",
+    "q": "Write the formal marker that turns a statement into a yes/no question in writing.",
+    "a": ["הַאִם"],
+    "why": "It sits at the front and changes nothing else: הַאִם זֶה נָכוֹן? Almost nobody says it out loud, so treat it as something to recognise in a form or a contract rather than to use." },
+
+  { "id": "questions-10", "type": "mcq",
+    "q": "You want to ask a woman where she is from. Which is right?",
+    "choices": ["מֵאַיִן אַתְּ?", "לְאָן אַתְּ?", "אֵיפֹה אַתְּ?", "מֵאַיִן אַתָּה?"],
+    "a": 0,
+    "why": "מֵאַיִן asks about an origin, לְאָן about a destination and אֵיפֹה about a place standing still. אַתְּ is the feminine \"you\"; אַתָּה would be addressing a man." },
+
+  { "id": "questions-11", "type": "listen",
+    "say": "מַה זֶה?",
+    "q": "Type what you hear.",
+    "a": ["מַה זֶה"],
+    "why": "Two syllables that turn anything you can point at into vocabulary. There is no word for \"is\" between them, so what you hear is exactly the two words." },
+
+  { "id": "questions-12", "type": "say",
+    "q": "Ask where the notebook is.",
+    "target": "אֵיפֹה הַמַּחְבֶּרֶת?",
+    "why": "Question words carry their own stress, but the sentence keeps its ordinary shape. Do not push the voice up at the end here: the rise belongs to a yes/no question, and this one already has a question word." },
+
+  { "id": "questions-13", "type": "say",
+    "q": "Ask \"is the coffee hot?\" using intonation alone.",
+    "target": "הַקָּפֶה חַם?",
+    "why": "The statement הַקָּפֶה חַם and the question are the same three syllables; only the rise on the last one separates them, and the Hebrew rise is steeper than the English one. Deliver it flat and you will get a puzzled look instead of an answer." },
+
+  { "id": "questions-14", "type": "open",
+    "q": "Hebrew has no equivalent of the English \"do\" in questions. Explain what it uses instead, and what happens to the word order.",
+    "a": ["Nothing is added and nothing moves. An information question puts a question word such as מַה, מִי or אֵיפֹה on the front of the statement and leaves the rest alone; a yes/no question changes only the intonation, with a rise on the last syllable, or in formal writing adds הַאִם at the front."],
+    "why": "English needs a helper verb because its questions are built by moving things around. Hebrew builds them by addition and by voice, which is why a present-tense question looks identical to the statement it came from." }
+ ]
+}

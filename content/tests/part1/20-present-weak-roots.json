@@ -1,0 +1,89 @@
+{
+ "ch": "present-weak-roots",
+ "title": "Present tense when a letter goes missing",
+ "questions": [
+  { "id": "present-weak-roots-01", "type": "mcq",
+    "q": "What is the feminine singular of רוֹצֶה, \"wants\"?",
+    "choices": ["רוֹצָה", "רוֹצֵאת", "רוֹצֶתֶת", "רוֹצוֹת"],
+    "a": 0,
+    "why": "The third root letter is a ה that is not pronounced, so there is nothing left for the ־ֶת ending of chapter 19 to attach to and the word takes the plain feminine ־ָה. רוֹצֵאת is what the ear keeps producing by analogy with כּוֹתֶבֶת, and it is wrong." },
+
+  { "id": "present-weak-roots-02", "type": "mcq",
+    "q": "An infinitive that ends in וֹת, such as לִקְנוֹת or לִרְאוֹת, belongs to which family?",
+    "choices": ["ל\"ה, where the third root letter is a ה", "ע\"ו, where the middle letter vanishes", "ל\"א, where the third letter is a silent א", "the sound roots of chapter 19"],
+    "a": 0,
+    "why": "The infinitive ending is the free giveaway: לִרְצוֹת, לִקְנוֹת, לִשְׁתּוֹת, לַעֲשׂוֹת, לִרְאוֹת are all ל\"ה. Knowing the family tells you the feminine ending, which is the only thing you have to decide." },
+
+  { "id": "present-weak-roots-03", "type": "fill",
+    "q": "Write the masculine plural present of לִקְנוֹת, \"to buy\".",
+    "a": ["קוֹנִים"],
+    "why": "With the third root letter gone, the plural endings ־ִים and ־וֹת go straight onto a bare two-consonant stem: קוֹנִים, קוֹנוֹת. There is no trace of the ה in any of the four forms." },
+
+  { "id": "present-weak-roots-04", "type": "mcq",
+    "q": "גָּר, קָם and בָּא look exactly like adjectives: one syllable, kamatz, ־ָה in the feminine. What are they?",
+    "choices": ["verbs, with a middle root letter that has vanished", "adjectives that can also be used as verbs", "nouns for the person doing the action", "irregular participles with no root at all"],
+    "a": 0,
+    "why": "The ו or י in the middle of the root shows up in the infinitive and nowhere in the present, which is what leaves only two consonants. אֲנִי גָּר בְּתֵל אָבִיב is a full sentence with a verb in it, not \"I am resident\"." },
+
+  { "id": "present-weak-roots-05", "type": "fill",
+    "q": "Write the feminine plural present of לָגוּר, \"to live somewhere\".",
+    "a": ["גָּרוֹת"],
+    "why": "The root is ג-ו-ר and you can see the ו in the infinitive and in none of the four present forms. Note the infinitive starts with לָ, with a kamatz, where a sound root had לִ: another free clue to the family." },
+
+  { "id": "present-weak-roots-06", "type": "fill",
+    "q": "Write the feminine singular present of לָקוּם, \"to get up\".",
+    "a": ["קָמָה"],
+    "why": "This family takes the plain ־ָה feminine, like the ל\"ה verbs and unlike the sound roots. Two consonants and an ending is the whole word." },
+
+  { "id": "present-weak-roots-07", "type": "mcq",
+    "q": "What is the feminine singular of קוֹרֵא, \"reads\"?",
+    "choices": ["קוֹרֵאת", "קוֹרָה", "קוֹרֵאָה", "קוֹרְאוֹת"],
+    "a": 0,
+    "why": "A ל\"א root is not missing a letter, only a sound: the א is written in every form and pronounced in none. Nothing has dropped out, so the ־ֶת ending of chapter 19 still has something to attach to." },
+
+  { "id": "present-weak-roots-08", "type": "fill",
+    "q": "Write the masculine plural present of לָצֵאת, \"to go out\".",
+    "a": ["יוֹצְאִים"],
+    "why": "The א stays on the page and stays silent, and the plural endings behave exactly as they did on a sound root. Compare מוֹצְאִים from לִמְצוֹא, built the same way." },
+
+  { "id": "present-weak-roots-09", "type": "mcq",
+    "q": "What is the difference between רָצָה and רוֹצָה?",
+    "choices": ["רָצָה is \"she runs\", רוֹצָה is \"she wants\"", "רָצָה is \"she wants\", רוֹצָה is \"she runs\"", "they are the same word, spelled two ways", "one is singular and the other plural"],
+    "a": 0,
+    "why": "רָצָה is ע\"ו, from לָרוּץ, and רוֹצָה is ל\"ה, from לִרְצוֹת. Unpointed they are רצה and רוצה, so the ו is the only thing telling them apart on a page; in speech it is /ratza/ against /rotza/." },
+
+  { "id": "present-weak-roots-10", "type": "order",
+    "q": "Build the sentence: I live in Jerusalem",
+    "words": ["אֲנִי", "גָּר", "בִּירוּשָׁלַיִם"],
+    "a": ["אֲנִי", "גָּר", "בִּירוּשָׁלַיִם"],
+    "why": "The pronoun is compulsory, as in every present-tense sentence, and the prefix בְּ is glued to the place name as one word. A woman would say the same sentence with גָּרָה." },
+
+  { "id": "present-weak-roots-11", "type": "order",
+    "q": "Build the sentence: she is reading a book",
+    "words": ["הִיא", "קוֹרֵאת", "סֵפֶר"],
+    "a": ["הִיא", "קוֹרֵאת", "סֵפֶר"],
+    "why": "A ל\"א verb keeps the ־ֵאת feminine ending, and the object is indefinite so nothing stands in front of it. Make it הַסֵּפֶר and אֶת would have to appear." },
+
+  { "id": "present-weak-roots-12", "type": "mcq",
+    "q": "How does a group say \"we are drinking water\"?",
+    "choices": ["אֲנַחְנוּ שׁוֹתִים מַיִם", "אֲנַחְנוּ שׁוֹתְבִים מַיִם", "אֲנַחְנוּ שׁוֹתֶה מַיִם", "אֲנַחְנוּ שׁוֹתוֹת מַיִם גְּדוֹלִים"],
+    "a": 0,
+    "why": "לִשְׁתּוֹת is ל\"ה, so the plural is the bare stem plus ־ִים. שׁוֹתוֹת would be a group of women, and the singular שׁוֹתֶה cannot take a plural subject." },
+
+  { "id": "present-weak-roots-13", "type": "listen",
+    "say": "אֲנִי רוֹצָה קָפֶה",
+    "q": "Type what you hear.",
+    "a": ["אֲנִי רוֹצָה קָפֶה"],
+    "why": "The speaker is a woman, and the only thing telling you so is the final /a/ of the verb. A man says the identical sentence with רוֹצֶה, which unpointed is the very same three letters." },
+
+  { "id": "present-weak-roots-14", "type": "say",
+    "q": "Say \"they are coming today\", about a group of men.",
+    "target": "הֵם בָּאִים הַיּוֹם",
+    "why": "בָּאִים is two syllables, ba-IM, with a clear break where the א sits: not \"bime\". The verb is from לָבוֹא, and the ו of the root never surfaces in the present." },
+
+  { "id": "present-weak-roots-15", "type": "open",
+    "q": "Give the rule for the feminine singular ending across the three weak families in this chapter, with an example of each.",
+    "a": ["A missing third letter (ל\"ה) and a two-consonant root (ע\"ו) both take the plain ־ָה: רוֹצָה, גָּרָה. A silent alef (ל\"א) keeps the ־ֶת of chapter 19 in the shape ־ֵאת: קוֹרֵאת, just as a sound root gives כּוֹתֶבֶת. Decide which family the verb is in and the ending follows."],
+    "why": "The families are worth learning because they are the frequent verbs, not the advanced ones: want, buy, drink, do, see, live, get up, come and read are all in this chapter." }
+ ]
+}

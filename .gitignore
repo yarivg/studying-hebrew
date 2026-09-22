@@ -1,0 +1,11 @@
+# Machine-local Claude Code settings
+.claude/settings.local.json
+
+# Throwaway drill pages and the running log live in the scratchpad, never here
+drill-*.html
+test-*.html
+questions-*.js
+hebrew-progress-log.md
+
+# OS noise
+.DS_Store

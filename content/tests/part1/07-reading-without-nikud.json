@@ -1,0 +1,82 @@
+{
+ "ch": "reading-without-nikud",
+ "title": "Reading without nikud",
+ "questions": [
+  { "id": "reading-without-nikud-01", "type": "mcq",
+    "q": "Which of these is normally printed with nikud in Israel?",
+    "choices": ["a children's book", "a newspaper", "a bus timetable", "a message on the phone"],
+    "a": 0,
+    "why": "The points survive in dictionaries, poetry, children's books, sacred texts and language courses. Everything written for adults goes without them, because the reader already knows what the words are." },
+
+  { "id": "reading-without-nikud-02", "type": "mcq",
+    "q": "When the points come off a Hebrew word, what is left on the page?",
+    "choices": ["the root consonants plus the letters the pattern adds", "the root and nothing else", "the vowels, written out as full letters", "only the stressed syllable"],
+    "a": 0,
+    "why": "An unpointed word is not a damaged word. The root carries the meaning and the pattern contributes its own consonants, so most of the information is still printed: כְּתוֹבֶת keeps the ו and the ת that tell you it is not כָּתַב." },
+
+  { "id": "reading-without-nikud-03", "type": "mcq",
+    "q": "What does אֵין mean?",
+    "choices": ["there is not", "there is", "with", "all, every"],
+    "a": 0,
+    "why": "יֵשׁ and אֵין are a pair: there is, there is not. Both belong to the handful of words that turn up in nearly every sentence, and those are recognised as shapes rather than decoded letter by letter." },
+
+  { "id": "reading-without-nikud-04", "type": "mcq",
+    "q": "Which single-letter prefix means \"that, who, which\"?",
+    "choices": ["שֶׁ", "כְּ", "מִ", "וְ"],
+    "a": 0,
+    "why": "The prefixes are הַ the, וְ and, בְּ in, לְ to, מִ from, כְּ like, שֶׁ that. They glue straight onto the next word, so a printed word can be a letter longer than the word you are hunting for." },
+
+  { "id": "reading-without-nikud-05", "type": "fill",
+    "q": "מֵהָעִיר carries two prefixes on its front. Write the noun that is left once you take them off.",
+    "a": ["עִיר"],
+    "why": "מִ is \"from\" and הַ is \"the\", so what remains is the bare noun. When a word will not resolve into anything you know, peel the first letter off and try again." },
+
+  { "id": "reading-without-nikud-06", "type": "fill",
+    "q": "Glue the preposition בְּ onto הַבַּיִת and write the single word that results.",
+    "a": ["בַּבַּיִת"],
+    "why": "The preposition and the article fuse into one syllable, so \"in the house\" is one written word. Unpointed it is three letters plus the noun, and context alone decides whether it is \"in a house\" or \"in the house\"." },
+
+  { "id": "reading-without-nikud-07", "type": "mcq",
+    "q": "The same three bare letters can be read הַסֵּפֶר the book, סִפֵּר he told, or סַפָּר a barber. What decides which one a reader takes?",
+    "choices": ["the rest of the sentence", "the width of the letters", "where the word falls in the line", "the first letter of the next word"],
+    "a": 0,
+    "why": "Context closes the last gap. A word sitting on a table with an article on its front is a book; the same letters after a preposition meaning \"to\" are a person you go to." },
+
+  { "id": "reading-without-nikud-08", "type": "fill",
+    "q": "כּוֹתֵב, כָּתַב, כְּתִיבָה and כַּתָּב all share a root. Which word from that root means \"a letter\", the kind you post?",
+    "a": ["מִכְתָּב"],
+    "why": "The pattern adds a מ on the front, and that מ is exactly what tells the word apart from its relatives once the points are gone. Learning the patterns is learning the vowels." },
+
+  { "id": "reading-without-nikud-09", "type": "fill",
+    "q": "Write the plural of סֵפֶר, the word you would meet unpointed as five bare letters.",
+    "a": ["סְפָרִים"],
+    "why": "The י of the plural ending is written even without points, so the shape of the ending is visible on the page. That is why plural nouns are among the easiest words to read bare." },
+
+  { "id": "reading-without-nikud-10", "type": "order",
+    "q": "Build the sentence: the book is on the table",
+    "words": ["הַשּׁוּלְחָן", "הַסֵּפֶר", "עַל"],
+    "a": ["הַסֵּפֶר", "עַל", "הַשּׁוּלְחָן"],
+    "why": "This is the sentence that forces the reading הַסֵּפֶר rather than סִפֵּר or סַפָּר: a thing with an article on it, sitting on a table. Nothing about the letters decides it, the sentence does." },
+
+  { "id": "reading-without-nikud-11", "type": "listen",
+    "say": "וְהַיֶּלֶד",
+    "q": "Type what you hear.",
+    "a": ["וְהַיֶּלֶד"],
+    "why": "Two prefixes on one noun: וְ and, then הַ the. Bare on the page it is four letters, and the word you are looking up is only the last three." },
+
+  { "id": "reading-without-nikud-12", "type": "say",
+    "q": "Say this out loud.",
+    "target": "בֵּית סֵפֶר",
+    "why": "The same bare letters that spell בַּיִת read as בֵּית inside a compound, where the two words are said as one thing: bet-SE-fer, a school. Recognition, not decoding." },
+
+  { "id": "reading-without-nikud-13", "type": "say",
+    "q": "Say this out loud.",
+    "target": "מֵהָעִיר",
+    "why": "One word, three pieces: mi, ha, ir. Say it as one breath with the stress at the end, me-ha-IR, the way the prefixes are actually pronounced rather than spelled out." },
+
+  { "id": "reading-without-nikud-14", "type": "open",
+    "q": "The chapter says the way to get better at reading unpointed Hebrew is to learn more words, not more rules. Why?",
+    "a": ["Because reading bare Hebrew is recognition rather than decoding: you are not working the vowels out of an unknown word, you are recognising a word you already know from its consonant skeleton. Rules only help once the word is in your head, which is why an unfamiliar name, with no root and no pattern behind it, defeats an Israeli reader too."],
+    "why": "Roots, patterns and the frequent words all do the same job: they let a shape on the page match something you have already heard. Vocabulary is what feeds that match, so it is the thing that scales." }
+ ]
+}

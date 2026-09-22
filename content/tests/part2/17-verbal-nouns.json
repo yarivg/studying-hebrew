@@ -1,0 +1,88 @@
+{
+  "ch": "verbal-nouns",
+  "title": "Verbal nouns",
+  "questions": [
+    { "id": "verbal-nouns-01", "type": "mcq",
+      "q": "What is a שֵׁם הַפְּעוּלָה?",
+      "choices": ["A noun that names the act of doing the verb", "The infinitive of the verb", "The passive form of the verb", "The name of the binyan the verb belongs to"],
+      "a": 0,
+      "why": "שֵׁם הַפְּעוּלָה is literally the name of the action: כְּתִיבָה is writing, הַחְלָטָה is a decision. It is a noun, not a verb form, which is why it takes an article, a gender and a plural." },
+
+    { "id": "verbal-nouns-02", "type": "fill",
+      "q": "Write the verbal noun of כָּתַב.",
+      "a": ["כְּתִיבָה"],
+      "why": "Pa'al puts an ִי between the second and third root letters and an ָה on the end: .ְ.ִי.ָה. The same shape on ק-ר-א gives קְרִיאָה and on א-כ-ל gives אֲכִילָה." },
+
+    { "id": "verbal-nouns-03", "type": "fill",
+      "q": "Write the verbal noun of דִּיבֵּר.",
+      "a": ["דִּיבּוּר"],
+      "why": "Pi'el keeps its own ִי after the first root letter and swaps the verb's vowel for a וּ: .ִי.ּוּ.. So סִיפֵּר gives סִיפּוּר and טִיֵּיל gives טִיּוּל." },
+
+    { "id": "verbal-nouns-04", "type": "fill",
+      "q": "Write the verbal noun of הִתְחִיל.",
+      "a": ["הַתְחָלָה"],
+      "why": "Hif'il trades the הִ of the verb for a הַ and ends in ָה: הַ.ְ.ָ.ָה. הִסְבִּיר gives הַסְבָּרָה and הֶחְלִיט gives הַחְלָטָה the same way." },
+
+    { "id": "verbal-nouns-05", "type": "fill",
+      "q": "Write the verbal noun of הִתְלַבֵּשׁ.",
+      "a": ["הִתְלַבְּשׁוּת"],
+      "why": "Hitpa'el keeps its הִתְ and ends in וּת: הִתְ.ַ.ְּ.וּת. הִתְקַשֵּׁר gives הִתְקַשְּׁרוּת and הִתְפַּתֵּחַ gives הִתְפַּתְּחוּת." },
+
+    { "id": "verbal-nouns-06", "type": "listen",
+      "say": "בְּלִי הַסְבָּרָה",
+      "q": "Type what you hear.",
+      "a": ["בְּלִי הַסְבָּרָה"],
+      "why": "Where English hangs a clause off a preposition, \"without explaining\", Hebrew puts a noun there instead, because a Hebrew preposition wants a noun after it." },
+
+    { "id": "verbal-nouns-07", "type": "mcq",
+      "q": "הַגְדָּלָה is the verbal noun of a verb in which binyan?",
+      "choices": ["hif'il", "pa'al", "pi'el", "hitpa'el"],
+      "a": 0,
+      "why": "The shape הַ.ְ.ָ.ָה is hif'il's and nothing else's, so the root ג-ד-ל plus that shape is הִגְדִּיל, to enlarge, and the noun is an enlargement. The shape names the binyan before you know the word." },
+
+    { "id": "verbal-nouns-08", "type": "mcq",
+      "q": "You meet בְּדִיקָה for the first time. Which binyan is the verb in?",
+      "choices": ["pa'al", "pi'el", "hif'il", "nif'al"],
+      "a": 0,
+      "why": "An ִי between the last two root letters and an ָה on the end is the pa'al shape, so ב-ד-ק gives בָּדַק, to check, and the noun is a check or a test." },
+
+    { "id": "verbal-nouns-09", "type": "mcq",
+      "q": "הִתְרַגְּשׁוּת is the verbal noun of which binyan?",
+      "choices": ["hitpa'el", "nif'al", "pi'el", "pa'al"],
+      "a": 0,
+      "why": "Hitpa'el and nif'al both end in וּת, so the ending alone does not decide it: the הִתְ at the front does. Nif'al's shape is הִי.ָּ.ְ.וּת, as in הִיכָּנְסוּת from נִכְנַס." },
+
+    { "id": "verbal-nouns-10", "type": "order",
+      "q": "Build the phrase: after reading the book",
+      "words": ["אַחֲרֵי", "הַקְּרִיאָה", "בַּסֵּפֶר"],
+      "a": ["אַחֲרֵי", "הַקְּרִיאָה", "בַּסֵּפֶר"],
+      "why": "Preposition plus verbal noun is the default way to say when, why and how. English can put a whole clause after \"after\"; Hebrew reaches for the noun first, and what is read goes in with בְּ." },
+
+    { "id": "verbal-nouns-11", "type": "say",
+      "q": "Say this out loud: the driving lessons.",
+      "target": "שִׁיעוּרֵי הַנְּהִיגָה",
+      "why": "A verbal noun is a noun all the way, so it goes into smikhut like any other. Only the second noun carries the הַ, and the first is in its construct form שִׁיעוּרֵי." },
+
+    { "id": "verbal-nouns-12", "type": "fill",
+      "q": "Write the plural of סִיפּוּר.",
+      "a": ["סִיפּוּרִים"],
+      "why": "The .ִי.ּוּ. shapes are masculine and take ִים. The ָה shapes are feminine, הַחְלָטָה giving הַחְלָטוֹת, and the וּת shapes are feminine and are rarely pluralised at all." },
+
+    { "id": "verbal-nouns-13", "type": "mcq",
+      "q": "Which two binyanim have no verbal noun at all?",
+      "choices": ["פּוּעַל and הוּפְעַל", "נִפְעַל and הִתְפַּעֵל", "פִּיעֵל and הִפְעִיל", "פָּעַל and נִפְעַל"],
+      "a": 0,
+      "why": "The two passives have no verbal noun for the same reason they have no infinitive: there is no doer to name an action for. The five active binyanim are the whole system." },
+
+    { "id": "verbal-nouns-14", "type": "mcq",
+      "q": "מִשְׂרָד, an office, sits on ש-ר-ת. Why is it not a verbal noun?",
+      "choices": ["Its shape is the מִ.ְ.ָ. mishkal, which is not one of the five", "Because it has no root at all", "Because a verbal noun is never masculine", "Because it was borrowed from another language"],
+      "a": 0,
+      "why": "A shape is a good bet, not a guarantee, and a noun that does not match the table exactly is not a verbal noun. The verbal noun on that root is שֵׁירוּת, service, from שֵׁירֵת." },
+
+    { "id": "verbal-nouns-15", "type": "open",
+      "q": "You meet חִיפּוּשׂ and הַפְסָקָה in a text for the first time. Say how you work out what each one is, step by step.",
+      "a": ["חִיפּוּשׂ is .ִי.ּוּ., the pi'el shape, so strip it off and the root is ח-פ-שׂ, to search: a search, and masculine, plural חִיפּוּשִׂים. הַפְסָקָה is הַ.ְ.ָ.ָה, the hif'il shape, so the root is פ-ס-ק, to stop: a break or an interval, and feminine. The shape gives the binyan as well as the meaning, so you also know how to conjugate the verb once you go looking for it."],
+      "why": "This is the whole point of learning five shapes instead of a list of nouns: neither word had to be in a dictionary for you to land within a word of the meaning and know its gender." }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "ch": "smichut",
+  "title": "Smichut: two nouns as one",
+  "questions": [
+    { "id": "smichut-01", "type": "mcq",
+      "q": "What does בֵּית סֵפֶר mean?",
+      "choices": ["a school", "a bookshop", "the house of the book", "a library"],
+      "a": 0,
+      "why": "Literally it is \"house of book\", but the pair behaves as a single word with one main stress, /beit sefer/, and the single word it means is \"school\"." },
+
+    { "id": "smichut-02", "type": "mcq",
+      "q": "In בֵּית סֵפֶר, which word means \"of\"?",
+      "choices": ["בֵּית", "none of them", "סֵפֶר", "שֶׁל"],
+      "a": 1,
+      "why": "Smikhut puts two nouns side by side with nothing between them, and the second defines the first. The \"of\" is carried by the structure itself, which is why there is nothing to translate it with." },
+
+    { "id": "smichut-03", "type": "fill",
+      "q": "Say \"a school\" in Hebrew.",
+      "a": ["בֵּית סֵפֶר"],
+      "why": "The first noun goes into the construct state, a shortened shape that exists only in this position: בַּיִת becomes בֵּית. Alone it is never בֵּית and in smikhut it is never בַּיִת." },
+
+    { "id": "smichut-04", "type": "fill",
+      "q": "Write the smikhut form of עוּגָה.",
+      "a": ["עוּגַת"],
+      "why": "A feminine noun ending in ָה ends in ַת in smikhut, and that one swap covers most of the words you will meet: אֲרוּחָה gives אֲרוּחַת, תַּחֲנָה gives תַּחֲנַת." },
+
+    { "id": "smichut-05", "type": "listen",
+      "say": "אֲרוּחַת בּוֹקֶר",
+      "q": "Type what you hear.",
+      "a": ["אֲרוּחַת בּוֹקֶר"],
+      "why": "Breakfast is \"meal of morning\", and the ַת on the first word is the only sign that the pair is a smikhut and not two separate nouns." },
+
+    { "id": "smichut-06", "type": "mcq",
+      "q": "How do you say \"the school\"?",
+      "choices": ["בֵּית הַסֵּפֶר", "הַבֵּית סֵפֶר", "הַבֵּית הַסֵּפֶר", "בֵּית סֵפֶר"],
+      "a": 0,
+      "why": "The הַ goes on the SECOND noun and makes the whole pair definite. The first noun can never take the article, and הַבֵּית סֵפֶר sounds badly wrong to any speaker." },
+
+    { "id": "smichut-07", "type": "fill",
+      "q": "Say \"the bus stop\" in Hebrew.",
+      "a": ["תַּחֲנַת הָאוֹטוֹבּוּס"],
+      "why": "תַּחֲנָה goes into its construct form תַּחֲנַת, and the article lands on אוֹטוֹבּוּס, where it becomes הָ before the alef. Read the הַ as belonging to both words at once." },
+
+    { "id": "smichut-08", "type": "say",
+      "q": "Say this out loud.",
+      "target": "יוֹם הוּלֶדֶת",
+      "why": "Many masculine nouns do not change shape in smikhut at all, and יוֹם is one of them. The pair is still said as a single unit with one main stress." },
+
+    { "id": "smichut-09", "type": "order",
+      "q": "Build the phrase: the big school",
+      "words": ["בֵּית", "הַסֵּפֶר", "הַגָּדוֹל"],
+      "a": ["בֵּית", "הַסֵּפֶר", "הַגָּדוֹל"],
+      "why": "An adjective cannot squeeze into the middle of a smikhut: it waits until both nouns are finished. The pair is definite, so the adjective takes הַ as well, by the rule of chapter 12." },
+
+    { "id": "smichut-10", "type": "mcq",
+      "q": "Why is it עוּגַת הַשּׁוֹקוֹלָד הַטְּעִימָה and not הַטָּעִים?",
+      "choices": ["Because the adjective agrees with עוּגָה, the first noun", "Because שׁוֹקוֹלָד is feminine", "Because an adjective after a smikhut is always feminine", "Because the adjective agrees with the last word before it"],
+      "a": 0,
+      "why": "The first noun is the thing being described, so it controls the agreement; the second noun only defines it. The cake is delicious, not the chocolate." },
+
+    { "id": "smichut-11", "type": "order",
+      "q": "Build the phrase: the delicious chocolate cake",
+      "words": ["עוּגַת", "הַשּׁוֹקוֹלָד", "הַטְּעִימָה"],
+      "a": ["עוּגַת", "הַשּׁוֹקוֹלָד", "הַטְּעִימָה"],
+      "why": "Construct noun, then the defining noun carrying the article, then the adjective agreeing with the first. Nothing may come between the two nouns, ever." },
+
+    { "id": "smichut-12", "type": "say",
+      "q": "Say this out loud.",
+      "target": "תַּחֲנַת הָאוֹטוֹבּוּס הַחֲדָשָׁה",
+      "why": "הַחֲדָשָׁה is feminine because תַּחֲנָה is, even though אוֹטוֹבּוּס sits between them. Say the first two words as one breath and the adjective as a separate beat." },
+
+    { "id": "smichut-13", "type": "mcq",
+      "q": "How do you say \"bus stops\", in the plural?",
+      "choices": ["תַּחֲנַת אוֹטוֹבּוּסִים", "תַּחֲנוֹת אוֹטוֹבּוּס", "תַּחֲנַת הָאוֹטוֹבּוּסִים", "אוֹטוֹבּוּס תַּחֲנוֹת"],
+      "a": 1,
+      "why": "The plural is marked on the first noun, the one carrying the meaning: many stops, not many buses. The same logic gives בָּתֵּי סֵפֶר for schools." },
+
+    { "id": "smichut-14", "type": "fill",
+      "q": "Say \"Dana's book\" in Hebrew.",
+      "a": ["הַסֵּפֶר שֶׁל דָּנָה"],
+      "why": "Ordinary possession takes שֶׁל, where nothing changes shape and each noun keeps its own article. A smikhut here would say something else entirely." },
+
+    { "id": "smichut-15", "type": "open",
+      "q": "When should a beginner build a smikhut, and when should they reach for שֶׁל?",
+      "a": ["Smikhut is for fixed compounds, the kind that would be one word or a set phrase in English: בֵּית סֵפֶר, יוֹם הוּלֶדֶת, אֲרוּחַת בּוֹקֶר. Those are learned as vocabulary, not invented. שֶׁל is for ordinary possession, this thing belongs to that person, and it is what to use whenever you are unsure."],
+      "why": "Nobody invents a new smikhut on the fly. What you need is to recognise one, know that the הַ on the second word makes the whole thing definite, and say הַסֵּפֶר שֶׁל דָּנָה for everything else: plain, never wrong." }
+  ]
+}

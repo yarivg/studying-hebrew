@@ -1,0 +1,90 @@
+{
+ "ch": "adjectives",
+ "title": "Adjectives",
+ "questions": [
+  { "id": "adjectives-01", "type": "mcq",
+    "q": "Where does a Hebrew adjective stand?",
+    "choices": ["after the noun", "before the noun", "at the end of the sentence", "wherever you like"],
+    "a": 0,
+    "why": "The noun comes first and everything describing it queues up behind: בַּיִת גָּדוֹל, a big house. The adjective then has to agree with that noun in three things: gender, number and definiteness." },
+
+  { "id": "adjectives-02", "type": "mcq",
+    "q": "Which is \"big flats\"?",
+    "choices": ["דִּירוֹת גְּדוֹלוֹת", "דִּירוֹת גְּדוֹלִים", "דִּירָה גְּדוֹלוֹת", "דִּירוֹת גָּדוֹל"],
+    "a": 0,
+    "why": "Every adjective has four forms, and they wear the same endings nouns do: גָּדוֹל, גְּדוֹלָה, גְּדוֹלִים, גְּדוֹלוֹת. Feminine plural noun, feminine plural adjective." },
+
+  { "id": "adjectives-03", "type": "fill",
+    "q": "Write the feminine singular of the adjective that means \"small\".",
+    "a": ["קְטַנָּה"],
+    "why": "Most adjectives just add ־ָה, but a small group doubles a letter first, and this is the one you will meet constantly. The doubling is audible in careful speech and visible as the dagesh in pointed text." },
+
+  { "id": "adjectives-04", "type": "fill",
+    "q": "Write the feminine singular of the adjective that means \"beautiful\".",
+    "a": ["יָפָה"],
+    "why": "An adjective ending in ־ֶה swaps it for ־ָה, as קָשֶׁה does to become קָשָׁה. The masculine and feminine then differ by one vowel sign, so unpointed they are the same three letters and the noun is what tells you which is meant." },
+
+  { "id": "adjectives-05", "type": "fill",
+    "q": "Write \"beautiful women\".",
+    "a": ["נָשִׁים יָפוֹת"],
+    "why": "Agreement follows the noun's real gender, not the look of its ending. נָשִׁים יָפִים is wrong and unmistakably foreign: if you learn one pair of words from this chapter, learn this one." },
+
+  { "id": "adjectives-06", "type": "fill",
+    "q": "Write \"big tables\".",
+    "a": ["שׁוּלְחָנוֹת גְּדוֹלִים"],
+    "why": "The same trap from the other side: שׁוּלְחָן is masculine and keeps its gender through a feminine-looking plural. The adjective agrees with the word, never with the ending you can see." },
+
+  { "id": "adjectives-07", "type": "mcq",
+    "q": "Why is it מְקוֹמוֹת חֲדָשִׁים?",
+    "choices": ["מָקוֹם is masculine, whatever its plural ending looks like", "חָדָשׁ has no feminine plural form", "places are always masculine in Hebrew", "the ending ־וֹת takes a masculine adjective"],
+    "a": 0,
+    "why": "This is chapter 9 coming back to collect. The irregular plurals are exactly the words where the ending and the gender disagree, and the adjective beside them is where the mistake becomes audible." },
+
+  { "id": "adjectives-08", "type": "order",
+    "q": "Build the phrase: the beautiful new flat",
+    "words": ["הַיָּפָה", "הַדִּירָה", "הַחֲדָשָׁה"],
+    "a": ["הַדִּירָה", "הַחֲדָשָׁה", "הַיָּפָה"],
+    "also": [["הַדִּירָה", "הַיָּפָה", "הַחֲדָשָׁה"]],
+    "why": "Adjectives queue up after the noun, each agreeing separately and each repeating the ה. Hebrew has no fixed order of the English kind, so either arrangement is correct; put the more important one first." },
+
+  { "id": "adjectives-09", "type": "order",
+    "q": "Build the sentence: the children are small",
+    "words": ["קְטַנִּים", "הַיְלָדִים"],
+    "a": ["הַיְלָדִים", "קְטַנִּים"],
+    "why": "The noun is definite, the adjective is not, so they do not agree and cannot be one phrase. Add a ה to the second word and it becomes הַיְלָדִים הַקְּטַנִּים, the small children, which names a group instead of saying anything about it." },
+
+  { "id": "adjectives-10", "type": "mcq",
+    "q": "What does הַשִּׁיעוּר מְעַנְיֵין mean?",
+    "choices": ["the lesson is interesting", "the interesting lesson", "an interesting lesson", "the lesson, which is interesting"],
+    "a": 0,
+    "why": "Definite noun plus indefinite adjective is a sentence, not a phrase: the adjective cannot be describing the noun, so it must be saying something about it. Both words carrying the article, or neither, are the only other options; there is no middle." },
+
+  { "id": "adjectives-11", "type": "mcq",
+    "q": "בַּיִת גָּדוֹל is \"a big house\". Why can an indefinite noun not pull the same trick as הַבַּיִת גָּדוֹל?",
+    "choices": ["nothing distinguishes the two readings, so both live in the same words", "an indefinite noun cannot take an adjective", "the adjective would have to move in front", "indefinite nouns are never the subject of a sentence"],
+    "a": 0,
+    "why": "The contrast only works when the article is there to be repeated or withheld. With no article anywhere, בַּיִת גָּדוֹל is \"a big house\" and, in the right context, \"a house is big\", and Hebrew does not worry about it." },
+
+  { "id": "adjectives-12", "type": "mcq",
+    "q": "Which is written correctly?",
+    "choices": ["קָטָן מִדַּי", "מִדַּי קָטָן", "קָטָן קְצָת", "מְאוֹד קָטָן"],
+    "a": 0,
+    "why": "מְאוֹד and מִדַּי follow the adjective, as in גָּדוֹל מְאוֹד; קְצָת leads, as in קְצָת יָקָר. The adjective itself does not change form for any of them." },
+
+  { "id": "adjectives-13", "type": "listen",
+    "say": "הַיְלָדִים הַקְּטַנִּים",
+    "q": "Type what you hear.",
+    "a": ["הַיְלָדִים הַקְּטַנִּים"],
+    "why": "Listen for the second ha: it is the whole difference between a phrase and a sentence. Hearing it is harder than seeing it, because it is unstressed and runs straight into the word behind it." },
+
+  { "id": "adjectives-14", "type": "say",
+    "q": "Say this out loud.",
+    "target": "מְעַנְיֵין מְאוֹד",
+    "why": "The intensifier comes second in Hebrew and first in English, so the word order has to be said until it stops feeling backwards. Both words stress the last syllable: me'an-YEN me-OD." },
+
+  { "id": "adjectives-15", "type": "open",
+    "q": "Explain why הַבַּיִת גָּדוֹל cannot mean \"the big house\", using the rule about definiteness.",
+    "a": ["An adjective has to agree with its noun in definiteness: if the noun has הַ, the adjective must have הַ too, and if it does not, the adjective must not. In הַבַּיִת גָּדוֹל the noun is definite and the adjective is not, so the adjective fails to agree and cannot be describing the noun. The only reading left is that it is saying something about it, so the two words are a sentence: the house is big. The phrase would be הַבַּיִת הַגָּדוֹל."],
+    "why": "Definiteness is the third agreement, the one with no English equivalent, and it is what lets Hebrew build a statement out of two words and no verb. Both words carry the article or neither does, and the middle case always means something else." }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "ch": "demonstratives",
+ "title": "This and that",
+ "questions": [
+  { "id": "demonstratives-01", "type": "mcq",
+    "q": "You are pointing at a מַחְבֶּרֶת, which is feminine. Which word is \"this\"?",
+    "choices": ["זֹאת", "זֶה", "אֵלֶּה", "הַהוּא"],
+    "a": 0,
+    "why": "The demonstrative agrees with the thing being identified: זֶה for a masculine noun, זֹאת for a feminine one. זֹאת has a common spoken variant, זוֹ." },
+
+  { "id": "demonstratives-02", "type": "mcq",
+    "q": "What covers \"these\" for a group of women and a group of men alike?",
+    "choices": ["אֵלֶּה", "זֹאת", "זֶה", "הֵן"],
+    "a": 0,
+    "why": "The plural does not split by gender the way the singular does, so one word serves both. Many Israelis say אֵלּוּ instead, which is equally correct and a little more formal in writing." },
+
+  { "id": "demonstratives-03", "type": "fill",
+    "q": "Write \"this is a book\".",
+    "a": ["זֶה סֵפֶר"],
+    "why": "Standing alone, the demonstrative is the subject of a sentence with no verb in it: this, a book. It agrees with what is being identified, which is why a notebook would take זֹאת מַחְבֶּרֶת." },
+
+  { "id": "demonstratives-04", "type": "mcq",
+    "q": "Someone holds up an object and you have no idea what it is. What do you ask?",
+    "choices": ["מָה זֶה?", "מָה זֹאת?", "מִי זֶה?", "מָה אֵלֶּה?"],
+    "a": 0,
+    "why": "The masculine is the default when you do not yet know what the thing is, and you only switch to זֹאת once you know the answer is feminine. מִי זֶה? is the same question about a person." },
+
+  { "id": "demonstratives-05", "type": "fill",
+    "q": "Write \"this notebook\", using the feminine.",
+    "a": ["הַמַּחְבֶּרֶת הַזֹּאת"],
+    "why": "Used as a modifier the demonstrative behaves exactly like an adjective: it follows the noun and repeats the article. Literally it is \"the notebook the this\", and there is no way to say it with one ה." },
+
+  { "id": "demonstratives-06", "type": "fill",
+    "q": "Write \"this is the book\", as a statement rather than a phrase.",
+    "a": ["זֶה הַסֵּפֶר"],
+    "why": "Word order carries the difference. In front of the noun the demonstrative is the subject of a sentence; behind it, with its own ה, it is a modifier and the pair names one thing." },
+
+  { "id": "demonstratives-07", "type": "order",
+    "q": "Build the phrase: these children",
+    "words": ["הָאֵלֶּה", "הַיְלָדִים"],
+    "a": ["הַיְלָדִים", "הָאֵלֶּה"],
+    "why": "Noun first, demonstrative behind it, and both carry the article, exactly as an adjective would. The article lengthens its vowel before the אָלֶף, so it is הָ rather than הַ." },
+
+  { "id": "demonstratives-08", "type": "order",
+    "q": "Build the phrase: this big house",
+    "words": ["הַזֶּה", "הַגָּדוֹל", "הַבַּיִת"],
+    "a": ["הַבַּיִת", "הַגָּדוֹל", "הַזֶּה"],
+    "why": "The adjective comes first and the demonstrative goes last, each with its own ה. Three articles in a row looks alarming and is completely ordinary." },
+
+  { "id": "demonstratives-09", "type": "mcq",
+    "q": "What is wrong with הַסֵּפֶר זֶה?",
+    "choices": ["a demonstrative after the noun must take the article too", "the demonstrative should be feminine", "the noun should not have the article", "nothing: it means this book"],
+    "a": 0,
+    "why": "One ה is not an option here: הַסֵּפֶר הַזֶּה is this book, and זֶה הַסֵּפֶר is this is the book. The half-way form is not Hebrew at all, which is unlike the adjective case, where dropping the second ה gives you a perfectly good sentence." },
+
+  { "id": "demonstratives-10", "type": "mcq",
+    "q": "How would an Israeli most likely say \"that book\"?",
+    "choices": ["הַסֵּפֶר הַזֶּה, with a gesture, or with שָׁם added", "הַסֵּפֶר הַהוּא, which is the everyday form", "הַסֵּפֶר זֶה", "הַהוּא סֵפֶר"],
+    "a": 0,
+    "why": "Hebrew has no built-in near and far, so זֶה translates both \"this\" and \"that\" in nine sentences out of ten. הַסֵּפֶר הַהוּא is correct and noticeably formal: it is the third-person pronoun doing double duty." },
+
+  { "id": "demonstratives-11", "type": "mcq",
+    "q": "Which of these means \"that's all\"?",
+    "choices": ["זֶה הַכֹּל", "זֶה בְּסֵדֶר", "זֶה לֹא נָכוֹן", "בִּגְלַל זֶה"],
+    "a": 0,
+    "why": "A whole family of everyday phrases is built on זֶה: זֶה בְּסֵדֶר that's fine, זֶה לֹא נָכוֹן that's not true, אַחֲרֵי זֶה after this. In most of them זֶה is doing the work of English \"it\", with no particular thing in mind, and that is its commonest job of all." },
+
+  { "id": "demonstratives-12", "type": "listen",
+    "say": "הַבָּתִּים הָאֵלֶּה",
+    "q": "Type what you hear.",
+    "a": ["הַבָּתִּים הָאֵלֶּה"],
+    "why": "An irregular plural with the demonstrative behind it, each word carrying its own article. Listen for the second one: ha-ba-TIM ha-E-le." },
+
+  { "id": "demonstratives-13", "type": "say",
+    "q": "Say this out loud.",
+    "target": "הַסְּפָרִים הַחֲדָשִׁים הָאֵלֶּה",
+    "why": "Noun, adjective, demonstrative, three articles, one thing. Say it as one run rather than three separate words, because that is what makes the string of ha sounds ordinary rather than alarming." },
+
+  { "id": "demonstratives-14", "type": "open",
+    "q": "Explain the difference between זֶה הַסֵּפֶר and הַסֵּפֶר הַזֶּה, and say what carries it.",
+    "a": ["זֶה הַסֵּפֶר is a sentence, this is the book: the demonstrative stands in front as the subject and the definite noun is what it is being identified as. הַסֵּפֶר הַזֶּה is a phrase, this book: the demonstrative follows the noun like an adjective and repeats its article. Word order is what carries the difference, and the second ה is what marks the modifier."],
+    "why": "It is the same logic as the adjective: agreeing in definiteness and standing behind the noun makes a modifier, and anything else makes a statement. Here the position does most of the work, because הַסֵּפֶר זֶה, which would be the half-way case, does not exist." }
+ ]
+}

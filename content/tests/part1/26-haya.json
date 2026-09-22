@@ -1,0 +1,88 @@
+{
+  "ch": "haya",
+  "title": "Was and will be",
+  "questions": [
+    { "id": "haya-01", "type": "mcq",
+      "q": "In which tense does Hebrew have no verb \"to be\"?",
+      "choices": ["the present", "the past", "the future", "all three"],
+      "a": 0,
+      "why": "אֲנִי סְטוּדֶנְט is a finished sentence and adding a word for \"am\" would be an error. Move the same sentence to yesterday or next week and the verb becomes compulsory." },
+
+    { "id": "haya-02", "type": "mcq",
+      "q": "Which form means \"he was\"?",
+      "choices": ["הָיָה", "הָיְתָה", "הָיִיתִי", "הָיוּ"],
+      "a": 0,
+      "why": "הָיָה is the third person masculine singular and the dictionary form of the verb. Unlike the present tense, the past marks person as well as gender, so each of these can only mean one thing." },
+
+    { "id": "haya-03", "type": "fill",
+      "q": "Say \"I was at home\".",
+      "a": ["הָיִיתִי בַּבַּיִת", "אֲנִי הָיִיתִי בַּבַּיִת"],
+      "why": "הָיִיתִי can only mean \"I was\", so the pronoun in front of it is optional and usually dropped. That is new: in the present tense the pronoun was compulsory." },
+
+    { "id": "haya-04", "type": "fill",
+      "q": "Put this sentence into the past: הַבַּיִת גָּדוֹל",
+      "a": ["הַבַּיִת הָיָה גָּדוֹל"],
+      "why": "הָיָה goes exactly where the missing \"is\" would have been, and it agrees with the subject. Any verbless sentence from chapters 11 and 12 moves into the past this way." },
+
+    { "id": "haya-05", "type": "mcq",
+      "q": "How do you say \"she was tired\"?",
+      "choices": ["הִיא הָיְתָה עֲיֵיפָה", "הִיא הָיָה עֲיֵיפָה", "הִיא הָיִית עֲיֵיפָה", "הִיא הָיוּ עֲיֵיפָה"],
+      "a": 0,
+      "why": "הָיְתָה is the feminine singular, and the adjective agrees with her too. הָיִית is \"you were\" to a woman, which is a different person altogether." },
+
+    { "id": "haya-06", "type": "listen",
+      "say": "הָיָה חַם אֶתְמוֹל",
+      "q": "Type what you hear.",
+      "a": ["הָיָה חַם אֶתְמוֹל"],
+      "why": "הָיָה also covers the existential יֵשׁ: this is \"it was hot yesterday\", with no subject for the verb to point at. A party would make it הָיְתָה מְסִיבָּה." },
+
+    { "id": "haya-07", "type": "mcq",
+      "q": "How do you say \"I had a car\"?",
+      "choices": ["הָיָה לִי מְכוֹנִית", "הָיְתָה לִי מְכוֹנִית", "הָיִיתִי לִי מְכוֹנִית", "הָיוּ לִי מְכוֹנִית"],
+      "a": 1,
+      "why": "The verb agrees with the thing owned, not with the owner, and מְכוֹנִית is feminine. The owner is buried inside לִי, where no verb can reach it." },
+
+    { "id": "haya-08", "type": "fill",
+      "q": "Say \"I had books\".",
+      "a": ["הָיוּ לִי סְפָרִים"],
+      "why": "Plural thing owned, plural verb: הָיוּ. A woman and a man say this identically, because neither of them is what the verb is agreeing with." },
+
+    { "id": "haya-09", "type": "order",
+      "q": "Build the sentence: I didn't have time",
+      "words": ["לֹא", "הָיָה", "לִי", "זְמַן"],
+      "a": ["לֹא", "הָיָה", "לִי", "זְמַן"],
+      "why": "Once you leave the present, the negative is plain לֹא and not אֵין. אֵין only does the present tense: אֵין לִי זְמַן now, לֹא הָיָה לִי זְמַן yesterday." },
+
+    { "id": "haya-10", "type": "say",
+      "q": "Say this out loud.",
+      "target": "יִהְיֶה בְּסֵדֶר",
+      "why": "יִהְיֶה is \"it will be\", masculine, and this phrase is said in Israel roughly every four seconds. The full future tense waits for Part II; this one is worth having whole." },
+
+    { "id": "haya-11", "type": "fill",
+      "q": "Say \"I won't have time\".",
+      "a": ["לֹא יִהְיֶה לִי זְמַן"],
+      "why": "יִהְיֶה stands in for יֵשׁ in the future exactly as הָיָה does in the past, and the negative is לֹא in both. זְמַן is masculine singular, so the verb is too." },
+
+    { "id": "haya-12", "type": "say",
+      "q": "Say this out loud.",
+      "target": "הָיוּ הַרְבֵּה אֲנָשִׁים",
+      "why": "\"There were a lot of people\": the verb matches whatever is being said to exist, here a plural, so הָיוּ. English uses \"there\" as a placeholder subject and Hebrew uses nothing at all." },
+
+    { "id": "haya-13", "type": "mcq",
+      "q": "What is wrong with אֲנִי הָיָה סְטוּדֶנְט?",
+      "choices": ["הָיָה is third person; with אֲנִי it must be הָיִיתִי", "Nothing, the sentence is correct", "The pronoun אֲנִי has to be dropped", "It should use אֵין instead of הָיָה"],
+      "a": 0,
+      "why": "The past marks person, so a first person subject needs a first person verb: הָיִיתִי סְטוּדֶנְט. Dropping the pronoun is allowed, but it does not repair the verb." },
+
+    { "id": "haya-14", "type": "order",
+      "q": "Build the sentence: I want to be a doctor",
+      "words": ["אֲנִי", "רוֹצֶה", "לִהְיוֹת", "רוֹפֵא"],
+      "a": ["אֲנִי", "רוֹצֶה", "לִהְיוֹת", "רוֹפֵא"],
+      "why": "לִהְיוֹת behaves like any other infinitive after רוֹצֶה, and it is the one place the verb \"to be\" shows up while you are still talking about now." },
+
+    { "id": "haya-15", "type": "open",
+      "q": "A woman says הָיָה לִי זְמַן, with a masculine verb. Why?",
+      "a": ["Because the verb agrees with the thing owned, not with the owner: זְמַן is masculine singular. The owner is inside לִי and the verb never reaches her. Change what is owned and the verb changes: הָיְתָה לִי מְכוֹנִית, הָיוּ לִי סְפָרִים."],
+      "why": "Hebrew still has no verb \"to have\". What it has is an existential verb plus לְ with an ending, so the grammatical subject is always the possession itself." }
+  ]
+}

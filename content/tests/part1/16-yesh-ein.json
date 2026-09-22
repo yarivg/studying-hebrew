@@ -1,0 +1,84 @@
+{
+ "ch": "yesh-ein",
+ "title": "Yesh and ein: there is, and having",
+ "questions": [
+  { "id": "yesh-ein-01", "type": "mcq",
+    "q": "How do you say \"there are people\"?",
+    "choices": ["יֵשׁ אֲנָשִׁים", "יֵשִׁים אֲנָשִׁים", "אֲנָשִׁים יֵשׁ", "יֵשׁ הָאֲנָשִׁים"],
+    "a": 0,
+    "why": "יֵשׁ has one form and never agrees with anything, not gender and not number, which is why it covers both \"there is\" and \"there are\". English has to choose between is and are; Hebrew does not." },
+
+  { "id": "yesh-ein-02", "type": "fill",
+    "q": "Write the word that is the negative of יֵשׁ, meaning \"there is not\".",
+    "a": ["אֵין"],
+    "why": "אֵין is as unchanging as יֵשׁ: one form for everything. It is followed by a thing, which is what keeps it apart from לֹא, the other negative, which is followed by a description or an action." },
+
+  { "id": "yesh-ein-03", "type": "mcq",
+    "q": "How do you say \"I have a brother\"?",
+    "choices": ["יֵשׁ לִי אָח", "אֲנִי יֵשׁ אָח", "יֵשׁ אֲנִי אָח", "אָח יֵשׁ לִי"],
+    "a": 0,
+    "why": "Hebrew has no verb \"to have\" at all, so having is built out of יֵשׁ plus לְ carrying a personal ending. Read it literally and it says \"there is to me a brother\", which is the actual grammar and not a quaint gloss." },
+
+  { "id": "yesh-ein-04", "type": "order",
+    "q": "Build the sentence: I have no time",
+    "words": ["אֵין", "לִי", "זְמַן"],
+    "a": ["אֵין", "לִי", "זְמַן"],
+    "why": "The negative of יֵשׁ לִי is simply אֵין לִי, with nothing else changed. The order is fixed: the existence word, then the owner wearing the preposition, then the thing." },
+
+  { "id": "yesh-ein-05", "type": "fill",
+    "q": "Write \"she has no notebook\" in Hebrew, using מַחְבֶּרֶת.",
+    "a": ["אֵין לָהּ מַחְבֶּרֶת"],
+    "why": "The ending on לְ marks the owner, so \"she\" is לָהּ and nothing else in the sentence changes for gender. אֵין itself stays exactly as it is." },
+
+  { "id": "yesh-ein-06", "type": "mcq",
+    "q": "Which sentence means \"he has no money\"?",
+    "choices": ["אֵין לוֹ כֶּסֶף", "אֵין לָהּ כֶּסֶף", "אֵין לָנוּ כֶּסֶף", "אֵין לָהֶם כֶּסֶף"],
+    "a": 0,
+    "why": "לוֹ is \"to him\" and לָהּ is \"to her\": one letter apart in writing and clearly different in speech, since לָהּ ends in an open /a/. לָנוּ is us and לָהֶם is them." },
+
+  { "id": "yesh-ein-07", "type": "order",
+    "q": "Build the sentence: we have a big house",
+    "words": ["יֵשׁ", "לָנוּ", "בַּיִת", "גָּדוֹל"],
+    "a": ["יֵשׁ", "לָנוּ", "בַּיִת", "גָּדוֹל"],
+    "why": "The adjective still sits behind its noun and agrees with it, exactly as in chapter 12, because בַּיִת גָּדוֹל is an ordinary noun phrase that has been dropped into the יֵשׁ frame." },
+
+  { "id": "yesh-ein-08", "type": "mcq",
+    "q": "In יֵשׁ לִי סֵפֶר, which word is the grammatical subject of the sentence?",
+    "choices": ["סֵפֶר", "לִי", "יֵשׁ", "there is no subject"],
+    "a": 0,
+    "why": "The thing owned is the subject and the owner is not: Hebrew states that something exists and then says who it exists for. That is why, in chapter 26, the past tense of this sentence will agree with the book and not with the owner." },
+
+  { "id": "yesh-ein-09", "type": "fill",
+    "q": "Write \"I have the book\" in Hebrew, with a definite object.",
+    "a": ["יֵשׁ לִי אֶת הַסֵּפֶר"],
+    "why": "A definite object brings אֶת with it, which is chapter 18 in full. Compare יֵשׁ לִי סֵפֶר, \"I have a book\", where the object is indefinite and there is nothing in front of it." },
+
+  { "id": "yesh-ein-10", "type": "mcq",
+    "q": "What does אֵין בְּעָיָה mean?",
+    "choices": ["no problem", "there is a problem", "never mind", "I have no idea"],
+    "a": 0,
+    "why": "It is literally \"there is no problem\", and it does the work of the English \"no worries\" and \"sure\". אֵין דָּבָר, literally \"there is nothing\", is the neighbouring phrase for \"never mind\"." },
+
+  { "id": "yesh-ein-11", "type": "mcq",
+    "q": "לוֹ and לֹא sound identical. What tells them apart in a sentence?",
+    "choices": ["the spelling, and the fact that לוֹ follows יֵשׁ or אֵין", "the stress on the word", "the vowel is longer in one of them", "nothing; only the topic of conversation"],
+    "a": 0,
+    "why": "They are a genuine homophone pair. Position does most of the work: לוֹ turns up right after יֵשׁ or אֵין, while לֹא negates a description or an action and never sits there." },
+
+  { "id": "yesh-ein-12", "type": "listen",
+    "say": "אֵין לִי זְמַן",
+    "q": "Type what you hear.",
+    "a": ["אֵין לִי זְמַן"],
+    "why": "Three short words with no verb among them. Hearing the אֵין לִי pair as a single chunk is what makes the whole possession frame usable at conversational speed." },
+
+  { "id": "yesh-ein-13", "type": "say",
+    "q": "Ask a woman whether she has a pen.",
+    "target": "יֵשׁ לָךְ עֵט?",
+    "why": "Nothing is added to make this a question: it is the statement יֵשׁ לָךְ עֵט with a rise at the end, as in chapter 14. לָךְ is the feminine \"to you\"; a man would be asked יֵשׁ לְךָ." },
+
+  { "id": "yesh-ein-14", "type": "open",
+    "q": "What is the Hebrew verb \"to have\"? Explain how Hebrew expresses having, and why יֵשׁ never changes its form.",
+    "a": ["There is no such verb, and there never was. Having is יֵשׁ, \"there is\", plus the preposition לְ carrying an ending for the owner: יֵשׁ לִי, יֵשׁ לָהּ, יֵשׁ לָנוּ. The negative is אֵין in the same frame. יֵשׁ never changes because it is not a verb and has no subject to agree with: the thing owned is the subject, and the owner is only wearing a preposition."],
+    "why": "Once you see that the possession is the subject, the whole pattern stops looking strange, and it also explains the agreement in the past and future tenses later on." }
+ ]
+}

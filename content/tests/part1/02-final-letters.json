@@ -1,0 +1,83 @@
+{
+ "ch": "final-letters",
+ "title": "Final letters, print and handwriting",
+ "questions": [
+  { "id": "final-letters-01", "type": "mcq",
+    "q": "How many Hebrew letters have a second shape used at the end of a word?",
+    "choices": ["Five", "Three", "Six", "All twenty-two"],
+    "a": 0,
+    "why": "Five: כ מ נ פ צ. They are not extra letters and the list never grows, so once you know these five you know every final form there is." },
+
+  { "id": "final-letters-02", "type": "mcq",
+    "q": "Which of these is the final form of נ?",
+    "choices": ["ם", "ן", "ך", "ף"],
+    "a": 1,
+    "why": "נוּן סוֹפִית is ן, a stroke that drops below the line. That descender is also what keeps it apart from ו, which sits on the line and has no final form at all." },
+
+  { "id": "final-letters-03", "type": "order",
+    "q": "Put the five final letters into alef-bet order.",
+    "words": ["ף", "ך", "ץ", "ם", "ן"],
+    "a": ["ך", "ם", "ן", "ף", "ץ"],
+    "why": "ך ם ן ף ץ, the order of כ מ נ פ צ in the alef-bet. Israeli schoolchildren hold the set with the nonsense word כַּמְנַפֵּץ, which spells all five in exactly this order." },
+
+  { "id": "final-letters-04", "type": "mcq",
+    "q": "Why is it מֶלֶךְ with ך but מַלְכָּה with כ?",
+    "choices": ["The כ is the last letter of the first word and not of the second", "A feminine word never takes a final letter", "The dagesh in מַלְכָּה blocks the final form", "מַלְכָּה is borrowed and keeps a foreign spelling"],
+    "a": 0,
+    "why": "A letter wears its final shape only while it is last. Add anything after it, a suffix included, and it goes straight back to its ordinary shape: כֶּלֶב becomes כְּלָבִים and the ב never had a choice either." },
+
+  { "id": "final-letters-05", "type": "fill",
+    "q": "Type the Hebrew word for money. It ends in a final letter.",
+    "a": ["כֶּסֶף"],
+    "why": "It ends in ף, the final form of פ, and the sound is /f/ because there is no dagesh in it. Written mid-word the same letter would be פ, as in מִשְׁפָּחָה." },
+
+  { "id": "final-letters-06", "type": "fill",
+    "q": "Type the Hebrew word for a son.",
+    "a": ["בֵּן"],
+    "why": "Two letters, and the second is ן rather than נ because it is last. This is the shortest possible demonstration of the rule, and a useful one to picture when you are unsure." },
+
+  { "id": "final-letters-07", "type": "listen",
+    "say": "יַיִן",
+    "q": "Type what you hear.",
+    "a": ["יַיִן"],
+    "why": "Wine, /yayin/. It opens with י as a consonant and closes with final ן, so the same word shows a letter that never changes shape next to one that always does at the end." },
+
+  { "id": "final-letters-08", "type": "mcq",
+    "q": "What tells ן and ו apart in print?",
+    "choices": ["ן drops below the line and ו sits on it", "ן is longer at the top", "ו always carries a dot", "Nothing; you guess from the word"],
+    "a": 0,
+    "why": "Both are a single vertical stroke, and the descender is the whole difference. It matters most in handwriting, where the shapes get closer still, and knowing that ו has no final form removes half the guesswork: a lone stroke at the end of a word is usually ן." },
+
+  { "id": "final-letters-09", "type": "say",
+    "q": "Say this out loud.",
+    "target": "עַכְשָׁיו",
+    "why": "Now, /akhshav/. It ends in ו, which looks like a candidate for a final form and is not: only those five letters change, and וָו has one shape wherever it stands." },
+
+  { "id": "final-letters-10", "type": "mcq",
+    "q": "Which of these words is spelled wrongly?",
+    "choices": ["מֶלֶךְ", "כֶּסֶף", "אֶרֶצ", "יַיִן"],
+    "a": 2,
+    "why": "A צ at the end of a word must be ץ, so it is אֶרֶץ. Mid-word it stays צ, as in מִצְוָוה. This course marks a slip like this as correct and then shows you the proper spelling, because the sound is identical and the habit is what needs fixing." },
+
+  { "id": "final-letters-11", "type": "say",
+    "q": "Say this out loud.",
+    "target": "צָרִיךְ",
+    "why": "Needs to, must, /tsarikh/. It opens with צ and closes with ך, and the ך has no dagesh so it is /kh/ rather than /k/: the final form and the soft sound often arrive together at the end of a word." },
+
+  { "id": "final-letters-12", "type": "fill",
+    "q": "Type the plural of the Hebrew word for a book.",
+    "a": ["סְפָרִים"],
+    "why": "The plural ending ־ִים lands after the ר, so nothing in the word is last except the מ, which therefore must be ם. The ר has no final form to worry about in the first place." },
+
+  { "id": "final-letters-13", "type": "mcq",
+    "q": "Which of these is true of handwritten Hebrew?",
+    "choices": ["It has the same five final letters, in the same places", "It has no final letters", "It has two more final letters than print", "Israelis write the nikud by hand as well"],
+    "a": 0,
+    "why": "The shapes change but the system does not: handwriting keeps all five finals. What handwriting drops is the nikud, which is a printing convention for dictionaries, poetry and courses, never something an adult writes in a note." },
+
+  { "id": "final-letters-14", "type": "open",
+    "q": "State the rule about where a final letter may appear, and give one word pair that shows a letter losing its final shape.",
+    "a": ["A final form appears only as the very last letter of a word, never at the start, never in the middle, and never before a suffix written onto the same word. כֶּלֶב a dog becomes כְּלָבִים dogs: once ־ִים is added the ב is no longer last. מֶלֶךְ against מַלְכָּה shows the same thing with כ."],
+    "why": "The rule is positional, not lexical: it is about where the letter stands in the word today, not about which word it belongs to. That is why adding a plural or a suffix can change the spelling of a letter that nobody touched." }
+ ]
+}

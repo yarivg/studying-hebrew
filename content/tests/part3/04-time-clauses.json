@@ -1,0 +1,90 @@
+{
+  "ch": "time-clauses",
+  "title": "Clauses of time and condition",
+  "questions": [
+    { "id": "time-clauses-01", "type": "mcq",
+      "q": "Which is the everyday word for \"when\" at the head of a clause?",
+      "choices": ["כְּשֶׁ", "כַּאֲשֶׁר", "מָתַי", "אָז"],
+      "a": 0,
+      "why": "כְּשֶׁ is a prefix written onto the front of the next word and takes a full clause. כַּאֲשֶׁר is the same word in a suit, kept for writing and speeches, and מָתַי only asks a question." },
+
+    { "id": "time-clauses-02", "type": "fill",
+      "q": "Write the Hebrew for \"before the meal\", two words.",
+      "a": ["לִפְנֵי הָאֲרוּחָה"],
+      "why": "Bare לִפְנֵי is a preposition and wants a noun. The test is simple: if you can say \"the meal\" in English, drop the שֶׁ." },
+
+    { "id": "time-clauses-03", "type": "fill",
+      "q": "Now write \"before we ate\", with the verb conjugated.",
+      "a": ["לִפְנֵי שֶׁאָכַלְנוּ"],
+      "why": "With שֶׁ glued on, לִפְנֵי becomes a conjunction and wants a clause. מֵאָז, אַחֲרֵי and עַד all work in the same two modes." },
+
+    { "id": "time-clauses-04", "type": "mcq",
+      "q": "What is wrong with לִפְנֵי לֶאֱכוֹל?",
+      "choices": ["לִפְנֵי never takes an infinitive: use a noun, or לִפְנֵי שֶׁ with a conjugated verb", "the infinitive should be in the future", "it is missing the definite article", "nothing at all, it is ordinary Hebrew"],
+      "a": 0,
+      "why": "English \"before eating\" has no direct equivalent: you either name the event as a noun, לִפְנֵי הָאֲרוּחָה, or conjugate it, לִפְנֵי שֶׁאוֹכְלִים. The same holds for אַחֲרֵי, and the wrong version sounds translated." },
+
+    { "id": "time-clauses-05", "type": "mcq",
+      "q": "Which sentence means \"I will call you when I arrive\"?",
+      "choices": ["אֶתְקַשֵּׁר אֵלֶיךָ כְּשֶׁאַגִּיעַ", "אֶתְקַשֵּׁר אֵלֶיךָ כְּשֶׁאֲנִי מַגִּיעַ", "אֶתְקַשֵּׁר אֵלֶיךָ כְּשֶׁהִגַּעְתִּי", "אֶתְקַשֵּׁר אֵלֶיךָ לִפְנֵי לְהַגִּיעַ"],
+      "a": 0,
+      "why": "The arriving has not happened, so the verb inside the clause is in the future. כְּשֶׁאֲנִי מַגִּיעַ is the audible English mistake and means \"whenever I arrive, as a habit\"." },
+
+    { "id": "time-clauses-06", "type": "fill",
+      "q": "Say \"when you come, we will talk\", speaking to a man.",
+      "a": ["כְּשֶׁתָּבוֹא נְדַבֵּר", "כְּשֶׁתָּבוֹא, נְדַבֵּר"],
+      "why": "Both verbs are in the future, because both events are. Hebrew gives each verb the tense its own event has and never borrows one from the main clause the way English does." },
+
+    { "id": "time-clauses-07", "type": "mcq",
+      "q": "How does אִם יֵרֵד גֶּשֶׁם continue, for \"if it rains we will stay home\"?",
+      "choices": ["נִישָּׁאֵר בַּבַּיִת", "נִשְׁאַרְנוּ בַּבַּיִת", "אֲנַחְנוּ נִשְׁאָרִים בַּבַּיִת", "הָיִינוּ נִשְׁאָרִים בַּבַּיִת"],
+      "a": 0,
+      "why": "אִם behaves like the time clauses: the future goes in both halves, because neither event has happened. הָיִינוּ נִשְׁאָרִים is the unreal conditional, \"we would have stayed\", which is a different sentence." },
+
+    { "id": "time-clauses-08", "type": "order",
+      "q": "Build the sentence: I waited until she arrived",
+      "words": ["חִיכִּיתִי", "עַד", "שֶׁהִיא", "הִגִּיעָה"],
+      "a": ["חִיכִּיתִי", "עַד", "שֶׁהִיא", "הִגִּיעָה"],
+      "why": "עַד שֶׁ takes the past for something that already happened and the future for something still to come: חִיכִּיתִי עַד שֶׁהִיא הִגִּיעָה against חַכֵּה עַד שֶׁאֶחְזוֹר." },
+
+    { "id": "time-clauses-09", "type": "fill",
+      "q": "Say \"do not leave until I get back\", speaking to a man.",
+      "a": ["אַל תֵּלֵךְ עַד שֶׁאֶחְזוֹר"],
+      "why": "The return is still ahead, so the verb inside the clause is future, שֶׁאֶחְזוֹר. A negative command uses אַל with the future form, never לֹא." },
+
+    { "id": "time-clauses-10", "type": "mcq",
+      "q": "Which is right for \"since we moved to Haifa\"?",
+      "choices": ["מֵאָז שֶׁעָבַרְנוּ לְחֵיפָה", "מֵאָז עָבַרְנוּ לְחֵיפָה", "מֵאָז לַעֲבוֹר לְחֵיפָה", "מֵאָז הַמַּעֲבָר שֶׁעָבַרְנוּ לְחֵיפָה"],
+      "a": 0,
+      "why": "There is a conjugated verb here, so מֵאָז needs its שֶׁ. Bare מֵאָז would want a noun after it, the way לִפְנֵי and אַחֲרֵי do." },
+
+    { "id": "time-clauses-11", "type": "mcq",
+      "q": "Which \"while\" sets the two halves against each other, closer to English \"whereas\"?",
+      "choices": ["בְּעוֹד שֶׁ", "בִּזְמַן שֶׁ", "כָּל עוֹד", "בְּכָל פַּעַם שֶׁ"],
+      "a": 0,
+      "why": "בִּזְמַן שֶׁ is neutrally simultaneous, בִּזְמַן שֶׁדִּיבַּרְנוּ הוּא כָּתַב הַכֹּל. בְּעוֹד שֶׁ contrasts: הוּא עָבַד, בְּעוֹד שֶׁהִיא נָחָה." },
+
+    { "id": "time-clauses-12", "type": "order",
+      "q": "Build the sentence: in case you are late, call me",
+      "words": ["בְּמִקְרֶה", "שֶׁתְּאַחֵר", "תִּתְקַשֵּׁר", "אֵלַיי"],
+      "a": ["בְּמִקְרֶה", "שֶׁתְּאַחֵר", "תִּתְקַשֵּׁר", "אֵלַיי"],
+      "also": [["תִּתְקַשֵּׁר", "אֵלַיי", "בְּמִקְרֶה", "שֶׁתְּאַחֵר"]],
+      "why": "בְּמִקְרֶה שֶׁ takes a clause with a future verb, because the lateness has not happened. Like בִּתְנַאי שֶׁ and אֶלָּא אִם כֵּן, it can stand at either end of the sentence." },
+
+    { "id": "time-clauses-13", "type": "listen",
+      "say": "נְדַבֵּר אַחֲרֵי שֶׁתַּחְזוֹר",
+      "q": "Type what you hear.",
+      "a": ["נְדַבֵּר אַחֲרֵי שֶׁתַּחְזוֹר"],
+      "why": "Two futures again, and the שֶׁ is what makes אַחֲרֵי able to hold a verb at all. Without it you would need a noun: נְדַבֵּר אַחֲרֵי הַשִּׁיעוּר." },
+
+    { "id": "time-clauses-14", "type": "say",
+      "q": "Say this out loud.",
+      "target": "כָּל עוֹד יֵשׁ לָנוּ זְמַן",
+      "why": "כָּל עוֹד is \"as long as\" and takes a clause, here a present one because the having of time is present. The tense follows the event, not the connector." },
+
+    { "id": "time-clauses-15", "type": "open",
+      "q": "What tense goes inside a Hebrew time clause, and which English habit breaks it? Give an example.",
+      "a": ["The verb takes the tense its own event has. If the arriving is still ahead, it is future: אֶתְקַשֵּׁר אֵלֶיךָ כְּשֶׁאַגִּיעַ. English says \"when I arrive\" with a present standing in for a future, and copying that gives כְּשֶׁאֲנִי מַגִּיעַ, which means \"whenever I arrive\", a habit rather than one occasion."],
+      "why": "This one rule covers כְּשֶׁ, אִם, עַד שֶׁ, אַחֲרֵי שֶׁ and בְּמִקְרֶה שֶׁ alike, which is why it is worth stating as a rule rather than learning connector by connector." }
+  ]
+}

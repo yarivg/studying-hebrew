@@ -1,0 +1,88 @@
+{
+  "ch": "infinitive-modals",
+  "title": "Infinitives, wanting and having to",
+  "questions": [
+    { "id": "infinitive-modals-01", "type": "mcq",
+      "q": "Every Hebrew infinitive begins with the same letter. Which one?",
+      "choices": ["ל", "מ", "ה", "ב"],
+      "a": 0,
+      "why": "The ל of לִכְתּוֹב is the same letter as the preposition \"to\", doing the same job it does in \"to write\". What follows it is the root in a shape that depends on the binyan." },
+
+    { "id": "infinitive-modals-02", "type": "order",
+      "q": "Build the sentence: I (a woman) want to study Hebrew",
+      "words": ["אֲנִי", "רוֹצָה", "לִלְמוֹד", "עִבְרִית"],
+      "a": ["אֲנִי", "רוֹצָה", "לִלְמוֹד", "עִבְרִית"],
+      "why": "רוֹצָה carries all the agreement and לִלְמוֹד carries none: a man would say רוֹצֶה and the infinitive would not move. The infinitive has one form for everybody, forever." },
+
+    { "id": "infinitive-modals-03", "type": "fill",
+      "q": "Write the infinitive of מְדַבֵּר.",
+      "a": ["לְדַבֵּר"],
+      "why": "Pi'el swaps its מְ for לְ and nothing else changes. That trade works across three of the four binyanim, so learning a verb in the present gives you the infinitive free." },
+
+    { "id": "infinitive-modals-04", "type": "fill",
+      "q": "Write the infinitive of מַסְבִּיר.",
+      "a": ["לְהַסְבִּיר"],
+      "why": "Hif'il turns its מַ into לְהַ: מַסְבִּיר gives לְהַסְבִּיר, מַתְחִיל gives לְהַתְחִיל. The ה that appears is the one hiding in the name הִפְעִיל." },
+
+    { "id": "infinitive-modals-05", "type": "mcq",
+      "q": "What is the infinitive of מִתְלַבֵּשׁ?",
+      "choices": ["לִתְלַבֵּשׁ", "לְהִתְלַבֵּשׁ", "לְלַבֵּשׁ", "לְמִתְלַבֵּשׁ"],
+      "a": 1,
+      "why": "Hitpa'el turns מִתְ into לְהִתְ, so the whole prefix survives with a ל in front of it. Nothing in Hebrew ever keeps the מ of the present tense in an infinitive." },
+
+    { "id": "infinitive-modals-06", "type": "mcq",
+      "q": "Which sentence says \"she wants to study\"?",
+      "choices": ["הִיא רוֹצָה לִלְמוֹד", "הִיא רוֹצָה לִלְמוֹדָה", "הִיא רוֹצָה לוֹמֶדֶת", "הִיא לִלְמוֹד רוֹצָה"],
+      "a": 0,
+      "why": "Only the first word agrees with her: an infinitive never takes a feminine ending, never turns back into a conjugated verb, and never moves in front of its modal. A man would say the same sentence with רוֹצֶה, which differs from רוֹצָה only in its vowels." },
+
+    { "id": "infinitive-modals-07", "type": "listen",
+      "say": "אֲנִי רוֹצֶה לֶאֱכוֹל",
+      "q": "Type what you hear.",
+      "a": ["אֲנִי רוֹצֶה לֶאֱכוֹל"],
+      "why": "לֶאֱכוֹל is one of the pa'al infinitives that goes its own way, because its first root letter is א. There is no shortcut for those: learn each one as a word." },
+
+    { "id": "infinitive-modals-08", "type": "fill",
+      "q": "Say \"we (women) have to study\".",
+      "a": ["אֲנַחְנוּ צְרִיכוֹת לִלְמוֹד"],
+      "why": "צָרִיךְ takes adjective endings, so the feminine plural is צְרִיכוֹת, and the infinitive after it stays exactly as it is." },
+
+    { "id": "infinitive-modals-09", "type": "mcq",
+      "q": "Why is the feminine of צָרִיךְ written צְרִיכָה and not צָרִיכָה?",
+      "choices": ["Because צָרִיךְ is an adjective, not a verb, and takes the same endings as גָּדוֹל", "Because it is a pi'el verb", "Because every feminine form loses its first vowel", "Because it always follows יָכוֹל"],
+      "a": 0,
+      "why": "רוֹצֶה and אוֹהֵב are real present-tense verbs; צָרִיךְ and יָכוֹל only translate as verbs and behave like adjectives, which is also why יְכוֹלָה is built like גְּדוֹלָה." },
+
+    { "id": "infinitive-modals-10", "type": "order",
+      "q": "Build the sentence: you (f. sg.) can't go",
+      "words": ["אַתְּ", "לֹא", "יְכוֹלָה", "לָלֶכֶת"],
+      "a": ["אַתְּ", "לֹא", "יְכוֹלָה", "לָלֶכֶת"],
+      "why": "The לֹא goes in front of the modal, never in front of the infinitive, because the modal is the word carrying the statement. לָלֶכֶת is one of the irregular pa'al infinitives worth learning whole." },
+
+    { "id": "infinitive-modals-11", "type": "say",
+      "q": "Say this out loud.",
+      "target": "אֲנַחְנוּ צְרִיכִים לָלֶכֶת",
+      "why": "Stress falls on the last syllable of צְרִיכִים and on the middle one of לָלֶכֶת: tzri-KHIM la-LE-khet. That second word is one of the few Hebrew words not stressed at the end." },
+
+    { "id": "infinitive-modals-12", "type": "mcq",
+      "q": "Which of these never changes for gender or number?",
+      "choices": ["רוֹצֶה", "צָרִיךְ", "יָכוֹל", "אֶפְשָׁר"],
+      "a": 3,
+      "why": "אֶפְשָׁר and its group, אִי אֶפְשָׁר, מוּתָּר, אָסוּר and כְּדַאי, take an infinitive with no subject at all and have one form each. A man, a woman and a crowd all say אֶפְשָׁר לְשַׁלֵּם." },
+
+    { "id": "infinitive-modals-13", "type": "fill",
+      "q": "Say \"it's forbidden to smoke here\".",
+      "a": ["אָסוּר לְעַשֵּׁן כָּאן"],
+      "why": "There is no subject and nothing to agree with: the impersonal word comes first and the infinitive follows it. To say who it applies to, hang a לְ with an ending on the front word, as in אָסוּר לָנוּ לְעַשֵּׁן." },
+
+    { "id": "infinitive-modals-14", "type": "say",
+      "q": "Say this out loud.",
+      "target": "אֶפְשָׁר לְשַׁלֵּם כָּאן",
+      "why": "Said with a rising tone it is a question, \"can one pay here?\", and Hebrew needs nothing else to make it one. The word order does not change." },
+
+    { "id": "infinitive-modals-15", "type": "open",
+      "q": "Two of רוֹצֶה, צָרִיךְ, יָכוֹל and אוֹהֵב are not really verbs. Which two, and what follows from that?",
+      "a": ["צָרִיךְ and יָכוֹל are adjectives, so they take adjective endings: צְרִיכָה, צְרִיכִים, צְרִיכוֹת and יְכוֹלָה, יְכוֹלִים, יְכוֹלוֹת, built like גְּדוֹלָה. In the past they will need הָיָה in front of them, where רוֹצֶה and אוֹהֵב simply go into the past themselves."],
+      "why": "Noticing the shape now saves relearning it in Part II. In the meantime all four behave the same way in a sentence: they agree with the subject and hand the infinitive over unchanged." }
+  ]
+}

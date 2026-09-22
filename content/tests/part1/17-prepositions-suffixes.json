@@ -1,0 +1,89 @@
+{
+ "ch": "prepositions-suffixes",
+ "title": "Prepositions with endings",
+ "questions": [
+  { "id": "prepositions-suffixes-01", "type": "mcq",
+    "q": "Which one-letter prefix means \"to, for\"?",
+    "choices": ["לְ", "בְּ", "כְּ", "שֶׁל"],
+    "a": 0,
+    "why": "בְּ is in or at, לְ is to or for, and כְּ is as or like. All three attach to the front of the next word with no space at all, which is why בְּבַיִת is one word." },
+
+  { "id": "prepositions-suffixes-02", "type": "mcq",
+    "q": "How do you write \"in the house\"?",
+    "choices": ["בַּבַּיִת", "בְּהַבַּיִת", "בְּ הַבַּיִת"],
+    "a": 0,
+    "why": "The prefix swallows the ה of the article and keeps its vowel, exactly as in chapter 10, and it is never written with a space after it. There is no form בְּהַבַּיִת at all: compare בְּבַיִת, in a house, where there is no article to absorb." },
+
+  { "id": "prepositions-suffixes-03", "type": "fill",
+    "q": "Write the form of לְ that means \"to me\".",
+    "a": ["לִי"],
+    "why": "It is the shortest word in the family and the one you will say most often, because it carries the whole of \"I have\" in יֵשׁ לִי. The ending ־ִי is the first person across the entire set." },
+
+  { "id": "prepositions-suffixes-04", "type": "fill",
+    "q": "Write the form of אֵצֶל that means \"at my place\".",
+    "a": ["אֶצְלִי"],
+    "why": "אֵצֶל takes the plain endings without a single change, which makes it the cleanest word to learn the pattern on. It means \"in the domain of\", so it can be a home, an office or a desk depending on what is being discussed." },
+
+  { "id": "prepositions-suffixes-05", "type": "mcq",
+    "q": "Which form means \"to her\"?",
+    "choices": ["לָהּ", "לוֹ", "לָךְ", "לָהֶן"],
+    "a": 0,
+    "why": "לוֹ is to him and לָהּ is to her, and the difference is a single letter that is not pronounced: the ה of לָהּ is silent, so what you hear is the open /a/ against the /o/. לָךְ is to you, feminine, and לָהֶן is to them." },
+
+  { "id": "prepositions-suffixes-06", "type": "mcq",
+    "q": "Which is the everyday way to say \"with him\"?",
+    "choices": ["אִתּוֹ", "עִמּוֹ", "עִם הוּא", "עִמוֹ הוּא"],
+    "a": 0,
+    "why": "עִם refuses the endings altogether and hands the job to a different stem, אִת. עִמּוֹ is real Hebrew, but it belongs to poetry and to legal documents, not to a conversation." },
+
+  { "id": "prepositions-suffixes-07", "type": "fill",
+    "q": "Write \"my book\" in Hebrew, the way it is said in speech, using the noun סֵפֶר.",
+    "a": ["הַסֵּפֶר שֶׁלִּי"],
+    "why": "Possession is a definite noun followed by the שֶׁל form, and the article on the noun is compulsory. Literally it is \"the book of mine\", which is why the ה cannot be dropped." },
+
+  { "id": "prepositions-suffixes-08", "type": "mcq",
+    "q": "What is wrong with סֵפֶר שֶׁלִּי?",
+    "choices": ["the noun needs the article: הַסֵּפֶר שֶׁלִּי", "the ending on שֶׁל is wrong", "the two words are in the wrong order", "nothing is wrong with it"],
+    "a": 0,
+    "why": "This is the mistake every English speaker makes, because English says \"my book\" with no article in sight. In Hebrew the noun must be definite before שֶׁל can hang off it." },
+
+  { "id": "prepositions-suffixes-09", "type": "order",
+    "q": "Build the phrase: her notebook",
+    "words": ["הַמַּחְבֶּרֶת", "שֶׁלָּהּ"],
+    "a": ["הַמַּחְבֶּרֶת", "שֶׁלָּהּ"],
+    "why": "The שֶׁל forms follow the לְ forms exactly, with the ל doubled: לָהּ gives שֶׁלָּהּ. The possessive comes after the noun, and the noun carries the article." },
+
+  { "id": "prepositions-suffixes-10", "type": "order",
+    "q": "Build the sentence: our house is big",
+    "words": ["הַבַּיִת", "שֶׁלָּנוּ", "גָּדוֹל"],
+    "a": ["הַבַּיִת", "שֶׁלָּנוּ", "גָּדוֹל"],
+    "why": "The noun is definite and the adjective is not, so this reads as a sentence rather than a phrase, the same contrast as הַבַּיִת הַגָּדוֹל against הַבַּיִת גָּדוֹל in chapter 12. The possessive sits between them." },
+
+  { "id": "prepositions-suffixes-11", "type": "fill",
+    "q": "Write the form of עִם that means \"with me\".",
+    "a": ["אִתִּי"],
+    "why": "The stem changes from עִם to אִת before any ending, so there is nothing of the original word left to recognise. It is irregular, unavoidable and one of the most common words in the language." },
+
+  { "id": "prepositions-suffixes-12", "type": "mcq",
+    "q": "עִם and אִם are pronounced identically. What is the difference?",
+    "choices": ["עִם is \"with\" and אִם is \"if\"", "עִם is \"if\" and אִם is \"with\"", "they are the same word spelled two ways", "one is formal and the other is spoken"],
+    "a": 0,
+    "why": "Two different words with two different first letters, and ע and א sound the same in modern Israeli Hebrew. No amount of listening will separate them: only the sentence around them will." },
+
+  { "id": "prepositions-suffixes-13", "type": "listen",
+    "say": "הַמַּחְבֶּרֶת שֶׁלָּהּ",
+    "q": "Type what you hear.",
+    "a": ["הַמַּחְבֶּרֶת שֶׁלָּהּ"],
+    "why": "The final ה of שֶׁלָּהּ is silent, so the ear gets /shela/ and has to remember that the letter is written anyway. That silent ה is what separates it from שֶׁלּוֹ on the page." },
+
+  { "id": "prepositions-suffixes-14", "type": "say",
+    "q": "Say \"I am with him\".",
+    "target": "אֲנִי אִתּוֹ",
+    "why": "Two words and no verb: chapter 11 removed the \"am\", and the preposition has swallowed the pronoun. Stress it i-TO, on the last syllable." },
+
+  { "id": "prepositions-suffixes-15", "type": "open",
+    "q": "Name the three one-letter prefixes taught in this chapter with their meanings, and explain what happens when one of them meets a definite noun.",
+    "a": ["בְּ is in or at, לְ is to or for, and כְּ is as or like. Each attaches to the front of the next word with no space. When the noun is definite the ה of הַ disappears and its vowel moves onto the prefix, so בְּ plus הַבַּיִת gives בַּבַּיִת and לְ plus הַבַּיִת gives לַבַּיִת. There is no written form בְּהַבַּיִת."],
+    "why": "The fusion is invisible in speech but decisive in writing, and it is the reason a beginner cannot find the article when reading: it is sitting inside the vowel of the prefix." }
+ ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "a1-01-ha-boker",
+  "title": "הַבֹּקֶר שֶׁל דָּנָה",
+  "level": "A1",
+  "blurb": "One morning, start to finish: the pa'al and hitpa'el present, the definite article, and telling the time.",
+  "grammar": [
+    "present-paal",
+    "present-other-binyanim",
+    "ha-article",
+    "time-place-adverbs"
+  ],
+  "text": "דָּנָה קָמָה בְּשֵׁשׁ וָחֵצִי.\nהִיא לֹא אוֹהֶבֶת לְאַחֵר.\nבַּמִּטְבָּח הִיא עוֹשָׂה קָפֶה וּשְׁתֵּי פְּרוּסוֹת לֶחֶם.\nהֶחָתוּל נִינוֹ מְחַכֶּה לַאֲרוּחַת הַבּוֹקֶר שֶׁלּוֹ.\nהוּא רָעֵב תָּמִיד.\n\nדָּנָה מִתְרַחֶצֶת, מִתְלַבֶּשֶׁת וּמְחַפֶּשֶׂת אֶת הַמַּפְתְּחוֹת.\nהִיא לֹא מוֹצֵאת אוֹתָם.\nהִיא מְחַפֶּשֶׂת בַּתִּיק וְעַל הַשּׁוּלְחָן.\nלְבַסּוֹף הִיא רוֹאָה אֶת הַמַּפְתְּחוֹת מִתַּחַת לָעִיתּוֹן, לְיַד הַטֶּלֶפוֹן.\n\nהִיא יוֹצֵאת מֵהַבַּיִת וְרָצָה לַתַּחֲנָה.\nשָׁם הִיא מְבִינָה.\nהָרְחוֹב רֵיק.\nאֵין מְכוֹנִיּוֹת וְאֵין אוֹטוֹבּוּס.\nהַיּוֹם שַׁבָּת.\nדָּנָה חוֹזֶרֶת לַבַּיִת, מוֹרִידָה אֶת הַמְּעִיל וְחוֹזֶרֶת לַמִּיטָּה.\nנִינוֹ כְּבָר יָשֵׁן עַל הַמִּיטָּה.",
+  "gloss": {
+    "פְּרוּסוֹת": "slices",
+    "רָצָה": "runs (she)",
+    "מוֹרִידָה": "takes off, removes"
+  },
+  "aloud": [
+    "דָּנָה קָמָה בְּשֵׁשׁ וָחֵצִי.",
+    "הִיא יוֹצֵאת מֵהַבַּיִת וְרָצָה לַתַּחֲנָה."
+  ],
+  "questions": [
+    {
+      "id": "a1-01-01",
+      "type": "mcq",
+      "q": "What time does Dana get up?",
+      "choices": [
+        "At six",
+        "At half past six",
+        "At seven",
+        "At half past seven"
+      ],
+      "a": 1,
+      "why": "The text says בְּשֵׁשׁ וָחֵצִי. Hebrew builds the half hour by gluing וָחֵצִי onto the number, and clock numbers are the feminine ones: שֵׁשׁ, never שִׁישָּׁה."
+    },
+    {
+      "id": "a1-01-02",
+      "type": "mcq",
+      "q": "Why is the street empty?",
+      "choices": [
+        "It is too early",
+        "It is Shabbat",
+        "It is raining",
+        "The drivers are on strike"
+      ],
+      "a": 1,
+      "why": "The turn is the short line near the end: הַיּוֹם שַׁבָּת. Dana has run through a whole workday morning on the one day the buses do not come."
+    },
+    {
+      "id": "a1-01-03",
+      "type": "fill",
+      "q": "Add the object marker: דָּנָה מְחַפֶּשֶׂת ___ הַמַּפְתְּחוֹת.",
+      "a": [
+        "אֶת",
+        "את"
+      ],
+      "why": "אֶת appears only in front of a **definite** object. מְחַפֶּשֶׂת מַפְתְּחוֹת (some keys) takes nothing; מְחַפֶּשֶׂת אֶת הַמַּפְתְּחוֹת (the keys) must have it."
+    },
+    {
+      "id": "a1-01-04",
+      "type": "fill",
+      "q": "Put the verb in the feminine: דָּנָה ___ לַבַּיִת. (חוֹזֵר)",
+      "a": [
+        "חוֹזֶרֶת",
+        "חוזרת"
+      ],
+      "why": "A pa'al present form whose masculine ends in a tsere takes ־ֶת in the feminine singular: חוֹזֵר → חוֹזֶרֶת, just like יוֹשֵׁב → יוֹשֶׁבֶת."
+    },
+    {
+      "id": "a1-01-05",
+      "type": "mcq",
+      "q": "Which sentence is correct?",
+      "choices": [
+        "אֵין אוֹטוֹבּוּס בָּרְחוֹב.",
+        "לֹא יֵשׁ אוֹטוֹבּוּס בָּרְחוֹב.",
+        "יֵשׁ לֹא אוֹטוֹבּוּס בָּרְחוֹב.",
+        "אֵין לֹא אוֹטוֹבּוּס בָּרְחוֹב."
+      ],
+      "a": 0,
+      "why": "There is no such thing as לֹא יֵשׁ. The negative of יֵשׁ is its own word, אֵין, exactly as the passage uses it: אֵין מְכוֹנִיּוֹת וְאֵין אוֹטוֹבּוּס."
+    },
+    {
+      "id": "a1-01-06",
+      "type": "mcq",
+      "q": "Where are the keys in the end?",
+      "choices": [
+        "בַּתִּיק",
+        "עַל הַשּׁוּלְחָן",
+        "מִתַּחַת לָעִיתּוֹן",
+        "בַּמִּטְבָּח"
+      ],
+      "a": 2,
+      "why": "The bag and the table are where she looks and fails. The keys are מִתַּחַת לָעִיתּוֹן, לְיַד הַטֶּלֶפוֹן. Note that מִתַּחַת needs a לְ before the noun, while עַל and בְּ do not."
+    },
+    {
+      "id": "a1-01-07",
+      "type": "open",
+      "q": "Describe your own morning in four Hebrew sentences, all in the present tense.",
+      "a": [
+        "אֲנִי קָם בְּשֶׁבַע. אֲנִי מִתְרַחֵץ וּמִתְלַבֵּשׁ. בַּמִּטְבָּח אֲנִי עוֹשֶׂה קָפֶה. אַחַר כָּךְ אֲנִי יוֹצֵא לָעֲבוֹדָה."
+      ],
+      "why": "A morning routine is the cheapest place to drill the present tense, because Hebrew has only one present form per gender and number, and the hitpa'el verbs (מִתְרַחֵץ, מִתְלַבֵּשׁ) carry half the routine on their own."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "ch": "binyanim-system",
+  "title": "The binyanim as a system",
+  "questions": [
+    { "id": "binyanim-system-01", "type": "mcq",
+      "q": "How many binyanim does Hebrew have?",
+      "choices": ["three", "five", "seven", "ten"],
+      "a": 2,
+      "why": "Seven moulds, and one root poured into each of them gives seven related verbs. You have already conjugated five of them; the two missing ones are the pure passives." },
+
+    { "id": "binyanim-system-02", "type": "mcq",
+      "q": "Which binyan is כָּתַב in?",
+      "choices": ["פָּעַל", "פִּיעֵל", "הִפְעִיל", "הִתְפַּעֵל"],
+      "a": 0,
+      "why": "The traditional names are themselves the pattern, built on the dummy root פ-ע-ל: פָּעַל is the shape of כָּתַב, exactly as הִפְעִיל is the shape of הִכְתִּיב. Learn the name and you have the mould." },
+
+    { "id": "binyanim-system-03", "type": "mcq",
+      "q": "In the root-and-binyan system, what does the binyan contribute?",
+      "choices": ["the area of meaning", "the relationship between the subject, the action and anyone else involved", "the tense", "whether the verb is common or rare"],
+      "a": 1,
+      "why": "The root supplies the area of meaning, כ-ת-ב being about writing; the binyan says whether the subject writes, is written, dictates or corresponds. Tense is carried separately, inside whichever binyan you picked." },
+
+    { "id": "binyanim-system-04", "type": "fill",
+      "q": "The root כ-ת-ב in נִפְעַל, third person masculine past: write the verb that means \"it was written\".",
+      "a": ["נִכְתַּב"],
+      "why": "נִפְעַל is the passive or intransitive counterpart of פָּעַל, marked by the נִ prefix. It is not purely passive though: נִכְנַס, he entered, is nif'al and as active as a verb gets." },
+
+    { "id": "binyanim-system-05", "type": "mcq",
+      "q": "הִפְעִיל most often does what to the meaning of the plain pa'al verb?",
+      "choices": ["makes it passive", "makes it reflexive", "makes it causative", "makes it intensive"],
+      "a": 2,
+      "why": "הִפְעִיל usually means causing someone else to do the pa'al verb: עָמַד he stood, הֶעֱמִיד he stood something up; לָבַשׁ he wore, הִלְבִּישׁ he dressed someone. Its own passive is הוּפְעַל." },
+
+    { "id": "binyanim-system-06", "type": "fill",
+      "q": "דִּיבֵּר means \"he spoke\". Write its passive, third person masculine past, as in \"the film was discussed\".",
+      "a": ["דּוּבַּר"],
+      "why": "פִּיעֵל pairs with פּוּעַל, and the pairing is visible in the vowels: the shuruk after the first letter is the mark of the passive. דּוּבַּר עַל הַסֶּרֶט, the film was discussed." },
+
+    { "id": "binyanim-system-07", "type": "fill",
+      "q": "הִכְתִּיב means \"he dictated\". Write its passive, third person masculine past.",
+      "a": ["הוּכְתַּב"],
+      "why": "הִפְעִיל pairs with הוּפְעַל the way פִּיעֵל pairs with פּוּעַל. The two passive binyanim are not independent verbs: they are the same verb with the subject and object swapped." },
+
+    { "id": "binyanim-system-08", "type": "listen",
+      "say": "הַמִּכְתָּב הוּכְתַּב",
+      "q": "Type what you hear.",
+      "a": ["הַמִּכְתָּב הוּכְתַּב"],
+      "why": "\"The letter was dictated.\" The active version, הוּא הִכְתִּיב מִכְתָּב, has a doer; the huf'al version does not, which is why the letter has become the subject." },
+
+    { "id": "binyanim-system-09", "type": "mcq",
+      "q": "Which binyan is the present-tense form מְדוּבָּר in?",
+      "choices": ["פִּיעֵל", "פּוּעַל", "הוּפְעַל", "נִפְעַל"],
+      "a": 1,
+      "why": "The present tense is the most distinctive place to spot a binyan: מְדַבֵּר is pi'el, מְדוּבָּר is pu'al, מוּכְתָּב is huf'al. A מ prefix with a shuruk or a kamatz-flavoured vowel inside marks a passive." },
+
+    { "id": "binyanim-system-10", "type": "order",
+      "q": "Build the sentence: he dressed the child",
+      "words": ["הוּא", "הִלְבִּישׁ", "אֶת", "הַיֶּלֶד"],
+      "a": ["הוּא", "הִלְבִּישׁ", "אֶת", "הַיֶּלֶד"],
+      "why": "הִלְבִּישׁ is the hif'il of לָבַשׁ, so it has gained an object: he caused the child to wear something. הוּא לָבַשׁ מְעִיל has no one else in it at all." },
+
+    { "id": "binyanim-system-11", "type": "say",
+      "q": "Say this out loud.",
+      "target": "הוּא הִכְתִּיב מִכְתָּב",
+      "why": "The הִ prefix plus the chiriq-yod inside is the audible signature of hif'il: hikh-TIV. Hear that shape and you can guess \"cause to do it\" before you know the root." },
+
+    { "id": "binyanim-system-12", "type": "fill",
+      "q": "עָמַד means \"he stood\". Write the verb that means \"he stood something up\".",
+      "a": ["הֶעֱמִיד"],
+      "why": "Moving from pa'al to hif'il is the causative step, and it is the single most productive relationship in the system. Sometimes pi'el fills the same slot instead: לָמַד he learned, לִימֵּד he taught, with no הִלְמִיד in the language." },
+
+    { "id": "binyanim-system-13", "type": "mcq",
+      "q": "Which is the correct hitpa'el of the root שׁ-מ-שׁ, meaning \"he used\"?",
+      "choices": ["הִתְשַׁמֵּשׁ", "הִשְׁתַּמֵּשׁ", "הִשְׁמַּתֵּשׁ", "נִשְׁתַּמֵּשׁ"],
+      "a": 1,
+      "why": "When the root starts with שׂ שׁ ס or ז, that letter and the ת of the hitpa'el prefix swap places: הִשְׁתַּמֵּשׁ, הִסְתַּדֵּר. The verb is also a reminder that the system leaks: it is neither reflexive nor reciprocal, and it takes בְּ." },
+
+    { "id": "binyanim-system-14", "type": "mcq",
+      "q": "Which two binyanim have no infinitive, no imperative and no verbal noun?",
+      "choices": ["פּוּעַל and הוּפְעַל", "נִפְעַל and הִתְפַּעֵל", "פִּיעֵל and פּוּעַל", "פָּעַל and נִפְעַל"],
+      "a": 0,
+      "why": "The two pure passives have only a past, a present and a future. You cannot intend or be told to undergo something, so \"the letter has to be dictated\" is turned around: צָרִיךְ לְהַכְתִּיב אֶת הַמִּכְתָּב." },
+
+    { "id": "binyanim-system-15", "type": "open",
+      "q": "Explain the difference between נִפְעַל and הִתְפַּעֵל, with an example of each.",
+      "a": ["נִפְעַל is the passive or intransitive counterpart of פָּעַל: כָּתַב he wrote, נִכְתַּב it was written. The subject undergoes the action rather than doing it, and something or someone else may have done it. But nif'al is a working binyan in its own right and many of its verbs are not passive at all: נִכְנַס, he entered. הִתְפַּעֵל is reflexive or reciprocal: the subject does the action to itself, as in הִתְלַבֵּשׁ, he got dressed, or two subjects do it to each other, as in הִתְכַּתֵּב, he corresponded. So נִכְתַּב has no doer in it, while הִתְכַּתֵּב has doers who are also the ones being acted on. Both leak: הִשְׁתַּמֵּשׁ is hitpa'el and means \"used\"."],
+      "why": "Both can be translated with an English intransitive, which is why they blur. The test is whether the subject is on the receiving end of somebody else's action (nif'al) or is acting on itself or on a partner (hitpa'el)." }
+  ]
+}

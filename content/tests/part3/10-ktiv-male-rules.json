@@ -1,0 +1,93 @@
+{
+  "ch": "ktiv-male-rules",
+  "title": "The spelling rules",
+  "questions": [
+    { "id": "ktiv-male-rules-01", "type": "mcq",
+      "q": "In unpointed writing, which letter is put in to carry every o and every u?",
+      "choices": ["ו", "י", "א", "ה"],
+      "a": 0,
+      "why": "One letter covers all four signs: cholam, shuruk, kubutz and the short kamatz all become a ו once the points come off. That is why חָכְמָה is written חוכמה although there is no vav anywhere in the pointed form." },
+
+    { "id": "ktiv-male-rules-02", "type": "mcq",
+      "q": "A pointed book prints כֻּלָּם. How is the same word written unpointed?",
+      "choices": ["כולם", "כלם", "כולים", "כוללם"],
+      "a": 0,
+      "why": "The kubutz is a u, so it takes a vav. Nothing else is added: the dagesh in the lamed leaves no trace at all once the points are gone, which is why so many unpointed words look shorter than they sound." },
+
+    { "id": "ktiv-male-rules-03", "type": "mcq",
+      "q": "Which spelling of \"a class\" does an Israeli write today?",
+      "choices": ["כיתה", "כתה", "כייתה", "קיתה"],
+      "a": 0,
+      "why": "Every i takes a yod. The old rule made an exception before a doubled letter, which is why older books print כתה, מלה and ספר; the Academy let the yod back in in 2017 and the current forms are כיתה, מילה and סיפר." },
+
+    { "id": "ktiv-male-rules-04", "type": "mcq",
+      "q": "שֵׁם, \"a name\", is written how without its points?",
+      "choices": ["שם", "שים", "שהם", "שאם"],
+      "a": 0,
+      "why": "A tzere never gains a yod it did not already have, and segol, patach and kamatz gadol are not written at all. בֵּית סֵפֶר shows both halves of the rule at once: בית keeps the yod it had, ספר gets nothing." },
+
+    { "id": "ktiv-male-rules-05", "type": "mcq",
+      "q": "Hope is written תקווה. Why two vavs?",
+      "choices": ["The vav is a consonant in the middle of the word, and a single one would be read as o or u", "Because the word is feminine", "Because the pointed form has a dagesh there", "To mark where the stress falls"],
+      "a": 0,
+      "why": "Doubling is how unpointed Hebrew says \"this vav is a consonant\": מצווה, אוויר, תקווה. A prefix can push a vav into the middle and trigger it, which is why ועדה becomes הוועדה." },
+
+    { "id": "ktiv-male-rules-06", "type": "mcq",
+      "q": "וָרוֹד, \"pink\", begins with a consonantal vav. How is it written unpointed?",
+      "choices": ["ורוד", "וורוד", "וארוד", "וורד"],
+      "a": 0,
+      "why": "Neither doubling happens at the start or the end of a word, because there is nothing there to confuse the letter with: ורוד, וילון, ויכוח, and at the end עכשיו, קו, גוי. The doubling rules are for the middle only." },
+
+    { "id": "ktiv-male-rules-07", "type": "mcq",
+      "q": "Israelis write וויסקי and וואטסאפ with two vavs at the front, against the rule. Why?",
+      "choices": ["One vav at the front of a foreign word would be read as the prefix \"and\"", "The Academy requires two vavs at the start of any word", "A borrowed word doubles its first letter whatever it is", "The vav is a vowel there, and vowels are doubled"],
+      "a": 0,
+      "why": "The rule says one and the country writes two, so write two. This is the clearest case in the language of usage beating the Academy, and the reason is purely practical: וויסקי cannot be misread, ויסקי can." },
+
+    { "id": "ktiv-male-rules-08", "type": "mcq",
+      "q": "Which line gets the כָּל and הַכּוֹל pair right in unpointed writing?",
+      "choices": ["כל היום, but הכול on its own", "כול היום, and הכול on its own", "כל היום, and הכל on its own", "כול היום, and הכל on its own"],
+      "a": 0,
+      "why": "This one pair is worth memorising, because it breaks rule 1 in one half and keeps it in the other, and both halves are everywhere. Alongside it sit the words an alef already covers: לא, זאת, ראש." },
+
+    { "id": "ktiv-male-rules-09", "type": "fill",
+      "q": "Write the Hebrew for \"a building\" the way it appears on a street sign, with no points.",
+      "a": ["בניין", "בִּנְיָין"],
+      "tags": ["unpointed"],
+      "why": "A consonantal yod between two vowels is doubled, so בניין carries two, and so do עניין, שנייה and עלייה. The pointed form has a single yod with a dagesh, and the dagesh is exactly what the second yod is standing in for." },
+
+    { "id": "ktiv-male-rules-10", "type": "fill",
+      "q": "Write the Hebrew for \"sugar\" as a shop writes it, with no points.",
+      "a": ["סוכר", "סוּכָּר"],
+      "tags": ["unpointed"],
+      "why": "The u is a kubutz in the traditional pointed form, סֻכָּר, and every u gets a vav once the points go: סוכר. The same move gives משוגע, חנוכה and רוב." },
+
+    { "id": "ktiv-male-rules-11", "type": "fill",
+      "q": "Write \"on me\" unpointed, the form that has to stay distinct from עָלָיו, \"on him\".",
+      "a": ["עליי", "עָלַיי"],
+      "tags": ["unpointed"],
+      "why": "The doubled yod is the whole difference: עליי is on me, עליו is on him, and with a single yod the two would collapse into one spelling. This is rule 5 doing real work rather than decoration." },
+
+    { "id": "ktiv-male-rules-12", "type": "fill",
+      "q": "You look up משוגע in an older dictionary and it is not listed. Which spelling do you try instead?",
+      "a": ["משגע"],
+      "tags": ["unpointed"],
+      "why": "Add a ו or a י, or take one away, and look again: nine times out of ten the word is there under the other spelling. The same trick works in a search box, an app dictionary and the index of a book." },
+
+    { "id": "ktiv-male-rules-13", "type": "listen",
+      "say": "הַוַּועֲדָה הֶחְלִיטָה",
+      "q": "Type what you hear.",
+      "a": ["הַוַּועֲדָה הֶחְלִיטָה", "הוועדה החליטה"],
+      "why": "וַעֲדָה on its own is ועדה with one vav, at the start of the word. Put the article in front and the vav is suddenly in the middle, so it doubles: הוועדה. The prefix changed the spelling of the stem." },
+
+    { "id": "ktiv-male-rules-14", "type": "say",
+      "q": "Say this out loud.",
+      "target": "צָהֳרַיִים טוֹבִים",
+      "why": "Unpointed it is צוהריים: a vav for the short kamatz, which is an o, and a doubled yod for the consonant between the vowels. Two rules in one word, and neither letter is anywhere in the pointed form." },
+
+    { "id": "ktiv-male-rules-15", "type": "open",
+      "q": "Name three words that have two live spellings in Israel today, and say what you should do when you meet both.",
+      "a": ["אמא and אימא, מלה and מילה, ספור and סיפור, דוגמא and דוגמה, שמים and שמיים. A dictionary lists both, so pick one, stay consistent inside a document, and do not correct an Israeli. Proper names, loanwords and acronyms such as צה\"ל or צהל are outside the rules altogether."],
+      "why": "The rules have been revised twice and each revision left a generation of print behind it, so a range of current spellings is the normal state of the language rather than a failure of it." }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+ "ch": "nouns-gender",
+ "title": "Nouns: gender and number",
+ "questions": [
+  { "id": "nouns-gender-01", "type": "mcq",
+    "q": "Which of these nouns is feminine?",
+    "choices": ["מַחְבֶּרֶת", "סֵפֶר", "כֶּלֶב", "שׁוּלְחָן"],
+    "a": 0,
+    "why": "A noun ending in an unstressed ה or in ת is feminine, and almost everything else is masculine. There is no article to tell you the way French has le and la, so the ending is the whole of your evidence." },
+
+  { "id": "nouns-gender-02", "type": "mcq",
+    "q": "What gender is יָד, and why?",
+    "choices": ["feminine, because it is a body part that comes in a pair", "masculine, because it has no feminine ending", "masculine, because it is one syllable", "feminine, because every short noun is"],
+    "a": 0,
+    "why": "יָד, רֶגֶל, עַיִן, אוֹזֶן and שֵׁן are feminine with no ending at all. The pairing is a memory hook, not a rule: עִיר, אֶרֶץ and דֶּרֶךְ are feminine too and nobody has two of them." },
+
+  { "id": "nouns-gender-03", "type": "mcq",
+    "q": "Which noun ends in ה and is masculine anyway?",
+    "choices": ["לַיְלָה", "תְּמוּנָה", "שָׁנָה", "מִשְׁפָּחָה"],
+    "a": 0,
+    "why": "לַיְלָה breaks the ending rule, and so does כִּיסֵּא despite its alef. The exceptions are few enough to learn one at a time, which is why every vocabulary entry in this course carries its gender." },
+
+  { "id": "nouns-gender-04", "type": "fill",
+    "q": "Write the plural of סֵפֶר.",
+    "a": ["סְפָרִים"],
+    "why": "Masculine nouns take ־ִים, but a segolate does not simply gain an ending: the whole inside of the word reshuffles. מֶלֶךְ behaves the same way and becomes מְלָכִים." },
+
+  { "id": "nouns-gender-05", "type": "fill",
+    "q": "Write the plural of מִשְׁפָּחָה.",
+    "a": ["מִשְׁפָּחוֹת"],
+    "why": "The feminine plural is ־וֹת, and it replaces the singular ה rather than sitting on top of it. תְּמוּנָה becomes תְּמוּנוֹת the same way." },
+
+  { "id": "nouns-gender-06", "type": "fill",
+    "q": "Write the plural of שׁוּלְחָן.",
+    "a": ["שׁוּלְחָנוֹת"],
+    "why": "A masculine noun with a feminine-looking plural. The ending changed and the gender did not, which is why big tables are שׁוּלְחָנוֹת גְּדוֹלִים. מָקוֹם and חַלּוֹן do exactly the same." },
+
+  { "id": "nouns-gender-07", "type": "fill",
+    "q": "Write the plural of אִישָּׁה.",
+    "a": ["נָשִׁים"],
+    "why": "The word is replaced outright, and the result looks masculine while staying feminine. It is one of the most frequent nouns in the language, so this is the irregular plural to burn in first." },
+
+  { "id": "nouns-gender-08", "type": "fill",
+    "q": "Write the plural of בַּיִת.",
+    "a": ["בָּתִּים"],
+    "why": "Simply irregular, like אִישׁ becoming אֲנָשִׁים and בֵּן becoming בָּנִים. The ending is the ordinary masculine one; it is the stem underneath that has been rebuilt." },
+
+  { "id": "nouns-gender-09", "type": "mcq",
+    "q": "Which is correct, and why?",
+    "choices": ["נָשִׁים יָפוֹת, because נָשִׁים is feminine", "נָשִׁים יָפִים, because נָשִׁים ends in ־ִים", "נָשִׁים יָפָה, because it is one group", "either one; both are heard"],
+    "a": 0,
+    "why": "Agreement follows the noun's real gender, never the shape of its ending. נָשִׁים יָפִים is wrong and unmistakably foreign, and it is the single pair worth memorising out of this chapter." },
+
+  { "id": "nouns-gender-10", "type": "mcq",
+    "q": "Why is \"two eyes\" עֵינַיִים and not עֵינִים?",
+    "choices": ["eyes come in a pair, so they take the dual ending", "עַיִן is feminine, so its plural is irregular", "עֵינִים would be the plural of a different word", "the dual is used for anything you cannot count"],
+    "a": 0,
+    "why": "Hebrew has a third number for things that naturally come in twos: יָדַיִים, רַגְלַיִים, נַעֲלַיִים, מִשְׁקָפַיִים. For body parts it is the ordinary plural, so you do not say יָדִים at all." },
+
+  { "id": "nouns-gender-11", "type": "mcq",
+    "q": "Three days is שְׁלוֹשָׁה יָמִים, not a dual. What does that tell you about the dual on a time word?",
+    "choices": ["it means exactly two and nothing else", "it is used for any small number", "it replaces the plural of time words", "it is only used in writing"],
+    "a": 0,
+    "why": "יוֹמַיִים is two days and שְׁבוּעַיִים is two weeks, precisely. The dual is a closed set of words you learn one by one; you are never asked to invent a new one." },
+
+  { "id": "nouns-gender-12", "type": "order",
+    "q": "Build the phrase: beautiful women",
+    "words": ["יָפוֹת", "נָשִׁים"],
+    "a": ["נָשִׁים", "יָפוֹת"],
+    "why": "The describing word comes after the noun in Hebrew, and it agrees with what the noun is rather than what it looks like. Feminine plural noun, feminine plural ending on the word beside it." },
+
+  { "id": "nouns-gender-13", "type": "listen",
+    "say": "יָדַיִים וְרַגְלַיִים",
+    "q": "Type what you hear.",
+    "a": ["יָדַיִים וְרַגְלַיִים"],
+    "why": "Both are duals, and both keep the double yod in full spelling. The וְ on the front of the second word is glued to it, one word on the page and one word in the ear." },
+
+  { "id": "nouns-gender-14", "type": "say",
+    "q": "Say this out loud.",
+    "target": "מִשְׁקָפַיִים",
+    "why": "Glasses are a dual because they come as a pair, like מִכְנָסַיִים for trousers. The stress lands on the ending: mish-ka-FA-yim." },
+
+  { "id": "nouns-gender-15", "type": "open",
+    "q": "Name three nouns whose plural ending belongs to the other gender, and say what gender each one really is.",
+    "a": ["שׁוּלְחָן takes שׁוּלְחָנוֹת and stays masculine, as do מָקוֹם with מְקוֹמוֹת and חַלּוֹן with חַלּוֹנוֹת. Going the other way, אִישָּׁה takes נָשִׁים, שָׁנָה takes שָׁנִים and מִילָּה takes מִילִּים, and all three stay feminine."],
+    "why": "The ending is a good guess for gender in the singular and a bad one in the plural. Since the gender decides every adjective, verb and number attached to the noun, it is worth looking a word up rather than reading it off the ending." }
+ ]
+}

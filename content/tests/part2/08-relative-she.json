@@ -1,0 +1,89 @@
+{
+  "ch": "relative-she",
+  "title": "The relative ש",
+  "questions": [
+    { "id": "relative-she-01", "type": "mcq",
+      "q": "English uses who, which and that to attach a clause to a noun. What does Hebrew use?",
+      "choices": ["שֶׁ for all three", "מִי for people and מַה for things", "אֲשֶׁר for people and שֶׁ for things", "nothing at all"],
+      "a": 0,
+      "why": "One letter does all three jobs, and it glues onto the front of the next word with no space: הָאִישׁ שֶׁגָּר לְיָדִי, הַסֵּפֶר שֶׁקָּנִיתִי. It also puts a dagesh into the following letter where one can go, which you do nothing about in speech." },
+
+    { "id": "relative-she-02", "type": "fill",
+      "q": "Say \"the book that I bought\".",
+      "a": ["הַסֵּפֶר שֶׁקָּנִיתִי"],
+      "why": "שֶׁ is written onto the verb as one word, not left standing on its own. The dagesh in the ק is what שֶׁ does to the letter after it, exactly as the article הַ does." },
+
+    { "id": "relative-she-03", "type": "mcq",
+      "q": "What is wrong with הָאִישׁ רָאִיתִי for \"the man I saw\"?",
+      "choices": ["nothing, it is correct", "it is missing שֶׁ, so it is not a sentence", "the verb should be in the present tense", "it needs אֶת in front of הָאִישׁ"],
+      "a": 1,
+      "why": "English can drop \"that\" and Hebrew can never drop שֶׁ. הָאִישׁ רָאִיתִי is not a clumsy sentence, it is two fragments jammed together, and it is the commonest English-speaker error in this whole area." },
+
+    { "id": "relative-she-04", "type": "order",
+      "q": "Build the phrase: the man who lives next to me",
+      "words": ["הָאִישׁ", "שֶׁגָּר", "לְיָדִי"],
+      "a": ["הָאִישׁ", "שֶׁגָּר", "לְיָדִי"],
+      "why": "The clause follows the noun it describes, and שֶׁ sits at the front of the clause attached to its verb. Hebrew never has to choose between who and which: the same letter covers people and things." },
+
+    { "id": "relative-she-05", "type": "fill",
+      "q": "Say \"the house I lived in\".",
+      "a": ["הַבַּיִת שֶׁגַּרְתִּי בּוֹ"],
+      "why": "English leaves the preposition dangling at the end with nothing after it. Hebrew refuses: בְּ stays inside the clause and takes the ending that points back at the noun, בּוֹ." },
+
+    { "id": "relative-she-06", "type": "order",
+      "q": "Build the phrase: the restaurant we ate in",
+      "words": ["הַמִּסְעָדָה", "שֶׁאָכַלְנוּ", "בָּהּ"],
+      "a": ["הַמִּסְעָדָה", "שֶׁאָכַלְנוּ", "בָּהּ"],
+      "why": "The resumptive pronoun agrees with the noun it points back at, and מִסְעָדָה is feminine, so it is בָּהּ and not בּוֹ. Drop the chip and the phrase means nothing at all." },
+
+    { "id": "relative-she-07", "type": "mcq",
+      "q": "What is wrong with הַסֵּפֶר שֶׁדִּיבַּרְנוּ for \"the book we talked about\"?",
+      "choices": ["שֶׁ should be אֲשֶׁר here", "the resumptive pronoun עָלָיו is missing", "the verb should be in the singular", "nothing, it is correct"],
+      "a": 1,
+      "why": "After a preposition the resumptive pronoun is obligatory: הַסֵּפֶר שֶׁדִּיבַּרְנוּ עָלָיו. The preposition cannot be left out either, because עַל is part of what דִּיבֵּר means." },
+
+    { "id": "relative-she-08", "type": "order",
+      "q": "Build the phrase: the man I saw, in the fuller version that keeps the pronoun",
+      "words": ["הָאִישׁ", "שֶׁרָאִיתִי", "אוֹתוֹ"],
+      "a": ["הָאִישׁ", "שֶׁרָאִיתִי", "אוֹתוֹ"],
+      "why": "With a plain direct object the pronoun is optional, and with a definite noun it is the more usual of the two. \"The man I saw him\" is broken English and correct Hebrew, so the instinct to delete it has to be trained backwards." },
+
+    { "id": "relative-she-09", "type": "listen",
+      "say": "הָאִישׁ שֶׁדִּיבַּרְתִּי אִיתּוֹ",
+      "q": "Type what you hear.",
+      "a": ["הָאִישׁ שֶׁדִּיבַּרְתִּי אִיתּוֹ"],
+      "why": "\"The man I spoke with.\" English ends on a preposition with nothing after it; Hebrew ends on the preposition with its ending attached, אִיתּוֹ, which is where the man went." },
+
+    { "id": "relative-she-10", "type": "fill",
+      "q": "Say \"what I said\", as in \"what I said is true\".",
+      "a": ["מַה שֶּׁאָמַרְתִּי"],
+      "why": "Where the English \"what\" could be replaced by \"the thing that\", Hebrew needs שֶׁ after מַה. Without it, מַה is asking a question." },
+
+    { "id": "relative-she-11", "type": "mcq",
+      "q": "Which is \"tell me what happened\"?",
+      "choices": ["סַפֵּר לִי מַה קָּרָה", "סַפֵּר לִי מַה שֶּׁקָּרָה", "סַפֵּר לִי שֶׁקָּרָה", "סַפֵּר לִי אֲשֶׁר קָּרָה"],
+      "a": 1,
+      "why": "מַה on its own asks, מַה שֶּׁ points at a thing: מַה קָּרָה? is the question \"what happened?\". The same trick makes מִי שֶׁרוֹצֶה, whoever wants to, and כָּל מַה שֶּׁרָצִיתִי, everything I wanted." },
+
+    { "id": "relative-she-12", "type": "say",
+      "q": "Say this out loud.",
+      "target": "זֶה מַה שֶּׁיֵּשׁ",
+      "why": "\"That's what there is\", a fixed phrase you will hear daily. The שֶּׁ runs into the next word as one breath, ze-ma-she-YESH, with no pause where the English has one." },
+
+    { "id": "relative-she-13", "type": "fill",
+      "q": "Say \"he said that he is busy\".",
+      "a": ["הוּא אָמַר שֶׁהוּא עָסוּק"],
+      "why": "This is the other job of שֶׁ: introducing a whole clause after a verb of saying, thinking or feeling, with no noun in front of it. English drops this \"that\" freely and Hebrew still cannot." },
+
+    { "id": "relative-she-14", "type": "mcq",
+      "q": "A contract writes הָאִישׁ אֲשֶׁר רָאִיתִי. What is אֲשֶׁר?",
+      "choices": ["the formal free-standing equivalent of שֶׁ", "a word meaning \"because\"", "a question word meaning \"which one\"", "the plural of שֶׁ"],
+      "a": 0,
+      "why": "It means exactly what שֶׁ means and belongs to contracts, literature and the Bible: read it, do not say it. A newspaper plays the same game with כִּי, which means \"that\" after a verb of saying and \"because\" everywhere else." },
+
+    { "id": "relative-she-15", "type": "open",
+      "q": "Explain the resumptive pronoun to an English speaker: what it is, when it is compulsory, and when it is only usual.",
+      "a": ["When the noun at the front would have been the object of the relative clause, or would have sat after a preposition inside it, Hebrew keeps a pronoun standing in that slot. After a preposition it is compulsory, because Hebrew will not leave a preposition dangling the way English does: הַבַּיִת שֶׁגַּרְתִּי בּוֹ, הַסֵּפֶר שֶׁדִּיבַּרְנוּ עָלָיו, הָאִישׁ שֶׁדִּיבַּרְתִּי אִיתּוֹ, הַמִּסְעָדָה שֶׁאָכַלְנוּ בָּהּ, הַיַּלְדָּה שֶׁנָּתַתִּי לָהּ אֶת הַסֵּפֶר. Leave it out and the phrase is incomplete. With a plain direct object it is optional, and the version with it is the more usual when the noun is definite: both הָאִישׁ שֶׁרָאִיתִי and הָאִישׁ שֶׁרָאִיתִי אוֹתוֹ are said. The pronoun agrees with the noun in gender, which is why it is בּוֹ for a house and בָּהּ for a restaurant."],
+      "why": "The English instinct is to delete the pronoun, because \"the man I saw him\" is broken English. The rule to carry is that Hebrew moves the noun to the front but leaves its grammar behind, and after a preposition that leftover is not optional." }
+  ]
+}

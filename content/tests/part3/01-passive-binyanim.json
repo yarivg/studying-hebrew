@@ -1,0 +1,89 @@
+{
+  "ch": "passive-binyanim",
+  "title": "The passive binyanim",
+  "questions": [
+    { "id": "passive-binyanim-01", "type": "mcq",
+      "q": "Which binyan is the passive of פִּיעֵל?",
+      "choices": ["פּוּעַל", "הוּפְעַל", "נִפְעַל", "הִתְפַּעֵל"],
+      "a": 0,
+      "why": "פִּיעֵל pairs with פּוּעַל and הִפְעִיל pairs with הוּפְעַל. נִפְעַל is the passive of פָּעַל, and that is why it stayed alive while these two retreated into writing." },
+
+    { "id": "passive-binyanim-02", "type": "mcq",
+      "q": "What do פּוּעַל and הוּפְעַל both carry in the first syllable, which nothing else in the verb system has?",
+      "choices": ["a u vowel", "an i vowel", "the prefix נִ", "the prefix הִת"],
+      "a": 0,
+      "why": "The u is the whole signature: דּוּבַּר, הוּסְבַּר, מוּכָן. Once a verb opens with דּוּ, סוּ, בּוּ, הוּ or מוּ, you are looking at a passive and not at anything else." },
+
+    { "id": "passive-binyanim-03", "type": "mcq",
+      "q": "Which form does פּוּעַל not have at all?",
+      "choices": ["an infinitive", "a past tense", "a present participle", "a future tense"],
+      "a": 0,
+      "why": "An infinitive exists to sit after רוֹצֶה, צָרִיךְ or יָכוֹל, and all three need somebody who wants, must or can. A passive has no acting subject to fill that slot, so the infinitive and the imperative are both missing." },
+
+    { "id": "passive-binyanim-04", "type": "mcq",
+      "q": "הִסְבִּיר is hif'il. Which is its passive in the past, masculine singular?",
+      "choices": ["הוּסְבַּר", "מוּסְבָּר", "יוּסְבַּר", "נִסְבַּר"],
+      "a": 0,
+      "why": "הוּפְעַל keeps the ה of hif'il in the past alone: הוּסְבַּר it was explained, מוּסְבָּר it is being explained, יוּסְבַּר it will be explained. The u is what tells הוּסְבַּר from הִסְבִּיר." },
+
+    { "id": "passive-binyanim-05", "type": "mcq",
+      "q": "How would an Israeli say \"the road was closed\"?",
+      "choices": ["הַכְּבִישׁ נִסְגַּר", "הַכְּבִישׁ סוּגַּר", "הַכְּבִישׁ הוּסְגַּר", "הַכְּבִישׁ מְסוּגָּר"],
+      "a": 0,
+      "why": "Where the active verb is pa'al, the passive is nif'al, never pu'al or huf'al: נִסְגַּר, נִשְׁלַח, נִקְבַּע, נִבְחַר. Pu'al and huf'al only answer to pi'el and hif'il." },
+
+    { "id": "passive-binyanim-06", "type": "fill",
+      "q": "Say \"the flight was cancelled\" the way it is said in conversation, with a third person plural verb and no subject in front of it.",
+      "a": ["בִּיטְּלוּ אֶת הַטִּיסָה"],
+      "why": "The everyday Hebrew passive is an active verb in the third person plural with nobody named, exactly like אָמְרוּ לִי for \"I was told\". Nothing in it claims that any particular people did it." },
+
+    { "id": "passive-binyanim-07", "type": "fill",
+      "q": "Now write the same news the way an airline notice puts it, in pu'al, starting from the word for the flight.",
+      "a": ["הַטִּיסָה בּוּטְּלָה"],
+      "why": "בּוּטַּל is the pu'al of בִּיטֵּל, and the feminine subject pulls it to בּוּטְּלָה. Pu'al belongs to notices, headlines and official letters; said out loud to a friend it sounds like a tax form." },
+
+    { "id": "passive-binyanim-08", "type": "fill",
+      "q": "Say \"the room has to be prepared\". There is no huf'al infinitive, so the sentence has to turn active.",
+      "a": ["צָרִיךְ לְהָכִין אֶת הַחֶדֶר"],
+      "why": "צָרִיךְ demands an infinitive and huf'al has none, so Hebrew says \"one has to prepare the room\" with the hif'il infinitive לְהָכִין. This is the standard repair whenever a passive infinitive is wanted." },
+
+    { "id": "passive-binyanim-09", "type": "order",
+      "q": "Build the headline: it was decided to close the road at seven",
+      "words": ["הוּחְלַט", "לִסְגּוֹר", "אֶת", "הַכְּבִישׁ", "בְּשָׁעָה", "שֶׁבַע"],
+      "a": ["הוּחְלַט", "לִסְגּוֹר", "אֶת", "הַכְּבִישׁ", "בְּשָׁעָה", "שֶׁבַע"],
+      "why": "הוּחְלַט is huf'al with no subject whatever, which is precisely what a headline needs. The infinitive after it, לִסְגּוֹר, is active: it is the passive infinitive that does not exist." },
+
+    { "id": "passive-binyanim-10", "type": "listen",
+      "say": "הוּזְמַנְתִּי לַחֲתוּנָה",
+      "q": "Type what you hear.",
+      "a": ["הוּזְמַנְתִּי לַחֲתוּנָה"],
+      "why": "First person passives are almost all unusable, and this is the one an Israeli says without flinching: \"I was invited to the wedding\". The u straight after the ה is what marks it as huf'al." },
+
+    { "id": "passive-binyanim-11", "type": "mcq",
+      "q": "What is מוּכָן in modern Hebrew?",
+      "choices": ["a huf'al participle working as the adjective \"ready\"", "a pu'al verb in the past tense", "a nif'al present tense", "a huf'al infinitive"],
+      "a": 0,
+      "why": "The most useful residue of these two binyanim is a set of participles that stopped being verbs: מוּכָן ready, מְסוּדָּר tidy, מְבוּלְבָּל confused. They inflect like any adjective, מוּכָנָה, מוּכָנִים, and huf'al has no infinitive to be." },
+
+    { "id": "passive-binyanim-12", "type": "order",
+      "q": "Build the notice: your request has been dealt with",
+      "words": ["הַבַּקָּשָׁה", "שֶׁלְּךָ", "טוּפְּלָה"],
+      "a": ["הַבַּקָּשָׁה", "שֶׁלְּךָ", "טוּפְּלָה"],
+      "why": "טוּפַּל is the pu'al of טִיפֵּל, and the feminine בַּקָּשָׁה pulls it to טוּפְּלָה. A person saying the same thing would use the subjectless plural: טִיפְּלוּ בַּבַּקָּשָׁה שֶׁלְּךָ." },
+
+    { "id": "passive-binyanim-13", "type": "fill",
+      "q": "A man says he is interested in the position. Write his sentence.",
+      "a": ["אֲנִי מְעוּנְיָין בַּמִּשְׂרָה", "מְעוּנְיָין בַּמִּשְׂרָה"],
+      "why": "מְעוּנְיָין is a pu'al participle that nobody hears as a verb any more: it is simply the adjective \"interested\", and a woman says מְעוּנְיֶינֶת." },
+
+    { "id": "passive-binyanim-14", "type": "say",
+      "q": "Say this out loud.",
+      "target": "הַחֶדֶר מְסוּדָּר",
+      "why": "Two everyday adjectives are pu'al participles in disguise, מְסוּדָּר tidy and מְבוּלְבָּל confused. Keep the u short and put the stress on the last syllable: me-su-DAR." },
+
+    { "id": "passive-binyanim-15", "type": "open",
+      "q": "Why do פּוּעַל and הוּפְעַל have no infinitive, and what two things does spoken Hebrew use in their place?",
+      "a": ["An infinitive needs somebody who wants, must or can act, and a passive subject by definition does nothing, so the form never developed. Speech uses either a subjectless third person plural, בִּיטְּלוּ אֶת הַטִּיסָה, or נִפְעַל wherever the active verb is pa'al, הַכְּבִישׁ נִסְגַּר."],
+      "why": "These two binyanim are for reading, not for speaking. Recognising הוּחְלַט, בּוּטַּל and טוּפַּל in a notice is the skill; producing them in conversation is the mistake." }
+  ]
+}

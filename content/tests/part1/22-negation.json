@@ -1,0 +1,88 @@
+{
+  "ch": "negation",
+  "title": "Negation",
+  "questions": [
+    { "id": "negation-01", "type": "mcq",
+      "q": "How do you say \"I do not write\"?",
+      "choices": ["אֲנִי לֹא כּוֹתֵב", "לֹא אֲנִי כּוֹתֵב", "אֲנִי כּוֹתֵב לֹא", "אֲנִי אֵין כּוֹתֵב"],
+      "a": 0,
+      "why": "לֹא goes immediately in front of the verb and nothing else changes. Hebrew has no helper verb answering to the English \"do\", so there is nothing to add and nothing to move." },
+
+    { "id": "negation-02", "type": "fill",
+      "q": "Negate this sentence: הַקָּפֶה חַם",
+      "a": ["הַקָּפֶה לֹא חַם"],
+      "why": "A sentence with no verb is negated in exactly the same way: לֹא sits in front of the predicate, here the adjective. It never attaches to the subject, so לֹא הַקָּפֶה חַם would mean something else entirely." },
+
+    { "id": "negation-03", "type": "order",
+      "q": "Build the sentence: the flat is not big",
+      "words": ["הַדִּירָה", "לֹא", "גְּדוֹלָה"],
+      "a": ["הַדִּירָה", "לֹא", "גְּדוֹלָה"],
+      "why": "The adjective still agrees with the noun, feminine for feminine, and the לֹא slots in between them where the missing \"is\" would have been." },
+
+    { "id": "negation-04", "type": "mcq",
+      "q": "How do you say \"I have no time\"?",
+      "choices": ["אֵין לִי זְמַן", "לֹא יֵשׁ לִי זְמַן", "יֵשׁ לִי לֹא זְמַן", "לֹא אֵין לִי זְמַן"],
+      "a": 0,
+      "why": "אֵין is the dedicated negative of יֵשׁ and it replaces it rather than standing in front of it. לֹא יֵשׁ does not exist in Hebrew and marks a beginner instantly." },
+
+    { "id": "negation-05", "type": "say",
+      "q": "Say this out loud.",
+      "target": "זֶה לֹא נָכוֹן",
+      "why": "לֹא is a full stressed syllable that never leans on the next word, and its alef is silent: /lo/, rhyming with \"raw\". That is why it is so easy to pick out of fast speech." },
+
+    { "id": "negation-06", "type": "mcq",
+      "q": "What does אַף אֶחָד לֹא בָּא mean?",
+      "choices": ["nobody comes", "everybody comes", "not everybody comes", "one person is not coming"],
+      "a": 0,
+      "why": "Word for word it is \"nobody does not come\", and it means \"nobody comes\". Hebrew requires the double negative that English forbids, so the two halves do not cancel each other out." },
+
+    { "id": "negation-07", "type": "fill",
+      "q": "Say \"nothing works\".",
+      "a": ["שׁוּם דָּבָר לֹא עוֹבֵד"],
+      "why": "שׁוּם דָּבָר does not negate on its own; it needs לֹא in the sentence with it, exactly like אַף אֶחָד. Dropping the לֹא is not more logical, it is ungrammatical." },
+
+    { "id": "negation-08", "type": "order",
+      "q": "Build the sentence: nobody speaks English",
+      "words": ["אַף אֶחָד", "לֹא", "מְדַבֵּר", "אַנְגְּלִית"],
+      "a": ["אַף אֶחָד", "לֹא", "מְדַבֵּר", "אַנְגְּלִית"],
+      "why": "אַף אֶחָד is the subject and the לֹא still has to be there in front of the verb. The verb stays masculine singular, because אַף אֶחָד is masculine in form and covers everyone." },
+
+    { "id": "negation-09", "type": "say",
+      "q": "Say this out loud.",
+      "target": "אַף אֶחָד לֹא בָּא",
+      "why": "Saying it aloud is how the double negative stops feeling wrong. אַף אֶחָד is the default for a mixed or unknown group; אַף אַחַת is kept for a group that is explicitly female." },
+
+    { "id": "negation-10", "type": "mcq",
+      "q": "Which word tells someone not to do something?",
+      "choices": ["לֹא", "אֵין", "אַל", "אַף"],
+      "a": 2,
+      "why": "אַל is only ever a command, and it takes a future-tense verb: אַל תִּדְאַג, don't worry. Every statement about what does or does not happen takes לֹא instead, whatever the tense." },
+
+    { "id": "negation-11", "type": "fill",
+      "q": "A woman says \"I never drink coffee\". Write it in Hebrew.",
+      "a": ["אֲנִי אַף פַּעַם לֹא שׁוֹתָה קָפֶה"],
+      "why": "אַף פַּעַם keeps its לֹא, the same way אַף אֶחָד does, and the verb is feminine: שׁוֹתָה. The pronoun stays because the present tense never shows who is speaking." },
+
+    { "id": "negation-12", "type": "mcq",
+      "q": "How do you say \"he is not here yet\"?",
+      "choices": ["הוּא עוֹד לֹא כָּאן", "הוּא כְּבָר לֹא כָּאן", "הוּא לֹא עוֹד כָּאן", "הוּא אֵין כָּאן"],
+      "a": 0,
+      "why": "עוֹד is \"still\", so עוֹד לֹא is \"still not\", that is, not yet. כְּבָר is \"already\", so כְּבָר לֹא would say he is not here any more, which is the opposite story." },
+
+    { "id": "negation-13", "type": "listen",
+      "say": "אֲנִי עוֹד לֹא מְבִינָה",
+      "q": "Type what you hear.",
+      "a": ["אֲנִי עוֹד לֹא מְבִינָה"],
+      "why": "The small word in front of לֹא is what changes the meaning, and it is easy to miss at speed. מְבִינָה is feminine, so the speaker is a woman." },
+
+    { "id": "negation-14", "type": "fill",
+      "q": "Say \"I do not live in Tel Aviv any more\" (a man speaking).",
+      "a": ["אֲנִי כְּבָר לֹא גָּר בְּתֵל אָבִיב"],
+      "why": "כְּבָר לֹא is literally \"already not\": it was true once and has stopped. Hebrew builds both this and עוֹד לֹא out of parts you can see, which is why they are worth taking apart rather than memorising." },
+
+    { "id": "negation-15", "type": "open",
+      "q": "What is wrong with אַף אֶחָד בָּא, and what is the rule behind it?",
+      "a": ["The לֹא is missing: it has to be אַף אֶחָד לֹא בָּא. Hebrew requires the double negative that English forbids, so אַף אֶחָד, שׁוּם דָּבָר and אַף פַּעַם all keep a לֹא in the sentence with them."],
+      "why": "This is the one point in the chapter that has to be overridden rather than learned, because English schooling trains the instinct out of you. Spanish, French and Russian all behave the way Hebrew does here." }
+  ]
+}

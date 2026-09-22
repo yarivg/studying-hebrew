@@ -1,0 +1,84 @@
+{
+ "ch": "et-object",
+ "title": "Et: the object marker",
+ "questions": [
+  { "id": "et-object-01", "type": "mcq",
+    "q": "What does אֶת mean?",
+    "choices": ["nothing; it marks a definite direct object", "the", "at", "it, as a pronoun"],
+    "a": 0,
+    "why": "It cannot be translated and it adds nothing to the sense. Its whole job is to stand in front of a direct object and announce that the object is definite; leaving it out changes nothing except that the sentence becomes wrong." },
+
+  { "id": "et-object-02", "type": "mcq",
+    "q": "Which of these is \"a book\" as the object of a sentence?",
+    "choices": ["סֵפֶר", "אֶת סֵפֶר", "אֶת הַסֵּפֶר", "הַסֵּפֶר"],
+    "a": 0,
+    "why": "An indefinite object gets nothing at all: there is no indefinite equivalent of אֶת and no gap where one ought to be. אֶת סֵפֶר is the over-correction, and it sounds garbled rather than foreign, because אֶת promises something specific that then does not arrive." },
+
+  { "id": "et-object-03", "type": "fill",
+    "q": "Write \"the book\" as the object of a sentence, using the noun סֵפֶר.",
+    "a": ["אֶת הַסֵּפֶר"],
+    "why": "The article הַ is the visible trigger, and אֶת and הַ are always written as two separate words with a space between them. In speech they run together into one unit, stressed on the article." },
+
+  { "id": "et-object-04", "type": "mcq",
+    "q": "Which of these objects does NOT take אֶת?",
+    "choices": ["יְלָדִים קְטַנִּים", "דָּוִד", "הַמַּחְבֶּרֶת שֶׁלִּי", "הַיְלָדִים הַקְּטַנִּים"],
+    "a": 0,
+    "why": "Three things make a noun definite and all three pull in אֶת: the article, a proper name, and a possessive. Small children in general are none of those, so the phrase stands bare." },
+
+  { "id": "et-object-05", "type": "mcq",
+    "q": "Why does אֶת דָּוִד take אֶת when there is no הַ anywhere in it?",
+    "choices": ["a proper name is already definite", "names always take אֶת, definite or not", "because דָּוִד is masculine", "because the name is one word"],
+    "a": 0,
+    "why": "This is what catches people out: the ה is the visible signal and it is simply not there. A name points at one specific person, which is all definiteness means, so the marker turns up anyway." },
+
+  { "id": "et-object-06", "type": "fill",
+    "q": "Write \"my notebook\" as the object of a sentence, using מַחְבֶּרֶת.",
+    "a": ["אֶת הַמַּחְבֶּרֶת שֶׁלִּי"],
+    "why": "A possessive makes the noun definite, and chapter 17 already required the article on a noun carrying שֶׁל. Both rules point the same way, so the phrase has a ה and an אֶת." },
+
+  { "id": "et-object-07", "type": "order",
+    "q": "Build the sentence: I have the notebook",
+    "words": ["יֵשׁ", "לִי", "אֶת", "הַמַּחְבֶּרֶת"],
+    "a": ["יֵשׁ", "לִי", "אֶת", "הַמַּחְבֶּרֶת"],
+    "why": "Compare יֵשׁ לִי מַחְבֶּרֶת, \"I have a notebook\", with no marker at all. Purists object to אֶת here on the grounds that the notebook is the subject, and they have lost the argument: every Israeli says it." },
+
+  { "id": "et-object-08", "type": "order",
+    "q": "Build the phrase: the small children, as an object",
+    "words": ["אֶת", "הַיְלָדִים", "הַקְּטַנִּים"],
+    "a": ["אֶת", "הַיְלָדִים", "הַקְּטַנִּים"],
+    "why": "The marker goes in front of the whole phrase, once, not in front of each word. The adjective keeps its own ה because the noun is definite, which is chapter 12 still running underneath." },
+
+  { "id": "et-object-09", "type": "mcq",
+    "q": "Which form is \"her\" as the object, as in \"I see her\"?",
+    "choices": ["אוֹתָהּ", "אוֹתוֹ", "אוֹתָן", "שֶׁלָּהּ"],
+    "a": 0,
+    "why": "אוֹתוֹ is him and אוֹתָהּ is her: the same ־וֹ and ־ָהּ endings as on לְ in chapter 17. A pronoun object is always definite, so there is no version of the sentence without one of these forms in it." },
+
+  { "id": "et-object-10", "type": "fill",
+    "q": "Write the object form meaning \"me\", as in \"he sees me\".",
+    "a": ["אוֹתִי"],
+    "why": "The stem stretches from אֶת to אוֹת before a personal ending, and eight of the ten forms use it. The ending ־ִי is the same first person marker as in לִי and שֶׁלִּי." },
+
+  { "id": "et-object-11", "type": "mcq",
+    "q": "Which is the written form for \"you\" as an object, addressing a group of men?",
+    "choices": ["אֶתְכֶם", "אוֹתְכֶם", "אוֹתָם", "שֶׁלָּכֶם"],
+    "a": 0,
+    "why": "The two plural \"you\" forms are the exception: they keep the short stem and stay אֶתְכֶם and אֶתְכֶן, while the other eight take אוֹת. אוֹתְכֶם is heard constantly in speech and is still not the written form, and אוֹתָם means them." },
+
+  { "id": "et-object-12", "type": "listen",
+    "say": "יֵשׁ לִי אֶת הַסֵּפֶר",
+    "q": "Type what you hear.",
+    "a": ["יֵשׁ לִי אֶת הַסֵּפֶר"],
+    "why": "אֶת and הַ run together in speech into something like \"et-ha\", stressed on the article, and in fast talk they can collapse further into a single ת glued to the noun. Four words are written whatever the ear reports." },
+
+  { "id": "et-object-13", "type": "say",
+    "q": "Say \"we have this house\".",
+    "target": "יֵשׁ לָנוּ אֶת הַבַּיִת הַזֶּה",
+    "why": "הַזֶּה from chapter 13 only ever attaches to a definite noun, so anything carrying it automatically takes אֶת when it is an object. Let אֶת הַ run together as one unhurried chunk rather than pausing between the two words." },
+
+  { "id": "et-object-14", "type": "open",
+    "q": "Hebrew could manage without אֶת and does not. Explain what it is for, and name the two mistakes English speakers make with it.",
+    "a": ["Hebrew word order is freer than English word order and there is no case marking on nouns, so אֶת is the one signal that says this noun is the thing being acted on rather than the thing acting. It earns its keep in Part II, where an object can move to the front of the sentence for emphasis. The two mistakes are dropping it before a definite object, because English has nothing there to remind you, and over-correcting by putting it before every object, definite or not. The second is worse, because it promises something specific that never arrives."],
+    "why": "Seeing אֶת as a signal rather than as a word to translate is what makes the rule stick: no meaning, one job, and only ever in front of something definite." }
+ ]
+}

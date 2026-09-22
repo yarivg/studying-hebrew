@@ -1,0 +1,83 @@
+{
+ "ch": "pronouns-copula",
+ "title": "Pronouns and the missing \"is\"",
+ "questions": [
+  { "id": "pronouns-copula-01", "type": "mcq",
+    "q": "You are speaking to one woman. Which word is \"you\"?",
+    "choices": ["אַתְּ", "אַתָּה", "אַתֶּם", "אַתֶּן"],
+    "a": 0,
+    "why": "Hebrew has ten pronouns where English has seven, because both \"you\" and \"they\" split by gender. אַתָּה goes to one man, אַתְּ to one woman, אַתֶּם to a group of men and אַתֶּן to a group of women." },
+
+  { "id": "pronouns-copula-02", "type": "mcq",
+    "q": "Which word means \"she\"?",
+    "choices": ["הִיא", "הוּא", "הֵן", "הֵם"],
+    "a": 0,
+    "why": "One letter apart, the ו against the י, and with the points off they are all but identical on the page. Ten seconds of attention now saves a year of reading the wrong person into a sentence." },
+
+  { "id": "pronouns-copula-03", "type": "mcq",
+    "q": "A group of women. Which pronoun does this course teach for \"they\"?",
+    "choices": ["הֵן", "הֵם", "אַתֶּן", "הִיא"],
+    "a": 0,
+    "why": "הֵן is the feminine plural, and אַתֶּן is its second-person partner. Both are quietly disappearing from speech, where many Israelis use הֵם and אַתֶּם for any group, so you need to recognise the merged version and produce the full set." },
+
+  { "id": "pronouns-copula-04", "type": "fill",
+    "q": "A woman introduces herself as a student. Write her two words.",
+    "a": ["אֲנִי סְטוּדֶנְטִית"],
+    "why": "A noun describing a person has a masculine and a feminine form, and you take the one that matches you: a man says אֲנִי סְטוּדֶנְט. Notice that neither sentence has a word between the two, because there is nothing to put there." },
+
+  { "id": "pronouns-copula-05", "type": "fill",
+    "q": "Write the Hebrew for \"she is a doctor\".",
+    "a": ["הִיא רוֹפְאָה"],
+    "why": "Two words is a complete sentence. English needs \"is\" to join them and Hebrew has nothing to join them with, so the subject sits straight against whatever it is." },
+
+  { "id": "pronouns-copula-06", "type": "fill",
+    "q": "Write the Hebrew for \"Dana is at home\".",
+    "a": ["דָּנָה בַּבַּיִת"],
+    "why": "The same gap, this time with a place rather than a noun on the far side. A name is definite by nature, so it takes no article, and בַּ is hiding the article of the second word." },
+
+  { "id": "pronouns-copula-07", "type": "fill",
+    "q": "Write \"they are from Israel\", about a group of men.",
+    "a": ["הֵם מִיִּשְׂרָאֵל"],
+    "why": "Pronoun, then a prefix meaning \"from\" glued to the country, and nothing in between. A group of women would open with הֵן." },
+
+  { "id": "pronouns-copula-08", "type": "mcq",
+    "q": "What does הַסֵּפֶר גָּדוֹל mean?",
+    "choices": ["the book is big", "the big book", "a big book", "the book, the big one"],
+    "a": 0,
+    "why": "The noun is definite and the word after it is not, so the two cannot be one phrase, and the only reading left is a statement. הַסֵּפֶר הַגָּדוֹל, with the ה repeated, is the big book." },
+
+  { "id": "pronouns-copula-09", "type": "order",
+    "q": "Build the sentence: Dani is the teacher",
+    "words": ["הוּא", "הַמּוֹרֶה", "דָּנִי"],
+    "a": ["דָּנִי", "הוּא", "הַמּוֹרֶה"],
+    "why": "With a definite noun on each side, the two halves need a hinge, and Hebrew uses the third-person pronoun for it. Grammar books call it the אוֹגֵד, the copula." },
+
+  { "id": "pronouns-copula-10", "type": "mcq",
+    "q": "When is the pronoun hinge worth using?",
+    "choices": ["when both sides of the sentence are definite nouns", "in every sentence with no verb in it", "whenever a describing word follows a noun", "only after a personal name"],
+    "a": 0,
+    "why": "Two definite nouns pushed against each other read badly, so the pronoun props them apart. Do not use it before a describing word: הַבַּיִת הוּא גָּדוֹל is not wrong, it is just heavy, and nobody talks that way." },
+
+  { "id": "pronouns-copula-11", "type": "mcq",
+    "q": "In הַבְּעָיָיה הִיא הַכֶּסֶף, why is the hinge הִיא and not הוּא?",
+    "choices": ["it agrees with הַבְּעָיָיה, the subject", "it agrees with הַכֶּסֶף", "the hinge is always feminine", "because the sentence has no verb"],
+    "a": 0,
+    "why": "The hinge looks left, not right: it matches the subject and ignores what follows. That is why תֵּל אָבִיב הִיא עִיר גְּדוֹלָה takes הִיא, from the name rather than from the word after it." },
+
+  { "id": "pronouns-copula-12", "type": "listen",
+    "say": "הַקָּפֶה חַם",
+    "q": "Type what you hear.",
+    "a": ["הַקָּפֶה חַם"],
+    "why": "Subject, then what it is, and a silence where English puts \"is\". Notice the one ה: with a second one it would stop being a sentence and become a thing, the hot coffee." },
+
+  { "id": "pronouns-copula-13", "type": "say",
+    "q": "Say this out loud.",
+    "target": "תֵּל אָבִיב הִיא עִיר גְּדוֹלָה",
+    "why": "Five words, one hinge and no verb. Say it as two halves with the הִיא leaning on the first, which is how the sentence is actually phrased aloud." },
+
+  { "id": "pronouns-copula-14", "type": "open",
+    "q": "Why is אֲנִי סְטוּדֶנְט a complete sentence, and what does an English speaker keep reaching for that is not there?",
+    "a": ["Hebrew has no present tense of \"to be\": no am, is or are. A present-tense sentence is the subject and then whatever it is, with nothing joining them, so two words are enough. The word an English speaker hunts for is \"am\", and there is nothing to find. The other tenses do have a verb, so the habit of dropping it has to be unlearned again outside the present."],
+    "why": "The gap is only in the present, which is the asymmetry that catches people twice: first they add a word that does not exist, then they leave out one that does. אֲנִי and אֲנַחְנוּ are also the two pronouns that never change for gender, so the first person is the easy corner of the table." }
+ ]
+}

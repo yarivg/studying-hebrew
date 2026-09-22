@@ -1,0 +1,134 @@
+{
+ "groups": [
+  {
+   "id": "reading-sound",
+   "title": "Letters, points and sound",
+   "blurb": "Everything before the grammar: which letter is which, what each sign says, and where the stress falls.",
+   "chapters": [
+    "alef-bet",
+    "final-letters",
+    "nikud",
+    "dagesh-shin",
+    "vav-yod",
+    "stress",
+    "reading-without-nikud"
+   ],
+   "perChapter": 4
+  },
+  {
+   "id": "gender-agreement",
+   "title": "Gender agreement",
+   "blurb": "Hebrew makes you state a gender in four places at once. This is all four, mixed together.",
+   "chapters": [
+    "nouns-gender",
+    "adjectives",
+    "demonstratives",
+    "numbers"
+   ],
+   "perChapter": 5
+  },
+  {
+   "id": "little-words",
+   "title": "The little words",
+   "blurb": "One-letter prefixes, the object marker and the verb Hebrew does not have. Individually trivial, collectively most of a sentence.",
+   "chapters": [
+    "ha-article",
+    "prepositions-suffixes",
+    "et-object",
+    "yesh-ein"
+   ],
+   "perChapter": 5
+  },
+  {
+   "id": "the-present",
+   "title": "The present tense",
+   "blurb": "Four forms per verb, three more binyanim, and the one letter that gives each of them away.",
+   "chapters": [
+    "present-paal",
+    "present-weak-roots",
+    "present-other-binyanim",
+    "negation",
+    "infinitive-modals"
+   ],
+   "perChapter": 4
+  },
+  {
+   "id": "building-phrases",
+   "title": "Putting two nouns together",
+   "blurb": "Smikhut, the article, the adjective and שֶׁל: four ways of joining things, and which one each situation wants.",
+   "chapters": [
+    "smichut",
+    "adjectives",
+    "ha-article",
+    "possession-shel",
+    "smichut-advanced"
+   ],
+   "perChapter": 4
+  },
+  {
+   "id": "the-tenses",
+   "title": "Past, present and future",
+   "blurb": "The whole tense system in one sitting, across every binyan the course has taught.",
+   "chapters": [
+    "present-paal",
+    "past-paal",
+    "past-other-binyanim",
+    "future",
+    "haya"
+   ],
+   "perChapter": 4
+  },
+  {
+   "id": "the-binyanim",
+   "title": "The seven binyanim",
+   "blurb": "One root, seven moulds. Recognising which one a verb is in, and what that does to its meaning.",
+   "chapters": [
+    "present-other-binyanim",
+    "past-other-binyanim",
+    "roots-patterns",
+    "binyanim-system",
+    "weak-roots",
+    "verbal-nouns"
+   ],
+   "perChapter": 3
+  },
+  {
+   "id": "joining-clauses",
+   "title": "Joining two clauses",
+   "blurb": "שֶׁ, and everything built on it: relatives, reported speech, cause, purpose, time and contrast.",
+   "chapters": [
+    "relative-she",
+    "reported-speech",
+    "adverbs-connectors",
+    "cause-purpose",
+    "time-clauses",
+    "contrast-clauses",
+    "conditional"
+   ],
+   "perChapter": 3
+  },
+  {
+   "id": "the-passive",
+   "title": "Being done to",
+   "blurb": "נִפְעַל, פּוּעַל and הוּפְעַל, and why speech avoids two of the three.",
+   "chapters": [
+    "passive-binyanim",
+    "nifal-vs-hitpael",
+    "binyanim-system"
+   ],
+   "perChapter": 5
+  },
+  {
+   "id": "confusable-pairs",
+   "title": "The ones that stay confusing",
+   "blurb": "לָמָּה against מַדּוּעַ, אִם against עִם, אֲבָל against אֶלָּא, and the rest of the list that never quite settles.",
+   "chapters": [
+    "confusables",
+    "contrast-clauses",
+    "cause-purpose",
+    "register"
+   ],
+   "perChapter": 5
+  }
+ ]
+}

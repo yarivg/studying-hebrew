@@ -1,0 +1,476 @@
+{
+ "title": "המחברת",
+ "subtitle": "Hebrew from the first letter to B2: the alef-bet and nikud, then the grammar that makes the language click, with vocabulary, reading and flashcards built from it.",
+ "parts": [
+  {
+   "numeral": "Part I",
+   "title": "Foundations",
+   "blurb": "Letters and vowels first, then enough grammar to build a sentence: the noun, the adjective, the present tense. Nothing here can be skipped, because everything after it assumes all of it.",
+   "chapters": [
+    {
+     "slug": "alef-bet",
+     "file": "part1/01-alef-bet.md",
+     "title": "The alef-bet",
+     "level": "A1",
+     "summary": "The 22 letters, the sounds they carry, and the pairs that look alike on the page: ב כ, ד ר, ו ז, ח ה ת, ס ם."
+    },
+    {
+     "slug": "final-letters",
+     "file": "part1/02-final-letters.md",
+     "title": "Final letters, print and handwriting",
+     "level": "A1",
+     "summary": "ך ם ן ף ץ, why five letters change shape at the end of a word, and what the same letters look like handwritten."
+    },
+    {
+     "slug": "nikud",
+     "file": "part1/03-nikud.md",
+     "title": "Nikud: the vowel points",
+     "level": "A1",
+     "summary": "Kamatz, patach, segol, tzere, chirik, cholam, kubutz, shuruk, shva and the chataf vowels, and the five sounds they reduce to."
+    },
+    {
+     "slug": "dagesh-shin",
+     "file": "part1/04-dagesh-shin.md",
+     "title": "Dagesh, shin and sin",
+     "level": "A1",
+     "summary": "בּ/ב, כּ/כ, פּ/פ, שׁ/שׂ: one dot that changes the sound, and one that changes the letter."
+    },
+    {
+     "slug": "vav-yod",
+     "file": "part1/05-vav-yod.md",
+     "title": "Vav and yod as vowels",
+     "level": "A1",
+     "summary": "Full spelling: how ו and י stand in for cholam, shuruk and chirik once the points come off."
+    },
+    {
+     "slug": "stress",
+     "file": "part1/06-stress.md",
+     "title": "Stress and syllables",
+     "level": "A1",
+     "summary": "Mil'ra and mil'el: Hebrew stresses the last syllable far more often than English expects, and the exceptions are learnable."
+    },
+    {
+     "slug": "reading-without-nikud",
+     "file": "part1/07-reading-without-nikud.md",
+     "title": "Reading without nikud",
+     "level": "A1",
+     "summary": "What real Hebrew looks like: guessing the vowels from the root, the pattern, the context and the fifty words you already know."
+    },
+    {
+     "slug": "first-words",
+     "file": "part1/08-first-words.md",
+     "title": "Greetings and the first exchange",
+     "level": "A1",
+     "summary": "שָׁלוֹם, מַה שְׁלוֹמְךָ, נָעִים מְאֹד, תּוֹדָה, בְּבַקָּשָׁה: enough to open and close a conversation before any grammar."
+    },
+    {
+     "slug": "nouns-gender",
+     "file": "part1/09-nouns-gender.md",
+     "title": "Nouns: gender and number",
+     "level": "A1",
+     "summary": "The ה and ת that mark feminine, the ים and ות plurals, and the words that ignore both (שֻׁלְחָנוֹת, נָשִׁים)."
+    },
+    {
+     "slug": "ha-article",
+     "file": "part1/10-ha-article.md",
+     "title": "The definite article ה",
+     "level": "A1",
+     "summary": "One prefix for every noun, no gender and no number, and what happens when בְּ, לְ or כְּ is sitting in front of it."
+    },
+    {
+     "slug": "pronouns-copula",
+     "file": "part1/11-pronouns-copula.md",
+     "title": "Pronouns and the missing \"is\"",
+     "level": "A1",
+     "summary": "אֲנִי, אַתָּה, אַתְּ, הוּא, הִיא and the rest, and why אֲנִי סְטוּדֶנְט is a complete sentence with no verb in it."
+    },
+    {
+     "slug": "adjectives",
+     "file": "part1/12-adjectives.md",
+     "title": "Adjectives",
+     "level": "A1",
+     "summary": "After the noun, agreeing in gender, number and definiteness: הַבַּיִת הַגָּדוֹל, and the difference a ה makes."
+    },
+    {
+     "slug": "demonstratives",
+     "file": "part1/13-demonstratives.md",
+     "title": "This and that",
+     "level": "A1",
+     "summary": "זֶה, זֹאת, אֵלֶּה standing alone, and הַזֶּה, הַזֹּאת attached to a definite noun."
+    },
+    {
+     "slug": "questions",
+     "file": "part1/14-questions.md",
+     "title": "Questions",
+     "level": "A1",
+     "summary": "מַה, מִי, אֵיפֹה, מָתַי, לָמָּה, אֵיךְ, כַּמָּה, הַאִם, and the yes/no question that is only intonation."
+    },
+    {
+     "slug": "numbers",
+     "file": "part1/15-numbers.md",
+     "title": "Numbers 1 to 100",
+     "level": "A1",
+     "summary": "Two sets of numbers, one per gender, why the feminine is the counting set, and אַחַת against אֶחָד."
+    },
+    {
+     "slug": "yesh-ein",
+     "file": "part1/16-yesh-ein.md",
+     "title": "Yesh and ein: there is, and having",
+     "level": "A1",
+     "summary": "יֵשׁ and אֵין for existence, יֵשׁ לִי and אֵין לִי for possession, and why Hebrew has no verb \"to have\"."
+    },
+    {
+     "slug": "prepositions-suffixes",
+     "file": "part1/17-prepositions-suffixes.md",
+     "title": "Prepositions with endings",
+     "level": "A1",
+     "summary": "לְ, בְּ, שֶׁל, עִם, אֵצֶל, and the endings that turn each of them into לִי, לְךָ, לָךְ, שֶׁלִּי."
+    },
+    {
+     "slug": "et-object",
+     "file": "part1/18-et-object.md",
+     "title": "Et: the object marker",
+     "level": "A1",
+     "summary": "The little word with no translation: when אֶת appears before an object, when it does not, and אוֹתִי, אוֹתְךָ."
+    },
+    {
+     "slug": "present-paal",
+     "file": "part1/19-present-paal.md",
+     "title": "Present tense: pa'al",
+     "level": "A1",
+     "summary": "Four forms and no more: כּוֹתֵב, כּוֹתֶבֶת, כּוֹתְבִים, כּוֹתְבוֹת, on a root with three sound letters."
+    },
+    {
+     "slug": "present-weak-roots",
+     "file": "part1/20-present-weak-roots.md",
+     "title": "Present tense when a letter goes missing",
+     "level": "A1",
+     "summary": "The verbs a beginner actually says: רוֹצֶה and קוֹנֶה, גָּר and קָם, קוֹרֵא and מוֹצֵא, and why each one is short a form."
+    },
+    {
+     "slug": "present-other-binyanim",
+     "file": "part1/21-present-other-binyanim.md",
+     "title": "Present tense: pi'el, hif'il, hitpa'el",
+     "level": "A1",
+     "summary": "מְדַבֵּר, מַסְבִּיר, מִתְלַבֵּשׁ: recognising which binyan a verb is in from the shape of its present tense."
+    },
+    {
+     "slug": "negation",
+     "file": "part1/22-negation.md",
+     "title": "Negation",
+     "level": "A1",
+     "summary": "לֹא before the verb, אֵין for existence, אַל for don't, and אַף אֶחָד for nobody."
+    },
+    {
+     "slug": "infinitive-modals",
+     "file": "part1/23-infinitive-modals.md",
+     "title": "Infinitives, wanting and having to",
+     "level": "A1",
+     "summary": "לִכְתּוֹב, and the four words that take it: רוֹצֶה, צָרִיךְ, יָכוֹל, אוֹהֵב."
+    },
+    {
+     "slug": "time-place-adverbs",
+     "file": "part1/24-time-place-adverbs.md",
+     "title": "Time, days and where things are",
+     "level": "A1",
+     "summary": "Days counted off the numbers, telling the time, בַּבֹּקֶר and בָּעֶרֶב, and כָּאן, שָׁם, פֹּה, עַכְשָׁיו, הַיּוֹם, מָחָר."
+    },
+    {
+     "slug": "smichut",
+     "file": "part1/25-smichut.md",
+     "title": "Smichut: two nouns as one",
+     "level": "A1",
+     "summary": "בֵּית סֵפֶר, עוּגַת שׁוֹקוֹלָד: how Hebrew joins two nouns, and why the ה goes on the second one."
+    },
+    {
+     "slug": "haya",
+     "file": "part1/26-haya.md",
+     "title": "Was and will be",
+     "level": "A1",
+     "summary": "הָיָה, הָיְתָה, הָיוּ, and יִהְיֶה: the verb that is missing in the present and obligatory everywhere else, including הָיָה לִי."
+    }
+   ]
+  },
+  {
+   "numeral": "Part II",
+   "title": "Building fluency",
+   "blurb": "Past and future, and the system behind them. Three root letters and seven patterns turn out to generate most of the language, and this is where that stops being a claim and starts being useful.",
+   "chapters": [
+    {
+     "slug": "past-paal",
+     "file": "part2/01-past-paal.md",
+     "title": "Past tense: pa'al",
+     "level": "A2",
+     "summary": "One stem, one suffix per person: כָּתַבְתִּי, כָּתַבְתָּ, כָּתַב, כָּתְבוּ, and the pronoun you can now leave out."
+    },
+    {
+     "slug": "past-other-binyanim",
+     "file": "part2/02-past-other-binyanim.md",
+     "title": "Past tense: the other binyanim",
+     "level": "A2",
+     "summary": "דִּיבֵּר, הִסְבִּיר, הִתְלַבֵּשׁ, נִכְנַס: four different stems wearing the same set of endings."
+    },
+    {
+     "slug": "future",
+     "file": "part2/03-future.md",
+     "title": "Future tense",
+     "level": "A2",
+     "summary": "A prefix for the person and a suffix for the number: the אֶ, תִּ, יִ, נִ row, in every binyan at once."
+    },
+    {
+     "slug": "weak-roots",
+     "file": "part2/04-weak-roots.md",
+     "title": "Weak roots",
+     "level": "A2",
+     "summary": "ל\"ה (לִרְאוֹת), פ\"נ (לִנְסֹעַ), ע\"ו (לָקוּם), פ\"י (לָשֶׁבֶת) and the gutturals, across all three tenses."
+    },
+    {
+     "slug": "roots-patterns",
+     "file": "part2/05-roots-patterns.md",
+     "title": "Roots and patterns",
+     "level": "A2",
+     "summary": "Three letters carry the meaning and a pattern carries the grammar: שֹׁרֶשׁ, בִּנְיָין and the mishkalim that build nouns."
+    },
+    {
+     "slug": "binyanim-system",
+     "file": "part2/06-binyanim-system.md",
+     "title": "The binyanim as a system",
+     "level": "B1",
+     "summary": "Active, intensive, causative, reflexive, passive: what each of the seven does to the same three letters."
+    },
+    {
+     "slug": "imperative",
+     "file": "part2/07-imperative.md",
+     "title": "Commands and requests",
+     "level": "A2",
+     "summary": "The written imperative, the future used as a command in speech, אַל for don't, and בְּבַקָּשָׁה doing the softening."
+    },
+    {
+     "slug": "relative-she",
+     "file": "part2/08-relative-she.md",
+     "title": "The relative ש",
+     "level": "A2",
+     "summary": "One letter where English has who, which and that, plus the pronoun Hebrew leaves behind: הָאִישׁ שֶׁרָאִיתִי אוֹתוֹ."
+    },
+    {
+     "slug": "comparatives",
+     "file": "part2/09-comparatives.md",
+     "title": "Comparison and the most",
+     "level": "A2",
+     "summary": "יוֹתֵר מִ, פָּחוֹת מִ, כְּמוֹ, and the הֲכִי that makes a superlative out of anything."
+    },
+    {
+     "slug": "adverbs-connectors",
+     "file": "part2/10-adverbs-connectors.md",
+     "title": "Adverbs and connectors",
+     "level": "A2",
+     "summary": "מְאֹד, כְּבָר, עֲדַיִן, עוֹד, רַק, and the joins that turn sentences into paragraphs: אֲבָל, כִּי, לָכֵן, אָז."
+    },
+    {
+     "slug": "possession-shel",
+     "file": "part2/11-possession-shel.md",
+     "title": "Possession: shel and the endings",
+     "level": "A2",
+     "summary": "הַסֵּפֶר שֶׁלִּי in speech, סִפְרִי in writing, and the family words that keep the old endings either way."
+    },
+    {
+     "slug": "prepositions-plural",
+     "file": "part2/12-prepositions-plural.md",
+     "title": "Prepositions that decline in the plural",
+     "level": "B1",
+     "summary": "עָלַי, עָלֶיךָ, אֵלֶיהָ, לְפָנַי: the second declension, where the endings look plural and the meaning is not."
+    },
+    {
+     "slug": "direction-hey",
+     "file": "part2/13-direction-hey.md",
+     "title": "Direction and place",
+     "level": "A2",
+     "summary": "הַבַּיְתָה and צָפוֹנָה, and the line between בְּ (in), לְ (to) and אֶל (towards)."
+    },
+    {
+     "slug": "conditional",
+     "file": "part2/14-conditional.md",
+     "title": "If",
+     "level": "B1",
+     "summary": "אִם for what may happen, and אִלּוּ or לוּ + הָיָה for what did not."
+    },
+    {
+     "slug": "ordinals-dates",
+     "file": "part2/15-ordinals-dates.md",
+     "title": "Ordinals, dates and the calendar",
+     "level": "A2",
+     "summary": "רִאשׁוֹן, שֵׁנִי, שְׁלִישִׁי, how a date is written and said, and the Hebrew months you will meet on a holiday."
+    },
+    {
+     "slug": "big-numbers",
+     "file": "part2/16-big-numbers.md",
+     "title": "Numbers past a hundred, and the dual",
+     "level": "A2",
+     "summary": "Hundreds, thousands, years and prices, plus the dual ending on יוֹמַיִם, שְׁבוּעַיִם, פַּעֲמַיִם."
+    },
+    {
+     "slug": "verbal-nouns",
+     "file": "part2/17-verbal-nouns.md",
+     "title": "Verbal nouns",
+     "level": "B1",
+     "summary": "כְּתִיבָה, דִּבּוּר, הַסְבָּרָה, הִתְלַבְּשׁוּת: one noun shape per binyan, and how to read one you have never seen."
+    },
+    {
+     "slug": "reported-speech",
+     "file": "part2/18-reported-speech.md",
+     "title": "Reporting what someone said",
+     "level": "B1",
+     "summary": "אָמַר שֶׁ, שָׁאַל אִם, and why Hebrew does not push the tense back the way English does."
+    },
+    {
+     "slug": "word-order",
+     "file": "part2/19-word-order.md",
+     "title": "Word order and emphasis",
+     "level": "B1",
+     "summary": "Subject first by default, verb first for effect, and the אֶת that lets an object move to the front."
+    },
+    {
+     "slug": "headlines",
+     "file": "part2/20-headlines.md",
+     "title": "Reading a headline",
+     "level": "B1",
+     "summary": "Newspaper Hebrew: no vowels, no verb, smichut chains stacked three deep, and the abbreviations everyone reads at a glance."
+    }
+   ]
+  },
+  {
+   "numeral": "Part III",
+   "title": "Refining",
+   "blurb": "Longer sentences, the passive voice, and the difference between the Hebrew of a form and the Hebrew of a bus queue.",
+   "chapters": [
+    {
+     "slug": "passive-binyanim",
+     "file": "part3/01-passive-binyanim.md",
+     "title": "The passive binyanim",
+     "level": "B2",
+     "summary": "פּוּעַל and הוּפְעַל: the two patterns with no infinitive, where they turn up, and why speech reaches for נִפְעַל instead."
+    },
+    {
+     "slug": "nifal-vs-hitpael",
+     "file": "part3/02-nifal-vs-hitpael.md",
+     "title": "Nif'al against hitpa'el",
+     "level": "B2",
+     "summary": "Passive, reciprocal, reflexive and simply intransitive: the overlap between the two, and the line that still holds."
+    },
+    {
+     "slug": "cause-purpose",
+     "file": "part3/03-cause-purpose.md",
+     "title": "Cause and purpose",
+     "level": "B2",
+     "summary": "בִּגְלַל and מִפְּנֵי שֶׁ for why it happened, כְּדֵי and לְמַעַן for what it was for, and לָכֵן for what followed."
+    },
+    {
+     "slug": "time-clauses",
+     "file": "part3/04-time-clauses.md",
+     "title": "Clauses of time and condition",
+     "level": "B2",
+     "summary": "לִפְנֵי שֶׁ, אַחֲרֵי שֶׁ, כְּשֶׁ, בְּמִקְרֶה שֶׁ, and the tense that goes inside each of them."
+    },
+    {
+     "slug": "contrast-clauses",
+     "file": "part3/05-contrast-clauses.md",
+     "title": "Contrast and concession",
+     "level": "B2",
+     "summary": "אֲבָל against אֶלָּא, לַמְרוֹת and אַף עַל פִּי שֶׁ, and בְּעוֹד שֶׁ for two things held side by side."
+    },
+    {
+     "slug": "adjectives-from-nouns",
+     "file": "part3/06-adjectives-from-nouns.md",
+     "title": "Making adjectives out of nouns",
+     "level": "B2",
+     "summary": "The ending that turns אָבִיב into אֲבִיבִי and יִשְׂרָאֵל into יִשְׂרְאֵלִי, and how far it can be pushed."
+    },
+    {
+     "slug": "smichut-advanced",
+     "file": "part3/07-smichut-advanced.md",
+     "title": "Smichut in depth",
+     "level": "B2",
+     "summary": "Construct plurals, chains of three, when שֶׁל is the better choice, and telling בֵּית סֵפֶר גָּדוֹל apart from בַּיִת גָּדוֹל."
+    },
+    {
+     "slug": "register",
+     "file": "part3/08-register.md",
+     "title": "Register: formal, spoken, slang",
+     "level": "B2",
+     "summary": "One sentence at three heights, and where the spoken layer got its Arabic and Yiddish from."
+    },
+    {
+     "slug": "pronoun-suffixes-verbs",
+     "file": "part3/09-pronoun-suffixes-verbs.md",
+     "title": "Object endings on verbs",
+     "level": "B2",
+     "summary": "רְאִיתִיו for רָאִיתִי אוֹתוֹ: reading the register that still writes it that way."
+    },
+    {
+     "slug": "ktiv-male-rules",
+     "file": "part3/10-ktiv-male-rules.md",
+     "title": "The spelling rules",
+     "level": "B2",
+     "summary": "The Academy's rules for full spelling: where ו and י are written once the points are gone, and where they are not."
+    },
+    {
+     "slug": "biblical-echoes",
+     "file": "part3/11-biblical-echoes.md",
+     "title": "Biblical Hebrew in modern speech",
+     "level": "B2",
+     "summary": "The vav that flips a tense, the archaic forms frozen inside idioms, and what is safe to skip."
+    },
+    {
+     "slug": "idioms",
+     "file": "part3/12-idioms.md",
+     "title": "Idioms and set phrases",
+     "level": "B2",
+     "summary": "בְּעֶזְרַת הַשֵּׁם, עַל הַפָּנִים, סוֹף סוֹף, חֲבָל עַל הַזְּמַן, and forty more in the sentences they live in."
+    },
+    {
+     "slug": "confusables",
+     "file": "part3/13-confusables.md",
+     "title": "Pairs that catch everyone",
+     "level": "B2",
+     "summary": "לָמָּה against מַדּוּעַ, אִם against עִם, בִּגְלַל against בִּשְׁבִיל, יָכוֹל against יוֹדֵעַ."
+    }
+   ]
+  },
+  {
+   "numeral": "Part IV",
+   "title": "Reference",
+   "reference": true,
+   "blurb": "Tables to come back to rather than read through.",
+   "chapters": [
+    {
+     "slug": "alef-bet-chart",
+     "file": "part4/01-alef-bet-chart.md",
+     "title": "Alef-bet and nikud chart",
+     "level": "ref",
+     "summary": "Every letter with its final form, name and sound, and every nikud sign with an example word, on one page."
+    },
+    {
+     "slug": "verb-tables",
+     "file": "part4/02-verb-tables.md",
+     "title": "Verb tables by binyan",
+     "level": "ref",
+     "summary": "Present, past, future and infinitive for one sound root and one weak root in each of the seven binyanim."
+    },
+    {
+     "slug": "prepositions-tables",
+     "file": "part4/03-prepositions-tables.md",
+     "title": "Preposition tables",
+     "level": "ref",
+     "summary": "The full declension of לְ, בְּ, שֶׁל, אֶת, עִם, עַל, אֶל, מִן and the rest, in one place."
+    },
+    {
+     "slug": "study-plan",
+     "file": "part4/04-study-plan.md",
+     "title": "How to use this course",
+     "level": "ref",
+     "summary": "A route through the four parts, how much to take at a time, and what to do when a chapter will not stick."
+    }
+   ]
+  }
+ ]
+}

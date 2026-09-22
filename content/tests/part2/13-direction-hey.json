@@ -1,0 +1,90 @@
+{
+ "ch": "direction-hey",
+ "title": "Direction and place",
+ "questions": [
+  { "id": "direction-hey-01", "type": "mcq",
+    "q": "What does הַבַּיְתָה mean?",
+    "choices": ["home, in the sense of towards the house", "at home", "the house", "from home"],
+    "a": 0,
+    "why": "The unstressed ־ָה on the end is the directional he, a leftover from an older stage of the language that means \"to\" or \"towards\". בַּיִת is a house, הַבַּיְתָה is motion towards it." },
+
+  { "id": "direction-hey-02", "type": "mcq",
+    "q": "How do you say \"I am at home\"?",
+    "choices": ["אֲנִי בַּבַּיִת", "אֲנִי הַבַּיְתָה", "אֲנִי לַבַּיִת", "אֲנִי אֶל הַבַּיִת"],
+    "a": 0,
+    "why": "בְּ is for being somewhere, and it fuses with the article to give בַּ. The other three all point somewhere, and a sentence with no verb of motion in it has nowhere to point." },
+
+  { "id": "direction-hey-03", "type": "fill",
+    "q": "Write \"I am going home\", speaking as a man.",
+    "a": ["אֲנִי הוֹלֵךְ הַבַּיְתָה", "אֲנִי הוֹלֵךְ לַבַּיִת"],
+    "why": "The directional he and לְ are equally good here: הַבַּיְתָה is the idiom and לַבַּיִת is the live system doing the same job. What you cannot say is בַּבַּיִת, which is where you are, not where you are heading." },
+
+  { "id": "direction-hey-04", "type": "mcq",
+    "q": "What does אֲנִי הוֹלֵךְ בַּבַּיִת actually say?",
+    "choices": ["I am walking around inside the house", "I am going home", "I am at home", "it is not a possible sentence"],
+    "a": 0,
+    "why": "This is the mistake English invites, because English says \"home\" for both the place and the destination. The sentence is perfectly grammatical, which is why nobody corrects it: they just picture you pacing the hallway." },
+
+  { "id": "direction-hey-05", "type": "mcq",
+    "q": "Where does the stress fall in הַבַּיְתָה?",
+    "choices": ["on BA, where it already was in בַּיִת", "on the final TA", "on HA, the first syllable", "it moves depending on the sentence"],
+    "a": 0,
+    "why": "The directional ending is unstressed, and that is the give-away that tells it apart from an ordinary feminine ־ָה. It is ha-BAY-ta, never ha-bay-TA, which would sound like a different word." },
+
+  { "id": "direction-hey-06", "type": "fill",
+    "q": "Write the single word a taxi driver is waiting for when you want to turn left.",
+    "a": ["שְׂמֹאלָה"],
+    "why": "The same directional ending gives the four words you need in a car: יָמִינָה to the right, שְׂמֹאלָה to the left, קָדִימָה forwards and אָחוֹרָה backwards. קָדִימָה doubles as \"let's go\"." },
+
+  { "id": "direction-hey-07", "type": "mcq",
+    "q": "Why is סוּפֶּרְמַרְקֶטָה not a word?",
+    "choices": ["the directional ending is a closed set and takes no new members, so you say לַסּוּפֶּרְמַרְקֶט", "the ending never goes on a noun of more than three syllables", "it needs the article as well: הַסּוּפֶּרְמַרְקֶטָה", "loanwords take ־ָה only in writing"],
+    "a": 0,
+    "why": "The living way to say \"to\" is לְ, and it goes on anything. The directional he is a fixed list: הַבַּיְתָה, הָעִירָה, הַחוּצָה, אַרְצָה, the compass points and the four driving words. Inventing a new one gets you a blank look." },
+
+  { "id": "direction-hey-08", "type": "mcq",
+    "q": "Which sentence means \"he travelled to Tel Aviv\"?",
+    "choices": ["הוּא נָסַע לְתֵל אָבִיב", "הוּא נָסַע בְּתֵל אָבִיב", "הוּא נָסַע תֵּל אָבִיבָה", "הוּא נָסַע מִתֵּל אָבִיב"],
+    "a": 0,
+    "why": "לְ is the preposition of going somewhere. בְּתֵל אָבִיב would say the travelling happened inside the city, מִ is \"from\", and a place name cannot take the directional ending unless it is already on the list." },
+
+  { "id": "direction-hey-09", "type": "mcq",
+    "q": "You are telling a man you came to see him. Which is right?",
+    "choices": ["בָּאתִי אֵלֶיךָ", "בָּאתִי לְךָ", "בָּאתִי בְּךָ", "בָּאתִי הַבַּיְתָה שֶׁלְּךָ"],
+    "a": 0,
+    "why": "לְ and אֶל overlap almost completely for places, and לְ is what you say. In front of a person אֶל is the one that sounds right: בָּאתִי לְךָ would be heard as \"I came for you\" in the sense of arriving as a delivery." },
+
+  { "id": "direction-hey-10", "type": "order",
+    "q": "Build the sentence: the cat is under the table",
+    "words": ["הֶחָתוּל", "מִתַּחַת", "לַשּׁוּלְחָן"],
+    "a": ["הֶחָתוּל", "מִתַּחַת", "לַשּׁוּלְחָן"],
+    "why": "מִתַּחַת is a compound preposition and drags a לְ along behind it, which then fuses with the article to give לַ. Dropping that second word, מִתַּחַת הַשּׁוּלְחָן, is the commonest error with this group, and מִחוּץ לְ and קָרוֹב לְ behave the same way." },
+
+  { "id": "direction-hey-11", "type": "mcq",
+    "q": "Which is correct for \"the hotel is near the station\"?",
+    "choices": ["הַמָּלוֹן קָרוֹב לַתַּחֲנָה", "הַמָּלוֹן קָרוֹב הַתַּחֲנָה", "הַמָּלוֹן קָרוֹב בַּתַּחֲנָה", "הַמָּלוֹן קָרוֹב מֵהַתַּחֲנָה"],
+    "a": 0,
+    "why": "קָרוֹב pairs with לְ and רָחוֹק pairs with מִ, and the pairing is fixed: זֶה רָחוֹק מֵהַמֶּרְכָּז, הַמָּלוֹן קָרוֹב לַתַּחֲנָה. Near goes towards a thing, far goes away from it, and Hebrew marks the direction where English does not." },
+
+  { "id": "direction-hey-12", "type": "fill",
+    "q": "Write \"I was at the doctor's\".",
+    "a": ["הָיִיתִי אֵצֶל הָרוֹפֵא"],
+    "why": "אֵצֶל means \"at the place of a person\" and has no clean English equivalent, which is why learners route around it and end up sounding stilted. It takes the singular endings from Part I: אֶצְלִי, at my place." },
+
+  { "id": "direction-hey-13", "type": "listen",
+    "say": "הַמַּפְתֵּחַ בְּתוֹךְ הַתִּיק",
+    "q": "Type what you hear.",
+    "a": ["הַמַּפְתֵּחַ בְּתוֹךְ הַתִּיק"],
+    "why": "בְּתוֹךְ is \"inside\", a step more specific than plain בְּ, and unlike מִתַּחַת and מִחוּץ it needs no לְ after it. The final ח of מַפְתֵּחַ takes the /a/ before it, so you hear maf-TE-ach." },
+
+  { "id": "direction-hey-14", "type": "say",
+    "q": "Say \"I live next to the sea\".",
+    "target": "אֲנִי גָּר לְיַד הַיָּם",
+    "why": "לְיַד and עַל יַד are the same word in two spellings and nothing turns on the choice. גָּר is the verb for living somewhere, and it takes בְּ or לְיַד, never a bare noun." },
+
+  { "id": "direction-hey-15", "type": "open",
+    "q": "Explain the difference between בְּ, לְ and אֶל, and say where the directional he fits alongside them.",
+    "a": ["בְּ is for being somewhere: אֲנִי בַּבַּיִת, I am at home. לְ is for going somewhere: אֲנִי הוֹלֵךְ לַבַּיִת. אֶל is the same as לְ for places but belongs to a more formal register, and it is the one to use in front of a person: בָּאתִי אֵלֶיךָ. The directional he is a closed set of frozen forms that does the job of לְ on a handful of words: הַבַּיְתָה, הָעִירָה, הַחוּצָה, אַרְצָה, the compass points צָפוֹנָה, דָּרוֹמָה, מִזְרָחָה, מַעֲרָבָה, and יָמִינָה, שְׂמֹאלָה, קָדִימָה, אָחוֹרָה. It is unstressed, and it cannot be extended to new words."],
+    "why": "One live system and one fossil, running side by side: knowing which is which is what stops you inventing forms that do not exist." }
+ ]
+}

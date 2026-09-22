@@ -1,0 +1,88 @@
+{
+ "ch": "first-words",
+ "title": "Greetings and the first exchange",
+ "questions": [
+  { "id": "first-words-01", "type": "mcq",
+    "q": "When can you use שָׁלוֹם?",
+    "choices": ["arriving and leaving both", "only when you arrive", "only when you leave", "only in writing"],
+    "a": 0,
+    "why": "שָׁלוֹם means peace, and it serves as hello and goodbye alike. It is always correct and never warm: Israelis use it with strangers and on the phone far more than between friends, where הַיי and בַּיי have taken over." },
+
+  { "id": "first-words-02", "type": "mcq",
+    "q": "How do you greet someone at nine in the morning?",
+    "choices": ["בּוֹקֶר טוֹב", "עֶרֶב טוֹב", "לַיְלָה טוֹב", "צָהֳרַיִים טוֹבִים"],
+    "a": 0,
+    "why": "The greetings run by the clock: בּוֹקֶר טוֹב in the morning, צָהֳרַיִים טוֹבִים around midday, עֶרֶב טוֹב in the evening. לַיְלָה טוֹב is not a greeting at all, it is what you say on your way out or to bed." },
+
+  { "id": "first-words-03", "type": "mcq",
+    "q": "Why is it צָהֳרַיִים טוֹבִים and not צָהֳרַיִים טוֹב?",
+    "choices": ["צָהֳרַיִים is plural in form, so its adjective is too", "טוֹבִים is the polite form of טוֹב", "midday greetings are always plural in Hebrew", "טוֹב cannot start a phrase"],
+    "a": 0,
+    "why": "Several Hebrew time words are plural in shape, and whatever describes them has to match. Learn this one whole rather than working it out: the grammar behind it arrives in chapter 9." },
+
+  { "id": "first-words-04", "type": "mcq",
+    "q": "What is סְלִיחָה not used for?",
+    "choices": ["asking someone to repeat what they said", "apologising", "getting past someone on a bus", "catching a waiter's attention"],
+    "a": 0,
+    "why": "סְלִיחָה is both sorry and excuse me, but not pardon. To have something repeated you say מָה, or more politely סְלִיחָה, לֹא שָׁמַעְתִּי." },
+
+  { "id": "first-words-05", "type": "mcq",
+    "q": "מַה שְׁלוֹמְךָ and מַה שְׁלוֹמֵךְ are written with the same letters once the points come off. What is the difference between them?",
+    "choices": ["the first is addressed to a man, the second to a woman", "the first is a question, the second an answer", "the first is polite, the second is slang", "the first is singular, the second plural"],
+    "a": 0,
+    "why": "There is no neutral \"you\" in Hebrew: every word aimed at a person is masculine or feminine. This is the first place it bites, which is why מַה נִשְׁמָע, the same for everyone, is the greeting to reach for first."},
+
+  { "id": "first-words-06", "type": "fill",
+    "q": "Write the everyday, ungendered way to ask how it is going, the one nobody will correct you for using.",
+    "a": ["מַה נִשְׁמָע"],
+    "why": "It is the same for a man, a woman or a group, which makes it the first greeting to learn. The formal alternative carries the gendered ending you are about to spend a chapter on." },
+
+  { "id": "first-words-07", "type": "fill",
+    "q": "Write the ordinary way to say goodbye, the one that literally means \"to see one another\".",
+    "a": ["לְהִתְרָאוֹת"],
+    "why": "It is the goodbye that שָׁלוֹם is too flat for, and the one Israelis actually use when parting. בַּיי, borrowed from English, sits beside it and is just as common." },
+
+  { "id": "first-words-08", "type": "fill",
+    "q": "A woman says she does not understand. Write her three words.",
+    "a": ["אֲנִי לֹא מְבִינָה"],
+    "why": "A present-tense verb states the gender of whoever is doing it, so a man says אֲנִי לֹא מֵבִין instead. There is no way to speak Hebrew about yourself without choosing one." },
+
+  { "id": "first-words-09", "type": "fill",
+    "q": "Introduce yourself as Dana, using the phrase that literally means \"they call me Dana\".",
+    "a": ["קוֹרְאִים לִי דָּנָה"],
+    "why": "Hebrew does not say \"my name is\" here; it says \"they call me\", with no subject in sight. The same impersonal plural runs through אֵיךְ אוֹמְרִים בְּעִבְרִית, how do you say in Hebrew." },
+
+  { "id": "first-words-10", "type": "order",
+    "q": "Build the sentence: I am learning Hebrew, said by a woman",
+    "words": ["עִבְרִית", "אֲנִי", "לוֹמֶדֶת"],
+    "a": ["אֲנִי", "לוֹמֶדֶת", "עִבְרִית"],
+    "why": "Subject, verb, object, in that order, and the verb carries the speaker's gender: a man says אֲנִי לוֹמֵד עִבְרִית. Notice there is no word for \"am\", because Hebrew has none." },
+
+  { "id": "first-words-11", "type": "order",
+    "q": "Build the sentence: I do not understand, said by a man",
+    "words": ["לֹא", "מֵבִין", "אֲנִי"],
+    "a": ["אֲנִי", "לֹא", "מֵבִין"],
+    "why": "לֹא sits directly in front of what it negates, which is the verb, never at the end the way English can manage. The feminine of the same sentence swaps מֵבִין for מְבִינָה." },
+
+  { "id": "first-words-12", "type": "listen",
+    "say": "לְאַט בְּבַקָּשָׁה",
+    "q": "Type what you hear.",
+    "a": ["לְאַט בְּבַקָּשָׁה", "לְאַט, בְּבַקָּשָׁה"],
+    "why": "This is the single most useful sentence in the chapter: it keeps a conversation going instead of ending it. בְּבַקָּשָׁה is doing its \"please\" job here, one of the three it has." },
+
+  { "id": "first-words-13", "type": "say",
+    "q": "Someone has just done you a real favour. Say thank you very much out loud.",
+    "target": "תּוֹדָה רַבָּה",
+    "why": "Both words take the stress on the last syllable: to-DA ra-BA. An English speaker naturally says TO-da RA-ba, and that single habit is what makes a beginner hardest to follow." },
+
+  { "id": "first-words-14", "type": "say",
+    "q": "You have just been introduced to someone. Say pleased to meet you out loud.",
+    "target": "נָעִים מְאוֹד",
+    "why": "Again the stress falls at the end of both words: na-IM me-OD. It means literally \"very pleasant\", and it is the fixed answer to an introduction rather than a sentence you can vary." },
+
+  { "id": "first-words-15", "type": "open",
+    "q": "בְּבַקָּשָׁה does three different jobs. Name them, with a situation for each.",
+    "a": ["Please, when you ask for something: לְאַט בְּבַקָּשָׁה. Here you are, when you hand something over. You're welcome, as the answer to תּוֹדָה, alongside אֵין בְּעָד מָה."],
+    "why": "One word covering asking, giving and answering thanks is why you hear it dozens of times a day. Learning the three jobs together stops you hunting for a separate word that does not exist." }
+ ]
+}

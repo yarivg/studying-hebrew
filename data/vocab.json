@@ -1,0 +1,9224 @@
+{
+ "count": 724,
+ "source_count": 724,
+ "themes": {
+  "general": 125,
+  "grammar": 107,
+  "time": 70,
+  "food": 65,
+  "school": 54,
+  "home": 46,
+  "israel": 41,
+  "work": 37,
+  "city": 36,
+  "connectors": 35,
+  "feelings": 33,
+  "travel": 29,
+  "nature": 28,
+  "numbers": 27,
+  "greetings": 25,
+  "people": 23,
+  "family": 23,
+  "health": 20,
+  "body": 19,
+  "clothes": 14,
+  "phrases": 13,
+  "slang": 12,
+  "religion": 11,
+  "colours": 11,
+  "animals": 7
+ },
+ "words": [
+  {
+   "n": 1,
+   "he": "שָׁלוֹם",
+   "tr": "shalom",
+   "en": "hello, goodbye, peace",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "general",
+    "greetings"
+   ],
+   "id": "w1"
+  },
+  {
+   "n": 2,
+   "he": "תּוֹדָה",
+   "tr": "toda",
+   "en": "thank you",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "greetings"
+   ],
+   "id": "w2"
+  },
+  {
+   "n": 3,
+   "he": "תּוֹדָה רַבָּה",
+   "tr": "toda raba",
+   "en": "thank you very much",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "greetings"
+   ],
+   "id": "w3"
+  },
+  {
+   "n": 4,
+   "he": "בְּבַקָּשָׁה",
+   "tr": "bevakasha",
+   "en": "please; here you are; you're welcome",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "greetings"
+   ],
+   "id": "w4"
+  },
+  {
+   "n": 5,
+   "he": "סְלִיחָה",
+   "tr": "slikha",
+   "en": "excuse me, sorry",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "greetings"
+   ],
+   "id": "w5"
+  },
+  {
+   "n": 6,
+   "he": "בֹּקֶר טוֹב",
+   "tr": "boker tov",
+   "en": "good morning",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "greetings"
+   ],
+   "id": "w6"
+  },
+  {
+   "n": 7,
+   "he": "צָהֳרַיִים טוֹבִים",
+   "tr": "tzohorayim tovim",
+   "en": "good afternoon",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "greetings"
+   ],
+   "id": "w7"
+  },
+  {
+   "n": 8,
+   "he": "עֶרֶב טוֹב",
+   "tr": "erev tov",
+   "en": "good evening",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "greetings"
+   ],
+   "id": "w8"
+  },
+  {
+   "n": 9,
+   "he": "לַיְלָה טוֹב",
+   "tr": "layla tov",
+   "en": "good night",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "greetings"
+   ],
+   "id": "w9"
+  },
+  {
+   "n": 10,
+   "he": "לְהִתְרָאוֹת",
+   "tr": "lehitraot",
+   "en": "see you, goodbye",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "greetings"
+   ],
+   "id": "w10"
+  },
+  {
+   "n": 11,
+   "he": "מַה שְׁלוֹמְךָ",
+   "tr": "ma shlomkha",
+   "en": "how are you (to a man)",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "greetings"
+   ],
+   "id": "w11"
+  },
+  {
+   "n": 12,
+   "he": "מַה שְׁלוֹמֵךְ",
+   "tr": "ma shlomekh",
+   "en": "how are you (to a woman)",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "greetings"
+   ],
+   "id": "w12"
+  },
+  {
+   "n": 13,
+   "he": "מַה נִשְׁמָע",
+   "tr": "ma nishma",
+   "en": "how is it going (literally: what is heard)",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "greetings"
+   ],
+   "id": "w13"
+  },
+  {
+   "n": 14,
+   "he": "בְּסֵדֶר",
+   "tr": "beseder",
+   "en": "okay, fine",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "general",
+    "greetings"
+   ],
+   "id": "w14"
+  },
+  {
+   "n": 15,
+   "he": "הַכֹּל בְּסֵדֶר",
+   "tr": "hakol beseder",
+   "en": "everything is fine",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "greetings"
+   ],
+   "id": "w15"
+  },
+  {
+   "n": 16,
+   "he": "נָעִים מְאוֹד",
+   "tr": "na'im me'od",
+   "en": "pleased to meet you",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "greetings"
+   ],
+   "id": "w16"
+  },
+  {
+   "n": 17,
+   "he": "בָּרוּךְ הַבָּא / בְּרוּכָה הַבָּאָה",
+   "tr": "barukh haba / brukha haba'a",
+   "en": "welcome",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "greetings"
+   ],
+   "id": "w17"
+  },
+  {
+   "n": 18,
+   "he": "מַזָּל טוֹב",
+   "tr": "mazal tov",
+   "en": "congratulations",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "greetings",
+    "israel"
+   ],
+   "id": "w18"
+  },
+  {
+   "n": 19,
+   "he": "בְּתֵיאָבוֹן",
+   "tr": "bete'avon",
+   "en": "enjoy your meal",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "food",
+    "greetings"
+   ],
+   "id": "w19"
+  },
+  {
+   "n": 20,
+   "he": "שַׁבָּת שָׁלוֹם",
+   "tr": "shabat shalom",
+   "en": "good sabbath (said from Thursday on)",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "greetings",
+    "israel",
+    "religion"
+   ],
+   "id": "w20"
+  },
+  {
+   "n": 21,
+   "he": "אֵיךְ קוֹרְאִים לְךָ",
+   "tr": "eikh kor'im lekha",
+   "en": "what is your name (to a man)",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "greetings"
+   ],
+   "id": "w21"
+  },
+  {
+   "n": 22,
+   "he": "קוֹרְאִים לִי",
+   "tr": "kor'im li",
+   "en": "my name is (literally: they call me)",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "greetings"
+   ],
+   "id": "w22"
+  },
+  {
+   "n": 23,
+   "he": "נָא לְהַכִּיר",
+   "tr": "na lehakir",
+   "en": "let me introduce you",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "greetings"
+   ],
+   "id": "w23"
+  },
+  {
+   "n": 24,
+   "he": "כָּל טוּב",
+   "tr": "kol tuv",
+   "en": "all the best",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "greetings"
+   ],
+   "id": "w24"
+  },
+  {
+   "n": 25,
+   "he": "אֵין בְּעָד מָה",
+   "tr": "ein be'ad ma",
+   "en": "you are welcome (after thanks)",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "greetings"
+   ],
+   "id": "w25"
+  },
+  {
+   "n": 26,
+   "he": "כֵּן",
+   "tr": "ken",
+   "en": "yes",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "general",
+    "grammar"
+   ],
+   "id": "w26"
+  },
+  {
+   "n": 27,
+   "he": "לֹא",
+   "tr": "lo",
+   "en": "no, not",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "general",
+    "grammar"
+   ],
+   "id": "w27"
+  },
+  {
+   "n": 28,
+   "he": "אוּלַי",
+   "tr": "ulay",
+   "en": "maybe",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "general",
+    "grammar"
+   ],
+   "id": "w28"
+  },
+  {
+   "n": 29,
+   "he": "גַּם",
+   "tr": "gam",
+   "en": "also, too",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "connectors",
+    "grammar"
+   ],
+   "id": "w29"
+  },
+  {
+   "n": 30,
+   "he": "רַק",
+   "tr": "rak",
+   "en": "only",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "connectors",
+    "grammar"
+   ],
+   "id": "w30"
+  },
+  {
+   "n": 31,
+   "he": "מְאוֹד",
+   "tr": "me'od",
+   "en": "very",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "general",
+    "grammar"
+   ],
+   "id": "w31"
+  },
+  {
+   "n": 32,
+   "he": "קְצָת",
+   "tr": "ktzat",
+   "en": "a little",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "general",
+    "grammar"
+   ],
+   "id": "w32"
+  },
+  {
+   "n": 33,
+   "he": "הַרְבֵּה",
+   "tr": "harbe",
+   "en": "a lot, many",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "general",
+    "grammar"
+   ],
+   "id": "w33"
+  },
+  {
+   "n": 34,
+   "he": "כָּל",
+   "tr": "kol",
+   "en": "every, all",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "general",
+    "grammar"
+   ],
+   "id": "w34"
+  },
+  {
+   "n": 35,
+   "he": "הַכֹּל",
+   "tr": "hakol",
+   "en": "everything",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "general",
+    "grammar"
+   ],
+   "id": "w35"
+  },
+  {
+   "n": 36,
+   "he": "שׁוּם דָּבָר",
+   "tr": "shum davar",
+   "en": "nothing",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "general",
+    "grammar"
+   ],
+   "id": "w36"
+  },
+  {
+   "n": 37,
+   "he": "אַף אֶחָד",
+   "tr": "af ekhad",
+   "en": "nobody",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "grammar",
+    "people"
+   ],
+   "id": "w37"
+  },
+  {
+   "n": 38,
+   "he": "כְּבָר",
+   "tr": "kvar",
+   "en": "already",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar",
+    "time"
+   ],
+   "id": "w38"
+  },
+  {
+   "n": 39,
+   "he": "עֲדַיִין",
+   "tr": "adayin",
+   "en": "still, yet",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar",
+    "time"
+   ],
+   "id": "w39"
+  },
+  {
+   "n": 40,
+   "he": "עוֹד",
+   "tr": "od",
+   "en": "more, still, another",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "general",
+    "grammar"
+   ],
+   "id": "w40"
+  },
+  {
+   "n": 41,
+   "he": "שׁוּב",
+   "tr": "shuv",
+   "en": "again",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar",
+    "time"
+   ],
+   "id": "w41"
+  },
+  {
+   "n": 42,
+   "he": "תָּמִיד",
+   "tr": "tamid",
+   "en": "always",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar",
+    "time"
+   ],
+   "id": "w42"
+  },
+  {
+   "n": 43,
+   "he": "אַף פַּעַם",
+   "tr": "af pa'am",
+   "en": "never",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "grammar",
+    "time"
+   ],
+   "id": "w43"
+  },
+  {
+   "n": 44,
+   "he": "לִפְעָמִים",
+   "tr": "lif'amim",
+   "en": "sometimes",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar",
+    "time"
+   ],
+   "id": "w44"
+  },
+  {
+   "n": 45,
+   "he": "בְּדֶרֶךְ כְּלָל",
+   "tr": "bederekh klal",
+   "en": "usually",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "grammar",
+    "time"
+   ],
+   "id": "w45"
+  },
+  {
+   "n": 46,
+   "he": "בְּעֶצֶם",
+   "tr": "be'etzem",
+   "en": "actually, in fact",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "connectors",
+    "grammar"
+   ],
+   "id": "w46"
+  },
+  {
+   "n": 47,
+   "he": "בְּוַדַּאי",
+   "tr": "bevadai",
+   "en": "certainly, of course",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w47"
+  },
+  {
+   "n": 48,
+   "he": "בְּדִיּוּק",
+   "tr": "bediyuk",
+   "en": "exactly",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w48"
+  },
+  {
+   "n": 49,
+   "he": "כִּמְעַט",
+   "tr": "kim'at",
+   "en": "almost",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w49"
+  },
+  {
+   "n": 50,
+   "he": "מַסְפִּיק",
+   "tr": "maspik",
+   "en": "enough",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w50"
+  },
+  {
+   "n": 51,
+   "he": "אֲנִי",
+   "tr": "ani",
+   "en": "I",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w51"
+  },
+  {
+   "n": 52,
+   "he": "אַתָּה",
+   "tr": "ata",
+   "en": "you (masculine singular)",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w52"
+  },
+  {
+   "n": 53,
+   "he": "אַתְּ",
+   "tr": "at",
+   "en": "you (feminine singular)",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w53"
+  },
+  {
+   "n": 54,
+   "he": "הוּא",
+   "tr": "hu",
+   "en": "he, it",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w54"
+  },
+  {
+   "n": 55,
+   "he": "הִיא",
+   "tr": "hi",
+   "en": "she, it",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w55"
+  },
+  {
+   "n": 56,
+   "he": "אֲנַחְנוּ",
+   "tr": "anakhnu",
+   "en": "we",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w56"
+  },
+  {
+   "n": 57,
+   "he": "אַתֶּם",
+   "tr": "atem",
+   "en": "you (masculine plural)",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w57"
+  },
+  {
+   "n": 58,
+   "he": "אַתֶּן",
+   "tr": "aten",
+   "en": "you (feminine plural)",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w58"
+  },
+  {
+   "n": 59,
+   "he": "הֵם",
+   "tr": "hem",
+   "en": "they (masculine)",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w59"
+  },
+  {
+   "n": 60,
+   "he": "הֵן",
+   "tr": "hen",
+   "en": "they (feminine)",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w60"
+  },
+  {
+   "n": 61,
+   "he": "מָה",
+   "tr": "ma",
+   "en": "what",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w61"
+  },
+  {
+   "n": 62,
+   "he": "מִי",
+   "tr": "mi",
+   "en": "who",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w62"
+  },
+  {
+   "n": 63,
+   "he": "אֵיפֹה",
+   "tr": "eifo",
+   "en": "where",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w63"
+  },
+  {
+   "n": 64,
+   "he": "מָתַי",
+   "tr": "matai",
+   "en": "when",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar",
+    "time"
+   ],
+   "id": "w64"
+  },
+  {
+   "n": 65,
+   "he": "לָמָּה",
+   "tr": "lama",
+   "en": "why",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w65"
+  },
+  {
+   "n": 66,
+   "he": "מַדּוּעַ",
+   "tr": "madua",
+   "en": "why (formal)",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w66"
+  },
+  {
+   "n": 67,
+   "he": "אֵיךְ",
+   "tr": "eikh",
+   "en": "how",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w67"
+  },
+  {
+   "n": 68,
+   "he": "כַּמָּה",
+   "tr": "kama",
+   "en": "how much, how many",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar",
+    "numbers"
+   ],
+   "id": "w68"
+  },
+  {
+   "n": 69,
+   "he": "אֵיזֶה / אֵיזוֹ",
+   "tr": "eize / eizo",
+   "en": "which, what a",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w69"
+  },
+  {
+   "n": 70,
+   "he": "הַאִם",
+   "tr": "ha'im",
+   "en": "(marks a yes/no question)",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w70"
+  },
+  {
+   "n": 71,
+   "he": "זֶה",
+   "tr": "ze",
+   "en": "this (masculine)",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w71"
+  },
+  {
+   "n": 72,
+   "he": "זֹאת",
+   "tr": "zot",
+   "en": "this (feminine)",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w72"
+  },
+  {
+   "n": 73,
+   "he": "אֵלֶּה",
+   "tr": "ele",
+   "en": "these",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w73"
+  },
+  {
+   "n": 74,
+   "he": "לְאָן",
+   "tr": "le'an",
+   "en": "where to",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w74"
+  },
+  {
+   "n": 75,
+   "he": "מֵאַיִן",
+   "tr": "me'ayin",
+   "en": "where from",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w75"
+  },
+  {
+   "n": 76,
+   "he": "סֵפֶר",
+   "tr": "sefer",
+   "en": "book",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "school"
+   ],
+   "id": "w76",
+   "pl": "סְפָרִים"
+  },
+  {
+   "n": 77,
+   "he": "מַחְבֶּרֶת",
+   "tr": "makhberet",
+   "en": "notebook",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "school"
+   ],
+   "id": "w77",
+   "pl": "מַחְבָּרוֹת"
+  },
+  {
+   "n": 78,
+   "he": "עֵט",
+   "tr": "et",
+   "en": "pen",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "school"
+   ],
+   "id": "w78"
+  },
+  {
+   "n": 79,
+   "he": "עִפָּרוֹן",
+   "tr": "iparon",
+   "en": "pencil",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "school"
+   ],
+   "id": "w79",
+   "pl": "עֶפְרוֹנוֹת"
+  },
+  {
+   "n": 80,
+   "he": "דַּף",
+   "tr": "daf",
+   "en": "sheet, page",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "school"
+   ],
+   "id": "w80",
+   "pl": "דַּפִּים"
+  },
+  {
+   "n": 81,
+   "he": "מִילָּה",
+   "tr": "mila",
+   "en": "word",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "school"
+   ],
+   "id": "w81",
+   "pl": "מִילִּים"
+  },
+  {
+   "n": 82,
+   "he": "מִשְׁפָּט",
+   "tr": "mishpat",
+   "en": "sentence",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "school"
+   ],
+   "id": "w82"
+  },
+  {
+   "n": 83,
+   "he": "שְׁאֵלָה",
+   "tr": "she'ela",
+   "en": "question",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "school"
+   ],
+   "id": "w83"
+  },
+  {
+   "n": 84,
+   "he": "תְּשׁוּבָה",
+   "tr": "tshuva",
+   "en": "answer",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "school"
+   ],
+   "id": "w84"
+  },
+  {
+   "n": 85,
+   "he": "שִׁעוּר",
+   "tr": "shi'ur",
+   "en": "lesson",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "school"
+   ],
+   "id": "w85"
+  },
+  {
+   "n": 86,
+   "he": "כִּיתָּה",
+   "tr": "kita",
+   "en": "class, classroom",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "school"
+   ],
+   "id": "w86"
+  },
+  {
+   "n": 87,
+   "he": "תַּרְגִּיל",
+   "tr": "targil",
+   "en": "exercise",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "school"
+   ],
+   "id": "w87"
+  },
+  {
+   "n": 88,
+   "he": "מִבְחָן",
+   "tr": "mivkhan",
+   "en": "test, exam",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "school"
+   ],
+   "id": "w88"
+  },
+  {
+   "n": 89,
+   "he": "תַּלְמִיד / תַּלְמִידָה",
+   "tr": "talmid / talmida",
+   "en": "pupil, student",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "people",
+    "school"
+   ],
+   "id": "w89"
+  },
+  {
+   "n": 90,
+   "he": "סְטוּדֶנְט / סְטוּדֶנְטִית",
+   "tr": "student / studentit",
+   "en": "university student",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "people",
+    "school"
+   ],
+   "id": "w90"
+  },
+  {
+   "n": 91,
+   "he": "מוֹרֶה / מוֹרָה",
+   "tr": "more / mora",
+   "en": "teacher",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "people",
+    "school",
+    "work"
+   ],
+   "id": "w91"
+  },
+  {
+   "n": 92,
+   "he": "בֵּית סֵפֶר",
+   "tr": "beit sefer",
+   "en": "school",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "city",
+    "school"
+   ],
+   "id": "w92"
+  },
+  {
+   "n": 93,
+   "he": "אוּנִיבֶרְסִיטָה",
+   "tr": "universita",
+   "en": "university",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "city",
+    "school"
+   ],
+   "id": "w93"
+  },
+  {
+   "n": 94,
+   "he": "לִלְמוֹד",
+   "tr": "lilmod",
+   "en": "to learn, to study",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "school"
+   ],
+   "id": "w94",
+   "root": "ל-מ-ד",
+   "binyan": "paal"
+  },
+  {
+   "n": 95,
+   "he": "לְלַמֵּד",
+   "tr": "lelamed",
+   "en": "to teach",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "school"
+   ],
+   "id": "w95",
+   "root": "ל-מ-ד",
+   "binyan": "piel"
+  },
+  {
+   "n": 96,
+   "he": "לִכְתּוֹב",
+   "tr": "likhtov",
+   "en": "to write",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "school"
+   ],
+   "id": "w96",
+   "root": "כ-ת-ב",
+   "binyan": "paal"
+  },
+  {
+   "n": 97,
+   "he": "לִקְרוֹא",
+   "tr": "likro",
+   "en": "to read; to call",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "school"
+   ],
+   "id": "w97",
+   "root": "ק-ר-א",
+   "binyan": "paal"
+  },
+  {
+   "n": 98,
+   "he": "לְהָבִין",
+   "tr": "lehavin",
+   "en": "to understand",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "school"
+   ],
+   "id": "w98",
+   "root": "ב-י-ן",
+   "binyan": "hifil"
+  },
+  {
+   "n": 99,
+   "he": "לְהַסְבִּיר",
+   "tr": "lehasbir",
+   "en": "to explain",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "school"
+   ],
+   "id": "w99",
+   "root": "ס-ב-ר",
+   "binyan": "hifil"
+  },
+  {
+   "n": 100,
+   "he": "לִשְׁאוֹל",
+   "tr": "lish'ol",
+   "en": "to ask",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "school"
+   ],
+   "id": "w100",
+   "root": "ש-א-ל",
+   "binyan": "paal"
+  },
+  {
+   "n": 101,
+   "he": "לַעֲנוֹת",
+   "tr": "la'anot",
+   "en": "to answer",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "school"
+   ],
+   "id": "w101",
+   "root": "ע-נ-ה",
+   "binyan": "paal"
+  },
+  {
+   "n": 102,
+   "he": "לַחְזוֹר",
+   "tr": "lakhzor",
+   "en": "to return; to repeat",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "school"
+   ],
+   "id": "w102",
+   "root": "ח-ז-ר",
+   "binyan": "paal"
+  },
+  {
+   "n": 103,
+   "he": "לְתַרְגֵּם",
+   "tr": "letargem",
+   "en": "to translate",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "school"
+   ],
+   "id": "w103",
+   "root": "ת-ר-ג-ם",
+   "binyan": "piel"
+  },
+  {
+   "n": 104,
+   "he": "לִזְכּוֹר",
+   "tr": "lizkor",
+   "en": "to remember",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "school"
+   ],
+   "id": "w104",
+   "root": "ז-כ-ר",
+   "binyan": "paal"
+  },
+  {
+   "n": 105,
+   "he": "לִשְׁכּוֹחַ",
+   "tr": "lishkoakh",
+   "en": "to forget",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "school"
+   ],
+   "id": "w105",
+   "root": "ש-כ-ח",
+   "binyan": "paal"
+  },
+  {
+   "n": 106,
+   "he": "עִבְרִית",
+   "tr": "ivrit",
+   "en": "Hebrew",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "israel",
+    "school"
+   ],
+   "id": "w106"
+  },
+  {
+   "n": 107,
+   "he": "אַנְגְּלִית",
+   "tr": "anglit",
+   "en": "English",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "school"
+   ],
+   "id": "w107"
+  },
+  {
+   "n": 108,
+   "he": "שָׂפָה",
+   "tr": "safa",
+   "en": "language; lip",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "school"
+   ],
+   "id": "w108",
+   "pl": "שָׂפוֹת"
+  },
+  {
+   "n": 109,
+   "he": "אוֹת",
+   "tr": "ot",
+   "en": "letter (of the alphabet)",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "school"
+   ],
+   "id": "w109",
+   "pl": "אוֹתִיּוֹת"
+  },
+  {
+   "n": 110,
+   "he": "נִקּוּד",
+   "tr": "nikud",
+   "en": "the vowel points",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "grammar",
+    "school"
+   ],
+   "id": "w110"
+  },
+  {
+   "n": 111,
+   "he": "שׁוֹרֶשׁ",
+   "tr": "shoresh",
+   "en": "root (of a word)",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "grammar",
+    "school"
+   ],
+   "id": "w111",
+   "pl": "שׁוֹרָשִׁים"
+  },
+  {
+   "n": 112,
+   "he": "בִּנְיָין",
+   "tr": "binyan",
+   "en": "verb pattern; building",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "grammar",
+    "school"
+   ],
+   "id": "w112",
+   "pl": "בִּנְיָינִים"
+  },
+  {
+   "n": 113,
+   "he": "דִּקְדּוּק",
+   "tr": "dikduk",
+   "en": "grammar",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "grammar",
+    "school"
+   ],
+   "id": "w113"
+  },
+  {
+   "n": 114,
+   "he": "תַּרְגּוּם",
+   "tr": "targum",
+   "en": "translation",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "school"
+   ],
+   "id": "w114"
+  },
+  {
+   "n": 115,
+   "he": "מִלּוֹן",
+   "tr": "milon",
+   "en": "dictionary",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "school"
+   ],
+   "id": "w115"
+  },
+  {
+   "n": 116,
+   "he": "אִישׁ",
+   "tr": "ish",
+   "en": "man, person",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "people"
+   ],
+   "id": "w116",
+   "pl": "אֲנָשִׁים"
+  },
+  {
+   "n": 117,
+   "he": "אִישָּׁה",
+   "tr": "isha",
+   "en": "woman; wife",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "family",
+    "people"
+   ],
+   "id": "w117",
+   "pl": "נָשִׁים"
+  },
+  {
+   "n": 118,
+   "he": "יֶלֶד / יַלְדָּה",
+   "tr": "yeled / yalda",
+   "en": "child, boy / girl",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "family",
+    "people"
+   ],
+   "id": "w118",
+   "pl": "יְלָדִים"
+  },
+  {
+   "n": 119,
+   "he": "בָּחוּר / בַּחוּרָה",
+   "tr": "bakhur / bakhura",
+   "en": "young man / young woman",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "people"
+   ],
+   "id": "w119"
+  },
+  {
+   "n": 120,
+   "he": "אָדָם",
+   "tr": "adam",
+   "en": "a person, a human being",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "people"
+   ],
+   "id": "w120",
+   "pl": "בְּנֵי אָדָם"
+  },
+  {
+   "n": 121,
+   "he": "חָבֵר / חֲבֵרָה",
+   "tr": "khaver / khavera",
+   "en": "friend; boyfriend / girlfriend",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "feelings",
+    "people"
+   ],
+   "id": "w121"
+  },
+  {
+   "n": 122,
+   "he": "מִשְׁפָּחָה",
+   "tr": "mishpakha",
+   "en": "family",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "family"
+   ],
+   "id": "w122"
+  },
+  {
+   "n": 123,
+   "he": "אַבָּא",
+   "tr": "aba",
+   "en": "dad, father",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "family"
+   ],
+   "id": "w123"
+  },
+  {
+   "n": 124,
+   "he": "אִמָּא",
+   "tr": "ima",
+   "en": "mum, mother",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "family"
+   ],
+   "id": "w124"
+  },
+  {
+   "n": 125,
+   "he": "הוֹרֶה",
+   "tr": "hore",
+   "en": "parent",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "family"
+   ],
+   "id": "w125",
+   "pl": "הוֹרִים"
+  },
+  {
+   "n": 126,
+   "he": "בֵּן",
+   "tr": "ben",
+   "en": "son; a member of",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "family"
+   ],
+   "id": "w126",
+   "pl": "בָּנִים"
+  },
+  {
+   "n": 127,
+   "he": "בַּת",
+   "tr": "bat",
+   "en": "daughter",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "family"
+   ],
+   "id": "w127",
+   "pl": "בָּנוֹת"
+  },
+  {
+   "n": 128,
+   "he": "אָח",
+   "tr": "akh",
+   "en": "brother",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "family"
+   ],
+   "id": "w128",
+   "pl": "אַחִים"
+  },
+  {
+   "n": 129,
+   "he": "אָחוֹת",
+   "tr": "akhot",
+   "en": "sister; nurse",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "family",
+    "health"
+   ],
+   "id": "w129",
+   "pl": "אֲחָיוֹת"
+  },
+  {
+   "n": 130,
+   "he": "סַבָּא",
+   "tr": "saba",
+   "en": "grandfather",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "family"
+   ],
+   "id": "w130"
+  },
+  {
+   "n": 131,
+   "he": "סַבְתָּא",
+   "tr": "savta",
+   "en": "grandmother",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "family"
+   ],
+   "id": "w131"
+  },
+  {
+   "n": 132,
+   "he": "נֶכֶד / נֶכְדָּה",
+   "tr": "nekhed / nekhda",
+   "en": "grandson / granddaughter",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "family"
+   ],
+   "id": "w132"
+  },
+  {
+   "n": 133,
+   "he": "דּוֹד / דּוֹדָה",
+   "tr": "dod / doda",
+   "en": "uncle / aunt",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "family"
+   ],
+   "id": "w133"
+  },
+  {
+   "n": 134,
+   "he": "בֶּן דּוֹד / בַּת דּוֹדָה",
+   "tr": "ben dod / bat doda",
+   "en": "cousin",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "family"
+   ],
+   "id": "w134"
+  },
+  {
+   "n": 135,
+   "he": "בַּעַל",
+   "tr": "ba'al",
+   "en": "husband; owner",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "family"
+   ],
+   "id": "w135",
+   "pl": "בְּעָלִים"
+  },
+  {
+   "n": 136,
+   "he": "תִּינוֹק / תִּינוֹקֶת",
+   "tr": "tinok / tinoket",
+   "en": "baby",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "family",
+    "people"
+   ],
+   "id": "w136"
+  },
+  {
+   "n": 137,
+   "he": "שָׁכֵן / שְׁכֵנָה",
+   "tr": "shakhen / shkhena",
+   "en": "neighbour",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "city",
+    "people"
+   ],
+   "id": "w137"
+  },
+  {
+   "n": 138,
+   "he": "אוֹרֵחַ / אוֹרַחַת",
+   "tr": "oreakh / orakhat",
+   "en": "guest",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "home",
+    "people"
+   ],
+   "id": "w138"
+  },
+  {
+   "n": 139,
+   "he": "זָקֵן / זְקֵנָה",
+   "tr": "zaken / zkena",
+   "en": "old (of a person)",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "people"
+   ],
+   "id": "w139"
+  },
+  {
+   "n": 140,
+   "he": "צָעִיר / צְעִירָה",
+   "tr": "tza'ir / tze'ira",
+   "en": "young",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "people"
+   ],
+   "id": "w140"
+  },
+  {
+   "n": 141,
+   "he": "נָשׂוּי / נְשׂוּאָה",
+   "tr": "nasui / nesu'a",
+   "en": "married",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "family"
+   ],
+   "id": "w141"
+  },
+  {
+   "n": 142,
+   "he": "רַוָּק / רַוָּקָה",
+   "tr": "ravak / ravaka",
+   "en": "single, unmarried",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "family"
+   ],
+   "id": "w142"
+  },
+  {
+   "n": 143,
+   "he": "בַּיִת",
+   "tr": "bayit",
+   "en": "house, home",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "home"
+   ],
+   "id": "w143",
+   "pl": "בָּתִּים"
+  },
+  {
+   "n": 144,
+   "he": "דִּירָה",
+   "tr": "dira",
+   "en": "flat, apartment",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "home"
+   ],
+   "id": "w144"
+  },
+  {
+   "n": 145,
+   "he": "חֶדֶר",
+   "tr": "kheder",
+   "en": "room",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "home"
+   ],
+   "id": "w145",
+   "pl": "חֲדָרִים"
+  },
+  {
+   "n": 146,
+   "he": "מִטְבָּח",
+   "tr": "mitbakh",
+   "en": "kitchen",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "home"
+   ],
+   "id": "w146"
+  },
+  {
+   "n": 147,
+   "he": "חֲדַר אַמְבַּטְיָה",
+   "tr": "khadar ambatya",
+   "en": "bathroom",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "home"
+   ],
+   "id": "w147"
+  },
+  {
+   "n": 148,
+   "he": "שֵׁירוּתִים",
+   "tr": "sherutim",
+   "en": "toilet; services",
+   "pos": "noun",
+   "g": "pl",
+   "themes": [
+    "home"
+   ],
+   "id": "w148"
+  },
+  {
+   "n": 149,
+   "he": "סָלוֹן",
+   "tr": "salon",
+   "en": "living room",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "home"
+   ],
+   "id": "w149"
+  },
+  {
+   "n": 150,
+   "he": "מִרְפֶּסֶת",
+   "tr": "mirpeset",
+   "en": "balcony",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "home"
+   ],
+   "id": "w150"
+  },
+  {
+   "n": 151,
+   "he": "דֶּלֶת",
+   "tr": "delet",
+   "en": "door",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "home"
+   ],
+   "id": "w151",
+   "pl": "דְּלָתוֹת"
+  },
+  {
+   "n": 152,
+   "he": "חַלּוֹן",
+   "tr": "khalon",
+   "en": "window",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "home"
+   ],
+   "id": "w152",
+   "pl": "חַלּוֹנוֹת"
+  },
+  {
+   "n": 153,
+   "he": "קִיר",
+   "tr": "kir",
+   "en": "wall",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "home"
+   ],
+   "id": "w153",
+   "pl": "קִירוֹת"
+  },
+  {
+   "n": 154,
+   "he": "רִצְפָּה",
+   "tr": "ritzpa",
+   "en": "floor",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "home"
+   ],
+   "id": "w154"
+  },
+  {
+   "n": 155,
+   "he": "תִּקְרָה",
+   "tr": "tikra",
+   "en": "ceiling",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "home"
+   ],
+   "id": "w155"
+  },
+  {
+   "n": 156,
+   "he": "מַדְרֵגוֹת",
+   "tr": "madregot",
+   "en": "stairs",
+   "pos": "noun",
+   "g": "pl",
+   "themes": [
+    "home"
+   ],
+   "id": "w156"
+  },
+  {
+   "n": 157,
+   "he": "שׁוּלְחָן",
+   "tr": "shulkhan",
+   "en": "table",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "home"
+   ],
+   "id": "w157",
+   "pl": "שׁוּלְחָנוֹת"
+  },
+  {
+   "n": 158,
+   "he": "כִּיסֵּא",
+   "tr": "kise",
+   "en": "chair",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "home"
+   ],
+   "id": "w158",
+   "pl": "כִּיסְאוֹת"
+  },
+  {
+   "n": 159,
+   "he": "מִיטָּה",
+   "tr": "mita",
+   "en": "bed",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "home"
+   ],
+   "id": "w159"
+  },
+  {
+   "n": 160,
+   "he": "אָרוֹן",
+   "tr": "aron",
+   "en": "cupboard, wardrobe",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "home"
+   ],
+   "id": "w160",
+   "pl": "אֲרוֹנוֹת"
+  },
+  {
+   "n": 161,
+   "he": "מַדָּף",
+   "tr": "madaf",
+   "en": "shelf",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "home"
+   ],
+   "id": "w161"
+  },
+  {
+   "n": 162,
+   "he": "מְנוֹרָה",
+   "tr": "menora",
+   "en": "lamp",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "home"
+   ],
+   "id": "w162"
+  },
+  {
+   "n": 163,
+   "he": "מַפְתֵּחַ",
+   "tr": "mafteakh",
+   "en": "key",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "home"
+   ],
+   "id": "w163",
+   "pl": "מַפְתְּחוֹת"
+  },
+  {
+   "n": 164,
+   "he": "מַרְאָה",
+   "tr": "mar'a",
+   "en": "mirror",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "home"
+   ],
+   "id": "w164"
+  },
+  {
+   "n": 165,
+   "he": "שָׁטִיחַ",
+   "tr": "shatiakh",
+   "en": "carpet, rug",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "home"
+   ],
+   "id": "w165"
+  },
+  {
+   "n": 166,
+   "he": "מְקָרֵר",
+   "tr": "mekarer",
+   "en": "fridge",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "food",
+    "home"
+   ],
+   "id": "w166"
+  },
+  {
+   "n": 167,
+   "he": "תַּנּוּר",
+   "tr": "tanur",
+   "en": "oven",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "food",
+    "home"
+   ],
+   "id": "w167"
+  },
+  {
+   "n": 168,
+   "he": "מְכוֹנַת כְּבִיסָה",
+   "tr": "mekhonat kvisa",
+   "en": "washing machine",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "home"
+   ],
+   "id": "w168"
+  },
+  {
+   "n": 169,
+   "he": "גִּינָּה",
+   "tr": "gina",
+   "en": "garden",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "home",
+    "nature"
+   ],
+   "id": "w169"
+  },
+  {
+   "n": 170,
+   "he": "לָגוּר",
+   "tr": "lagur",
+   "en": "to live, to reside",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "home"
+   ],
+   "id": "w170",
+   "root": "ג-ו-ר",
+   "binyan": "paal"
+  },
+  {
+   "n": 171,
+   "he": "לִפְתּוֹחַ",
+   "tr": "liftoakh",
+   "en": "to open",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general",
+    "home"
+   ],
+   "id": "w171",
+   "root": "פ-ת-ח",
+   "binyan": "paal"
+  },
+  {
+   "n": 172,
+   "he": "לִסְגּוֹר",
+   "tr": "lisgor",
+   "en": "to close",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general",
+    "home"
+   ],
+   "id": "w172",
+   "root": "ס-ג-ר",
+   "binyan": "paal"
+  },
+  {
+   "n": 173,
+   "he": "לְנַקּוֹת",
+   "tr": "lenakot",
+   "en": "to clean",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "home"
+   ],
+   "id": "w173",
+   "root": "נ-ק-ה",
+   "binyan": "piel"
+  },
+  {
+   "n": 174,
+   "he": "לְסַדֵּר",
+   "tr": "lesader",
+   "en": "to tidy, to arrange",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "home"
+   ],
+   "id": "w174",
+   "root": "ס-ד-ר",
+   "binyan": "piel"
+  },
+  {
+   "n": 175,
+   "he": "אוֹכֶל",
+   "tr": "okhel",
+   "en": "food",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "food"
+   ],
+   "id": "w175"
+  },
+  {
+   "n": 176,
+   "he": "לֶחֶם",
+   "tr": "lekhem",
+   "en": "bread",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "food"
+   ],
+   "id": "w176"
+  },
+  {
+   "n": 177,
+   "he": "פִּיתָּה",
+   "tr": "pita",
+   "en": "pita",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "food",
+    "israel"
+   ],
+   "id": "w177"
+  },
+  {
+   "n": 178,
+   "he": "חָלָב",
+   "tr": "khalav",
+   "en": "milk",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "food"
+   ],
+   "id": "w178"
+  },
+  {
+   "n": 179,
+   "he": "גְּבִינָה",
+   "tr": "gvina",
+   "en": "cheese",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "food"
+   ],
+   "id": "w179"
+  },
+  {
+   "n": 180,
+   "he": "חֶמְאָה",
+   "tr": "khem'a",
+   "en": "butter",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "food"
+   ],
+   "id": "w180"
+  },
+  {
+   "n": 181,
+   "he": "בֵּיצָה",
+   "tr": "beitza",
+   "en": "egg",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "food"
+   ],
+   "id": "w181",
+   "pl": "בֵּיצִים"
+  },
+  {
+   "n": 182,
+   "he": "בָּשָׂר",
+   "tr": "basar",
+   "en": "meat",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "food"
+   ],
+   "id": "w182"
+  },
+  {
+   "n": 183,
+   "he": "עוֹף",
+   "tr": "of",
+   "en": "chicken; bird",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "animals",
+    "food"
+   ],
+   "id": "w183",
+   "pl": "עוֹפוֹת"
+  },
+  {
+   "n": 184,
+   "he": "דָּג",
+   "tr": "dag",
+   "en": "fish",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "animals",
+    "food"
+   ],
+   "id": "w184",
+   "pl": "דָּגִים"
+  },
+  {
+   "n": 185,
+   "he": "אוֹרֶז",
+   "tr": "orez",
+   "en": "rice",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "food"
+   ],
+   "id": "w185"
+  },
+  {
+   "n": 186,
+   "he": "פֵּירוֹת",
+   "tr": "perot",
+   "en": "fruit",
+   "pos": "noun",
+   "g": "pl",
+   "themes": [
+    "food"
+   ],
+   "id": "w186"
+  },
+  {
+   "n": 187,
+   "he": "יְרָקוֹת",
+   "tr": "yerakot",
+   "en": "vegetables",
+   "pos": "noun",
+   "g": "pl",
+   "themes": [
+    "food"
+   ],
+   "id": "w187"
+  },
+  {
+   "n": 188,
+   "he": "תַּפּוּחַ",
+   "tr": "tapuakh",
+   "en": "apple",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "food"
+   ],
+   "id": "w188",
+   "pl": "תַּפּוּחִים"
+  },
+  {
+   "n": 189,
+   "he": "תַּפּוּז",
+   "tr": "tapuz",
+   "en": "orange",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "food"
+   ],
+   "id": "w189"
+  },
+  {
+   "n": 190,
+   "he": "בַּנָנָה",
+   "tr": "banana",
+   "en": "banana",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "food"
+   ],
+   "id": "w190"
+  },
+  {
+   "n": 191,
+   "he": "עַגְבָנִיָּיה",
+   "tr": "agvaniya",
+   "en": "tomato",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "food"
+   ],
+   "id": "w191"
+  },
+  {
+   "n": 192,
+   "he": "מְלָפְפוֹן",
+   "tr": "melafefon",
+   "en": "cucumber",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "food"
+   ],
+   "id": "w192"
+  },
+  {
+   "n": 193,
+   "he": "בָּצָל",
+   "tr": "batzal",
+   "en": "onion",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "food"
+   ],
+   "id": "w193"
+  },
+  {
+   "n": 194,
+   "he": "תַּפּוּחַ אֲדָמָה",
+   "tr": "tapuakh adama",
+   "en": "potato",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "food"
+   ],
+   "id": "w194"
+  },
+  {
+   "n": 195,
+   "he": "סָלָט",
+   "tr": "salat",
+   "en": "salad",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "food"
+   ],
+   "id": "w195"
+  },
+  {
+   "n": 196,
+   "he": "חוּמּוּס",
+   "tr": "khumus",
+   "en": "hummus",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "food",
+    "israel"
+   ],
+   "id": "w196"
+  },
+  {
+   "n": 197,
+   "he": "מָרָק",
+   "tr": "marak",
+   "en": "soup",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "food"
+   ],
+   "id": "w197"
+  },
+  {
+   "n": 198,
+   "he": "עוּגָה",
+   "tr": "uga",
+   "en": "cake",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "food"
+   ],
+   "id": "w198"
+  },
+  {
+   "n": 199,
+   "he": "עוּגִיָּיה",
+   "tr": "ugiya",
+   "en": "biscuit, cookie",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "food"
+   ],
+   "id": "w199"
+  },
+  {
+   "n": 200,
+   "he": "שׁוֹקוֹלָד",
+   "tr": "shokolad",
+   "en": "chocolate",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "food"
+   ],
+   "id": "w200"
+  },
+  {
+   "n": 201,
+   "he": "סוּכָּר",
+   "tr": "sukar",
+   "en": "sugar",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "food"
+   ],
+   "id": "w201"
+  },
+  {
+   "n": 202,
+   "he": "מֶלַח",
+   "tr": "melakh",
+   "en": "salt",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "food"
+   ],
+   "id": "w202"
+  },
+  {
+   "n": 203,
+   "he": "שֶׁמֶן",
+   "tr": "shemen",
+   "en": "oil",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "food"
+   ],
+   "id": "w203"
+  },
+  {
+   "n": 204,
+   "he": "מַיִם",
+   "tr": "mayim",
+   "en": "water",
+   "pos": "noun",
+   "g": "pl",
+   "themes": [
+    "food",
+    "nature"
+   ],
+   "id": "w204"
+  },
+  {
+   "n": 205,
+   "he": "קָפֶה",
+   "tr": "kafe",
+   "en": "coffee",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "food"
+   ],
+   "id": "w205"
+  },
+  {
+   "n": 206,
+   "he": "תֵּה",
+   "tr": "te",
+   "en": "tea",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "food"
+   ],
+   "id": "w206"
+  },
+  {
+   "n": 207,
+   "he": "מִיץ",
+   "tr": "mitz",
+   "en": "juice",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "food"
+   ],
+   "id": "w207"
+  },
+  {
+   "n": 208,
+   "he": "יַיִן",
+   "tr": "yayin",
+   "en": "wine",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "food"
+   ],
+   "id": "w208"
+  },
+  {
+   "n": 209,
+   "he": "בִּירָה",
+   "tr": "bira",
+   "en": "beer",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "food"
+   ],
+   "id": "w209"
+  },
+  {
+   "n": 210,
+   "he": "אֲרוּחָה",
+   "tr": "arukha",
+   "en": "meal",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "food"
+   ],
+   "id": "w210"
+  },
+  {
+   "n": 211,
+   "he": "אֲרוּחַת בּוֹקֶר",
+   "tr": "arukhat boker",
+   "en": "breakfast",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "food"
+   ],
+   "id": "w211"
+  },
+  {
+   "n": 212,
+   "he": "אֲרוּחַת צָהֳרַיִים",
+   "tr": "arukhat tzohorayim",
+   "en": "lunch",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "food"
+   ],
+   "id": "w212"
+  },
+  {
+   "n": 213,
+   "he": "אֲרוּחַת עֶרֶב",
+   "tr": "arukhat erev",
+   "en": "dinner",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "food"
+   ],
+   "id": "w213"
+  },
+  {
+   "n": 214,
+   "he": "מִסְעָדָה",
+   "tr": "mis'ada",
+   "en": "restaurant",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "city",
+    "food"
+   ],
+   "id": "w214"
+  },
+  {
+   "n": 215,
+   "he": "תַּפְרִיט",
+   "tr": "tafrit",
+   "en": "menu",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "food"
+   ],
+   "id": "w215"
+  },
+  {
+   "n": 216,
+   "he": "חֶשְׁבּוֹן",
+   "tr": "kheshbon",
+   "en": "bill; account; arithmetic",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "food",
+    "work"
+   ],
+   "id": "w216"
+  },
+  {
+   "n": 217,
+   "he": "מֶלְצַר / מֶלְצָרִית",
+   "tr": "meltzar / meltzarit",
+   "en": "waiter / waitress",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "food",
+    "work"
+   ],
+   "id": "w217"
+  },
+  {
+   "n": 218,
+   "he": "צַלַּחַת",
+   "tr": "tzalakhat",
+   "en": "plate",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "food",
+    "home"
+   ],
+   "id": "w218"
+  },
+  {
+   "n": 219,
+   "he": "כּוֹס",
+   "tr": "kos",
+   "en": "glass, cup",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "food",
+    "home"
+   ],
+   "id": "w219"
+  },
+  {
+   "n": 220,
+   "he": "מַזְלֵג",
+   "tr": "mazleg",
+   "en": "fork",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "food",
+    "home"
+   ],
+   "id": "w220"
+  },
+  {
+   "n": 221,
+   "he": "סַכִּין",
+   "tr": "sakin",
+   "en": "knife",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "food",
+    "home"
+   ],
+   "id": "w221"
+  },
+  {
+   "n": 222,
+   "he": "כַּף",
+   "tr": "kaf",
+   "en": "spoon; palm of the hand",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "body",
+    "food",
+    "home"
+   ],
+   "id": "w222"
+  },
+  {
+   "n": 223,
+   "he": "לֶאֱכוֹל",
+   "tr": "le'ekhol",
+   "en": "to eat",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "food"
+   ],
+   "id": "w223",
+   "root": "א-כ-ל",
+   "binyan": "paal"
+  },
+  {
+   "n": 224,
+   "he": "לִשְׁתּוֹת",
+   "tr": "lishtot",
+   "en": "to drink",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "food"
+   ],
+   "id": "w224",
+   "root": "ש-ת-ה",
+   "binyan": "paal"
+  },
+  {
+   "n": 225,
+   "he": "לְבַשֵּׁל",
+   "tr": "levashel",
+   "en": "to cook",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "food"
+   ],
+   "id": "w225",
+   "root": "ב-ש-ל",
+   "binyan": "piel"
+  },
+  {
+   "n": 226,
+   "he": "לְהַזְמִין",
+   "tr": "lehazmin",
+   "en": "to order; to invite",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "food",
+    "general"
+   ],
+   "id": "w226",
+   "root": "ז-מ-ן",
+   "binyan": "hifil"
+  },
+  {
+   "n": 227,
+   "he": "טָעִים / טְעִימָה",
+   "tr": "ta'im / te'ima",
+   "en": "tasty",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "food"
+   ],
+   "id": "w227"
+  },
+  {
+   "n": 228,
+   "he": "רָעֵב / רְעֵבָה",
+   "tr": "ra'ev / re'eva",
+   "en": "hungry",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "feelings",
+    "food"
+   ],
+   "id": "w228"
+  },
+  {
+   "n": 229,
+   "he": "צָמֵא / צְמֵאָה",
+   "tr": "tzame / tzme'a",
+   "en": "thirsty",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "feelings",
+    "food"
+   ],
+   "id": "w229"
+  },
+  {
+   "n": 230,
+   "he": "חַם / חַמָּה",
+   "tr": "kham / khama",
+   "en": "hot, warm",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "food",
+    "nature"
+   ],
+   "id": "w230"
+  },
+  {
+   "n": 231,
+   "he": "קַר / קָרָה",
+   "tr": "kar / kara",
+   "en": "cold",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "food",
+    "nature"
+   ],
+   "id": "w231"
+  },
+  {
+   "n": 232,
+   "he": "מָתוֹק / מְתוּקָה",
+   "tr": "matok / metuka",
+   "en": "sweet",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "food"
+   ],
+   "id": "w232"
+  },
+  {
+   "n": 233,
+   "he": "מָלוּחַ / מְלוּחָה",
+   "tr": "maluakh / melukha",
+   "en": "salty",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "food"
+   ],
+   "id": "w233"
+  },
+  {
+   "n": 234,
+   "he": "חָרִיף / חֲרִיפָה",
+   "tr": "kharif / kharifa",
+   "en": "spicy, sharp",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "food"
+   ],
+   "id": "w234"
+  },
+  {
+   "n": 235,
+   "he": "גּוּף",
+   "tr": "guf",
+   "en": "body",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "body"
+   ],
+   "id": "w235"
+  },
+  {
+   "n": 236,
+   "he": "רֹאשׁ",
+   "tr": "rosh",
+   "en": "head",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "body"
+   ],
+   "id": "w236",
+   "pl": "רָאשִׁים"
+  },
+  {
+   "n": 237,
+   "he": "פָּנִים",
+   "tr": "panim",
+   "en": "face",
+   "pos": "noun",
+   "g": "pl",
+   "themes": [
+    "body"
+   ],
+   "id": "w237"
+  },
+  {
+   "n": 238,
+   "he": "עַיִן",
+   "tr": "ayin",
+   "en": "eye; spring of water",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "body"
+   ],
+   "id": "w238",
+   "pl": "עֵינַיִים"
+  },
+  {
+   "n": 239,
+   "he": "אוֹזֶן",
+   "tr": "ozen",
+   "en": "ear",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "body"
+   ],
+   "id": "w239",
+   "pl": "אוֹזְנַיִים"
+  },
+  {
+   "n": 240,
+   "he": "אַף",
+   "tr": "af",
+   "en": "nose",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "body"
+   ],
+   "id": "w240"
+  },
+  {
+   "n": 241,
+   "he": "פֶּה",
+   "tr": "pe",
+   "en": "mouth",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "body"
+   ],
+   "id": "w241"
+  },
+  {
+   "n": 242,
+   "he": "שֵׁן",
+   "tr": "shen",
+   "en": "tooth",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "body"
+   ],
+   "id": "w242",
+   "pl": "שִׁינַּיִים"
+  },
+  {
+   "n": 243,
+   "he": "שֵׂיעָר",
+   "tr": "se'ar",
+   "en": "hair",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "body"
+   ],
+   "id": "w243"
+  },
+  {
+   "n": 244,
+   "he": "יָד",
+   "tr": "yad",
+   "en": "hand, arm",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "body"
+   ],
+   "id": "w244",
+   "pl": "יָדַיִים"
+  },
+  {
+   "n": 245,
+   "he": "רֶגֶל",
+   "tr": "regel",
+   "en": "leg, foot",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "body"
+   ],
+   "id": "w245",
+   "pl": "רַגְלַיִים"
+  },
+  {
+   "n": 246,
+   "he": "אֶצְבַּע",
+   "tr": "etzba",
+   "en": "finger, toe",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "body"
+   ],
+   "id": "w246",
+   "pl": "אֶצְבָּעוֹת"
+  },
+  {
+   "n": 247,
+   "he": "גַּב",
+   "tr": "gav",
+   "en": "back",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "body"
+   ],
+   "id": "w247"
+  },
+  {
+   "n": 248,
+   "he": "בֶּטֶן",
+   "tr": "beten",
+   "en": "stomach, belly",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "body"
+   ],
+   "id": "w248"
+  },
+  {
+   "n": 249,
+   "he": "לֵב",
+   "tr": "lev",
+   "en": "heart",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "body",
+    "feelings"
+   ],
+   "id": "w249",
+   "pl": "לִיבּוֹת"
+  },
+  {
+   "n": 250,
+   "he": "דָּם",
+   "tr": "dam",
+   "en": "blood",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "body",
+    "health"
+   ],
+   "id": "w250"
+  },
+  {
+   "n": 251,
+   "he": "עוֹר",
+   "tr": "or",
+   "en": "skin; leather",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "body"
+   ],
+   "id": "w251"
+  },
+  {
+   "n": 252,
+   "he": "בָּרִיא / בְּרִיאָה",
+   "tr": "bari / bri'a",
+   "en": "healthy",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "health"
+   ],
+   "id": "w252"
+  },
+  {
+   "n": 253,
+   "he": "חוֹלֶה / חוֹלָה",
+   "tr": "khole / khola",
+   "en": "ill, sick; a patient",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "health"
+   ],
+   "id": "w253"
+  },
+  {
+   "n": 254,
+   "he": "כּוֹאֵב",
+   "tr": "ko'ev",
+   "en": "it hurts",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "health"
+   ],
+   "id": "w254",
+   "root": "כ-א-ב",
+   "binyan": "paal"
+  },
+  {
+   "n": 255,
+   "he": "רוֹפֵא / רוֹפְאָה",
+   "tr": "rofe / rof'a",
+   "en": "doctor",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "health",
+    "work"
+   ],
+   "id": "w255"
+  },
+  {
+   "n": 256,
+   "he": "בֵּית חוֹלִים",
+   "tr": "beit kholim",
+   "en": "hospital",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "city",
+    "health"
+   ],
+   "id": "w256"
+  },
+  {
+   "n": 257,
+   "he": "קוּפַּת חוֹלִים",
+   "tr": "kupat kholim",
+   "en": "health clinic",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "health",
+    "israel"
+   ],
+   "id": "w257"
+  },
+  {
+   "n": 258,
+   "he": "מַחֲלָה",
+   "tr": "makhala",
+   "en": "illness",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "health"
+   ],
+   "id": "w258"
+  },
+  {
+   "n": 259,
+   "he": "תְּרוּפָה",
+   "tr": "trufa",
+   "en": "medicine",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "health"
+   ],
+   "id": "w259"
+  },
+  {
+   "n": 260,
+   "he": "כְּאֵב",
+   "tr": "ke'ev",
+   "en": "pain, ache",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "health"
+   ],
+   "id": "w260"
+  },
+  {
+   "n": 261,
+   "he": "חוֹם",
+   "tr": "khom",
+   "en": "fever; heat",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "health"
+   ],
+   "id": "w261"
+  },
+  {
+   "n": 262,
+   "he": "לְהַרְגִּישׁ",
+   "tr": "lehargish",
+   "en": "to feel",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "feelings",
+    "health"
+   ],
+   "id": "w262",
+   "root": "ר-ג-ש",
+   "binyan": "hifil"
+  },
+  {
+   "n": 263,
+   "he": "לָנוּחַ",
+   "tr": "lanuakh",
+   "en": "to rest",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "health"
+   ],
+   "id": "w263",
+   "root": "נ-ו-ח",
+   "binyan": "paal"
+  },
+  {
+   "n": 264,
+   "he": "לִישׁוֹן",
+   "tr": "lishon",
+   "en": "to sleep",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "health",
+    "home"
+   ],
+   "id": "w264",
+   "root": "י-ש-ן",
+   "binyan": "paal"
+  },
+  {
+   "n": 265,
+   "he": "לָקוּם",
+   "tr": "lakum",
+   "en": "to get up, to stand up",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "health",
+    "home"
+   ],
+   "id": "w265",
+   "root": "ק-ו-ם",
+   "binyan": "paal"
+  },
+  {
+   "n": 266,
+   "he": "אֶחָד / אַחַת",
+   "tr": "ekhad / akhat",
+   "en": "one",
+   "pos": "number",
+   "g": "mf",
+   "themes": [
+    "numbers"
+   ],
+   "id": "w266"
+  },
+  {
+   "n": 267,
+   "he": "שְׁנַיִים / שְׁתַּיִים",
+   "tr": "shnayim / shtayim",
+   "en": "two",
+   "pos": "number",
+   "g": "mf",
+   "themes": [
+    "numbers"
+   ],
+   "id": "w267"
+  },
+  {
+   "n": 268,
+   "he": "שְׁלוֹשָׁה / שָׁלוֹשׁ",
+   "tr": "shlosha / shalosh",
+   "en": "three",
+   "pos": "number",
+   "g": "mf",
+   "themes": [
+    "numbers"
+   ],
+   "id": "w268"
+  },
+  {
+   "n": 269,
+   "he": "אַרְבָּעָה / אַרְבַּע",
+   "tr": "arba'a / arba",
+   "en": "four",
+   "pos": "number",
+   "g": "mf",
+   "themes": [
+    "numbers"
+   ],
+   "id": "w269"
+  },
+  {
+   "n": 270,
+   "he": "חֲמִישָּׁה / חָמֵשׁ",
+   "tr": "khamisha / khamesh",
+   "en": "five",
+   "pos": "number",
+   "g": "mf",
+   "themes": [
+    "numbers"
+   ],
+   "id": "w270"
+  },
+  {
+   "n": 271,
+   "he": "שִׁישָּׁה / שֵׁשׁ",
+   "tr": "shisha / shesh",
+   "en": "six",
+   "pos": "number",
+   "g": "mf",
+   "themes": [
+    "numbers"
+   ],
+   "id": "w271"
+  },
+  {
+   "n": 272,
+   "he": "שִׁבְעָה / שֶׁבַע",
+   "tr": "shiv'a / sheva",
+   "en": "seven",
+   "pos": "number",
+   "g": "mf",
+   "themes": [
+    "numbers"
+   ],
+   "id": "w272"
+  },
+  {
+   "n": 273,
+   "he": "שְׁמוֹנָה / שְׁמוֹנֶה",
+   "tr": "shmona / shmone",
+   "en": "eight",
+   "pos": "number",
+   "g": "mf",
+   "themes": [
+    "numbers"
+   ],
+   "id": "w273"
+  },
+  {
+   "n": 274,
+   "he": "תִּשְׁעָה / תֵּשַׁע",
+   "tr": "tish'a / tesha",
+   "en": "nine",
+   "pos": "number",
+   "g": "mf",
+   "themes": [
+    "numbers"
+   ],
+   "id": "w274"
+  },
+  {
+   "n": 275,
+   "he": "עֲשָׂרָה / עֶשֶׂר",
+   "tr": "asara / eser",
+   "en": "ten",
+   "pos": "number",
+   "g": "mf",
+   "themes": [
+    "numbers"
+   ],
+   "id": "w275"
+  },
+  {
+   "n": 276,
+   "he": "עֶשְׂרִים",
+   "tr": "esrim",
+   "en": "twenty",
+   "pos": "number",
+   "g": "mf",
+   "themes": [
+    "numbers"
+   ],
+   "id": "w276"
+  },
+  {
+   "n": 277,
+   "he": "שְׁלוֹשִׁים",
+   "tr": "shloshim",
+   "en": "thirty",
+   "pos": "number",
+   "g": "mf",
+   "themes": [
+    "numbers"
+   ],
+   "id": "w277"
+  },
+  {
+   "n": 278,
+   "he": "אַרְבָּעִים",
+   "tr": "arba'im",
+   "en": "forty",
+   "pos": "number",
+   "g": "mf",
+   "themes": [
+    "numbers"
+   ],
+   "id": "w278"
+  },
+  {
+   "n": 279,
+   "he": "חֲמִישִּׁים",
+   "tr": "khamishim",
+   "en": "fifty",
+   "pos": "number",
+   "g": "mf",
+   "themes": [
+    "numbers"
+   ],
+   "id": "w279"
+  },
+  {
+   "n": 280,
+   "he": "מֵאָה",
+   "tr": "me'a",
+   "en": "a hundred",
+   "pos": "number",
+   "g": "f",
+   "themes": [
+    "numbers"
+   ],
+   "id": "w280"
+  },
+  {
+   "n": 281,
+   "he": "אֶלֶף",
+   "tr": "elef",
+   "en": "a thousand",
+   "pos": "number",
+   "g": "m",
+   "themes": [
+    "numbers"
+   ],
+   "id": "w281"
+  },
+  {
+   "n": 282,
+   "he": "מִיסְפָּר",
+   "tr": "mispar",
+   "en": "number",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "numbers"
+   ],
+   "id": "w282"
+  },
+  {
+   "n": 283,
+   "he": "אֶפֶס",
+   "tr": "efes",
+   "en": "zero",
+   "pos": "number",
+   "g": "m",
+   "themes": [
+    "numbers"
+   ],
+   "id": "w283"
+  },
+  {
+   "n": 284,
+   "he": "חֵצִי",
+   "tr": "khetzi",
+   "en": "half",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "numbers"
+   ],
+   "id": "w284"
+  },
+  {
+   "n": 285,
+   "he": "רֶבַע",
+   "tr": "reva",
+   "en": "quarter",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "numbers"
+   ],
+   "id": "w285"
+  },
+  {
+   "n": 286,
+   "he": "רִאשׁוֹן / רִאשׁוֹנָה",
+   "tr": "rishon / rishona",
+   "en": "first",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "numbers",
+    "time"
+   ],
+   "id": "w286"
+  },
+  {
+   "n": 287,
+   "he": "שֵׁנִי / שְׁנִיָּיה",
+   "tr": "sheni / shniya",
+   "en": "second",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "numbers",
+    "time"
+   ],
+   "id": "w287"
+  },
+  {
+   "n": 288,
+   "he": "שְׁלִישִׁי / שְׁלִישִׁית",
+   "tr": "shlishi / shlishit",
+   "en": "third",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "numbers",
+    "time"
+   ],
+   "id": "w288"
+  },
+  {
+   "n": 289,
+   "he": "אַחֲרוֹן / אַחֲרוֹנָה",
+   "tr": "akharon / akharona",
+   "en": "last",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "numbers",
+    "time"
+   ],
+   "id": "w289"
+  },
+  {
+   "n": 290,
+   "he": "זְמַן",
+   "tr": "zman",
+   "en": "time",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "time"
+   ],
+   "id": "w290",
+   "pl": "זְמַנִּים"
+  },
+  {
+   "n": 291,
+   "he": "שָׁעָה",
+   "tr": "sha'a",
+   "en": "hour; o'clock",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "time"
+   ],
+   "id": "w291",
+   "pl": "שָׁעוֹת"
+  },
+  {
+   "n": 292,
+   "he": "דַּקָּה",
+   "tr": "daka",
+   "en": "minute",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "time"
+   ],
+   "id": "w292"
+  },
+  {
+   "n": 293,
+   "he": "שְׁנִיָּיה",
+   "tr": "shniya",
+   "en": "second (of time)",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "time"
+   ],
+   "id": "w293"
+  },
+  {
+   "n": 294,
+   "he": "יוֹם",
+   "tr": "yom",
+   "en": "day",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "time"
+   ],
+   "id": "w294",
+   "pl": "יָמִים"
+  },
+  {
+   "n": 295,
+   "he": "שָׁבוּעַ",
+   "tr": "shavua",
+   "en": "week",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "time"
+   ],
+   "id": "w295",
+   "pl": "שָׁבוּעוֹת"
+  },
+  {
+   "n": 296,
+   "he": "חוֹדֶשׁ",
+   "tr": "khodesh",
+   "en": "month",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "time"
+   ],
+   "id": "w296",
+   "pl": "חוֹדָשִׁים"
+  },
+  {
+   "n": 297,
+   "he": "שָׁנָה",
+   "tr": "shana",
+   "en": "year",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "time"
+   ],
+   "id": "w297",
+   "pl": "שָׁנִים"
+  },
+  {
+   "n": 298,
+   "he": "בּוֹקֶר",
+   "tr": "boker",
+   "en": "morning",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "time"
+   ],
+   "id": "w298"
+  },
+  {
+   "n": 299,
+   "he": "צָהֳרַיִים",
+   "tr": "tzohorayim",
+   "en": "noon, midday",
+   "pos": "noun",
+   "g": "pl",
+   "themes": [
+    "time"
+   ],
+   "id": "w299"
+  },
+  {
+   "n": 300,
+   "he": "אַחַר הַצָּהֳרַיִים",
+   "tr": "akhar hatzohorayim",
+   "en": "afternoon",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "time"
+   ],
+   "id": "w300"
+  },
+  {
+   "n": 301,
+   "he": "עֶרֶב",
+   "tr": "erev",
+   "en": "evening",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "time"
+   ],
+   "id": "w301"
+  },
+  {
+   "n": 302,
+   "he": "לַיְלָה",
+   "tr": "layla",
+   "en": "night",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "time"
+   ],
+   "id": "w302",
+   "pl": "לֵילוֹת"
+  },
+  {
+   "n": 303,
+   "he": "הַיּוֹם",
+   "tr": "hayom",
+   "en": "today",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "time"
+   ],
+   "id": "w303"
+  },
+  {
+   "n": 304,
+   "he": "מָחָר",
+   "tr": "makhar",
+   "en": "tomorrow",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "time"
+   ],
+   "id": "w304"
+  },
+  {
+   "n": 305,
+   "he": "אֶתְמוֹל",
+   "tr": "etmol",
+   "en": "yesterday",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "time"
+   ],
+   "id": "w305"
+  },
+  {
+   "n": 306,
+   "he": "עַכְשָׁיו",
+   "tr": "akhshav",
+   "en": "now",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "time"
+   ],
+   "id": "w306"
+  },
+  {
+   "n": 307,
+   "he": "אַחַר כָּךְ",
+   "tr": "akhar kakh",
+   "en": "afterwards, then",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "connectors",
+    "time"
+   ],
+   "id": "w307"
+  },
+  {
+   "n": 308,
+   "he": "מוּקְדָּם",
+   "tr": "mukdam",
+   "en": "early",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "time"
+   ],
+   "id": "w308"
+  },
+  {
+   "n": 309,
+   "he": "מְאוּחָר",
+   "tr": "me'ukhar",
+   "en": "late",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "time"
+   ],
+   "id": "w309"
+  },
+  {
+   "n": 310,
+   "he": "יוֹם רִאשׁוֹן",
+   "tr": "yom rishon",
+   "en": "Sunday",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "israel",
+    "time"
+   ],
+   "id": "w310"
+  },
+  {
+   "n": 311,
+   "he": "יוֹם שֵׁנִי",
+   "tr": "yom sheni",
+   "en": "Monday",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "israel",
+    "time"
+   ],
+   "id": "w311"
+  },
+  {
+   "n": 312,
+   "he": "יוֹם שְׁלִישִׁי",
+   "tr": "yom shlishi",
+   "en": "Tuesday",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "israel",
+    "time"
+   ],
+   "id": "w312"
+  },
+  {
+   "n": 313,
+   "he": "יוֹם רְבִיעִי",
+   "tr": "yom revi'i",
+   "en": "Wednesday",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "israel",
+    "time"
+   ],
+   "id": "w313"
+  },
+  {
+   "n": 314,
+   "he": "יוֹם חֲמִישִׁי",
+   "tr": "yom khamishi",
+   "en": "Thursday",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "israel",
+    "time"
+   ],
+   "id": "w314"
+  },
+  {
+   "n": 315,
+   "he": "יוֹם שִׁישִּׁי",
+   "tr": "yom shishi",
+   "en": "Friday",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "israel",
+    "time"
+   ],
+   "id": "w315"
+  },
+  {
+   "n": 316,
+   "he": "שַׁבָּת",
+   "tr": "shabat",
+   "en": "Saturday, the sabbath",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "israel",
+    "religion",
+    "time"
+   ],
+   "id": "w316"
+  },
+  {
+   "n": 317,
+   "he": "סוֹף שָׁבוּעַ",
+   "tr": "sof shavua",
+   "en": "weekend",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "time"
+   ],
+   "id": "w317"
+  },
+  {
+   "n": 318,
+   "he": "חַג",
+   "tr": "khag",
+   "en": "holiday, festival",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "israel",
+    "religion",
+    "time"
+   ],
+   "id": "w318",
+   "pl": "חַגִּים"
+  },
+  {
+   "n": 319,
+   "he": "יוֹם הוּלֶדֶת",
+   "tr": "yom huledet",
+   "en": "birthday",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "time"
+   ],
+   "id": "w319"
+  },
+  {
+   "n": 320,
+   "he": "תַּאֲרִיךְ",
+   "tr": "ta'arikh",
+   "en": "date",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "time"
+   ],
+   "id": "w320"
+  },
+  {
+   "n": 321,
+   "he": "חוֹפֶשׁ",
+   "tr": "khofesh",
+   "en": "holiday, time off; freedom",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "time",
+    "travel"
+   ],
+   "id": "w321"
+  },
+  {
+   "n": 322,
+   "he": "לְחַכּוֹת",
+   "tr": "lekhakot",
+   "en": "to wait",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "time"
+   ],
+   "id": "w322",
+   "root": "ח-כ-ה",
+   "binyan": "piel"
+  },
+  {
+   "n": 323,
+   "he": "לְהַתְחִיל",
+   "tr": "lehatkhil",
+   "en": "to start, to begin",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general",
+    "time"
+   ],
+   "id": "w323",
+   "root": "ת-ח-ל",
+   "binyan": "hifil"
+  },
+  {
+   "n": 324,
+   "he": "לִגְמוֹר",
+   "tr": "ligmor",
+   "en": "to finish",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general",
+    "time"
+   ],
+   "id": "w324",
+   "root": "ג-מ-ר",
+   "binyan": "paal"
+  },
+  {
+   "n": 325,
+   "he": "לְאַחֵר",
+   "tr": "le'akher",
+   "en": "to be late",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "time"
+   ],
+   "id": "w325",
+   "root": "א-ח-ר",
+   "binyan": "piel"
+  },
+  {
+   "n": 326,
+   "he": "עִיר",
+   "tr": "ir",
+   "en": "city, town",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "city"
+   ],
+   "id": "w326",
+   "pl": "עָרִים"
+  },
+  {
+   "n": 327,
+   "he": "רְחוֹב",
+   "tr": "rekhov",
+   "en": "street",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "city"
+   ],
+   "id": "w327",
+   "pl": "רְחוֹבוֹת"
+  },
+  {
+   "n": 328,
+   "he": "כְּתוֹבֶת",
+   "tr": "ktovet",
+   "en": "address",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "city"
+   ],
+   "id": "w328"
+  },
+  {
+   "n": 329,
+   "he": "כִּיכָּר",
+   "tr": "kikar",
+   "en": "square; loaf",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "city"
+   ],
+   "id": "w329"
+  },
+  {
+   "n": 330,
+   "he": "חֲנוּת",
+   "tr": "khanut",
+   "en": "shop",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "city"
+   ],
+   "id": "w330",
+   "pl": "חֲנוּיוֹת"
+  },
+  {
+   "n": 331,
+   "he": "שׁוּק",
+   "tr": "shuk",
+   "en": "market",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "city",
+    "israel"
+   ],
+   "id": "w331"
+  },
+  {
+   "n": 332,
+   "he": "סוּפֶּרְמַרְקֶט",
+   "tr": "supermarket",
+   "en": "supermarket",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "city",
+    "food"
+   ],
+   "id": "w332"
+  },
+  {
+   "n": 333,
+   "he": "בַּנְק",
+   "tr": "bank",
+   "en": "bank",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "city",
+    "work"
+   ],
+   "id": "w333"
+  },
+  {
+   "n": 334,
+   "he": "דּוֹאַר",
+   "tr": "do'ar",
+   "en": "post, post office",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "city"
+   ],
+   "id": "w334"
+  },
+  {
+   "n": 335,
+   "he": "בֵּית קָפֶה",
+   "tr": "beit kafe",
+   "en": "cafe",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "city",
+    "food"
+   ],
+   "id": "w335"
+  },
+  {
+   "n": 336,
+   "he": "מוּזֵיאוֹן",
+   "tr": "muze'on",
+   "en": "museum",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "city"
+   ],
+   "id": "w336"
+  },
+  {
+   "n": 337,
+   "he": "סִפְרִיָּיה",
+   "tr": "sifriya",
+   "en": "library",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "city",
+    "school"
+   ],
+   "id": "w337"
+  },
+  {
+   "n": 338,
+   "he": "גַּן",
+   "tr": "gan",
+   "en": "garden; kindergarten",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "city",
+    "nature"
+   ],
+   "id": "w338",
+   "pl": "גַּנִּים"
+  },
+  {
+   "n": 339,
+   "he": "בֵּית כְּנֶסֶת",
+   "tr": "beit knesset",
+   "en": "synagogue",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "city",
+    "religion"
+   ],
+   "id": "w339"
+  },
+  {
+   "n": 340,
+   "he": "תַּחֲנָה",
+   "tr": "takhana",
+   "en": "station, stop",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "city",
+    "travel"
+   ],
+   "id": "w340"
+  },
+  {
+   "n": 341,
+   "he": "אוֹטוֹבּוּס",
+   "tr": "otobus",
+   "en": "bus",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "city",
+    "travel"
+   ],
+   "id": "w341"
+  },
+  {
+   "n": 342,
+   "he": "רַכֶּבֶת",
+   "tr": "rakevet",
+   "en": "train",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "travel"
+   ],
+   "id": "w342"
+  },
+  {
+   "n": 343,
+   "he": "מוֹנִית",
+   "tr": "monit",
+   "en": "taxi",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "city",
+    "travel"
+   ],
+   "id": "w343"
+  },
+  {
+   "n": 344,
+   "he": "מְכוֹנִית",
+   "tr": "mekhonit",
+   "en": "car",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "travel"
+   ],
+   "id": "w344"
+  },
+  {
+   "n": 345,
+   "he": "אוֹפַנַּיִים",
+   "tr": "ofanayim",
+   "en": "bicycle",
+   "pos": "noun",
+   "g": "pl",
+   "themes": [
+    "travel"
+   ],
+   "id": "w345"
+  },
+  {
+   "n": 346,
+   "he": "מָטוֹס",
+   "tr": "matos",
+   "en": "aeroplane",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "travel"
+   ],
+   "id": "w346"
+  },
+  {
+   "n": 347,
+   "he": "נְמַל תְּעוּפָה",
+   "tr": "nemal te'ufa",
+   "en": "airport",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "travel"
+   ],
+   "id": "w347"
+  },
+  {
+   "n": 348,
+   "he": "כַּרְטִיס",
+   "tr": "kartis",
+   "en": "ticket; card",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "city",
+    "travel"
+   ],
+   "id": "w348"
+  },
+  {
+   "n": 349,
+   "he": "מַפָּה",
+   "tr": "mapa",
+   "en": "map",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "travel"
+   ],
+   "id": "w349"
+  },
+  {
+   "n": 350,
+   "he": "דֶּרֶךְ",
+   "tr": "derekh",
+   "en": "way, road",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "city",
+    "travel"
+   ],
+   "id": "w350",
+   "pl": "דְּרָכִים"
+  },
+  {
+   "n": 351,
+   "he": "כְּבִישׁ",
+   "tr": "kvish",
+   "en": "road",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "city",
+    "travel"
+   ],
+   "id": "w351"
+  },
+  {
+   "n": 352,
+   "he": "גֶּשֶׁר",
+   "tr": "gesher",
+   "en": "bridge",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "city"
+   ],
+   "id": "w352"
+  },
+  {
+   "n": 353,
+   "he": "מָקוֹם",
+   "tr": "makom",
+   "en": "place",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "city",
+    "general"
+   ],
+   "id": "w353",
+   "pl": "מְקוֹמוֹת"
+  },
+  {
+   "n": 354,
+   "he": "לָלֶכֶת",
+   "tr": "lalekhet",
+   "en": "to go, to walk",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "travel"
+   ],
+   "id": "w354",
+   "root": "ה-ל-כ",
+   "binyan": "paal"
+  },
+  {
+   "n": 355,
+   "he": "לָבוֹא",
+   "tr": "lavo",
+   "en": "to come",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "travel"
+   ],
+   "id": "w355",
+   "root": "ב-ו-א",
+   "binyan": "paal"
+  },
+  {
+   "n": 356,
+   "he": "לִנְסוֹעַ",
+   "tr": "linsoa",
+   "en": "to travel, to ride",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "travel"
+   ],
+   "id": "w356",
+   "root": "נ-ס-ע",
+   "binyan": "paal"
+  },
+  {
+   "n": 357,
+   "he": "לָטוּס",
+   "tr": "latus",
+   "en": "to fly",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "travel"
+   ],
+   "id": "w357",
+   "root": "ט-ו-ס",
+   "binyan": "paal"
+  },
+  {
+   "n": 358,
+   "he": "לָצֵאת",
+   "tr": "latzet",
+   "en": "to go out, to leave",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "travel"
+   ],
+   "id": "w358",
+   "root": "י-צ-א",
+   "binyan": "paal"
+  },
+  {
+   "n": 359,
+   "he": "לְהִיכָּנֵס",
+   "tr": "lehikanes",
+   "en": "to enter, to go in",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "travel"
+   ],
+   "id": "w359",
+   "root": "כ-נ-ס",
+   "binyan": "nifal"
+  },
+  {
+   "n": 360,
+   "he": "לַעֲבוֹר",
+   "tr": "la'avor",
+   "en": "to pass, to cross; to move house",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "travel"
+   ],
+   "id": "w360",
+   "root": "ע-ב-ר",
+   "binyan": "paal"
+  },
+  {
+   "n": 361,
+   "he": "לְהַגִּיעַ",
+   "tr": "lehagia",
+   "en": "to arrive",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "travel"
+   ],
+   "id": "w361",
+   "root": "נ-ג-ע",
+   "binyan": "hifil"
+  },
+  {
+   "n": 362,
+   "he": "לְחַפֵּשׂ",
+   "tr": "lekhapes",
+   "en": "to look for",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w362",
+   "root": "ח-פ-ש",
+   "binyan": "piel"
+  },
+  {
+   "n": 363,
+   "he": "לִמְצוֹא",
+   "tr": "limtzo",
+   "en": "to find",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w363",
+   "root": "מ-צ-א",
+   "binyan": "paal"
+  },
+  {
+   "n": 364,
+   "he": "עֲבוֹדָה",
+   "tr": "avoda",
+   "en": "work, job",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "work"
+   ],
+   "id": "w364"
+  },
+  {
+   "n": 365,
+   "he": "לַעֲבוֹד",
+   "tr": "la'avod",
+   "en": "to work",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "work"
+   ],
+   "id": "w365",
+   "root": "ע-ב-ד",
+   "binyan": "paal"
+  },
+  {
+   "n": 366,
+   "he": "מִשְׂרָד",
+   "tr": "misrad",
+   "en": "office",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "work"
+   ],
+   "id": "w366"
+  },
+  {
+   "n": 367,
+   "he": "מְנַהֵל / מְנַהֶלֶת",
+   "tr": "menahel / menahelet",
+   "en": "manager",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "people",
+    "work"
+   ],
+   "id": "w367"
+  },
+  {
+   "n": 368,
+   "he": "עוֹבֵד / עוֹבֶדֶת",
+   "tr": "oved / ovedet",
+   "en": "worker, employee",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "people",
+    "work"
+   ],
+   "id": "w368"
+  },
+  {
+   "n": 369,
+   "he": "חֶבְרָה",
+   "tr": "khevra",
+   "en": "company; society",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "work"
+   ],
+   "id": "w369"
+  },
+  {
+   "n": 370,
+   "he": "מִקְצוֹעַ",
+   "tr": "miktzoa",
+   "en": "profession",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "work"
+   ],
+   "id": "w370",
+   "pl": "מִקְצוֹעוֹת"
+  },
+  {
+   "n": 371,
+   "he": "מַשְׂכּוֹרֶת",
+   "tr": "maskoret",
+   "en": "salary",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "work"
+   ],
+   "id": "w371"
+  },
+  {
+   "n": 372,
+   "he": "כֶּסֶף",
+   "tr": "kesef",
+   "en": "money; silver",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "work"
+   ],
+   "id": "w372"
+  },
+  {
+   "n": 373,
+   "he": "מְחִיר",
+   "tr": "mekhir",
+   "en": "price",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "city",
+    "work"
+   ],
+   "id": "w373"
+  },
+  {
+   "n": 374,
+   "he": "יָקָר / יְקָרָה",
+   "tr": "yakar / yekara",
+   "en": "expensive; dear",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "city",
+    "work"
+   ],
+   "id": "w374"
+  },
+  {
+   "n": 375,
+   "he": "זוֹל / זוֹלָה",
+   "tr": "zol / zola",
+   "en": "cheap",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "city",
+    "work"
+   ],
+   "id": "w375"
+  },
+  {
+   "n": 376,
+   "he": "לִקְנוֹת",
+   "tr": "liknot",
+   "en": "to buy",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "city",
+    "work"
+   ],
+   "id": "w376",
+   "root": "ק-נ-ה",
+   "binyan": "paal"
+  },
+  {
+   "n": 377,
+   "he": "לִמְכּוֹר",
+   "tr": "limkor",
+   "en": "to sell",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "city",
+    "work"
+   ],
+   "id": "w377",
+   "root": "מ-כ-ר",
+   "binyan": "paal"
+  },
+  {
+   "n": 378,
+   "he": "לְשַׁלֵּם",
+   "tr": "leshalem",
+   "en": "to pay",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "city",
+    "work"
+   ],
+   "id": "w378",
+   "root": "ש-ל-ם",
+   "binyan": "piel"
+  },
+  {
+   "n": 379,
+   "he": "לַעֲזוֹר",
+   "tr": "la'azor",
+   "en": "to help",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general",
+    "work"
+   ],
+   "id": "w379",
+   "root": "ע-ז-ר",
+   "binyan": "paal"
+  },
+  {
+   "n": 380,
+   "he": "לְנַסּוֹת",
+   "tr": "lenasot",
+   "en": "to try",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w380",
+   "root": "נ-ס-ה",
+   "binyan": "piel"
+  },
+  {
+   "n": 381,
+   "he": "לְהַצְלִיחַ",
+   "tr": "lehatzliakh",
+   "en": "to succeed",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "work"
+   ],
+   "id": "w381",
+   "root": "צ-ל-ח",
+   "binyan": "hifil"
+  },
+  {
+   "n": 382,
+   "he": "לְהִיפָּגֵשׁ",
+   "tr": "lehipagesh",
+   "en": "to meet (each other)",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "people",
+    "work"
+   ],
+   "id": "w382",
+   "root": "פ-ג-ש",
+   "binyan": "nifal"
+  },
+  {
+   "n": 383,
+   "he": "פְּגִישָׁה",
+   "tr": "pgisha",
+   "en": "meeting",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "work"
+   ],
+   "id": "w383"
+  },
+  {
+   "n": 384,
+   "he": "מַחְשֵׁב",
+   "tr": "makhshev",
+   "en": "computer",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "school",
+    "work"
+   ],
+   "id": "w384"
+  },
+  {
+   "n": 385,
+   "he": "טֶלֶפוֹן",
+   "tr": "telefon",
+   "en": "telephone",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "general",
+    "work"
+   ],
+   "id": "w385"
+  },
+  {
+   "n": 386,
+   "he": "מִכְתָּב",
+   "tr": "mikhtav",
+   "en": "letter (that you post)",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "school",
+    "work"
+   ],
+   "id": "w386"
+  },
+  {
+   "n": 387,
+   "he": "הוֹדָעָה",
+   "tr": "hoda'a",
+   "en": "message, announcement",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "work"
+   ],
+   "id": "w387"
+  },
+  {
+   "n": 388,
+   "he": "עִיתּוֹן",
+   "tr": "iton",
+   "en": "newspaper",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "school",
+    "work"
+   ],
+   "id": "w388"
+  },
+  {
+   "n": 389,
+   "he": "חֲדָשׁוֹת",
+   "tr": "khadashot",
+   "en": "the news",
+   "pos": "noun",
+   "g": "pl",
+   "themes": [
+    "israel",
+    "work"
+   ],
+   "id": "w389"
+  },
+  {
+   "n": 390,
+   "he": "שֶׁמֶשׁ",
+   "tr": "shemesh",
+   "en": "sun",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "nature"
+   ],
+   "id": "w390"
+  },
+  {
+   "n": 391,
+   "he": "יָרֵחַ",
+   "tr": "yareakh",
+   "en": "moon",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "nature"
+   ],
+   "id": "w391"
+  },
+  {
+   "n": 392,
+   "he": "כּוֹכָב",
+   "tr": "kokhav",
+   "en": "star",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "nature"
+   ],
+   "id": "w392"
+  },
+  {
+   "n": 393,
+   "he": "שָׁמַיִים",
+   "tr": "shamayim",
+   "en": "sky, heaven",
+   "pos": "noun",
+   "g": "pl",
+   "themes": [
+    "nature"
+   ],
+   "id": "w393"
+  },
+  {
+   "n": 394,
+   "he": "עָנָן",
+   "tr": "anan",
+   "en": "cloud",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "nature"
+   ],
+   "id": "w394"
+  },
+  {
+   "n": 395,
+   "he": "גֶּשֶׁם",
+   "tr": "geshem",
+   "en": "rain",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "nature"
+   ],
+   "id": "w395"
+  },
+  {
+   "n": 396,
+   "he": "רוּחַ",
+   "tr": "ruakh",
+   "en": "wind; spirit",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "nature"
+   ],
+   "id": "w396",
+   "pl": "רוּחוֹת"
+  },
+  {
+   "n": 397,
+   "he": "יָם",
+   "tr": "yam",
+   "en": "sea",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "nature",
+    "travel"
+   ],
+   "id": "w397",
+   "pl": "יַמִּים"
+  },
+  {
+   "n": 398,
+   "he": "הַר",
+   "tr": "har",
+   "en": "mountain",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "nature"
+   ],
+   "id": "w398",
+   "pl": "הָרִים"
+  },
+  {
+   "n": 399,
+   "he": "מִדְבָּר",
+   "tr": "midbar",
+   "en": "desert",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "israel",
+    "nature"
+   ],
+   "id": "w399"
+  },
+  {
+   "n": 400,
+   "he": "עֵץ",
+   "tr": "etz",
+   "en": "tree; wood",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "nature"
+   ],
+   "id": "w400",
+   "pl": "עֵצִים"
+  },
+  {
+   "n": 401,
+   "he": "פֶּרַח",
+   "tr": "perakh",
+   "en": "flower",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "nature"
+   ],
+   "id": "w401",
+   "pl": "פְּרָחִים"
+  },
+  {
+   "n": 402,
+   "he": "אֶבֶן",
+   "tr": "even",
+   "en": "stone",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "nature"
+   ],
+   "id": "w402",
+   "pl": "אֲבָנִים"
+  },
+  {
+   "n": 403,
+   "he": "אֲדָמָה",
+   "tr": "adama",
+   "en": "earth, ground, soil",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "nature"
+   ],
+   "id": "w403"
+  },
+  {
+   "n": 404,
+   "he": "אֵשׁ",
+   "tr": "esh",
+   "en": "fire",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "nature"
+   ],
+   "id": "w404"
+  },
+  {
+   "n": 405,
+   "he": "אֲוִויר",
+   "tr": "avir",
+   "en": "air",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "nature"
+   ],
+   "id": "w405"
+  },
+  {
+   "n": 406,
+   "he": "מֶזֶג אֲוִויר",
+   "tr": "mezeg avir",
+   "en": "weather",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "nature"
+   ],
+   "id": "w406"
+  },
+  {
+   "n": 407,
+   "he": "קַיִץ",
+   "tr": "kayitz",
+   "en": "summer",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "nature",
+    "time"
+   ],
+   "id": "w407"
+  },
+  {
+   "n": 408,
+   "he": "חוֹרֶף",
+   "tr": "khoref",
+   "en": "winter",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "nature",
+    "time"
+   ],
+   "id": "w408"
+  },
+  {
+   "n": 409,
+   "he": "אָבִיב",
+   "tr": "aviv",
+   "en": "spring",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "nature",
+    "time"
+   ],
+   "id": "w409"
+  },
+  {
+   "n": 410,
+   "he": "סְתָיו",
+   "tr": "stav",
+   "en": "autumn",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "nature",
+    "time"
+   ],
+   "id": "w410"
+  },
+  {
+   "n": 411,
+   "he": "כֶּלֶב / כַּלְבָּה",
+   "tr": "kelev / kalba",
+   "en": "dog",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "animals"
+   ],
+   "id": "w411",
+   "pl": "כְּלָבִים"
+  },
+  {
+   "n": 412,
+   "he": "חָתוּל / חֲתוּלָה",
+   "tr": "khatul / khatula",
+   "en": "cat",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "animals"
+   ],
+   "id": "w412"
+  },
+  {
+   "n": 413,
+   "he": "סוּס",
+   "tr": "sus",
+   "en": "horse",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "animals"
+   ],
+   "id": "w413"
+  },
+  {
+   "n": 414,
+   "he": "צִיפּוֹר",
+   "tr": "tzipor",
+   "en": "bird",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "animals"
+   ],
+   "id": "w414",
+   "pl": "צִיפּוֹרִים"
+  },
+  {
+   "n": 415,
+   "he": "חַיָּיה",
+   "tr": "khaya",
+   "en": "animal",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "animals"
+   ],
+   "id": "w415"
+  },
+  {
+   "n": 416,
+   "he": "צֶבַע",
+   "tr": "tzeva",
+   "en": "colour",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "colours"
+   ],
+   "id": "w416",
+   "pl": "צְבָעִים"
+  },
+  {
+   "n": 417,
+   "he": "אָדוֹם / אֲדוּמָּה",
+   "tr": "adom / aduma",
+   "en": "red",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "colours"
+   ],
+   "id": "w417"
+  },
+  {
+   "n": 418,
+   "he": "כָּחוֹל / כְּחוּלָּה",
+   "tr": "kakhol / kkhula",
+   "en": "blue",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "colours"
+   ],
+   "id": "w418"
+  },
+  {
+   "n": 419,
+   "he": "יָרוֹק / יְרוּקָּה",
+   "tr": "yarok / yeruka",
+   "en": "green",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "colours"
+   ],
+   "id": "w419"
+  },
+  {
+   "n": 420,
+   "he": "צָהוֹב / צְהוּבָּה",
+   "tr": "tzahov / tzehuba",
+   "en": "yellow",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "colours"
+   ],
+   "id": "w420"
+  },
+  {
+   "n": 421,
+   "he": "שָׁחוֹר / שְׁחוֹרָה",
+   "tr": "shakhor / shkhora",
+   "en": "black",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "colours"
+   ],
+   "id": "w421"
+  },
+  {
+   "n": 422,
+   "he": "לָבָן / לְבָנָה",
+   "tr": "lavan / levana",
+   "en": "white",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "colours"
+   ],
+   "id": "w422"
+  },
+  {
+   "n": 423,
+   "he": "חוּם / חוּמָּה",
+   "tr": "khum / khuma",
+   "en": "brown",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "colours"
+   ],
+   "id": "w423"
+  },
+  {
+   "n": 424,
+   "he": "אָפוֹר / אֲפוֹרָה",
+   "tr": "afor / afora",
+   "en": "grey",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "colours"
+   ],
+   "id": "w424"
+  },
+  {
+   "n": 425,
+   "he": "וָרוֹד / וְרוּדָּה",
+   "tr": "varod / vruda",
+   "en": "pink",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "colours"
+   ],
+   "id": "w425"
+  },
+  {
+   "n": 426,
+   "he": "כָּתוֹם / כְּתוּמָּה",
+   "tr": "katom / ktuma",
+   "en": "orange (colour)",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "colours"
+   ],
+   "id": "w426"
+  },
+  {
+   "n": 427,
+   "he": "גָּדוֹל / גְּדוֹלָה",
+   "tr": "gadol / gdola",
+   "en": "big",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w427"
+  },
+  {
+   "n": 428,
+   "he": "קָטָן / קְטַנָּה",
+   "tr": "katan / ktana",
+   "en": "small",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w428"
+  },
+  {
+   "n": 429,
+   "he": "אָרוֹךְ / אֲרוּכָּה",
+   "tr": "arokh / arukha",
+   "en": "long",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w429"
+  },
+  {
+   "n": 430,
+   "he": "קָצָר / קְצָרָה",
+   "tr": "katzar / ktzara",
+   "en": "short",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w430"
+  },
+  {
+   "n": 431,
+   "he": "גָּבוֹהַּ / גְּבוֹהָה",
+   "tr": "gavoha / gvoha",
+   "en": "tall, high",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w431"
+  },
+  {
+   "n": 432,
+   "he": "נָמוּךְ / נְמוּכָה",
+   "tr": "namukh / nemukha",
+   "en": "low, short",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w432"
+  },
+  {
+   "n": 433,
+   "he": "חָדָשׁ / חֲדָשָׁה",
+   "tr": "khadash / khadasha",
+   "en": "new",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w433"
+  },
+  {
+   "n": 434,
+   "he": "יָשָׁן / יְשָׁנָה",
+   "tr": "yashan / yeshana",
+   "en": "old (of a thing)",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w434"
+  },
+  {
+   "n": 435,
+   "he": "טוֹב / טוֹבָה",
+   "tr": "tov / tova",
+   "en": "good",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w435"
+  },
+  {
+   "n": 436,
+   "he": "רַע / רָעָה",
+   "tr": "ra / ra'a",
+   "en": "bad",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w436"
+  },
+  {
+   "n": 437,
+   "he": "קַל / קַלָּה",
+   "tr": "kal / kala",
+   "en": "easy; light",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w437"
+  },
+  {
+   "n": 438,
+   "he": "קָשֶׁה / קָשָׁה",
+   "tr": "kashe / kasha",
+   "en": "hard, difficult",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w438"
+  },
+  {
+   "n": 439,
+   "he": "חָשׁוּב / חֲשׁוּבָה",
+   "tr": "khashuv / khashuva",
+   "en": "important",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w439"
+  },
+  {
+   "n": 440,
+   "he": "מְעַנְיֵין / מְעַנְיֶינֶת",
+   "tr": "me'anyen / me'anyenet",
+   "en": "interesting",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w440"
+  },
+  {
+   "n": 441,
+   "he": "נָכוֹן / נְכוֹנָה",
+   "tr": "nakhon / nekhona",
+   "en": "correct, true",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w441"
+  },
+  {
+   "n": 442,
+   "he": "מָלֵא / מְלֵאָה",
+   "tr": "male / mele'a",
+   "en": "full",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w442"
+  },
+  {
+   "n": 443,
+   "he": "רֵיק / רֵיקָה",
+   "tr": "reik / reika",
+   "en": "empty",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w443"
+  },
+  {
+   "n": 444,
+   "he": "נָקִי / נְקִיָּיה",
+   "tr": "naki / nekiya",
+   "en": "clean",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "general",
+    "home"
+   ],
+   "id": "w444"
+  },
+  {
+   "n": 445,
+   "he": "מְלוּכְלָךְ / מְלוּכְלֶכֶת",
+   "tr": "melukhlakh / melukhlekhet",
+   "en": "dirty",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "general",
+    "home"
+   ],
+   "id": "w445"
+  },
+  {
+   "n": 446,
+   "he": "מָהִיר / מְהִירָה",
+   "tr": "mahir / mehira",
+   "en": "fast",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w446"
+  },
+  {
+   "n": 447,
+   "he": "אִיטִּי / אִיטִּית",
+   "tr": "iti / itit",
+   "en": "slow",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w447"
+  },
+  {
+   "n": 448,
+   "he": "חָזָק / חֲזָקָה",
+   "tr": "khazak / khazaka",
+   "en": "strong",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w448"
+  },
+  {
+   "n": 449,
+   "he": "חַלָּשׁ / חַלָּשָׁה",
+   "tr": "khalash / khalasha",
+   "en": "weak",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w449"
+  },
+  {
+   "n": 450,
+   "he": "דּוֹמֶה / דּוֹמָה",
+   "tr": "dome / doma",
+   "en": "similar",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w450"
+  },
+  {
+   "n": 451,
+   "he": "שׁוֹנֶה / שׁוֹנָה",
+   "tr": "shone / shona",
+   "en": "different",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w451"
+  },
+  {
+   "n": 452,
+   "he": "לֶאֱהוֹב",
+   "tr": "le'ehov",
+   "en": "to love, to like",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "feelings"
+   ],
+   "id": "w452",
+   "root": "א-ה-ב",
+   "binyan": "paal"
+  },
+  {
+   "n": 453,
+   "he": "לִשְׂנוֹא",
+   "tr": "lisno",
+   "en": "to hate",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "feelings"
+   ],
+   "id": "w453",
+   "root": "ש-נ-א",
+   "binyan": "paal"
+  },
+  {
+   "n": 454,
+   "he": "לִרְצוֹת",
+   "tr": "lirtzot",
+   "en": "to want",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "feelings"
+   ],
+   "id": "w454",
+   "root": "ר-צ-ה",
+   "binyan": "paal"
+  },
+  {
+   "n": 455,
+   "he": "לָדַעַת",
+   "tr": "lada'at",
+   "en": "to know (a fact)",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "feelings",
+    "school"
+   ],
+   "id": "w455",
+   "root": "י-ד-ע",
+   "binyan": "paal"
+  },
+  {
+   "n": 456,
+   "he": "לְהַכִּיר",
+   "tr": "lehakir",
+   "en": "to know (a person or place)",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "feelings",
+    "people"
+   ],
+   "id": "w456",
+   "root": "נ-כ-ר",
+   "binyan": "hifil"
+  },
+  {
+   "n": 457,
+   "he": "לַחְשׁוֹב",
+   "tr": "lakhshov",
+   "en": "to think",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "feelings"
+   ],
+   "id": "w457",
+   "root": "ח-ש-ב",
+   "binyan": "paal"
+  },
+  {
+   "n": 458,
+   "he": "לְקַווֹת",
+   "tr": "lekavot",
+   "en": "to hope",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "feelings"
+   ],
+   "id": "w458",
+   "root": "ק-ו-ה",
+   "binyan": "piel"
+  },
+  {
+   "n": 459,
+   "he": "לְפַחֵד",
+   "tr": "lefakhed",
+   "en": "to be afraid",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "feelings"
+   ],
+   "id": "w459",
+   "root": "פ-ח-ד",
+   "binyan": "piel"
+  },
+  {
+   "n": 460,
+   "he": "לִדְאוֹג",
+   "tr": "lid'og",
+   "en": "to worry",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "feelings"
+   ],
+   "id": "w460",
+   "root": "ד-א-ג",
+   "binyan": "paal"
+  },
+  {
+   "n": 461,
+   "he": "לִצְחוֹק",
+   "tr": "litzkhok",
+   "en": "to laugh",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "feelings"
+   ],
+   "id": "w461",
+   "root": "צ-ח-ק",
+   "binyan": "paal"
+  },
+  {
+   "n": 462,
+   "he": "לִבְכּוֹת",
+   "tr": "livkot",
+   "en": "to cry",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "feelings"
+   ],
+   "id": "w462",
+   "root": "ב-כ-ה",
+   "binyan": "paal"
+  },
+  {
+   "n": 463,
+   "he": "לְהִתְגַּעְגֵּעַ",
+   "tr": "lehitga'age'a",
+   "en": "to miss (someone)",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "feelings"
+   ],
+   "id": "w463",
+   "root": "ג-ע-ג-ע",
+   "binyan": "hitpael"
+  },
+  {
+   "n": 464,
+   "he": "שָׂמֵחַ / שְׂמֵחָה",
+   "tr": "sameakh / smekha",
+   "en": "happy",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "feelings"
+   ],
+   "id": "w464"
+  },
+  {
+   "n": 465,
+   "he": "עָצוּב / עֲצוּבָה",
+   "tr": "atzuv / atzuva",
+   "en": "sad",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "feelings"
+   ],
+   "id": "w465"
+  },
+  {
+   "n": 466,
+   "he": "כּוֹעֵס / כּוֹעֶסֶת",
+   "tr": "ko'es / ko'eset",
+   "en": "angry",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "feelings"
+   ],
+   "id": "w466"
+  },
+  {
+   "n": 467,
+   "he": "עָיֵיף / עֲיֵיפָה",
+   "tr": "ayef / ayefa",
+   "en": "tired",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "feelings",
+    "health"
+   ],
+   "id": "w467"
+  },
+  {
+   "n": 468,
+   "he": "מְפוּחָד / מְפוּחֶדֶת",
+   "tr": "mefukhad / mefukhedet",
+   "en": "frightened",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "feelings"
+   ],
+   "id": "w468"
+  },
+  {
+   "n": 469,
+   "he": "נִרְגָּשׁ / נִרְגֶּשֶׁת",
+   "tr": "nirgash / nirgeshet",
+   "en": "excited, moved",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "feelings"
+   ],
+   "id": "w469"
+  },
+  {
+   "n": 470,
+   "he": "שָׂמֵחַ מְאוֹד",
+   "tr": "sameakh me'od",
+   "en": "delighted",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "feelings"
+   ],
+   "id": "w470"
+  },
+  {
+   "n": 471,
+   "he": "אַהֲבָה",
+   "tr": "ahava",
+   "en": "love",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "feelings"
+   ],
+   "id": "w471"
+  },
+  {
+   "n": 472,
+   "he": "פַּחַד",
+   "tr": "pakhad",
+   "en": "fear",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "feelings"
+   ],
+   "id": "w472"
+  },
+  {
+   "n": 473,
+   "he": "שִׂמְחָה",
+   "tr": "simkha",
+   "en": "joy; a celebration",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "feelings"
+   ],
+   "id": "w473"
+  },
+  {
+   "n": 474,
+   "he": "רַעְיוֹן",
+   "tr": "ra'ayon",
+   "en": "idea",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "feelings",
+    "school"
+   ],
+   "id": "w474",
+   "pl": "רַעְיוֹנוֹת"
+  },
+  {
+   "n": 475,
+   "he": "דֵּעָה",
+   "tr": "de'a",
+   "en": "opinion",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "feelings"
+   ],
+   "id": "w475"
+  },
+  {
+   "n": 476,
+   "he": "חֲלוֹם",
+   "tr": "khalom",
+   "en": "dream",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "feelings"
+   ],
+   "id": "w476",
+   "pl": "חֲלוֹמוֹת"
+  },
+  {
+   "n": 477,
+   "he": "סוֹד",
+   "tr": "sod",
+   "en": "secret",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "feelings"
+   ],
+   "id": "w477",
+   "pl": "סוֹדוֹת"
+  },
+  {
+   "n": 478,
+   "he": "בֶּגֶד",
+   "tr": "beged",
+   "en": "garment, item of clothing",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "clothes"
+   ],
+   "id": "w478",
+   "pl": "בְּגָדִים"
+  },
+  {
+   "n": 479,
+   "he": "חוּלְצָה",
+   "tr": "khultza",
+   "en": "shirt, top",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "clothes"
+   ],
+   "id": "w479"
+  },
+  {
+   "n": 480,
+   "he": "מִכְנָסַיִים",
+   "tr": "mikhnasayim",
+   "en": "trousers",
+   "pos": "noun",
+   "g": "pl",
+   "themes": [
+    "clothes"
+   ],
+   "id": "w480"
+  },
+  {
+   "n": 481,
+   "he": "שִׂמְלָה",
+   "tr": "simla",
+   "en": "dress",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "clothes"
+   ],
+   "id": "w481"
+  },
+  {
+   "n": 482,
+   "he": "חֲצָאִית",
+   "tr": "khatza'it",
+   "en": "skirt",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "clothes"
+   ],
+   "id": "w482"
+  },
+  {
+   "n": 483,
+   "he": "נַעַל",
+   "tr": "na'al",
+   "en": "shoe",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "clothes"
+   ],
+   "id": "w483",
+   "pl": "נַעֲלַיִים"
+  },
+  {
+   "n": 484,
+   "he": "גֶּרֶב",
+   "tr": "gerev",
+   "en": "sock",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "clothes"
+   ],
+   "id": "w484",
+   "pl": "גַּרְבַּיִים"
+  },
+  {
+   "n": 485,
+   "he": "מְעִיל",
+   "tr": "me'il",
+   "en": "coat",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "clothes"
+   ],
+   "id": "w485"
+  },
+  {
+   "n": 486,
+   "he": "כּוֹבַע",
+   "tr": "kova",
+   "en": "hat",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "clothes"
+   ],
+   "id": "w486"
+  },
+  {
+   "n": 487,
+   "he": "מִשְׁקָפַיִים",
+   "tr": "mishkafayim",
+   "en": "glasses",
+   "pos": "noun",
+   "g": "pl",
+   "themes": [
+    "clothes"
+   ],
+   "id": "w487"
+  },
+  {
+   "n": 488,
+   "he": "שָׁעוֹן",
+   "tr": "sha'on",
+   "en": "watch, clock",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "clothes",
+    "time"
+   ],
+   "id": "w488"
+  },
+  {
+   "n": 489,
+   "he": "תִּיק",
+   "tr": "tik",
+   "en": "bag; file",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "clothes",
+    "school"
+   ],
+   "id": "w489"
+  },
+  {
+   "n": 490,
+   "he": "לִלְבּוֹשׁ",
+   "tr": "lilbosh",
+   "en": "to wear, to put on",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "clothes"
+   ],
+   "id": "w490",
+   "root": "ל-ב-ש",
+   "binyan": "paal"
+  },
+  {
+   "n": 491,
+   "he": "לְהִתְלַבֵּשׁ",
+   "tr": "lehitlabesh",
+   "en": "to get dressed",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "clothes"
+   ],
+   "id": "w491",
+   "root": "ל-ב-ש",
+   "binyan": "hitpael"
+  },
+  {
+   "n": 492,
+   "he": "לִהְיוֹת",
+   "tr": "lihyot",
+   "en": "to be",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w492",
+   "root": "ה-י-ה",
+   "binyan": "paal"
+  },
+  {
+   "n": 493,
+   "he": "לָתֵת",
+   "tr": "latet",
+   "en": "to give",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w493",
+   "root": "נ-ת-ן",
+   "binyan": "paal"
+  },
+  {
+   "n": 494,
+   "he": "לָקַחַת",
+   "tr": "lakakhat",
+   "en": "to take",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w494",
+   "root": "ל-ק-ח",
+   "binyan": "paal"
+  },
+  {
+   "n": 495,
+   "he": "לָשִׂים",
+   "tr": "lasim",
+   "en": "to put",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w495",
+   "root": "ש-י-ם",
+   "binyan": "paal"
+  },
+  {
+   "n": 496,
+   "he": "לַעֲשׂוֹת",
+   "tr": "la'asot",
+   "en": "to do, to make",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w496",
+   "root": "ע-ש-ה",
+   "binyan": "paal"
+  },
+  {
+   "n": 497,
+   "he": "לִרְאוֹת",
+   "tr": "lir'ot",
+   "en": "to see",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w497",
+   "root": "ר-א-ה",
+   "binyan": "paal"
+  },
+  {
+   "n": 498,
+   "he": "לִשְׁמוֹעַ",
+   "tr": "lishmoa",
+   "en": "to hear",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w498",
+   "root": "ש-מ-ע",
+   "binyan": "paal"
+  },
+  {
+   "n": 499,
+   "he": "לְהַקְשִׁיב",
+   "tr": "lehakshiv",
+   "en": "to listen",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w499",
+   "root": "ק-ש-ב",
+   "binyan": "hifil"
+  },
+  {
+   "n": 500,
+   "he": "לְדַבֵּר",
+   "tr": "ledaber",
+   "en": "to speak",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w500",
+   "root": "ד-ב-ר",
+   "binyan": "piel"
+  },
+  {
+   "n": 501,
+   "he": "לוֹמַר",
+   "tr": "lomar",
+   "en": "to say",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w501",
+   "root": "א-מ-ר",
+   "binyan": "paal"
+  },
+  {
+   "n": 502,
+   "he": "לְסַפֵּר",
+   "tr": "lesaper",
+   "en": "to tell, to recount",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w502",
+   "root": "ס-פ-ר",
+   "binyan": "piel"
+  },
+  {
+   "n": 503,
+   "he": "לִשְׁאוֹל שְׁאֵלָה",
+   "tr": "lish'ol she'ela",
+   "en": "to ask a question",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "school"
+   ],
+   "id": "w503"
+  },
+  {
+   "n": 504,
+   "he": "לָשֶׁבֶת",
+   "tr": "lashevet",
+   "en": "to sit",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w504",
+   "root": "י-ש-ב",
+   "binyan": "paal"
+  },
+  {
+   "n": 505,
+   "he": "לַעֲמוֹד",
+   "tr": "la'amod",
+   "en": "to stand",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w505",
+   "root": "ע-מ-ד",
+   "binyan": "paal"
+  },
+  {
+   "n": 506,
+   "he": "לָרוּץ",
+   "tr": "larutz",
+   "en": "to run",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w506",
+   "root": "ר-ו-צ",
+   "binyan": "paal"
+  },
+  {
+   "n": 507,
+   "he": "לִשְׂחוֹת",
+   "tr": "liskhot",
+   "en": "to swim",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w507",
+   "root": "ש-ח-ה",
+   "binyan": "paal"
+  },
+  {
+   "n": 508,
+   "he": "לִפְגּוֹשׁ",
+   "tr": "lifgosh",
+   "en": "to meet (someone)",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "people"
+   ],
+   "id": "w508",
+   "root": "פ-ג-ש",
+   "binyan": "paal"
+  },
+  {
+   "n": 509,
+   "he": "לְהַרְאוֹת",
+   "tr": "lehar'ot",
+   "en": "to show",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w509",
+   "root": "ר-א-ה",
+   "binyan": "hifil"
+  },
+  {
+   "n": 510,
+   "he": "לְחַכּוֹת לְ",
+   "tr": "lekhakot le",
+   "en": "to wait for",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "time"
+   ],
+   "id": "w510"
+  },
+  {
+   "n": 511,
+   "he": "לִשְׁמוֹר",
+   "tr": "lishmor",
+   "en": "to keep, to guard",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w511",
+   "root": "ש-מ-ר",
+   "binyan": "paal"
+  },
+  {
+   "n": 512,
+   "he": "לְהַחְזִיר",
+   "tr": "lehakhzir",
+   "en": "to give back",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w512",
+   "root": "ח-ז-ר",
+   "binyan": "hifil"
+  },
+  {
+   "n": 513,
+   "he": "לְהַשְׁאִיר",
+   "tr": "lehash'ir",
+   "en": "to leave (something)",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w513",
+   "root": "ש-א-ר",
+   "binyan": "hifil"
+  },
+  {
+   "n": 514,
+   "he": "לִסְגּוֹר אֶת",
+   "tr": "lisgor et",
+   "en": "to close something",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w514"
+  },
+  {
+   "n": 515,
+   "he": "לְהִשְׁתַּמֵּשׁ",
+   "tr": "lehishtamesh",
+   "en": "to use",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w515",
+   "root": "ש-מ-ש",
+   "binyan": "hitpael"
+  },
+  {
+   "n": 516,
+   "he": "לְהַחְלִיט",
+   "tr": "lehakhlit",
+   "en": "to decide",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w516",
+   "root": "ח-ל-ט",
+   "binyan": "hifil"
+  },
+  {
+   "n": 517,
+   "he": "לְהַסְכִּים",
+   "tr": "lehaskim",
+   "en": "to agree",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w517",
+   "root": "ס-כ-ם",
+   "binyan": "hifil"
+  },
+  {
+   "n": 518,
+   "he": "לְהִתְחַתֵּן",
+   "tr": "lehitkhaten",
+   "en": "to get married",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "family"
+   ],
+   "id": "w518",
+   "root": "ח-ת-ן",
+   "binyan": "hitpael"
+  },
+  {
+   "n": 519,
+   "he": "לְהִשְׁתַּנּוֹת",
+   "tr": "lehishtanot",
+   "en": "to change (by itself)",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w519",
+   "root": "ש-נ-ה",
+   "binyan": "hitpael"
+  },
+  {
+   "n": 520,
+   "he": "לְשַׁנּוֹת",
+   "tr": "leshanot",
+   "en": "to change (something)",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w520",
+   "root": "ש-נ-ה",
+   "binyan": "piel"
+  },
+  {
+   "n": 521,
+   "he": "שֶׁל",
+   "tr": "shel",
+   "en": "of, belonging to",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w521"
+  },
+  {
+   "n": 522,
+   "he": "אֶת",
+   "tr": "et",
+   "en": "(marks a definite object)",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w522"
+  },
+  {
+   "n": 523,
+   "he": "בְּ",
+   "tr": "be",
+   "en": "in, at, with (a tool)",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w523"
+  },
+  {
+   "n": 524,
+   "he": "לְ",
+   "tr": "le",
+   "en": "to, for",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w524"
+  },
+  {
+   "n": 525,
+   "he": "מִן",
+   "tr": "min",
+   "en": "from",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w525"
+  },
+  {
+   "n": 526,
+   "he": "עִם",
+   "tr": "im",
+   "en": "with",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w526"
+  },
+  {
+   "n": 527,
+   "he": "עַל",
+   "tr": "al",
+   "en": "on, about",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w527"
+  },
+  {
+   "n": 528,
+   "he": "תַּחַת",
+   "tr": "takhat",
+   "en": "under",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w528"
+  },
+  {
+   "n": 529,
+   "he": "מִתַּחַת לְ",
+   "tr": "mitakhat le",
+   "en": "underneath",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w529"
+  },
+  {
+   "n": 530,
+   "he": "מֵעַל",
+   "tr": "me'al",
+   "en": "above",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w530"
+  },
+  {
+   "n": 531,
+   "he": "לִפְנֵי",
+   "tr": "lifnei",
+   "en": "before; in front of",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar",
+    "time"
+   ],
+   "id": "w531"
+  },
+  {
+   "n": 532,
+   "he": "אַחֲרֵי",
+   "tr": "akharei",
+   "en": "after; behind",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar",
+    "time"
+   ],
+   "id": "w532"
+  },
+  {
+   "n": 533,
+   "he": "בֵּין",
+   "tr": "bein",
+   "en": "between",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w533"
+  },
+  {
+   "n": 534,
+   "he": "לְיַד",
+   "tr": "leyad",
+   "en": "next to",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w534"
+  },
+  {
+   "n": 535,
+   "he": "מוּל",
+   "tr": "mul",
+   "en": "opposite, facing",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w535"
+  },
+  {
+   "n": 536,
+   "he": "בְּתוֹךְ",
+   "tr": "betokh",
+   "en": "inside",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w536"
+  },
+  {
+   "n": 537,
+   "he": "מִחוּץ לְ",
+   "tr": "mikhutz le",
+   "en": "outside of",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w537"
+  },
+  {
+   "n": 538,
+   "he": "אֵצֶל",
+   "tr": "etzel",
+   "en": "at someone's place",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w538"
+  },
+  {
+   "n": 539,
+   "he": "בִּשְׁבִיל",
+   "tr": "bishvil",
+   "en": "for (the sake of)",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w539"
+  },
+  {
+   "n": 540,
+   "he": "כְּמוֹ",
+   "tr": "kmo",
+   "en": "like, as",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w540"
+  },
+  {
+   "n": 541,
+   "he": "עַד",
+   "tr": "ad",
+   "en": "until, up to",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar",
+    "time"
+   ],
+   "id": "w541"
+  },
+  {
+   "n": 542,
+   "he": "מֵאָז",
+   "tr": "me'az",
+   "en": "since",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar",
+    "time"
+   ],
+   "id": "w542"
+  },
+  {
+   "n": 543,
+   "he": "בְּמֶשֶׁךְ",
+   "tr": "bemeshekh",
+   "en": "during, for (a length of time)",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar",
+    "time"
+   ],
+   "id": "w543"
+  },
+  {
+   "n": 544,
+   "he": "אֶל",
+   "tr": "el",
+   "en": "to, towards",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w544"
+  },
+  {
+   "n": 545,
+   "he": "וְ",
+   "tr": "ve",
+   "en": "and",
+   "pos": "connector",
+   "g": "",
+   "themes": [
+    "connectors"
+   ],
+   "id": "w545"
+  },
+  {
+   "n": 546,
+   "he": "אֲבָל",
+   "tr": "aval",
+   "en": "but",
+   "pos": "connector",
+   "g": "",
+   "themes": [
+    "connectors"
+   ],
+   "id": "w546"
+  },
+  {
+   "n": 547,
+   "he": "אוֹ",
+   "tr": "o",
+   "en": "or",
+   "pos": "connector",
+   "g": "",
+   "themes": [
+    "connectors"
+   ],
+   "id": "w547"
+  },
+  {
+   "n": 548,
+   "he": "כִּי",
+   "tr": "ki",
+   "en": "because",
+   "pos": "connector",
+   "g": "",
+   "themes": [
+    "connectors"
+   ],
+   "id": "w548"
+  },
+  {
+   "n": 549,
+   "he": "בִּגְלַל",
+   "tr": "biglal",
+   "en": "because of",
+   "pos": "connector",
+   "g": "",
+   "themes": [
+    "connectors"
+   ],
+   "id": "w549"
+  },
+  {
+   "n": 550,
+   "he": "מִפְּנֵי שֶׁ",
+   "tr": "mipnei she",
+   "en": "because (formal)",
+   "pos": "connector",
+   "g": "",
+   "themes": [
+    "connectors"
+   ],
+   "id": "w550"
+  },
+  {
+   "n": 551,
+   "he": "לָכֵן",
+   "tr": "lakhen",
+   "en": "therefore, so",
+   "pos": "connector",
+   "g": "",
+   "themes": [
+    "connectors"
+   ],
+   "id": "w551"
+  },
+  {
+   "n": 552,
+   "he": "אָז",
+   "tr": "az",
+   "en": "so, then",
+   "pos": "connector",
+   "g": "",
+   "themes": [
+    "connectors"
+   ],
+   "id": "w552"
+  },
+  {
+   "n": 553,
+   "he": "כְּדֵי",
+   "tr": "kdei",
+   "en": "in order to",
+   "pos": "connector",
+   "g": "",
+   "themes": [
+    "connectors"
+   ],
+   "id": "w553"
+  },
+  {
+   "n": 554,
+   "he": "אִם",
+   "tr": "im",
+   "en": "if",
+   "pos": "connector",
+   "g": "",
+   "themes": [
+    "connectors"
+   ],
+   "id": "w554"
+  },
+  {
+   "n": 555,
+   "he": "כַּאֲשֶׁר",
+   "tr": "ka'asher",
+   "en": "when (formal)",
+   "pos": "connector",
+   "g": "",
+   "themes": [
+    "connectors"
+   ],
+   "id": "w555"
+  },
+  {
+   "n": 556,
+   "he": "כְּשֶׁ",
+   "tr": "kshe",
+   "en": "when",
+   "pos": "connector",
+   "g": "",
+   "themes": [
+    "connectors"
+   ],
+   "id": "w556"
+  },
+  {
+   "n": 557,
+   "he": "שֶׁ",
+   "tr": "she",
+   "en": "that; who, which",
+   "pos": "connector",
+   "g": "",
+   "themes": [
+    "connectors",
+    "grammar"
+   ],
+   "id": "w557"
+  },
+  {
+   "n": 558,
+   "he": "אֲשֶׁר",
+   "tr": "asher",
+   "en": "which, that (formal)",
+   "pos": "connector",
+   "g": "",
+   "themes": [
+    "connectors",
+    "grammar"
+   ],
+   "id": "w558"
+  },
+  {
+   "n": 559,
+   "he": "לַמְרוֹת",
+   "tr": "lamrot",
+   "en": "despite",
+   "pos": "connector",
+   "g": "",
+   "themes": [
+    "connectors"
+   ],
+   "id": "w559"
+  },
+  {
+   "n": 560,
+   "he": "אַף עַל פִּי שֶׁ",
+   "tr": "af al pi she",
+   "en": "although",
+   "pos": "connector",
+   "g": "",
+   "themes": [
+    "connectors"
+   ],
+   "id": "w560"
+  },
+  {
+   "n": 561,
+   "he": "בְּעוֹד שֶׁ",
+   "tr": "be'od she",
+   "en": "while, whereas",
+   "pos": "connector",
+   "g": "",
+   "themes": [
+    "connectors"
+   ],
+   "id": "w561"
+  },
+  {
+   "n": 562,
+   "he": "גַּם וְגַם",
+   "tr": "gam vegam",
+   "en": "both and",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "connectors"
+   ],
+   "id": "w562"
+  },
+  {
+   "n": 563,
+   "he": "לֹא רַק אֶלָּא גַּם",
+   "tr": "lo rak ela gam",
+   "en": "not only but also",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "connectors"
+   ],
+   "id": "w563"
+  },
+  {
+   "n": 564,
+   "he": "אֶלָּא",
+   "tr": "ela",
+   "en": "but rather",
+   "pos": "connector",
+   "g": "",
+   "themes": [
+    "connectors"
+   ],
+   "id": "w564"
+  },
+  {
+   "n": 565,
+   "he": "בְּכָל זֹאת",
+   "tr": "bekhol zot",
+   "en": "nevertheless",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "connectors"
+   ],
+   "id": "w565"
+  },
+  {
+   "n": 566,
+   "he": "קוֹדֶם כֹּל",
+   "tr": "kodem kol",
+   "en": "first of all",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "connectors"
+   ],
+   "id": "w566"
+  },
+  {
+   "n": 567,
+   "he": "לְבַסּוֹף",
+   "tr": "levasof",
+   "en": "finally",
+   "pos": "connector",
+   "g": "",
+   "themes": [
+    "connectors",
+    "time"
+   ],
+   "id": "w567"
+  },
+  {
+   "n": 568,
+   "he": "לְמָשָׁל",
+   "tr": "lemashal",
+   "en": "for example",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "connectors"
+   ],
+   "id": "w568"
+  },
+  {
+   "n": 569,
+   "he": "בְּעִיקָּר",
+   "tr": "be'ikar",
+   "en": "mainly",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "connectors"
+   ],
+   "id": "w569"
+  },
+  {
+   "n": 570,
+   "he": "יוֹתֵר",
+   "tr": "yoter",
+   "en": "more",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w570"
+  },
+  {
+   "n": 571,
+   "he": "פָּחוֹת",
+   "tr": "pakhot",
+   "en": "less",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w571"
+  },
+  {
+   "n": 572,
+   "he": "הֲכִי",
+   "tr": "hakhi",
+   "en": "the most",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w572"
+  },
+  {
+   "n": 573,
+   "he": "יִשְׂרָאֵל",
+   "tr": "yisra'el",
+   "en": "Israel",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "israel"
+   ],
+   "id": "w573"
+  },
+  {
+   "n": 574,
+   "he": "יִשְׂרְאֵלִי / יִשְׂרְאֵלִית",
+   "tr": "yisre'eli / yisre'elit",
+   "en": "Israeli",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "israel"
+   ],
+   "id": "w574"
+  },
+  {
+   "n": 575,
+   "he": "יְרוּשָׁלַיִים",
+   "tr": "yerushalayim",
+   "en": "Jerusalem",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "city",
+    "israel"
+   ],
+   "id": "w575"
+  },
+  {
+   "n": 576,
+   "he": "תֵּל אָבִיב",
+   "tr": "tel aviv",
+   "en": "Tel Aviv",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "city",
+    "israel"
+   ],
+   "id": "w576"
+  },
+  {
+   "n": 577,
+   "he": "חֵיפָה",
+   "tr": "kheifa",
+   "en": "Haifa",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "city",
+    "israel"
+   ],
+   "id": "w577"
+  },
+  {
+   "n": 578,
+   "he": "הַנֶּגֶב",
+   "tr": "hanegev",
+   "en": "the Negev",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "israel",
+    "nature"
+   ],
+   "id": "w578"
+  },
+  {
+   "n": 579,
+   "he": "כִּינֶּרֶת",
+   "tr": "kineret",
+   "en": "the Sea of Galilee",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "israel",
+    "nature"
+   ],
+   "id": "w579"
+  },
+  {
+   "n": 580,
+   "he": "יְהוּדִי / יְהוּדִיָּיה",
+   "tr": "yehudi / yehudiya",
+   "en": "Jewish; a Jew",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "israel",
+    "religion"
+   ],
+   "id": "w580"
+  },
+  {
+   "n": 581,
+   "he": "עֲרָבִי / עֲרָבִיָּיה",
+   "tr": "aravi / araviya",
+   "en": "Arab; Arabic",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "israel"
+   ],
+   "id": "w581"
+  },
+  {
+   "n": 582,
+   "he": "רֹאשׁ הַשָּׁנָה",
+   "tr": "rosh hashana",
+   "en": "the Jewish new year",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "israel",
+    "religion",
+    "time"
+   ],
+   "id": "w582"
+  },
+  {
+   "n": 583,
+   "he": "יוֹם כִּיפּוּר",
+   "tr": "yom kipur",
+   "en": "the Day of Atonement",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "israel",
+    "religion",
+    "time"
+   ],
+   "id": "w583"
+  },
+  {
+   "n": 584,
+   "he": "פֶּסַח",
+   "tr": "pesakh",
+   "en": "Passover",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "israel",
+    "religion",
+    "time"
+   ],
+   "id": "w584"
+  },
+  {
+   "n": 585,
+   "he": "חֲנוּכָּה",
+   "tr": "khanuka",
+   "en": "Hanukkah",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "israel",
+    "religion",
+    "time"
+   ],
+   "id": "w585"
+  },
+  {
+   "n": 586,
+   "he": "בֵּית כְּנֶסֶת גָּדוֹל",
+   "tr": "beit knesset gadol",
+   "en": "a large synagogue",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "religion"
+   ],
+   "id": "w586"
+  },
+  {
+   "n": 587,
+   "he": "כְּנֶסֶת",
+   "tr": "kneset",
+   "en": "the Israeli parliament",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "israel"
+   ],
+   "id": "w587"
+  },
+  {
+   "n": 588,
+   "he": "צָבָא",
+   "tr": "tzava",
+   "en": "army",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "israel",
+    "work"
+   ],
+   "id": "w588"
+  },
+  {
+   "n": 589,
+   "he": "מִילּוּאִים",
+   "tr": "milu'im",
+   "en": "reserve duty",
+   "pos": "noun",
+   "g": "pl",
+   "themes": [
+    "israel"
+   ],
+   "id": "w589"
+  },
+  {
+   "n": 590,
+   "he": "אוּלְפָּן",
+   "tr": "ulpan",
+   "en": "Hebrew language school",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "israel",
+    "school"
+   ],
+   "id": "w590"
+  },
+  {
+   "n": 591,
+   "he": "עוֹלֶה חָדָשׁ / עוֹלָה חֲדָשָׁה",
+   "tr": "ole khadash / ola khadasha",
+   "en": "a new immigrant to Israel",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "israel",
+    "people"
+   ],
+   "id": "w591"
+  },
+  {
+   "n": 592,
+   "he": "סַבָּא וְסַבְתָּא",
+   "tr": "saba vesavta",
+   "en": "grandparents",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "family"
+   ],
+   "id": "w592"
+  },
+  {
+   "n": 593,
+   "he": "בְּעֶזְרַת הַשֵּׁם",
+   "tr": "be'ezrat hashem",
+   "en": "God willing",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "israel",
+    "religion",
+    "slang"
+   ],
+   "id": "w593"
+  },
+  {
+   "n": 594,
+   "he": "חֲבָל עַל הַזְּמַן",
+   "tr": "khaval al hazman",
+   "en": "amazing (literally: a waste of time)",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "slang"
+   ],
+   "id": "w594"
+  },
+  {
+   "n": 595,
+   "he": "סַבָּבָּה",
+   "tr": "sababa",
+   "en": "great, cool",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "slang"
+   ],
+   "id": "w595"
+  },
+  {
+   "n": 596,
+   "he": "יַאלְלָה",
+   "tr": "yalla",
+   "en": "come on, let's go",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "slang"
+   ],
+   "id": "w596"
+  },
+  {
+   "n": 597,
+   "he": "אַחְלָה",
+   "tr": "akhla",
+   "en": "great, excellent",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "slang"
+   ],
+   "id": "w597"
+  },
+  {
+   "n": 598,
+   "he": "בַּלָּגָן",
+   "tr": "balagan",
+   "en": "a mess, chaos",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "slang"
+   ],
+   "id": "w598"
+  },
+  {
+   "n": 599,
+   "he": "סְתָם",
+   "tr": "stam",
+   "en": "just, for no reason",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "slang"
+   ],
+   "id": "w599"
+  },
+  {
+   "n": 600,
+   "he": "דַּוְוקָא",
+   "tr": "davka",
+   "en": "precisely, of all things",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "slang"
+   ],
+   "id": "w600"
+  },
+  {
+   "n": 601,
+   "he": "עַל הַפָּנִים",
+   "tr": "al hapanim",
+   "en": "awful (literally: on the face)",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "slang"
+   ],
+   "id": "w601"
+  },
+  {
+   "n": 602,
+   "he": "סוֹף סוֹף",
+   "tr": "sof sof",
+   "en": "at last",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "phrases"
+   ],
+   "id": "w602"
+  },
+  {
+   "n": 603,
+   "he": "בְּכֵיף",
+   "tr": "bekeif",
+   "en": "with pleasure",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "slang"
+   ],
+   "id": "w603"
+  },
+  {
+   "n": 604,
+   "he": "מַה פִּתְאוֹם",
+   "tr": "ma pit'om",
+   "en": "what do you mean, no way",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "slang"
+   ],
+   "id": "w604"
+  },
+  {
+   "n": 605,
+   "he": "לֹא נוֹרָא",
+   "tr": "lo nora",
+   "en": "never mind, it is not so bad",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "phrases"
+   ],
+   "id": "w605"
+  },
+  {
+   "n": 606,
+   "he": "אֵין בְּעָיָיה",
+   "tr": "ein be'aya",
+   "en": "no problem",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "phrases"
+   ],
+   "id": "w606"
+  },
+  {
+   "n": 607,
+   "he": "בְּעָיָיה",
+   "tr": "be'aya",
+   "en": "problem",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "general"
+   ],
+   "id": "w607"
+  },
+  {
+   "n": 608,
+   "he": "פָּשׁוּט / פְּשׁוּטָה",
+   "tr": "pashut / pshuta",
+   "en": "simple; simply",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w608"
+  },
+  {
+   "n": 609,
+   "he": "מוּכָן / מוּכָנָה",
+   "tr": "mukhan / mukhana",
+   "en": "ready",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w609"
+  },
+  {
+   "n": 610,
+   "he": "אֶפְשָׁר",
+   "tr": "efshar",
+   "en": "it is possible, one can",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w610"
+  },
+  {
+   "n": 611,
+   "he": "אִי אֶפְשָׁר",
+   "tr": "i efshar",
+   "en": "it is impossible",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w611"
+  },
+  {
+   "n": 612,
+   "he": "צָרִיךְ / צְרִיכָה",
+   "tr": "tzarikh / tzrikha",
+   "en": "need to, must",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w612"
+  },
+  {
+   "n": 613,
+   "he": "יָכוֹל / יְכוֹלָה",
+   "tr": "yakhol / yekhola",
+   "en": "can, able to",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w613"
+  },
+  {
+   "n": 614,
+   "he": "מוּתָּר",
+   "tr": "mutar",
+   "en": "it is allowed",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w614"
+  },
+  {
+   "n": 615,
+   "he": "אָסוּר",
+   "tr": "asur",
+   "en": "it is forbidden",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w615"
+  },
+  {
+   "n": 616,
+   "he": "כְּדַאי",
+   "tr": "kedai",
+   "en": "it is worth it",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w616"
+  },
+  {
+   "n": 617,
+   "he": "דָּבָר",
+   "tr": "davar",
+   "en": "thing",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "general"
+   ],
+   "id": "w617",
+   "pl": "דְּבָרִים"
+  },
+  {
+   "n": 618,
+   "he": "חֵלֶק",
+   "tr": "khelek",
+   "en": "part",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "general"
+   ],
+   "id": "w618",
+   "pl": "חֲלָקִים"
+  },
+  {
+   "n": 619,
+   "he": "סוֹף",
+   "tr": "sof",
+   "en": "end",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "general",
+    "time"
+   ],
+   "id": "w619"
+  },
+  {
+   "n": 620,
+   "he": "הַתְחָלָה",
+   "tr": "hatkhala",
+   "en": "beginning",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "general",
+    "time"
+   ],
+   "id": "w620"
+  },
+  {
+   "n": 621,
+   "he": "אֶמְצַע",
+   "tr": "emtza",
+   "en": "middle",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "general"
+   ],
+   "id": "w621"
+  },
+  {
+   "n": 622,
+   "he": "צַד",
+   "tr": "tzad",
+   "en": "side",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "general"
+   ],
+   "id": "w622",
+   "pl": "צְדָדִים"
+  },
+  {
+   "n": 623,
+   "he": "סִיבָּה",
+   "tr": "siba",
+   "en": "reason",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "general"
+   ],
+   "id": "w623"
+  },
+  {
+   "n": 624,
+   "he": "מַטָּרָה",
+   "tr": "matara",
+   "en": "goal, purpose",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "general",
+    "work"
+   ],
+   "id": "w624"
+  },
+  {
+   "n": 625,
+   "he": "דֶּרֶךְ חַיִּים",
+   "tr": "derekh khayim",
+   "en": "a way of life",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "phrases"
+   ],
+   "id": "w625"
+  },
+  {
+   "n": 626,
+   "he": "חַיִּים",
+   "tr": "khayim",
+   "en": "life",
+   "pos": "noun",
+   "g": "pl",
+   "themes": [
+    "general"
+   ],
+   "id": "w626"
+  },
+  {
+   "n": 627,
+   "he": "מָוֶות",
+   "tr": "mavet",
+   "en": "death",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "general"
+   ],
+   "id": "w627"
+  },
+  {
+   "n": 628,
+   "he": "עוֹלָם",
+   "tr": "olam",
+   "en": "world",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "general"
+   ],
+   "id": "w628",
+   "pl": "עוֹלָמוֹת"
+  },
+  {
+   "n": 629,
+   "he": "אֶרֶץ",
+   "tr": "eretz",
+   "en": "country, land",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "general",
+    "israel"
+   ],
+   "id": "w629",
+   "pl": "אֲרָצוֹת"
+  },
+  {
+   "n": 630,
+   "he": "הָאָרֶץ",
+   "tr": "ha'aretz",
+   "en": "the Land, Israel",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "israel"
+   ],
+   "id": "w630"
+  },
+  {
+   "n": 631,
+   "he": "מְדִינָה",
+   "tr": "medina",
+   "en": "state, country",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "general",
+    "israel"
+   ],
+   "id": "w631"
+  },
+  {
+   "n": 632,
+   "he": "עַם",
+   "tr": "am",
+   "en": "a people, a nation",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "israel",
+    "people"
+   ],
+   "id": "w632",
+   "pl": "עַמִּים"
+  },
+  {
+   "n": 633,
+   "he": "הִיסְטוֹרְיָה",
+   "tr": "historya",
+   "en": "history",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "school"
+   ],
+   "id": "w633"
+  },
+  {
+   "n": 634,
+   "he": "תַּרְבּוּת",
+   "tr": "tarbut",
+   "en": "culture",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "israel",
+    "school"
+   ],
+   "id": "w634"
+  },
+  {
+   "n": 635,
+   "he": "אוֹמָנוּת",
+   "tr": "omanut",
+   "en": "art",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "school"
+   ],
+   "id": "w635"
+  },
+  {
+   "n": 636,
+   "he": "מוּסִיקָה",
+   "tr": "musika",
+   "en": "music",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "general"
+   ],
+   "id": "w636"
+  },
+  {
+   "n": 637,
+   "he": "שִׁיר",
+   "tr": "shir",
+   "en": "song; poem",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "general"
+   ],
+   "id": "w637",
+   "pl": "שִׁירִים"
+  },
+  {
+   "n": 638,
+   "he": "סֶרֶט",
+   "tr": "seret",
+   "en": "film; ribbon",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "general"
+   ],
+   "id": "w638",
+   "pl": "סְרָטִים"
+  },
+  {
+   "n": 639,
+   "he": "סִיפּוּר",
+   "tr": "sipur",
+   "en": "story",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "school"
+   ],
+   "id": "w639"
+  },
+  {
+   "n": 640,
+   "he": "תְּמוּנָה",
+   "tr": "tmuna",
+   "en": "picture, photograph",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "general"
+   ],
+   "id": "w640"
+  },
+  {
+   "n": 641,
+   "he": "מַתָּנָה",
+   "tr": "matana",
+   "en": "present, gift",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "general"
+   ],
+   "id": "w641"
+  },
+  {
+   "n": 642,
+   "he": "מְסִיבָּה",
+   "tr": "mesiba",
+   "en": "party",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "general"
+   ],
+   "id": "w642"
+  },
+  {
+   "n": 643,
+   "he": "טִיּוּל",
+   "tr": "tiyul",
+   "en": "trip, hike",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "travel"
+   ],
+   "id": "w643"
+  },
+  {
+   "n": 644,
+   "he": "מַשֶּׁהוּ",
+   "tr": "mashehu",
+   "en": "something",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w644"
+  },
+  {
+   "n": 645,
+   "he": "מִישֶׁהוּ",
+   "tr": "mishehu",
+   "en": "someone",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar",
+    "people"
+   ],
+   "id": "w645"
+  },
+  {
+   "n": 646,
+   "he": "אֵיפְשֶׁהוּ",
+   "tr": "eifshehu",
+   "en": "somewhere",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w646"
+  },
+  {
+   "n": 647,
+   "he": "הַרְבֵּה זְמַן",
+   "tr": "harbe zman",
+   "en": "a long time",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "time"
+   ],
+   "id": "w647"
+  },
+  {
+   "n": 648,
+   "he": "לְבַקֵּשׁ",
+   "tr": "levakesh",
+   "en": "to ask for, to request",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w648",
+   "root": "ב-ק-ש",
+   "binyan": "piel"
+  },
+  {
+   "n": 649,
+   "he": "לְהָבִיא",
+   "tr": "lehavi",
+   "en": "to bring",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w649",
+   "root": "ב-ו-א",
+   "binyan": "hifil"
+  },
+  {
+   "n": 650,
+   "he": "לִשְׁלוֹחַ",
+   "tr": "lishloakh",
+   "en": "to send",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w650",
+   "root": "ש-ל-ח",
+   "binyan": "paal"
+  },
+  {
+   "n": 651,
+   "he": "לְקַבֵּל",
+   "tr": "lekabel",
+   "en": "to receive, to get",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w651",
+   "root": "ק-ב-ל",
+   "binyan": "piel"
+  },
+  {
+   "n": 652,
+   "he": "לְהַרְאוֹת לוֹ",
+   "tr": "lehar'ot lo",
+   "en": "to show him",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w652"
+  },
+  {
+   "n": 653,
+   "he": "לִבְחוֹר",
+   "tr": "livkhor",
+   "en": "to choose",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w653",
+   "root": "ב-ח-ר",
+   "binyan": "paal"
+  },
+  {
+   "n": 654,
+   "he": "לְהַסְבִּיר שׁוּב",
+   "tr": "lehasbir shuv",
+   "en": "to explain again",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "school"
+   ],
+   "id": "w654"
+  },
+  {
+   "n": 655,
+   "he": "לִסְבּוֹל",
+   "tr": "lisbol",
+   "en": "to suffer; to stand, to bear",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "feelings",
+    "health"
+   ],
+   "id": "w655",
+   "root": "ס-ב-ל",
+   "binyan": "paal"
+  },
+  {
+   "n": 656,
+   "he": "לְהִתְרַגֵּל",
+   "tr": "lehitragel",
+   "en": "to get used to",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "feelings"
+   ],
+   "id": "w656",
+   "root": "ר-ג-ל",
+   "binyan": "hitpael"
+  },
+  {
+   "n": 657,
+   "he": "לְהִתְעוֹרֵר",
+   "tr": "lehit'orer",
+   "en": "to wake up",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "health",
+    "home"
+   ],
+   "id": "w657",
+   "root": "ע-ו-ר",
+   "binyan": "hitpael"
+  },
+  {
+   "n": 658,
+   "he": "לְהִתְרַחֵץ",
+   "tr": "lehitrakhetz",
+   "en": "to wash oneself",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "body",
+    "home"
+   ],
+   "id": "w658",
+   "root": "ר-ח-צ",
+   "binyan": "hitpael"
+  },
+  {
+   "n": 659,
+   "he": "לִסְפּוֹר",
+   "tr": "lispor",
+   "en": "to count",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "numbers"
+   ],
+   "id": "w659",
+   "root": "ס-פ-ר",
+   "binyan": "paal"
+  },
+  {
+   "n": 660,
+   "he": "לְטַיֵּיל",
+   "tr": "letayel",
+   "en": "to travel around, to hike",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "travel"
+   ],
+   "id": "w660",
+   "root": "ט-י-ל",
+   "binyan": "piel"
+  },
+  {
+   "n": 661,
+   "he": "לְשַׂחֵק",
+   "tr": "lesakhek",
+   "en": "to play",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w661",
+   "root": "ש-ח-ק",
+   "binyan": "piel"
+  },
+  {
+   "n": 662,
+   "he": "לָשִׁיר",
+   "tr": "lashir",
+   "en": "to sing",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w662",
+   "root": "ש-י-ר",
+   "binyan": "paal"
+  },
+  {
+   "n": 663,
+   "he": "לִרְקוֹד",
+   "tr": "lirkod",
+   "en": "to dance",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w663",
+   "root": "ר-ק-ד",
+   "binyan": "paal"
+  },
+  {
+   "n": 664,
+   "he": "לְצַלֵּם",
+   "tr": "letzalem",
+   "en": "to photograph",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w664",
+   "root": "צ-ל-ם",
+   "binyan": "piel"
+  },
+  {
+   "n": 665,
+   "he": "לְטַפֵּל",
+   "tr": "letapel",
+   "en": "to look after, to treat",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "family",
+    "health"
+   ],
+   "id": "w665",
+   "root": "ט-פ-ל",
+   "binyan": "piel"
+  },
+  {
+   "n": 666,
+   "he": "לְהִתְקַשֵּׁר",
+   "tr": "lehitkasher",
+   "en": "to call (on the phone)",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general",
+    "work"
+   ],
+   "id": "w666",
+   "root": "ק-ש-ר",
+   "binyan": "hitpael"
+  },
+  {
+   "n": 667,
+   "he": "לְהוֹדִיעַ",
+   "tr": "lehodia",
+   "en": "to inform, to let know",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "work"
+   ],
+   "id": "w667",
+   "root": "י-ד-ע",
+   "binyan": "hifil"
+  },
+  {
+   "n": 668,
+   "he": "לְהַזְכִּיר",
+   "tr": "lehazkir",
+   "en": "to remind; to mention",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w668",
+   "root": "ז-כ-ר",
+   "binyan": "hifil"
+  },
+  {
+   "n": 669,
+   "he": "לְהִיזָּכֵר",
+   "tr": "lehizakher",
+   "en": "to recall, to come to mind",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w669",
+   "root": "ז-כ-ר",
+   "binyan": "nifal"
+  },
+  {
+   "n": 670,
+   "he": "לְהִימָּצֵא",
+   "tr": "lehimatze",
+   "en": "to be found, to be located",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w670",
+   "root": "מ-צ-א",
+   "binyan": "nifal"
+  },
+  {
+   "n": 671,
+   "he": "לְהִיוָּלֵד",
+   "tr": "lehivaled",
+   "en": "to be born",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "family"
+   ],
+   "id": "w671",
+   "root": "י-ל-ד",
+   "binyan": "nifal"
+  },
+  {
+   "n": 672,
+   "he": "לָמוּת",
+   "tr": "lamut",
+   "en": "to die",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w672",
+   "root": "מ-ו-ת",
+   "binyan": "paal"
+  },
+  {
+   "n": 673,
+   "he": "לַחְיוֹת",
+   "tr": "likhyot",
+   "en": "to live, to be alive",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w673",
+   "root": "ח-י-ה",
+   "binyan": "paal"
+  },
+  {
+   "n": 674,
+   "he": "לְהַרְוִויחַ",
+   "tr": "leharviakh",
+   "en": "to earn, to gain",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "work"
+   ],
+   "id": "w674",
+   "root": "ר-ו-ח",
+   "binyan": "hifil"
+  },
+  {
+   "n": 675,
+   "he": "לְהַפְסִיד",
+   "tr": "lehafsid",
+   "en": "to lose (a game, money)",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general",
+    "work"
+   ],
+   "id": "w675",
+   "root": "פ-ס-ד",
+   "binyan": "hifil"
+  },
+  {
+   "n": 676,
+   "he": "לְאַבֵּד",
+   "tr": "le'abed",
+   "en": "to lose (an object)",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w676",
+   "root": "א-ב-ד",
+   "binyan": "piel"
+  },
+  {
+   "n": 677,
+   "he": "לְהַפְסִיק",
+   "tr": "lehafsik",
+   "en": "to stop",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w677",
+   "root": "פ-ס-ק",
+   "binyan": "hifil"
+  },
+  {
+   "n": 678,
+   "he": "לְהַמְשִׁיךְ",
+   "tr": "lehamshikh",
+   "en": "to continue",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w678",
+   "root": "מ-ש-כ",
+   "binyan": "hifil"
+  },
+  {
+   "n": 679,
+   "he": "לְהִתְחַיֵּיב",
+   "tr": "lehitkhayev",
+   "en": "to commit oneself",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "work"
+   ],
+   "id": "w679",
+   "root": "ח-י-ב",
+   "binyan": "hitpael"
+  },
+  {
+   "n": 680,
+   "he": "לְהַגִּיד",
+   "tr": "lehagid",
+   "en": "to say, to tell",
+   "pos": "verb",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w680",
+   "root": "נ-ג-ד",
+   "binyan": "hifil"
+  },
+  {
+   "n": 681,
+   "he": "מַשֶּׁהוּ אַחֵר",
+   "tr": "mashehu akher",
+   "en": "something else",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "phrases"
+   ],
+   "id": "w681"
+  },
+  {
+   "n": 682,
+   "he": "אַחֵר / אַחֶרֶת",
+   "tr": "akher / akheret",
+   "en": "other, another",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w682"
+  },
+  {
+   "n": 683,
+   "he": "אוֹתוֹ / אוֹתָהּ",
+   "tr": "oto / ota",
+   "en": "the same; him / her",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w683"
+  },
+  {
+   "n": 684,
+   "he": "עַצְמִי",
+   "tr": "atzmi",
+   "en": "myself",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w684"
+  },
+  {
+   "n": 685,
+   "he": "בְּיַחַד",
+   "tr": "beyakhad",
+   "en": "together",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w685"
+  },
+  {
+   "n": 686,
+   "he": "לְבַד",
+   "tr": "levad",
+   "en": "alone",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w686"
+  },
+  {
+   "n": 687,
+   "he": "בֶּאֱמֶת",
+   "tr": "be'emet",
+   "en": "really, truly",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w687"
+  },
+  {
+   "n": 688,
+   "he": "אֱמֶת",
+   "tr": "emet",
+   "en": "truth",
+   "pos": "noun",
+   "g": "f",
+   "themes": [
+    "general"
+   ],
+   "id": "w688"
+  },
+  {
+   "n": 689,
+   "he": "שֶׁקֶר",
+   "tr": "sheker",
+   "en": "a lie",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "general"
+   ],
+   "id": "w689"
+  },
+  {
+   "n": 690,
+   "he": "חָבָל",
+   "tr": "khaval",
+   "en": "what a shame",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "phrases"
+   ],
+   "id": "w690"
+  },
+  {
+   "n": 691,
+   "he": "לְפָחוֹת",
+   "tr": "lefakhot",
+   "en": "at least",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w691"
+  },
+  {
+   "n": 692,
+   "he": "לְכָל הַיּוֹתֵר",
+   "tr": "lekhol hayoter",
+   "en": "at most",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w692"
+  },
+  {
+   "n": 693,
+   "he": "בְּעֶרֶךְ",
+   "tr": "be'erekh",
+   "en": "approximately",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "numbers"
+   ],
+   "id": "w693"
+  },
+  {
+   "n": 694,
+   "he": "בְּכָל מִקְרֶה",
+   "tr": "bekhol mikre",
+   "en": "in any case",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "connectors"
+   ],
+   "id": "w694"
+  },
+  {
+   "n": 695,
+   "he": "לְדַעְתִּי",
+   "tr": "leda'ti",
+   "en": "in my opinion",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "phrases"
+   ],
+   "id": "w695"
+  },
+  {
+   "n": 696,
+   "he": "נִרְאֶה לִי",
+   "tr": "nir'e li",
+   "en": "it seems to me",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "phrases"
+   ],
+   "id": "w696"
+  },
+  {
+   "n": 697,
+   "he": "לְפִי",
+   "tr": "lefi",
+   "en": "according to",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w697"
+  },
+  {
+   "n": 698,
+   "he": "בְּקִיצּוּר",
+   "tr": "bekitzur",
+   "en": "in short",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "connectors"
+   ],
+   "id": "w698"
+  },
+  {
+   "n": 699,
+   "he": "לְמַעֲשֶׂה",
+   "tr": "lema'ase",
+   "en": "in practice, actually",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "connectors"
+   ],
+   "id": "w699"
+  },
+  {
+   "n": 700,
+   "he": "מִצַּד אֶחָד",
+   "tr": "mitzad ekhad",
+   "en": "on the one hand",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "connectors"
+   ],
+   "id": "w700"
+  },
+  {
+   "n": 701,
+   "he": "מִצַּד שֵׁנִי",
+   "tr": "mitzad sheni",
+   "en": "on the other hand",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "connectors"
+   ],
+   "id": "w701"
+  },
+  {
+   "n": 702,
+   "he": "בְּכָל אוֹפֶן",
+   "tr": "bekhol ofen",
+   "en": "in any event",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "connectors"
+   ],
+   "id": "w702"
+  },
+  {
+   "n": 703,
+   "he": "תָּלוּי",
+   "tr": "talui",
+   "en": "it depends",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "phrases"
+   ],
+   "id": "w703"
+  },
+  {
+   "n": 704,
+   "he": "אֵין לִי מוּשָׂג",
+   "tr": "ein li musag",
+   "en": "I have no idea",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "phrases",
+    "slang"
+   ],
+   "id": "w704"
+  },
+  {
+   "n": 705,
+   "he": "תֵּן לִי / תְּנִי לִי",
+   "tr": "ten li / tni li",
+   "en": "give me",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "phrases"
+   ],
+   "id": "w705"
+  },
+  {
+   "n": 706,
+   "he": "בּוֹא נֵלֵךְ",
+   "tr": "bo nelekh",
+   "en": "let's go",
+   "pos": "phrase",
+   "g": "",
+   "themes": [
+    "phrases"
+   ],
+   "id": "w706"
+  },
+  {
+   "n": 707,
+   "he": "רֶגַע",
+   "tr": "rega",
+   "en": "a moment; just a second",
+   "pos": "noun",
+   "g": "m",
+   "themes": [
+    "phrases",
+    "time"
+   ],
+   "id": "w707"
+  },
+  {
+   "n": 708,
+   "he": "תֵּיכֶף",
+   "tr": "teikhef",
+   "en": "in a moment, shortly",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "time"
+   ],
+   "id": "w708"
+  },
+  {
+   "n": 709,
+   "he": "מִיָּד",
+   "tr": "miyad",
+   "en": "immediately",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "time"
+   ],
+   "id": "w709"
+  },
+  {
+   "n": 710,
+   "he": "לְאַט",
+   "tr": "le'at",
+   "en": "slowly",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w710"
+  },
+  {
+   "n": 711,
+   "he": "מַהֵר",
+   "tr": "maher",
+   "en": "quickly",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "general"
+   ],
+   "id": "w711"
+  },
+  {
+   "n": 712,
+   "he": "יָמִינָה",
+   "tr": "yamina",
+   "en": "to the right",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "travel"
+   ],
+   "id": "w712"
+  },
+  {
+   "n": 713,
+   "he": "שְׂמֹאלָה",
+   "tr": "smola",
+   "en": "to the left",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "travel"
+   ],
+   "id": "w713"
+  },
+  {
+   "n": 714,
+   "he": "יָשָׁר",
+   "tr": "yashar",
+   "en": "straight ahead; honest",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "travel"
+   ],
+   "id": "w714"
+  },
+  {
+   "n": 715,
+   "he": "קָרוֹב / קְרוֹבָה",
+   "tr": "karov / krova",
+   "en": "near, close",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "general",
+    "travel"
+   ],
+   "id": "w715"
+  },
+  {
+   "n": 716,
+   "he": "רָחוֹק / רְחוֹקָה",
+   "tr": "rakhok / rekhoka",
+   "en": "far",
+   "pos": "adj",
+   "g": "",
+   "themes": [
+    "general",
+    "travel"
+   ],
+   "id": "w716"
+  },
+  {
+   "n": 717,
+   "he": "שָׁם",
+   "tr": "sham",
+   "en": "there",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w717"
+  },
+  {
+   "n": 718,
+   "he": "כָּאן",
+   "tr": "kan",
+   "en": "here",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w718"
+  },
+  {
+   "n": 719,
+   "he": "פֹּה",
+   "tr": "po",
+   "en": "here (colloquial)",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w719"
+  },
+  {
+   "n": 720,
+   "he": "לְמַעְלָה",
+   "tr": "lema'la",
+   "en": "up, above",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w720"
+  },
+  {
+   "n": 721,
+   "he": "לְמַטָּה",
+   "tr": "lemata",
+   "en": "down, below",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w721"
+  },
+  {
+   "n": 722,
+   "he": "בַּחוּץ",
+   "tr": "bakhutz",
+   "en": "outside",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar",
+    "home"
+   ],
+   "id": "w722"
+  },
+  {
+   "n": 723,
+   "he": "בִּפְנִים",
+   "tr": "bifnim",
+   "en": "inside",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar",
+    "home"
+   ],
+   "id": "w723"
+  },
+  {
+   "n": 724,
+   "he": "מִסָּבִיב",
+   "tr": "misaviv",
+   "en": "around",
+   "pos": "grammar",
+   "g": "",
+   "themes": [
+    "grammar"
+   ],
+   "id": "w724"
+  }
+ ]
+}

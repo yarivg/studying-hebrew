@@ -1,0 +1,90 @@
+{
+  "ch": "register",
+  "title": "Register: formal, spoken, slang",
+  "questions": [
+    { "id": "register-01", "type": "mcq",
+      "q": "An Israeli talking to a friend says \"my book\". Which one is it?",
+      "choices": ["הַסֵּפֶר שֶׁלִּי", "סִפְרִי", "הַסֵּפֶר לִי", "שֶׁלִּי הַסֵּפֶר"],
+      "a": 0,
+      "why": "Speech unpacks the possessive suffix into a separate word: הַסֵּפֶר שֶׁלִּי. סִפְרִי is the same meaning on the written shelf, read every day in print and said almost never." },
+
+    { "id": "register-02", "type": "mcq",
+      "q": "A news bulletin writes אֲשֶׁר where a conversation would use which word?",
+      "choices": ["שֶׁ", "כִּי", "מָה", "כַּאֲשֶׁר"],
+      "a": 0,
+      "why": "אֲשֶׁר is the full relative pronoun, \"that, which\", and שֶׁ is the clipped form speech uses. Keep it apart from כַּאֲשֶׁר, \"when\", whose own spoken partner is כְּשֶׁ." },
+
+    { "id": "register-03", "type": "mcq",
+      "q": "Which of these is the formal way of saying \"because\"?",
+      "choices": ["מִפְּנֵי שֶׁ", "בִּגְלַל שֶׁ", "כִּי", "אֲבָל"],
+      "a": 0,
+      "why": "מִפְּנֵי שֶׁ and כֵּיוָון שֶׁ belong to written Hebrew; בִּגְלַל שֶׁ and כִּי are what people say. אֲבָל is not a cause at all, it is \"but\", whose formal partners are אוּלָם and אַךְ." },
+
+    { "id": "register-04", "type": "mcq",
+      "q": "A newsreader says \"last night\". Which word do they use?",
+      "choices": ["אֶמֶשׁ", "אֶתְמוֹל בָּעֶרֶב", "עַכְשָׁיו", "כָּעֵת"],
+      "a": 0,
+      "why": "אֶמֶשׁ is a single formal word for last night; speech spells it out as אֶתְמוֹל בָּעֶרֶב. The same split runs through the time words: כָּעֵת in a bulletin, עַכְשָׁיו in the street." },
+
+    { "id": "register-05", "type": "mcq",
+      "q": "\"The letter was sent.\" Which version is what an Israeli actually says?",
+      "choices": ["שָׁלְחוּ אֶת הַמִּכְתָּב", "הַמִּכְתָּב נִשְׁלַח", "הַמִּכְתָּב שׁוּלַּח", "הַמִּכְתָּב שָׁלַח"],
+      "a": 0,
+      "why": "The spoken passive is a third person plural with nobody in particular as its subject: שָׁלְחוּ, \"they sent\", meaning someone did. The pu'al form שׁוּלַּח is correct written Hebrew and is not said out loud." },
+
+    { "id": "register-06", "type": "mcq",
+      "q": "You want to tell a colleague \"write the name\". Which is the everyday form?",
+      "choices": ["תִּכְתּוֹב אֶת הַשֵּׁם", "כְּתוֹב אֶת הַשֵּׁם", "לִכְתּוֹב אֶת הַשֵּׁם", "כּוֹתֵב אֶת הַשֵּׁם"],
+      "a": 0,
+      "why": "Speech gives an order with the future tense, תִּכְתּוֹב. The true imperative כְּתוֹב survives on signs, in the army and in writing, and in a normal conversation it sounds like an instruction manual." },
+
+    { "id": "register-07", "type": "mcq",
+      "q": "Where did בַּלָגָן come from?",
+      "choices": ["Persian, through Turkish and Russian, where it meant a fairground booth", "Yiddish, like נוּדְנִיק", "Arabic, like סַבָּבָּה and יַאלְלָה", "English, reshaped through a binyan"],
+      "a": 0,
+      "why": "It rode in with Russian-speaking immigrants, not with Yiddish, which is the standard guess. The Yiddish layer proper gives words for people and chaos, such as נוּדְנִיק and פִּיצְקֶלֶה." },
+
+    { "id": "register-08", "type": "fill",
+      "q": "Lift הַסֵּפֶר שֶׁלִּי into the formal register: write \"my book\" as one word.",
+      "a": ["סִפְרִי"],
+      "why": "Formal Hebrew hangs the possessive pronoun on the noun as a suffix, so הַסֵּפֶר שֶׁלִּי contracts to סִפְרִי. Read it; do not say it, because in speech it lands as a quotation rather than as Hebrew." },
+
+    { "id": "register-09", "type": "fill",
+      "q": "Lift הָאִישׁ שֶׁרָאִיתִי into the formal register, using the full relative pronoun. Write the whole phrase.",
+      "a": ["הָאִישׁ אֲשֶׁר רָאִיתִי"],
+      "why": "שֶׁ is glued to the next word and אֲשֶׁר stands on its own, which is why the formal version is three words and the spoken one is two. Nothing else in the phrase moves." },
+
+    { "id": "register-10", "type": "fill",
+      "q": "Write the Arabic borrowing an Israeli throws in front of בּוֹא נֵלֵךְ to mean \"come on, let's go\".",
+      "a": ["יַאלְלָה"],
+      "why": "יַאלְלָה is Arabic for \"O God\" and in Hebrew it is a starting pistol: come on, let's go, right then. It sits in the safe half of the slang, along with סַבָּבָּה and אַחְלָה, which nobody minds in an accent." },
+
+    { "id": "register-11", "type": "order",
+      "q": "Build the spoken version: send me the letter that you wrote",
+      "words": ["תִּשְׁלַח", "לִי", "אֶת", "הַמִּכְתָּב", "שֶׁכָּתַבְתָּ"],
+      "a": ["תִּשְׁלַח", "לִי", "אֶת", "הַמִּכְתָּב", "שֶׁכָּתַבְתָּ"],
+      "why": "Two spoken markers in five words: the future תִּשְׁלַח doing the work of an imperative, and שֶׁ glued to the verb it introduces. Speech also drops the formal אֵלַיי in favour of the plain לִי." },
+
+    { "id": "register-12", "type": "order",
+      "q": "Build the formal version of the same sentence: send me the letter that you wrote",
+      "words": ["שְׁלַח", "אֵלַיי", "אֶת", "הַמִּכְתָּב", "אֲשֶׁר", "כָּתַבְתָּ"],
+      "a": ["שְׁלַח", "אֵלַיי", "אֶת", "הַמִּכְתָּב", "אֲשֶׁר", "כָּתַבְתָּ"],
+      "why": "The true imperative שְׁלַח opens it and אֲשֶׁר stands as its own word before the verb. This is the register of a letter, a law or a ceremony, and out of a mouth at a bus stop it is as odd as legal English there." },
+
+    { "id": "register-13", "type": "listen",
+      "say": "יַאלְלָה בּוֹא נֵלֵךְ",
+      "q": "Type what you hear.",
+      "a": ["יַאלְלָה בּוֹא נֵלֵךְ", "יאללה בוא נלך"],
+      "why": "The slang word carries no grammar with it: what follows is an ordinary בּוֹא plus a first person plural future. Borrowings enter as whole words and leave the sentence around them untouched." },
+
+    { "id": "register-14", "type": "say",
+      "q": "Say this out loud.",
+      "target": "תַּגִּיד לִי דּוּגְרִי",
+      "why": "דּוּגְרִי is Turkish by way of Arabic, \"straight\", and it means without diplomacy. The stress falls on the last syllable, du-GRI, and the whole phrase is an invitation to drop the polite version." },
+
+    { "id": "register-15", "type": "open",
+      "q": "Name four markers that tell you a sentence was written in the formal register, and give the spoken equivalent of each.",
+      "a": ["אֲשֶׁר for שֶׁ; the possessive suffix סִפְרִי for הַסֵּפֶר שֶׁלִּי; מִפְּנֵי שֶׁ or כֵּיוָון שֶׁ for בִּגְלַל שֶׁ or כִּי; the true imperative כְּתוֹב for the future תִּכְתּוֹב; a pu'al or huf'al passive for a bare third person plural; כַּאֲשֶׁר for כְּשֶׁ; אֶמֶשׁ for אֶתְמוֹל בָּעֶרֶב; אוּלָם or אַךְ for אֲבָל"],
+      "why": "Aim at the spoken standard and read the formal one. It is not that the formal register is better Hebrew: it is a dialect for laws, news copy and ceremonies, and Israelis mix the two inside one sentence without it being a mistake." }
+  ]
+}

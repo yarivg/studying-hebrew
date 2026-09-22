@@ -1,0 +1,783 @@
+# HaMachberet word list.
+#
+# One word per line, pipe separated:
+#   n. | hebrew with nikud | transliteration | english | pos[.gender] | themes | extra
+#
+# pos:     noun verb adj phrase connector grammar number other
+# gender:  .m .f .pl .mf   (nouns and numbers only; a noun must have one)
+# themes:  comma separated, from the list in tools/build-vocab.py
+# extra:   key=value pairs joined by ;   known keys: root, binyan, pl
+#
+# Hebrew is written in full spelling with nikud, so that taking the points
+# off leaves exactly what a learner types: שׁוּלְחָן, not שֻׁלְחָן.
+# Adjectives are masculine / feminine. Verbs are the infinitive.
+#
+# Build with:  python3 tools/build-vocab.py
+
+# ---------------------------------------------------------------- greetings
+1. | שָׁלוֹם | shalom | hello, goodbye, peace | noun.m | greetings,general |
+2. | תּוֹדָה | toda | thank you | noun.f | greetings |
+3. | תּוֹדָה רַבָּה | toda raba | thank you very much | phrase | greetings |
+4. | בְּבַקָּשָׁה | bevakasha | please; here you are; you're welcome | phrase | greetings |
+5. | סְלִיחָה | slikha | excuse me, sorry | noun.f | greetings |
+6. | בֹּקֶר טוֹב | boker tov | good morning | phrase | greetings |
+7. | צָהֳרַיִים טוֹבִים | tzohorayim tovim | good afternoon | phrase | greetings |
+8. | עֶרֶב טוֹב | erev tov | good evening | phrase | greetings |
+9. | לַיְלָה טוֹב | layla tov | good night | phrase | greetings |
+10. | לְהִתְרָאוֹת | lehitraot | see you, goodbye | phrase | greetings |
+11. | מַה שְׁלוֹמְךָ | ma shlomkha | how are you (to a man) | phrase | greetings |
+12. | מַה שְׁלוֹמֵךְ | ma shlomekh | how are you (to a woman) | phrase | greetings |
+13. | מַה נִשְׁמָע | ma nishma | how is it going (literally: what is heard) | phrase | greetings |
+14. | בְּסֵדֶר | beseder | okay, fine | phrase | greetings,general |
+15. | הַכֹּל בְּסֵדֶר | hakol beseder | everything is fine | phrase | greetings |
+16. | נָעִים מְאוֹד | na'im me'od | pleased to meet you | phrase | greetings |
+17. | בָּרוּךְ הַבָּא / בְּרוּכָה הַבָּאָה | barukh haba / brukha haba'a | welcome | phrase | greetings |
+18. | מַזָּל טוֹב | mazal tov | congratulations | phrase | greetings,israel |
+19. | בְּתֵיאָבוֹן | bete'avon | enjoy your meal | phrase | greetings,food |
+20. | שַׁבָּת שָׁלוֹם | shabat shalom | good sabbath (said from Thursday on) | phrase | greetings,israel,religion |
+21. | אֵיךְ קוֹרְאִים לְךָ | eikh kor'im lekha | what is your name (to a man) | phrase | greetings |
+22. | קוֹרְאִים לִי | kor'im li | my name is (literally: they call me) | phrase | greetings |
+23. | נָא לְהַכִּיר | na lehakir | let me introduce you | phrase | greetings |
+24. | כָּל טוּב | kol tuv | all the best | phrase | greetings |
+25. | אֵין בְּעָד מָה | ein be'ad ma | you are welcome (after thanks) | phrase | greetings |
+
+# ---------------------------------------------------------------- the smallest words
+26. | כֵּן | ken | yes | grammar | grammar,general |
+27. | לֹא | lo | no, not | grammar | grammar,general |
+28. | אוּלַי | ulay | maybe | grammar | grammar,general |
+29. | גַּם | gam | also, too | grammar | grammar,connectors |
+30. | רַק | rak | only | grammar | grammar,connectors |
+31. | מְאוֹד | me'od | very | grammar | grammar,general |
+32. | קְצָת | ktzat | a little | grammar | grammar,general |
+33. | הַרְבֵּה | harbe | a lot, many | grammar | grammar,general |
+34. | כָּל | kol | every, all | grammar | grammar,general |
+35. | הַכֹּל | hakol | everything | grammar | grammar,general |
+36. | שׁוּם דָּבָר | shum davar | nothing | phrase | grammar,general |
+37. | אַף אֶחָד | af ekhad | nobody | phrase | grammar,people |
+38. | כְּבָר | kvar | already | grammar | grammar,time |
+39. | עֲדַיִין | adayin | still, yet | grammar | grammar,time |
+40. | עוֹד | od | more, still, another | grammar | grammar,general |
+41. | שׁוּב | shuv | again | grammar | grammar,time |
+42. | תָּמִיד | tamid | always | grammar | grammar,time |
+43. | אַף פַּעַם | af pa'am | never | phrase | grammar,time |
+44. | לִפְעָמִים | lif'amim | sometimes | grammar | grammar,time |
+45. | בְּדֶרֶךְ כְּלָל | bederekh klal | usually | phrase | grammar,time |
+46. | בְּעֶצֶם | be'etzem | actually, in fact | phrase | grammar,connectors |
+47. | בְּוַדַּאי | bevadai | certainly, of course | phrase | grammar |
+48. | בְּדִיּוּק | bediyuk | exactly | grammar | grammar |
+49. | כִּמְעַט | kim'at | almost | grammar | grammar |
+50. | מַסְפִּיק | maspik | enough | grammar | grammar |
+
+# ---------------------------------------------------------------- pronouns and question words
+51. | אֲנִי | ani | I | grammar | grammar |
+52. | אַתָּה | ata | you (masculine singular) | grammar | grammar |
+53. | אַתְּ | at | you (feminine singular) | grammar | grammar |
+54. | הוּא | hu | he, it | grammar | grammar |
+55. | הִיא | hi | she, it | grammar | grammar |
+56. | אֲנַחְנוּ | anakhnu | we | grammar | grammar |
+57. | אַתֶּם | atem | you (masculine plural) | grammar | grammar |
+58. | אַתֶּן | aten | you (feminine plural) | grammar | grammar |
+59. | הֵם | hem | they (masculine) | grammar | grammar |
+60. | הֵן | hen | they (feminine) | grammar | grammar |
+61. | מָה | ma | what | grammar | grammar |
+62. | מִי | mi | who | grammar | grammar |
+63. | אֵיפֹה | eifo | where | grammar | grammar |
+64. | מָתַי | matai | when | grammar | grammar,time |
+65. | לָמָּה | lama | why | grammar | grammar |
+66. | מַדּוּעַ | madua | why (formal) | grammar | grammar |
+67. | אֵיךְ | eikh | how | grammar | grammar |
+68. | כַּמָּה | kama | how much, how many | grammar | grammar,numbers |
+69. | אֵיזֶה / אֵיזוֹ | eize / eizo | which, what a | grammar | grammar |
+70. | הַאִם | ha'im | (marks a yes/no question) | grammar | grammar |
+71. | זֶה | ze | this (masculine) | grammar | grammar |
+72. | זֹאת | zot | this (feminine) | grammar | grammar |
+73. | אֵלֶּה | ele | these | grammar | grammar |
+74. | לְאָן | le'an | where to | grammar | grammar |
+75. | מֵאַיִן | me'ayin | where from | grammar | grammar |
+
+# ---------------------------------------------------------------- school and the classroom
+76. | סֵפֶר | sefer | book | noun.m | school | pl=סְפָרִים
+77. | מַחְבֶּרֶת | makhberet | notebook | noun.f | school | pl=מַחְבָּרוֹת
+78. | עֵט | et | pen | noun.m | school |
+79. | עִפָּרוֹן | iparon | pencil | noun.m | school | pl=עֶפְרוֹנוֹת
+80. | דַּף | daf | sheet, page | noun.m | school | pl=דַּפִּים
+81. | מִילָּה | mila | word | noun.f | school | pl=מִילִּים
+82. | מִשְׁפָּט | mishpat | sentence | noun.m | school |
+83. | שְׁאֵלָה | she'ela | question | noun.f | school |
+84. | תְּשׁוּבָה | tshuva | answer | noun.f | school |
+85. | שִׁעוּר | shi'ur | lesson | noun.m | school |
+86. | כִּיתָּה | kita | class, classroom | noun.f | school |
+87. | תַּרְגִּיל | targil | exercise | noun.m | school |
+88. | מִבְחָן | mivkhan | test, exam | noun.m | school |
+89. | תַּלְמִיד / תַּלְמִידָה | talmid / talmida | pupil, student | noun.m | school,people |
+90. | סְטוּדֶנְט / סְטוּדֶנְטִית | student / studentit | university student | noun.m | school,people |
+91. | מוֹרֶה / מוֹרָה | more / mora | teacher | noun.m | school,people,work |
+92. | בֵּית סֵפֶר | beit sefer | school | noun.m | school,city |
+93. | אוּנִיבֶרְסִיטָה | universita | university | noun.f | school,city |
+94. | לִלְמוֹד | lilmod | to learn, to study | verb | school | root=ל-מ-ד;binyan=paal
+95. | לְלַמֵּד | lelamed | to teach | verb | school | root=ל-מ-ד;binyan=piel
+96. | לִכְתּוֹב | likhtov | to write | verb | school | root=כ-ת-ב;binyan=paal
+97. | לִקְרוֹא | likro | to read; to call | verb | school | root=ק-ר-א;binyan=paal
+98. | לְהָבִין | lehavin | to understand | verb | school | root=ב-י-ן;binyan=hifil
+99. | לְהַסְבִּיר | lehasbir | to explain | verb | school | root=ס-ב-ר;binyan=hifil
+100. | לִשְׁאוֹל | lish'ol | to ask | verb | school | root=ש-א-ל;binyan=paal
+101. | לַעֲנוֹת | la'anot | to answer | verb | school | root=ע-נ-ה;binyan=paal
+102. | לַחְזוֹר | lakhzor | to return; to repeat | verb | school | root=ח-ז-ר;binyan=paal
+103. | לְתַרְגֵּם | letargem | to translate | verb | school | root=ת-ר-ג-ם;binyan=piel
+104. | לִזְכּוֹר | lizkor | to remember | verb | school | root=ז-כ-ר;binyan=paal
+105. | לִשְׁכּוֹחַ | lishkoakh | to forget | verb | school | root=ש-כ-ח;binyan=paal
+106. | עִבְרִית | ivrit | Hebrew | noun.f | school,israel |
+107. | אַנְגְּלִית | anglit | English | noun.f | school |
+108. | שָׂפָה | safa | language; lip | noun.f | school | pl=שָׂפוֹת
+109. | אוֹת | ot | letter (of the alphabet) | noun.f | school | pl=אוֹתִיּוֹת
+110. | נִקּוּד | nikud | the vowel points | noun.m | school,grammar |
+111. | שׁוֹרֶשׁ | shoresh | root (of a word) | noun.m | school,grammar | pl=שׁוֹרָשִׁים
+112. | בִּנְיָין | binyan | verb pattern; building | noun.m | school,grammar | pl=בִּנְיָינִים
+113. | דִּקְדּוּק | dikduk | grammar | noun.m | school,grammar |
+114. | תַּרְגּוּם | targum | translation | noun.m | school |
+115. | מִלּוֹן | milon | dictionary | noun.m | school |
+
+# ---------------------------------------------------------------- people and family
+116. | אִישׁ | ish | man, person | noun.m | people | pl=אֲנָשִׁים
+117. | אִישָּׁה | isha | woman; wife | noun.f | people,family | pl=נָשִׁים
+118. | יֶלֶד / יַלְדָּה | yeled / yalda | child, boy / girl | noun.m | people,family | pl=יְלָדִים
+119. | בָּחוּר / בַּחוּרָה | bakhur / bakhura | young man / young woman | noun.m | people |
+120. | אָדָם | adam | a person, a human being | noun.m | people | pl=בְּנֵי אָדָם
+121. | חָבֵר / חֲבֵרָה | khaver / khavera | friend; boyfriend / girlfriend | noun.m | people,feelings |
+122. | מִשְׁפָּחָה | mishpakha | family | noun.f | family |
+123. | אַבָּא | aba | dad, father | noun.m | family |
+124. | אִמָּא | ima | mum, mother | noun.f | family |
+125. | הוֹרֶה | hore | parent | noun.m | family | pl=הוֹרִים
+126. | בֵּן | ben | son; a member of | noun.m | family | pl=בָּנִים
+127. | בַּת | bat | daughter | noun.f | family | pl=בָּנוֹת
+128. | אָח | akh | brother | noun.m | family | pl=אַחִים
+129. | אָחוֹת | akhot | sister; nurse | noun.f | family,health | pl=אֲחָיוֹת
+130. | סַבָּא | saba | grandfather | noun.m | family |
+131. | סַבְתָּא | savta | grandmother | noun.f | family |
+132. | נֶכֶד / נֶכְדָּה | nekhed / nekhda | grandson / granddaughter | noun.m | family |
+133. | דּוֹד / דּוֹדָה | dod / doda | uncle / aunt | noun.m | family |
+134. | בֶּן דּוֹד / בַּת דּוֹדָה | ben dod / bat doda | cousin | noun.m | family |
+135. | בַּעַל | ba'al | husband; owner | noun.m | family | pl=בְּעָלִים
+136. | תִּינוֹק / תִּינוֹקֶת | tinok / tinoket | baby | noun.m | family,people |
+137. | שָׁכֵן / שְׁכֵנָה | shakhen / shkhena | neighbour | noun.m | people,city |
+138. | אוֹרֵחַ / אוֹרַחַת | oreakh / orakhat | guest | noun.m | people,home |
+139. | זָקֵן / זְקֵנָה | zaken / zkena | old (of a person) | adj | people |
+140. | צָעִיר / צְעִירָה | tza'ir / tze'ira | young | adj | people |
+141. | נָשׂוּי / נְשׂוּאָה | nasui / nesu'a | married | adj | family |
+142. | רַוָּק / רַוָּקָה | ravak / ravaka | single, unmarried | adj | family |
+
+# ---------------------------------------------------------------- home
+143. | בַּיִת | bayit | house, home | noun.m | home | pl=בָּתִּים
+144. | דִּירָה | dira | flat, apartment | noun.f | home |
+145. | חֶדֶר | kheder | room | noun.m | home | pl=חֲדָרִים
+146. | מִטְבָּח | mitbakh | kitchen | noun.m | home |
+147. | חֲדַר אַמְבַּטְיָה | khadar ambatya | bathroom | noun.m | home |
+148. | שֵׁירוּתִים | sherutim | toilet; services | noun.pl | home |
+149. | סָלוֹן | salon | living room | noun.m | home |
+150. | מִרְפֶּסֶת | mirpeset | balcony | noun.f | home |
+151. | דֶּלֶת | delet | door | noun.f | home | pl=דְּלָתוֹת
+152. | חַלּוֹן | khalon | window | noun.m | home | pl=חַלּוֹנוֹת
+153. | קִיר | kir | wall | noun.m | home | pl=קִירוֹת
+154. | רִצְפָּה | ritzpa | floor | noun.f | home |
+155. | תִּקְרָה | tikra | ceiling | noun.f | home |
+156. | מַדְרֵגוֹת | madregot | stairs | noun.pl | home |
+157. | שׁוּלְחָן | shulkhan | table | noun.m | home | pl=שׁוּלְחָנוֹת
+158. | כִּיסֵּא | kise | chair | noun.m | home | pl=כִּיסְאוֹת
+159. | מִיטָּה | mita | bed | noun.f | home |
+160. | אָרוֹן | aron | cupboard, wardrobe | noun.m | home | pl=אֲרוֹנוֹת
+161. | מַדָּף | madaf | shelf | noun.m | home |
+162. | מְנוֹרָה | menora | lamp | noun.f | home |
+163. | מַפְתֵּחַ | mafteakh | key | noun.m | home | pl=מַפְתְּחוֹת
+164. | מַרְאָה | mar'a | mirror | noun.f | home |
+165. | שָׁטִיחַ | shatiakh | carpet, rug | noun.m | home |
+166. | מְקָרֵר | mekarer | fridge | noun.m | home,food |
+167. | תַּנּוּר | tanur | oven | noun.m | home,food |
+168. | מְכוֹנַת כְּבִיסָה | mekhonat kvisa | washing machine | noun.f | home |
+169. | גִּינָּה | gina | garden | noun.f | home,nature |
+170. | לָגוּר | lagur | to live, to reside | verb | home | root=ג-ו-ר;binyan=paal
+171. | לִפְתּוֹחַ | liftoakh | to open | verb | home,general | root=פ-ת-ח;binyan=paal
+172. | לִסְגּוֹר | lisgor | to close | verb | home,general | root=ס-ג-ר;binyan=paal
+173. | לְנַקּוֹת | lenakot | to clean | verb | home | root=נ-ק-ה;binyan=piel
+174. | לְסַדֵּר | lesader | to tidy, to arrange | verb | home | root=ס-ד-ר;binyan=piel
+
+# ---------------------------------------------------------------- food and drink
+175. | אוֹכֶל | okhel | food | noun.m | food |
+176. | לֶחֶם | lekhem | bread | noun.m | food |
+177. | פִּיתָּה | pita | pita | noun.f | food,israel |
+178. | חָלָב | khalav | milk | noun.m | food |
+179. | גְּבִינָה | gvina | cheese | noun.f | food |
+180. | חֶמְאָה | khem'a | butter | noun.f | food |
+181. | בֵּיצָה | beitza | egg | noun.f | food | pl=בֵּיצִים
+182. | בָּשָׂר | basar | meat | noun.m | food |
+183. | עוֹף | of | chicken; bird | noun.m | food,animals | pl=עוֹפוֹת
+184. | דָּג | dag | fish | noun.m | food,animals | pl=דָּגִים
+185. | אוֹרֶז | orez | rice | noun.m | food |
+186. | פֵּירוֹת | perot | fruit | noun.pl | food |
+187. | יְרָקוֹת | yerakot | vegetables | noun.pl | food |
+188. | תַּפּוּחַ | tapuakh | apple | noun.m | food | pl=תַּפּוּחִים
+189. | תַּפּוּז | tapuz | orange | noun.m | food |
+190. | בַּנָנָה | banana | banana | noun.f | food |
+191. | עַגְבָנִיָּיה | agvaniya | tomato | noun.f | food |
+192. | מְלָפְפוֹן | melafefon | cucumber | noun.m | food |
+193. | בָּצָל | batzal | onion | noun.m | food |
+194. | תַּפּוּחַ אֲדָמָה | tapuakh adama | potato | noun.m | food |
+195. | סָלָט | salat | salad | noun.m | food |
+196. | חוּמּוּס | khumus | hummus | noun.m | food,israel |
+197. | מָרָק | marak | soup | noun.m | food |
+198. | עוּגָה | uga | cake | noun.f | food |
+199. | עוּגִיָּיה | ugiya | biscuit, cookie | noun.f | food |
+200. | שׁוֹקוֹלָד | shokolad | chocolate | noun.m | food |
+201. | סוּכָּר | sukar | sugar | noun.m | food |
+202. | מֶלַח | melakh | salt | noun.m | food |
+203. | שֶׁמֶן | shemen | oil | noun.m | food |
+204. | מַיִם | mayim | water | noun.pl | food,nature |
+205. | קָפֶה | kafe | coffee | noun.m | food |
+206. | תֵּה | te | tea | noun.m | food |
+207. | מִיץ | mitz | juice | noun.m | food |
+208. | יַיִן | yayin | wine | noun.m | food |
+209. | בִּירָה | bira | beer | noun.f | food |
+210. | אֲרוּחָה | arukha | meal | noun.f | food |
+211. | אֲרוּחַת בּוֹקֶר | arukhat boker | breakfast | noun.f | food |
+212. | אֲרוּחַת צָהֳרַיִים | arukhat tzohorayim | lunch | noun.f | food |
+213. | אֲרוּחַת עֶרֶב | arukhat erev | dinner | noun.f | food |
+214. | מִסְעָדָה | mis'ada | restaurant | noun.f | food,city |
+215. | תַּפְרִיט | tafrit | menu | noun.m | food |
+216. | חֶשְׁבּוֹן | kheshbon | bill; account; arithmetic | noun.m | food,work |
+217. | מֶלְצַר / מֶלְצָרִית | meltzar / meltzarit | waiter / waitress | noun.m | food,work |
+218. | צַלַּחַת | tzalakhat | plate | noun.f | food,home |
+219. | כּוֹס | kos | glass, cup | noun.f | food,home |
+220. | מַזְלֵג | mazleg | fork | noun.m | food,home |
+221. | סַכִּין | sakin | knife | noun.f | food,home |
+222. | כַּף | kaf | spoon; palm of the hand | noun.f | food,home,body |
+223. | לֶאֱכוֹל | le'ekhol | to eat | verb | food | root=א-כ-ל;binyan=paal
+224. | לִשְׁתּוֹת | lishtot | to drink | verb | food | root=ש-ת-ה;binyan=paal
+225. | לְבַשֵּׁל | levashel | to cook | verb | food | root=ב-ש-ל;binyan=piel
+226. | לְהַזְמִין | lehazmin | to order; to invite | verb | food,general | root=ז-מ-ן;binyan=hifil
+227. | טָעִים / טְעִימָה | ta'im / te'ima | tasty | adj | food |
+228. | רָעֵב / רְעֵבָה | ra'ev / re'eva | hungry | adj | food,feelings |
+229. | צָמֵא / צְמֵאָה | tzame / tzme'a | thirsty | adj | food,feelings |
+230. | חַם / חַמָּה | kham / khama | hot, warm | adj | food,nature |
+231. | קַר / קָרָה | kar / kara | cold | adj | food,nature |
+232. | מָתוֹק / מְתוּקָה | matok / metuka | sweet | adj | food |
+233. | מָלוּחַ / מְלוּחָה | maluakh / melukha | salty | adj | food |
+234. | חָרִיף / חֲרִיפָה | kharif / kharifa | spicy, sharp | adj | food |
+
+# ---------------------------------------------------------------- the body and health
+235. | גּוּף | guf | body | noun.m | body |
+236. | רֹאשׁ | rosh | head | noun.m | body | pl=רָאשִׁים
+237. | פָּנִים | panim | face | noun.pl | body |
+238. | עַיִן | ayin | eye; spring of water | noun.f | body | pl=עֵינַיִים
+239. | אוֹזֶן | ozen | ear | noun.f | body | pl=אוֹזְנַיִים
+240. | אַף | af | nose | noun.m | body |
+241. | פֶּה | pe | mouth | noun.m | body |
+242. | שֵׁן | shen | tooth | noun.f | body | pl=שִׁינַּיִים
+243. | שֵׂיעָר | se'ar | hair | noun.m | body |
+244. | יָד | yad | hand, arm | noun.f | body | pl=יָדַיִים
+245. | רֶגֶל | regel | leg, foot | noun.f | body | pl=רַגְלַיִים
+246. | אֶצְבַּע | etzba | finger, toe | noun.f | body | pl=אֶצְבָּעוֹת
+247. | גַּב | gav | back | noun.m | body |
+248. | בֶּטֶן | beten | stomach, belly | noun.f | body |
+249. | לֵב | lev | heart | noun.m | body,feelings | pl=לִיבּוֹת
+250. | דָּם | dam | blood | noun.m | body,health |
+251. | עוֹר | or | skin; leather | noun.m | body |
+252. | בָּרִיא / בְּרִיאָה | bari / bri'a | healthy | adj | health |
+253. | חוֹלֶה / חוֹלָה | khole / khola | ill, sick; a patient | adj | health |
+254. | כּוֹאֵב | ko'ev | it hurts | verb | health | root=כ-א-ב;binyan=paal
+255. | רוֹפֵא / רוֹפְאָה | rofe / rof'a | doctor | noun.m | health,work |
+256. | בֵּית חוֹלִים | beit kholim | hospital | noun.m | health,city |
+257. | קוּפַּת חוֹלִים | kupat kholim | health clinic | noun.f | health,israel |
+258. | מַחֲלָה | makhala | illness | noun.f | health |
+259. | תְּרוּפָה | trufa | medicine | noun.f | health |
+260. | כְּאֵב | ke'ev | pain, ache | noun.m | health |
+261. | חוֹם | khom | fever; heat | noun.m | health |
+262. | לְהַרְגִּישׁ | lehargish | to feel | verb | health,feelings | root=ר-ג-ש;binyan=hifil
+263. | לָנוּחַ | lanuakh | to rest | verb | health | root=נ-ו-ח;binyan=paal
+264. | לִישׁוֹן | lishon | to sleep | verb | health,home | root=י-ש-ן;binyan=paal
+265. | לָקוּם | lakum | to get up, to stand up | verb | health,home | root=ק-ו-ם;binyan=paal
+
+# ---------------------------------------------------------------- numbers
+266. | אֶחָד / אַחַת | ekhad / akhat | one | number.mf | numbers |
+267. | שְׁנַיִים / שְׁתַּיִים | shnayim / shtayim | two | number.mf | numbers |
+268. | שְׁלוֹשָׁה / שָׁלוֹשׁ | shlosha / shalosh | three | number.mf | numbers |
+269. | אַרְבָּעָה / אַרְבַּע | arba'a / arba | four | number.mf | numbers |
+270. | חֲמִישָּׁה / חָמֵשׁ | khamisha / khamesh | five | number.mf | numbers |
+271. | שִׁישָּׁה / שֵׁשׁ | shisha / shesh | six | number.mf | numbers |
+272. | שִׁבְעָה / שֶׁבַע | shiv'a / sheva | seven | number.mf | numbers |
+273. | שְׁמוֹנָה / שְׁמוֹנֶה | shmona / shmone | eight | number.mf | numbers |
+274. | תִּשְׁעָה / תֵּשַׁע | tish'a / tesha | nine | number.mf | numbers |
+275. | עֲשָׂרָה / עֶשֶׂר | asara / eser | ten | number.mf | numbers |
+276. | עֶשְׂרִים | esrim | twenty | number.mf | numbers |
+277. | שְׁלוֹשִׁים | shloshim | thirty | number.mf | numbers |
+278. | אַרְבָּעִים | arba'im | forty | number.mf | numbers |
+279. | חֲמִישִּׁים | khamishim | fifty | number.mf | numbers |
+280. | מֵאָה | me'a | a hundred | number.f | numbers |
+281. | אֶלֶף | elef | a thousand | number.m | numbers |
+282. | מִיסְפָּר | mispar | number | noun.m | numbers |
+283. | אֶפֶס | efes | zero | number.m | numbers |
+284. | חֵצִי | khetzi | half | noun.m | numbers |
+285. | רֶבַע | reva | quarter | noun.m | numbers |
+286. | רִאשׁוֹן / רִאשׁוֹנָה | rishon / rishona | first | adj | numbers,time |
+287. | שֵׁנִי / שְׁנִיָּיה | sheni / shniya | second | adj | numbers,time |
+288. | שְׁלִישִׁי / שְׁלִישִׁית | shlishi / shlishit | third | adj | numbers,time |
+289. | אַחֲרוֹן / אַחֲרוֹנָה | akharon / akharona | last | adj | numbers,time |
+
+# ---------------------------------------------------------------- time
+290. | זְמַן | zman | time | noun.m | time | pl=זְמַנִּים
+291. | שָׁעָה | sha'a | hour; o'clock | noun.f | time | pl=שָׁעוֹת
+292. | דַּקָּה | daka | minute | noun.f | time |
+293. | שְׁנִיָּיה | shniya | second (of time) | noun.f | time |
+294. | יוֹם | yom | day | noun.m | time | pl=יָמִים
+295. | שָׁבוּעַ | shavua | week | noun.m | time | pl=שָׁבוּעוֹת
+296. | חוֹדֶשׁ | khodesh | month | noun.m | time | pl=חוֹדָשִׁים
+297. | שָׁנָה | shana | year | noun.f | time | pl=שָׁנִים
+298. | בּוֹקֶר | boker | morning | noun.m | time |
+299. | צָהֳרַיִים | tzohorayim | noon, midday | noun.pl | time |
+300. | אַחַר הַצָּהֳרַיִים | akhar hatzohorayim | afternoon | noun.m | time |
+301. | עֶרֶב | erev | evening | noun.m | time |
+302. | לַיְלָה | layla | night | noun.m | time | pl=לֵילוֹת
+303. | הַיּוֹם | hayom | today | grammar | time |
+304. | מָחָר | makhar | tomorrow | grammar | time |
+305. | אֶתְמוֹל | etmol | yesterday | grammar | time |
+306. | עַכְשָׁיו | akhshav | now | grammar | time |
+307. | אַחַר כָּךְ | akhar kakh | afterwards, then | phrase | time,connectors |
+308. | מוּקְדָּם | mukdam | early | grammar | time |
+309. | מְאוּחָר | me'ukhar | late | grammar | time |
+310. | יוֹם רִאשׁוֹן | yom rishon | Sunday | noun.m | time,israel |
+311. | יוֹם שֵׁנִי | yom sheni | Monday | noun.m | time,israel |
+312. | יוֹם שְׁלִישִׁי | yom shlishi | Tuesday | noun.m | time,israel |
+313. | יוֹם רְבִיעִי | yom revi'i | Wednesday | noun.m | time,israel |
+314. | יוֹם חֲמִישִׁי | yom khamishi | Thursday | noun.m | time,israel |
+315. | יוֹם שִׁישִּׁי | yom shishi | Friday | noun.m | time,israel |
+316. | שַׁבָּת | shabat | Saturday, the sabbath | noun.f | time,israel,religion |
+317. | סוֹף שָׁבוּעַ | sof shavua | weekend | noun.m | time |
+318. | חַג | khag | holiday, festival | noun.m | time,israel,religion | pl=חַגִּים
+319. | יוֹם הוּלֶדֶת | yom huledet | birthday | noun.m | time |
+320. | תַּאֲרִיךְ | ta'arikh | date | noun.m | time |
+321. | חוֹפֶשׁ | khofesh | holiday, time off; freedom | noun.m | time,travel |
+322. | לְחַכּוֹת | lekhakot | to wait | verb | time | root=ח-כ-ה;binyan=piel
+323. | לְהַתְחִיל | lehatkhil | to start, to begin | verb | time,general | root=ת-ח-ל;binyan=hifil
+324. | לִגְמוֹר | ligmor | to finish | verb | time,general | root=ג-מ-ר;binyan=paal
+325. | לְאַחֵר | le'akher | to be late | verb | time | root=א-ח-ר;binyan=piel
+
+# ---------------------------------------------------------------- the city and getting about
+326. | עִיר | ir | city, town | noun.f | city | pl=עָרִים
+327. | רְחוֹב | rekhov | street | noun.m | city | pl=רְחוֹבוֹת
+328. | כְּתוֹבֶת | ktovet | address | noun.f | city |
+329. | כִּיכָּר | kikar | square; loaf | noun.f | city |
+330. | חֲנוּת | khanut | shop | noun.f | city | pl=חֲנוּיוֹת
+331. | שׁוּק | shuk | market | noun.m | city,israel |
+332. | סוּפֶּרְמַרְקֶט | supermarket | supermarket | noun.m | city,food |
+333. | בַּנְק | bank | bank | noun.m | city,work |
+334. | דּוֹאַר | do'ar | post, post office | noun.m | city |
+335. | בֵּית קָפֶה | beit kafe | cafe | noun.m | city,food |
+336. | מוּזֵיאוֹן | muze'on | museum | noun.m | city |
+337. | סִפְרִיָּיה | sifriya | library | noun.f | city,school |
+338. | גַּן | gan | garden; kindergarten | noun.m | city,nature | pl=גַּנִּים
+339. | בֵּית כְּנֶסֶת | beit knesset | synagogue | noun.m | city,religion |
+340. | תַּחֲנָה | takhana | station, stop | noun.f | city,travel |
+341. | אוֹטוֹבּוּס | otobus | bus | noun.m | travel,city |
+342. | רַכֶּבֶת | rakevet | train | noun.f | travel |
+343. | מוֹנִית | monit | taxi | noun.f | travel,city |
+344. | מְכוֹנִית | mekhonit | car | noun.f | travel |
+345. | אוֹפַנַּיִים | ofanayim | bicycle | noun.pl | travel |
+346. | מָטוֹס | matos | aeroplane | noun.m | travel |
+347. | נְמַל תְּעוּפָה | nemal te'ufa | airport | noun.m | travel |
+348. | כַּרְטִיס | kartis | ticket; card | noun.m | travel,city |
+349. | מַפָּה | mapa | map | noun.f | travel |
+350. | דֶּרֶךְ | derekh | way, road | noun.f | travel,city | pl=דְּרָכִים
+351. | כְּבִישׁ | kvish | road | noun.m | travel,city |
+352. | גֶּשֶׁר | gesher | bridge | noun.m | city |
+353. | מָקוֹם | makom | place | noun.m | city,general | pl=מְקוֹמוֹת
+354. | לָלֶכֶת | lalekhet | to go, to walk | verb | travel | root=ה-ל-כ;binyan=paal
+355. | לָבוֹא | lavo | to come | verb | travel | root=ב-ו-א;binyan=paal
+356. | לִנְסוֹעַ | linsoa | to travel, to ride | verb | travel | root=נ-ס-ע;binyan=paal
+357. | לָטוּס | latus | to fly | verb | travel | root=ט-ו-ס;binyan=paal
+358. | לָצֵאת | latzet | to go out, to leave | verb | travel | root=י-צ-א;binyan=paal
+359. | לְהִיכָּנֵס | lehikanes | to enter, to go in | verb | travel | root=כ-נ-ס;binyan=nifal
+360. | לַעֲבוֹר | la'avor | to pass, to cross; to move house | verb | travel | root=ע-ב-ר;binyan=paal
+361. | לְהַגִּיעַ | lehagia | to arrive | verb | travel | root=נ-ג-ע;binyan=hifil
+362. | לְחַפֵּשׂ | lekhapes | to look for | verb | general | root=ח-פ-ש;binyan=piel
+363. | לִמְצוֹא | limtzo | to find | verb | general | root=מ-צ-א;binyan=paal
+
+# ---------------------------------------------------------------- work and money
+364. | עֲבוֹדָה | avoda | work, job | noun.f | work |
+365. | לַעֲבוֹד | la'avod | to work | verb | work | root=ע-ב-ד;binyan=paal
+366. | מִשְׂרָד | misrad | office | noun.m | work |
+367. | מְנַהֵל / מְנַהֶלֶת | menahel / menahelet | manager | noun.m | work,people |
+368. | עוֹבֵד / עוֹבֶדֶת | oved / ovedet | worker, employee | noun.m | work,people |
+369. | חֶבְרָה | khevra | company; society | noun.f | work |
+370. | מִקְצוֹעַ | miktzoa | profession | noun.m | work | pl=מִקְצוֹעוֹת
+371. | מַשְׂכּוֹרֶת | maskoret | salary | noun.f | work |
+372. | כֶּסֶף | kesef | money; silver | noun.m | work |
+373. | מְחִיר | mekhir | price | noun.m | work,city |
+374. | יָקָר / יְקָרָה | yakar / yekara | expensive; dear | adj | work,city |
+375. | זוֹל / זוֹלָה | zol / zola | cheap | adj | work,city |
+376. | לִקְנוֹת | liknot | to buy | verb | city,work | root=ק-נ-ה;binyan=paal
+377. | לִמְכּוֹר | limkor | to sell | verb | city,work | root=מ-כ-ר;binyan=paal
+378. | לְשַׁלֵּם | leshalem | to pay | verb | work,city | root=ש-ל-ם;binyan=piel
+379. | לַעֲזוֹר | la'azor | to help | verb | work,general | root=ע-ז-ר;binyan=paal
+380. | לְנַסּוֹת | lenasot | to try | verb | general | root=נ-ס-ה;binyan=piel
+381. | לְהַצְלִיחַ | lehatzliakh | to succeed | verb | work | root=צ-ל-ח;binyan=hifil
+382. | לְהִיפָּגֵשׁ | lehipagesh | to meet (each other) | verb | work,people | root=פ-ג-ש;binyan=nifal
+383. | פְּגִישָׁה | pgisha | meeting | noun.f | work |
+384. | מַחְשֵׁב | makhshev | computer | noun.m | work,school |
+385. | טֶלֶפוֹן | telefon | telephone | noun.m | work,general |
+386. | מִכְתָּב | mikhtav | letter (that you post) | noun.m | work,school |
+387. | הוֹדָעָה | hoda'a | message, announcement | noun.f | work |
+388. | עִיתּוֹן | iton | newspaper | noun.m | work,school |
+389. | חֲדָשׁוֹת | khadashot | the news | noun.pl | work,israel |
+
+# ---------------------------------------------------------------- the world outside
+390. | שֶׁמֶשׁ | shemesh | sun | noun.f | nature |
+391. | יָרֵחַ | yareakh | moon | noun.m | nature |
+392. | כּוֹכָב | kokhav | star | noun.m | nature |
+393. | שָׁמַיִים | shamayim | sky, heaven | noun.pl | nature |
+394. | עָנָן | anan | cloud | noun.m | nature |
+395. | גֶּשֶׁם | geshem | rain | noun.m | nature |
+396. | רוּחַ | ruakh | wind; spirit | noun.f | nature | pl=רוּחוֹת
+397. | יָם | yam | sea | noun.m | nature,travel | pl=יַמִּים
+398. | הַר | har | mountain | noun.m | nature | pl=הָרִים
+399. | מִדְבָּר | midbar | desert | noun.m | nature,israel |
+400. | עֵץ | etz | tree; wood | noun.m | nature | pl=עֵצִים
+401. | פֶּרַח | perakh | flower | noun.m | nature | pl=פְּרָחִים
+402. | אֶבֶן | even | stone | noun.f | nature | pl=אֲבָנִים
+403. | אֲדָמָה | adama | earth, ground, soil | noun.f | nature |
+404. | אֵשׁ | esh | fire | noun.f | nature |
+405. | אֲוִויר | avir | air | noun.m | nature |
+406. | מֶזֶג אֲוִויר | mezeg avir | weather | noun.m | nature |
+407. | קַיִץ | kayitz | summer | noun.m | nature,time |
+408. | חוֹרֶף | khoref | winter | noun.m | nature,time |
+409. | אָבִיב | aviv | spring | noun.m | nature,time |
+410. | סְתָיו | stav | autumn | noun.m | nature,time |
+411. | כֶּלֶב / כַּלְבָּה | kelev / kalba | dog | noun.m | animals | pl=כְּלָבִים
+412. | חָתוּל / חֲתוּלָה | khatul / khatula | cat | noun.m | animals |
+413. | סוּס | sus | horse | noun.m | animals |
+414. | צִיפּוֹר | tzipor | bird | noun.f | animals | pl=צִיפּוֹרִים
+415. | חַיָּיה | khaya | animal | noun.f | animals |
+
+# ---------------------------------------------------------------- colours and describing
+416. | צֶבַע | tzeva | colour | noun.m | colours | pl=צְבָעִים
+417. | אָדוֹם / אֲדוּמָּה | adom / aduma | red | adj | colours |
+418. | כָּחוֹל / כְּחוּלָּה | kakhol / kkhula | blue | adj | colours |
+419. | יָרוֹק / יְרוּקָּה | yarok / yeruka | green | adj | colours |
+420. | צָהוֹב / צְהוּבָּה | tzahov / tzehuba | yellow | adj | colours |
+421. | שָׁחוֹר / שְׁחוֹרָה | shakhor / shkhora | black | adj | colours |
+422. | לָבָן / לְבָנָה | lavan / levana | white | adj | colours |
+423. | חוּם / חוּמָּה | khum / khuma | brown | adj | colours |
+424. | אָפוֹר / אֲפוֹרָה | afor / afora | grey | adj | colours |
+425. | וָרוֹד / וְרוּדָּה | varod / vruda | pink | adj | colours |
+426. | כָּתוֹם / כְּתוּמָּה | katom / ktuma | orange (colour) | adj | colours |
+427. | גָּדוֹל / גְּדוֹלָה | gadol / gdola | big | adj | general |
+428. | קָטָן / קְטַנָּה | katan / ktana | small | adj | general |
+429. | אָרוֹךְ / אֲרוּכָּה | arokh / arukha | long | adj | general |
+430. | קָצָר / קְצָרָה | katzar / ktzara | short | adj | general |
+431. | גָּבוֹהַּ / גְּבוֹהָה | gavoha / gvoha | tall, high | adj | general |
+432. | נָמוּךְ / נְמוּכָה | namukh / nemukha | low, short | adj | general |
+433. | חָדָשׁ / חֲדָשָׁה | khadash / khadasha | new | adj | general |
+434. | יָשָׁן / יְשָׁנָה | yashan / yeshana | old (of a thing) | adj | general |
+435. | טוֹב / טוֹבָה | tov / tova | good | adj | general |
+436. | רַע / רָעָה | ra / ra'a | bad | adj | general |
+437. | קַל / קַלָּה | kal / kala | easy; light | adj | general |
+438. | קָשֶׁה / קָשָׁה | kashe / kasha | hard, difficult | adj | general |
+439. | חָשׁוּב / חֲשׁוּבָה | khashuv / khashuva | important | adj | general |
+440. | מְעַנְיֵין / מְעַנְיֶינֶת | me'anyen / me'anyenet | interesting | adj | general |
+441. | נָכוֹן / נְכוֹנָה | nakhon / nekhona | correct, true | adj | general |
+442. | מָלֵא / מְלֵאָה | male / mele'a | full | adj | general |
+443. | רֵיק / רֵיקָה | reik / reika | empty | adj | general |
+444. | נָקִי / נְקִיָּיה | naki / nekiya | clean | adj | general,home |
+445. | מְלוּכְלָךְ / מְלוּכְלֶכֶת | melukhlakh / melukhlekhet | dirty | adj | general,home |
+446. | מָהִיר / מְהִירָה | mahir / mehira | fast | adj | general |
+447. | אִיטִּי / אִיטִּית | iti / itit | slow | adj | general |
+448. | חָזָק / חֲזָקָה | khazak / khazaka | strong | adj | general |
+449. | חַלָּשׁ / חַלָּשָׁה | khalash / khalasha | weak | adj | general |
+450. | דּוֹמֶה / דּוֹמָה | dome / doma | similar | adj | general |
+451. | שׁוֹנֶה / שׁוֹנָה | shone / shona | different | adj | general |
+
+# ---------------------------------------------------------------- feelings and the mind
+452. | לֶאֱהוֹב | le'ehov | to love, to like | verb | feelings | root=א-ה-ב;binyan=paal
+453. | לִשְׂנוֹא | lisno | to hate | verb | feelings | root=ש-נ-א;binyan=paal
+454. | לִרְצוֹת | lirtzot | to want | verb | feelings | root=ר-צ-ה;binyan=paal
+455. | לָדַעַת | lada'at | to know (a fact) | verb | feelings,school | root=י-ד-ע;binyan=paal
+456. | לְהַכִּיר | lehakir | to know (a person or place) | verb | feelings,people | root=נ-כ-ר;binyan=hifil
+457. | לַחְשׁוֹב | lakhshov | to think | verb | feelings | root=ח-ש-ב;binyan=paal
+458. | לְקַווֹת | lekavot | to hope | verb | feelings | root=ק-ו-ה;binyan=piel
+459. | לְפַחֵד | lefakhed | to be afraid | verb | feelings | root=פ-ח-ד;binyan=piel
+460. | לִדְאוֹג | lid'og | to worry | verb | feelings | root=ד-א-ג;binyan=paal
+461. | לִצְחוֹק | litzkhok | to laugh | verb | feelings | root=צ-ח-ק;binyan=paal
+462. | לִבְכּוֹת | livkot | to cry | verb | feelings | root=ב-כ-ה;binyan=paal
+463. | לְהִתְגַּעְגֵּעַ | lehitga'age'a | to miss (someone) | verb | feelings | root=ג-ע-ג-ע;binyan=hitpael
+464. | שָׂמֵחַ / שְׂמֵחָה | sameakh / smekha | happy | adj | feelings |
+465. | עָצוּב / עֲצוּבָה | atzuv / atzuva | sad | adj | feelings |
+466. | כּוֹעֵס / כּוֹעֶסֶת | ko'es / ko'eset | angry | adj | feelings |
+467. | עָיֵיף / עֲיֵיפָה | ayef / ayefa | tired | adj | feelings,health |
+468. | מְפוּחָד / מְפוּחֶדֶת | mefukhad / mefukhedet | frightened | adj | feelings |
+469. | נִרְגָּשׁ / נִרְגֶּשֶׁת | nirgash / nirgeshet | excited, moved | adj | feelings |
+470. | שָׂמֵחַ מְאוֹד | sameakh me'od | delighted | phrase | feelings |
+471. | אַהֲבָה | ahava | love | noun.f | feelings |
+472. | פַּחַד | pakhad | fear | noun.m | feelings |
+473. | שִׂמְחָה | simkha | joy; a celebration | noun.f | feelings |
+474. | רַעְיוֹן | ra'ayon | idea | noun.m | feelings,school | pl=רַעְיוֹנוֹת
+475. | דֵּעָה | de'a | opinion | noun.f | feelings |
+476. | חֲלוֹם | khalom | dream | noun.m | feelings | pl=חֲלוֹמוֹת
+477. | סוֹד | sod | secret | noun.m | feelings | pl=סוֹדוֹת
+
+# ---------------------------------------------------------------- clothes
+478. | בֶּגֶד | beged | garment, item of clothing | noun.m | clothes | pl=בְּגָדִים
+479. | חוּלְצָה | khultza | shirt, top | noun.f | clothes |
+480. | מִכְנָסַיִים | mikhnasayim | trousers | noun.pl | clothes |
+481. | שִׂמְלָה | simla | dress | noun.f | clothes |
+482. | חֲצָאִית | khatza'it | skirt | noun.f | clothes |
+483. | נַעַל | na'al | shoe | noun.f | clothes | pl=נַעֲלַיִים
+484. | גֶּרֶב | gerev | sock | noun.m | clothes | pl=גַּרְבַּיִים
+485. | מְעִיל | me'il | coat | noun.m | clothes |
+486. | כּוֹבַע | kova | hat | noun.m | clothes |
+487. | מִשְׁקָפַיִים | mishkafayim | glasses | noun.pl | clothes |
+488. | שָׁעוֹן | sha'on | watch, clock | noun.m | clothes,time |
+489. | תִּיק | tik | bag; file | noun.m | clothes,school |
+490. | לִלְבּוֹשׁ | lilbosh | to wear, to put on | verb | clothes | root=ל-ב-ש;binyan=paal
+491. | לְהִתְלַבֵּשׁ | lehitlabesh | to get dressed | verb | clothes | root=ל-ב-ש;binyan=hitpael
+
+# ---------------------------------------------------------------- the verbs you cannot avoid
+492. | לִהְיוֹת | lihyot | to be | verb | grammar | root=ה-י-ה;binyan=paal
+493. | לָתֵת | latet | to give | verb | general | root=נ-ת-ן;binyan=paal
+494. | לָקַחַת | lakakhat | to take | verb | general | root=ל-ק-ח;binyan=paal
+495. | לָשִׂים | lasim | to put | verb | general | root=ש-י-ם;binyan=paal
+496. | לַעֲשׂוֹת | la'asot | to do, to make | verb | general | root=ע-ש-ה;binyan=paal
+497. | לִרְאוֹת | lir'ot | to see | verb | general | root=ר-א-ה;binyan=paal
+498. | לִשְׁמוֹעַ | lishmoa | to hear | verb | general | root=ש-מ-ע;binyan=paal
+499. | לְהַקְשִׁיב | lehakshiv | to listen | verb | general | root=ק-ש-ב;binyan=hifil
+500. | לְדַבֵּר | ledaber | to speak | verb | general | root=ד-ב-ר;binyan=piel
+501. | לוֹמַר | lomar | to say | verb | general | root=א-מ-ר;binyan=paal
+502. | לְסַפֵּר | lesaper | to tell, to recount | verb | general | root=ס-פ-ר;binyan=piel
+503. | לִשְׁאוֹל שְׁאֵלָה | lish'ol she'ela | to ask a question | phrase | school |
+504. | לָשֶׁבֶת | lashevet | to sit | verb | general | root=י-ש-ב;binyan=paal
+505. | לַעֲמוֹד | la'amod | to stand | verb | general | root=ע-מ-ד;binyan=paal
+506. | לָרוּץ | larutz | to run | verb | general | root=ר-ו-צ;binyan=paal
+507. | לִשְׂחוֹת | liskhot | to swim | verb | general | root=ש-ח-ה;binyan=paal
+508. | לִפְגּוֹשׁ | lifgosh | to meet (someone) | verb | people | root=פ-ג-ש;binyan=paal
+509. | לְהַרְאוֹת | lehar'ot | to show | verb | general | root=ר-א-ה;binyan=hifil
+510. | לְחַכּוֹת לְ | lekhakot le | to wait for | phrase | time |
+511. | לִשְׁמוֹר | lishmor | to keep, to guard | verb | general | root=ש-מ-ר;binyan=paal
+512. | לְהַחְזִיר | lehakhzir | to give back | verb | general | root=ח-ז-ר;binyan=hifil
+513. | לְהַשְׁאִיר | lehash'ir | to leave (something) | verb | general | root=ש-א-ר;binyan=hifil
+514. | לִסְגּוֹר אֶת | lisgor et | to close something | phrase | general |
+515. | לְהִשְׁתַּמֵּשׁ | lehishtamesh | to use | verb | general | root=ש-מ-ש;binyan=hitpael
+516. | לְהַחְלִיט | lehakhlit | to decide | verb | general | root=ח-ל-ט;binyan=hifil
+517. | לְהַסְכִּים | lehaskim | to agree | verb | general | root=ס-כ-ם;binyan=hifil
+518. | לְהִתְחַתֵּן | lehitkhaten | to get married | verb | family | root=ח-ת-ן;binyan=hitpael
+519. | לְהִשְׁתַּנּוֹת | lehishtanot | to change (by itself) | verb | general | root=ש-נ-ה;binyan=hitpael
+520. | לְשַׁנּוֹת | leshanot | to change (something) | verb | general | root=ש-נ-ה;binyan=piel
+
+# ---------------------------------------------------------------- prepositions and connectors
+521. | שֶׁל | shel | of, belonging to | grammar | grammar |
+522. | אֶת | et | (marks a definite object) | grammar | grammar |
+523. | בְּ | be | in, at, with (a tool) | grammar | grammar |
+524. | לְ | le | to, for | grammar | grammar |
+525. | מִן | min | from | grammar | grammar |
+526. | עִם | im | with | grammar | grammar |
+527. | עַל | al | on, about | grammar | grammar |
+528. | תַּחַת | takhat | under | grammar | grammar |
+529. | מִתַּחַת לְ | mitakhat le | underneath | phrase | grammar |
+530. | מֵעַל | me'al | above | grammar | grammar |
+531. | לִפְנֵי | lifnei | before; in front of | grammar | grammar,time |
+532. | אַחֲרֵי | akharei | after; behind | grammar | grammar,time |
+533. | בֵּין | bein | between | grammar | grammar |
+534. | לְיַד | leyad | next to | grammar | grammar |
+535. | מוּל | mul | opposite, facing | grammar | grammar |
+536. | בְּתוֹךְ | betokh | inside | grammar | grammar |
+537. | מִחוּץ לְ | mikhutz le | outside of | phrase | grammar |
+538. | אֵצֶל | etzel | at someone's place | grammar | grammar |
+539. | בִּשְׁבִיל | bishvil | for (the sake of) | grammar | grammar |
+540. | כְּמוֹ | kmo | like, as | grammar | grammar |
+541. | עַד | ad | until, up to | grammar | grammar,time |
+542. | מֵאָז | me'az | since | grammar | grammar,time |
+543. | בְּמֶשֶׁךְ | bemeshekh | during, for (a length of time) | grammar | grammar,time |
+544. | אֶל | el | to, towards | grammar | grammar |
+545. | וְ | ve | and | connector | connectors |
+546. | אֲבָל | aval | but | connector | connectors |
+547. | אוֹ | o | or | connector | connectors |
+548. | כִּי | ki | because | connector | connectors |
+549. | בִּגְלַל | biglal | because of | connector | connectors |
+550. | מִפְּנֵי שֶׁ | mipnei she | because (formal) | connector | connectors |
+551. | לָכֵן | lakhen | therefore, so | connector | connectors |
+552. | אָז | az | so, then | connector | connectors |
+553. | כְּדֵי | kdei | in order to | connector | connectors |
+554. | אִם | im | if | connector | connectors |
+555. | כַּאֲשֶׁר | ka'asher | when (formal) | connector | connectors |
+556. | כְּשֶׁ | kshe | when | connector | connectors |
+557. | שֶׁ | she | that; who, which | connector | connectors,grammar |
+558. | אֲשֶׁר | asher | which, that (formal) | connector | connectors,grammar |
+559. | לַמְרוֹת | lamrot | despite | connector | connectors |
+560. | אַף עַל פִּי שֶׁ | af al pi she | although | connector | connectors |
+561. | בְּעוֹד שֶׁ | be'od she | while, whereas | connector | connectors |
+562. | גַּם וְגַם | gam vegam | both and | phrase | connectors |
+563. | לֹא רַק אֶלָּא גַּם | lo rak ela gam | not only but also | phrase | connectors |
+564. | אֶלָּא | ela | but rather | connector | connectors |
+565. | בְּכָל זֹאת | bekhol zot | nevertheless | phrase | connectors |
+566. | קוֹדֶם כֹּל | kodem kol | first of all | phrase | connectors |
+567. | לְבַסּוֹף | levasof | finally | connector | connectors,time |
+568. | לְמָשָׁל | lemashal | for example | phrase | connectors |
+569. | בְּעִיקָּר | be'ikar | mainly | phrase | connectors |
+570. | יוֹתֵר | yoter | more | grammar | grammar |
+571. | פָּחוֹת | pakhot | less | grammar | grammar |
+572. | הֲכִי | hakhi | the most | grammar | grammar |
+
+# ---------------------------------------------------------------- Israel, and what people say
+573. | יִשְׂרָאֵל | yisra'el | Israel | noun.f | israel |
+574. | יִשְׂרְאֵלִי / יִשְׂרְאֵלִית | yisre'eli / yisre'elit | Israeli | adj | israel |
+575. | יְרוּשָׁלַיִים | yerushalayim | Jerusalem | noun.f | israel,city |
+576. | תֵּל אָבִיב | tel aviv | Tel Aviv | noun.f | israel,city |
+577. | חֵיפָה | kheifa | Haifa | noun.f | israel,city |
+578. | הַנֶּגֶב | hanegev | the Negev | noun.m | israel,nature |
+579. | כִּינֶּרֶת | kineret | the Sea of Galilee | noun.f | israel,nature |
+580. | יְהוּדִי / יְהוּדִיָּיה | yehudi / yehudiya | Jewish; a Jew | adj | israel,religion |
+581. | עֲרָבִי / עֲרָבִיָּיה | aravi / araviya | Arab; Arabic | adj | israel |
+582. | רֹאשׁ הַשָּׁנָה | rosh hashana | the Jewish new year | noun.m | israel,religion,time |
+583. | יוֹם כִּיפּוּר | yom kipur | the Day of Atonement | noun.m | israel,religion,time |
+584. | פֶּסַח | pesakh | Passover | noun.m | israel,religion,time |
+585. | חֲנוּכָּה | khanuka | Hanukkah | noun.f | israel,religion,time |
+586. | בֵּית כְּנֶסֶת גָּדוֹל | beit knesset gadol | a large synagogue | phrase | religion |
+587. | כְּנֶסֶת | kneset | the Israeli parliament | noun.f | israel |
+588. | צָבָא | tzava | army | noun.m | israel,work |
+589. | מִילּוּאִים | milu'im | reserve duty | noun.pl | israel |
+590. | אוּלְפָּן | ulpan | Hebrew language school | noun.m | israel,school |
+591. | עוֹלֶה חָדָשׁ / עוֹלָה חֲדָשָׁה | ole khadash / ola khadasha | a new immigrant to Israel | noun.m | israel,people |
+592. | סַבָּא וְסַבְתָּא | saba vesavta | grandparents | phrase | family |
+593. | בְּעֶזְרַת הַשֵּׁם | be'ezrat hashem | God willing | phrase | israel,religion,slang |
+594. | חֲבָל עַל הַזְּמַן | khaval al hazman | amazing (literally: a waste of time) | phrase | slang |
+595. | סַבָּבָּה | sababa | great, cool | phrase | slang |
+596. | יַאלְלָה | yalla | come on, let's go | phrase | slang |
+597. | אַחְלָה | akhla | great, excellent | phrase | slang |
+598. | בַּלָּגָן | balagan | a mess, chaos | noun.m | slang |
+599. | סְתָם | stam | just, for no reason | phrase | slang |
+600. | דַּוְוקָא | davka | precisely, of all things | phrase | slang |
+601. | עַל הַפָּנִים | al hapanim | awful (literally: on the face) | phrase | slang |
+602. | סוֹף סוֹף | sof sof | at last | phrase | phrases |
+603. | בְּכֵיף | bekeif | with pleasure | phrase | slang |
+604. | מַה פִּתְאוֹם | ma pit'om | what do you mean, no way | phrase | slang |
+605. | לֹא נוֹרָא | lo nora | never mind, it is not so bad | phrase | phrases |
+606. | אֵין בְּעָיָיה | ein be'aya | no problem | phrase | phrases |
+607. | בְּעָיָיה | be'aya | problem | noun.f | general |
+608. | פָּשׁוּט / פְּשׁוּטָה | pashut / pshuta | simple; simply | adj | general |
+609. | מוּכָן / מוּכָנָה | mukhan / mukhana | ready | adj | general |
+610. | אֶפְשָׁר | efshar | it is possible, one can | phrase | grammar |
+611. | אִי אֶפְשָׁר | i efshar | it is impossible | phrase | grammar |
+612. | צָרִיךְ / צְרִיכָה | tzarikh / tzrikha | need to, must | adj | grammar |
+613. | יָכוֹל / יְכוֹלָה | yakhol / yekhola | can, able to | adj | grammar |
+614. | מוּתָּר | mutar | it is allowed | phrase | grammar |
+615. | אָסוּר | asur | it is forbidden | phrase | grammar |
+616. | כְּדַאי | kedai | it is worth it | phrase | grammar |
+
+# ---------------------------------------------------------------- things, and abstract nouns
+617. | דָּבָר | davar | thing | noun.m | general | pl=דְּבָרִים
+618. | חֵלֶק | khelek | part | noun.m | general | pl=חֲלָקִים
+619. | סוֹף | sof | end | noun.m | general,time |
+620. | הַתְחָלָה | hatkhala | beginning | noun.f | general,time |
+621. | אֶמְצַע | emtza | middle | noun.m | general |
+622. | צַד | tzad | side | noun.m | general | pl=צְדָדִים
+623. | סִיבָּה | siba | reason | noun.f | general |
+624. | מַטָּרָה | matara | goal, purpose | noun.f | general,work |
+625. | דֶּרֶךְ חַיִּים | derekh khayim | a way of life | phrase | phrases |
+626. | חַיִּים | khayim | life | noun.pl | general |
+627. | מָוֶות | mavet | death | noun.m | general |
+628. | עוֹלָם | olam | world | noun.m | general | pl=עוֹלָמוֹת
+629. | אֶרֶץ | eretz | country, land | noun.f | general,israel | pl=אֲרָצוֹת
+630. | הָאָרֶץ | ha'aretz | the Land, Israel | noun.f | israel |
+631. | מְדִינָה | medina | state, country | noun.f | israel,general |
+632. | עַם | am | a people, a nation | noun.m | israel,people | pl=עַמִּים
+633. | הִיסְטוֹרְיָה | historya | history | noun.f | school |
+634. | תַּרְבּוּת | tarbut | culture | noun.f | school,israel |
+635. | אוֹמָנוּת | omanut | art | noun.f | school |
+636. | מוּסִיקָה | musika | music | noun.f | general |
+637. | שִׁיר | shir | song; poem | noun.m | general | pl=שִׁירִים
+638. | סֶרֶט | seret | film; ribbon | noun.m | general | pl=סְרָטִים
+639. | סִיפּוּר | sipur | story | noun.m | school |
+640. | תְּמוּנָה | tmuna | picture, photograph | noun.f | general |
+641. | מַתָּנָה | matana | present, gift | noun.f | general |
+642. | מְסִיבָּה | mesiba | party | noun.f | general |
+643. | טִיּוּל | tiyul | trip, hike | noun.m | travel |
+644. | מַשֶּׁהוּ | mashehu | something | grammar | grammar |
+645. | מִישֶׁהוּ | mishehu | someone | grammar | grammar,people |
+646. | אֵיפְשֶׁהוּ | eifshehu | somewhere | grammar | grammar |
+647. | הַרְבֵּה זְמַן | harbe zman | a long time | phrase | time |
+
+# ---------------------------------------------------------------- more verbs worth having early
+648. | לְבַקֵּשׁ | levakesh | to ask for, to request | verb | general | root=ב-ק-ש;binyan=piel
+649. | לְהָבִיא | lehavi | to bring | verb | general | root=ב-ו-א;binyan=hifil
+650. | לִשְׁלוֹחַ | lishloakh | to send | verb | general | root=ש-ל-ח;binyan=paal
+651. | לְקַבֵּל | lekabel | to receive, to get | verb | general | root=ק-ב-ל;binyan=piel
+652. | לְהַרְאוֹת לוֹ | lehar'ot lo | to show him | phrase | general |
+653. | לִבְחוֹר | livkhor | to choose | verb | general | root=ב-ח-ר;binyan=paal
+654. | לְהַסְבִּיר שׁוּב | lehasbir shuv | to explain again | phrase | school |
+655. | לִסְבּוֹל | lisbol | to suffer; to stand, to bear | verb | feelings,health | root=ס-ב-ל;binyan=paal
+656. | לְהִתְרַגֵּל | lehitragel | to get used to | verb | feelings | root=ר-ג-ל;binyan=hitpael
+657. | לְהִתְעוֹרֵר | lehit'orer | to wake up | verb | home,health | root=ע-ו-ר;binyan=hitpael
+658. | לְהִתְרַחֵץ | lehitrakhetz | to wash oneself | verb | home,body | root=ר-ח-צ;binyan=hitpael
+659. | לִסְפּוֹר | lispor | to count | verb | numbers | root=ס-פ-ר;binyan=paal
+660. | לְטַיֵּיל | letayel | to travel around, to hike | verb | travel | root=ט-י-ל;binyan=piel
+661. | לְשַׂחֵק | lesakhek | to play | verb | general | root=ש-ח-ק;binyan=piel
+662. | לָשִׁיר | lashir | to sing | verb | general | root=ש-י-ר;binyan=paal
+663. | לִרְקוֹד | lirkod | to dance | verb | general | root=ר-ק-ד;binyan=paal
+664. | לְצַלֵּם | letzalem | to photograph | verb | general | root=צ-ל-ם;binyan=piel
+665. | לְטַפֵּל | letapel | to look after, to treat | verb | health,family | root=ט-פ-ל;binyan=piel
+666. | לְהִתְקַשֵּׁר | lehitkasher | to call (on the phone) | verb | work,general | root=ק-ש-ר;binyan=hitpael
+667. | לְהוֹדִיעַ | lehodia | to inform, to let know | verb | work | root=י-ד-ע;binyan=hifil
+668. | לְהַזְכִּיר | lehazkir | to remind; to mention | verb | general | root=ז-כ-ר;binyan=hifil
+669. | לְהִיזָּכֵר | lehizakher | to recall, to come to mind | verb | general | root=ז-כ-ר;binyan=nifal
+670. | לְהִימָּצֵא | lehimatze | to be found, to be located | verb | general | root=מ-צ-א;binyan=nifal
+671. | לְהִיוָּלֵד | lehivaled | to be born | verb | family | root=י-ל-ד;binyan=nifal
+672. | לָמוּת | lamut | to die | verb | general | root=מ-ו-ת;binyan=paal
+673. | לַחְיוֹת | likhyot | to live, to be alive | verb | general | root=ח-י-ה;binyan=paal
+674. | לְהַרְוִויחַ | leharviakh | to earn, to gain | verb | work | root=ר-ו-ח;binyan=hifil
+675. | לְהַפְסִיד | lehafsid | to lose (a game, money) | verb | work,general | root=פ-ס-ד;binyan=hifil
+676. | לְאַבֵּד | le'abed | to lose (an object) | verb | general | root=א-ב-ד;binyan=piel
+677. | לְהַפְסִיק | lehafsik | to stop | verb | general | root=פ-ס-ק;binyan=hifil
+678. | לְהַמְשִׁיךְ | lehamshikh | to continue | verb | general | root=מ-ש-כ;binyan=hifil
+679. | לְהִתְחַיֵּיב | lehitkhayev | to commit oneself | verb | work | root=ח-י-ב;binyan=hitpael
+680. | לְהַגִּיד | lehagid | to say, to tell | verb | general | root=נ-ג-ד;binyan=hifil
+
+# ---------------------------------------------------------------- odds and ends
+681. | מַשֶּׁהוּ אַחֵר | mashehu akher | something else | phrase | phrases |
+682. | אַחֵר / אַחֶרֶת | akher / akheret | other, another | adj | general |
+683. | אוֹתוֹ / אוֹתָהּ | oto / ota | the same; him / her | grammar | grammar |
+684. | עַצְמִי | atzmi | myself | grammar | grammar |
+685. | בְּיַחַד | beyakhad | together | phrase | general |
+686. | לְבַד | levad | alone | grammar | general |
+687. | בֶּאֱמֶת | be'emet | really, truly | phrase | general |
+688. | אֱמֶת | emet | truth | noun.f | general |
+689. | שֶׁקֶר | sheker | a lie | noun.m | general |
+690. | חָבָל | khaval | what a shame | phrase | phrases |
+691. | לְפָחוֹת | lefakhot | at least | phrase | grammar |
+692. | לְכָל הַיּוֹתֵר | lekhol hayoter | at most | phrase | grammar |
+693. | בְּעֶרֶךְ | be'erekh | approximately | phrase | numbers |
+694. | בְּכָל מִקְרֶה | bekhol mikre | in any case | phrase | connectors |
+695. | לְדַעְתִּי | leda'ti | in my opinion | phrase | phrases |
+696. | נִרְאֶה לִי | nir'e li | it seems to me | phrase | phrases |
+697. | לְפִי | lefi | according to | grammar | grammar |
+698. | בְּקִיצּוּר | bekitzur | in short | phrase | connectors |
+699. | לְמַעֲשֶׂה | lema'ase | in practice, actually | phrase | connectors |
+700. | מִצַּד אֶחָד | mitzad ekhad | on the one hand | phrase | connectors |
+701. | מִצַּד שֵׁנִי | mitzad sheni | on the other hand | phrase | connectors |
+702. | בְּכָל אוֹפֶן | bekhol ofen | in any event | phrase | connectors |
+703. | תָּלוּי | talui | it depends | phrase | phrases |
+704. | אֵין לִי מוּשָׂג | ein li musag | I have no idea | phrase | phrases,slang |
+705. | תֵּן לִי / תְּנִי לִי | ten li / tni li | give me | phrase | phrases |
+706. | בּוֹא נֵלֵךְ | bo nelekh | let's go | phrase | phrases |
+707. | רֶגַע | rega | a moment; just a second | noun.m | time,phrases |
+708. | תֵּיכֶף | teikhef | in a moment, shortly | grammar | time |
+709. | מִיָּד | miyad | immediately | grammar | time |
+710. | לְאַט | le'at | slowly | grammar | general |
+711. | מַהֵר | maher | quickly | grammar | general |
+712. | יָמִינָה | yamina | to the right | grammar | travel |
+713. | שְׂמֹאלָה | smola | to the left | grammar | travel |
+714. | יָשָׁר | yashar | straight ahead; honest | grammar | travel |
+715. | קָרוֹב / קְרוֹבָה | karov / krova | near, close | adj | travel,general |
+716. | רָחוֹק / רְחוֹקָה | rakhok / rekhoka | far | adj | travel,general |
+717. | שָׁם | sham | there | grammar | grammar |
+718. | כָּאן | kan | here | grammar | grammar |
+719. | פֹּה | po | here (colloquial) | grammar | grammar |
+720. | לְמַעְלָה | lema'la | up, above | grammar | grammar |
+721. | לְמַטָּה | lemata | down, below | grammar | grammar |
+722. | בַּחוּץ | bakhutz | outside | grammar | grammar,home |
+723. | בִּפְנִים | bifnim | inside | grammar | grammar,home |
+724. | מִסָּבִיב | misaviv | around | grammar | grammar |

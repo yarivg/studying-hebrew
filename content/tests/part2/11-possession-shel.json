@@ -1,0 +1,90 @@
+{
+ "ch": "possession-shel",
+ "title": "Possession: shel and the endings",
+ "questions": [
+  { "id": "possession-shel-01", "type": "mcq",
+    "q": "How do you say \"my book\" the way it is said out loud?",
+    "choices": ["הַסֵּפֶר שֶׁלִּי", "סֵפֶר שֶׁלִּי", "שֶׁלִּי הַסֵּפֶר", "הַסֵּפֶר שֶׁל אֲנִי"],
+    "a": 0,
+    "why": "The possessive follows the noun, and the noun keeps its הַ: literally \"the book of mine\". שֶׁל never takes a free pronoun after it, so שֶׁל אֲנִי does not exist; the pronoun becomes an ending." },
+
+  { "id": "possession-shel-02", "type": "mcq",
+    "q": "Which form of שֶׁל means \"his\"?",
+    "choices": ["שֶׁלּוֹ", "שֶׁלָּהּ", "שֶׁלְּךָ", "שֶׁלָּהֶם"],
+    "a": 0,
+    "why": "These are the same endings that go on לְ, so לוֹ gives שֶׁלּוֹ and לָהּ gives שֶׁלָּהּ. The ה of שֶׁלָּהּ is silent, so his and hers are told apart on the page by one letter and in speech by /o/ against /a/." },
+
+  { "id": "possession-shel-03", "type": "mcq",
+    "q": "What is wrong with סֵפֶר שֶׁלִּי?",
+    "choices": ["the noun needs its article: הַסֵּפֶר שֶׁלִּי", "the ending on שֶׁל is the wrong one", "the two words are in the wrong order", "nothing, that is the normal way to say it"],
+    "a": 0,
+    "why": "English drops \"the\" in front of \"my\", and Hebrew does not: the thing is definite, so it is marked definite. סֵפֶר שֶׁלִּי is not a slip but a different sentence, \"a book of mine\"." },
+
+  { "id": "possession-shel-04", "type": "fill",
+    "q": "Write \"your computer\", speaking to a man, using the noun מַחְשֵׁב.",
+    "a": ["הַמַּחְשֵׁב שֶׁלְּךָ"],
+    "why": "Noun with its article, then the שֶׁל form: הַמַּחְשֵׁב שֶׁלְּךָ. The ־ְךָ ending is the masculine \"your\" across the whole system, the same one in לְךָ and בִּשְׁבִילְךָ." },
+
+  { "id": "possession-shel-05", "type": "fill",
+    "q": "Write \"her flat\", using the noun דִּירָה.",
+    "a": ["הַדִּירָה שֶׁלָּהּ"],
+    "why": "שֶׁל carries the gender of the owner, never of the thing owned: דִּירָה is feminine but that changes nothing here, and a man's flat would be הַדִּירָה שֶׁלּוֹ with the very same noun." },
+
+  { "id": "possession-shel-06", "type": "order",
+    "q": "Build the phrase: my new book",
+    "words": ["הַסֵּפֶר", "הֶחָדָשׁ", "שֶׁלִּי"],
+    "a": ["הַסֵּפֶר", "הֶחָדָשׁ", "שֶׁלִּי"],
+    "why": "Definiteness has to agree, so the adjective repeats the ה, and שֶׁלִּי goes last of all. Putting it between the noun and the adjective, הַסֵּפֶר שֶׁלִּי הֶחָדָשׁ, is the usual English speaker's order and it is wrong." },
+
+  { "id": "possession-shel-07", "type": "listen",
+    "say": "הַכֶּלֶב שֶׁלָּהֶם",
+    "q": "Type what you hear.",
+    "a": ["הַכֶּלֶב שֶׁלָּהֶם"],
+    "why": "שֶׁלָּהֶם is the masculine plural \"their\", built on לָהֶם, and the feminine שֶׁלָּהֶן is rare in speech because a mixed group counts as masculine. The article on the noun is audible as the /ha/ in front." },
+
+  { "id": "possession-shel-08", "type": "say",
+    "q": "Say \"his friends\".",
+    "target": "הַחֲבֵרִים שֶׁלּוֹ",
+    "why": "The noun is plural, שֶׁל is not: the possessive agrees with the owner, so a plural noun changes nothing. Stress both words on the last syllable, chave-RIM she-LO." },
+
+  { "id": "possession-shel-09", "type": "mcq",
+    "q": "What does בֵּיתוֹ mean?",
+    "choices": ["his house", "my house", "her house", "their house"],
+    "a": 0,
+    "why": "The older construction glues the ending straight onto the noun, and ־וֹ is \"his\" there just as it is in שֶׁלּוֹ. בֵּיתוֹ and הַבַּיִת שֶׁלּוֹ mean the same thing; only the register differs." },
+
+  { "id": "possession-shel-10", "type": "fill",
+    "q": "Rewrite בֵּיתוֹ the way it is said in speech, with שֶׁל.",
+    "a": ["הַבַּיִת שֶׁלּוֹ"],
+    "why": "This is the direction worth practising: recognise the suffix, produce the שֶׁל form. Note that the article reappears, because the definiteness that was carried by the ending has to be written once the ending is gone." },
+
+  { "id": "possession-shel-11", "type": "mcq",
+    "q": "Why is \"my book\" סִפְרִי and not סֵפֶרִי?",
+    "choices": ["the ending attaches to a stem, and סֵפֶר reshuffles to סִפְר, exactly as it does in סְפָרִים", "the ־ִי ending always deletes the last vowel of any noun", "סֵפֶרִי is correct too, just less common", "the stem changes only in the third person"],
+    "a": 0,
+    "why": "The dictionary form is not what the ending lands on. סֵפֶר is a segolate noun whose stem is סִפְר, which is why the plural is סְפָרִים and the possessive is סִפְרִי, סִפְרְךָ, סִפְרוֹ." },
+
+  { "id": "possession-shel-12", "type": "mcq",
+    "q": "Which of these means \"her books\"?",
+    "choices": ["סְפָרֶיהָ", "סְפָרָיו", "סְפָרַיי", "סְפָרֵינוּ"],
+    "a": 0,
+    "why": "On a plural noun the endings all contain a yod, and the ־ֶיהָ is \"her\" against the ־ָיו that is \"his\". With the points off they are ספריה and ספריו, one letter apart, and only the sentence around them decides." },
+
+  { "id": "possession-shel-13", "type": "mcq",
+    "q": "Why does אִמִּי not sound bookish in ordinary speech, when סִפְרִי does?",
+    "choices": ["family words keep the old endings even in conversation", "nouns of two letters always take the ending", "it is an abbreviation of אִימָּא שֶׁלִּי", "it is bookish too, and nobody says it"],
+    "a": 0,
+    "why": "The suffixed form is formal except in a few pockets, and family is the biggest: אִמִּי, אָבִי, אָחִי, אֲחוֹתִי, בְּנִי, בִּתִּי. אִימָּא שֶׁלִּי is still more casual, the way \"my mum\" is next to \"my mother\"." },
+
+  { "id": "possession-shel-14", "type": "mcq",
+    "q": "What does לְדַעְתִּי mean?",
+    "choices": ["in my opinion", "in my view of the law", "to my knowledge of him", "as I was told"],
+    "a": 0,
+    "why": "This belongs to the set phrases that froze with the old ending on them, alongside לְמַזָּלִי, luckily for me, and בִּרְשׁוּתְךָ, with your permission. Learn them as vocabulary rather than working them out as grammar." },
+
+  { "id": "possession-shel-15", "type": "open",
+    "q": "Explain the division of labour between הַסֵּפֶר שֶׁלִּי and סִפְרִי, and say what happens to the article in each.",
+    "a": ["הַסֵּפֶר שֶׁלִּי is the spoken form and the one to produce: the noun keeps its הַ, and שֶׁל takes the pronoun ending. סִפְרִי is the older form, still alive in writing, poetry and formal registers: the ending goes on the noun itself, the noun changes shape before it, and no article is written because the ending already makes it definite. Recognise the second, produce the first. The exceptions that are spoken are the family words (אִמִּי, אָבִי, אָחִי, בְּנִי), body parts inside idioms (בְּעֵינַיי, בְּלִיבִּי) and set phrases (לְדַעְתִּי, לְמַזָּלִי)."],
+    "why": "Splitting the two by register is what keeps this chapter manageable: one table has to be active, the other only has to be readable." }
+ ]
+}

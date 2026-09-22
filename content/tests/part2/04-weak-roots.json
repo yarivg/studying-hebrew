@@ -1,0 +1,89 @@
+{
+ "ch": "weak-roots",
+ "title": "Weak roots",
+ "questions": [
+  { "id": "weak-roots-01", "type": "mcq",
+    "q": "What makes a root \"weak\"?",
+    "choices": ["it contains a letter that cannot do what the pattern asks of it", "it is irregular and has to be memorised form by form", "it has only two letters instead of three", "it belongs to a binyan other than pa'al"],
+    "a": 0,
+    "why": "Nothing here is irregular. It is the pattern you already know, coping with a letter that cannot hold the position it has been put in: א ה ח ע ר refuse a dagesh, ו and י melt into the vowel beside them, and a נ with no vowel of its own is swallowed by the next letter." },
+
+  { "id": "weak-roots-02", "type": "mcq",
+    "q": "Why is there no ה anywhere in רָאִיתִי, \"I saw\", when רָאָה has one?",
+    "choices": ["the root's third letter is י, and the ה of רָאָה is only a vowel letter", "the ה drops out in the first person of every verb", "the ה moved to the front of the word", "רָאִיתִי comes from a different root"],
+    "a": 0,
+    "why": "In the ל\"ה family the historic third letter is י. The ה you see marks the final a and nothing else, so as soon as an ending is attached it has no job left and leaves: רָאָה but רָאִיתִי, קָנָה but קָנִיתִי." },
+
+  { "id": "weak-roots-03", "type": "fill",
+    "q": "Write \"I bought\", from לִקְנוֹת.",
+    "a": ["קָנִיתִי"],
+    "why": "Every ל\"ה verb makes its first person past in ־ִיתִי: רָאִיתִי, קָנִיתִי, רָצִיתִי. Two shapes, ־ֶה in the masculine present and ־ִיתִי here, cover an enormous number of very common verbs." },
+
+  { "id": "weak-roots-04", "type": "mcq",
+    "q": "The future of לִנְסוֹעַ for אֲנִי is אֶסַּע. Where did the נ go?",
+    "choices": ["it assimilated into the ס and is now the dagesh inside it", "it was dropped because it is hard to say", "it moved to the end of the word", "it became the אֶ of the prefix"],
+    "a": 0,
+    "why": "In the future the נ would have to close a syllable with no vowel of its own, so instead it merges forward into the next letter and reappears as a dot. The same thing happens in אֶקַּח, where the offender is a ל: לָקַח is not a פ\"נ verb at all, its root is ל-ק-ח, but that ל behaves like one." },
+
+  { "id": "weak-roots-05", "type": "fill",
+    "q": "Write \"I got up\", from לָקוּם.",
+    "a": ["קַמְתִּי"],
+    "why": "The middle letter of an ע\"ו root is never a consonant, so only two consonants ever surface and the words stay very short: קַמְתִּי, גַּרְתִּי, שַׁרְתִּי. The ordinary past endings are all still there." },
+
+  { "id": "weak-roots-06", "type": "mcq",
+    "q": "Is הוּא גָּר בְּתֵל אָבִיב past or present?",
+    "choices": ["either; the form alone cannot tell you", "present only", "past only", "present, unless there is a לֹא in front of it"],
+    "a": 0,
+    "why": "In the ע\"ו and ע\"י families the third person masculine singular is the same word in both tenses, so only a time word settles it: הוּא קָם בְּשֶׁבַע every morning, הוּא קָם אֶתְמוֹל yesterday. The other persons separate cleanly, since קַמְתִּי can only be past." },
+
+  { "id": "weak-roots-07", "type": "fill",
+    "q": "Write \"I will sit\", from לָשֶׁבֶת.",
+    "a": ["אֵשֵׁב"],
+    "why": "A פ\"י root shows its י as a consonant in the past, יָשַׁבְתִּי, and inside יוֹ in the present, יוֹשֵׁב. In the future and the infinitive it dissolves into a long vowel instead: אֵשֵׁב, אֵרֵד, and לָשֶׁבֶת, לָרֶדֶת." },
+
+  { "id": "weak-roots-08", "type": "order",
+    "q": "Build the sentence: he lives in Tel Aviv",
+    "words": ["הוּא", "גָּר", "בְּתֵל אָבִיב"],
+    "a": ["הוּא", "גָּר", "בְּתֵל אָבִיב"],
+    "why": "גָּר is a full verb, not an adjective, even though it is one syllable long: the ו of ל-ג-ו-ר is inside the vowel, not standing as a consonant. The בְּ is glued to the name, which takes no הַ because it is already definite." },
+
+  { "id": "weak-roots-09", "type": "mcq",
+    "q": "Why is the infinitive לַעֲבוֹד and not לִעְבוֹד?",
+    "choices": ["ע cannot take a plain shva, so it takes a chataf patach and the prefix vowel shifts to a", "ע cannot come first in a root, so an extra vowel is added", "the pattern for work verbs is different", "the א of the root has been left out"],
+    "a": 0,
+    "why": "The gutturals א ה ח ע ר refuse two things: a dagesh, and a plain shva. Where the pattern wants a shva they take a chataf vowel, and the vowel in front changes to match, which is the whole difference between לִכְתּוֹב and לַעֲבוֹד or לֶאֱכוֹל." },
+
+  { "id": "weak-roots-10", "type": "fill",
+    "q": "Write \"I ate\", from לֶאֱכוֹל.",
+    "a": ["אָכַלְתִּי"],
+    "why": "Once the ending is on, the guttural is no longer under pressure and the past looks completely ordinary: אָכַלְתִּי, עָבַדְתִּי, שָׁמַעְתִּי are the plain a-a stem plus ־ְתִּי. The weakness shows in the infinitive and the future, not here." },
+
+  { "id": "weak-roots-11", "type": "listen",
+    "say": "הוּא קָם אֶתְמוֹל",
+    "q": "Type what you hear.",
+    "a": ["הוּא קָם אֶתְמוֹל"],
+    "why": "Without the last word this sentence would be \"he gets up\" just as readily as \"he got up\". The time word is not decoration in the ע\"ו family, it is the tense." },
+
+  { "id": "weak-roots-12", "type": "say",
+    "q": "Say this out loud: \"I hear\".",
+    "target": "אֲנִי שׁוֹמֵעַ",
+    "why": "A word ending in ח or ע takes a patach that is pronounced before that letter, not after it: /shomea/, never /shoma/. The same goes for נוֹסֵעַ and יוֹדֵעַ." },
+
+  { "id": "weak-roots-13", "type": "mcq",
+    "q": "You meet the form רָצִינוּ, which you have not conjugated before. Which family is it?",
+    "choices": ["ל\"ה", "פ\"נ", "ע\"ו", "פ\"י"],
+    "a": 0,
+    "why": "A long i standing where the third root letter should be is the ל\"ה signature: רָאִיתִי, קָנִיתִי, רָצִינוּ. Reading a form you have never seen is a matter of spotting which letter has gone missing and where." },
+
+  { "id": "weak-roots-14", "type": "mcq",
+    "q": "Which of these past forms tells you that only two consonants of its root ever surface?",
+    "choices": ["שַׁרְתִּי", "שָׁמַעְתִּי", "קָנִיתִי", "יָשַׁבְתִּי"],
+    "a": 0,
+    "why": "שַׁרְתִּי has two consonants and a short vowel between them, which is the ע\"י and ע\"ו shape. שָׁמַעְתִּי is a guttural root with all three letters present, קָנִיתִי is ל\"ה, and יָשַׁבְתִּי is פ\"י with its י standing as a full consonant." },
+
+  { "id": "weak-roots-15", "type": "open",
+    "q": "Name the five weak families from this chapter, with one verb each, and say what the weak letter does in that family.",
+    "a": ["ל\"ה, לִרְאוֹת: the third letter is really י, so the ה of רָאָה disappears once an ending is added, giving רָאִיתִי. פ\"נ, לִנְסוֹעַ: the נ assimilates in the future and comes back as a dagesh, אֶסַּע. ע\"ו and ע\"י, לָקוּם and לָשִׁיר: the middle letter is never a consonant, so only two consonants surface, קַמְתִּי, שַׁרְתִּי. פ\"י, לָשֶׁבֶת: the initial י is a consonant in the past, יָשַׁבְתִּי, and melts into a long vowel in the future, אֵשֵׁב. The gutturals א ה ח ע ר, לַעֲבוֹד: they refuse a dagesh and a plain shva, so they take a chataf vowel and lengthen what comes before them."],
+    "why": "The families are named by the position of the weak letter, counting against פ-ע-ל itself: פ is the first root letter, ע the second, ל the third. Knowing the position tells you where in the word to expect the surprise." }
+ ]
+}

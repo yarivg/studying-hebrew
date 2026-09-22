@@ -1,0 +1,90 @@
+{
+  "ch": "nifal-vs-hitpael",
+  "title": "Nif'al against hitpa'el",
+  "questions": [
+    { "id": "nifal-vs-hitpael-01", "type": "mcq",
+      "q": "You could add \"by someone\" to the English sentence without changing what it means. Which binyan does Hebrew want?",
+      "choices": ["נִפְעַל", "הִתְפַּעֵל", "פִּיעֵל", "הִפְעִיל"],
+      "a": 0,
+      "why": "That is the working rule: if an agent could be added and you simply left them out, Hebrew wants נִפְעַל. If the subject is acting on itself, or two subjects on each other, it wants הִתְפַּעֵל." },
+
+    { "id": "nifal-vs-hitpael-02", "type": "mcq",
+      "q": "What does הֵם הִתְכַּתְּבוּ בְּמֶשֶׁךְ שָׁנִים mean?",
+      "choices": ["they wrote to each other for years", "they were written to for years", "they were dictated to for years", "they copied it out for years"],
+      "a": 0,
+      "why": "Reciprocal action is the one job no other binyan does, and it always has a plural subject: הִתְכַּתְּבוּ, הִתְנַשְּׁקוּ, הִתְגָּרְשׁוּ. The nif'al on the same root, נִכְתַּב, means \"it was written\"." },
+
+    { "id": "nifal-vs-hitpael-03", "type": "fill",
+      "q": "Say \"I got dressed quickly\".",
+      "a": ["הִתְלַבַּשְׁתִּי מַהֵר"],
+      "why": "Hitpa'el's first job is the reflexive, the subject acting on itself: הִתְלַבַּשְׁתִּי, הִתְרַחֵץ, הִסְתָּרְקָה. English hides this behind \"got dressed\", which is why it has to be learned as a pattern." },
+
+    { "id": "nifal-vs-hitpael-04", "type": "fill",
+      "q": "Say \"I went into the room\".",
+      "a": ["נִכְנַסְתִּי לַחֶדֶר"],
+      "why": "Not every nif'al is a passive. The most frequent ones are plain intransitives with no agent anywhere behind them: נִכְנַסְתִּי, נִשְׁאַרְנוּ, נִגְמַר, נֶעֱלַם." },
+
+    { "id": "nifal-vs-hitpael-05", "type": "mcq",
+      "q": "What does אַתָּה נִרְאֶה עָיֵיף mean?",
+      "choices": ["you look tired", "you were seen tired", "you are being watched while tired", "you made yourself tired"],
+      "a": 0,
+      "why": "נִרְאֶה and נִשְׁמַע are nif'al verbs of state, working like English \"look\" and \"sound\": זֶה נִשְׁמַע טוֹב, נִרְאֶה לִי שֶׁהוּא צוֹדֵק. Nothing is being done to the subject." },
+
+    { "id": "nifal-vs-hitpael-06", "type": "fill",
+      "q": "Say \"the film ended\".",
+      "a": ["הַסֶּרֶט נִגְמַר"],
+      "why": "The film did not end anybody and nobody ended it: this is the intransitive nif'al again, and no \"by someone\" can be added to it in Hebrew or in English." },
+
+    { "id": "nifal-vs-hitpael-07", "type": "order",
+      "q": "Build the sentence: the letter was written by the manager",
+      "words": ["הַמִּכְתָּב", "נִכְתַּב", "עַל יְדֵי", "הַמְּנַהֵל"],
+      "a": ["הַמִּכְתָּב", "נִכְתַּב", "עַל יְדֵי", "הַמְּנַהֵל"],
+      "why": "עַל יְדֵי is the phrase that names the agent, and Hebrew uses it far less than English uses \"by\": a nif'al sentence usually just leaves the agent out altogether." },
+
+    { "id": "nifal-vs-hitpael-08", "type": "mcq",
+      "q": "What separates נִזְכַּרְתִּי from הִזְכַּרְתִּי?",
+      "choices": ["the first is \"I remembered\", the second is \"I reminded someone\"", "the first is \"I reminded\", the second is \"I remembered\"", "the first is past and the second is future", "they are the same verb in two registers"],
+      "a": 0,
+      "why": "Hif'il supplies the transitive partner that nif'al lacks: נִזְכַּרְתִּי בַּשֵּׁם happens to me, הִזְכַּרְתִּי לוֹ אֶת הַפְּגִישָׁה is done to somebody else." },
+
+    { "id": "nifal-vs-hitpael-09", "type": "order",
+      "q": "Build the sentence: I brought the chair into the room",
+      "words": ["הִכְנַסְתִּי", "אֶת", "הַכִּיסֵּא", "לַחֶדֶר"],
+      "a": ["הִכְנַסְתִּי", "אֶת", "הַכִּיסֵּא", "לַחֶדֶר"],
+      "also": [["הִכְנַסְתִּי", "לַחֶדֶר", "אֶת", "הַכִּיסֵּא"]],
+      "why": "There is a direct object here, so nif'al is out: נִפְעַל is intransitive and never takes אֶת. The moment a sentence has an אֶת in it, the verb has to be hif'il, pi'el or pa'al." },
+
+    { "id": "nifal-vs-hitpael-10", "type": "listen",
+      "say": "זֶה נִשְׁמַע טוֹב",
+      "q": "Type what you hear.",
+      "a": ["זֶה נִשְׁמַע טוֹב"],
+      "why": "נִשְׁמַע here is \"sounds\", not \"was heard\". The nif'al verbs of state are the ones learners most often try to translate as passives, and the result never quite makes sense." },
+
+    { "id": "nifal-vs-hitpael-11", "type": "mcq",
+      "q": "Which pairing is right?",
+      "choices": ["נִקְשַׁר he grew attached, הִתְקַשֵּׁר he phoned", "נִקְשַׁר he phoned, הִתְקַשֵּׁר he grew attached", "נִכְנַס it convened, הִתְכַּנֵּס he went in", "נִגְלָה it came to light by itself, הִתְגַּלָּה it was revealed by someone"],
+      "a": 0,
+      "why": "Where a root has both, they never mean the same thing: נִקְשַׁר happens to you, הִתְקַשֵּׁר is something you do. The same split runs through נִכְנַס against הִתְכַּנֵּס and נִגְלָה against הִתְגַּלָּה." },
+
+    { "id": "nifal-vs-hitpael-12", "type": "fill",
+      "q": "Say \"the situation changed\", with nobody changing it.",
+      "a": ["הַמַּצָּב הִשְׁתַּנָּה"],
+      "why": "This is hitpa'el's middle voice: the subject is not really acting and nobody else is either, the thing simply undergoes the change. The same goes for הִתְפַּתְּחָה and הִתְפּוֹצֵץ." },
+
+    { "id": "nifal-vs-hitpael-13", "type": "say",
+      "q": "Say this out loud.",
+      "target": "הִתְרַגַּשְׁתִּי מְאוֹד",
+      "why": "Hitpa'el's third job is a change of state, becoming something: הִתְרַגַּשְׁתִּי I was moved, הִתְעַיַּיפְתִּי I got tired, הִתְאַהֵב he fell in love. The ת of the prefix is audible, hit-ra-GASH-ti." },
+
+    { "id": "nifal-vs-hitpael-14", "type": "mcq",
+      "q": "The chapter warns that some verbs never got the memo. Which statement is the true one?",
+      "choices": ["נִפְגַּשְׁנוּ is nif'al and yet reciprocal: we met each other", "הִשְׁתַּמֵּשׁ is nif'al and passive", "נִכְנַסְתִּי is hitpa'el and reflexive", "הִתְכַּתְּבוּ is nif'al and passive"],
+      "a": 0,
+      "why": "נִפְגַּשְׁנוּ בַּקָּפֶה is reciprocal in a binyan that is supposed not to be, and הִשְׁתַּמֵּשׁ is hitpa'el without being reflexive or reciprocal. Use the rule to guess, then check the word." },
+
+    { "id": "nifal-vs-hitpael-15", "type": "open",
+      "q": "Under pressure, what single question decides between nif'al and hitpa'el? Answer it for \"the letter was written\" and for \"they wrote to each other\".",
+      "a": ["Ask whether somebody outside the sentence is doing this. Yes, and you left them out, means nif'al: הַמִּכְתָּב נִכְתַּב. No, because the subjects are doing it to each other or to themselves, means hitpa'el: הֵם הִתְכַּתְּבוּ."],
+      "why": "Both binyanim translate an English passive and an English intransitive, so the English is no guide. The agent test is, and it takes one second to apply." }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ch": "biblical-echoes",
+  "title": "Biblical Hebrew in modern speech",
+  "questions": [
+    { "id": "biblical-echoes-01", "type": "mcq",
+      "q": "In a Biblical narrative, what does וַיֹּאמֶר mean?",
+      "choices": ["and he said", "and he will say", "he was told", "let him say"],
+      "a": 0,
+      "why": "The word looks like the future יֹאמַר, and the וַ with its dagesh is what flips it: vav plus a future-looking form is the narrative past. That is why Genesis is a chain of words beginning with ו." },
+
+    { "id": "biblical-echoes-02", "type": "mcq",
+      "q": "A verse is a run of future-looking verbs, each one carrying וַ at the front. What are you reading?",
+      "choices": ["a story about the past", "a prophecy about the future", "a list of commands", "a series of questions"],
+      "a": 0,
+      "why": "Read that וַ as a tense marker rather than as \"and\": וַיֹּאמֶר, וַתֹּאמֶר, וַיֵּלֶךְ are said, said and went. Biblical Hebrew had no past and future the way Part II taught them, so the particle does the work." },
+
+    { "id": "biblical-echoes-03", "type": "mcq",
+      "q": "Where would an Israeli most often meet the words הָלוֹךְ וָשׁוֹב?",
+      "choices": ["printed on a return ticket", "in a prayer at a funeral", "at the head of a legal contract", "in a newspaper headline about a war"],
+      "a": 0,
+      "why": "It is an infinitive absolute, from a construction that is otherwise dead, doing an entirely ordinary job: כַּרְטִיס הָלוֹךְ וָשׁוֹב is what you ask for at the station. The old forms that survive usually survive as plain vocabulary." },
+
+    { "id": "biblical-echoes-04", "type": "say",
+      "q": "Say this out loud.",
+      "target": "כַּרְטִיס הָלוֹךְ וָשׁוֹב",
+      "why": "A return ticket, three words, no grammar to unpick. The וָ is /va/ and not /ve/, and both halves of the pair carry their stress on the last syllable: kar-TIS ha-LOCH va-SHOV." },
+
+    { "id": "biblical-echoes-05", "type": "fill",
+      "q": "Fill the gap with the one old word that modern news Hebrew still uses for \"not yet\": ___ הִתְקַבְּלָה הַחְלָטָה (\"no decision has yet been taken\").",
+      "post": "הִתְקַבְּלָה הַחְלָטָה",
+      "a": ["טֶרֶם"],
+      "why": "Watch what it does to the verb: the verb after it is past tense and the sentence means a present perfect negative. A Hebrew headline says \"a decision has not yet been taken\" with no negative word in it at all." },
+
+    { "id": "biblical-echoes-06", "type": "mcq",
+      "q": "Which of these old words is fully alive in written news Hebrew rather than a quotation?",
+      "choices": ["טֶרֶם", "אָנוֹכִי", "פֶּן", "מוֹת יָמוּת"],
+      "a": 0,
+      "why": "טֶרֶם is not archaic in writing at all, and neither are עַד כֹּה, \"so far\", or הִנֵּה. פֶּן, \"lest\", belongs to formal writing only, אָנוֹכִי is quotation only, and מוֹת יָמוּת is an infinitive absolute from a dead construction." },
+
+    { "id": "biblical-echoes-07", "type": "listen",
+      "say": "הַמַּצָּב הוֹלֵךְ וּמַחְמִיר",
+      "q": "Type what you hear.",
+      "a": ["הַמַּצָּב הוֹלֵךְ וּמַחְמִיר"],
+      "why": "הוֹלֵךְ וְ plus a verb or an adjective is the living descendant of the infinitive absolute and means \"steadily more so\", so this is the situation getting steadily worse. Nobody is walking anywhere." },
+
+    { "id": "biblical-echoes-08", "type": "fill",
+      "q": "Fill the gap with the two-word phrase for an obstacle or a sticking point: הַתַּקְצִיב הוּא ___ בַּמַּשָּׂא וּמַתָּן (\"the budget is a sticking point in the negotiations\").",
+      "pre": "הַתַּקְצִיב הוּא",
+      "post": "בַּמַּשָּׂא וּמַתָּן",
+      "a": ["אֶבֶן נֶגֶף"],
+      "why": "Literally a stone of stumbling, and completely ordinary in news and in argument. Learn a Biblical phrase as one vocabulary item with its modern meaning, and do not try to take it apart grammatically." },
+
+    { "id": "biblical-echoes-09", "type": "order",
+      "q": "Build the sentence: that agreement is a double-edged sword",
+      "words": ["הַהֶסְכֵּם", "הַזֶּה", "הוּא", "חֶרֶב פִּיפִיּוֹת"],
+      "a": ["הַהֶסְכֵּם", "הַזֶּה", "הוּא", "חֶרֶב פִּיפִיּוֹת"],
+      "why": "חֶרֶב פִּיפִיּוֹת is literally a sword of two mouths, and it stays one chip because it is one word as far as meaning goes. The frame around it is ordinary modern Hebrew: a definite noun, הַזֶּה, and הוּא standing in for the missing \"is\"." },
+
+    { "id": "biblical-echoes-10", "type": "mcq",
+      "q": "Someone says הִזְהַרְתִּי אוֹתָם, אֲבָל הָיִיתִי קוֹל קוֹרֵא בַּמִּדְבָּר. What are they saying about themselves?",
+      "choices": ["they warned people and nobody acted on it", "they shouted at people in anger", "they were alone in a hard place", "they preached religion to strangers"],
+      "a": 0,
+      "why": "The literal reading, a voice calling in the desert, is the picture and not the meaning: what the phrase means now is a warning nobody is listening to. That drift from verse to idiom is exactly why these are learned as vocabulary." },
+
+    { "id": "biblical-echoes-11", "type": "mcq",
+      "q": "וְהָיָה בַּיּוֹם הַהוּא is built on a past tense form. What time is it talking about?",
+      "choices": ["the future", "the distant past", "the present moment", "no particular time"],
+      "a": 0,
+      "why": "The flip runs both ways. וַ on a future-looking verb gives a past narrative, and וְ on a past-tense verb throws it into the future, which is why a verse full of past-looking verbs may well be prophecy." },
+
+    { "id": "biblical-echoes-12", "type": "mcq",
+      "q": "An educated speaker answers an argument with וְנַהֲפוֹךְ הוּא. What have they just said?",
+      "choices": ["quite the opposite", "come what may", "that is enough", "it is all pointless"],
+      "a": 0,
+      "why": "וְנַהֲפוֹךְ הוּא and וַיְהִי מָה, \"come what may\", are the two vav-consecutive forms still in live use, and neither is said with a hint of quotation marks. \"It is all pointless\" would be הַכּוֹל הֶבֶל." },
+
+    { "id": "biblical-echoes-13", "type": "say",
+      "q": "Say this out loud.",
+      "target": "אֵין חָדָשׁ תַּחַת הַשֶּׁמֶשׁ",
+      "why": "Nothing new under the sun: it has all happened before. Ecclesiastes supplies a surprising amount of everyday Israeli vocabulary, הַכּוֹל הֶבֶל among it, and none of it is heard as religious." },
+
+    { "id": "biblical-echoes-14", "type": "mcq",
+      "q": "You drop הֲשׁוֹמֵר אָחִי אָנוֹכִי into a conversation. What have you said, and how does it land?",
+      "choices": ["\"am I my brother's keeper\", meaning not my problem: a strong move that will get a reaction", "\"I am my brother\", a neutral way of saying you are related", "\"my brother is watching\", a warning that someone is being observed", "\"I look after my brother\", a polite offer of help"],
+      "a": 0,
+      "why": "It is used to shame someone who is refusing responsibility, and coming from a learner it is quotation rather than speech. עַד כֹּה, טֶרֶם and הִנֵּה are the safe end of this layer; a whole verse is not." },
+
+    { "id": "biblical-echoes-15", "type": "open",
+      "q": "A verse in front of you is a run of verbs that look like futures, each with וַ in front. Say what that וַ is doing, what a modern reader actually has to be able to do with the old layer, and what can be skipped.",
+      "a": ["The וַ with its dagesh is a tense marker and not the word \"and\": vav plus a future-looking form is the Biblical narrative past, so וַיֹּאמֶר is \"and he said\" and וַיֵּלֶךְ is \"and he went\". The flip runs the other way too, and a וְ on a past-tense form points at the future, as in וְהָיָה בַּיּוֹם הַהוּא, so a page of past-looking verbs may be prophecy. What is needed is recognition only: reading a verse, knowing that טֶרֶם means not yet and that עַד כֹּה and הִנֵּה are ordinary written Hebrew, and treating a phrase such as חֶרֶב פִּיפִיּוֹת or אֶבֶן נֶגֶף as a single vocabulary item with a modern meaning, looked up as a phrase and not as grammar. All of the morphology can be skipped: nobody is asked to build a vav-consecutive form, a jussive such as יְהִי or an infinitive absolute, and no modern text will require one."],
+      "why": "The whole chapter is a recognition skill, not a production one. The two things worth carrying away are that a particle can carry the tense, and that an unparseable phrase is probably three thousand years old and means something perfectly ordinary." }
+  ]
+}

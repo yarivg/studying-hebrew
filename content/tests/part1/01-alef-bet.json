@@ -1,0 +1,88 @@
+{
+ "ch": "alef-bet",
+ "title": "The alef-bet",
+ "questions": [
+  { "id": "alef-bet-01", "type": "mcq",
+    "q": "Which way does a Hebrew word run on the page?",
+    "choices": ["Right to left", "Left to right", "Top to bottom", "Left to right, but the letters are mirrored"],
+    "a": 0,
+    "why": "Hebrew runs right to left, so the first letter of a word is the one furthest right and a book opens from what an English reader calls the back. Nothing about the direction is decorative: it changes which end of a word you start sounding out." },
+
+  { "id": "alef-bet-02", "type": "mcq",
+    "q": "How many letters does the alef-bet have?",
+    "choices": ["22", "24", "26", "27"],
+    "a": 0,
+    "why": "Twenty-two letters, all of them consonants. Five of those letters have a second shape used only at the end of a word, which is why a chart can look like twenty-seven, but a final form is the same letter in different clothes." },
+
+  { "id": "alef-bet-03", "type": "mcq",
+    "q": "Which letter is this: ד",
+    "choices": ["רֵישׁ", "דָּלֶת", "גִּימֶל", "זַיִן"],
+    "a": 1,
+    "why": "It is דָּלֶת, /d/. The give-away against רֵישׁ is the heel sticking out at the top right corner: ר is smooth there, and that corner is the only difference between them." },
+
+  { "id": "alef-bet-04", "type": "order",
+    "q": "Put these four letters into alef-bet order.",
+    "words": ["ד", "ב", "א", "ג"],
+    "a": ["א", "ב", "ג", "ד"],
+    "why": "אָלֶף, בֵּית, גִּימֶל, דָּלֶת open the alef-bet, and the order is worth knowing cold because every Hebrew dictionary, index and phone contact list is built on it." },
+
+  { "id": "alef-bet-05", "type": "mcq",
+    "q": "Which pair of letters is told apart by a bar across the top of one of them?",
+    "choices": ["ו and ז", "ב and כ", "ה and ח", "ס and ם"],
+    "a": 0,
+    "why": "ז has a bar across the top; ו is a plain stroke. The other pairs part on different details: ב has a corner at the bottom right where כ is rounded, ה has a gap at the top left where ח is closed, and ם has square corners where ס is round." },
+
+  { "id": "alef-bet-06", "type": "mcq",
+    "q": "Which two letters carry no sound of their own in standard Israeli Hebrew?",
+    "choices": ["אָלֶף, עַיִן", "הֵא, חֵית", "אָלֶף, הֵא", "עַיִן, רֵישׁ"],
+    "a": 0,
+    "why": "אָלֶף and עַיִן are silent seats for a vowel. They were distinct throat sounds once, and still are for some speakers, but today אוֹר light and עוֹר skin sound identical, so the letter has to be learned with the word rather than heard." },
+
+  { "id": "alef-bet-07", "type": "fill",
+    "q": "Type the Hebrew word for a door, the chapter's example for the letter ד.",
+    "a": ["דֶּלֶת"],
+    "why": "דֶּלֶת begins with the letter it illustrates, which is how the table is built: דָּלֶת the letter name, דֶּלֶת the word. Hebrew letter names are usually ordinary words, and that is not a coincidence." },
+
+  { "id": "alef-bet-08", "type": "fill",
+    "q": "Type the Hebrew word for a book, the chapter's example for the letter ס.",
+    "a": ["סֵפֶר"],
+    "why": "סֵפֶר uses סָמֶךְ for its /s/. Watch that ס against final ם, which sounds nothing like it but looks close: ם has square corners, ס is round all the way." },
+
+  { "id": "alef-bet-09", "type": "listen",
+    "say": "תּוֹדָה",
+    "q": "Type what you hear.",
+    "a": ["תּוֹדָה"],
+    "why": "Thank you. The /t/ is תָּו, not טֵית: both letters say /t/ in Israeli Hebrew, so the ear cannot choose between them and the spelling has to be memorised with the word." },
+
+  { "id": "alef-bet-10", "type": "say",
+    "q": "Say this out loud.",
+    "target": "חַם",
+    "why": "חֵית is made in the throat, like the ch in Bach, not like an English h. Hot is /kham/, and softening it to /ham/ is the commonest thing an English speaker does to this letter." },
+
+  { "id": "alef-bet-11", "type": "fill",
+    "q": "Type the Hebrew word for a head, the chapter's example for the letter ר.",
+    "a": ["רֹאשׁ"],
+    "why": "רֵישׁ is made at the back of the throat, closer to a French r than to an English one. Note the silent א sitting inside the word: it is holding a place, not making a sound." },
+
+  { "id": "alef-bet-12", "type": "mcq",
+    "q": "אוֹר means light and עוֹר means skin. How do they sound?",
+    "choices": ["Identical", "The first starts with a catch in the throat", "The second starts with a vowel and the first with a consonant", "They differ in length"],
+    "a": 0,
+    "why": "Both are /or/, because אָלֶף and עַיִן are equally silent. This is the clearest case of Hebrew spelling carrying information that speech has lost, and it is why you learn which letter goes with which word rather than working it out by ear." },
+
+  { "id": "alef-bet-13", "type": "say",
+    "q": "Say this out loud.",
+    "target": "שָׁלוֹם",
+    "why": "Hello, goodbye and peace, all one word. It runs ש, ל, ו, ם, and the last letter is the final form of מֵם because it ends the word." },
+
+  { "id": "alef-bet-14", "type": "fill",
+    "q": "Type the Hebrew word for water, the chapter's example for the letter מ.",
+    "a": ["מַיִם"],
+    "why": "The word opens with an ordinary מ and closes with the final ם, so it shows both shapes of one letter in four letters of text. The י in the middle is doing the work of a vowel, which is chapter 5." },
+
+  { "id": "alef-bet-15", "type": "open",
+    "q": "Name four pairs of letters that are easy to confuse on the page, and say what tells each pair apart.",
+    "a": ["ב and כ: ב has a corner at the bottom right, כ is rounded. ד and ר: ד has a heel at the top right, ר is smooth. ה and ח: ה has a gap at the top left, ח is closed. ו and ז: ז has a bar across the top, ו is a plain stroke. Also ה and ת, ו and ן, ס and ם, ע and צ, כ and ל."],
+    "why": "Every one of these pairs differs by a single stroke, so the reading reflex has to be built on that stroke rather than on the general shape. Learning them as pairs now is faster than meeting each one mid-word later." }
+ ]
+}

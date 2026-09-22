@@ -1,0 +1,89 @@
+{
+  "ch": "big-numbers",
+  "title": "Numbers past a hundred, and the dual",
+  "questions": [
+    { "id": "big-numbers-01", "type": "mcq",
+      "q": "How do you say 200 in Hebrew?",
+      "choices": ["מָאתַיִים", "שְׁתֵּי מֵאוֹת", "שְׁנֵי מֵאוֹת", "מֵאָה וּמֵאָה"],
+      "a": 0,
+      "why": "Two hundred is one word, because the ַיִים on the end is the dual ending doing what it does on עֵינַיִים: two of the thing. The dual leaves no room for a number in front of it, so שְׁתֵּי מֵאוֹת is never said." },
+
+    { "id": "big-numbers-02", "type": "mcq",
+      "q": "How do you say 300 in Hebrew?",
+      "choices": ["שְׁלוֹשׁ מֵאוֹת", "שְׁלוֹשָׁה מֵאוֹת", "שְׁלוֹשֶׁת מֵאוֹת", "מֵאָה שָׁלוֹשׁ"],
+      "a": 0,
+      "why": "מֵאָה is a feminine noun, so the hundreds are counted with the feminine numbers: שְׁלוֹשׁ מֵאוֹת, אַרְבַּע מֵאוֹת, חֲמֵשׁ מֵאוֹת. The masculine שְׁלוֹשָׁה belongs in front of a masculine noun such as סְפָרִים." },
+
+    { "id": "big-numbers-03", "type": "fill",
+      "q": "Write \"two days\" in Hebrew.",
+      "a": ["יוֹמַיִים"],
+      "why": "The dual means exactly two and it replaces the number entirely, so two days is one word. שְׁנֵי יָמִים is the classic learner's slip: understandable, and not Hebrew." },
+
+    { "id": "big-numbers-04", "type": "fill",
+      "q": "Write \"three days\" in Hebrew.",
+      "a": ["שְׁלוֹשָׁה יָמִים"],
+      "why": "At three the dual is gone and the ordinary plural comes back with an ordinary number in front of it. יוֹם is masculine, so the number is the masculine שְׁלוֹשָׁה, not שָׁלוֹשׁ." },
+
+    { "id": "big-numbers-05", "type": "mcq",
+      "q": "Which is the Hebrew for \"two years\"?",
+      "choices": ["שְׁנָתַיִים", "שְׁתֵּי שָׁנִים", "שְׁנֵי שָׁנִים", "שְׁתֵּי שְׁנָתַיִים"],
+      "a": 0,
+      "why": "שָׁנָה has a dual of its own, so two years is one word. Three years goes back to a number plus a plural, and because שָׁנָה is feminine that number is feminine: שָׁלוֹשׁ שָׁנִים." },
+
+    { "id": "big-numbers-06", "type": "mcq",
+      "q": "How do you say \"two minutes\"?",
+      "choices": ["שְׁתֵּי דַּקּוֹת", "דַּקָּתַיִים", "שְׁנֵי דַּקּוֹת", "דַּקּוֹתַיִים"],
+      "a": 0,
+      "why": "The dual is a closed set and דַּקָּה is not in it, so two minutes takes a plain number. דַּקּוֹת is feminine, which is why the number is שְׁתֵּי and not שְׁנֵי." },
+
+    { "id": "big-numbers-07", "type": "listen",
+      "say": "חֲמֵשׁ מֵאוֹת שְׁקָלִים",
+      "q": "Type what you hear.",
+      "a": ["חֲמֵשׁ מֵאוֹת שְׁקָלִים"],
+      "why": "500 shekels: the feminine חֲמֵשׁ because מֵאָה is feminine, and then the masculine noun שְׁקָלִים, which the number no longer has to agree with once מֵאוֹת stands between them." },
+
+    { "id": "big-numbers-08", "type": "fill",
+      "q": "Write 3,000 in Hebrew words.",
+      "a": ["שְׁלוֹשֶׁת אֲלָפִים"],
+      "why": "אֶלֶף is masculine, plural אֲלָפִים, and a masculine number standing in front of a plural noun uses its construct form: שְׁלוֹשֶׁת, אַרְבַּעַת, חֲמֵשֶׁת. That is why the thousands look heavier than the hundreds." },
+
+    { "id": "big-numbers-09", "type": "say",
+      "q": "Say this out loud: 250.",
+      "target": "מָאתַיִים וַחֲמִישִּׁים",
+      "why": "A compound runs from the largest piece down with וְ before the last element, and here that וְ has become וַ before the chataf patach of חֲמִישִּׁים." },
+
+    { "id": "big-numbers-10", "type": "order",
+      "q": "Build the number 365.",
+      "words": ["שְׁלוֹשׁ", "מֵאוֹת", "שִׁישִּׁים", "וְחָמֵשׁ"],
+      "a": ["שְׁלוֹשׁ", "מֵאוֹת", "שִׁישִּׁים", "וְחָמֵשׁ"],
+      "why": "Largest piece first, then down, with וְ joining only the last element. All of it is feminine, because the hundreds follow מֵאָה and the unit is the feminine חָמֵשׁ." },
+
+    { "id": "big-numbers-11", "type": "fill",
+      "q": "Write the year 2025 the way an Israeli reads it out.",
+      "a": ["אַלְפַּיִים עֶשְׂרִים וְחָמֵשׁ"],
+      "why": "A year is a שָׁנָה, which is feminine, so years are read with the feminine numbers. אַלְפַּיִים leads on its own, exactly as the dual does everywhere else, with no number in front of it." },
+
+    { "id": "big-numbers-12", "type": "order",
+      "q": "Build the year 1948.",
+      "words": ["אֶלֶף", "תְּשַׁע", "מֵאוֹת", "אַרְבָּעִים", "וּשְׁמוֹנֶה"],
+      "a": ["אֶלֶף", "תְּשַׁע", "מֵאוֹת", "אַרְבָּעִים", "וּשְׁמוֹנֶה"],
+      "why": "Thousand, hundreds, tens, unit, with the וְ only on the last piece, where it becomes וּ in front of the shva of שְׁמוֹנֶה. Feminine throughout, because it is counting years." },
+
+    { "id": "big-numbers-13", "type": "mcq",
+      "q": "How do you say \"102 books\"?",
+      "choices": ["מֵאָה וּשְׁנֵי סְפָרִים", "מֵאָה וּשְׁתֵּי סְפָרִים", "מֵאָה שְׁנַיִם סְפָרִים", "שְׁנֵי מֵאָה סְפָרִים"],
+      "a": 0,
+      "why": "Only the last element of a compound agrees with the noun being counted, so סְפָרִים pulls the masculine שְׁנֵי and the מֵאָה part does not move. 102 women is מֵאָה וּשְׁתֵּי נָשִׁים by the same rule." },
+
+    { "id": "big-numbers-14", "type": "mcq",
+      "q": "A price tag says 100 shekels. What does an Israeli actually say?",
+      "choices": ["מֵאָה שֶׁקֶל", "מֵאָה שְׁקָלִים", "מֵאָה אֲגוֹרוֹת", "שֶׁקֶל מֵאָה"],
+      "a": 0,
+      "why": "Below about ten the plural is used, חֲמִישָּׁה שְׁקָלִים, and from ten upwards speech switches to the singular, עֶשְׂרִים שֶׁקֶל, מֵאָה שֶׁקֶל. The plural throughout is not wrong; it just marks you out as a foreigner." },
+
+    { "id": "big-numbers-15", "type": "open",
+      "q": "Explain what the dual ending ַיִים does to the number in front of a noun, and name three time words that have a dual.",
+      "a": ["The dual means exactly two and it swallows the number, so no number is written at all: שָׁעָתַיִים two hours, יוֹמַיִים two days, שְׁבוּעַיִים two weeks, חוֹדְשַׁיִים two months, שְׁנָתַיִים two years, פַּעֲמַיִים twice. At three the word reverts to a plain plural with a number: שָׁלוֹשׁ שָׁעוֹת, שְׁלוֹשָׁה יָמִים. The list is closed, so דַּקָּה has no dual and two minutes is שְׁתֵּי דַּקּוֹת."],
+      "why": "The dual is not a pattern you invent; it is a list you know. Outside the paired body parts it survives almost entirely on units of time, plus the two number words מָאתַיִים and אַלְפַּיִים." }
+  ]
+}

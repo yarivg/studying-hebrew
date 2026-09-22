@@ -1,0 +1,98 @@
+{
+  "ch": "confusables",
+  "title": "Pairs that catch everyone",
+  "questions": [
+    { "id": "confusables-01", "type": "fill",
+      "q": "Fill the gap with one word: ___ יֵשׁ זְמַן, נֵלֵךְ לַיָּם (\"if there's time, we'll go to the sea\").",
+      "post": "יֵשׁ זְמַן, נֵלֵךְ לַיָּם",
+      "a": ["אִם"],
+      "why": "\"If\" is אִם with an alef. Its twin עִם, with an ayin, means \"with\", and nothing in the sound tells them apart: only the meaning of the sentence can, and here a condition is being set up." },
+
+    { "id": "confusables-02", "type": "fill",
+      "q": "Fill the gap with one word: בָּאתִי ___ חָבֵר (\"I came with a friend\").",
+      "pre": "בָּאתִי",
+      "post": "חָבֵר",
+      "a": ["עִם"],
+      "why": "Accompaniment is עִם, spelled with an ayin. Write it with an alef and you have written \"I came if a friend\", which is the single most common spelling slip an English speaker makes in Hebrew." },
+
+    { "id": "confusables-03", "type": "mcq",
+      "q": "Israelis pronounce both אִם and עִם as /im/. So what tells the two words apart?",
+      "choices": ["nothing you can hear: you have to know which letter the word owns", "the vowel is longer in one of them", "the stress falls in a different place", "the ayin adds a catch in the throat"],
+      "a": 0,
+      "why": "Israeli Hebrew merged ע with א and ח with כ, so these are exact homophones and the danger lives in writing, not in hearing. A learner who writes by ear picks wrong about half the time." },
+
+    { "id": "confusables-04", "type": "mcq",
+      "q": "A formal letter of complaint asks why it was not informed in advance. Which line belongs in it?",
+      "choices": ["מַדּוּעַ לֹא הוֹדִיעוּ לָנוּ מֵרֹאשׁ", "לָמָּה לֹא הוֹדִיעוּ לָנוּ מֵרֹאשׁ", "מַדּוּעַ שֶׁלֹּא הוֹדִיעוּ לָנוּ מֵרֹאשׁ"],
+      "a": 0,
+      "why": "There is no difference in meaning between לָמָּה and מַדּוּעַ, only in height: לָמָּה is what people say, מַדּוּעַ is what forms and editorials say. Neither one takes שֶׁ after it." },
+
+    { "id": "confusables-05", "type": "fill",
+      "q": "Fill the gap with one word: אֲנִי ___ לִשְׂחוֹת (\"I can swim\", meaning I know how).",
+      "pre": "אֲנִי",
+      "post": "לִשְׂחוֹת",
+      "a": ["יוֹדֵעַ", "יוֹדַעַת"],
+      "why": "English \"can\" covers being able and knowing how; Hebrew splits them. A learned skill is יוֹדֵעַ, so swimming, driving and speaking a language all take it." },
+
+    { "id": "confusables-06", "type": "mcq",
+      "q": "Which sentence says \"I can come tomorrow\" in the sense that you are free to?",
+      "choices": ["אֲנִי יָכוֹל לָבוֹא מָחָר", "אֲנִי יוֹדֵעַ לָבוֹא מָחָר", "אֲנִי מַכִּיר לָבוֹא מָחָר", "אֲנִי יוֹדֵעַ אֶת לָבוֹא מָחָר"],
+      "a": 0,
+      "why": "יָכוֹל is being able or being free to; יוֹדֵעַ is having the skill. אֲנִי יוֹדֵעַ לָבוֹא would claim that arriving is a technique you were taught." },
+
+    { "id": "confusables-07", "type": "fill",
+      "q": "Fill the gap with one word: אֲנִי ___ אֶת הָאָח שֶׁלּוֹ (\"I know his brother\").",
+      "pre": "אֲנִי",
+      "post": "אֶת הָאָח שֶׁלּוֹ",
+      "a": ["מַכִּיר", "מַכִּירָה"],
+      "why": "Both verbs are \"to know\", and the split is fact against acquaintance: people, cities and books take לְהַכִּיר, while answers, languages and facts take לָדַעַת. אֲנִי יוֹדֵעַ אוֹתוֹ about a person marks you as a foreigner at once, and so does אֲנִי מַכִּיר אֶת הַתְּשׁוּבָה." },
+
+    { "id": "confusables-08", "type": "fill",
+      "q": "Fill the gap with one word: ___ בְּסֵדֶר, אַל תִּדְאַג (\"everything is fine, don't worry\").",
+      "post": "בְּסֵדֶר, אַל תִּדְאַג",
+      "a": ["הַכּוֹל", "הכל"],
+      "why": "הַכּוֹל stands on its own and means \"everything\". Its twin כָּל cannot stand alone: it needs a noun behind it, as in כָּל הַיְּלָדִים בַּבַּיִת, \"all the children are at home\"." },
+
+    { "id": "confusables-09", "type": "mcq",
+      "q": "Which is correct for \"I have no time\"?",
+      "choices": ["אֵין לִי זְמַן", "לֹא יֵשׁ לִי זְמַן", "לֹא לִי זְמַן", "אֵין אֲנִי זְמַן"],
+      "a": 0,
+      "why": "אֵין negates existence and possession, and it is a word in its own right rather than a negated יֵשׁ. לֹא is for verbs and predicates: לֹא הָלַכְתִּי לָעֲבוֹדָה." },
+
+    { "id": "confusables-10", "type": "fill",
+      "q": "Fill the gap with one word: אֲנִי עוֹבֵד ___ הַשָּׁבוּעַ (\"I'm working a lot this week\").",
+      "pre": "אֲנִי עוֹבֵד",
+      "post": "הַשָּׁבוּעַ",
+      "a": ["הַרְבֵּה"],
+      "why": "הַרְבֵּה is quantity, how much of the thing there is. מְאוֹד is degree and strengthens what it follows, as in אֲנִי אוֹהֵב אוֹתָךְ מְאוֹד; it cannot measure an amount of work." },
+
+    { "id": "confusables-11", "type": "say",
+      "q": "Say this out loud: I'm short of sleep.",
+      "target": "חָסְרָה לִי שֵׁינָה",
+      "why": "שֵׁינָה is sleep and שָׁנָה is a year, one vowel apart, and in full spelling a single yod is the only thing keeping שינה and שנה separate. In speech there is nothing between them but that vowel, so say the tzere clearly: shei-NA, not sha-NA." },
+
+    { "id": "confusables-12", "type": "listen",
+      "say": "הַדּוּד הִתְקַלְקֵל",
+      "q": "Type what you hear.",
+      "a": ["הַדּוּד הִתְקַלְקֵל"],
+      "why": "Unpointed, דוד is an uncle, a hot-water boiler and the name David all at once, and only the points or the sentence decide. הַדּוּד הִתְקַלְקֵל is the boiler, and it is the single most common sentence in Israeli domestic life; הַדּוֹד שֶׁלִּי גָּר בְּחֵיפָה is the uncle." },
+
+    { "id": "confusables-13", "type": "fill",
+      "q": "Fill the gap with one word: רָצִיתִי לָבוֹא, ___ לֹא יָכוֹלְתִּי (\"I wanted to come, but I couldn't\").",
+      "pre": "רָצִיתִי לָבוֹא,",
+      "post": "לֹא יָכוֹלְתִּי",
+      "a": ["אֲבָל"],
+      "why": "This is the ordinary \"but\": both halves stand, and nothing is being corrected. אֶלָּא would be wrong here twice over, because it needs a negative in front of it and it has to replace the thing that was denied." },
+
+    { "id": "confusables-14", "type": "order",
+      "q": "Build the sentence: it isn't blue but green",
+      "words": ["זֶה", "לֹא", "כָּחוֹל", "אֶלָּא", "יָרוֹק"],
+      "a": ["זֶה", "לֹא", "כָּחוֹל", "אֶלָּא", "יָרוֹק"],
+      "why": "Here the second half hands you the true version of what the first half denied, so it is אֶלָּא and not אֲבָל: יָרוֹק takes the place of כָּחוֹל. The לֹא in front is what licenses it at all." },
+
+    { "id": "confusables-15", "type": "open",
+      "q": "Take יָכוֹל against יוֹדֵעַ and לָדַעַת against לְהַכִּיר. Say what decides each pair, give one correct Hebrew sentence for each of the four, and say what the two splits have in common.",
+      "a": ["יָכוֹל is being able or being free to, and יוֹדֵעַ is having the skill: אֲנִי יָכוֹל לָבוֹא מָחָר, I am free to come, against אֲנִי יוֹדֵעַ לִשְׂחוֹת, I was taught how. לָדַעַת and לְהַכִּיר are both \"to know\", split by fact against acquaintance: אֲנִי יוֹדֵעַ אֶת הַתְּשׁוּבָה for a fact, an answer or a language, and אֲנִי מַכִּיר אֶת הָאָח שֶׁלּוֹ for a person, a city or a book. אֲנִי יוֹדֵעַ אוֹתוֹ about a person and אֲנִי מַכִּיר אֶת הַתְּשׁוּבָה are both wrong and both mark a foreigner immediately. What the two have in common is that the split is never about politeness or register: it is a distinction English stopped making, able against skilled and fact against acquaintance, and Hebrew keeps a separate verb for each side of it."],
+      "why": "The same test explains בִּגְלַל against בִּשְׁבִיל, cause against benefit, and כָּל against הַכּוֹל. When one English word maps onto two Hebrew ones, look for the distinction English lost rather than for a difference in formality." }
+  ]
+}

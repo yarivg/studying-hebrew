@@ -1,0 +1,89 @@
+{
+  "ch": "adverbs-connectors",
+  "title": "Adverbs and connectors",
+  "questions": [
+    { "id": "adverbs-connectors-01", "type": "mcq",
+      "q": "Which is \"she runs fast\"?",
+      "choices": ["הִיא רָצָה מַהֵר", "הִיא רָצָה מְהִירָה", "הִיא רָצָה מַהֵרָה", "הִיא רָצָה בְּמַהֵר"],
+      "a": 0,
+      "why": "An adjective used as an adverb is frozen in the masculine singular, because it is describing the verb and not the subject. The same sentence serves a man, a woman or a crowd, and the instinct to make it agree is the one thing to suppress." },
+
+    { "id": "adverbs-connectors-02", "type": "fill",
+      "q": "Say \"he runs fast\".",
+      "a": ["הוּא רָץ מַהֵר"],
+      "why": "Hebrew has no ending answering to English -ly, so the first strategy is to build no adverb at all and use the bare adjective: רָץ מַהֵר, עוֹבֵד קָשֶׁה, מְדַבֵּר יָפֶה." },
+
+    { "id": "adverbs-connectors-03", "type": "mcq",
+      "q": "Which means \"carefully\"?",
+      "choices": ["בְּשֶׁקֶט", "בִּזְהִירוּת", "בְּקַלּוּת", "בְּקוֹשִׁי"],
+      "a": 1,
+      "why": "בְּ plus an abstract noun is the productive strategy, the nearest thing Hebrew has to -ly, and most of these nouns end in וּת. The others are quietly, easily and barely." },
+
+    { "id": "adverbs-connectors-04", "type": "fill",
+      "q": "Say \"she works quietly\".",
+      "a": ["הִיא עוֹבֶדֶת בְּשֶׁקֶט"],
+      "why": "The verb agrees with her, the adverb does not agree with anything: בְּ plus a noun is a fixed block. Know the noun and you can build the adverb on the spot." },
+
+    { "id": "adverbs-connectors-05", "type": "mcq",
+      "q": "An editor changes הוּא מְדַבֵּר טוֹב to what?",
+      "choices": ["הוּא מְדַבֵּר הֵיטֵב", "הוּא מְדַבֵּר בְּטוֹב", "הוּא מְדַבֵּר יָפֶה", "הוּא מְדַבֵּר טוֹבָה"],
+      "a": 0,
+      "why": "הֵיטֵב is the careful written word for \"well\", and it belongs to the short list of fixed adverbs alongside מְאוֹד, לְאַט and רַע. Say טוֹב without worrying; recognise הֵיטֵב when you read it." },
+
+    { "id": "adverbs-connectors-06", "type": "fill",
+      "q": "Say \"I have never been there\".",
+      "a": ["אַף פַּעַם לֹא הָיִיתִי שָׁם"],
+      "why": "אַף פַּעַם needs לֹא with it. Hebrew stacks the two negatives where English cancels them, so leaving the לֹא out does not make the sentence positive, it makes it broken." },
+
+    { "id": "adverbs-connectors-07", "type": "mcq",
+      "q": "What does עוֹד לֹא סִיַּימְתִּי mean?",
+      "choices": ["I have already finished", "I haven't finished yet", "I will not finish", "I am still finishing"],
+      "a": 1,
+      "why": "עוֹד alone means more or still, but with לֹא in front of the verb it is \"not yet\". Together with כְּבָר and עֲדַיִין it covers most of what English does with the perfect tense, which Hebrew does not have." },
+
+    { "id": "adverbs-connectors-08", "type": "listen",
+      "say": "כְּבָר אָכַלְתִּי",
+      "q": "Type what you hear.",
+      "a": ["כְּבָר אָכַלְתִּי"],
+      "why": "\"I have already eaten\": a plain past tense doing the work of an English perfect, with כְּבָר carrying the \"already\". Its opposite number is עֲדַיִין, still." },
+
+    { "id": "adverbs-connectors-09", "type": "say",
+      "q": "Say this out loud.",
+      "target": "גַּם אֲנִי רוֹצֶה",
+      "why": "גַּם sits in front of the word it adds, so this is \"I want some too\" with the emphasis on me. Move it and the meaning moves: אֲנִי גַּם רוֹצֶה is \"I also want\"." },
+
+    { "id": "adverbs-connectors-10", "type": "order",
+      "q": "Build the sentence: first we'll eat, afterwards we'll talk",
+      "words": ["קוֹדֶם כֹּל", "נֹאכַל", "אַחַר כָּךְ", "נְדַבֵּר"],
+      "a": ["קוֹדֶם כֹּל", "נֹאכַל", "אַחַר כָּךְ", "נְדַבֵּר"],
+      "why": "Connectors sit at the front of the clause they introduce, exactly where their English equivalents sit, so there is no new word order to learn. Only וְ and שֶׁ attach to the following word." },
+
+    { "id": "adverbs-connectors-11", "type": "mcq",
+      "q": "Which is \"because of the rain\"?",
+      "choices": ["כִּי הַגֶּשֶׁם", "בִּגְלַל הַגֶּשֶׁם", "מִפְּנֵי שֶׁהַגֶּשֶׁם", "לָכֵן הַגֶּשֶׁם"],
+      "a": 1,
+      "why": "בִּגְלַל takes a noun and nothing else: בִּגְלַל הַפְּקָקִים אֵיחַרְתִּי. כִּי and מִפְּנֵי שֶׁ need a whole clause after them, with a verb in it." },
+
+    { "id": "adverbs-connectors-12", "type": "fill",
+      "q": "Say \"because he came\", in the form you would write in something you submit.",
+      "a": ["מִפְּנֵי שֶׁהוּא בָּא", "כִּי הוּא בָּא"],
+      "why": "A clause needs מִפְּנֵי שֶׁ or כִּי, and כִּי is the safe everyday answer: correct, unobjectionable and shorter. The distinction is the same one English makes between \"because of\" and \"because\"." },
+
+    { "id": "adverbs-connectors-13", "type": "mcq",
+      "q": "Which construction has the Academy of the Hebrew Language been objecting to for decades, though everybody says it?",
+      "choices": ["בִּגְלַל שֶׁהוּא בָּא", "מִפְּנֵי שֶׁהוּא בָּא", "כִּי הוּא בָּא", "בִּגְלַל הַגֶּשֶׁם"],
+      "a": 0,
+      "why": "בִּגְלַל שֶׁ puts a clause after a preposition that wants a noun, and it is the single most complained-about construction in the language. Say it in speech, write מִפְּנֵי שֶׁ or כִּי in anything you publish." },
+
+    { "id": "adverbs-connectors-14", "type": "order",
+      "q": "Build the sentence: I was ill, so I didn't come",
+      "words": ["הָיִיתִי", "חוֹלֶה", "לָכֵן", "לֹא", "בָּאתִי"],
+      "a": ["הָיִיתִי", "חוֹלֶה", "לָכֵן", "לֹא", "בָּאתִי"],
+      "why": "לָכֵן introduces the result, where כִּי introduces the cause: the same two facts, run in the opposite direction from לֹא בָּאתִי כִּי הָיִיתִי חוֹלֶה." },
+
+    { "id": "adverbs-connectors-15", "type": "open",
+      "q": "Explain when to use בִּגְלַל and when to use מִפְּנֵי שֶׁ or כִּי, and say what the trap is for an English speaker.",
+      "a": ["בִּגְלַל takes a noun: בִּגְלַל הַגֶּשֶׁם, because of the rain, בִּגְלַל הַפְּקָקִים אֵיחַרְתִּי, I was late because of the traffic. מִפְּנֵי שֶׁ and כִּי take a whole clause with a verb in it: מִפְּנֵי שֶׁהוּא בָּא, because he came, לֹא יָצָאנוּ כִּי יָרַד גֶּשֶׁם. It is the same split English makes between \"because of\" and \"because\", and English speakers get it right by accident in English and wrong in Hebrew, because בִּגְלַל is the word they learned first and they put a clause after it: בִּגְלַל שֶׁהוּא בָּא. Everybody says that and the Academy has objected to it for decades, so it is fine in speech and wrong in anything you submit. כִּי is the safe everyday answer for because."],
+      "why": "The trap is not that בִּגְלַל שֶׁ is rare, it is that it is everywhere in speech and disqualified in writing, so a learner has to know both the spoken form and the one that is safe on paper." }
+  ]
+}

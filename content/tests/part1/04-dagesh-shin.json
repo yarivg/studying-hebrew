@@ -1,0 +1,83 @@
+{
+ "ch": "dagesh-shin",
+ "title": "Dagesh, shin and sin",
+ "questions": [
+  { "id": "dagesh-shin-01", "type": "mcq",
+    "q": "A dagesh is put inside the letter ב. What sound does it now have?",
+    "choices": ["b", "v", "kh", "p"],
+    "a": 0,
+    "why": "With the dot it is the hard sound b, without it the soft sound v. Nothing else in the word gives it away: אָבִיב has no dagesh in either ב, so it is /aviv/, while בַּיִת has one and is /bayit/." },
+
+  { "id": "dagesh-shin-02", "type": "mcq",
+    "q": "Which three letters actually change their sound with a dagesh in Israeli Hebrew?",
+    "choices": ["בּ כּ פּ", "ג ד ת", "ב ג ד", "שׁ שׂ ס"],
+    "a": 0,
+    "why": "בּ כּ פּ are b, k, p with the dot and v, kh, f without it. ג ד ת take a dagesh too and it makes no audible difference today; the full traditional six are remembered as בְּגַ״ד כְּפַ״ת." },
+
+  { "id": "dagesh-shin-03", "type": "mcq",
+    "q": "On which side does the dot sit when ש is read sh?",
+    "choices": ["The right", "The left", "Directly above the middle", "Inside the letter"],
+    "a": 0,
+    "why": "שִׁין takes its dot on the right, שִׂין on the left. The right is the side a Hebrew word starts from, which is the mnemonic worth keeping; and in unpointed text, where no dot is written at all, assuming sh is right far more often than not." },
+
+  { "id": "dagesh-shin-04", "type": "fill",
+    "q": "Type the Hebrew word for the sun, read /shemesh/.",
+    "a": ["שֶׁמֶשׁ"],
+    "why": "Both dots are on the right, so both letters are שִׁין. It is also a segolate: two סֶגּוֹל signs, and the stress at the front." },
+
+  { "id": "dagesh-shin-05", "type": "mcq",
+    "q": "What is the first sound of שִׂמְחָה?",
+    "choices": ["s", "sh", "ts", "z"],
+    "a": 0,
+    "why": "The dot is on the left, so this is שִׂין and the word is /simkha/. שִׂין is much rarer than שִׁין, which is why the dot on the left is worth noticing every time you see it." },
+
+  { "id": "dagesh-shin-06", "type": "fill",
+    "q": "Type the Hebrew word for a house, read /bayit/.",
+    "a": ["בַּיִת"],
+    "why": "The dagesh in the ב is what makes it b. Take the dot away and the same four letters would read /vayit/, which is nothing at all." },
+
+  { "id": "dagesh-shin-07", "type": "listen",
+    "say": "אָבִיב",
+    "q": "Type what you hear.",
+    "a": ["אָבִיב"],
+    "why": "Spring, /aviv/. Neither ב carries a dagesh, so both are v, and the opening א is silent. Two identical letters, one sound, no dots to hear." },
+
+  { "id": "dagesh-shin-08", "type": "say",
+    "q": "Say this out loud.",
+    "target": "שָׂפָה",
+    "why": "A language, and also a lip, /safa/. The dot is on the left, so it opens with s; with the dot on the right it would be /shafa/, which is not a word." },
+
+  { "id": "dagesh-shin-09", "type": "say",
+    "q": "Say this out loud.",
+    "target": "עוֹד",
+    "why": "More, still, /od/. The ו here is not the consonant v: the dot above and to its left makes it a חוֹלָם מָלֵא, the vowel o. The opening ע is silent, so the word begins on that vowel." },
+
+  { "id": "dagesh-shin-10", "type": "order",
+    "q": "Put the six letters of בְּגַ״ד כְּפַ״ת into their traditional order.",
+    "words": ["כ", "ת", "ב", "פ", "ג", "ד"],
+    "a": ["ב", "ג", "ד", "כ", "פ", "ת"],
+    "why": "ב ג ד כ פ ת, alef-bet order, held together by the nonsense word בְּגַ״ד כְּפַ״ת. All six once had two sounds; three of them still do, and grammar books go on naming the whole set." },
+
+  { "id": "dagesh-shin-11", "type": "mcq",
+    "q": "The final ך of מֶלֶךְ carries no dagesh. How is the word read?",
+    "choices": ["melekh", "melek", "melech, as in church", "mele, with the ך silent"],
+    "a": 0,
+    "why": "Without a dagesh, כ is the throat sound kh, the same as ח. With one it would be k, as in כֶּסֶף. A final letter very often turns up without a dagesh, so the soft sound is the safe guess at the end of a word." },
+
+  { "id": "dagesh-shin-12", "type": "fill",
+    "q": "Type the Hebrew word for a commandment, read /mitzva/, in the full spelling this course uses.",
+    "a": ["מִצְוָוה"],
+    "why": "Two vavs, because the first one is a consonant v. A single ו there would be read as the vowel o or u, so modern full spelling doubles it, exactly as אֲוִויר doubles its own." },
+
+  { "id": "dagesh-shin-13", "type": "mcq",
+    "q": "The ב of סַבָּא has a dagesh, but it would sound like b there anyway. What is the dot doing?",
+    "choices": ["Marking a consonant that was once said twice", "Marking the stress", "Marking the letter as the root's first letter", "Nothing; it is a printing habit"],
+    "a": 0,
+    "why": "That is a דָּגֵשׁ חָזָק, the doubling dagesh, as against the דָּגֵשׁ קַל that switches b, k, p on. Israeli Hebrew does not pronounce doubled consonants, so it is invisible in speech, but it flags a letter that has swallowed another one and that is how verb patterns are spotted later." },
+
+  { "id": "dagesh-shin-14", "type": "open",
+    "q": "Explain the difference between the two jobs a dagesh does, with an example of each.",
+    "a": ["דָּגֵשׁ קַל switches a soft sound to a hard one in בּ כּ פּ: בַּיִת is /bayit/ with the dot and would be /vayit/ without it. דָּגֵשׁ חָזָק doubles a consonant that is already hard, as in סַבָּא, where the ב would be b in any case. The first is audible in modern Hebrew, the second is not, but the second still carries information: it marks a letter that has absorbed another and so identifies the pattern a word was built on."],
+    "why": "The same dot doing two unrelated jobs is the confusing part. Reading aloud, only the first matters; reading for structure, the second is the more useful of the two." }
+ ]
+}
