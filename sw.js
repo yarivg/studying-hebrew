@@ -161,6 +161,12 @@ function isShell(url) {
          url.pathname.endsWith('/');
 }
 
+// A recorded clip. Named after a hash of the words it holds, so its contents
+// can never change and it never needs revalidating.
+function isClip(url) {
+  return /\/audio\/[0-9a-f]{2}\/[0-9a-f]{16}\.m4a$/.test(url.pathname);
+}
+
 self.addEventListener('fetch', function (event) {
   var req = event.request;
 
@@ -177,6 +183,26 @@ self.addEventListener('fetch', function (event) {
           return caches.match('index.html', { ignoreSearch: true })
             .then(function (hit) { return hit || caches.match('./'); });
         })
+    );
+    return;
+  }
+
+  // Clips are deliberately not in the precache list: 44 MB is not something
+  // to download before the first lesson. They collect here instead, one per
+  // thing you have actually listened to, and the Audio menu has a button that
+  // walks the lot in one go for a flight.
+  if (isClip(url)) {
+    event.respondWith(
+      caches.match(req, { ignoreSearch: true }).then(function (hit) {
+        if (hit) return hit;
+        return fetch(req).then(function (res) {
+          if (res && res.ok) {
+            var copy = res.clone();
+            caches.open(CACHE_VERSION).then(function (c) { c.put(req, copy); });
+          }
+          return res;
+        });
+      })
     );
     return;
   }
@@ -231,9 +257,19 @@ self.addEventListener('message', function (event) {
     Promise.all([caches.open(CACHE_VERSION), buildFileList()])
       .then(function (r) { return Promise.all([r[0].keys(), r[1]]); })
       .then(function (r) {
+        // Clips are counted apart from the course. They are optional, there
+        // are thousands of them, and folded in they would put the cache past
+        // "complete" the first time anyone pressed play.
+        var clips = 0;
+        var course = r[0].filter(function (req) {
+          if (!isClip(new URL(req.url))) return true;
+          clips++;
+          return false;
+        });
         // Ready is measured against the required files only; the optional
         // test banks that do not exist must not hold the count back.
-        report({ type: 'status', cached: r[0].length, expected: r[1].required.length });
+        report({ type: 'status', cached: course.length,
+                 expected: r[1].required.length, clips: clips });
       });
   }
 });

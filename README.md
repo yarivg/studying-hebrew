@@ -78,8 +78,15 @@ progress ring.
 
 ## Audio
 
-Speech comes from the browser, so there are no sound files to download and it
-works offline once a voice is installed.
+Nearly every Hebrew string in the course is a recording. They were made on a
+Mac with `say -v Carmit`, and the app plays one in preference to the browser's
+own voice, so a lesson sounds the same on every machine and needs no voice
+installed. 6,128 clips, 44 MB in total, and none of it is
+downloaded until you press play.
+
+A clip is named after a hash of the words it holds, so there is no index to
+load and nothing to look up. Where a string has no recording, the browser's
+voice reads it instead:
 
 - **macOS**: add Carmit under System Settings, Accessibility, Spoken Content,
   System Voice, Manage Voices.
@@ -90,6 +97,11 @@ works offline once a voice is installed.
 Click any Hebrew example to hear it. Shift-click reads it slowly. A
 transliteration in the text gets a play button of its own, wired to the Hebrew
 word it transcribes.
+
+Clips are cached as they play. The Audio menu has a **Save all audio offline**
+button that fetches the whole set in one go, which is what you want before a
+flight. To rebuild them after adding content, `python3 tools/build-audio.py`
+records only what is missing.
 
 ## Fonts
 
@@ -115,6 +127,10 @@ You can also export and import a JSON file by hand, from the same page.
 The service worker precaches the shell and every lesson, bank, passage and
 font, so the whole course works with no connection after the first visit. It
 installs as an app from the browser's own menu.
+
+Recordings are deliberately left out of that: 44 MB before the first lesson is
+not a trade worth making. They are cached as they play, and the Audio menu's
+**Save all audio offline** button collects the rest when you want it.
 
 For somewhere with no server at all, `python3 tools/build-single-file.py`
 writes `hamachberet-offline.html`, one file holding the entire course

@@ -18,8 +18,31 @@ content/tests/          question banks, one JSON per chapter, plus groups.json
 content/reading/        passages, plus index.json
 data/vocab-source.txt   the word list, hand written
 data/vocab.json         built from it by tools/build-vocab.py
-tools/                  four python3 scripts
+audio/xx/<hash>.m4a     Carmit reading every Hebrew string in the course
+audio/index.json        the key list, read only by "Save all audio offline"
+tools/                  the build scripts and the checkers
 ```
+
+## Audio
+
+Nearly every Hebrew string is a recording, made on a Mac with `say -v Carmit`
+and played by the app in preference to the browser's own voice. That is not a
+nicety: browsers list Hebrew voices they will not drive, and several have none
+at all, so the recording is the only thing that sounds the same everywhere.
+
+A clip is named after the text it holds. `Say.key()` in `assets/audio.js`
+hashes the *cleaned* string and that is the filename, so nothing is looked up
+and no index is loaded at startup. A string with no clip 404s once and the
+browser voice takes it.
+
+**Only `Say.key()` ever computes a name.** `tools/collect-audio.js` loads the
+real module and calls it, and `tools/build-audio.py` only ever writes the
+names it is handed. Reimplementing the hash anywhere else would make every
+clip invisible at once.
+
+Clips are never precached: 44 MB before the first lesson is not a trade worth
+making. They are cached as they play, and the Audio menu has a button that
+fetches the lot for a flight.
 
 ## Content rules
 
@@ -57,7 +80,10 @@ python3 tools/check-hebrew.py       # after editing anything with Hebrew in it
 node tools/check-grading.js         # grades every bank answer with the real grader
 node tools/check-gloss.js           # checks a tapped word in a passage resolves
 node tools/check-speech.js          # checks a spoken answer is scored fairly
+node tools/check-clean.js           # checks the text reaching the voice is intact
 python3 tools/build-reading-index.py  # rebuilds content/reading/index.json
+node tools/collect-audio.js         # lists every string that needs a recording
+python3 tools/build-audio.py        # records the missing ones (macOS, ~30 min)
 python3 tools/build-single-file.py  # regenerates hamachberet-offline.html
 python3 -m http.server 8000         # then open http://localhost:8000
 ```

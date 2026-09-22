@@ -27,6 +27,7 @@ run "test banks"        python3 tools/check-tests.py
 run "bank grading"      node tools/check-grading.js
 run "reading passages"  python3 tools/check-reading.py
 run "gloss lookup"      node tools/check-gloss.js
+run "spoken text"       node tools/check-clean.js
 run "speech scoring"    node tools/check-speech.js
 
 if [ "$fail" != "0" ]; then

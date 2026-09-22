@@ -130,7 +130,10 @@ window.Say = (function () {
       // Left in, a voice announces it as an arrow. A comma gives the pause
       // that makes the pair audible as two forms of one word.
       .replace(/\s*(→|⟶|⇒|->|←)\s*/g, ', ')
-      .replace(/\s*[·-–]\s*/g, ', ')
+      // The hyphen is escaped on purpose. Unescaped it is a range, U+00B7 to
+      // U+2013, which swallows the whole Hebrew block: every line handed to
+      // the voice came back as a row of commas, and the voice was blamed.
+      .replace(/\s*[·\-–]\s*/g, ', ')
       .replace(/‑/g, '-')
       .replace(/…/g, ' ')
       .replace(/\s+/g, ' ')
@@ -140,6 +143,65 @@ window.Say = (function () {
   // Bumped by every speak() and every stop(), so an utterance that is
   // cancelled can tell it was cancelled: browsers are inconsistent about
   // whether cancel() arrives as `end` or as an `interrupted` error.
+  /* ---------------------------------------------------------- clips
+
+     Every Hebrew string the course can ask for is also on disk, recorded
+     with Carmit by tools/build-audio.py. A clip wins over the browser's own
+     voice for two reasons: it is the same voice on every machine, and it
+     plays on browsers that list a Hebrew voice they cannot actually drive,
+     which is most of the reason this exists.
+
+     A clip is named after the text it holds, so nothing has to be looked up
+     and no index is loaded at startup: hash the cleaned string, and that is
+     the file. A string with no clip simply 404s once and is remembered as
+     missing, and the browser voice takes it from there.
+
+     The hash is computed here and nowhere else. tools/collect-audio.js runs
+     this very function to name the files, so the two can never drift. */
+
+  var CLIPS = 'audio/';
+
+  // FNV-1a, twice with different starting values, giving 64 bits in 16 hex
+  // characters. The multiply is the usual shift-and-add form, which keeps it
+  // inside 32-bit integer arithmetic. Hebrew is all in the basic plane, so
+  // UTF-16 code units are a stable thing to hash.
+  function fnv32(str, seed) {
+    var h = seed >>> 0;
+    for (var i = 0; i < str.length; i++) {
+      var c = str.charCodeAt(i);
+      h = (h ^ (c & 0xff)) >>> 0;
+      h = (h + ((h << 1) + (h << 4) + (h << 7) + (h << 8) + (h << 24))) >>> 0;
+      h = (h ^ ((c >>> 8) & 0xff)) >>> 0;
+      h = (h + ((h << 1) + (h << 4) + (h << 7) + (h << 8) + (h << 24))) >>> 0;
+    }
+    return h >>> 0;
+  }
+
+  function hex8(n) { return ('0000000' + n.toString(16)).slice(-8); }
+
+  // The name of the clip for a piece of text, already cleaned.
+  function key(text) {
+    var s = String(text == null ? '' : text);
+    if (s.normalize) s = s.normalize('NFC');
+    return hex8(fnv32(s, 0x811c9dc5)) + hex8(fnv32(s, 0x01000193));
+  }
+
+  function clipUrl(k) { return CLIPS + k.slice(0, 2) + '/' + k + '.m4a'; }
+
+  // Clips we have asked for and been refused. A build with no audio at all
+  // fills this once per string and then never asks again.
+  var missing = {};
+  var player = null;
+  // Whether the last thing spoken came off disk. Only the Test button asks.
+  var lastWasClip = false;
+
+  function stopClip() {
+    if (!player) return;
+    var a = player;
+    player = null;
+    try { a.pause(); a.src = ''; } catch (e) { /* already gone */ }
+  }
+
   var epoch = 0;
 
   // The last thing the engine complained about, for the Test button to show.
@@ -199,13 +261,16 @@ window.Say = (function () {
 
   function speak(text, opts) {
     opts = opts || {};
-    if (!synth || !prefs.on) return false;
+    if (!prefs.on) return false;
     var say = clean(text);
     if (!say) return false;
+    // No voice and no clip to fall back on is the one case with nothing to do.
+    if (!synth && missing[key(say)]) return false;
 
     var mine = ++epoch;
-    var busy = synth.speaking || synth.pending || synth.paused;
-    synth.cancel();
+    var busy = !!synth && (synth.speaking || synth.pending || synth.paused);
+    stopClip();
+    if (synth) synth.cancel();
 
     var el = opts.el || null;
     if (el) {
@@ -230,6 +295,33 @@ window.Say = (function () {
 
     var rate = (opts.slow || prefs.slow) ? 0.6 : 0.9;
     var began = 0;
+
+    // A recording, if there is one for these words.
+    function clip(next) {
+      var k = key(say);
+      if (missing[k]) return next();
+      var a = new Audio(clipUrl(k));
+      var over = false;
+      a.playbackRate = (opts.slow || prefs.slow) ? 0.72 : 1;
+      function failed() {
+        if (over) return;
+        over = true;
+        missing[k] = 1;
+        if (player === a) player = null;
+        next();
+      }
+      a.addEventListener('ended', function () {
+        if (over) return;
+        over = true;
+        if (player === a) player = null;
+        lastWasClip = true;
+        done(true);
+      });
+      a.addEventListener('error', failed);
+      player = a;
+      var p = a.play();
+      if (p && p.catch) p.catch(failed);
+    }
 
     // `named` is whether to hand the engine the chosen voice. False is the
     // fallback: lang alone, and let it choose.
@@ -279,14 +371,20 @@ window.Say = (function () {
       startTicker();
     }
 
-    if (busy) setTimeout(function () { go(true); }, 140);
-    else go(true);
+    function live() {
+      if (!synth) { done(false); return; }
+      if (busy) setTimeout(function () { go(true); }, 140);
+      else go(true);
+    }
+
+    clip(live);
     return true;
   }
 
   function stop() {
     epoch++;
     stopTicker();
+    stopClip();
     if (synth) synth.cancel();
     if (speakingEl) { speakingEl.classList.remove('is-speaking'); speakingEl = null; }
   }
@@ -476,6 +574,61 @@ window.Say = (function () {
     root.querySelectorAll('.v-he').forEach(markVocab);
   }
 
+  /* ------------------------------------------------- saving them offline
+
+     Playing something caches its clip, so the course fills in as it is used.
+     That is the right default, and it is no use to anyone about to get on a
+     plane. This walks the index and fetches every clip, which the service
+     worker stores on the way past. Eight at a time: enough to saturate the
+     connection, few enough that the page stays responsive. */
+
+  var saving = false;
+
+  function saveAll(onProgress) {
+    if (saving) return;
+    saving = true;
+    fetch(CLIPS + 'index.json')
+      .then(function (r) {
+        if (!r.ok) throw new Error('no recordings in this build');
+        return r.json();
+      })
+      .then(function (index) {
+        var keys = [];
+        for (var i = 0; i + 16 <= index.keys.length; i += 16) {
+          keys.push(index.keys.substr(i, 16));
+        }
+        var at = 0, done = 0, failed = 0;
+        var total = keys.length;
+        onProgress(0, total, null);
+
+        function next() {
+          if (at >= keys.length) return Promise.resolve();
+          var k = keys[at++];
+          return fetch(clipUrl(k))
+            .then(function (r) { if (!r.ok) failed++; })
+            .catch(function () { failed++; })
+            .then(function () {
+              done++;
+              if (done % 25 === 0 || done === total) onProgress(done, total, null);
+              return next();
+            });
+        }
+
+        var lanes = [];
+        for (var n = 0; n < 8; n++) lanes.push(next());
+        return Promise.all(lanes).then(function () {
+          saving = false;
+          onProgress(total, total, failed
+            ? failed + ' of ' + total + ' could not be fetched.'
+            : 'All ' + total + ' recordings are saved. The course speaks offline now.');
+        });
+      })
+      .catch(function (err) {
+        saving = false;
+        onProgress(0, 0, err.message || 'Could not save the recordings.');
+      });
+  }
+
   /* ---------------------------------------------------------- controls */
 
   var btn = null, menu = null;
@@ -532,18 +685,37 @@ window.Say = (function () {
     // lists a voice it cannot actually drive, this is where that shows up,
     // rather than as words in a lesson that silently do nothing.
     menu.addEventListener('click', function (e) {
+      if (e.target.closest('[data-act="save"]')) {
+        var line = document.getElementById('audioSave');
+        var btn2 = e.target.closest('[data-act="save"]');
+        btn2.disabled = true;
+        saveAll(function (done, total, message) {
+          if (!line) return;
+          if (message) {
+            line.textContent = message;
+            btn2.disabled = false;
+          } else {
+            line.textContent = 'Saving ' + done + ' of ' + total + '\u2026';
+          }
+        });
+        return;
+      }
       if (!e.target.closest('[data-act="test"]')) return;
       var out = document.getElementById('audioResult');
       lastError = '';
       fellBack = false;
       mute = false;
+      lastWasClip = false;
       if (out) out.textContent = 'Speaking\u2026';
       var started = speak(
         '\u05e9\u05c1\u05b8\u05dc\u05d5\u05b9\u05dd, \u05d0\u05b2\u05e0\u05b4\u05d9 ' +
         '\u05dc\u05d5\u05b9\u05de\u05b5\u05d3 \u05e2\u05b4\u05d1\u05b0\u05e8\u05b4\u05d9\u05ea.',
         { onEnd: function (finished) {
             if (!out) return;
-            if (lastError) out.textContent = 'The browser refused: ' + lastError + '.';
+            if (lastWasClip) out.textContent = 'That is the recording, ' +
+              'the same one on every browser. The voice below is only used ' +
+              'where a recording is missing.';
+            else if (lastError) out.textContent = 'The browser refused: ' + lastError + '.';
             else if (mute) out.textContent = 'This browser produced no sound ' +
               'for Hebrew, with ' + (current ? current.name : 'that voice') +
               ' or without it. The voice itself is fine: the fault is the ' +
@@ -588,15 +760,16 @@ window.Say = (function () {
             '<select id="audioVoice">' + opts + '</select></label>' +
           '<button class="btn" type="button" data-act="test">Test the voice</button>' +
           '<p class="audio-result" id="audioResult"></p>'
-        : '<p class="audio-note">No Hebrew voice is installed in this browser. ' +
-          'On macOS add Carmit under System Settings > Accessibility > Spoken Content > ' +
-          'System Voice > Manage Voices. On iOS and Android it is built in.</p>') +
-      (voices.length === 1
-        ? '<p class="audio-note">Carmit is the only Hebrew voice Apple ships, so ' +
-          'there is nothing else to pick here. If it stays silent, try the same ' +
-          'page in Safari: Chrome lists the Apple voices but cannot always ' +
-          'drive them.</p>'
-        : '') +
+        : '<p class="audio-note">No Hebrew voice is installed in this browser, ' +
+          'so anything without a recording stays silent. On macOS add Carmit under ' +
+          'System Settings > Accessibility > Spoken Content > System Voice > ' +
+          'Manage Voices. On iOS and Android it is built in.</p>') +
+      '<button class="btn" type="button" data-act="save">Save all audio offline</button>' +
+      '<p class="audio-result" id="audioSave"></p>' +
+      '<p class="audio-note">Nearly everything in the course is a recording made ' +
+      'with Carmit, so it sounds the same in every browser and needs no voice ' +
+      'installed. The setting above is only for the few things that have no ' +
+      'recording.</p>' +
       '<p class="audio-note">Click any Hebrew example to hear it. Shift-click reads it slowly.</p>';
   }
 
@@ -628,6 +801,7 @@ window.Say = (function () {
 
   return {
     setup: setup, hydrate: hydrate, speak: speak, stop: stop,
-    supported: supported, available: available, enabled: enabled, on: on
+    supported: supported, available: available, enabled: enabled, on: on,
+    clean: clean, key: key, clipUrl: clipUrl
   };
 })();
