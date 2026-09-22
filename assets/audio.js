@@ -49,12 +49,19 @@ window.Say = (function () {
 
   // Voices arrive asynchronously in most browsers, and Chrome only
   // populates the list after the first getVoices() call.
+  var voiceSig = '';
+
   function refreshVoices() {
     if (!synth) return;
     voices = (synth.getVoices() || []).filter(function (v) {
       return /^he/i.test(v.lang);
     });
     current = pickVoice();
+    // Chrome fires voiceschanged more than once, and redrawing the menu
+    // while it is open throws away a select the user is in the middle of.
+    var sig = voices.map(function (v) { return v.voiceURI; }).join('|');
+    if (sig === voiceSig) return;
+    voiceSig = sig;
     paintMenu();
   }
 
@@ -135,19 +142,47 @@ window.Say = (function () {
   // whether cancel() arrives as `end` or as an `interrupted` error.
   var epoch = 0;
 
+  // The last thing the engine complained about, for the Test button to show.
+  // Nothing else reads it: a failure in the middle of a lesson should not put
+  // an error message where the learner is trying to read.
+  var lastError = '';
+
+  /* Two long-standing engine bugs, both of which present as "the voice does
+     not work at all", and neither of which is anything to do with the voice.
+
+     Chrome and Edge drop an utterance queued in the same tick as a cancel().
+     Every call here begins with a cancel, so on those browsers every click
+     after the first was being swallowed.
+
+     Chrome also stops mid-utterance after about fifteen seconds unless
+     something pokes it. A passage read line by line runs straight into that.
+     An engine that is not paused ignores resume(), so the timer below costs
+     nothing anywhere else. */
+
+  var ticker = null;
+
+  function startTicker() {
+    if (ticker) return;
+    ticker = setInterval(function () {
+      if (!synth || !synth.speaking) { stopTicker(); return; }
+      if (synth.paused) synth.resume();
+      else { synth.pause(); synth.resume(); }
+    }, 5000);
+  }
+
+  function stopTicker() {
+    if (ticker) { clearInterval(ticker); ticker = null; }
+  }
+
   function speak(text, opts) {
     opts = opts || {};
     if (!synth || !prefs.on) return false;
     var say = clean(text);
     if (!say) return false;
 
-    synth.cancel();
     var mine = ++epoch;
-    var u = new SpeechSynthesisUtterance(say);
-    u.lang = current ? current.lang : 'he-IL';
-    if (current) u.voice = current;
-    u.rate = (opts.slow || prefs.slow) ? 0.6 : 0.9;
-    u.pitch = 1;
+    var busy = synth.speaking || synth.pending || synth.paused;
+    synth.cancel();
 
     var el = opts.el || null;
     if (el) {
@@ -162,21 +197,42 @@ window.Say = (function () {
     function done(finished) {
       if (settled) return;
       settled = true;
+      stopTicker();
       if (el) {
         el.classList.remove('is-speaking');
         if (speakingEl === el) speakingEl = null;
       }
       if (opts.onEnd) opts.onEnd(finished && mine === epoch);
     }
-    u.onend = function () { done(true); };
-    u.onerror = function (e) { done(!e || e.error !== 'interrupted'); };
 
-    synth.speak(u);
+    function go() {
+      // Something else started speaking while we were waiting out the cancel.
+      if (mine !== epoch) { done(false); return; }
+      var u = new SpeechSynthesisUtterance(say);
+      u.lang = current ? current.lang : 'he-IL';
+      if (current) u.voice = current;
+      u.rate = (opts.slow || prefs.slow) ? 0.6 : 0.9;
+      u.pitch = 1;
+      u.onstart = function () { lastError = ''; startTicker(); };
+      u.onend = function () { done(true); };
+      u.onerror = function (e) {
+        var err = e && e.error;
+        var mine_ = err !== 'interrupted' && err !== 'canceled';
+        if (err && mine_) lastError = err;
+        done(mine_);
+      };
+      synth.speak(u);
+      startTicker();
+    }
+
+    if (busy) setTimeout(go, 140);
+    else go();
     return true;
   }
 
   function stop() {
     epoch++;
+    stopTicker();
     if (synth) synth.cancel();
     if (speakingEl) { speakingEl.classList.remove('is-speaking'); speakingEl = null; }
   }
@@ -191,13 +247,30 @@ window.Say = (function () {
   // Italic text in a lesson is, by the convention of these notes, a Hebrew
   // example, and md.js wraps every Hebrew run in a .he span besides. Both
   // become something you can click and hear.
+  // What a marked-up element should be read as. The page may be showing the
+  // text with the points switched off, but the voice needs them: unpointed,
+  // it has to guess the vowels, and a wrong guess is a different word. So
+  // every Hebrew run carries its pointed source in data-he, and that is what
+  // is read out.
+  function source(el) {
+    if (el.dataset && el.dataset.he) return el.dataset.he;
+    var pointed = el.querySelectorAll ? el.querySelectorAll('[data-he]') : null;
+    if (!pointed || !pointed.length) return el.textContent;
+    var copy = el.cloneNode(true);
+    var spans = copy.querySelectorAll('[data-he]');
+    for (var i = 0; i < spans.length; i++) {
+      spans[i].textContent = spans[i].getAttribute('data-he');
+    }
+    return copy.textContent;
+  }
+
   function markExample(el) {
     if (el.dataset.say != null) return;
     if (el.closest('.ex-en, .v-en, .callout-label, .say-btn')) return;
     // A .he span inside an italic that is already wired would give the same
     // words a second control sitting inside the first.
     if (el.classList.contains('he') && el.closest('[data-say]')) return;
-    var text = clean(el.textContent);
+    var text = clean(source(el));
     // Short runs are examples; a long one is a sentence of English prose
     // being emphasised, and a Hebrew voice would mangle it.
     if (!text || text.length > 60 || text.split(/\s+/).length > 6) return;
@@ -219,14 +292,14 @@ window.Say = (function () {
     var best = '';
     scope.querySelectorAll('em, .he').forEach(function (candidate) {
       if (candidate.contains(el)) return;
-      var text = clean(candidate.textContent);
+      var text = clean(source(candidate));
       if (!Heb.hasHebrew(text)) return;
       if (el.compareDocumentPosition(candidate) & Node.DOCUMENT_POSITION_PRECEDING) best = text;
     });
     if (best) return best;
     var all = scope.querySelectorAll('em, .he');
     for (var i = 0; i < all.length; i++) {
-      var t = clean(all[i].textContent);
+      var t = clean(source(all[i]));
       if (Heb.hasHebrew(t)) return t;
     }
     return '';
@@ -248,12 +321,12 @@ window.Say = (function () {
       // a stray italic in a Notes column should not win over them.
       for (var i = cells.length - 1; i >= 0; i--) {
         var em = cells[i].querySelector('em, .he');
-        if (em && Heb.hasHebrew(em.textContent)) return clean(em.textContent);
+        if (em && Heb.hasHebrew(em.textContent)) return clean(source(em));
       }
       // Nothing marked up anywhere in the row: some tables (the numbers, for
       // one) simply put the Hebrew word in the first column.
       if (cells.length && cells[0] !== td) {
-        var first = clean(cells[0].textContent);
+        var first = clean(source(cells[0]));
         if (first && Heb.hasHebrew(first) && first.length <= 30 &&
             first.split(/\s+/).length <= 3) return first;
       }
@@ -265,7 +338,7 @@ window.Say = (function () {
       var q = item && item.querySelector('.exercise-q');
       if (q) {
         var qEm = q.querySelector('em, .he');
-        return clean(qEm ? qEm.textContent : q.textContent.split(/[-?]/)[0]);
+        return clean(qEm ? source(qEm) : q.textContent.split(/[-?]/)[0]);
       }
     }
 
@@ -304,7 +377,7 @@ window.Say = (function () {
     // Something inside it was already wired by markExample; a second
     // control for the same words would be noise.
     if (el.querySelector('.say')) return;
-    var text = clean(el.textContent);
+    var text = clean(source(el));
     if (!text || text.length > 80) return;
     if (!Heb.hasHebrew(text)) return;
     var btn = document.createElement('button');
@@ -324,7 +397,7 @@ window.Say = (function () {
     if (el.dataset.wired) return;
     el.dataset.wired = '1';
     var he = el.querySelector('.v-word');
-    var text = clean(he ? he.textContent : el.textContent);
+    var text = clean(he ? source(he) : source(el));
     if (!text || !Heb.hasHebrew(text)) return;
     var btn = document.createElement('button');
     btn.className = 'say-btn';
@@ -401,10 +474,26 @@ window.Say = (function () {
       paintMenu();
     });
 
+    // The one place the engine is allowed to report a failure. If a browser
+    // lists a voice it cannot actually drive, this is where that shows up,
+    // rather than as words in a lesson that silently do nothing.
     menu.addEventListener('click', function (e) {
-      if (e.target.closest('[data-act="test"]')) {
-        speak('\u05e9\u05c1\u05b8\u05dc\u05d5\u05b9\u05dd, \u05d0\u05b2\u05e0\u05b4\u05d9 ' +
-              '\u05dc\u05d5\u05b9\u05de\u05b5\u05d3 \u05e2\u05b4\u05d1\u05b0\u05e8\u05b4\u05d9\u05ea.');
+      if (!e.target.closest('[data-act="test"]')) return;
+      var out = document.getElementById('audioResult');
+      lastError = '';
+      if (out) out.textContent = 'Speaking\u2026';
+      var started = speak(
+        '\u05e9\u05c1\u05b8\u05dc\u05d5\u05b9\u05dd, \u05d0\u05b2\u05e0\u05b4\u05d9 ' +
+        '\u05dc\u05d5\u05b9\u05de\u05b5\u05d3 \u05e2\u05b4\u05d1\u05b0\u05e8\u05b4\u05d9\u05ea.',
+        { onEnd: function (finished) {
+            if (!out) return;
+            if (lastError) out.textContent = 'The browser refused: ' + lastError + '.';
+            else if (finished) out.textContent = 'That is ' +
+              (current ? current.name : 'the system voice') + '.';
+            else out.textContent = '';
+          } });
+      if (!started && out) {
+        out.textContent = prefs.on ? 'Nothing to say.' : 'Reading aloud is switched off.';
       }
     });
   }
@@ -433,7 +522,8 @@ window.Say = (function () {
       (voices.length
         ? '<label class="audio-row audio-voice"><span>Voice</span>' +
             '<select id="audioVoice">' + opts + '</select></label>' +
-          '<button class="btn" type="button" data-act="test">Test the voice</button>'
+          '<button class="btn" type="button" data-act="test">Test the voice</button>' +
+          '<p class="audio-result" id="audioResult"></p>'
         : '<p class="audio-note">No Hebrew voice is installed in this browser. ' +
           'On macOS add Carmit under System Settings > Accessibility > Spoken Content > ' +
           'System Voice > Manage Voices. On iOS and Android it is built in.</p>') +

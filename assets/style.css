@@ -46,6 +46,12 @@
      every machine. The serif is for reading at length. */
   --he:       "HaMachberet Sans", "Noto Sans Hebrew", "SF Hebrew", "Arial Hebrew", David, Arial, sans-serif;
   --he-serif: "HaMachberet Serif", "Frank Ruhl Libre", "David Libre", "Times New Roman", serif;
+  /* Hebrew runs bigger than the Latin beside it. Partly because its letters
+     have no ascenders to fill the line, and mostly because the nikud are
+     small marks that shrink with the letter: at the size of the English
+     around them a kamats and a patach stop telling each other apart. One
+     knob, so the whole app grows together. */
+  --he-size: 1.26em;
 
   --r-sm: 6px;
   --r-md: 10px;
@@ -185,11 +191,20 @@ body {
   padding: .25rem .4rem; border-radius: var(--r-sm);
   flex-shrink: 0;
 }
+/* The flag, drawn to its own proportions: the stripes 15/160 of the height
+   in from each edge, the star 60/160 across. Inline so it costs no request
+   and needs no dark-mode variant: white stays white on a flag. */
 .brand-mark {
-  width: 15px; height: 26px; border-radius: 3px;
-  background: repeating-linear-gradient(to bottom,
-    #f6f4ef 0 20%, #0038b8 20% 40%, #f6f4ef 40% 60%, #0038b8 60% 80%, #f6f4ef 80% 100%);
-  box-shadow: inset 0 0 0 1px rgba(0,0,0,.12);
+  width: 28px; height: 20px; border-radius: 2px;
+  background: #fff url("data:image/svg+xml,\
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 32'>\
+<rect y='3' width='44' height='5' fill='%230038b8'/>\
+<rect y='24' width='44' height='5' fill='%230038b8'/>\
+<g fill='none' stroke='%230038b8' stroke-width='1.6'>\
+<polygon points='22,10 16.8,19 27.2,19'/>\
+<polygon points='22,22 27.2,13 16.8,13'/></g></svg>") center / 100% 100% no-repeat;
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,.14);
+  flex-shrink: 0;
 }
 .brand-text { font-size: 1.12rem; font-weight: 600; letter-spacing: -.01em; line-height: 1.1; }
 .brand-text small {
@@ -427,12 +442,14 @@ main {
 }
 /* Nikud sits under the letters and adds a line of its own, so pointed
    Hebrew needs more room than the English around it in both directions. */
-.he { font-size: 1.14em; line-height: 1.85; }
+.he { font-size: var(--he-size); line-height: 1.95; }
 em .he, .he em, .prose em .he { font-style: normal; }
 .prose td .he, .prose th .he { color: var(--bleu); }
 .prose p .he, .prose li .he { padding-block: .05em; }
-/* Points off: the extra leading was for them, so give it back. */
-body.nikud-off .he { line-height: inherit; }
+/* Points off: the extra leading and the extra size were both for them,
+   so give them back. Unpointed Hebrew sits happily at the size of the
+   English around it. */
+body.nikud-off .he { font-size: 1.12em; line-height: inherit; }
 
 /* Read at length, not glanced at: the serif carries nikud better. */
 .rd-text, .flash-front[lang="he"], .flash-back[lang="he"] {
@@ -441,8 +458,22 @@ body.nikud-off .he { line-height: inherit; }
 /* A passage is read a line at a time, so it gets the most generous setting
    in the app: bigger than the prose, and enough leading that two pointed
    lines never touch. */
-.rd-text { font-size: 1.28rem; line-height: 2.1; }
-.flash-front[lang="he"], .flash-back[lang="he"] { line-height: 1.7; }
+.rd-text { font-size: 1.4rem; line-height: 2.2; }
+.flash-front[lang="he"], .flash-back[lang="he"] { line-height: 1.8; }
+.flash-front[lang="he"] { font-size: 2.15rem; }
+.flash-back[lang="he"] { font-size: 1.3rem; }
+
+/* A heading, a card title or a list item whose text is Hebrew belongs on
+   the right of its box. The page itself stays left to right, so nothing
+   here touches layout: `direction` on a text block only decides which edge
+   the text starts from and which way the punctuation faces.
+
+   hebrew.js puts this class on, because the decision needs the text: a
+   `dir="auto"` attribute cannot see past the isolated .he spans md.js
+   produces, and would call every one of those blocks left to right. */
+.he-rtl { direction: rtl; text-align: right; }
+/* Inside one, a run of Latin still reads left to right on its own. */
+.he-rtl .tr, .he-rtl code { direction: ltr; unicode-bidi: isolate; }
 
 /* A transliteration is always Latin and always left to right, even sitting
    under a Hebrew word in a right-to-left row. */
@@ -455,7 +486,7 @@ body.nikud-off .he { line-height: inherit; }
 
 /* The nikud switch in the topbar. Off, the button dims: the points being
    gone is the state, and the button is the only thing that says so. */
-.nikud-glyph { font-family: var(--he); font-size: 1.05rem; line-height: 1; }
+.nikud-glyph { font-family: var(--he); font-size: 1.2rem; line-height: 1; }
 body.nikud-off #nikudBtn { opacity: .55; }
 
 /* ---------------------------------------------------------- tables */
@@ -816,7 +847,7 @@ a.card:hover { border-color: var(--bleu); box-shadow: var(--shadow-md); transfor
 }
 .vocab-row:last-child { border-bottom: 0; }
 .vocab-row:hover { background: var(--surface-2); }
-.vocab-row .v-he .v-word { font-size: 1.2rem; line-height: 1.7; }
+.vocab-row .v-he .v-word { font-size: 1.34rem; line-height: 1.85; }
 .vocab-row .v-en { color: var(--ink-soft); font-size: .92rem; }
 .vocab-row .v-tag {
   font-size: .68rem; letter-spacing: .06em; text-transform: uppercase;
@@ -997,6 +1028,13 @@ a.card:hover { border-color: var(--bleu); box-shadow: var(--shadow-md); transfor
 .audio-voice select { flex: 1; min-width: 0; font-size: .85rem; }
 .audio-menu .btn { margin-top: .55rem; width: 100%; }
 .audio-note { color: var(--muted); font-size: .76rem; line-height: 1.45; margin: .6rem 0 0; }
+/* What the Test button found out. Empty until it is pressed. */
+.audio-result:not(:empty) {
+  margin: .5rem 0 0; padding: .4rem .55rem;
+  font-size: .78rem; line-height: 1.4;
+  color: var(--ink-soft); background: var(--surface-2);
+  border-radius: var(--r-sm);
+}
 
 /* A Hebrew example you can click to hear. Kept quiet until hovered so the
    typography of a page full of examples does not turn into a field of
@@ -1297,7 +1335,7 @@ textarea.test-input { font-size: .95rem; line-height: 1.6; resize: vertical; }
 }
 .key-letter {
   min-width: 2rem; padding: .3rem .15rem;
-  font: 500 1.15rem var(--he); color: var(--ink);
+  font: 500 1.28rem var(--he); color: var(--ink);
   background: var(--surface-2); border: 1px solid var(--line);
   border-radius: var(--r-sm); cursor: pointer;
 }
@@ -1307,7 +1345,7 @@ textarea.test-input { font-size: .95rem; line-height: 1.6; resize: vertical; }
 .key-final { color: var(--muted); }
 .key-note { margin-left: .3rem; color: var(--muted); font-size: .74rem; }
 @media (max-width: 560px) {
-  .key-letter { min-width: 1.75rem; font-size: 1rem; }
+  .key-letter { min-width: 1.75rem; font-size: 1.1rem; }
   .key-note { display: none; }
 }
 
@@ -1450,7 +1488,7 @@ textarea.test-input { font-size: .95rem; line-height: 1.6; resize: vertical; }
 .rd-card:hover { background: var(--surface-2); border-left-color: var(--bleu); }
 .rd-card.lv1 { border-left-color: var(--or); }
 .rd-card.lv2 { border-left-color: var(--vert); }
-.rd-card-title { font-family: var(--serif); font-size: 1.08rem; font-weight: 600; }
+.rd-card-title { font-family: var(--he-serif); font-size: 1.22rem; font-weight: 600; }
 .rd-card-blurb { color: var(--ink-soft); font-size: .86rem; line-height: 1.5; }
 .rd-card-meta { color: var(--muted); font-size: .78rem; }
 
@@ -1465,7 +1503,7 @@ textarea.test-input { font-size: .95rem; line-height: 1.6; resize: vertical; }
 
 .rd-text {
   padding: 1.4rem 1.6rem;
-  font-family: var(--serif); font-size: 1.18rem; line-height: 1.95;
+  font-family: var(--he-serif); font-size: 1.34rem; line-height: 2.1;
   background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-md);
 }
 .rd-para { margin: 0 0 1rem; }
@@ -1485,7 +1523,7 @@ textarea.test-input { font-size: .95rem; line-height: 1.6; resize: vertical; }
   background: var(--surface); border: 1px solid var(--bleu);
   border-radius: var(--r-sm); box-shadow: var(--shadow-md);
 }
-.rd-gloss strong { font-family: var(--serif); font-size: 1.1rem; }
+.rd-gloss strong { font-family: var(--he-serif); font-size: 1.28rem; }
 .rd-gloss span { color: var(--ink-soft); }
 .rd-nogloss { color: var(--muted); font-style: italic; }
 
@@ -1495,13 +1533,13 @@ textarea.test-input { font-size: .95rem; line-height: 1.6; resize: vertical; }
   padding: .9rem 1.1rem;
   background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-sm);
 }
-.rd-aloud-line { margin: 0 0 .7rem; font-family: var(--serif); font-size: 1.2rem; }
+.rd-aloud-line { margin: 0 0 .7rem; font-family: var(--he-serif); font-size: 1.34rem; line-height: 2; }
 .rd-aloud-actions { display: flex; gap: .5rem; flex-wrap: wrap; }
 .rd-aloud-result:not(:empty) { margin-top: .6rem; }
 .rd-mark { color: var(--muted); font-size: .88rem; }
 
 @media (max-width: 560px) {
-  .rd-text { padding: 1rem 1.1rem; font-size: 1.1rem; line-height: 1.9; }
+  .rd-text { padding: 1rem 1.1rem; font-size: 1.22rem; line-height: 2; }
 }
 
 /* ---------------------------------------------------------- print */

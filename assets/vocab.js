@@ -168,7 +168,8 @@ window.Vocab = (function () {
       '<button class="v-know" aria-label="Mark as known" aria-pressed="' + known + '" ' +
         'title="' + (known ? 'Known - tap to unmark' : 'Tap when you know this word') + '">✓</button>' +
       '<span class="v-he">' +
-        '<span class="v-word" lang="he" dir="rtl">' + escapeHtml(Heb.show(w.he)) + '</span>' +
+        '<span class="v-word" lang="he" dir="rtl" data-he="' + escapeAttr(w.he) + '">' +
+          escapeHtml(Heb.show(w.he)) + '</span>' +
         (w.tr ? '<small class="v-tr">' + escapeHtml(w.tr) + '</small>' : '') +
       '</span>' +
       '<span class="v-en">' + escapeHtml(w.en) + '</span>' +
@@ -424,6 +425,7 @@ window.Vocab = (function () {
   function escapeHtml(s) {
     return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   }
+  function escapeAttr(s) { return escapeHtml(s).replace(/"/g, '&quot;'); }
 
   return {
     load: load, all: all, mine: mine, curated: curated,

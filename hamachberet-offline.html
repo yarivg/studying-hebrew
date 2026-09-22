@@ -58,6 +58,12 @@
      every machine. The serif is for reading at length. */
   --he:       "HaMachberet Sans", "Noto Sans Hebrew", "SF Hebrew", "Arial Hebrew", David, Arial, sans-serif;
   --he-serif: "HaMachberet Serif", "Frank Ruhl Libre", "David Libre", "Times New Roman", serif;
+  /* Hebrew runs bigger than the Latin beside it. Partly because its letters
+     have no ascenders to fill the line, and mostly because the nikud are
+     small marks that shrink with the letter: at the size of the English
+     around them a kamats and a patach stop telling each other apart. One
+     knob, so the whole app grows together. */
+  --he-size: 1.26em;
 
   --r-sm: 6px;
   --r-md: 10px;
@@ -197,11 +203,20 @@ body {
   padding: .25rem .4rem; border-radius: var(--r-sm);
   flex-shrink: 0;
 }
+/* The flag, drawn to its own proportions: the stripes 15/160 of the height
+   in from each edge, the star 60/160 across. Inline so it costs no request
+   and needs no dark-mode variant: white stays white on a flag. */
 .brand-mark {
-  width: 15px; height: 26px; border-radius: 3px;
-  background: repeating-linear-gradient(to bottom,
-    #f6f4ef 0 20%, #0038b8 20% 40%, #f6f4ef 40% 60%, #0038b8 60% 80%, #f6f4ef 80% 100%);
-  box-shadow: inset 0 0 0 1px rgba(0,0,0,.12);
+  width: 28px; height: 20px; border-radius: 2px;
+  background: #fff url("data:image/svg+xml,\
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 32'>\
+<rect y='3' width='44' height='5' fill='%230038b8'/>\
+<rect y='24' width='44' height='5' fill='%230038b8'/>\
+<g fill='none' stroke='%230038b8' stroke-width='1.6'>\
+<polygon points='22,10 16.8,19 27.2,19'/>\
+<polygon points='22,22 27.2,13 16.8,13'/></g></svg>") center / 100% 100% no-repeat;
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,.14);
+  flex-shrink: 0;
 }
 .brand-text { font-size: 1.12rem; font-weight: 600; letter-spacing: -.01em; line-height: 1.1; }
 .brand-text small {
@@ -439,12 +454,14 @@ main {
 }
 /* Nikud sits under the letters and adds a line of its own, so pointed
    Hebrew needs more room than the English around it in both directions. */
-.he { font-size: 1.14em; line-height: 1.85; }
+.he { font-size: var(--he-size); line-height: 1.95; }
 em .he, .he em, .prose em .he { font-style: normal; }
 .prose td .he, .prose th .he { color: var(--bleu); }
 .prose p .he, .prose li .he { padding-block: .05em; }
-/* Points off: the extra leading was for them, so give it back. */
-body.nikud-off .he { line-height: inherit; }
+/* Points off: the extra leading and the extra size were both for them,
+   so give them back. Unpointed Hebrew sits happily at the size of the
+   English around it. */
+body.nikud-off .he { font-size: 1.12em; line-height: inherit; }
 
 /* Read at length, not glanced at: the serif carries nikud better. */
 .rd-text, .flash-front[lang="he"], .flash-back[lang="he"] {
@@ -453,8 +470,22 @@ body.nikud-off .he { line-height: inherit; }
 /* A passage is read a line at a time, so it gets the most generous setting
    in the app: bigger than the prose, and enough leading that two pointed
    lines never touch. */
-.rd-text { font-size: 1.28rem; line-height: 2.1; }
-.flash-front[lang="he"], .flash-back[lang="he"] { line-height: 1.7; }
+.rd-text { font-size: 1.4rem; line-height: 2.2; }
+.flash-front[lang="he"], .flash-back[lang="he"] { line-height: 1.8; }
+.flash-front[lang="he"] { font-size: 2.15rem; }
+.flash-back[lang="he"] { font-size: 1.3rem; }
+
+/* A heading, a card title or a list item whose text is Hebrew belongs on
+   the right of its box. The page itself stays left to right, so nothing
+   here touches layout: `direction` on a text block only decides which edge
+   the text starts from and which way the punctuation faces.
+
+   hebrew.js puts this class on, because the decision needs the text: a
+   `dir="auto"` attribute cannot see past the isolated .he spans md.js
+   produces, and would call every one of those blocks left to right. */
+.he-rtl { direction: rtl; text-align: right; }
+/* Inside one, a run of Latin still reads left to right on its own. */
+.he-rtl .tr, .he-rtl code { direction: ltr; unicode-bidi: isolate; }
 
 /* A transliteration is always Latin and always left to right, even sitting
    under a Hebrew word in a right-to-left row. */
@@ -467,7 +498,7 @@ body.nikud-off .he { line-height: inherit; }
 
 /* The nikud switch in the topbar. Off, the button dims: the points being
    gone is the state, and the button is the only thing that says so. */
-.nikud-glyph { font-family: var(--he); font-size: 1.05rem; line-height: 1; }
+.nikud-glyph { font-family: var(--he); font-size: 1.2rem; line-height: 1; }
 body.nikud-off #nikudBtn { opacity: .55; }
 
 /* ---------------------------------------------------------- tables */
@@ -828,7 +859,7 @@ a.card:hover { border-color: var(--bleu); box-shadow: var(--shadow-md); transfor
 }
 .vocab-row:last-child { border-bottom: 0; }
 .vocab-row:hover { background: var(--surface-2); }
-.vocab-row .v-he .v-word { font-size: 1.2rem; line-height: 1.7; }
+.vocab-row .v-he .v-word { font-size: 1.34rem; line-height: 1.85; }
 .vocab-row .v-en { color: var(--ink-soft); font-size: .92rem; }
 .vocab-row .v-tag {
   font-size: .68rem; letter-spacing: .06em; text-transform: uppercase;
@@ -1009,6 +1040,13 @@ a.card:hover { border-color: var(--bleu); box-shadow: var(--shadow-md); transfor
 .audio-voice select { flex: 1; min-width: 0; font-size: .85rem; }
 .audio-menu .btn { margin-top: .55rem; width: 100%; }
 .audio-note { color: var(--muted); font-size: .76rem; line-height: 1.45; margin: .6rem 0 0; }
+/* What the Test button found out. Empty until it is pressed. */
+.audio-result:not(:empty) {
+  margin: .5rem 0 0; padding: .4rem .55rem;
+  font-size: .78rem; line-height: 1.4;
+  color: var(--ink-soft); background: var(--surface-2);
+  border-radius: var(--r-sm);
+}
 
 /* A Hebrew example you can click to hear. Kept quiet until hovered so the
    typography of a page full of examples does not turn into a field of
@@ -1309,7 +1347,7 @@ textarea.test-input { font-size: .95rem; line-height: 1.6; resize: vertical; }
 }
 .key-letter {
   min-width: 2rem; padding: .3rem .15rem;
-  font: 500 1.15rem var(--he); color: var(--ink);
+  font: 500 1.28rem var(--he); color: var(--ink);
   background: var(--surface-2); border: 1px solid var(--line);
   border-radius: var(--r-sm); cursor: pointer;
 }
@@ -1319,7 +1357,7 @@ textarea.test-input { font-size: .95rem; line-height: 1.6; resize: vertical; }
 .key-final { color: var(--muted); }
 .key-note { margin-left: .3rem; color: var(--muted); font-size: .74rem; }
 @media (max-width: 560px) {
-  .key-letter { min-width: 1.75rem; font-size: 1rem; }
+  .key-letter { min-width: 1.75rem; font-size: 1.1rem; }
   .key-note { display: none; }
 }
 
@@ -1462,7 +1500,7 @@ textarea.test-input { font-size: .95rem; line-height: 1.6; resize: vertical; }
 .rd-card:hover { background: var(--surface-2); border-left-color: var(--bleu); }
 .rd-card.lv1 { border-left-color: var(--or); }
 .rd-card.lv2 { border-left-color: var(--vert); }
-.rd-card-title { font-family: var(--serif); font-size: 1.08rem; font-weight: 600; }
+.rd-card-title { font-family: var(--he-serif); font-size: 1.22rem; font-weight: 600; }
 .rd-card-blurb { color: var(--ink-soft); font-size: .86rem; line-height: 1.5; }
 .rd-card-meta { color: var(--muted); font-size: .78rem; }
 
@@ -1477,7 +1515,7 @@ textarea.test-input { font-size: .95rem; line-height: 1.6; resize: vertical; }
 
 .rd-text {
   padding: 1.4rem 1.6rem;
-  font-family: var(--serif); font-size: 1.18rem; line-height: 1.95;
+  font-family: var(--he-serif); font-size: 1.34rem; line-height: 2.1;
   background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-md);
 }
 .rd-para { margin: 0 0 1rem; }
@@ -1497,7 +1535,7 @@ textarea.test-input { font-size: .95rem; line-height: 1.6; resize: vertical; }
   background: var(--surface); border: 1px solid var(--bleu);
   border-radius: var(--r-sm); box-shadow: var(--shadow-md);
 }
-.rd-gloss strong { font-family: var(--serif); font-size: 1.1rem; }
+.rd-gloss strong { font-family: var(--he-serif); font-size: 1.28rem; }
 .rd-gloss span { color: var(--ink-soft); }
 .rd-nogloss { color: var(--muted); font-style: italic; }
 
@@ -1507,13 +1545,13 @@ textarea.test-input { font-size: .95rem; line-height: 1.6; resize: vertical; }
   padding: .9rem 1.1rem;
   background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-sm);
 }
-.rd-aloud-line { margin: 0 0 .7rem; font-family: var(--serif); font-size: 1.2rem; }
+.rd-aloud-line { margin: 0 0 .7rem; font-family: var(--he-serif); font-size: 1.34rem; line-height: 2; }
 .rd-aloud-actions { display: flex; gap: .5rem; flex-wrap: wrap; }
 .rd-aloud-result:not(:empty) { margin-top: .6rem; }
 .rd-mark { color: var(--muted); font-size: .88rem; }
 
 @media (max-width: 560px) {
-  .rd-text { padding: 1rem 1.1rem; font-size: 1.1rem; line-height: 1.9; }
+  .rd-text { padding: 1rem 1.1rem; font-size: 1.22rem; line-height: 2; }
 }
 
 /* ---------------------------------------------------------- print */
@@ -1630,7 +1668,7 @@ textarea.test-input { font-size: .95rem; line-height: 1.6; resize: vertical; }
 <meta name="theme-color" content="#0038b8">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="המחברת">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>📘</text></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%23fff'/><rect y='3' width='32' height='5' fill='%230038b8'/><rect y='24' width='32' height='5' fill='%230038b8'/><g fill='none' stroke='%230038b8' stroke-width='1.1'><polygon points='16,10 10.8,19 21.2,19'/><polygon points='16,22 21.2,13 10.8,13'/></g></svg>">
 </head>
 <body>
 
@@ -1793,6 +1831,93 @@ window.Heb = (function () {
     return String(s == null ? '' : s).replace(/[ךםןףץ]/g, function (c) { return FINALS[c]; });
   }
 
+  /* ---------------------------------------------------------- direction
+
+     The page is left to right and stays that way. But a block whose text is
+     Hebrew - a chapter heading, the title of a story, an answer - reads from
+     the right edge, and left where it lands it sits against the English
+     margin with a ragged right side, which is the wrong way round.
+
+     The browser's own `dir="auto"` cannot decide this for us. It ignores any
+     descendant that carries a direction of its own, and md.js wraps every
+     Hebrew run in exactly such a span, so a heading made entirely of them
+     looks empty of strong characters and comes out left to right. So the
+     call is made here, on the text.
+
+     Applied by an observer rather than at each of the three dozen places
+     that write innerHTML: those are spread across eight modules and several
+     promises, and one missed call is a heading in the wrong place. */
+
+  // Hebrew letters against Latin ones. A block is Hebrew when it has Hebrew
+  // in it and no more Latin than that: "shalom, שָׁלוֹם" is a bilingual line
+  // and stays left to right, "הַבֹּקֶר שֶׁל דָּנָה" does not.
+  var LATIN = /[A-Za-z]/g;
+  var HEBREW = /[א-ת]/g;
+
+  function isRtl(s) {
+    s = String(s == null ? '' : s);
+    var he = (s.match(HEBREW) || []).length;
+    if (!he) return false;
+    return he > (s.match(LATIN) || []).length;
+  }
+
+  // Text blocks only. Nothing here is a flex or grid container, so setting a
+  // direction on one cannot reorder a layout, only the text inside it.
+  var BLOCKS = 'h1,h2,h3,h4,h5,h6,p,li,dt,dd,figcaption,blockquote,summary,' +
+    '.rd-card-title,.rd-card-blurb,.sr-title,.v-en,.test-answer,.tr-mine,' +
+    '.card h3,.card p,.flash-front,.flash-back,.gl-en';
+
+  function mark(el) {
+    // Already decided, by us or by whoever wrote the markup.
+    if (el.hasAttribute('dir') || el.hasAttribute('data-dir')) return;
+    el.setAttribute('data-dir', '1');
+    if (!isRtl(el.textContent)) return;
+    el.classList.add('he-rtl');
+    el.setAttribute('dir', 'rtl');
+    el.removeAttribute('data-dir');
+  }
+
+  // Run over anything newly rendered. Cheap: each element is visited once,
+  // and marked so a later pass skips it.
+  function autoDir(root) {
+    if (!root || !root.querySelectorAll) return;
+    if (root.nodeType === 1 && root.matches && root.matches(BLOCKS)) mark(root);
+    var all = root.querySelectorAll(BLOCKS);
+    for (var i = 0; i < all.length; i++) mark(all[i]);
+  }
+
+  function watch() {
+    var body = document.body;
+    if (!body) return;
+    autoDir(body);
+    if (!window.MutationObserver) return;
+    var queued = null;
+    // childList only, so setting dir and class below cannot feed the
+    // observer its own output.
+    new MutationObserver(function (records) {
+      if (queued) return;
+      queued = records;
+      requestAnimationFrame(function () {
+        var seen = queued;
+        queued = null;
+        for (var i = 0; i < seen.length; i++) {
+          var added = seen[i].addedNodes;
+          for (var j = 0; j < added.length; j++) {
+            if (added[j].nodeType === 1) autoDir(added[j]);
+          }
+        }
+      });
+    }).observe(body, { childList: true, subtree: true });
+  }
+
+  if (typeof document !== 'undefined' && document.addEventListener) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', watch);
+    } else {
+      watch();
+    }
+  }
+
   var on = true;
   try { on = localStorage.getItem(KEY) !== 'off'; } catch (e) { /* private mode */ }
 
@@ -1810,6 +1935,7 @@ window.Heb = (function () {
   return {
     strip: strip, plain: plain, unfinal: unfinal, hasHebrew: hasHebrew,
     show: show, nikudOn: nikudOn, setNikud: setNikud,
+    isRtl: isRtl, autoDir: autoDir,
     FINALS: FINALS, TO_FINAL: TO_FINAL, MARKS: MARKS
   };
 })();
@@ -1894,12 +2020,21 @@ window.MD = (function () {
   // Wrap every Hebrew run in the rendered HTML, leaving the tags alone.
   // Splitting on tags first is what keeps attribute values (hrefs, alt text,
   // the class names above) out of the match.
+  function attr(v) {
+    return String(v).replace(/&/g, '&amp;').replace(/"/g, '&quot;')
+      .replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  }
+
   function wrapHebrew(html) {
     if (html.indexOf('\u05D0') === -1 && !/[\u05D0-\u05EA]/.test(html)) return html;
     return html.split(/(<[^>]+>)/).map(function (seg) {
       if (!seg || seg.charAt(0) === '<') return seg;
       return seg.replace(HE_RUN, function (m) {
-        return '<span class="he" lang="he" dir="rtl">' + Heb.show(m) + '</span>';
+        // The pointed text rides along in data-he even when the points are
+        // switched off on screen. Speech needs them: without a nikud the
+        // voice has to guess the vowels, and it guesses badly.
+        return '<span class="he" lang="he" dir="rtl" data-he="' + attr(m) + '">' +
+          Heb.show(m) + '</span>';
       });
     }).join('');
   }
@@ -3338,12 +3473,19 @@ window.Say = (function () {
 
   // Voices arrive asynchronously in most browsers, and Chrome only
   // populates the list after the first getVoices() call.
+  var voiceSig = '';
+
   function refreshVoices() {
     if (!synth) return;
     voices = (synth.getVoices() || []).filter(function (v) {
       return /^he/i.test(v.lang);
     });
     current = pickVoice();
+    // Chrome fires voiceschanged more than once, and redrawing the menu
+    // while it is open throws away a select the user is in the middle of.
+    var sig = voices.map(function (v) { return v.voiceURI; }).join('|');
+    if (sig === voiceSig) return;
+    voiceSig = sig;
     paintMenu();
   }
 
@@ -3424,19 +3566,47 @@ window.Say = (function () {
   // whether cancel() arrives as `end` or as an `interrupted` error.
   var epoch = 0;
 
+  // The last thing the engine complained about, for the Test button to show.
+  // Nothing else reads it: a failure in the middle of a lesson should not put
+  // an error message where the learner is trying to read.
+  var lastError = '';
+
+  /* Two long-standing engine bugs, both of which present as "the voice does
+     not work at all", and neither of which is anything to do with the voice.
+
+     Chrome and Edge drop an utterance queued in the same tick as a cancel().
+     Every call here begins with a cancel, so on those browsers every click
+     after the first was being swallowed.
+
+     Chrome also stops mid-utterance after about fifteen seconds unless
+     something pokes it. A passage read line by line runs straight into that.
+     An engine that is not paused ignores resume(), so the timer below costs
+     nothing anywhere else. */
+
+  var ticker = null;
+
+  function startTicker() {
+    if (ticker) return;
+    ticker = setInterval(function () {
+      if (!synth || !synth.speaking) { stopTicker(); return; }
+      if (synth.paused) synth.resume();
+      else { synth.pause(); synth.resume(); }
+    }, 5000);
+  }
+
+  function stopTicker() {
+    if (ticker) { clearInterval(ticker); ticker = null; }
+  }
+
   function speak(text, opts) {
     opts = opts || {};
     if (!synth || !prefs.on) return false;
     var say = clean(text);
     if (!say) return false;
 
-    synth.cancel();
     var mine = ++epoch;
-    var u = new SpeechSynthesisUtterance(say);
-    u.lang = current ? current.lang : 'he-IL';
-    if (current) u.voice = current;
-    u.rate = (opts.slow || prefs.slow) ? 0.6 : 0.9;
-    u.pitch = 1;
+    var busy = synth.speaking || synth.pending || synth.paused;
+    synth.cancel();
 
     var el = opts.el || null;
     if (el) {
@@ -3451,21 +3621,42 @@ window.Say = (function () {
     function done(finished) {
       if (settled) return;
       settled = true;
+      stopTicker();
       if (el) {
         el.classList.remove('is-speaking');
         if (speakingEl === el) speakingEl = null;
       }
       if (opts.onEnd) opts.onEnd(finished && mine === epoch);
     }
-    u.onend = function () { done(true); };
-    u.onerror = function (e) { done(!e || e.error !== 'interrupted'); };
 
-    synth.speak(u);
+    function go() {
+      // Something else started speaking while we were waiting out the cancel.
+      if (mine !== epoch) { done(false); return; }
+      var u = new SpeechSynthesisUtterance(say);
+      u.lang = current ? current.lang : 'he-IL';
+      if (current) u.voice = current;
+      u.rate = (opts.slow || prefs.slow) ? 0.6 : 0.9;
+      u.pitch = 1;
+      u.onstart = function () { lastError = ''; startTicker(); };
+      u.onend = function () { done(true); };
+      u.onerror = function (e) {
+        var err = e && e.error;
+        var mine_ = err !== 'interrupted' && err !== 'canceled';
+        if (err && mine_) lastError = err;
+        done(mine_);
+      };
+      synth.speak(u);
+      startTicker();
+    }
+
+    if (busy) setTimeout(go, 140);
+    else go();
     return true;
   }
 
   function stop() {
     epoch++;
+    stopTicker();
     if (synth) synth.cancel();
     if (speakingEl) { speakingEl.classList.remove('is-speaking'); speakingEl = null; }
   }
@@ -3480,13 +3671,30 @@ window.Say = (function () {
   // Italic text in a lesson is, by the convention of these notes, a Hebrew
   // example, and md.js wraps every Hebrew run in a .he span besides. Both
   // become something you can click and hear.
+  // What a marked-up element should be read as. The page may be showing the
+  // text with the points switched off, but the voice needs them: unpointed,
+  // it has to guess the vowels, and a wrong guess is a different word. So
+  // every Hebrew run carries its pointed source in data-he, and that is what
+  // is read out.
+  function source(el) {
+    if (el.dataset && el.dataset.he) return el.dataset.he;
+    var pointed = el.querySelectorAll ? el.querySelectorAll('[data-he]') : null;
+    if (!pointed || !pointed.length) return el.textContent;
+    var copy = el.cloneNode(true);
+    var spans = copy.querySelectorAll('[data-he]');
+    for (var i = 0; i < spans.length; i++) {
+      spans[i].textContent = spans[i].getAttribute('data-he');
+    }
+    return copy.textContent;
+  }
+
   function markExample(el) {
     if (el.dataset.say != null) return;
     if (el.closest('.ex-en, .v-en, .callout-label, .say-btn')) return;
     // A .he span inside an italic that is already wired would give the same
     // words a second control sitting inside the first.
     if (el.classList.contains('he') && el.closest('[data-say]')) return;
-    var text = clean(el.textContent);
+    var text = clean(source(el));
     // Short runs are examples; a long one is a sentence of English prose
     // being emphasised, and a Hebrew voice would mangle it.
     if (!text || text.length > 60 || text.split(/\s+/).length > 6) return;
@@ -3508,14 +3716,14 @@ window.Say = (function () {
     var best = '';
     scope.querySelectorAll('em, .he').forEach(function (candidate) {
       if (candidate.contains(el)) return;
-      var text = clean(candidate.textContent);
+      var text = clean(source(candidate));
       if (!Heb.hasHebrew(text)) return;
       if (el.compareDocumentPosition(candidate) & Node.DOCUMENT_POSITION_PRECEDING) best = text;
     });
     if (best) return best;
     var all = scope.querySelectorAll('em, .he');
     for (var i = 0; i < all.length; i++) {
-      var t = clean(all[i].textContent);
+      var t = clean(source(all[i]));
       if (Heb.hasHebrew(t)) return t;
     }
     return '';
@@ -3537,12 +3745,12 @@ window.Say = (function () {
       // a stray italic in a Notes column should not win over them.
       for (var i = cells.length - 1; i >= 0; i--) {
         var em = cells[i].querySelector('em, .he');
-        if (em && Heb.hasHebrew(em.textContent)) return clean(em.textContent);
+        if (em && Heb.hasHebrew(em.textContent)) return clean(source(em));
       }
       // Nothing marked up anywhere in the row: some tables (the numbers, for
       // one) simply put the Hebrew word in the first column.
       if (cells.length && cells[0] !== td) {
-        var first = clean(cells[0].textContent);
+        var first = clean(source(cells[0]));
         if (first && Heb.hasHebrew(first) && first.length <= 30 &&
             first.split(/\s+/).length <= 3) return first;
       }
@@ -3554,7 +3762,7 @@ window.Say = (function () {
       var q = item && item.querySelector('.exercise-q');
       if (q) {
         var qEm = q.querySelector('em, .he');
-        return clean(qEm ? qEm.textContent : q.textContent.split(/[-?]/)[0]);
+        return clean(qEm ? source(qEm) : q.textContent.split(/[-?]/)[0]);
       }
     }
 
@@ -3593,7 +3801,7 @@ window.Say = (function () {
     // Something inside it was already wired by markExample; a second
     // control for the same words would be noise.
     if (el.querySelector('.say')) return;
-    var text = clean(el.textContent);
+    var text = clean(source(el));
     if (!text || text.length > 80) return;
     if (!Heb.hasHebrew(text)) return;
     var btn = document.createElement('button');
@@ -3613,7 +3821,7 @@ window.Say = (function () {
     if (el.dataset.wired) return;
     el.dataset.wired = '1';
     var he = el.querySelector('.v-word');
-    var text = clean(he ? he.textContent : el.textContent);
+    var text = clean(he ? source(he) : source(el));
     if (!text || !Heb.hasHebrew(text)) return;
     var btn = document.createElement('button');
     btn.className = 'say-btn';
@@ -3690,10 +3898,26 @@ window.Say = (function () {
       paintMenu();
     });
 
+    // The one place the engine is allowed to report a failure. If a browser
+    // lists a voice it cannot actually drive, this is where that shows up,
+    // rather than as words in a lesson that silently do nothing.
     menu.addEventListener('click', function (e) {
-      if (e.target.closest('[data-act="test"]')) {
-        speak('\u05e9\u05c1\u05b8\u05dc\u05d5\u05b9\u05dd, \u05d0\u05b2\u05e0\u05b4\u05d9 ' +
-              '\u05dc\u05d5\u05b9\u05de\u05b5\u05d3 \u05e2\u05b4\u05d1\u05b0\u05e8\u05b4\u05d9\u05ea.');
+      if (!e.target.closest('[data-act="test"]')) return;
+      var out = document.getElementById('audioResult');
+      lastError = '';
+      if (out) out.textContent = 'Speaking\u2026';
+      var started = speak(
+        '\u05e9\u05c1\u05b8\u05dc\u05d5\u05b9\u05dd, \u05d0\u05b2\u05e0\u05b4\u05d9 ' +
+        '\u05dc\u05d5\u05b9\u05de\u05b5\u05d3 \u05e2\u05b4\u05d1\u05b0\u05e8\u05b4\u05d9\u05ea.',
+        { onEnd: function (finished) {
+            if (!out) return;
+            if (lastError) out.textContent = 'The browser refused: ' + lastError + '.';
+            else if (finished) out.textContent = 'That is ' +
+              (current ? current.name : 'the system voice') + '.';
+            else out.textContent = '';
+          } });
+      if (!started && out) {
+        out.textContent = prefs.on ? 'Nothing to say.' : 'Reading aloud is switched off.';
       }
     });
   }
@@ -3722,7 +3946,8 @@ window.Say = (function () {
       (voices.length
         ? '<label class="audio-row audio-voice"><span>Voice</span>' +
             '<select id="audioVoice">' + opts + '</select></label>' +
-          '<button class="btn" type="button" data-act="test">Test the voice</button>'
+          '<button class="btn" type="button" data-act="test">Test the voice</button>' +
+          '<p class="audio-result" id="audioResult"></p>'
         : '<p class="audio-note">No Hebrew voice is installed in this browser. ' +
           'On macOS add Carmit under System Settings > Accessibility > Spoken Content > ' +
           'System Voice > Manage Voices. On iOS and Android it is built in.</p>') +
@@ -5838,7 +6063,8 @@ window.Vocab = (function () {
       '<button class="v-know" aria-label="Mark as known" aria-pressed="' + known + '" ' +
         'title="' + (known ? 'Known - tap to unmark' : 'Tap when you know this word') + '">✓</button>' +
       '<span class="v-he">' +
-        '<span class="v-word" lang="he" dir="rtl">' + escapeHtml(Heb.show(w.he)) + '</span>' +
+        '<span class="v-word" lang="he" dir="rtl" data-he="' + escapeAttr(w.he) + '">' +
+          escapeHtml(Heb.show(w.he)) + '</span>' +
         (w.tr ? '<small class="v-tr">' + escapeHtml(w.tr) + '</small>' : '') +
       '</span>' +
       '<span class="v-en">' + escapeHtml(w.en) + '</span>' +
@@ -6094,6 +6320,7 @@ window.Vocab = (function () {
   function escapeHtml(s) {
     return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   }
+  function escapeAttr(s) { return escapeHtml(s).replace(/"/g, '&quot;'); }
 
   return {
     load: load, all: all, mine: mine, curated: curated,
@@ -6221,8 +6448,18 @@ window.Vocab = (function () {
       Heb.setNikud(!Heb.nikudOn());
       paint();
       // Everything on screen was rendered through Heb.show(), so the only
-      // way to apply the change is to draw the page again.
-      route();
+      // way to apply the change is to draw the page again. Which must not
+      // move you: this switch is meant to be flicked in the middle of a
+      // paragraph to check whether you can still read it.
+      var y = window.pageYOffset;
+      route(true);
+      function hold() { window.scrollTo(0, y); }
+      hold();
+      // The page is a little shorter without the points, and some views
+      // paint from a promise, so put it back once more after the layout
+      // has settled.
+      requestAnimationFrame(hold);
+      setTimeout(hold, 150);
     });
     function paint() {
       var on = Heb.nikudOn();
@@ -6381,12 +6618,15 @@ window.Vocab = (function () {
 
   /* ---------------------------------------------------------- routing */
 
-  function route() {
+  // `keepScroll` is for a redraw of the page you are already on, where
+  // jumping to the top would lose your place: the nikud switch is the only
+  // caller. Every real navigation scrolls to the top, as it should.
+  function route(keepScroll) {
     var hash = location.hash.replace(/^#\/?/, '');
     closeSearch();
     Quiz.endSession();
     Test.stop();
-    window.scrollTo(0, 0);
+    if (!keepScroll) window.scrollTo(0, 0);
     document.getElementById('main').focus({ preventScroll: true });
 
     if (!hash) return renderHome();

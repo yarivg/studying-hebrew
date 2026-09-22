@@ -76,12 +76,21 @@ window.MD = (function () {
   // Wrap every Hebrew run in the rendered HTML, leaving the tags alone.
   // Splitting on tags first is what keeps attribute values (hrefs, alt text,
   // the class names above) out of the match.
+  function attr(v) {
+    return String(v).replace(/&/g, '&amp;').replace(/"/g, '&quot;')
+      .replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  }
+
   function wrapHebrew(html) {
     if (html.indexOf('\u05D0') === -1 && !/[\u05D0-\u05EA]/.test(html)) return html;
     return html.split(/(<[^>]+>)/).map(function (seg) {
       if (!seg || seg.charAt(0) === '<') return seg;
       return seg.replace(HE_RUN, function (m) {
-        return '<span class="he" lang="he" dir="rtl">' + Heb.show(m) + '</span>';
+        // The pointed text rides along in data-he even when the points are
+        // switched off on screen. Speech needs them: without a nikud the
+        // voice has to guess the vowels, and it guesses badly.
+        return '<span class="he" lang="he" dir="rtl" data-he="' + attr(m) + '">' +
+          Heb.show(m) + '</span>';
       });
     }).join('');
   }

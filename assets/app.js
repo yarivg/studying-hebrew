@@ -110,8 +110,18 @@
       Heb.setNikud(!Heb.nikudOn());
       paint();
       // Everything on screen was rendered through Heb.show(), so the only
-      // way to apply the change is to draw the page again.
-      route();
+      // way to apply the change is to draw the page again. Which must not
+      // move you: this switch is meant to be flicked in the middle of a
+      // paragraph to check whether you can still read it.
+      var y = window.pageYOffset;
+      route(true);
+      function hold() { window.scrollTo(0, y); }
+      hold();
+      // The page is a little shorter without the points, and some views
+      // paint from a promise, so put it back once more after the layout
+      // has settled.
+      requestAnimationFrame(hold);
+      setTimeout(hold, 150);
     });
     function paint() {
       var on = Heb.nikudOn();
@@ -270,12 +280,15 @@
 
   /* ---------------------------------------------------------- routing */
 
-  function route() {
+  // `keepScroll` is for a redraw of the page you are already on, where
+  // jumping to the top would lose your place: the nikud switch is the only
+  // caller. Every real navigation scrolls to the top, as it should.
+  function route(keepScroll) {
     var hash = location.hash.replace(/^#\/?/, '');
     closeSearch();
     Quiz.endSession();
     Test.stop();
-    window.scrollTo(0, 0);
+    if (!keepScroll) window.scrollTo(0, 0);
     document.getElementById('main').focus({ preventScroll: true });
 
     if (!hash) return renderHome();
