@@ -285,8 +285,17 @@ body {
   text-decoration: none; color: var(--ink); line-height: 1.4;
 }
 .search-results a:hover, .search-results a.is-active { background: var(--bleu-soft); }
+.search-results a { display: block; }
+.search-results .sr-title,
+.search-results .sr-sub { display: block; overflow-wrap: anywhere; }
 .search-results .sr-title { font-weight: 600; font-size: .92rem; }
-.search-results .sr-sub { font-size: .8rem; color: var(--muted); }
+.search-results .sr-sub {
+  font-size: .8rem; color: var(--muted);
+  /* An excerpt is a whole sentence out of a lesson. Two lines of it is
+     enough to recognise the hit; more and six results stop fitting. */
+  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;
+  overflow: hidden;
+}
 .search-results mark { background: color-mix(in srgb, var(--or) 32%, transparent); color: inherit; border-radius: 2px; }
 .search-results .sr-empty { padding: 1.2rem; text-align: center; color: var(--muted); font-size: .9rem; }
 
@@ -966,6 +975,40 @@ a.card:hover { border-color: var(--bleu); box-shadow: var(--shadow-md); transfor
   .topbar-search { max-width: none; }
   .topbar-search kbd { display: none; }
   .brand-text { font-size: 1rem; }
+
+  /* Under 16px iOS zooms the page in when the field takes focus, and then
+     leaves it zoomed: the topbar ends up wider than the screen and the
+     results panel hangs off the right edge. This is the whole bug. */
+  .topbar-search input { height: 40px; font-size: 16px; padding: 0 .9rem; }
+
+  /* The panel belongs to the screen, not to the field, which by this width
+     is a sliver between five icon buttons. Anchored to the topbar instead,
+     so it spans the viewport whatever the field is doing. */
+  .topbar-search { position: static; }
+  .search-results {
+    top: calc(100% + .3rem); left: .5rem; right: .5rem;
+    max-height: calc(100dvh - var(--topbar-h) - 1rem);
+    padding: .25rem;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
+  }
+  /* A row is something you hit with a thumb. */
+  .search-results a { padding: .6rem .7rem; min-height: 44px; }
+  .search-results .sr-group { padding: .55rem .7rem .25rem; }
+  .search-results .sr-title { font-size: 1rem; }
+  .search-results .sr-sub { font-size: .84rem; }
+}
+
+@media (max-width: 470px) {
+  /* Typing needs the whole bar. The other controls are all one tap away
+     again the moment the field is let go, and the results panel is covering
+     them anyway. */
+  .topbar:has(#globalSearch:focus) .brand,
+  .topbar:has(#globalSearch:focus) .quickadd,
+  .topbar:has(#globalSearch:focus) .audio-control,
+  .topbar:has(#globalSearch:focus) .offline-pill,
+  .topbar:has(#globalSearch:focus) #nikudBtn,
+  .topbar:has(#globalSearch:focus) #themeBtn { display: none; }
 }
 
 @media (max-width: 470px) {
@@ -973,6 +1016,8 @@ a.card:hover { border-color: var(--bleu); box-shadow: var(--shadow-md); transfor
      mark alone still says which site this is. */
   .brand-text { display: none; }
   .topbar { gap: .35rem; padding: 0 .6rem; }
+  /* Leave room for the buttons: unconstrained, the field pushes them off. */
+  .topbar-search input { padding: 0 .75rem; }
 }
 
 /* ------------------------------------------------------- quick add */
