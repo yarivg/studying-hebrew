@@ -149,6 +149,8 @@ window.Say = (function () {
   // Set when the chosen voice turned out to be silent and the engine was
   // asked to pick instead. The Test button is the only thing that says so.
   var fellBack = false;
+  // Set when even the engine's own choice of voice produced no sound.
+  var mute = false;
 
   /* Two long-standing engine bugs, both of which present as "the voice does
      not work at all", and neither of which is anything to do with the voice.
@@ -242,12 +244,21 @@ window.Say = (function () {
       u.pitch = 1;
       u.onstart = function () { lastError = ''; startTicker(); };
       u.onend = function () {
-        if (use && tooFast(say, rate, Date.now() - began)) {
+        var quick = tooFast(say, rate, Date.now() - began);
+        // A cancel arrives as `end` rather than as an error on some
+        // browsers, and it looks exactly like silence. It is not: the
+        // utterance was stopped on purpose, and speaking it again with a
+        // different voice would be wrong.
+        if (quick && mine !== epoch) { done(false); return; }
+        if (quick && use) {
           silent[use.voiceURI] = 1;
           fellBack = true;
           go(false);
           return;
         }
+        // The fallback was silent too, so the engine cannot speak Hebrew at
+        // all and there is nothing further this page can try.
+        if (quick) mute = true;
         done(true);
       };
       u.onerror = function (e) {
@@ -525,6 +536,7 @@ window.Say = (function () {
       var out = document.getElementById('audioResult');
       lastError = '';
       fellBack = false;
+      mute = false;
       if (out) out.textContent = 'Speaking\u2026';
       var started = speak(
         '\u05e9\u05c1\u05b8\u05dc\u05d5\u05b9\u05dd, \u05d0\u05b2\u05e0\u05b4\u05d9 ' +
@@ -532,10 +544,14 @@ window.Say = (function () {
         { onEnd: function (finished) {
             if (!out) return;
             if (lastError) out.textContent = 'The browser refused: ' + lastError + '.';
-            else if (fellBack) out.textContent = 'This browser lists ' +
-              (current ? current.name : 'that voice') + ' but cannot drive it, ' +
-              'so the system voice was used instead. Safari drives the Apple ' +
-              'voices properly if this still sounds wrong.';
+            else if (mute) out.textContent = 'This browser produced no sound ' +
+              'for Hebrew, with ' + (current ? current.name : 'that voice') +
+              ' or without it. The voice itself is fine: the fault is the ' +
+              'browser. Open the course in Safari, where the Apple voices work.';
+            else if (fellBack) out.textContent = 'This browser cannot drive ' +
+              (current ? current.name : 'that voice') + ' by name, so the ' +
+              'engine was left to pick. If you heard that, everything will ' +
+              'speak from now on.';
             else if (finished) out.textContent = 'That is ' +
               (current ? current.name : 'the system voice') + '.';
             else out.textContent = '';
