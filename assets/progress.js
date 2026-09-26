@@ -125,6 +125,14 @@ window.Progress = (function () {
 
   function readCount() { return Object.keys(state.read).length; }
 
+  // Has this chapter been covered at all? Reading it counts, and so does
+  // self-marking it, because you cannot judge a chapter you never opened.
+  // The sidebar tick, the dashboard count and the reading list all ask
+  // this same question, so they ask it here.
+  function studied(slug) {
+    return isRead(slug) || mastery(slug).level > 0;
+  }
+
   // When, so the statistics page can put a chapter on a timeline. 0 = unread.
   function readAt(slug) { return state.read[slug] || 0; }
 
@@ -813,6 +821,7 @@ window.Progress = (function () {
     runs: runs, weakSpots: weakSpots,
     streak: streak, reviewsToday: reviewsToday, dayCounts: dayCounts,
     history: history, snapDay: snapDay,
+    studied: studied,
     exportJSON: exportJSON, importJSON: importJSON, reset: reset,
     INTERVALS: INTERVALS, MAX_BOX: MAX_BOX
   };

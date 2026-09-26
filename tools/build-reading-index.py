@@ -53,6 +53,9 @@ def main():
             "level": p.get("level", "A1"),
             # The passage's own blurb wins; a sidecar fills a gap.
             "blurb": p.get("blurb") or blurbs.get(pid, ""),
+            # Carried into the index so the reading list can say which
+            # chapters a passage needs without fetching the passage.
+            "grammar": p.get("grammar", []),
         })
 
     # Standalone passages by level, then the serial in chapter order. The

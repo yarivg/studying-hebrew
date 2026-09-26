@@ -170,6 +170,18 @@ def main():
             if not str(e.get("blurb", "")).strip():
                 bad("index.json", "%s has an empty blurb" % e.get("id"))
 
+        # The reading list shows which chapters a passage needs before you
+        # open it, so the index carries a copy of each passage's `grammar`.
+        # Two copies drift, so they are checked against each other here.
+        by_id = {p["id"]: p for p in passages}
+        for e in listed:
+            p = by_id.get(e.get("id"))
+            if not p:
+                continue
+            if e.get("grammar") != p.get("grammar", []):
+                bad("index.json", "%s: grammar does not match the passage file "
+                                  "(run tools/sync-reading-index.py)" % e.get("id"))
+
     print("%d passages checked" % len(passages))
     for p in passages:
         print("  %-30s %s  %3d words  %d questions" %

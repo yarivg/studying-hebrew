@@ -5,140 +5,272 @@
    "file": "a1-01-ha-boker.json",
    "title": "הַבֹּקֶר שֶׁל דָּנָה",
    "level": "A1",
-   "blurb": "One morning, start to finish: the pa'al and hitpa'el present, the definite article, and telling the time."
+   "blurb": "One morning, start to finish: the pa'al and hitpa'el present, the definite article, and telling the time.",
+   "grammar": [
+    "present-paal",
+    "present-other-binyanim",
+    "ha-article",
+    "time-place-adverbs"
+   ]
   },
   {
    "id": "a1-02-ba-shuk",
    "file": "a1-02-ba-shuk.json",
    "title": "בַּשּׁוּק",
    "level": "A1",
-   "blurb": "A shopping list at the market: numbers, quantities in smichut, יֵשׁ and אֵין, and this and that."
+   "blurb": "A shopping list at the market: numbers, quantities in smichut, יֵשׁ and אֵין, and this and that.",
+   "grammar": [
+    "numbers",
+    "smichut",
+    "yesh-ein",
+    "demonstratives"
+   ]
   },
   {
    "id": "a1-03-ha-kheder",
    "file": "a1-03-ha-kheder.json",
    "title": "הַחֶדֶר שֶׁל תֵּאוֹ",
    "level": "A1",
-   "blurb": "One small room, from the window to under the bed: יֵשׁ and אֵין, place words, adjectives that agree, and the ownership endings."
+   "blurb": "One small room, from the window to under the bed: יֵשׁ and אֵין, place words, adjectives that agree, and the ownership endings.",
+   "grammar": [
+    "yesh-ein",
+    "adjectives",
+    "time-place-adverbs",
+    "prepositions-suffixes"
+   ]
   },
   {
    "id": "a2-01-sof-shavua",
    "file": "a2-01-sof-shavua.json",
    "title": "סוֹף הַשָּׁבוּעַ שֶׁל שָׂרָה",
    "level": "A2",
-   "blurb": "A quiet Friday that does not stay quiet: the past tense in pa'al and in the other binyanim, הָיָה, the relative שֶׁ and the direction ־ָה."
+   "blurb": "A quiet Friday that does not stay quiet: the past tense in pa'al and in the other binyanim, הָיָה, the relative שֶׁ and the direction ־ָה.",
+   "grammar": [
+    "past-paal",
+    "past-other-binyanim",
+    "haya",
+    "relative-she",
+    "direction-hey"
+   ]
   },
   {
    "id": "a2-02-ha-hodaa",
    "file": "a2-02-ha-hodaa.json",
    "title": "הַהוֹדָעָה",
    "level": "A2",
-   "blurb": "A message from a number nobody knows: the future tense, the forms of a question, and the whole family of negative words."
+   "blurb": "A message from a number nobody knows: the future tense, the forms of a question, and the whole family of negative words.",
+   "grammar": [
+    "future",
+    "haya",
+    "questions",
+    "negation"
+   ]
   },
   {
    "id": "a2-03-etzel-ha-rofe",
    "file": "a2-03-etzel-ha-rofe.json",
    "title": "אֵצֶל הָרוֹפֵא",
    "level": "A2",
-   "blurb": "A tired man, a waiting room and one awkward question: the negative words, יֵשׁ and אֵין, prepositions with endings, and the relative שֶׁ."
+   "blurb": "A tired man, a waiting room and one awkward question: the negative words, יֵשׁ and אֵין, prepositions with endings, and the relative שֶׁ.",
+   "grammar": [
+    "negation",
+    "yesh-ein",
+    "prepositions-suffixes",
+    "relative-she",
+    "present-other-binyanim"
+   ]
   },
   {
    "id": "b1-01-ha-rakevet",
    "file": "b1-01-ha-rakevet.json",
    "title": "הָרַכֶּבֶת הָאַחֲרוֹנָה",
    "level": "B1",
-   "blurb": "A night train that will not leave, a father's old story, and a stranger who knew him. Past tense across the binyanim, the relative ש with the pronoun it leaves behind, and prepositions that decline."
+   "blurb": "A night train that will not leave, a father's old story, and a stranger who knew him. Past tense across the binyanim, the relative ש with the pronoun it leaves behind, and prepositions that decline.",
+   "grammar": [
+    "past-paal",
+    "past-other-binyanim",
+    "relative-she",
+    "prepositions-plural"
+   ]
   },
   {
    "id": "b1-02-ha-shutafa",
    "file": "b1-02-ha-shutafa.json",
    "title": "הַשּׁוּתָּפָה הַחֲדָשָׁה",
    "level": "B1",
-   "blurb": "Two candidates for a spare room, one week of hesitating, and one phone call too late. אִם against אִילּוּ, the future tense inside a condition, and comparison with יוֹתֵר, פָּחוֹת and הֲכִי."
+   "blurb": "Two candidates for a spare room, one week of hesitating, and one phone call too late. אִם against אִילּוּ, the future tense inside a condition, and comparison with יוֹתֵר, פָּחוֹת and הֲכִי.",
+   "grammar": [
+    "conditional",
+    "future",
+    "comparatives",
+    "adverbs-connectors"
+   ]
   },
   {
    "id": "b2-01-rayon-avoda",
    "file": "b2-01-rayon-avoda.json",
    "title": "רֵאָיוֹן הָעֲבוֹדָה",
    "level": "B2",
-   "blurb": "A job interview held in two Hebrews at once: the formal one spoken out loud, and the blunt one kept inside the head. Register from הִנְּךָ מִתְבַּקֵּשׁ to סַבַּבָּה, the passive binyanim, and clauses of contrast and purpose."
+   "blurb": "A job interview held in two Hebrews at once: the formal one spoken out loud, and the blunt one kept inside the head. Register from הִנְּךָ מִתְבַּקֵּשׁ to סַבַּבָּה, the passive binyanim, and clauses of contrast and purpose.",
+   "grammar": [
+    "register",
+    "passive-binyanim",
+    "contrast-clauses",
+    "cause-purpose"
+   ]
   },
   {
    "id": "b2-02-ha-mikhtav",
    "file": "b2-02-ha-mikhtav.json",
    "title": "הַמִּכְתָּב מִשְּׁנַת 1974",
    "level": "B2",
-   "blurb": "An unsent letter in the bottom drawer, written in a Hebrew nobody speaks, and a second handwriting at the foot of the last page. Possessive endings against שֶׁל, אֲשֶׁר for שֶׁ, the passive binyanim, and reporting speech without shifting the tense."
+   "blurb": "An unsent letter in the bottom drawer, written in a Hebrew nobody speaks, and a second handwriting at the foot of the last page. Possessive endings against שֶׁל, אֲשֶׁר for שֶׁ, the passive binyanim, and reporting speech without shifting the tense.",
+   "grammar": [
+    "register",
+    "possession-shel",
+    "passive-binyanim",
+    "reported-speech"
+   ]
   },
   {
    "id": "story-01-ha-yerusha",
    "file": "story-01-ha-yerusha.json",
    "title": "א. הַיְרוּשָּׁה",
    "level": "B1",
-   "blurb": "Chapter one of ten. A lawyer's letter reaches Haifa about a great-aunt Ido had almost forgotten: the past tense in pa'al and in the other binyanim, possession with שֶׁל, and the relative שֶׁ."
+   "blurb": "Chapter one of ten. A lawyer's letter reaches Haifa about a great-aunt Ido had almost forgotten: the past tense in pa'al and in the other binyanim, possession with שֶׁל, and the relative שֶׁ.",
+   "grammar": [
+    "past-paal",
+    "past-other-binyanim",
+    "possession-shel",
+    "relative-she",
+    "adverbs-connectors"
+   ]
   },
   {
    "id": "story-02-ha-dira",
    "file": "story-02-ha-dira.json",
    "title": "ב. הַדִּירָה",
    "level": "B1",
-   "blurb": "Chapter two of ten. Ido climbs up to the flat that is now his, and someone opens the door from the inside: direction and place, prepositions that decline in the plural, and weak roots on the move."
+   "blurb": "Chapter two of ten. Ido climbs up to the flat that is now his, and someone opens the door from the inside: direction and place, prepositions that decline in the plural, and weak roots on the move.",
+   "grammar": [
+    "direction-hey",
+    "prepositions-plural",
+    "weak-roots",
+    "word-order",
+    "adverbs-connectors"
+   ]
   },
   {
    "id": "story-03-ha-shkhena",
    "file": "story-03-ha-shkhena.json",
    "title": "ג. הַשְּׁכֵנָה",
    "level": "B1",
-   "blurb": "Chapter three of ten. Over two cups of coffee a stranger describes the aunt Ido never knew: habitual past, the relative שֶׁ doing the joining, and comparison with יוֹתֵר מִ and פָּחוֹת מִ."
+   "blurb": "Chapter three of ten. Over two cups of coffee a stranger describes the aunt Ido never knew: habitual past, the relative שֶׁ doing the joining, and comparison with יוֹתֵר מִ and פָּחוֹת מִ.",
+   "grammar": [
+    "past-paal",
+    "relative-she",
+    "comparatives",
+    "adverbs-connectors",
+    "binyanim-system"
+   ]
   },
   {
    "id": "story-04-ma-she-hi-asta",
    "file": "story-04-ma-she-hi-asta.json",
    "title": "ד. מַה שֶּׁהִיא עָשְׂתָה",
    "level": "B1",
-   "blurb": "Chapter four of ten. A lawyer lays out a document signed in 1998 and the inheritance changes shape: dates and ordinals, numbers past a hundred, verbal nouns, and reporting what someone said."
+   "blurb": "Chapter four of ten. A lawyer lays out a document signed in 1998 and the inheritance changes shape: dates and ordinals, numbers past a hundred, verbal nouns, and reporting what someone said.",
+   "grammar": [
+    "ordinals-dates",
+    "big-numbers",
+    "verbal-nouns",
+    "reported-speech",
+    "past-other-binyanim"
+   ]
   },
   {
    "id": "story-05-ilu-hayiti-yodea",
    "file": "story-05-ilu-hayiti-yodea.json",
    "title": "ה. אִלּוּ הָיִיתִי יוֹדֵעַ",
    "level": "B1",
-   "blurb": "Chapter five of ten. Ido and his sister argue about money down a bad phone line: אִם for what may happen, אִלּוּ plus הָיָה for what did not, and the future tense that goes with them."
+   "blurb": "Chapter five of ten. Ido and his sister argue about money down a bad phone line: אִם for what may happen, אִלּוּ plus הָיָה for what did not, and the future tense that goes with them.",
+   "grammar": [
+    "conditional",
+    "future",
+    "reported-speech",
+    "adverbs-connectors",
+    "relative-she"
+   ]
   },
   {
    "id": "story-06-mah-she-tzarikh",
    "file": "story-06-mah-she-tzarikh.json",
    "title": "ו. מַה שֶּׁצָּרִיךְ",
    "level": "B2",
-   "blurb": "Chapter six of ten. A lawyer lists what Ido is permitted to do, and his mother tells him what he is not obliged to understand: obligation and permission with צָרִיךְ, חַיָּיב, מוּתָּר, אָסוּר and כְּדַאי plus the infinitive, and purpose clauses with כְּדֵי and כְּדֵי שֶׁ."
+   "blurb": "Chapter six of ten. A lawyer lists what Ido is permitted to do, and his mother tells him what he is not obliged to understand: obligation and permission with צָרִיךְ, חַיָּיב, מוּתָּר, אָסוּר and כְּדַאי plus the infinitive, and purpose clauses with כְּדֵי and כְּדֵי שֶׁ.",
+   "grammar": [
+    "cause-purpose",
+    "infinitive-modals",
+    "time-clauses",
+    "contrast-clauses",
+    "register"
+   ]
   },
   {
    "id": "story-07-kufsat-ha-pakh",
    "file": "story-07-kufsat-ha-pakh.json",
    "title": "ז. קוּפְסַת הַפַּח",
    "level": "B2",
-   "blurb": "Chapter seven of ten. Pnina opens a biscuit tin of unanswered letters and thirty years get reported second hand: אָמַר שֶׁ, שָׁאַל אִם, and the tense Hebrew does not push back."
+   "blurb": "Chapter seven of ten. Pnina opens a biscuit tin of unanswered letters and thirty years get reported second hand: אָמַר שֶׁ, שָׁאַל אִם, and the tense Hebrew does not push back.",
+   "grammar": [
+    "reported-speech",
+    "relative-she",
+    "time-clauses",
+    "verbal-nouns",
+    "word-order"
+   ]
   },
   {
    "id": "story-08-ma-she-af-ekhad",
    "file": "story-08-ma-she-af-ekhad.json",
    "title": "ח. מַה שֶּׁאַף אֶחָד לֹא דִּיבֵּר עָלָיו",
    "level": "B2",
-   "blurb": "Chapter eight of ten. The one reply the grandmother did send, read out loud at last: the relative ש with the pronoun it leaves behind, and the prepositions that decline in the plural."
+   "blurb": "Chapter eight of ten. The one reply the grandmother did send, read out loud at last: the relative ש with the pronoun it leaves behind, and the prepositions that decline in the plural.",
+   "grammar": [
+    "relative-she",
+    "prepositions-plural",
+    "negation",
+    "cause-purpose",
+    "register"
+   ]
   },
   {
    "id": "story-09-hi-khashva-al-hakol",
    "file": "story-09-hi-khashva-al-hakol.json",
    "title": "ט. הִיא חָשְׁבָה עַל הַכֹּל",
    "level": "B2",
-   "blurb": "Chapter nine of ten. A second letter comes out of the lawyer's drawer and Ido works out what Odelya arranged: the future used for guessing, the passive binyanim on the documents, and clauses of time."
+   "blurb": "Chapter nine of ten. A second letter comes out of the lawyer's drawer and Ido works out what Odelya arranged: the future used for guessing, the passive binyanim on the documents, and clauses of time.",
+   "grammar": [
+    "passive-binyanim",
+    "time-clauses",
+    "future",
+    "cause-purpose",
+    "nifal-vs-hitpael"
+   ]
   },
   {
    "id": "story-10-le-at-le-at",
    "file": "story-10-le-at-le-at.json",
    "title": "י. לְאַט לְאַט",
    "level": "B2",
-   "blurb": "Chapter ten of ten. A year of Fridays, one signature, and a paragraph in an old book: durations with בְּמֶשֶׁךְ, מֵאָז, לִפְנֵי and כְּבָר, and a closing page that climbs into a higher, almost biblical register."
+   "blurb": "Chapter ten of ten. A year of Fridays, one signature, and a paragraph in an old book: durations with בְּמֶשֶׁךְ, מֵאָז, לִפְנֵי and כְּבָר, and a closing page that climbs into a higher, almost biblical register.",
+   "grammar": [
+    "register",
+    "biblical-echoes",
+    "time-clauses",
+    "comparatives",
+    "adverbs-connectors"
+   ]
   }
  ]
 }

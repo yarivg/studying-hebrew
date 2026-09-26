@@ -50,6 +50,11 @@
             bySlug[ch.slug] = ch;
           });
         });
+        // The reading list names the chapters a passage needs. It has the
+        // slugs; the titles are here.
+        Read.useTitles(function (slug) {
+          return bySlug[slug] ? bySlug[slug].title : slug.replace(/-/g, ' ');
+        });
         renderNav();
         window.addEventListener('hashchange', route);
         window.addEventListener('progress:change', function () {
@@ -209,9 +214,7 @@
   }
 
   // Ticked in the sidebar: read, or judged, since you cannot judge unread.
-  function studied(slug) {
-    return Progress.isRead(slug) || Progress.mastery(slug).level > 0;
-  }
+  function studied(slug) { return Progress.studied(slug); }
 
   function marked(list) {
     return list.filter(function (c) { return Progress.mastery(c.slug).level > 0; }).length;

@@ -202,8 +202,9 @@ window.Read = (function () {
         '<p class="lead">' + escapeHtml(passage.blurb || '') + '</p>' +
         (passage.grammar && passage.grammar.length
           ? '<p class="rd-grammar">Uses: ' + passage.grammar.map(function (g) {
-              return '<a href="#/' + g + '">' + escapeHtml(g.replace(/-/g, ' ')) + '</a>';
-            }).join(' · ') + '</p>'
+              return '<a class="' + (Progress.studied(g) ? '' : 'is-unread') +
+                '" href="#/' + g + '">' + escapeHtml(titleOf(g)) + '</a>';
+            }).join(' · ') + '</p>' + needHtml(passage, true)
           : '') +
         '<div class="rd-toolbar">' +
           (window.Say && Say.supported()
@@ -395,6 +396,40 @@ window.Read = (function () {
     });
   }
 
+  /* ---------------------------------------------------------- readiness */
+
+  // A passage leans on a handful of chapters, named in its `grammar`
+  // array. Saying which of them you have not covered yet turns "this one
+  // is too hard" into a short list of links. Nothing is ever blocked:
+  // reading above your level is how you find out what to study next.
+  function unread(entry) {
+    return (entry.grammar || []).filter(function (slug) {
+      return !Progress.studied(slug);
+    });
+  }
+
+  // Chapter titles live in the manifest, which app.js owns. It hands a
+  // lookup over once that has loaded; until then the slug will do.
+  var titleOf = function (slug) { return slug.replace(/-/g, ' '); };
+
+  function useTitles(fn) { if (typeof fn === 'function') titleOf = fn; }
+
+  function chapterLink(slug) {
+    return '<a href="#/' + slug + '">' + escapeHtml(titleOf(slug)) + '</a>';
+  }
+
+  // One line under the card. On the list three links are enough, or the
+  // warning outgrows the blurb it sits beneath; inside the passage there
+  // is room to name them all.
+  function needHtml(entry, all) {
+    var missing = unread(entry);
+    if (!missing.length) return '<p class="rd-need rd-ready">Ready.</p>';
+    var shown = all ? missing : missing.slice(0, 3);
+    var rest = missing.length - shown.length;
+    return '<p class="rd-need">Study first: ' + shown.map(chapterLink).join(' · ') +
+      (rest > 0 ? ' <span class="rd-need-more">+' + rest + ' more</span>' : '') + '</p>';
+  }
+
   /* ---------------------------------------------------------- list */
 
   function listHtml(passages) {
@@ -404,11 +439,15 @@ window.Read = (function () {
       return '<h2>' + level + '</h2><div class="rd-grid">' + byLevel[level].map(function (p) {
         var m = Progress.mastery('read:' + p.id);
         var s = Progress.testScore('read:' + p.id);
-        return '<a class="rd-card lv' + m.level + '" href="#/read/' + p.id + '">' +
-          '<span class="rd-card-title">' + escapeHtml(p.title) + '</span>' +
-          '<span class="rd-card-blurb">' + escapeHtml(p.blurb || '') + '</span>' +
-          '<span class="rd-card-meta">' + (s.runs ? 'best ' + s.best + '%' : 'not read yet') + '</span>' +
-          '</a>';
+        // A div, not an anchor: the readiness line carries links of its
+        // own, and an anchor inside an anchor is not valid HTML.
+        return '<div class="rd-card lv' + m.level + (unread(p).length ? ' is-early' : '') + '">' +
+          '<a class="rd-card-main" href="#/read/' + p.id + '">' +
+            '<span class="rd-card-title">' + escapeHtml(p.title) + '</span>' +
+            '<span class="rd-card-blurb">' + escapeHtml(p.blurb || '') + '</span>' +
+            '<span class="rd-card-meta">' + (s.runs ? 'best ' + s.best + '%' : 'not read yet') + '</span>' +
+          '</a>' + needHtml(p) +
+          '</div>';
       }).join('') + '</div>';
     }).join('');
   }
@@ -423,6 +462,7 @@ window.Read = (function () {
 
   return {
     loadIndex: loadIndex, loadPassage: loadPassage, byId: byId,
-    render: render, listHtml: listHtml, lookup: lookup, glossIndex: glossIndex
+    render: render, listHtml: listHtml, lookup: lookup, glossIndex: glossIndex,
+    unread: unread, useTitles: useTitles
   };
 })();
