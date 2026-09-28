@@ -916,6 +916,7 @@ window.Test = (function () {
     loadGroups: loadGroups, findGroup: findGroup, loadGroupBanks: loadGroupBanks,
     loadChapter: loadChapter, loadPart: loadPart, hasBank: hasBank, pathFor: pathFor,
     sample: sample, shuffle: shuffle, start: start, stop: stop,
-    gradeText: gradeText, gradeOrder: gradeOrder, norm: norm, modelAnswer: modelAnswer
+    gradeText: gradeText, gradeOrder: gradeOrder, norm: norm, modelAnswer: modelAnswer,
+    keyBar: keyBar, bindKeys: bindKeys
   };
 })();

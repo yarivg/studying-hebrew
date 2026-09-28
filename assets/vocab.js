@@ -425,6 +425,127 @@ window.Vocab = (function () {
   function escapeHtml(s) {
     return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   }
+
+  /* ------------------------------------------------ the dictionary form
+
+     A word tapped on a page is the word as it stands in the sentence: בַּבַּיִת,
+     וּלְיַלְדָּה, הַשֻּׁלְחָן. The list wants בַּיִת. This peels off the one-letter
+     prepositions, the conjunction and the article, at most two of them, and
+     only where the points say it really is a prefix: a bare letter proves
+     nothing, since לַיְלָה and בְּרָכָה begin with the same letters. Without
+     the points there is no evidence, so an unpointed word is left alone.
+     It will still be wrong now and then (לְבַד), which is why the quick add
+     shows what was dropped and offers it back. */
+
+  var SHVA = '\u05b0', HIRIQ = '\u05b4', TSERE = '\u05b5', SEGOL = '\u05b6',
+      PATAH = '\u05b7', QAMATS = '\u05b8', DAGESH = '\u05bc',
+      HATAF_PATAH = '\u05b2';
+  var GUTTURAL = /[\u05d0\u05d4\u05d7\u05e2\u05e8]/;
+  var PREFIX_EN = { '\u05d1': 'in', '\u05dc': 'to', '\u05db': 'like', '\u05de': 'from',
+                    '\u05d5': 'and', '\u05d4': 'the', '\u05e9': 'that' };
+
+  function clusters(s) { return s.match(/[\u05d0-\u05ea][\u0591-\u05c7]*/g) || []; }
+
+  // Whether the first cluster of cs is a prefix, and if so whether it
+  // carried the article too. after is the prefix already taken off, if any:
+  // ו and ש take another in front of anything, a preposition only takes the
+  // article (מֵהָעִיר), and nothing takes a third.
+  function prefixAt(cs, after) {
+    if (cs.length < 2) return null;
+    var letter = cs[0].charAt(0), marks = cs[0].slice(1);
+    if (after && after !== '\u05d5' && after !== '\u05e9' && letter !== '\u05d4') return null;
+    var first = !after;
+    var next = cs[1], lead = next.charAt(0);
+    var dag = next.indexOf(DAGESH) !== -1 && lead !== '\u05d5';
+    var gut = GUTTURAL.test(lead);
+    var has = function (m) { return marks.indexOf(m) !== -1; };
+    // The vowel the article leaves on its host: patah and a doubled letter,
+    // patah before ה and ח, which cannot double, qamats before א ע ר.
+    // A patah before א, as in הַאִם, is something else.
+    var art = (has(PATAH) && (dag || /[\u05d4\u05d7]/.test(lead))) || (has(QAMATS) && gut);
+    var yes = function (article, doubles) { return { article: article, doubles: doubles }; };
+
+    // ב כ ל
+    if (letter === '\u05d1' || letter === '\u05db' || letter === '\u05dc') {
+      if (letter === '\u05dc') {
+        // לְהַגִּיד, לְהִתְרַחֵץ: an infinitive, whose ל belongs to the verb. A
+        // preposition before the article merges into לַ, never לְהַ.
+        if (lead === '\u05d4') return null;
+        // לְדַבֵּר, לְנַסּוֹת: the piel infinitive, a patah and then a doubled
+        // letter. It costs לְמַטָּה, which is the rarer of the two.
+        if (has(SHVA) && next.indexOf(PATAH) !== -1 && cs[2] &&
+            cs[2].indexOf(DAGESH) !== -1) return null;
+        // לַעֲשׂוֹת, לַחֲשׁוֹב: the infinitive of a guttural verb.
+        if (has(PATAH) && next.indexOf(HATAF_PATAH) !== -1) return null;
+      }
+      // כְּ is left alone: כְּלוּם, כְּדַאי, כְּחוּלָּה begin with it far more
+      // often than a "like" does.
+      if (has(SHVA)) return letter === '\u05db' ? null : yes(false, false);
+      return art ? yes(true, true) : null;
+    }
+    // ו, only first: וְ or the shuruk וּ
+    if (letter === '\u05d5' && first) {
+      return has(SHVA) || marks === DAGESH ? yes(false, false) : null;
+    }
+    // ה, with the vowels above, or segol before a guttural carrying qamats
+    if (letter === '\u05d4') {
+      return art || (has(SEGOL) && /[\u05d4\u05d7\u05e2]/.test(lead)) ? yes(true, true) : null;
+    }
+    // מ: מִ with the doubled letter, מֵ before a guttural
+    if (letter === '\u05de') {
+      if (has(HIRIQ) && dag) return yes(false, true);
+      return has(TSERE) && gut ? yes(false, false) : null;
+    }
+    // ש, only first: שֶׁ with the doubled letter
+    if (letter === '\u05e9' && first) {
+      return has(SEGOL) && dag ? yes(false, true) : null;
+    }
+    return null;
+  }
+
+  // { he, full, dropped }: he is what should go in the list, full the word as
+  // it was on the page, dropped the English of whatever came off.
+  function baseForm(word) {
+    // Punctuation off both ends; the points after the last letter stay.
+    var full = String(word == null ? '' : word).normalize('NFC').trim()
+      .replace(/^[^\u05d0-\u05ea]+/, '').replace(/[^\u05d0-\u05ea\u0591-\u05c7]+$/, '');
+    var out = { he: full, full: full, dropped: [] };
+    if (!full || /\s/.test(full)) return out;
+
+    // A preposition joined by a maqaf is a word of its own: עַל־יַד, אֶל־הַבַּיִת.
+    var parts = full.split('\u05be');
+    var last = parts[parts.length - 1];
+    var cs = clusters(last);
+    if (!cs.length || cs.join('') !== last) return out;   // something odd inside
+
+    var doubled = false, after = '';
+    for (var n = 0; n < 2; n++) {
+      var p = prefixAt(cs, after);
+      // What is left has to be a word: three letters, or two after an
+      // article, which is strong evidence on its own (הַיָּם, הַיּוֹם).
+      if (!p || cs.length - 1 < (p.article ? 2 : 3)) break;
+      out.dropped.push(PREFIX_EN[cs[0].charAt(0)]);
+      if (p.article && cs[0].charAt(0) !== '\u05d4') out.dropped.push('the');
+      doubled = p.doubles;
+      after = cs[0].charAt(0);
+      cs = cs.slice(1);
+    }
+    if (!out.dropped.length && parts.length === 1) return out;
+
+    // The dagesh the prefix put in the next letter is not part of the word,
+    // except in ב ג ד כ פ ת, which begin a word with one anyway.
+    // And the other way round: after a vowel those six lose the dagesh they
+    // take at the start of a word (בְּבַקָּשָׁה), so it goes back.
+    var bgdkpt = /[\u05d1\u05d2\u05d3\u05db\u05e4\u05ea]/.test(cs[0].charAt(0));
+    if (doubled && !bgdkpt) cs[0] = cs[0].replace(DAGESH, '');
+    if (bgdkpt && cs[0].indexOf(DAGESH) === -1) {
+      cs[0] = (cs[0].charAt(0) + DAGESH + cs[0].slice(1)).normalize('NFC');
+    }
+    if (parts.length > 1) out.dropped.unshift(Heb.strip(parts.slice(0, -1).join(' ')));
+    out.he = cs.join('');
+    return out;
+  }
+
   function escapeAttr(s) { return escapeHtml(s).replace(/"/g, '&quot;'); }
 
   return {
@@ -434,7 +555,7 @@ window.Vocab = (function () {
     listHtml: listHtml, bindList: bindList,
     hydrateEmbeds: hydrateEmbeds, fillEmbed: fillEmbed,
     decks: decks, deckById: deckById,
-    guess: guess, findExisting: findExisting, parseBulk: parseBulk, exportMine: exportMine,
+    guess: guess, findExisting: findExisting, baseForm: baseForm, parseBulk: parseBulk, exportMine: exportMine,
     POS_LABEL: POS_LABEL, GENDER_LABEL: GENDER_LABEL, BINYAN_LABEL: BINYAN_LABEL
   };
 })();

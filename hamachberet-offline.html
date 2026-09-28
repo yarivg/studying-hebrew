@@ -1055,6 +1055,28 @@ a.card:hover { border-color: var(--bleu); box-shadow: var(--shadow-md); transfor
 /* Add is off while the word is already on the list, and has to look it. */
 .qa-actions .btn:disabled { opacity: .45; cursor: not-allowed; }
 .qa-link { font-size: .78rem; color: var(--muted); }
+/* The word field shares its row with the microphone and the letters. */
+.qa-field { display: flex; gap: .3rem; margin-bottom: .4rem; }
+.qa-field .qa-in { flex: 1; min-width: 0; margin-bottom: 0; }
+.qa-tool {
+  flex: none; min-width: 2.4rem; padding: 0 .45rem;
+  font: inherit; font-size: 1rem; color: var(--ink);
+  background: var(--surface-2); border: 1px solid var(--line);
+  border-radius: var(--r-sm); cursor: pointer;
+}
+.qa-tool:hover { border-color: var(--bleu); }
+.qa-tool.is-on { color: var(--on-accent); background: var(--bleu); border-color: var(--bleu); }
+/* What a tapped word lost on the way in, with the way to put it back. */
+.qa-drop { margin: -.1rem 0 .45rem; font-size: .78rem; line-height: 1.45; color: var(--muted); }
+.qa-keep {
+  padding: 0; font: inherit; color: var(--bleu);
+  background: none; border: 0; text-decoration: underline; cursor: pointer;
+}
+/* The alef-bet, squeezed into the menu. */
+.quickadd-menu .qa-kb { font-family: var(--he); font-size: .9rem; }
+.quickadd-menu .key-bar { margin: 0 0 .45rem; gap: .2rem; }
+.quickadd-menu .key-letter { min-width: 1.65rem; padding: .2rem .1rem; font-size: 1.05rem; }
+.quickadd-menu .key-note { display: none; }
 
 @media (max-width: 560px) {
   /* Room for two fields matters more than sitting under the button. */
@@ -5501,7 +5523,8 @@ window.Test = (function () {
     loadGroups: loadGroups, findGroup: findGroup, loadGroupBanks: loadGroupBanks,
     loadChapter: loadChapter, loadPart: loadPart, hasBank: hasBank, pathFor: pathFor,
     sample: sample, shuffle: shuffle, start: start, stop: stop,
-    gradeText: gradeText, gradeOrder: gradeOrder, norm: norm, modelAnswer: modelAnswer
+    gradeText: gradeText, gradeOrder: gradeOrder, norm: norm, modelAnswer: modelAnswer,
+    keyBar: keyBar, bindKeys: bindKeys
   };
 })();
 
@@ -5810,7 +5833,9 @@ window.Read = (function () {
         gloss.hidden = false;
         gloss.innerHTML = '<strong lang="he" dir="rtl">' + escapeHtml(Heb.show(full)) + '</strong>' +
           (meaning ? '<span>' + escapeHtml(meaning) + '</span>'
-                   : '<span class="rd-nogloss">not in the word list</span>') +
+                   : '<span class="rd-nogloss">not in the word list</span>' +
+                     '<button class="btn btn-sm" data-act="addword" data-word="' +
+                       escapeAttr(full) + '">+ Add to my words</button>') +
           (window.Say && Say.supported()
             ? '<button class="btn btn-sm" data-say="' + escapeAttr(full) + '">\ud83d\udd0a</button>' : '');
         text.querySelectorAll('.rd-w.is-looked').forEach(function (el) { el.classList.remove('is-looked'); });
@@ -5837,6 +5862,11 @@ window.Read = (function () {
       if (act === 'stop') { Say.stop(); clearMarks(); return void paintControls(); }
       if (act === 'top') { at = 0; return playFrom(0); }
       if (act === 'playall') return playFrom(at);
+      // Opens the quick add with the word already in it, less what the
+      // sentence put in front of it.
+      if (act === 'addword') {
+        document.dispatchEvent(new CustomEvent('quickadd:open', { detail: Vocab.baseForm(b.dataset.word) }));
+      }
     });
   }
 
@@ -6678,6 +6708,127 @@ window.Vocab = (function () {
   function escapeHtml(s) {
     return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   }
+
+  /* ------------------------------------------------ the dictionary form
+
+     A word tapped on a page is the word as it stands in the sentence: בַּבַּיִת,
+     וּלְיַלְדָּה, הַשֻּׁלְחָן. The list wants בַּיִת. This peels off the one-letter
+     prepositions, the conjunction and the article, at most two of them, and
+     only where the points say it really is a prefix: a bare letter proves
+     nothing, since לַיְלָה and בְּרָכָה begin with the same letters. Without
+     the points there is no evidence, so an unpointed word is left alone.
+     It will still be wrong now and then (לְבַד), which is why the quick add
+     shows what was dropped and offers it back. */
+
+  var SHVA = '\u05b0', HIRIQ = '\u05b4', TSERE = '\u05b5', SEGOL = '\u05b6',
+      PATAH = '\u05b7', QAMATS = '\u05b8', DAGESH = '\u05bc',
+      HATAF_PATAH = '\u05b2';
+  var GUTTURAL = /[\u05d0\u05d4\u05d7\u05e2\u05e8]/;
+  var PREFIX_EN = { '\u05d1': 'in', '\u05dc': 'to', '\u05db': 'like', '\u05de': 'from',
+                    '\u05d5': 'and', '\u05d4': 'the', '\u05e9': 'that' };
+
+  function clusters(s) { return s.match(/[\u05d0-\u05ea][\u0591-\u05c7]*/g) || []; }
+
+  // Whether the first cluster of cs is a prefix, and if so whether it
+  // carried the article too. after is the prefix already taken off, if any:
+  // ו and ש take another in front of anything, a preposition only takes the
+  // article (מֵהָעִיר), and nothing takes a third.
+  function prefixAt(cs, after) {
+    if (cs.length < 2) return null;
+    var letter = cs[0].charAt(0), marks = cs[0].slice(1);
+    if (after && after !== '\u05d5' && after !== '\u05e9' && letter !== '\u05d4') return null;
+    var first = !after;
+    var next = cs[1], lead = next.charAt(0);
+    var dag = next.indexOf(DAGESH) !== -1 && lead !== '\u05d5';
+    var gut = GUTTURAL.test(lead);
+    var has = function (m) { return marks.indexOf(m) !== -1; };
+    // The vowel the article leaves on its host: patah and a doubled letter,
+    // patah before ה and ח, which cannot double, qamats before א ע ר.
+    // A patah before א, as in הַאִם, is something else.
+    var art = (has(PATAH) && (dag || /[\u05d4\u05d7]/.test(lead))) || (has(QAMATS) && gut);
+    var yes = function (article, doubles) { return { article: article, doubles: doubles }; };
+
+    // ב כ ל
+    if (letter === '\u05d1' || letter === '\u05db' || letter === '\u05dc') {
+      if (letter === '\u05dc') {
+        // לְהַגִּיד, לְהִתְרַחֵץ: an infinitive, whose ל belongs to the verb. A
+        // preposition before the article merges into לַ, never לְהַ.
+        if (lead === '\u05d4') return null;
+        // לְדַבֵּר, לְנַסּוֹת: the piel infinitive, a patah and then a doubled
+        // letter. It costs לְמַטָּה, which is the rarer of the two.
+        if (has(SHVA) && next.indexOf(PATAH) !== -1 && cs[2] &&
+            cs[2].indexOf(DAGESH) !== -1) return null;
+        // לַעֲשׂוֹת, לַחֲשׁוֹב: the infinitive of a guttural verb.
+        if (has(PATAH) && next.indexOf(HATAF_PATAH) !== -1) return null;
+      }
+      // כְּ is left alone: כְּלוּם, כְּדַאי, כְּחוּלָּה begin with it far more
+      // often than a "like" does.
+      if (has(SHVA)) return letter === '\u05db' ? null : yes(false, false);
+      return art ? yes(true, true) : null;
+    }
+    // ו, only first: וְ or the shuruk וּ
+    if (letter === '\u05d5' && first) {
+      return has(SHVA) || marks === DAGESH ? yes(false, false) : null;
+    }
+    // ה, with the vowels above, or segol before a guttural carrying qamats
+    if (letter === '\u05d4') {
+      return art || (has(SEGOL) && /[\u05d4\u05d7\u05e2]/.test(lead)) ? yes(true, true) : null;
+    }
+    // מ: מִ with the doubled letter, מֵ before a guttural
+    if (letter === '\u05de') {
+      if (has(HIRIQ) && dag) return yes(false, true);
+      return has(TSERE) && gut ? yes(false, false) : null;
+    }
+    // ש, only first: שֶׁ with the doubled letter
+    if (letter === '\u05e9' && first) {
+      return has(SEGOL) && dag ? yes(false, true) : null;
+    }
+    return null;
+  }
+
+  // { he, full, dropped }: he is what should go in the list, full the word as
+  // it was on the page, dropped the English of whatever came off.
+  function baseForm(word) {
+    // Punctuation off both ends; the points after the last letter stay.
+    var full = String(word == null ? '' : word).normalize('NFC').trim()
+      .replace(/^[^\u05d0-\u05ea]+/, '').replace(/[^\u05d0-\u05ea\u0591-\u05c7]+$/, '');
+    var out = { he: full, full: full, dropped: [] };
+    if (!full || /\s/.test(full)) return out;
+
+    // A preposition joined by a maqaf is a word of its own: עַל־יַד, אֶל־הַבַּיִת.
+    var parts = full.split('\u05be');
+    var last = parts[parts.length - 1];
+    var cs = clusters(last);
+    if (!cs.length || cs.join('') !== last) return out;   // something odd inside
+
+    var doubled = false, after = '';
+    for (var n = 0; n < 2; n++) {
+      var p = prefixAt(cs, after);
+      // What is left has to be a word: three letters, or two after an
+      // article, which is strong evidence on its own (הַיָּם, הַיּוֹם).
+      if (!p || cs.length - 1 < (p.article ? 2 : 3)) break;
+      out.dropped.push(PREFIX_EN[cs[0].charAt(0)]);
+      if (p.article && cs[0].charAt(0) !== '\u05d4') out.dropped.push('the');
+      doubled = p.doubles;
+      after = cs[0].charAt(0);
+      cs = cs.slice(1);
+    }
+    if (!out.dropped.length && parts.length === 1) return out;
+
+    // The dagesh the prefix put in the next letter is not part of the word,
+    // except in ב ג ד כ פ ת, which begin a word with one anyway.
+    // And the other way round: after a vowel those six lose the dagesh they
+    // take at the start of a word (בְּבַקָּשָׁה), so it goes back.
+    var bgdkpt = /[\u05d1\u05d2\u05d3\u05db\u05e4\u05ea]/.test(cs[0].charAt(0));
+    if (doubled && !bgdkpt) cs[0] = cs[0].replace(DAGESH, '');
+    if (bgdkpt && cs[0].indexOf(DAGESH) === -1) {
+      cs[0] = (cs[0].charAt(0) + DAGESH + cs[0].slice(1)).normalize('NFC');
+    }
+    if (parts.length > 1) out.dropped.unshift(Heb.strip(parts.slice(0, -1).join(' ')));
+    out.he = cs.join('');
+    return out;
+  }
+
   function escapeAttr(s) { return escapeHtml(s).replace(/"/g, '&quot;'); }
 
   return {
@@ -6687,7 +6838,7 @@ window.Vocab = (function () {
     listHtml: listHtml, bindList: bindList,
     hydrateEmbeds: hydrateEmbeds, fillEmbed: fillEmbed,
     decks: decks, deckById: deckById,
-    guess: guess, findExisting: findExisting, parseBulk: parseBulk, exportMine: exportMine,
+    guess: guess, findExisting: findExisting, baseForm: baseForm, parseBulk: parseBulk, exportMine: exportMine,
     POS_LABEL: POS_LABEL, GENDER_LABEL: GENDER_LABEL, BINYAN_LABEL: BINYAN_LABEL
   };
 })();
@@ -8516,20 +8667,34 @@ window.Vocab = (function () {
 
     function close() {
       if (menu.hidden) return;
+      if (window.Speech) Speech.stop();
       menu.hidden = true;
       menu.innerHTML = '';
       btn.setAttribute('aria-expanded', 'false');
     }
 
-    function open() {
+    // prefill: { he, full, dropped } from Vocab.baseForm, when a word tapped
+    // on a page is what opened this.
+    function open(prefill) {
+      prefill = prefill || {};
+      if (window.Speech) Speech.stop();
       menu.hidden = false;
       btn.setAttribute('aria-expanded', 'true');
       menu.innerHTML =
         '<div class="qa-head"><strong>Add a word</strong>' +
           '<span class="qa-hint">Enter to add · Esc to close</span></div>' +
-        '<input id="qaHe" class="qa-in" dir="auto" lang="he" ' +
-          'placeholder="\u05e9\u05bb\u05c1\u05dc\u05b0\u05d7\u05b8\u05df" ' +
-          'autocomplete="off" spellcheck="false" aria-label="Hebrew">' +
+        '<div class="qa-field">' +
+          '<input id="qaHe" class="qa-in" dir="auto" lang="he" ' +
+            'placeholder="\u05e9\u05bb\u05c1\u05dc\u05b0\u05d7\u05b8\u05df" ' +
+            'autocomplete="off" spellcheck="false" aria-label="Hebrew">' +
+          (window.Speech && Speech.supported()
+            ? '<button type="button" class="qa-tool" id="qaMic" title="Say the word" ' +
+              'aria-label="Say the Hebrew word">🎤</button>' : '') +
+          '<button type="button" class="qa-tool qa-kb" id="qaKb" title="Hebrew letters" ' +
+            'aria-label="Show the Hebrew letters" aria-pressed="false" lang="he">א-ב</button>' +
+        '</div>' +
+        '<div id="qaKeys" hidden></div>' +
+        '<p class="qa-drop" id="qaDrop" hidden></p>' +
         '<input id="qaEn" class="qa-in" placeholder="table" autocomplete="off" aria-label="English">' +
         '<p class="qa-note" id="qaNote">Two fields, that is all: the type, the gender and the ' +
           'theme are read off the Hebrew.</p>' +
@@ -8540,7 +8705,36 @@ window.Vocab = (function () {
 
       var he = menu.querySelector('#qaHe');
       var en = menu.querySelector('#qaEn');
-      he.focus();
+      var drop = menu.querySelector('#qaDrop');
+      var keys = menu.querySelector('#qaKeys');
+      keys.innerHTML = Test.keyBar();
+      Test.bindKeys(keys, he);
+      // A letter from the bar is not an input event, so it would not update the note.
+      keys.addEventListener('mousedown', function () { drop.hidden = true; setTimeout(look, 0); });
+      showKeys(keysWanted());
+      if (prefill.he) {
+        he.value = prefill.he;
+        // What came off the front, and a way to put it back: the prefix
+        // guess reads the points, and לְבַד has the points of a prefix.
+        if (prefill.dropped && prefill.dropped.length) {
+          drop.hidden = false;
+          drop.innerHTML = 'Dropped <strong>' + escapeHtml(prefill.dropped.join(', ')) + '</strong> ' +
+            'from <span lang="he" dir="rtl">' + escapeHtml(Heb.show(prefill.full)) + '</span>. ' +
+            '<button type="button" class="qa-keep" id="qaKeep">Keep it</button>';
+        }
+        en.focus();
+      } else {
+        he.focus();
+      }
+
+      // The letters are for a keyboard with no Hebrew on it, which is a
+      // property of the device, so the choice is remembered.
+      function showKeys(on) {
+        keys.hidden = !on;
+        var kb = menu.querySelector('#qaKb');
+        kb.setAttribute('aria-pressed', String(on));
+        kb.classList.toggle('is-on', on);
+      }
       // The duplicate check needs the curated list, but the fields are usable
       // before it lands; the note simply gets better once it has.
       Vocab.load().then(function () { look(); });
@@ -8595,6 +8789,7 @@ window.Vocab = (function () {
           return;
         }
         var added = input.he.trim();
+        drop.hidden = true;
         he.value = '';
         en.value = '';
         he.focus();
@@ -8606,20 +8801,75 @@ window.Vocab = (function () {
         if (location.hash.replace(/^#\/?/, '') === 'vocab') renderVocabPage();
       }
 
-      menu.addEventListener('input', function (e) {
+      // Dictation: the recogniser's first guess goes in the field, where it
+      // can be corrected before it is added. It comes back unpointed.
+      function dictate(mic) {
+        if (mic.classList.contains('is-on')) return void Speech.stop();
+        if (window.Say) Say.stop();
+        mic.classList.add('is-on');
+        var before = he.value;
+        Speech.listen({
+          onPartial: function (heard) { he.value = heard; }
+        }).then(function (heard) {
+          he.value = String(heard[0] || '').trim();
+          drop.hidden = true;
+          look();
+          en.focus();
+        }).catch(function (err) {
+          he.value = before;
+          var note = menu.querySelector('#qaNote');
+          if (note) { note.className = 'qa-note is-dupe'; note.textContent = err.message; }
+        }).then(function () { mic.classList.remove('is-on'); });
+      }
+
+      // Properties, not listeners: this runs on every open, and listeners
+      // would pile up on the menu, each holding the fields of an old one.
+      menu.oninput = function (e) {
         if (e.target !== he && e.target !== en) return;
+        if (e.target === he) drop.hidden = true;
         clearTimeout(timer);
         timer = setTimeout(look, 140);
-      });
-      menu.addEventListener('click', function (e) {
+      };
+      menu.onclick = function (e) {
         if (e.target.closest('#qaSave')) add();
         if (e.target.closest('.qa-link')) close();
-      });
-      menu.addEventListener('keydown', function (e) {
+        if (e.target.closest('#qaMic')) dictate(e.target.closest('#qaMic'));
+        if (e.target.closest('#qaKb')) {
+          var on = keys.hidden;
+          showKeys(on);
+          keysWanted(on);
+          he.focus();
+        }
+        if (e.target.closest('#qaKeep')) {
+          he.value = prefill.full;
+          drop.hidden = true;
+          look();
+          en.focus();
+        }
+      };
+      menu.onkeydown = function (e) {
         if (e.key === 'Enter') { e.preventDefault(); add(); }
         if (e.key === 'Escape') { e.preventDefault(); close(); btn.focus(); }
-      });
+      };
     }
+
+    // Read with no argument, written with one. Storage can be missing or
+    // refuse, and then the letters simply start hidden.
+    function keysWanted(on) {
+      var k = 'hamachberet.qaKeys';
+      try {
+        if (on === undefined) return localStorage.getItem(k) === '1';
+        localStorage.setItem(k, on ? '1' : '0');
+      } catch (e) {}
+      return !!on;
+    }
+
+    // A word tapped in a passage or selected on a page, not in the list yet.
+    // Deferred, so the click that asked for it has finished reaching the
+    // document, whose click handler closes this menu.
+    document.addEventListener('quickadd:open', function (e) {
+      setTimeout(function () { open(e.detail); }, 0);
+    });
 
     btn.addEventListener('click', function (e) {
       e.stopPropagation();

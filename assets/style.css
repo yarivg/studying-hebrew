@@ -1043,6 +1043,28 @@ a.card:hover { border-color: var(--bleu); box-shadow: var(--shadow-md); transfor
 /* Add is off while the word is already on the list, and has to look it. */
 .qa-actions .btn:disabled { opacity: .45; cursor: not-allowed; }
 .qa-link { font-size: .78rem; color: var(--muted); }
+/* The word field shares its row with the microphone and the letters. */
+.qa-field { display: flex; gap: .3rem; margin-bottom: .4rem; }
+.qa-field .qa-in { flex: 1; min-width: 0; margin-bottom: 0; }
+.qa-tool {
+  flex: none; min-width: 2.4rem; padding: 0 .45rem;
+  font: inherit; font-size: 1rem; color: var(--ink);
+  background: var(--surface-2); border: 1px solid var(--line);
+  border-radius: var(--r-sm); cursor: pointer;
+}
+.qa-tool:hover { border-color: var(--bleu); }
+.qa-tool.is-on { color: var(--on-accent); background: var(--bleu); border-color: var(--bleu); }
+/* What a tapped word lost on the way in, with the way to put it back. */
+.qa-drop { margin: -.1rem 0 .45rem; font-size: .78rem; line-height: 1.45; color: var(--muted); }
+.qa-keep {
+  padding: 0; font: inherit; color: var(--bleu);
+  background: none; border: 0; text-decoration: underline; cursor: pointer;
+}
+/* The alef-bet, squeezed into the menu. */
+.quickadd-menu .qa-kb { font-family: var(--he); font-size: .9rem; }
+.quickadd-menu .key-bar { margin: 0 0 .45rem; gap: .2rem; }
+.quickadd-menu .key-letter { min-width: 1.65rem; padding: .2rem .1rem; font-size: 1.05rem; }
+.quickadd-menu .key-note { display: none; }
 
 @media (max-width: 560px) {
   /* Room for two fields matters more than sitting under the button. */

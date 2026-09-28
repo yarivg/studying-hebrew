@@ -79,10 +79,21 @@ window.Selected = (function () {
     return bubble;
   }
 
+  // A word or a short phrase the list does not have yet can be added from
+  // here, in the form the list wants it. Longer than that is a sentence,
+  // which is not a word to learn.
+  function addable() {
+    if (!window.Vocab || !Vocab.baseForm || text.split(/\s+/).length > 3) return null;
+    var base = Vocab.baseForm(text);
+    if (!base.he || Vocab.findExisting(base.he) || Vocab.findExisting(base.full)) return null;
+    return base;
+  }
+
   function paint(extra) {
     var b = ensure();
     var canSay = window.Say && Say.supported() && Say.on();
     var canHear = window.Speech && Speech.supported();
+    var canAdd = !!addable();
 
     b.innerHTML =
       '<div class="sel-row">' +
@@ -92,6 +103,9 @@ window.Selected = (function () {
           : '') +
         (canHear
           ? '<button type="button" class="sel-btn sel-btn-mic" data-act="rec">🎤 Say it</button>'
+          : '') +
+        (canAdd
+          ? '<button type="button" class="sel-btn" data-act="add" title="Add to my words">+ Add</button>'
           : '') +
         '<button type="button" class="sel-btn sel-close" data-act="close" aria-label="Close">×</button>' +
       '</div>' +
@@ -137,10 +151,13 @@ window.Selected = (function () {
   }
 
   function show(sel) {
-    // Nothing to offer - no voice and no microphone - so no bubble.
-    if (!(window.Say && Say.supported() && Say.on()) &&
-        !(window.Speech && Speech.supported())) return hide();
     text = sel.text;
+    // Nothing to offer - no voice, no microphone, nothing to add - so no bubble.
+    if (!(window.Say && Say.supported() && Say.on()) &&
+        !(window.Speech && Speech.supported()) && !addable()) {
+      text = '';
+      return hide();
+    }
     rect = sel.rect;
     ensure().hidden = false;
     paint();
@@ -164,6 +181,13 @@ window.Selected = (function () {
     var act = btn.dataset.act;
 
     if (act === 'close') return hide();
+    if (act === 'add') {
+      var base = addable();
+      hide();
+      if (window.getSelection) window.getSelection().removeAllRanges();
+      if (base) document.dispatchEvent(new CustomEvent('quickadd:open', { detail: base }));
+      return;
+    }
     if (act === 'play' || act === 'slow') {
       if (window.Speech) Speech.stop();
       return void Say.speak(text, { slow: act === 'slow' });

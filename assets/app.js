@@ -1820,20 +1820,34 @@
 
     function close() {
       if (menu.hidden) return;
+      if (window.Speech) Speech.stop();
       menu.hidden = true;
       menu.innerHTML = '';
       btn.setAttribute('aria-expanded', 'false');
     }
 
-    function open() {
+    // prefill: { he, full, dropped } from Vocab.baseForm, when a word tapped
+    // on a page is what opened this.
+    function open(prefill) {
+      prefill = prefill || {};
+      if (window.Speech) Speech.stop();
       menu.hidden = false;
       btn.setAttribute('aria-expanded', 'true');
       menu.innerHTML =
         '<div class="qa-head"><strong>Add a word</strong>' +
           '<span class="qa-hint">Enter to add · Esc to close</span></div>' +
-        '<input id="qaHe" class="qa-in" dir="auto" lang="he" ' +
-          'placeholder="\u05e9\u05bb\u05c1\u05dc\u05b0\u05d7\u05b8\u05df" ' +
-          'autocomplete="off" spellcheck="false" aria-label="Hebrew">' +
+        '<div class="qa-field">' +
+          '<input id="qaHe" class="qa-in" dir="auto" lang="he" ' +
+            'placeholder="\u05e9\u05bb\u05c1\u05dc\u05b0\u05d7\u05b8\u05df" ' +
+            'autocomplete="off" spellcheck="false" aria-label="Hebrew">' +
+          (window.Speech && Speech.supported()
+            ? '<button type="button" class="qa-tool" id="qaMic" title="Say the word" ' +
+              'aria-label="Say the Hebrew word">🎤</button>' : '') +
+          '<button type="button" class="qa-tool qa-kb" id="qaKb" title="Hebrew letters" ' +
+            'aria-label="Show the Hebrew letters" aria-pressed="false" lang="he">א-ב</button>' +
+        '</div>' +
+        '<div id="qaKeys" hidden></div>' +
+        '<p class="qa-drop" id="qaDrop" hidden></p>' +
         '<input id="qaEn" class="qa-in" placeholder="table" autocomplete="off" aria-label="English">' +
         '<p class="qa-note" id="qaNote">Two fields, that is all: the type, the gender and the ' +
           'theme are read off the Hebrew.</p>' +
@@ -1844,7 +1858,36 @@
 
       var he = menu.querySelector('#qaHe');
       var en = menu.querySelector('#qaEn');
-      he.focus();
+      var drop = menu.querySelector('#qaDrop');
+      var keys = menu.querySelector('#qaKeys');
+      keys.innerHTML = Test.keyBar();
+      Test.bindKeys(keys, he);
+      // A letter from the bar is not an input event, so it would not update the note.
+      keys.addEventListener('mousedown', function () { drop.hidden = true; setTimeout(look, 0); });
+      showKeys(keysWanted());
+      if (prefill.he) {
+        he.value = prefill.he;
+        // What came off the front, and a way to put it back: the prefix
+        // guess reads the points, and לְבַד has the points of a prefix.
+        if (prefill.dropped && prefill.dropped.length) {
+          drop.hidden = false;
+          drop.innerHTML = 'Dropped <strong>' + escapeHtml(prefill.dropped.join(', ')) + '</strong> ' +
+            'from <span lang="he" dir="rtl">' + escapeHtml(Heb.show(prefill.full)) + '</span>. ' +
+            '<button type="button" class="qa-keep" id="qaKeep">Keep it</button>';
+        }
+        en.focus();
+      } else {
+        he.focus();
+      }
+
+      // The letters are for a keyboard with no Hebrew on it, which is a
+      // property of the device, so the choice is remembered.
+      function showKeys(on) {
+        keys.hidden = !on;
+        var kb = menu.querySelector('#qaKb');
+        kb.setAttribute('aria-pressed', String(on));
+        kb.classList.toggle('is-on', on);
+      }
       // The duplicate check needs the curated list, but the fields are usable
       // before it lands; the note simply gets better once it has.
       Vocab.load().then(function () { look(); });
@@ -1899,6 +1942,7 @@
           return;
         }
         var added = input.he.trim();
+        drop.hidden = true;
         he.value = '';
         en.value = '';
         he.focus();
@@ -1910,20 +1954,75 @@
         if (location.hash.replace(/^#\/?/, '') === 'vocab') renderVocabPage();
       }
 
-      menu.addEventListener('input', function (e) {
+      // Dictation: the recogniser's first guess goes in the field, where it
+      // can be corrected before it is added. It comes back unpointed.
+      function dictate(mic) {
+        if (mic.classList.contains('is-on')) return void Speech.stop();
+        if (window.Say) Say.stop();
+        mic.classList.add('is-on');
+        var before = he.value;
+        Speech.listen({
+          onPartial: function (heard) { he.value = heard; }
+        }).then(function (heard) {
+          he.value = String(heard[0] || '').trim();
+          drop.hidden = true;
+          look();
+          en.focus();
+        }).catch(function (err) {
+          he.value = before;
+          var note = menu.querySelector('#qaNote');
+          if (note) { note.className = 'qa-note is-dupe'; note.textContent = err.message; }
+        }).then(function () { mic.classList.remove('is-on'); });
+      }
+
+      // Properties, not listeners: this runs on every open, and listeners
+      // would pile up on the menu, each holding the fields of an old one.
+      menu.oninput = function (e) {
         if (e.target !== he && e.target !== en) return;
+        if (e.target === he) drop.hidden = true;
         clearTimeout(timer);
         timer = setTimeout(look, 140);
-      });
-      menu.addEventListener('click', function (e) {
+      };
+      menu.onclick = function (e) {
         if (e.target.closest('#qaSave')) add();
         if (e.target.closest('.qa-link')) close();
-      });
-      menu.addEventListener('keydown', function (e) {
+        if (e.target.closest('#qaMic')) dictate(e.target.closest('#qaMic'));
+        if (e.target.closest('#qaKb')) {
+          var on = keys.hidden;
+          showKeys(on);
+          keysWanted(on);
+          he.focus();
+        }
+        if (e.target.closest('#qaKeep')) {
+          he.value = prefill.full;
+          drop.hidden = true;
+          look();
+          en.focus();
+        }
+      };
+      menu.onkeydown = function (e) {
         if (e.key === 'Enter') { e.preventDefault(); add(); }
         if (e.key === 'Escape') { e.preventDefault(); close(); btn.focus(); }
-      });
+      };
     }
+
+    // Read with no argument, written with one. Storage can be missing or
+    // refuse, and then the letters simply start hidden.
+    function keysWanted(on) {
+      var k = 'hamachberet.qaKeys';
+      try {
+        if (on === undefined) return localStorage.getItem(k) === '1';
+        localStorage.setItem(k, on ? '1' : '0');
+      } catch (e) {}
+      return !!on;
+    }
+
+    // A word tapped in a passage or selected on a page, not in the list yet.
+    // Deferred, so the click that asked for it has finished reaching the
+    // document, whose click handler closes this menu.
+    document.addEventListener('quickadd:open', function (e) {
+      setTimeout(function () { open(e.detail); }, 0);
+    });
 
     btn.addEventListener('click', function (e) {
       e.stopPropagation();
