@@ -1038,6 +1038,21 @@ a.card:hover { border-color: var(--bleu); box-shadow: var(--shadow-md); transfor
 .qa-note.is-new { color: var(--bleu); }
 .qa-note.is-dupe { color: var(--rouge); }
 .qa-note.is-done { color: var(--vert); }
+/* The duplicate named in the note: tap it to fix the entry. */
+.qa-edit {
+  padding: 0; font: inherit; color: inherit; background: none; border: 0;
+  text-align: left; text-decoration: underline dotted; text-underline-offset: 2px; cursor: pointer;
+}
+.qa-edit:hover { text-decoration-style: solid; }
+/* The word form, over the page. */
+.word-modal {
+  position: fixed; inset: 0; z-index: 200;
+  display: flex; align-items: flex-start; justify-content: center;
+  padding: 10vh 16px 16px; overflow-y: auto;
+  background: rgba(0, 0, 0, .5);
+}
+.word-modal-box { width: 100%; max-width: 560px; }
+.word-modal-box .word-form { margin: 0; box-shadow: var(--shadow-md); }
 .qa-actions { display: flex; align-items: center; gap: .6rem; margin-top: .35rem; }
 .qa-actions .btn { flex: 1; }
 /* Add is off while the word is already on the list, and has to look it. */

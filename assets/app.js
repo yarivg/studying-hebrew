@@ -1225,7 +1225,7 @@
 
   // One panel, three jobs: add, edit, and paste a whole list. Kept small
   // enough to use one-handed, because words turn up away from the desk.
-  function WordForm(host, onChange) {
+  function WordForm(host, onChange, onClose) {
     var editing = null;
     var curated = false;    // editing a word the course shipped, not one of yours
     var dirty = false;      // words were added while the panel stayed open
@@ -1233,6 +1233,7 @@
     function close() {
       host.innerHTML = '';
       if (dirty) { dirty = false; onChange(); }
+      if (onClose) onClose();
     }
 
     function open(id) {
@@ -1806,6 +1807,27 @@
     });
   }
 
+  // The same form over whatever page you are on, for a word met away from
+  // the vocabulary page: the quick add names a duplicate, and one tap on it
+  // opens this to fix it.
+  function editWordModal(id) {
+    var shade = document.createElement('div');
+    shade.className = 'word-modal';
+    var host = document.createElement('div');
+    host.className = 'word-modal-box';
+    host.setAttribute('role', 'dialog');
+    host.setAttribute('aria-modal', 'true');
+    shade.appendChild(host);
+    document.body.appendChild(shade);
+    function gone() { if (shade.parentNode) shade.parentNode.removeChild(shade); }
+    var form = new WordForm(host, function () {
+      if (location.hash.replace(/^#\/?/, '') === 'vocab') renderVocabPage();
+    }, gone);
+    shade.addEventListener('click', function (e) { if (e.target === shade) { host.innerHTML = ''; gone(); } });
+    form.open(id);
+    if (!host.innerHTML) gone();
+  }
+
   /* ------------------------------------------------------- quick add */
 
   // A word turns up mid-lesson, and the vocabulary page is three taps away.
@@ -1912,8 +1934,9 @@
         if (hit) {
           note.className = 'qa-note is-dupe';
           note.innerHTML = (hit.mine ? 'You already added ' : 'Already in the course: ') +
-            '<strong lang="he" dir="rtl">' + escapeHtml(Heb.show(hit.he)) + '</strong>, ' +
-            escapeHtml(hit.en);
+            '<button type="button" class="qa-edit" data-id="' + escapeAttr(hit.id) + '" title="Edit this word">' +
+              '<strong lang="he" dir="rtl">' + escapeHtml(Heb.show(hit.he)) + '</strong>, ' +
+              escapeHtml(hit.en) + ' ✎</button>';
           save.disabled = true;
           return;
         }
@@ -1991,6 +2014,8 @@
         if (e.target.closest('#qaSave')) add();
         if (e.target.closest('.qa-link')) close();
         if (e.target.closest('#qaMic')) dictate(e.target.closest('#qaMic'));
+        var edit = e.target.closest('.qa-edit');
+        if (edit) { close(); editWordModal(edit.dataset.id); }
         if (e.target.closest('#qaKb')) {
           var on = keys.hidden;
           showKeys(on);
@@ -2005,7 +2030,7 @@
         }
       };
       menu.onkeydown = function (e) {
-        if (e.key === 'Enter') { e.preventDefault(); add(); }
+        if (e.key === 'Enter' && !e.target.closest('.qa-edit')) { e.preventDefault(); add(); }
         if (e.key === 'Escape') { e.preventDefault(); close(); btn.focus(); }
       };
     }
