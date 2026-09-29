@@ -25,6 +25,9 @@ window.Selected = (function () {
 
   var bubble = null;
   var text = '';
+  // The words in front of the selection, which say whether a word is a verb
+  // or a plural. Only the quick add reads them.
+  var before = '';
   var rect = null;
   var listening = false;
   // The last gesture that produced a selection. On a phone the operating
@@ -59,7 +62,21 @@ window.Selected = (function () {
     var box = range.getBoundingClientRect();
     if (!box || (!box.width && !box.height)) return null;
 
-    return { text: s, rect: box };
+    return { text: s, rect: box, before: textBefore(range, host) };
+  }
+
+  // The block's text up to where the selection starts, the last few words
+  // of it being all anyone needs.
+  function textBefore(range, host) {
+    var block = host.closest('p, li, td, th, h1, h2, h3, h4, blockquote, .rd-line') || host;
+    try {
+      var r = document.createRange();
+      r.setStart(block, 0);
+      r.setEnd(range.startContainer, range.startOffset);
+      return r.toString().slice(-80);
+    } catch (e) {
+      return '';
+    }
   }
 
   /* ---------------------------------------------------------- the bubble */
@@ -84,7 +101,7 @@ window.Selected = (function () {
   // which is not a word to learn.
   function addable() {
     if (!window.Vocab || !Vocab.baseForm || text.split(/\s+/).length > 3) return null;
-    var base = Vocab.baseForm(text);
+    var base = Vocab.baseForm(text, { before: before });
     if (!base.he || Vocab.findExisting(base.he) || Vocab.findExisting(base.full)) return null;
     return base;
   }
@@ -152,6 +169,7 @@ window.Selected = (function () {
 
   function show(sel) {
     text = sel.text;
+    before = sel.before;
     // Nothing to offer - no voice, no microphone, nothing to add - so no bubble.
     if (!(window.Say && Say.supported() && Say.on()) &&
         !(window.Speech && Speech.supported()) && !addable()) {

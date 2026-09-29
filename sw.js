@@ -16,7 +16,7 @@
    Bump CACHE_VERSION to force a full refetch.
    ============================================================ */
 
-var CACHE_VERSION = 'hamachberet-v4';
+var CACHE_VERSION = 'hamachberet-v5';
 var SHELL = [
   './',
   'index.html',

@@ -1867,12 +1867,16 @@
       showKeys(keysWanted());
       if (prefill.he) {
         he.value = prefill.he;
-        // What came off the front, and a way to put it back: the prefix
+        // What came off the front or was changed, and a way to put it back: the prefix
         // guess reads the points, and לְבַד has the points of a prefix.
+        var did = [];
         if (prefill.dropped && prefill.dropped.length) {
+          did.push('dropped <strong>' + escapeHtml(prefill.dropped.join(', ')) + '</strong>');
+        }
+        if (prefill.change) did.push('made it the ' + prefill.change);
+        if (did.length) {
           drop.hidden = false;
-          drop.innerHTML = 'Dropped <strong>' + escapeHtml(prefill.dropped.join(', ')) + '</strong> ' +
-            'from <span lang="he" dir="rtl">' + escapeHtml(Heb.show(prefill.full)) + '</span>. ' +
+          drop.innerHTML = 'From ' + '<span lang="he" dir="rtl">' + escapeHtml(Heb.show(prefill.full)) + '</span>' + ': ' + did.join(', ') + '. ' +
             '<button type="button" class="qa-keep" id="qaKeep">Keep it</button>';
         }
         en.focus();

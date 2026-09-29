@@ -1613,6 +1613,8 @@ textarea.test-input { font-size: .95rem; line-height: 1.6; resize: vertical; }
 .rd-gloss strong { font-family: var(--he-serif); font-size: 1.28rem; }
 .rd-gloss span { color: var(--ink-soft); }
 .rd-nogloss { color: var(--muted); font-style: italic; }
+/* The list's form of a word tapped in another one: mangeons → manger. */
+.rd-gloss .rd-via { color: var(--muted); }
 
 .rd-aloud-note { color: var(--muted); font-size: .88rem; line-height: 1.6; }
 .rd-aloud { display: grid; gap: .8rem; }

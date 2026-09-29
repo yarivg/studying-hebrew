@@ -503,9 +503,9 @@ window.Vocab = (function () {
     return null;
   }
 
-  // { he, full, dropped }: he is what should go in the list, full the word as
+  // { he, full, dropped }: he is the word less its prefixes, full the word as
   // it was on the page, dropped the English of whatever came off.
-  function baseForm(word) {
+  function unprefix(word) {
     // Punctuation off both ends; the points after the last letter stay.
     var full = String(word == null ? '' : word).normalize('NFC').trim()
       .replace(/^[^\u05d0-\u05ea]+/, '').replace(/[^\u05d0-\u05ea\u0591-\u05c7]+$/, '');
@@ -544,6 +544,303 @@ window.Vocab = (function () {
     if (parts.length > 1) out.dropped.unshift(Heb.strip(parts.slice(0, -1).join(' ')));
     out.he = cs.join('');
     return out;
+  }
+
+  /* ------------------------------------------------ verbs and plurals
+
+     Past the prefixes, a word on the page is still often not the word in
+     the list: a verb is conjugated, a noun is plural. The list keeps verbs
+     as the infinitive and nouns as the singular, so this takes them back,
+     reading the pattern off the points. Only regular patterns are known,
+     and only where the evidence is good:
+
+     - A present-tense form (כּוֹתֵב, מְדַבֶּרֶת, מַסְבִּירִים) looks exactly
+       like a noun (שׁוֹמֵר, מְנַהֵל, מַדְרִיךְ), so it is only read as a verb
+       after a pronoun or לֹא. The hitpael (מִתְלַבֵּשׁ) is the exception: it
+       is a verb nearly every time.
+     - A past form with a person ending (כָּתַבְתִּי, דִּיבַּרְנוּ, הִסְבַּרְתֶּם)
+       is a verb whatever is in front of it. Without the ending it is left
+       to the context too.
+     - A plural is only made singular when its points say it is one: ִים,
+       or וֹת with a holam, since וּת with a shuruk is the singular of חֲנוּת.
+
+     The infinitive is built with its points for a regular root. A root with
+     a guttural or a weak letter changes its vowels in ways a rule this size
+     would get wrong, so it is written without them, and so is every
+     singular, whose vowels usually differ from the plural's. Either way,
+     where the list already has the word, the list's own spelling is used. */
+
+  var HOLAM = '\u05b9', SHIN_DOT = '\u05c1', SIN_DOT = '\u05c2';
+  var PRONOUN = ['\u05d0\u05e0\u05d9', '\u05d0\u05ea\u05d4', '\u05d0\u05ea', '\u05d4\u05d5\u05d0',
+    '\u05d4\u05d9\u05d0', '\u05d0\u05e0\u05d7\u05e0\u05d5', '\u05d0\u05ea\u05dd', '\u05d0\u05ea\u05df',
+    '\u05d4\u05dd', '\u05d4\u05df', '\u05dc\u05d0'];
+  var PERSON = ['\u05ea\u05d9', '\u05ea', '\u05e0\u05d5', '\u05ea\u05dd', '\u05ea\u05df'];
+  var PAST_TAIL = [''].concat(PERSON, ['\u05d5', '\u05d4']);
+  var PRESENT_TAIL = ['', '\u05ea', '\u05d9\u05dd', '\u05d5\u05ea'];
+
+  function dg(letter) { return /[\u05d1\u05d2\u05d3\u05db\u05e4\u05ea]/.test(letter) ? DAGESH : ''; }
+
+  // A root letter as it will be written: the letter, and its dot if it is
+  // a shin or a sin, which the root has to carry over from the page.
+  function rootLetter(c) {
+    var l = Heb.unfinal(c.charAt(0));
+    if (l === '\u05e9') l += c.indexOf(SIN_DOT) !== -1 ? SIN_DOT : SHIN_DOT;
+    return l;
+  }
+
+  // The root and pattern of a conjugated verb, or null. sure says whether
+  // the form alone proves it is a verb, which a person ending does.
+  function verbOf(cs, verbCtx) {
+    var L = cs.map(function (c) { return c.charAt(0); });
+    var V = cs.map(function (c) { return c.slice(1); });
+    var n = L.length;
+    var has = function (i, m) { return i < n && V[i].indexOf(m) !== -1; };
+    var tail = function (from) { return L.slice(from).join(''); };
+    var root = function (a, b, c) { return [rootLetter(cs[a]), rootLetter(cs[b]), rootLetter(cs[c])]; };
+    // No root ends in ו in these patterns: אוֹתוֹ is a pronoun, not a verb.
+    var hit = function (r, binyan, sure) {
+      if (r[2] === '\u05d5') return null;
+      return (sure || verbCtx) ? { root: r, binyan: binyan } : null;
+    };
+    var t;
+
+    // Present.
+    if (n >= 4 && L[1] === '\u05d5' && has(1, HOLAM) && PRESENT_TAIL.indexOf(t = tail(4)) !== -1) {
+      return hit(root(0, 2, 3), 'paal', false);
+    }
+    if (n >= 4 && L[0] === '\u05de' && has(0, SHVA) && has(1, PATAH) &&
+        (has(2, DAGESH) || /[\u05d0\u05d4\u05d7\u05e2\u05e8]/.test(L[2])) &&
+        PRESENT_TAIL.indexOf(tail(4)) !== -1) {
+      return hit(root(1, 2, 3), 'piel', false);
+    }
+    if (n >= 5 && L[0] === '\u05de' && has(0, PATAH) && has(1, SHVA) && L[3] === '\u05d9' &&
+        ['', '\u05d4', '\u05d9\u05dd', '\u05d5\u05ea'].indexOf(tail(5)) !== -1) {
+      return hit(root(1, 2, 4), 'hifil', false);
+    }
+    if (n >= 5 && L[0] === '\u05de' && has(0, HIRIQ) && L[1] === '\u05ea' && has(1, SHVA) &&
+        PRESENT_TAIL.indexOf(tail(5)) !== -1) {
+      return hit(root(2, 3, 4), 'hitpael', true);
+    }
+    // מִשְׁתַּמֵּשׁ: the ת of hitpael swaps places with a first ש or ס.
+    if (n >= 5 && L[0] === '\u05de' && has(0, HIRIQ) && /[\u05e9\u05e1]/.test(L[1]) && L[2] === '\u05ea' &&
+        PRESENT_TAIL.indexOf(tail(5)) !== -1) {
+      return hit(root(1, 3, 4), 'hitpael', true);
+    }
+
+    // Past. A person ending proves it; the bare form needs the context.
+    if (n >= 5 && L[0] === '\u05d4' && has(0, HIRIQ) && L[1] === '\u05ea' && has(1, SHVA) &&
+        PAST_TAIL.indexOf(t = tail(5)) !== -1) {
+      return hit(root(2, 3, 4), 'hitpael', PERSON.indexOf(t) !== -1 || t === '');
+    }
+    if (n >= 5 && L[0] === '\u05d4' && has(0, HIRIQ) && /[\u05e9\u05e1]/.test(L[1]) && L[2] === '\u05ea' &&
+        PAST_TAIL.indexOf(t = tail(5)) !== -1) {
+      return hit(root(1, 3, 4), 'hitpael', true);
+    }
+    if (n >= 4 && L[0] === '\u05d4' && has(0, HIRIQ) && has(1, SHVA)) {
+      // הִסְבִּיר keeps its י, הִסְבַּרְתִּי loses it.
+      if (L[3] === '\u05d9' && n >= 5 && PAST_TAIL.indexOf(t = tail(5)) !== -1) {
+        return hit(root(1, 2, 4), 'hifil', true);
+      }
+      if (PERSON.indexOf(t = tail(4)) !== -1 && has(3, SHVA)) return hit(root(1, 2, 3), 'hifil', true);
+    }
+    if (n >= 4 && has(0, HIRIQ) && L[1] === '\u05d9' && (has(2, DAGESH) || /[\u05d0\u05d4\u05d7\u05e2\u05e8]/.test(L[2])) &&
+        PAST_TAIL.indexOf(t = tail(4)) !== -1) {
+      return hit(root(0, 2, 3), 'piel', PERSON.indexOf(t) !== -1 && has(3, SHVA));
+    }
+    if (n >= 3 && has(0, QAMATS) && PAST_TAIL.indexOf(t = tail(3)) !== -1) {
+      var person = PERSON.indexOf(t) !== -1 && has(2, SHVA) && has(1, PATAH);
+      if (t === '' && !has(1, PATAH)) return null;
+      return hit(root(0, 1, 2), 'paal', person);
+    }
+
+    // Future of paal: אֶכְתּוֹב, תִּכְתְּבִי. א and נ in front prove it.
+    if (n >= 5 && /[\u05d0\u05ea\u05d9\u05e0]/.test(L[0]) && (has(0, HIRIQ) || has(0, SEGOL)) &&
+        has(1, SHVA) && L[3] === '\u05d5' && has(3, HOLAM) &&
+        ['', '\u05d9', '\u05d5', '\u05e0\u05d4'].indexOf(tail(5)) !== -1) {
+      return hit(root(1, 2, 4), 'paal', /[\u05d0\u05e0]/.test(L[0]));
+    }
+    // תִּלְבְּשִׁי, יִכְתְּבוּ: the holam goes when an ending comes on.
+    if (n === 5 && /[\u05ea\u05d9]/.test(L[0]) && has(0, HIRIQ) && has(1, SHVA) && has(2, SHVA) &&
+        /[\u05d5\u05d9]/.test(L[4])) {
+      return hit(root(1, 2, 3), 'paal', false);
+    }
+    return null;
+  }
+
+  // The infinitive of a root in a binyan, with its points where the root
+  // is regular and without them where it is not.
+  function infinitiveOf(r, binyan) {
+    var a = r[0], b = r[1], c = r[2];
+    var la = a.charAt(0), lb = b.charAt(0), lc = c.charAt(0);
+    var fin = function (x) { return (Heb.TO_FINAL[x.charAt(0)] || x.charAt(0)) + x.slice(1); };
+    var weak = /[\u05d0\u05d4\u05d7\u05e2]/.test(la + lb + lc) || /[\u05d9\u05e0\u05d5]/.test(la) ||
+      /[\u05d5\u05d9]/.test(lb) || lc === '\u05d4';
+    var sibilant = binyan === 'hitpael' && /[\u05e9\u05e1]/.test(la);
+    if (binyan === 'piel' && lb === '\u05e8') weak = true;
+    if (binyan === 'hitpael' && lb === '\u05e8') weak = true;
+    var s;
+    if (weak) {
+      var p = function (x) { return x.charAt(0); };
+      // עוֹלֶה, קוֹנָה: a root ending in ה takes ות in every binyan.
+      if (lc === '\u05d4') {
+        return (binyan === 'paal' || binyan === 'piel' ? '\u05dc' : binyan === 'hifil' ? '\u05dc\u05d4' : '\u05dc\u05d4\u05ea') +
+          p(a) + p(b) + '\u05d5\u05ea';
+      }
+      // יוֹרֵד, יָשַׁב: a first י falls away and a ת comes on the end.
+      if (la === '\u05d9' && binyan === 'paal') return '\u05dc' + p(b) + p(c) + '\u05ea';
+      s = binyan === 'paal' ? '\u05dc' + p(a) + p(b) + '\u05d5' + fin(p(c))
+        : binyan === 'piel' ? '\u05dc' + p(a) + p(b) + fin(p(c))
+        : binyan === 'hifil' ? '\u05dc\u05d4' + p(a) + p(b) + '\u05d9' + fin(p(c))
+        : '\u05dc\u05d4\u05ea' + p(a) + p(b) + fin(p(c));
+      return s;
+    }
+    if (binyan === 'paal') {
+      s = '\u05dc' + HIRIQ + a + SHVA + b + dg(lb) + '\u05d5' + HOLAM + fin(c);
+    } else if (binyan === 'piel') {
+      s = '\u05dc' + SHVA + a + PATAH + b + DAGESH + TSERE + fin(c);
+    } else if (binyan === 'hifil') {
+      s = '\u05dc' + SHVA + '\u05d4' + PATAH + a + SHVA + b + dg(lb) + HIRIQ + '\u05d9' + fin(c);
+    } else if (sibilant) {
+      s = '\u05dc' + SHVA + '\u05d4' + HIRIQ + a + SHVA + '\u05ea' + DAGESH + PATAH + b + DAGESH + TSERE + fin(c);
+    } else {
+      s = '\u05dc' + SHVA + '\u05d4' + HIRIQ + '\u05ea' + SHVA + a + dg(la) + PATAH + b + DAGESH + TSERE + fin(c);
+    }
+    return s.normalize('NFC');
+  }
+
+  // A verb of that root and binyan already in the list, whatever the
+  // spelling the rule above would have produced.
+  function listVerb(r, binyan) {
+    var want = r.map(function (x) { return x.charAt(0); }).join('');
+    var words = all();
+    for (var i = 0; i < words.length; i++) {
+      var w = words[i];
+      if (w.pos !== 'verb' || !w.root || (w.binyan && w.binyan !== binyan)) continue;
+      if (Heb.unfinal(Heb.plain(w.root).replace(/[^\u05d0-\u05ea]/g, '')) === want) return w;
+    }
+    return null;
+  }
+
+  // The plurals no ending rule reaches, for when the list does not carry
+  // them itself.
+  var IRREGULAR_PL = {
+    '\u05d1\u05ea\u05d9\u05dd': '\u05d1\u05d9\u05ea', '\u05d0\u05e0\u05e9\u05d9\u05dd': '\u05d0\u05d9\u05e9', '\u05e0\u05e9\u05d9\u05dd': '\u05d0\u05d9\u05e9\u05d4', '\u05d9\u05de\u05d9\u05dd': '\u05d9\u05d5\u05dd', '\u05e2\u05e8\u05d9\u05dd': '\u05e2\u05d9\u05e8',
+    '\u05d1\u05e0\u05d9\u05dd': '\u05d1\u05df', '\u05d1\u05e0\u05d5\u05ea': '\u05d1\u05ea', '\u05d0\u05d7\u05d9\u05dd': '\u05d0\u05d7', '\u05d0\u05d7\u05d9\u05d5\u05ea': '\u05d0\u05d7\u05d5\u05ea', '\u05e9\u05e0\u05d9\u05dd': '\u05e9\u05e0\u05d4',
+    '\u05e8\u05d0\u05e9\u05d9\u05dd': '\u05e8\u05d0\u05e9', '\u05e2\u05e6\u05d9\u05dd': '\u05e2\u05e5', '\u05dc\u05d9\u05dc\u05d5\u05ea': '\u05dc\u05d9\u05dc\u05d4', '\u05de\u05e7\u05d5\u05de\u05d5\u05ea': '\u05de\u05e7\u05d5\u05dd', '\u05e9\u05d5\u05dc\u05d7\u05e0\u05d5\u05ea': '\u05e9\u05d5\u05dc\u05d7\u05df',
+    '\u05d7\u05dc\u05d5\u05de\u05d5\u05ea': '\u05d7\u05dc\u05d5\u05dd', '\u05e7\u05d5\u05dc\u05d5\u05ea': '\u05e7\u05d5\u05dc', '\u05d0\u05d1\u05d5\u05ea': '\u05d0\u05d1', '\u05e9\u05de\u05d5\u05ea': '\u05e9\u05dd', '\u05db\u05d5\u05e1\u05d5\u05ea': '\u05db\u05d5\u05e1'
+  };
+
+  var NOT_PLURAL = ['\u05e2\u05e9\u05e8\u05d9\u05dd', '\u05e9\u05dc\u05d5\u05e9\u05d9\u05dd', '\u05d0\u05e8\u05d1\u05e2\u05d9\u05dd', '\u05d7\u05de\u05d9\u05e9\u05d9\u05dd', '\u05e9\u05d9\u05e9\u05d9\u05dd', '\u05e9\u05d1\u05e2\u05d9\u05dd', '\u05e9\u05de\u05d5\u05e0\u05d9\u05dd',
+    '\u05ea\u05e9\u05e2\u05d9\u05dd', '\u05de\u05d9\u05dd', '\u05d7\u05d9\u05d9\u05dd', '\u05e9\u05de\u05d9\u05d9\u05dd', '\u05e4\u05e0\u05d9\u05dd', '\u05d9\u05e8\u05d5\u05e9\u05dc\u05d9\u05dd', '\u05de\u05e6\u05e8\u05d9\u05dd', '\u05e8\u05d7\u05de\u05d9\u05dd', '\u05e0\u05e2\u05d9\u05dd'];
+
+  // The singular of a plural, or null when the points do not say plural.
+  function singularOf(cs) {
+    var n = cs.length;
+    if (n < 3) return null;
+    var P = cs.map(function (c) { return c.charAt(0); }).join('');
+    // The list's own plural first: it knows בָּתִּים is בַּיִת.
+    var words = all();
+    for (var w = 0; w < words.length; w++) {
+      if (words[w].pl && Heb.plain(words[w].pl) === P) return words[w].he;
+    }
+    if (IRREGULAR_PL[P]) {
+      var known = findExisting(IRREGULAR_PL[P]);
+      return known ? known.he : IRREGULAR_PL[P];
+    }
+    if (n < 4) return null;
+    // לִקְנוֹת, לְחַקּוֹת, לִרְאוֹת: an infinitive, whose וֹת is not a plural.
+    if (P.charAt(0) === '\u05dc' && /\u05d5\u05b9\u05ea$/.test(cs.slice(-2).join('')) && n <= 6 &&
+        /[\u05b0\u05b4\u05b7]/.test(cs[0])) return null;
+    var end = P.slice(-2), stem = Heb.unfinal(P.slice(0, -2));
+    var fin = function (x) { return x.slice(0, -1) + (Heb.TO_FINAL[x.slice(-1)] || x.slice(-1)); };
+    var cands;
+    if (end === '\u05d9\u05dd' && (cs[n - 3].indexOf(HIRIQ) !== -1 || cs[n - 2].indexOf(HIRIQ) !== -1)) {
+      // שָׁמַיִם, עֵינַיִים: a dual, which is not a plural of anything, in
+      // either spelling.
+      if (cs[n - 2].indexOf(HIRIQ) !== -1) return null;
+      if (cs[n - 3].charAt(0) === '\u05d9' && cs[n - 3].indexOf(HIRIQ) !== -1 && cs[n - 4] &&
+          cs[n - 4].indexOf(PATAH) !== -1) return null;
+      cands = [fin(stem), stem + '\u05d4'];
+    } else if (end === '\u05d5\u05ea' && cs[n - 2].indexOf(HOLAM) !== -1) {
+      cands = /\u05d9$/.test(stem) ? [stem + '\u05ea', stem + '\u05d4', fin(stem)]
+        : [stem + '\u05d4', fin(stem), stem + '\u05ea'];
+    } else {
+      return null;
+    }
+    for (var i = 0; i < cands.length; i++) {
+      var hit = findExisting(cands[i]);
+      if (hit) return hit.he;
+    }
+    // Unconfirmed, a two-letter stem is more often a word that only looks
+    // plural (נָעִים, pleasant), and the tens are numbers, not plurals.
+    if (stem.length < 3 || NOT_PLURAL.indexOf(P) !== -1) return null;
+    return cands[0];
+  }
+
+  // The word in front, as plain letters, if it is in the same sentence.
+  function prevWord(ctx) {
+    if (ctx.prev !== undefined) return Heb.plain(ctx.prev);
+    var ws = String(ctx.before || '').trim().split(/\s+/);
+    var last = ws[ws.length - 1] || '';
+    if (/[.!?:;]$/.test(last)) return '';
+    return Heb.plain(last).replace(/[^\u05d0-\u05ea]/g, '');
+  }
+
+  // { he, full, dropped, change }: he is what should go in the list, full
+  // the word as it was on the page, dropped the English of whatever came
+  // off, change 'infinitive' or 'singular' if it was taken back to one.
+  // ctx is optional: { prev } or { before: 'the text in front' }.
+  function baseForm(word, ctx) {
+    ctx = ctx || {};
+    var text = String(word == null ? '' : word).normalize('NFC').trim();
+    var toks = text.split(/\s+/);
+    // "הוּא כּוֹתֵב" selected together: the pronoun is the context.
+    if (toks.length === 2) {
+      var lead = Heb.plain(toks[0]).replace(/^\u05d5(?=..)/, '');
+      if (PRONOUN.indexOf(lead) !== -1) {
+        var inner = baseForm(toks[1], { prev: toks[0] });
+        inner.full = text;
+        return inner;
+      }
+    }
+    var out = unprefix(text);
+    out.change = '';
+    if (!out.he || /\s/.test(out.he) || findExisting(out.he)) return out;
+
+    var prev = prevWord(ctx).replace(/^\u05d5(?=..)/, '');
+    var verbCtx = PRONOUN.indexOf(prev) !== -1;
+    // אֶת with a segol is the object marker, not אַתְּ, you.
+    if (prev === '\u05d0\u05ea' && /\u05b6/.test(String(ctx.prev !== undefined ? ctx.prev : ctx.before || '').slice(-4))) {
+      verbCtx = false;
+    }
+    var got = analyse(clusters(out.he), verbCtx);
+    // מִלִּים is not "from" and לִים: when the word read whole gives something
+    // the list has and the word less its prefix does not, the prefix was
+    // part of the word.
+    if (out.dropped.length && !(got && findExisting(got.he))) {
+      var whole = clusters(out.full.split('\u05be').pop());
+      var alt = analyse(whole, verbCtx);
+      if (alt && findExisting(alt.he)) { got = alt; out.dropped = []; }
+    }
+    // No pronoun in front, as with a name or a verb opening the line: read it
+    // as a verb anyway, but only when the list has the infinitive that gives.
+    // Not after "the": הַשִּׂיחָה is a conversation, not a form of לִשְׂחוֹת.
+    if (!verbCtx && out.dropped.indexOf('the') === -1 && !(got && findExisting(got.he))) {
+      var asVerb = analyse(clusters(out.he), true);
+      if (asVerb && asVerb.change === 'infinitive' && findExisting(asVerb.he)) got = asVerb;
+    }
+    if (got) { out.he = got.he; out.change = got.change; }
+    return out;
+  }
+
+  function analyse(cs, verbCtx) {
+    var verb = verbOf(cs, verbCtx);
+    if (verb) {
+      var known = listVerb(verb.root, verb.binyan);
+      return { he: known ? known.he : infinitiveOf(verb.root, verb.binyan), change: 'infinitive' };
+    }
+    var one = singularOf(cs);
+    return one ? { he: one, change: 'singular' } : null;
   }
 
   function escapeAttr(s) { return escapeHtml(s).replace(/"/g, '&quot;'); }
