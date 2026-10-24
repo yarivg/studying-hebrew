@@ -1,0 +1,220 @@
+{
+  "id": "translate-b1-01-ha-rakevet",
+  "passage": "b1-01-ha-rakevet",
+  "title": "The last train",
+  "questions": [
+    {
+      "id": "translate-b1-01-ha-rakevet-01",
+      "type": "translate",
+      "q": "It was cold on the platform.",
+      "a": [
+        "הָיָה קַר עַל הָרָצִיף.",
+        "[היה קר על הרציף|על הרציף היה קר|היה קר ברציף|ברציף היה קר]"
+      ],
+      "hint": [
+        "רָצִיף"
+      ],
+      "why": "Weather takes an impersonal masculine הָיָה with no subject: הָיָה קַר is simply the past of קַר. Nothing in Hebrew stands for 'it'."
+    },
+    {
+      "id": "translate-b1-01-ha-rakevet-02",
+      "type": "translate",
+      "q": "The train has not left yet.",
+      "a": [
+        "הָרַכֶּבֶת עֲדַיִין לֹא יָצְאָה.",
+        "הרכבת [עדיין לא|עוד לא] [יצאה|נסעה]",
+        "הרכבת לא [יצאה|נסעה] [עדיין|עוד]"
+      ],
+      "hint": [
+        "יָצְאָה"
+      ],
+      "why": "Hebrew has one past for 'left' and 'has left', and the verb is feminine because רַכֶּבֶת is: יָצְאָה. The word עֲדַיִין, or עוֹד, goes in front of לֹא."
+    },
+    {
+      "id": "translate-b1-01-ha-rakevet-03",
+      "type": "translate",
+      "q": "An old man sat on the bench and read a newspaper.",
+      "a": [
+        "אִישׁ זָקֵן יָשַׁב עַל הַסַּפְסָל וְקָרָא עִיתּוֹן.",
+        "[איש זקן|אדם זקן|זקן] ישב על הספסל וקרא [עיתון|עתון]",
+        "על הספסל ישב [איש זקן|אדם זקן|זקן] [ו|ש]קרא [עיתון|עתון]"
+      ],
+      "hint": [
+        "סַפְסָל"
+      ],
+      "why": "The masculine past has no ending: יָשַׁב, קָרָא. Compare the story's feminine יָשְׁבָה and קָרְאָה, where the ending pulls the middle vowel down to a sheva."
+    },
+    {
+      "id": "translate-b1-01-ha-rakevet-04",
+      "type": "translate",
+      "q": "My father used to work at this station.",
+      "a": [
+        "אַבָּא שֶׁלִּי הָיָה עוֹבֵד בַּתַּחֲנָה הַזֹּאת.",
+        "[אבא שלי|אבי] [היה עובד|עבד] בתחנה [הזאת|הזו]"
+      ],
+      "hint": [
+        "תַּחֲנָה"
+      ],
+      "why": "A past habit is הָיָה with the present participle: הָיָה עוֹבֵד, 'used to work'. Plain עָבַד is right too, since the job lasted years."
+    },
+    {
+      "id": "translate-b1-01-ha-rakevet-05",
+      "type": "translate",
+      "q": "We waited for the train for three hours.",
+      "a": [
+        "חִיכִּינוּ לָרַכֶּבֶת שָׁלוֹשׁ שָׁעוֹת.",
+        "[אנחנו |]חיכינו לרכבת [|במשך ][שלוש|3] שעות",
+        "[אנחנו |]חיכינו [|במשך ][שלוש|3] שעות לרכבת"
+      ],
+      "hint": [
+        "חִיכִּינוּ"
+      ],
+      "why": "The verb לְחַכּוֹת takes לְ for what you wait for, never אֶת: לָרַכֶּבֶת. A stretch of time needs no preposition, and שָׁעָה is feminine, so שָׁלוֹשׁ."
+    },
+    {
+      "id": "translate-b1-01-ha-rakevet-06",
+      "type": "translate",
+      "q": "The lamp on the platform flickered all night.",
+      "a": [
+        "הַפַּנָּס שֶׁעַל הָרָצִיף הִבְהֵב כָּל הַלַּיְלָה.",
+        "[הפנס על הרציף|הפנס שעל הרציף|הפנס ברציף|הפנס שברציף] הבהב כל הלילה",
+        "כל הלילה [הפנס על הרציף|הפנס שעל הרציף|הפנס ברציף|הפנס שברציף] הבהב"
+      ],
+      "hint": [
+        "פַּנָּס",
+        "הִבְהֵב"
+      ],
+      "why": "Before a definite noun, כָּל means the whole of it: כָּל הַלַּיְלָה, 'all night'. Without the article, כָּל לַיְלָה is 'every night'."
+    },
+    {
+      "id": "translate-b1-01-ha-rakevet-07",
+      "type": "translate",
+      "q": "I didn't believe him, because it was just a story.",
+      "a": [
+        "לֹא הֶאֱמַנְתִּי לוֹ, כִּי זֶה הָיָה סְתָם סִיפּוּר.",
+        "[אני |]לא האמנתי לו [כי |מפני ש|בגלל ש|כיוון ש]זה [היה |][סתם|רק] סיפור"
+      ],
+      "hint": [
+        "הֶאֱמַנְתִּי",
+        "סְתָם"
+      ],
+      "why": "The verb לְהַאֲמִין takes לְ for the person believed: הֶאֱמַנְתִּי לוֹ. The ending ־תִּי already says 'I', so אֲנִי is usually dropped in the past."
+    },
+    {
+      "id": "translate-b1-01-ha-rakevet-08",
+      "type": "translate",
+      "q": "Did you ask her what her name was?",
+      "a": [
+        "שָׁאַלְתָּ אוֹתָהּ אֵיךְ קוֹרְאִים לָהּ?",
+        "[האם |][אתה |את |]שאלת אותה [איך קוראים לה|מה השם שלה|מה שמה]",
+        "[האם |][אתם |]שאלתם אותה [איך קוראים לה|מה השם שלה|מה שמה]"
+      ],
+      "hint": [
+        "קוֹרְאִים"
+      ],
+      "why": "A name is asked with אֵיךְ קוֹרְאִים לְ, 'how do they call', and the question keeps its present tense inside a past sentence. 'Her' as an object is אוֹתָהּ."
+    },
+    {
+      "id": "translate-b1-01-ha-rakevet-09",
+      "type": "translate",
+      "q": "A young woman walked up to me and asked what time it was.",
+      "a": [
+        "אִישָּׁה צְעִירָה נִיגְּשָׁה אֵלַי וְשָׁאֲלָה מָה הַשָּׁעָה.",
+        "[אישה צעירה|אשה צעירה|בחורה צעירה|בחורה] ניגשה [אלי|אליי] ושאלה מה השעה"
+      ],
+      "hint": [
+        "נִיגְּשָׁה",
+        "אֵלַי"
+      ],
+      "why": "The verb לָגֶשֶׁת takes אֶל for the person approached, and אֶל with 'me' is אֵלַי. The reported question keeps its own present: מָה הַשָּׁעָה, not 'what the time was'."
+    },
+    {
+      "id": "translate-b1-01-ha-rakevet-10",
+      "type": "translate",
+      "q": "He would tell me the same story every night.",
+      "a": [
+        "הוּא הָיָה מְסַפֵּר לִי אֶת אוֹתוֹ הַסִּיפּוּר כָּל לַיְלָה.",
+        "הוא [היה מספר|סיפר] לי [את אותו הסיפור|את אותו סיפור] [כל לילה|בכל לילה]",
+        "[כל לילה|בכל לילה] הוא [היה מספר|סיפר] לי [את אותו הסיפור|את אותו סיפור]",
+        "הוא [היה מספר|סיפר] לי [כל לילה|בכל לילה] [את אותו הסיפור|את אותו סיפור]"
+      ],
+      "hint": [
+        "מְסַפֵּר",
+        "סִיפּוּר"
+      ],
+      "why": "The word אוֹתוֹ, 'the same', agrees with its noun: אוֹתוֹ הַסִּיפּוּר, but אוֹתָהּ רַכֶּבֶת. And 'every night' is כָּל לַיְלָה, with no article."
+    },
+    {
+      "id": "translate-b1-01-ha-rakevet-11",
+      "type": "translate",
+      "q": "The train we waited for didn't arrive.",
+      "a": [
+        "הָרַכֶּבֶת שֶׁחִיכִּינוּ לָהּ לֹא הִגִּיעָה.",
+        "הרכבת ש[|אנחנו ]חיכינו לה לא [הגיעה|באה]"
+      ],
+      "hint": [
+        "הִגִּיעָה"
+      ],
+      "why": "Hebrew cannot end a clause on a bare preposition, as English does with 'waited for'. The לְ stays inside the שֶׁ clause and points back with an ending: רַכֶּבֶת is feminine, so לָהּ."
+    },
+    {
+      "id": "translate-b1-01-ha-rakevet-12",
+      "type": "translate",
+      "q": "I waited for them all night, but they didn't come.",
+      "a": [
+        "חִיכִּיתִי לָהֶם כָּל הַלַּיְלָה, אֲבָל הֵם לֹא בָּאוּ.",
+        "[אני |]חיכיתי להם כל הלילה [אבל הם |והם |אבל ]לא [באו|הגיעו]",
+        "כל הלילה [אני |]חיכיתי להם [אבל הם |והם |אבל ]לא [באו|הגיעו]",
+        "[אני |]חיכיתי להן כל הלילה [אבל הן |והן |אבל ]לא [באו|הגיעו]",
+        "כל הלילה [אני |]חיכיתי להן [אבל הן |והן |אבל ]לא [באו|הגיעו]"
+      ],
+      "hint": [
+        "לָהֶם"
+      ],
+      "why": "With 'them', לְ takes the plural ending: לָהֶם, or לָהֶן for a group of women. The past plural ending ־וּ is the same for both: בָּאוּ."
+    },
+    {
+      "id": "translate-b1-01-ha-rakevet-13",
+      "type": "translate",
+      "q": "At midnight they announced over the loudspeaker that the train would not arrive.",
+      "a": [
+        "בַּחֲצוֹת הוֹדִיעוּ בָּרַמְקוֹל שֶׁהָרַכֶּבֶת לֹא תַּגִּיעַ.",
+        "[בחצות הודיעו ברמקול|הודיעו ברמקול בחצות|בחצות ברמקול הודיעו|הודיעו בחצות ברמקול|בחצות הם הודיעו ברמקול] שהרכבת לא [תגיע|תבוא]"
+      ],
+      "hint": [
+        "רַמְקוֹל",
+        "חֲצוֹת"
+      ],
+      "why": "Hebrew keeps the tense the announcement used, the future תַּגִּיעַ, where English shifts to 'would'. A plural verb with no subject, הוֹדִיעוּ, is the impersonal 'they'."
+    },
+    {
+      "id": "translate-b1-01-ha-rakevet-14",
+      "type": "translate",
+      "q": "The station I told you about no longer exists.",
+      "a": [
+        "הַתַּחֲנָה שֶׁסִּיפַּרְתִּי לְךָ עָלֶיהָ כְּבָר לֹא קַיֶּימֶת.",
+        "התחנה [שסיפרתי לך עליה|שסיפרתי עליה לך|שעליה סיפרתי לך|שסיפרתי לכם עליה|שסיפרתי עליה לכם|שעליה סיפרתי לכם] [כבר לא קיימת|לא קיימת יותר|כבר לא קיימת יותר|לא קיימת כבר|כבר איננה קיימת]"
+      ],
+      "hint": [
+        "עָלֶיהָ",
+        "קַיֶּימֶת"
+      ],
+      "why": "The עַל of 'told you about' stays inside the clause and agrees with the feminine תַּחֲנָה: עָלֶיהָ. The participle agrees as well: קַיֶּימֶת."
+    },
+    {
+      "id": "translate-b1-01-ha-rakevet-15",
+      "type": "translate",
+      "q": "When I was a child, I didn't know that the train really existed.",
+      "a": [
+        "כְּשֶׁהָיִיתִי יֶלֶד, לֹא יָדַעְתִּי שֶׁהָרַכֶּבֶת בֶּאֱמֶת הָיְתָה קַיֶּימֶת.",
+        "[כשהייתי|כאשר הייתי] [ילד|ילדה] [אני |]לא ידעתי שהרכבת [באמת הייתה קיימת|הייתה באמת קיימת|הייתה קיימת באמת|באמת קיימת]",
+        "[אני |]לא ידעתי שהרכבת [באמת הייתה קיימת|הייתה באמת קיימת|הייתה קיימת באמת|באמת קיימת] [כשהייתי|כאשר הייתי] [ילד|ילדה]"
+      ],
+      "hint": [
+        "קַיֶּימֶת",
+        "בֶּאֱמֶת"
+      ],
+      "why": "The word כְּשֶׁ is 'when' in a statement; the question word מָתַי never opens a clause like this. With הָיְתָה, the participle קַיֶּימֶת moves into the past and still agrees with רַכֶּבֶת."
+    }
+  ]
+}

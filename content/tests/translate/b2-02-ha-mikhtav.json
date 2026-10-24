@@ -1,0 +1,215 @@
+{
+  "id": "translate-b2-02-ha-mikhtav",
+  "passage": "b2-02-ha-mikhtav",
+  "title": "The letter from 1974",
+  "questions": [
+    {
+      "id": "translate-b2-02-ha-mikhtav-01",
+      "type": "translate",
+      "q": "I found an old envelope in the drawer.",
+      "a": [
+        "מָצָאתִי מַעֲטָפָה יְשָׁנָה בַּמְּגֵירָה.",
+        "[אני |]מצאתי [מעטפה ישנה במגירה|במגירה מעטפה ישנה]",
+        "במגירה [אני |]מצאתי מעטפה ישנה"
+      ],
+      "hint": [
+        "מַעֲטָפָה",
+        "מְגֵירָה"
+      ],
+      "why": "The adjective follows its noun and agrees with it: מַעֲטָפָה is feminine, so יְשָׁנָה. An indefinite object takes no אֶת."
+    },
+    {
+      "id": "translate-b2-02-ha-mikhtav-02",
+      "type": "translate",
+      "q": "My mother never threw papers away.",
+      "a": [
+        "אִמִּי אַף פַּעַם לֹא זָרְקָה נְיָירוֹת.",
+        "[אמי|אימי|אמא שלי|אמא] [אף פעם לא|מעולם לא] זרקה [ניירות|אף נייר]"
+      ],
+      "hint": [
+        "נְיָירוֹת"
+      ],
+      "why": "Both אַף פַּעַם and מֵעוֹלָם mean 'never', and both still need לֹא. The ending form אִמִּי is the written twin of אִמָּא שֶׁלִּי."
+    },
+    {
+      "id": "translate-b2-02-ha-mikhtav-03",
+      "type": "translate",
+      "q": "I told my aunt that I had found a letter.",
+      "a": [
+        "אָמַרְתִּי לַדּוֹדָה שֶׁלִּי שֶׁמָּצָאתִי מִכְתָּב.",
+        "[אני |][אמרתי|סיפרתי] [לדודה שלי|לדודתי] [שמצאתי|שאני מצאתי] מכתב"
+      ],
+      "hint": [
+        "הַדּוֹדָה שֶׁלִּי"
+      ],
+      "why": "Hebrew reports in the tense the speaker used: I said מָצָאתִי, so the report is plain past, with no extra step back for English 'had found'. The person told takes לְ: לַדּוֹדָה."
+    },
+    {
+      "id": "translate-b2-02-ha-mikhtav-04",
+      "type": "translate",
+      "q": "Don't tell anyone, especially not my brother.",
+      "a": [
+        "אַל תְּסַפֵּר לְאַף אֶחָד, וּבִפְרָט לֹא לְאָחִי.",
+        "אל [תספר|תספרי|תספרו] [לאף אחד|לאיש|דבר לאיש|שום דבר לאף אחד|כלום לאף אחד] [ובפרט|בפרט|ובמיוחד|במיוחד] לא [לאחי|לאח שלי]"
+      ],
+      "hint": [
+        "בִּפְרָט"
+      ],
+      "why": "A negative command is אַל with the future, never with the imperative: אַל תְּסַפֵּר. 'Especially not' keeps its own לֹא, and וְ before ב becomes וּ: וּבִפְרָט."
+    },
+    {
+      "id": "translate-b2-02-ha-mikhtav-05",
+      "type": "translate",
+      "q": "Did she regret it? Nobody knows.",
+      "a": [
+        "הַאִם הִיא הִצְטַעֲרָה? אַף אֶחָד לֹא יוֹדֵעַ.",
+        "[האם |]היא הצטערה [על זה |][אף אחד לא יודע|איש לא יודע|איש אינו יודע]"
+      ],
+      "hint": [
+        "הִצְטַעֲרָה"
+      ],
+      "why": "In hitpa'el, when the root starts with צ, the ת swaps places with it and turns into ט: הִצְטַעֲרָה. 'Nobody' still needs a negative: לֹא יוֹדֵעַ, or the written אֵינוֹ יוֹדֵעַ."
+    },
+    {
+      "id": "translate-b2-02-ha-mikhtav-06",
+      "type": "translate",
+      "q": "The house was sold a year later.",
+      "a": [
+        "הַבַּיִת נִמְכַּר שָׁנָה אַחַר כָּךְ.",
+        "הבית נמכר [שנה אחר כך|אחרי שנה|כעבור שנה|שנה לאחר מכן|שנה אחרי זה|שנה אחרי כן]",
+        "[אחרי שנה|כעבור שנה|שנה אחר כך|שנה לאחר מכן] הבית נמכר",
+        "[מכרו את הבית|את הבית מכרו] [שנה אחר כך|אחרי שנה|כעבור שנה|שנה לאחר מכן|שנה אחרי זה]",
+        "[אחרי שנה|כעבור שנה|שנה אחר כך|שנה לאחר מכן] מכרו את הבית"
+      ],
+      "hint": [
+        "נִקְנָה"
+      ],
+      "why": "The passive of מָכַר is nif'al, נִמְכַּר: the seller disappears, as the buyer does in the letter's נִקְנָה. Speech is just as likely to say מָכְרוּ אֶת הַבַּיִת."
+    },
+    {
+      "id": "translate-b2-02-ha-mikhtav-07",
+      "type": "translate",
+      "q": "I cleared out my mother's apartment alone.",
+      "a": [
+        "פִּינִּיתִי אֶת הַדִּירָה שֶׁל אִמִּי לְבַד.",
+        "[אני |]פיניתי את [הדירה של אמי|הדירה של אימי|הדירה של אמא שלי|הדירה של אמא|דירתה של אמי|דירת אמי|דירת אימי] [לבד|לבדי]",
+        "[אני |]פיניתי [לבד|לבדי] את [הדירה של אמי|הדירה של אימי|הדירה של אמא שלי|הדירה של אמא|דירתה של אמי|דירת אמי|דירת אימי]"
+      ],
+      "hint": [
+        "פִּינָּה"
+      ],
+      "why": "The verb פִּינָּה is pi'el with a final ה that drops before the past endings: פִּינִּיתִי. 'My mother's apartment' is הַדִּירָה שֶׁל אִמִּי, or in writing דִּירַת אִמִּי, with no article on the first noun."
+    },
+    {
+      "id": "translate-b2-02-ha-mikhtav-08",
+      "type": "translate",
+      "q": "The letter was found in the bottom drawer, under some old papers.",
+      "a": [
+        "הַמִּכְתָּב נִמְצָא בַּמְּגֵירָה הַתַּחְתּוֹנָה, מִתַּחַת לִנְיָירוֹת יְשָׁנִים.",
+        "המכתב נמצא במגירה התחתונה מתחת [לניירות ישנים|לכמה ניירות ישנים|לניירות הישנים]",
+        "המכתב נמצא מתחת [לניירות ישנים|לכמה ניירות ישנים|לניירות הישנים] במגירה התחתונה",
+        "[מצאו את המכתב|את המכתב מצאו] במגירה התחתונה מתחת [לניירות ישנים|לכמה ניירות ישנים|לניירות הישנים]"
+      ],
+      "hint": [
+        "תַּחְתּוֹנָה",
+        "נְיָירוֹת"
+      ],
+      "why": "The nif'al נִמְצָא is both 'was found' and plain 'is to be found': only context tells them apart. The word מִתַּחַת takes לְ, which becomes לִ before a sheva: לִנְיָירוֹת."
+    },
+    {
+      "id": "translate-b2-02-ha-mikhtav-09",
+      "type": "translate",
+      "q": "My mother asked my father to wait for her in Haifa.",
+      "a": [
+        "אִמִּי בִּיקְּשָׁה מֵאָבִי שֶׁיְּחַכֶּה לָהּ בְּחֵיפָה.",
+        "[אמי|אימי|אמא שלי|אמא] ביקשה [מאבי|מאבא שלי|מאבא] [שיחכה לה|לחכות לה] בחיפה"
+      ],
+      "hint": [
+        "בִּיקְּשָׁה"
+      ],
+      "why": "A reported request is שֶׁ with the future, שֶׁיְּחַכֶּה, or simply an infinitive, לְחַכּוֹת. The person asked takes מִן: מֵאָבִי, and לְחַכּוֹת takes לְ: לָהּ."
+    },
+    {
+      "id": "translate-b2-02-ha-mikhtav-10",
+      "type": "translate",
+      "q": "My father's handwriting was smaller than hers.",
+      "a": [
+        "כְּתַב הַיָּד שֶׁל אָבִי הָיָה קָטָן יוֹתֵר מִשֶּׁלָּהּ.",
+        "[כתב היד של|כתב ידו של|הכתב של|כתבו של] [אבי|אבא שלי|אבא] היה [קטן יותר|יותר קטן] [משלה|מכתב היד שלה|מהכתב שלה|מזה שלה]"
+      ],
+      "hint": [
+        "כְּתַב יָד"
+      ],
+      "why": "A smichut is owned with שֶׁל after the whole pair, כְּתַב הַיָּד שֶׁל אָבִי, and its article sits on the second noun. 'Than hers' is מִן on שֶׁלָּהּ: מִשֶּׁלָּהּ."
+    },
+    {
+      "id": "translate-b2-02-ha-mikhtav-11",
+      "type": "translate",
+      "q": "My father fixed bicycles for people he didn't even know.",
+      "a": [
+        "אָבִי תִּיקֵּן אוֹפַנַּיִים לַאֲנָשִׁים שֶׁהוּא אֲפִילּוּ לֹא הִכִּיר.",
+        "[אבי|אבא שלי|אבא] [תיקן|היה מתקן] אופניים [לאנשים|של אנשים] [שהוא אפילו לא הכיר|שאפילו לא הכיר|שהוא לא הכיר אפילו|שהוא אפילו לא הכיר אותם|שאפילו לא הכיר אותם]"
+      ],
+      "hint": [
+        "תִּיקֵּן",
+        "אוֹפַנַּיִים"
+      ],
+      "why": "Knowing a person is הִכִּיר, never יָדַע. Inside the שֶׁ clause the object may be left out, שֶׁהוּא לֹא הִכִּיר, or brought back as אוֹתָם."
+    },
+    {
+      "id": "translate-b2-02-ha-mikhtav-12",
+      "type": "translate",
+      "q": "What nobody told me is that my father knew.",
+      "a": [
+        "מָה שֶׁאַף אֶחָד לֹא סִיפֵּר לִי הוּא שֶׁאָבִי יָדַע.",
+        "מה [שאף אחד|שאיש] לא [סיפר|אמר] לי [הוא |זה |][שאבי|שאבא שלי|שאבא] ידע"
+      ],
+      "hint": [
+        "מָה שֶׁ"
+      ],
+      "why": "The phrase מָה שֶׁ turns a clause into a noun, 'the thing that', and הוּא links it to what follows; speech often uses זֶה instead. 'Nobody' still needs לֹא."
+    },
+    {
+      "id": "translate-b2-02-ha-mikhtav-13",
+      "type": "translate",
+      "q": "My father wrote that he knew, and that she should stay.",
+      "a": [
+        "אָבִי כָּתַב שֶׁהוּא יוֹדֵעַ, וְשֶׁהִיא צְרִיכָה לְהִישָּׁאֵר.",
+        "[אבי|אבא שלי|אבא] כתב שהוא יודע [ושהיא צריכה|ושהיא חייבת] [להישאר|להשאר]",
+        "[אבי|אבא שלי|אבא] כתב שהוא יודע [ושהיא תישאר|ושתישאר|ושהיא תשאר|ושתשאר]"
+      ],
+      "hint": [
+        "יוֹדֵעַ",
+        "תִּישָּׁאֲרִי"
+      ],
+      "why": "Hebrew reports in the tense the writer used: he wrote אֲנִי יוֹדֵעַ, so the report says שֶׁהוּא יוֹדֵעַ, present, where English shifts to 'knew'. His command becomes שֶׁ with the future, or צְרִיכָה with an infinitive."
+    },
+    {
+      "id": "translate-b2-02-ha-mikhtav-14",
+      "type": "translate",
+      "q": "If she had sent the letter, I would not have been born.",
+      "a": [
+        "אִילּוּ הִיא שָׁלְחָה אֶת הַמִּכְתָּב, לֹא הָיִיתִי נוֹלָד.",
+        "[אילו|אם|לו] [היא |][שלחה|הייתה שולחת] את המכתב [אני |]לא הייתי [נולד|נולדת]",
+        "[אני |]לא הייתי [נולד|נולדת] [אילו|אם|לו] [היא |][שלחה|הייתה שולחת] את המכתב"
+      ],
+      "hint": [
+        "שָׁלְחָה"
+      ],
+      "why": "An unreal past condition is אִילּוּ with the past, and the result is הָיִיתִי with a participle: לֹא הָיִיתִי נוֹלָד. Being born is nif'al, נוֹלַד: something that happens to you."
+    },
+    {
+      "id": "translate-b2-02-ha-mikhtav-15",
+      "type": "translate",
+      "q": "The man she wrote to never received the letter.",
+      "a": [
+        "הָאִישׁ שֶׁהִיא כָּתְבָה לוֹ מֵעוֹלָם לֹא קִיבֵּל אֶת הַמִּכְתָּב.",
+        "האיש [שהיא כתבה לו|שכתבה לו|שאליו היא כתבה|שאליו כתבה|אשר אליו כתבה|שהיא כתבה אליו|שכתבה אליו] [מעולם לא|אף פעם לא] קיבל את המכתב"
+      ],
+      "hint": [
+        "כָּתְבָה"
+      ],
+      "why": "Hebrew keeps the preposition inside the clause with an ending that points back, שֶׁהִיא כָּתְבָה לוֹ, or moves it to the front in a higher style: שֶׁאֵלָיו כָּתְבָה. A bare שֶׁ never means 'to whom' on its own."
+    }
+  ]
+}

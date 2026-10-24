@@ -1,0 +1,223 @@
+{
+  "id": "translate-b2-01-rayon-avoda",
+  "passage": "b2-01-rayon-avoda",
+  "title": "The job interview",
+  "questions": [
+    {
+      "id": "translate-b2-01-rayon-avoda-01",
+      "type": "translate",
+      "q": "The next day I called my brother.",
+      "a": [
+        "לְמָחֳרָת הִתְקַשַּׁרְתִּי לְאָחִי.",
+        "[למחרת|ביום שלמחרת] [אני |]התקשרתי [לאחי|לאח שלי]",
+        "[אני |]התקשרתי [לאחי|לאח שלי] [למחרת|ביום שלמחרת]"
+      ],
+      "hint": [
+        "לְמָחֳרָת"
+      ],
+      "why": "The word לְמָחֳרָת is 'the next day', counted from a day already in the story; מָחָר is 'tomorrow', counted from today. The verb לְהִתְקַשֵּׁר takes לְ: לְאָחִי."
+    },
+    {
+      "id": "translate-b2-01-rayon-avoda-02",
+      "type": "translate",
+      "q": "None of the three smiled.",
+      "a": [
+        "אַף אֶחָד מֵהַשְּׁלוֹשָׁה לֹא חִיֵּיךְ.",
+        "[אף אחד|איש] [מהשלושה|מהם|משלושתם] לא חייך"
+      ],
+      "hint": [
+        "אַף אֶחָד"
+      ],
+      "why": "The phrase אַף אֶחָד מִן is 'none of', and it still takes לֹא. The verb agrees with אֶחָד, so it is singular: חִיֵּיךְ, not חִיְּיכוּ."
+    },
+    {
+      "id": "translate-b2-01-rayon-avoda-03",
+      "type": "translate",
+      "q": "She is a nag, but she is right.",
+      "a": [
+        "הִיא נוּדְנִיקִית, אֲבָל הִיא צוֹדֶקֶת.",
+        "היא נודניקית [אבל היא|אבל] צודקת"
+      ],
+      "hint": [
+        "נוּדְנִיקִית"
+      ],
+      "why": "The slang word נוּדְנִיקִית is Yiddish with the Hebrew feminine ending ־ִית; a man is a נוּדְנִיק. Slang or not, the present needs no 'is'."
+    },
+    {
+      "id": "translate-b2-01-rayon-avoda-04",
+      "type": "translate",
+      "q": "The interview lasted three hours.",
+      "a": [
+        "הָרֵאָיוֹן נִמְשַׁךְ שָׁלוֹשׁ שָׁעוֹת.",
+        "[הראיון|הריאיון] [נמשך|ארך] [שלוש|3] שעות"
+      ],
+      "hint": [
+        "נִמְשַׁךְ"
+      ],
+      "why": "The nif'al נִמְשַׁךְ, 'lasted', agrees with the masculine רֵאָיוֹן, as it does with the story's שֶׁקֶט. The noun שָׁעָה is feminine, so 'three' is שָׁלוֹשׁ."
+    },
+    {
+      "id": "translate-b2-01-rayon-avoda-05",
+      "type": "translate",
+      "q": "I was required to bring proof of address.",
+      "a": [
+        "נִדְרַשְׁתִּי לְהָבִיא אִישּׁוּר מְגוּרִים.",
+        "[אני |][נדרשתי|התבקשתי|הייתי צריך|הייתי צריכה] להביא [אישור מגורים|אישור על מגורים]"
+      ],
+      "hint": [
+        "נִדְרַשׁ",
+        "אִישּׁוּר מְגוּרִים"
+      ],
+      "why": "The passive of דָּרַשׁ is nif'al, and it takes the past endings like any verb: נִדְרַשְׁתִּי, 'I was required', with an infinitive after it. Speech would say הָיִיתִי צָרִיךְ."
+    },
+    {
+      "id": "translate-b2-01-rayon-avoda-06",
+      "type": "translate",
+      "q": "I came here to work, not to smile.",
+      "a": [
+        "בָּאתִי לְכָאן כְּדֵי לַעֲבוֹד, לֹא כְּדֵי לְחַיֵּיךְ.",
+        "[אני |][באתי|הגעתי] [לכאן |הנה |]כדי לעבוד [ולא|לא] [כדי |]לחייך",
+        "[אני |][באתי|הגעתי] [לכאן |הנה |]לעבוד [ולא|לא] לחייך"
+      ],
+      "hint": [
+        "כְּדֵי",
+        "לְחַיֵּיךְ"
+      ],
+      "why": "Purpose is כְּדֵי with an infinitive, and after a verb of coming the bare infinitive is enough: בָּאתִי לַעֲבוֹד. A cause would need בִּגְלַל and a noun instead."
+    },
+    {
+      "id": "translate-b2-01-rayon-avoda-07",
+      "type": "translate",
+      "q": "Because of one sentence, the interview changed.",
+      "a": [
+        "בִּגְלַל מִשְׁפָּט אֶחָד, הָרֵאָיוֹן הִשְׁתַּנָּה.",
+        "בגלל משפט אחד [הראיון|הריאיון] השתנה",
+        "[הראיון|הריאיון] השתנה בגלל משפט אחד"
+      ],
+      "hint": [
+        "בִּגְלַל",
+        "הִשְׁתַּנָּה"
+      ],
+      "why": "The word בִּגְלַל takes a noun and gives the cause; before a whole clause it becomes בִּגְלַל שֶׁ. In הִשְׁתַּנָּה the hitpa'el ת has swapped places with the root's שׁ."
+    },
+    {
+      "id": "translate-b2-01-rayon-avoda-08",
+      "type": "translate",
+      "q": "You are requested to report at eight o'clock.",
+      "a": [
+        "הִנְּךָ מִתְבַּקֵּשׁ לְהִתְיַצֵּב בְּשָׁעָה שְׁמוֹנֶה.",
+        "[הנך|אתה] מתבקש [להתייצב|להתיצב] ב[שעה |][שמונה|8]",
+        "[הנך|את] מתבקשת [להתייצב|להתיצב] ב[שעה |][שמונה|8]",
+        "[הנכם|אתם] מתבקשים [להתייצב|להתיצב] ב[שעה |][שמונה|8]",
+        "נא [להתייצב|להתיצב] ב[שעה |][שמונה|8]"
+      ],
+      "hint": [
+        "הִנְּךָ",
+        "לְהִתְיַצֵּב"
+      ],
+      "why": "The formal 'you are' is הִנְּךָ, and 'are requested' is the hitpa'el מִתְבַּקֵּשׁ, which official letters use as a passive. Spoken Hebrew would simply say תַּגִּיעַ בִּשְׁמוֹנֶה."
+    },
+    {
+      "id": "translate-b2-01-rayon-avoda-09",
+      "type": "translate",
+      "q": "The questions were chosen by the manager.",
+      "a": [
+        "הַשְּׁאֵלוֹת נִבְחֲרוּ עַל יְדֵי הַמְּנַהֶלֶת.",
+        "השאלות נבחרו [על ידי|ע\"י|בידי] [המנהלת|המנהל]",
+        "[המנהלת בחרה את השאלות|את השאלות בחרה המנהלת|המנהל בחר את השאלות|את השאלות בחר המנהל]"
+      ],
+      "hint": [
+        "נִבְחֲרָה"
+      ],
+      "why": "The passive of בָּחַר is nif'al, נִבְחַר, and whoever did it comes after עַל יְדֵי. Spoken Hebrew prefers the active: הַמְּנַהֶלֶת בָּחֲרָה אֶת הַשְּׁאֵלוֹת."
+    },
+    {
+      "id": "translate-b2-01-rayon-avoda-10",
+      "type": "translate",
+      "q": "It was decided to invite three candidates for an interview.",
+      "a": [
+        "הוּחְלַט לְהַזְמִין שְׁלוֹשָׁה מוּעֲמָדִים לְרֵאָיוֹן.",
+        "[הוחלט|החליטו] [להזמין|לזמן] [שלושה|3] מועמדים [לראיון|לריאיון|לראיונות|לריאיונות]"
+      ],
+      "hint": [
+        "הוּחְלַט"
+      ],
+      "why": "The verb הוּחְלַט is huf'al, the passive of הֶחְלִיט, and with no subject it is the official 'it was decided'. The noun מוּעֲמָד is masculine, so 'three' takes the ־ָה form: שְׁלוֹשָׁה."
+    },
+    {
+      "id": "translate-b2-01-rayon-avoda-11",
+      "type": "translate",
+      "q": "Although his background was impressive, they didn't hire him.",
+      "a": [
+        "לַמְרוֹת שֶׁהָרֶקַע שֶׁלּוֹ הָיָה מְרַשִּׁים, לֹא קִיבְּלוּ אוֹתוֹ לָעֲבוֹדָה.",
+        "[למרות ש|אף על פי ש|אף ש][הרקע שלו|רקעו] היה מרשים [הם |][בכל זאת |]לא קיבלו אותו[ לעבודה|]",
+        "[למרות ש|אף על פי ש|אף ש][הרקע שלו|רקעו] היה מרשים [הוא |][בכל זאת |]לא התקבל[ לעבודה|]",
+        "[הם |]לא קיבלו אותו[ לעבודה|] [למרות ש|אף על פי ש|אף ש][הרקע שלו|רקעו] היה מרשים",
+        "הוא לא התקבל[ לעבודה|] [למרות ש|אף על פי ש|אף ש][הרקע שלו|רקעו] היה מרשים"
+      ],
+      "hint": [
+        "לַמְרוֹת",
+        "רֶקַע",
+        "מְרַשִּׁים"
+      ],
+      "why": "The conjunction לַמְרוֹת שֶׁ concedes, like 'although', and the main clause follows with no אֲבָל. A plural verb with no subject, לֹא קִיבְּלוּ, is the impersonal 'they'."
+    },
+    {
+      "id": "translate-b2-01-rayon-avoda-12",
+      "type": "translate",
+      "q": "Even though the letter was written in formal Hebrew, I understood every word.",
+      "a": [
+        "לַמְרוֹת שֶׁהַמִּכְתָּב נִכְתַּב בְּעִבְרִית רִשְׁמִית, הֵבַנְתִּי כָּל מִילָּה.",
+        "[למרות ש|אף על פי ש|אף ש]המכתב נכתב [בעברית רשמית|בעברית גבוהה|בשפה רשמית|בשפה גבוהה|בעברית פורמלית] [אני |][בכל זאת |][הבנתי כל מילה|הבנתי את כל המילים]",
+        "[אני |]הבנתי [כל מילה|את כל המילים] [למרות ש|אף על פי ש|אף ש]המכתב נכתב [בעברית רשמית|בעברית גבוהה|בשפה רשמית|בשפה גבוהה|בעברית פורמלית]"
+      ],
+      "hint": [
+        "נִכְתַּב"
+      ],
+      "why": "Without the article, כָּל מִילָּה is 'every word' and takes no אֶת; with it, the object is definite: אֶת כָּל הַמִּילִּים. The passive of כָּתַב is nif'al, נִכְתַּב."
+    },
+    {
+      "id": "translate-b2-01-rayon-avoda-13",
+      "type": "translate",
+      "q": "The man on the left doubted that I could work alone.",
+      "a": [
+        "הָאִישׁ מִשְּׂמֹאל הֵטִיל סָפֵק בְּכָךְ שֶׁאֲנִי יוֹדֵעַ לַעֲבוֹד לְבַד.",
+        "[האיש משמאל|האיש שמשמאל|האיש מצד שמאל|האיש שישב משמאל] [הטיל ספק|פקפק] [בכך ש|אם ]אני [יודע|יודעת|יכול|יכולה|מסוגל|מסוגלת] לעבוד [לבד|לבדי|באופן עצמאי]"
+      ],
+      "hint": [
+        "מֵטִיל סָפֵק",
+        "בְּכָךְ"
+      ],
+      "why": "A verb that takes בְּ needs בְּכָךְ שֶׁ, 'in the fact that', before a whole clause. The reported clause keeps the present, שֶׁאֲנִי יוֹדֵעַ, where English shifts to 'could'."
+    },
+    {
+      "id": "translate-b2-01-rayon-avoda-14",
+      "type": "translate",
+      "q": "If I hadn't answered them, I wouldn't have got the job.",
+      "a": [
+        "אִילּוּ לֹא עָנִיתִי לָהֶם, לֹא הָיִיתִי מְקַבֵּל אֶת הָעֲבוֹדָה.",
+        "[אילו|אם|לו] [אני |]לא [עניתי|הייתי עונה] להם [אני |]לא הייתי [מקבל|מקבלת] את העבודה",
+        "[אילולא|לולא] עניתי להם [אני |]לא הייתי [מקבל|מקבלת] את העבודה",
+        "[אני |]לא הייתי [מקבל|מקבלת] את העבודה [אילו|אם|לו] [אני |]לא [עניתי|הייתי עונה] להם"
+      ],
+      "hint": [
+        "לַעֲנוֹת"
+      ],
+      "why": "An unreal past condition takes אִילּוּ with the past, and the result is הָיִיתִי with a participle: לֹא הָיִיתִי מְקַבֵּל. The verb לַעֲנוֹת takes לְ for the people answered: לָהֶם."
+    },
+    {
+      "id": "translate-b2-01-rayon-avoda-15",
+      "type": "translate",
+      "q": "We are pleased to inform you that your application has been accepted.",
+      "a": [
+        "אָנוּ שְׂמֵחִים לְהוֹדִיעַ לְךָ כִּי מוּעֲמָדוּתְךָ הִתְקַבְּלָה.",
+        "[אנו|אנחנו|הננו] שמחים [להודיע לך|להודיעך|לבשר לך] [כי |ש][מועמדותך|המועמדות שלך] [התקבלה|נתקבלה]"
+      ],
+      "hint": [
+        "אָנוּ",
+        "מוּעֲמָדוּת"
+      ],
+      "why": "Formal letters say אָנוּ for אֲנַחְנוּ and כִּי for שֶׁ, and put the owner on the noun as an ending: מוּעֲמָדוּתְךָ. The verb הִתְקַבְּלָה is hitpa'el doing the work of a passive, 'was accepted'."
+    }
+  ]
+}

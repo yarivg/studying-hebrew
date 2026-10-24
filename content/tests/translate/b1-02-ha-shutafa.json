@@ -1,0 +1,219 @@
+{
+  "id": "translate-b1-02-ha-shutafa",
+  "passage": "b1-02-ha-shutafa",
+  "title": "The new flatmate",
+  "questions": [
+    {
+      "id": "translate-b1-02-ha-shutafa-01",
+      "type": "translate",
+      "q": "The apartment is too big for me.",
+      "a": [
+        "הַדִּירָה גְּדוֹלָה מִדַּי בִּשְׁבִילִי.",
+        "הדירה [גדולה מדי|גדולה יותר מדי|יותר מדי גדולה] [בשבילי|לי]",
+        "הדירה גדולה לי מדי"
+      ],
+      "hint": [
+        "מִדַּי"
+      ],
+      "why": "The word מִדַּי, 'too', follows the adjective, and the adjective agrees with the feminine דִּירָה: גְּדוֹלָה. 'For me' is בִּשְׁבִילִי, the preposition with an ending."
+    },
+    {
+      "id": "translate-b1-02-ha-shutafa-02",
+      "type": "translate",
+      "q": "Is there a balcony in the new apartment?",
+      "a": [
+        "יֵשׁ מִרְפֶּסֶת בַּדִּירָה הַחֲדָשָׁה?",
+        "[האם |]יש מרפסת בדירה החדשה",
+        "[האם |]בדירה החדשה יש מרפסת",
+        "[האם |]יש בדירה החדשה מרפסת"
+      ],
+      "hint": [
+        "מִרְפֶּסֶת"
+      ],
+      "why": "A yes-or-no question is the statement itself with a rising voice; הַאִם in front is the written way. The adjective repeats the article: בַּדִּירָה הַחֲדָשָׁה."
+    },
+    {
+      "id": "translate-b1-02-ha-shutafa-03",
+      "type": "translate",
+      "q": "I don't have enough money for the rent.",
+      "a": [
+        "אֵין לִי מַסְפִּיק כֶּסֶף בִּשְׁבִיל שְׂכַר הַדִּירָה.",
+        "אין לי [מספיק כסף|כסף מספיק] [בשביל שכר הדירה|לשכר הדירה|בשביל שכר דירה|לשכר דירה|בשביל השכירות|לשכירות]"
+      ],
+      "hint": [
+        "שְׂכַר הַדִּירָה"
+      ],
+      "why": "Not having is אֵין לִי, with no verb. In smichut only the second noun takes the article: שְׂכַר הַדִּירָה, never הַשְּׂכַר."
+    },
+    {
+      "id": "translate-b1-02-ha-shutafa-04",
+      "type": "translate",
+      "q": "The first candidate was younger than me.",
+      "a": [
+        "הַמּוּעֲמָד הָרִאשׁוֹן הָיָה צָעִיר מִמֶּנִּי.",
+        "המועמד הראשון היה [צעיר ממני|יותר צעיר ממני|צעיר יותר ממני|צעיר יותר מאשר אני|יותר צעיר מאשר אני]"
+      ],
+      "hint": [
+        "מוּעֲמָד",
+        "מִמֶּנִּי"
+      ],
+      "why": "Comparison needs only מִן with an ending: צָעִיר מִמֶּנִּי already means 'younger than me'. The word יוֹתֵר may be added, before the adjective or after it."
+    },
+    {
+      "id": "translate-b1-02-ha-shutafa-05",
+      "type": "translate",
+      "q": "She left in March, and I have lived alone since then.",
+      "a": [
+        "הִיא עָזְבָה בְּמָרְץ, וּמֵאָז אֲנִי גָּר לְבַד.",
+        "[היא עזבה במרץ|במרץ היא עזבה] [ו|]מאז אני [גר|גרה] [לבד|לבדי]",
+        "[היא עזבה במרץ|במרץ היא עזבה] ואני [גר|גרה] [לבד|לבדי] מאז"
+      ],
+      "hint": [
+        "עָזְבָה",
+        "מֵאָז"
+      ],
+      "why": "Where English says 'have lived since', Hebrew uses the present, because the living still goes on: מֵאָז אֲנִי גָּר. And וְ before מ becomes וּ: וּמֵאָז."
+    },
+    {
+      "id": "translate-b1-02-ha-shutafa-06",
+      "type": "translate",
+      "q": "This is the quietest room in the apartment.",
+      "a": [
+        "זֶה הַחֶדֶר הֲכִי שָׁקֵט בַּדִּירָה.",
+        "[זה|זהו] [החדר הכי שקט|החדר השקט ביותר] בדירה"
+      ],
+      "hint": [
+        "הֲכִי",
+        "שָׁקֵט"
+      ],
+      "why": "The superlative is הֲכִי in front of the adjective, and the article stays on the noun: הַחֶדֶר הֲכִי שָׁקֵט. Written Hebrew says הַחֶדֶר הַשָּׁקֵט בְּיוֹתֵר."
+    },
+    {
+      "id": "translate-b1-02-ha-shutafa-07",
+      "type": "translate",
+      "q": "She asked fewer questions than the first candidate.",
+      "a": [
+        "הִיא שָׁאֲלָה פָּחוֹת שְׁאֵלוֹת מֵהַמּוּעֲמָד הָרִאשׁוֹן.",
+        "היא שאלה פחות שאלות [מהמועמד הראשון|מהראשון|מאשר המועמד הראשון|מאשר הראשון]"
+      ],
+      "hint": [
+        "פָּחוֹת"
+      ],
+      "why": "Both 'fewer' and 'less' are פָּחוֹת, and the noun after it does not change. 'Than' is מִן, which becomes מֵ before הַ: מֵהַמּוּעֲמָד."
+    },
+    {
+      "id": "translate-b1-02-ha-shutafa-08",
+      "type": "translate",
+      "q": "I published an ad, but nobody called for a whole week.",
+      "a": [
+        "פִּרְסַמְתִּי מוֹדָעָה, אֲבָל אַף אֶחָד לֹא הִתְקַשֵּׁר שָׁבוּעַ שָׁלֵם.",
+        "[אני |]פרסמתי מודעה [אבל |ו][אף אחד|איש] לא התקשר [|במשך ]שבוע שלם",
+        "[אני |]פרסמתי מודעה [אבל |ו][|במשך ]שבוע שלם [אף אחד|איש] לא התקשר"
+      ],
+      "hint": [
+        "פִּרְסַמְתִּי",
+        "מוֹדָעָה"
+      ],
+      "why": "The word אַף אֶחָד, 'nobody', still needs לֹא before the verb: in Hebrew the two negatives make one. A length of time takes no preposition: שָׁבוּעַ שָׁלֵם."
+    },
+    {
+      "id": "translate-b1-02-ha-shutafa-09",
+      "type": "translate",
+      "q": "If she calls tomorrow, I will give her the room.",
+      "a": [
+        "אִם הִיא תִּתְקַשֵּׁר מָחָר, אֶתֵּן לָהּ אֶת הַחֶדֶר.",
+        "אם [היא תתקשר מחר|מחר היא תתקשר] [אני |][אז |]אתן לה את החדר",
+        "[אני |]אתן לה את החדר אם [היא תתקשר מחר|מחר היא תתקשר]"
+      ],
+      "hint": [
+        "לְהִתְקַשֵּׁר"
+      ],
+      "why": "After אִם, for something that may really happen, Hebrew puts the future in both halves: אִם הִיא תִּתְקַשֵּׁר, אֶתֵּן. English says 'if she calls' in the present; Hebrew does not."
+    },
+    {
+      "id": "translate-b1-02-ha-shutafa-10",
+      "type": "translate",
+      "q": "He was funnier, but she was quieter.",
+      "a": [
+        "הוּא הָיָה יוֹתֵר מַצְחִיק, אֲבָל הִיא הָיְתָה יוֹתֵר שְׁקֵטָה.",
+        "הוא היה [יותר מצחיק|מצחיק יותר] [אבל |ו]היא הייתה [יותר שקטה|שקטה יותר]"
+      ],
+      "hint": [
+        "מַצְחִיק",
+        "שְׁקֵטָה"
+      ],
+      "why": "Each half agrees with its own subject: הָיָה מַצְחִיק for him, הָיְתָה שְׁקֵטָה for her. The word יוֹתֵר may stand before the adjective or after it, and never changes."
+    },
+    {
+      "id": "translate-b1-02-ha-shutafa-11",
+      "type": "translate",
+      "q": "She hesitated for three days, and in the end she said no.",
+      "a": [
+        "הִיא הִתְלַבְּטָה שְׁלוֹשָׁה יָמִים, וּבַסּוֹף אָמְרָה לֹא.",
+        "היא התלבטה [|במשך ][שלושה|3] ימים [ובסוף|ולבסוף|בסוף|לבסוף] [היא |][אמרה לא|סירבה]"
+      ],
+      "hint": [
+        "הִתְלַבַּטְתִּי"
+      ],
+      "why": "Hitpa'el keeps its הִתְ in the past, and the feminine ending ־ָה pulls the vowel before it down to a sheva: הִתְלַבְּטָה. The noun יוֹם is masculine, so 'three' is שְׁלוֹשָׁה."
+    },
+    {
+      "id": "translate-b1-02-ha-shutafa-12",
+      "type": "translate",
+      "q": "If the first one brings another coffee machine, there will be three in the kitchen.",
+      "a": [
+        "אִם הָרִאשׁוֹן יָבִיא עוֹד מְכוֹנַת קָפֶה, יִהְיוּ שָׁלוֹשׁ בַּמִּטְבָּח.",
+        "אם [הראשון|המועמד הראשון] יביא [עוד מכונת קפה|מכונת קפה נוספת] [|אז ][יהיו|יהיו לנו] [שלוש במטבח|במטבח שלוש|3 במטבח|במטבח 3]",
+        "אם [הראשון|המועמד הראשון] יביא [עוד מכונת קפה|מכונת קפה נוספת] [|אז ]במטבח [יהיו|יהיו לנו] [שלוש|3]"
+      ],
+      "hint": [
+        "מְכוֹנַת קָפֶה"
+      ],
+      "why": "Both halves of a real condition are future, and 'there will be' agrees with what there will be: יִהְיוּ for several, תִּהְיֶה for one machine. The noun מְכוֹנָה is feminine, so 'three' is שָׁלוֹשׁ."
+    },
+    {
+      "id": "translate-b1-02-ha-shutafa-13",
+      "type": "translate",
+      "q": "If I were you, I would choose her.",
+      "a": [
+        "בִּמְקוֹמְךָ, הָיִיתִי בּוֹחֵר בָּהּ.",
+        "[במקומך|במקומכם|אם הייתי במקומך|אילו הייתי במקומך] [אני |]הייתי [בוחר|בוחרת] [בה|אותה]",
+        "[במקומך|במקומכם|אם הייתי במקומך|אילו הייתי במקומך] [אני |]הייתי [לוקח|לוקחת] אותה"
+      ],
+      "hint": [
+        "בִּמְקוֹמְךָ"
+      ],
+      "why": "An unreal 'would' is הָיִיתִי with the present participle: הָיִיתִי בּוֹחֵר, the sister's הָיִיתִי בּוֹחֶרֶת. The verb לִבְחוֹר takes בְּ for the one chosen: בָּהּ."
+    },
+    {
+      "id": "translate-b1-02-ha-shutafa-14",
+      "type": "translate",
+      "q": "If there had been a balcony here, he would have taken the room.",
+      "a": [
+        "אִילּוּ הָיְתָה כָּאן מִרְפֶּסֶת, הוּא הָיָה לוֹקֵחַ אֶת הַחֶדֶר.",
+        "[אילו|אם|לו] הייתה [כאן|פה] מרפסת הוא היה לוקח את החדר",
+        "[אילו|אם|לו] הייתה מרפסת [כאן|פה|בדירה] הוא היה לוקח את החדר",
+        "[אילו|אם|לו] בדירה הייתה מרפסת הוא היה לוקח את החדר",
+        "הוא היה לוקח את החדר [אילו|אם|לו] הייתה [כאן|פה|בדירה] מרפסת",
+        "הוא היה לוקח את החדר [אילו|אם|לו] הייתה מרפסת [כאן|פה|בדירה]"
+      ],
+      "hint": [
+        "מִרְפֶּסֶת"
+      ],
+      "why": "An unreal condition is אִילּוּ with the past, and the result is הָיָה with a participle: הוּא הָיָה לוֹקֵחַ. 'There was' agrees with the feminine מִרְפֶּסֶת, so הָיְתָה, not הָיָה."
+    },
+    {
+      "id": "translate-b1-02-ha-shutafa-15",
+      "type": "translate",
+      "q": "I should have called her earlier, but I was afraid she would say no.",
+      "a": [
+        "הָיִיתִי צָרִיךְ לְהִתְקַשֵּׁר אֵלֶיהָ מוּקְדָּם יוֹתֵר, אֲבָל פָּחַדְתִּי שֶׁהִיא תַּגִּיד לֹא.",
+        "[אני |]הייתי [צריך|צריכה] [להתקשר אליה|להתקשר לה|לטלפן לה] [מוקדם יותר|יותר מוקדם] [אבל |ו]פחדתי [שהיא תגיד לא|שתגיד לא|שהיא תסרב|שתסרב]"
+      ],
+      "hint": [
+        "מוּקְדָּם יוֹתֵר"
+      ],
+      "why": "To say 'should have', Hebrew puts צָרִיךְ in the past and adds an infinitive: הָיִיתִי צָרִיךְ לְהִתְקַשֵּׁר. After 'afraid that', it keeps the future the fear was about, תַּגִּיד, where English shifts to 'would'."
+    }
+  ]
+}
