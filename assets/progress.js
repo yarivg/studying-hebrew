@@ -17,6 +17,7 @@
      tests:   { "<testId>": { best, runs, at } },              // best auto score
      runs:  [ { at, id, n, got, wrong: ["<qId>"] } ],         // every sitting, newest last
      qstat: { "<qId>": { seen, bad } },                       // lifetime per question
+     lib:   { "<storyId>": { s: "reading" | "done", n: notes, at } }, // the library
      days:  { "<yyyy-mm-dd>": <reviews that day> },
      hist:  { "<yyyy-mm-dd>": { at, pct, marked, solid, known, words, right, stuck } },
      m:     { "<kind>:<key>": <epoch-ms> },   // when each entry last changed
@@ -39,12 +40,12 @@ window.Progress = (function () {
 
   var state = load();
 
-  var MAPS = ['read', 'ex', 'cards', 'known', 'words', 'edits', 'mastery', 'tests', 'qstat'];
+  var MAPS = ['read', 'ex', 'cards', 'known', 'words', 'edits', 'mastery', 'tests', 'qstat', 'lib'];
 
   function blank() {
     return {
       v: 1, read: {}, ex: {}, cards: {}, known: {}, words: {}, edits: {},
-      mastery: {}, tests: {}, qstat: {}, runs: [], days: {}, hist: {}, m: {}, clearedAt: 0
+      mastery: {}, tests: {}, qstat: {}, lib: {}, runs: [], days: {}, hist: {}, m: {}, clearedAt: 0
     };
   }
 
@@ -387,6 +388,41 @@ window.Progress = (function () {
     return typeof v === 'string' ? v.replace(/\s+/g, ' ').trim().slice(0, WORD_MAX) : '';
   }
 
+  /* ---------------------------------------------------------- library */
+
+  // A story read on another site: where you are with it, and the words
+  // you noted while reading. Neither field set means the entry goes.
+  var LIB_STATES = ['reading', 'done'];
+  var NOTES_MAX = 4000;
+
+  function cleanLib(v) {
+    if (!v || typeof v !== 'object') return null;
+    var s = LIB_STATES.indexOf(v.s) !== -1 ? v.s : '';
+    var n = typeof v.n === 'string' ? v.n.slice(0, NOTES_MAX) : '';
+    if (!s && !n.trim()) return null;
+    return { s: s, n: n, at: num(v.at) };
+  }
+
+  function lib(id) {
+    var e = state.lib[id];
+    return e ? { s: e.s, n: e.n, at: e.at } : { s: '', n: '', at: 0 };
+  }
+
+  function setLib(id, patch) {
+    var cur = lib(id);
+    var next = cleanLib({
+      s: has(patch, 's') ? patch.s : cur.s,
+      n: has(patch, 'n') ? patch.n : cur.n,
+      at: stamp()
+    });
+    if (next) state.lib[id] = next; else delete state.lib[id];
+    touch('lib', id);
+    save();
+    return lib(id);
+  }
+
+  function libAll() { return JSON.parse(JSON.stringify(state.lib)); }
+
   /* ---------------------------------------------------------- mastery */
 
   // The auto-graded score is evidence; the level is your own call. A test
@@ -625,6 +661,10 @@ window.Progress = (function () {
         bad: clamp(num(value.bad), 0, 1e6)
       };
     });
+    each(input.lib, function (key, value) {
+      var e = cleanLib(value);
+      if (e) out.lib[key] = e;
+    });
     if (Array.isArray(input.runs)) {
       out.runs = input.runs.slice(-MAX_RUNS).filter(function (r) {
         return r && typeof r === 'object' && typeof r.id === 'string';
@@ -822,6 +862,7 @@ window.Progress = (function () {
     streak: streak, reviewsToday: reviewsToday, dayCounts: dayCounts,
     history: history, snapDay: snapDay,
     studied: studied,
+    lib: lib, setLib: setLib, libAll: libAll,
     exportJSON: exportJSON, importJSON: importJSON, reset: reset,
     INTERVALS: INTERVALS, MAX_BOX: MAX_BOX
   };

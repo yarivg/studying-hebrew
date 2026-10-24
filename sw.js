@@ -16,7 +16,7 @@
    Bump CACHE_VERSION to force a full refetch.
    ============================================================ */
 
-var CACHE_VERSION = 'hamachberet-v6';
+var CACHE_VERSION = 'hamachberet-v7';
 var SHELL = [
   './',
   'index.html',
@@ -45,7 +45,8 @@ var SHELL = [
   'assets/fonts/frank-ruhl-libre-hebrew.woff2',
   'data/vocab.json',
   'content/manifest.json',
-  'content/tests/groups.json'
+  'content/tests/groups.json',
+  'content/library.json'
 ];
 
 /* ---------------------------------------------------------- install */

@@ -80,6 +80,9 @@ def main():
                 embedded[rel] = json.loads(read(rel))
                 passages += 1
 
+    if os.path.exists(os.path.join(ROOT, "content/library.json")):
+        embedded["content/library.json"] = json.loads(read("content/library.json"))
+
     html = read("index.html")
 
     # The hosted page forbids inline script. This build *is* inline script, and

@@ -1,0 +1,856 @@
+{
+  "intro": "Ordered from easiest to hardest. Start at the top, mark where you are, and note the words you meet: they become the next drill.",
+  "tips": [
+    "Read the Hebrew first. Look at the English only after a paragraph you did not follow.",
+    "Look up only what blocks the plot. Guess the rest from the root: a word you do not know is often a binyan you do.",
+    "Note five words a session, with the root (נִשְׁאַר, ש־א־ר, to stay). Copy them here and paste them into the chat.",
+    "Most real Hebrew has no points. Where a site prints them, read once with them and once covering them up.",
+    "Prose from before 1948 spells the old way when it drops the points, and some of its words have moved on. Read it for the story, not as a model for your own Hebrew.",
+    "The Bible and the writers who imitated it tell stories with the vav that flips the tense. Recognise it, never produce it: the table below is all you need."
+  ],
+  "older": {
+    "title": "Biblical Hebrew at a glance",
+    "note": "A וַ with a dagesh on a future-looking verb is the narrative past. The chapter on Biblical Hebrew has the rest.",
+    "rows": [
+      [
+        "וַיֹּאמֶר",
+        "אָמַר",
+        "he said"
+      ],
+      [
+        "וַתֹּאמֶר",
+        "אָמְרָה",
+        "she said"
+      ],
+      [
+        "וַיֹּאמְרוּ",
+        "אָמְרוּ",
+        "they said"
+      ],
+      [
+        "וַיְהִי",
+        "הָיָה",
+        "and it came to pass, there was"
+      ],
+      [
+        "וַיֵּלֶךְ",
+        "הָלַךְ",
+        "he went"
+      ],
+      [
+        "וַיַּרְא",
+        "רָאָה",
+        "he saw"
+      ],
+      [
+        "וַיִּשְׁמַע",
+        "שָׁמַע",
+        "he heard"
+      ],
+      [
+        "וַיִּקַּח",
+        "לָקַח",
+        "he took"
+      ],
+      [
+        "וַיִּתֵּן",
+        "נָתַן",
+        "he gave"
+      ],
+      [
+        "וַיַּעַשׂ",
+        "עָשָׂה",
+        "he did, made"
+      ],
+      [
+        "וַיָּקָם",
+        "קָם",
+        "he got up"
+      ],
+      [
+        "וַיַּעַן",
+        "עָנָה",
+        "he answered"
+      ],
+      [
+        "וְהָיָה",
+        "יִהְיֶה",
+        "and it will be: a past form with a future meaning"
+      ],
+      [
+        "אֲשֶׁר",
+        "שֶׁ",
+        "that, which, who"
+      ],
+      [
+        "הִנֵּה",
+        "הִנֵּה",
+        "behold, here is"
+      ],
+      [
+        "אַךְ",
+        "אֲבָל, רַק",
+        "but, only"
+      ]
+    ]
+  },
+  "groups": [
+    {
+      "id": "app",
+      "title": "B1: in this app",
+      "note": "Written to the course: only grammar you have covered, every hard word glossed, questions at the end.",
+      "items": [
+        {
+          "id": "app-b1-rakevet",
+          "title": "הָרַכֶּבֶת הָאַחֲרוֹנָה",
+          "en": "The last train",
+          "author": "HaMachberet",
+          "level": "B1",
+          "words": 170,
+          "blurb": "A night train that will not leave, a father's old story, and a stranger who knew him. One passage, glossed, with questions.",
+          "links": [
+            {
+              "label": "Open",
+              "url": "#/read/b1-01-ha-rakevet"
+            }
+          ]
+        },
+        {
+          "id": "app-b1-shutafa",
+          "title": "הַשּׁוּתָּפָה הַחֲדָשָׁה",
+          "en": "The new flatmate",
+          "author": "HaMachberet",
+          "level": "B1",
+          "words": 176,
+          "blurb": "Two candidates for a spare room, a week of hesitating, and one phone call too late. One passage, glossed, with questions.",
+          "links": [
+            {
+              "label": "Open",
+              "url": "#/read/b1-02-ha-shutafa"
+            }
+          ]
+        },
+        {
+          "id": "app-yerusha-1",
+          "title": "הַיְרוּשָּׁה, פְּרָקִים א-ה",
+          "en": "The inheritance, chapters 1-5",
+          "author": "HaMachberet",
+          "level": "B1",
+          "words": 1800,
+          "blurb": "A lawyer's letter reaches Haifa about a great-aunt Ido had almost forgotten, and a flat in Jerusalem with someone already inside. A serial, one chapter a day, glossed, with questions.",
+          "links": [
+            {
+              "label": "Start chapter א",
+              "url": "#/read/story-01-ha-yerusha"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "learners",
+      "title": "A2-B1: modern Hebrew, made easy",
+      "note": "Today's Hebrew, simplified for new immigrants and for Israeli kids. The easiest real Hebrew there is.",
+      "items": [
+        {
+          "id": "duostories",
+          "title": "סִיפּוּרֵי דּוּאוֹלִינְגוֹ",
+          "en": "Duolingo stories",
+          "author": "duostories.org",
+          "level": "A2",
+          "words": null,
+          "blurb": "24 short dialogue stories built for English speakers, with audio and a question between the lines. Free, no account.",
+          "links": [
+            {
+              "label": "Site",
+              "url": "https://duostories.org/he-en"
+            }
+          ],
+          "note": "Fan-made, not Duolingo's own."
+        },
+        {
+          "id": "hadshon",
+          "title": "חַדְשׁוֹן בְּעִבְרִית קַלָּה",
+          "en": "Hadshon: the news in easy Hebrew",
+          "author": "Ministry of Education",
+          "level": "B1",
+          "words": null,
+          "blurb": "The weekly news for new immigrants, the paper that replaced Sha'ar LaMatchil. Hard words carry their points and a Hebrew explanation. A new issue every week.",
+          "links": [
+            {
+              "label": "Site",
+              "url": "https://hadshon.education.gov.il/"
+            }
+          ]
+        },
+        {
+          "id": "hadshon-kids",
+          "title": "חַדְשׁוֹן לִילָדִים",
+          "en": "Hadshon for kids",
+          "author": "Ministry of Education",
+          "level": "B1",
+          "words": null,
+          "blurb": "The news page Israeli schools give 9-12 year olds: partly pointed, words explained, some articles read aloud.",
+          "links": [
+            {
+              "label": "Site",
+              "url": "https://pop.education.gov.il/tchumey_daat/ivrit_chinhch_leshony/yesodi/hadshon-ivrit/"
+            },
+            {
+              "label": "Archive",
+              "url": "https://pop.education.gov.il/tchumey_daat/ivrit_chinhch_leshony/yesodi/hadshon-ivrit/news-2023/"
+            }
+          ]
+        },
+        {
+          "id": "shaar-lamatchil",
+          "title": "שַׁעַר לַמַּתְחִיל",
+          "en": "Sha'ar LaMatchil, the archive",
+          "author": "Ministry of Education",
+          "level": "B1",
+          "words": null,
+          "blurb": "The pointed easy-Hebrew paper olim read from 1956 to 2012. Ten years of issues, free. The news is old; the Hebrew is not.",
+          "links": [
+            {
+              "label": "Archive",
+              "url": "https://adult-education.education.gov.il/publications/old-publish/gate/"
+            }
+          ]
+        },
+        {
+          "id": "wikikids",
+          "title": "וִיקִיקִידְס",
+          "en": "Wikikids",
+          "author": "Israeli kids",
+          "level": "B1",
+          "words": null,
+          "blurb": "The encyclopedia Israeli children write for each other. Pick any topic and read the opening.",
+          "links": [
+            {
+              "label": "Site",
+              "url": "https://www.wikikids.co.il/"
+            }
+          ],
+          "note": "No points: the place to practise reading without them."
+        }
+      ]
+    },
+    {
+      "id": "israeli-kids",
+      "title": "B1: Israeli children's classics",
+      "note": "Written in Hebrew for Israeli children, from the first Tel Aviv on. Modern Hebrew, and stories every Israeli grew up with.",
+      "items": [
+        {
+          "id": "kipnis-fox",
+          "title": "הַשּׁוּעָל הַמְעוֹפֵף",
+          "en": "The flying fox",
+          "author": "Levin Kipnis",
+          "level": "B1",
+          "words": null,
+          "blurb": "An animal story for small children by Levin Kipnis, who wrote many of the holiday songs Israeli kindergartens still sing. Fully pointed.",
+          "links": [
+            {
+              "label": "Hebrew",
+              "url": "https://benyehuda.org/read/27902"
+            }
+          ]
+        },
+        {
+          "id": "gutman-summer",
+          "title": "הַחוֹפֶשׁ הַגָּדוֹל, אוֹ: תַּעֲלוּמַת הָאַרְגָּזִים",
+          "en": "The long holiday, or the mystery of the crates",
+          "author": "Nahum Gutman",
+          "level": "B1",
+          "words": null,
+          "blurb": "Two schoolboys, Nahum and Ran, spend the summer in Rehovot during the First World War, under the Turks, and stumble on a mystery. A short novel for children.",
+          "links": [
+            {
+              "label": "Hebrew",
+              "url": "https://benyehuda.org/read/23603"
+            }
+          ]
+        },
+        {
+          "id": "gutman-orange",
+          "title": "שְׁבִיל קְלִיפּוֹת הַתַּפּוּזִים",
+          "en": "The path of orange peels",
+          "author": "Nahum Gutman",
+          "level": "B1",
+          "words": null,
+          "blurb": "Tel Aviv in the First World War, its people driven out. Nahum, fifteen, slips back in on a secret errand: money the town hid under a floor before it left. Gutman's own boyhood, told for children.",
+          "links": [
+            {
+              "label": "Hebrew",
+              "url": "https://benyehuda.org/read/24479"
+            }
+          ]
+        },
+        {
+          "id": "shmali-bereshit",
+          "title": "אַנְשֵׁי בְּרֵאשִׁית",
+          "en": "People of the beginning",
+          "author": "Eliezer Shmali",
+          "level": "B1",
+          "words": null,
+          "blurb": "The Zeid family, pioneer watchmen, settle alone on a hill in the Jezreel valley. Written for children in 1933 and a classic ever since.",
+          "links": [
+            {
+              "label": "Hebrew",
+              "url": "https://benyehuda.org/read/28953"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legends",
+      "title": "B1: legends and fables",
+      "note": "The legends every Israeli child knows, retold for children. Bialik wrote his in a Biblical style: the table above covers it.",
+      "items": [
+        {
+          "id": "snunit-aggadah",
+          "title": "אֲתַר הָאַגָּדָה לִילָדִים",
+          "en": "Legends for children",
+          "author": "Snunit, Hebrew University",
+          "level": "B1",
+          "words": null,
+          "blurb": "Over a hundred legends of the Sages retold for children, illustrated, and every one read aloud. Listen once, then read.",
+          "links": [
+            {
+              "label": "Site",
+              "url": "https://www.snunit.k12.il/projects/15"
+            }
+          ]
+        },
+        {
+          "id": "aesop",
+          "title": "מִשְׁלֵי אִיסוֹפּוֹס",
+          "en": "Aesop's fables",
+          "author": "Aesop, trans. Shlomo Spann",
+          "level": "B1",
+          "words": null,
+          "blurb": "The fox and the grapes and a hundred more, a paragraph each: the shortest complete stories in this list.",
+          "links": [
+            {
+              "label": "Hebrew",
+              "url": "https://benyehuda.org/read/11436"
+            }
+          ]
+        },
+        {
+          "id": "bialik-bee",
+          "title": "שְׁלֹמֹה הַמֶּלֶךְ וְהַדְּבוֹרָה",
+          "en": "King Solomon and the bee",
+          "author": "H. N. Bialik",
+          "level": "B1",
+          "words": null,
+          "blurb": "A bee stings the sleeping king and he lets her go. Years later the Queen of Sheba sets him a test no wisdom can pass, and the bee pays him back.",
+          "links": [
+            {
+              "label": "Hebrew",
+              "url": "https://benyehuda.org/read/181"
+            }
+          ]
+        },
+        {
+          "id": "bialik-three-four",
+          "title": "אַגָּדַת שְׁלוֹשָׁה וְאַרְבָּעָה",
+          "en": "The legend of three and four",
+          "author": "H. N. Bialik",
+          "level": "B2",
+          "words": null,
+          "blurb": "Solomon reads in the stars that his daughter will marry a pauper and locks her in a tower on an island. Fate finds a way. The longest and best loved of Bialik's legends.",
+          "links": [
+            {
+              "label": "Hebrew",
+              "url": "https://benyehuda.org/read/5530"
+            }
+          ]
+        },
+        {
+          "id": "bialik-onions",
+          "title": "אַלּוּף בְּצָלוֹת וְאַלּוּף שׁוּם",
+          "en": "The prince of onions and the prince of garlic",
+          "author": "H. N. Bialik",
+          "level": "B2",
+          "words": null,
+          "blurb": "A merchant brings a faraway king something his land has never tasted and sails home rich; an envious rival tries to do better. Rhymed prose in twelve short chapters, a children's classic.",
+          "links": [
+            {
+              "label": "Hebrew",
+              "url": "https://benyehuda.org/read/1231"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "translated",
+      "title": "B1+: classics in Hebrew translation",
+      "note": "Translated, not written in Hebrew: stories you already know, which makes them the easiest long reads here. Old translations, so old spelling.",
+      "items": [
+        {
+          "id": "andersen-pea",
+          "title": "בַּת הַמֶּלֶךְ עַל הָעֲדָשָׁה",
+          "en": "The princess and the pea",
+          "author": "H. C. Andersen, trans. David Frishman",
+          "level": "B1",
+          "words": null,
+          "blurb": "The princess who cannot sleep on a single lentil, here, rather than a pea. One page: the shortest Andersen.",
+          "links": [
+            {
+              "label": "Hebrew",
+              "url": "https://benyehuda.org/read/2110"
+            }
+          ]
+        },
+        {
+          "id": "andersen-clothes",
+          "title": "בִּגְדֵי הַמֶּלֶךְ הַחֲדָשִׁים",
+          "en": "The emperor's new clothes",
+          "author": "H. C. Andersen, trans. David Frishman",
+          "level": "B1",
+          "words": null,
+          "blurb": "Two swindlers, a cloth nobody can see, and the child who says so out loud.",
+          "links": [
+            {
+              "label": "Hebrew",
+              "url": "https://benyehuda.org/read/8233"
+            }
+          ]
+        },
+        {
+          "id": "andersen-nightingale",
+          "title": "הַזָּמִיר",
+          "en": "The nightingale",
+          "author": "H. C. Andersen, trans. David Frishman",
+          "level": "B1",
+          "words": null,
+          "blurb": "The emperor of China prefers a clockwork bird to the real one, until he is dying.",
+          "links": [
+            {
+              "label": "Hebrew",
+              "url": "https://benyehuda.org/read/7823"
+            }
+          ]
+        },
+        {
+          "id": "grimm-table",
+          "title": "שׁוּלְחָן עָרוּךְ, חֲמוֹר זָהָב וּמַקֵּל",
+          "en": "The wishing table, the gold donkey and the cudgel",
+          "author": "Brothers Grimm, trans. David Frishman",
+          "level": "B1",
+          "words": null,
+          "blurb": "Three brothers, three magic gifts, and an innkeeper who steals two of them. Frishman gave everyone Hebrew names.",
+          "links": [
+            {
+              "label": "Hebrew",
+              "url": "https://benyehuda.org/read/59081"
+            }
+          ]
+        },
+        {
+          "id": "sholem-hanukkah",
+          "title": "מָעוֹת שֶׁל חֲנוּכָּה",
+          "en": "Hanukkah money",
+          "author": "Sholem Aleichem, trans. Y. D. Berkowitz",
+          "level": "B1",
+          "words": null,
+          "blurb": "Two small brothers make the rounds of the relatives collecting Hanukkah coins, and count them after every visit. Translated from Yiddish by the author's son-in-law.",
+          "links": [
+            {
+              "label": "Hebrew",
+              "url": "https://benyehuda.org/read/43527"
+            }
+          ]
+        },
+        {
+          "id": "ali-baba",
+          "title": "עֲלִי בָּאבָּא וְאַרְבָּעִים הַשּׁוֹדְדִים",
+          "en": "Ali Baba and the forty thieves",
+          "author": "The Thousand and One Nights, trans. Y. Y. Rivlin",
+          "level": "B1",
+          "words": null,
+          "blurb": "Open sesame. From Rivlin's Thousand and One Nights, fully pointed.",
+          "links": [
+            {
+              "label": "Hebrew",
+              "url": "https://benyehuda.org/read/17705"
+            }
+          ]
+        },
+        {
+          "id": "little-prince",
+          "title": "הַנָּסִיךְ הַקָּטָן",
+          "en": "The Little Prince",
+          "author": "Saint-Exupéry, trans. Arie Lerner",
+          "level": "B1",
+          "words": 12000,
+          "blurb": "The pilot, the boy from a very small planet, the fox and the rose. Plain Hebrew, short chapters, and you know the story.",
+          "links": [
+            {
+              "label": "Hebrew",
+              "url": "https://benyehuda.org/read/4041"
+            }
+          ]
+        },
+        {
+          "id": "pinocchio",
+          "title": "פִּינוֹקְיוֹ",
+          "en": "Pinocchio",
+          "author": "Carlo Collodi, trans. Yisrael Dushman",
+          "level": "B1",
+          "words": 30000,
+          "blurb": "The wooden boy whose nose gives him away. A whole book in short chapters.",
+          "links": [
+            {
+              "label": "Hebrew",
+              "url": "https://benyehuda.org/read/11440"
+            }
+          ]
+        },
+        {
+          "id": "sholem-motl",
+          "title": "מוֹטְל בֶּן פֵּייסִי הַחַזָּן",
+          "en": "Motl, the cantor's son",
+          "author": "Sholem Aleichem, trans. Y. D. Berkowitz",
+          "level": "B2",
+          "words": 50000,
+          "blurb": "An orphan boy tells, cheerfully, how his family loses everything and sets off for America. A book, but every chapter stands alone.",
+          "links": [
+            {
+              "label": "Hebrew",
+              "url": "https://benyehuda.org/read/27848"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "israeli-stories",
+      "title": "B2: Israeli short stories",
+      "note": "Grown-up fiction in the Hebrew Israelis actually speak, from the 1900s to the 1950s. Mostly unpointed: switch the points off in the app first and get used to it.",
+      "items": [
+        {
+          "id": "app-yerusha-2",
+          "title": "הַיְרוּשָּׁה, פְּרָקִים ו-י",
+          "en": "The inheritance, chapters 6-10",
+          "author": "HaMachberet",
+          "level": "B2",
+          "words": 1840,
+          "blurb": "The second half of the serial: a lawyer's drawer, a biscuit tin of letters, and what the grandmother had arranged. The bridge into B2.",
+          "links": [
+            {
+              "label": "Start chapter ו",
+              "url": "#/read/story-06-mah-she-tzarikh"
+            }
+          ]
+        },
+        {
+          "id": "tammuz-sands",
+          "title": "חוֹלוֹת הַזָּהָב",
+          "en": "Golden sands",
+          "author": "Binyamin Tammuz",
+          "level": "B2",
+          "words": null,
+          "blurb": "A boy walks alone in the sand dunes, remembering his mother. The title story of Tammuz's first book, and there is a recording to read along with.",
+          "links": [
+            {
+              "label": "Hebrew",
+              "url": "https://benyehuda.org/read/9150"
+            },
+            {
+              "label": "Read aloud",
+              "url": "https://www.youtube.com/watch?v=63g6SWELmsA"
+            }
+          ]
+        },
+        {
+          "id": "tammuz-ofek",
+          "title": "אוֹפֶק",
+          "en": "Horizon",
+          "author": "Binyamin Tammuz",
+          "level": "B2",
+          "words": null,
+          "blurb": "The smallest of forty children on his way to school, and the class that never lets him forget it.",
+          "links": [
+            {
+              "label": "Hebrew",
+              "url": "https://benyehuda.org/read/9151"
+            }
+          ]
+        },
+        {
+          "id": "tammuz-swimming",
+          "title": "תַּחֲרוּת שְׂחִיָּיה",
+          "en": "The swimming race",
+          "author": "Binyamin Tammuz",
+          "level": "B2",
+          "words": null,
+          "blurb": "A Jewish boy spends a day in the orange grove of a grateful Arab family and loses a swimming race to their son, Abdul-Karim. He comes back to the same grove in 1948. One of the best known Israeli short stories.",
+          "links": [
+            {
+              "label": "Hebrew",
+              "url": "https://benyehuda.org/read/9162"
+            }
+          ]
+        },
+        {
+          "id": "smilansky-hadera",
+          "title": "חַדְרָה",
+          "en": "Hadera",
+          "author": "Moshe Smilansky",
+          "level": "B2",
+          "words": null,
+          "blurb": "Stories of the first Jewish villages and their Arab neighbours, by a farmer who lived in Rehovot from 1890. Start with this one; the author page has dozens more.",
+          "links": [
+            {
+              "label": "Hebrew",
+              "url": "https://benyehuda.org/read/26304"
+            },
+            {
+              "label": "More by him",
+              "url": "https://benyehuda.org/author/727"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "short",
+      "title": "B2: the classics, 1890-1930",
+      "note": "The generation that made Hebrew a literature again, before it was a spoken language. Older words and old spelling: read them for the stories.",
+      "items": [
+        {
+          "id": "peretz-higher",
+          "title": "אִם לֹא לְמַעְלָה מִזֶּה",
+          "en": "If not higher",
+          "author": "Y. L. Peretz",
+          "level": "B2",
+          "words": null,
+          "blurb": "Every year before the High Holidays the rebbe of Nemirov disappears, and the town says he goes up to heaven. A sceptic from Lithuania hides under his bed to see where he really goes. Every Israeli reads it at school.",
+          "links": [
+            {
+              "label": "Hebrew",
+              "url": "https://benyehuda.org/read/1121"
+            }
+          ]
+        },
+        {
+          "id": "peretz-gifts",
+          "title": "שָׁלוֹשׁ מַתָּנוֹת",
+          "en": "Three gifts",
+          "author": "Y. L. Peretz",
+          "level": "B2",
+          "words": null,
+          "blurb": "A soul is turned away at the gate of heaven and sent back to find three gifts worth bringing. A folk tale, dark and moving.",
+          "links": [
+            {
+              "label": "Hebrew",
+              "url": "https://benyehuda.org/read/1009"
+            }
+          ]
+        },
+        {
+          "id": "peretz-bontshe",
+          "title": "בּוֹנְצִי שְׁתוֹק",
+          "en": "Bontshe the silent",
+          "author": "Y. L. Peretz, trans. Shimshon Meltzer",
+          "level": "B2",
+          "words": null,
+          "blurb": "A man who never once complained arrives in heaven, and is told he may have anything he wants.",
+          "links": [
+            {
+              "label": "Hebrew",
+              "url": "https://benyehuda.org/read/1074"
+            }
+          ]
+        },
+        {
+          "id": "chekhov-grief",
+          "title": "יָגוֹן",
+          "en": "Grief",
+          "author": "Anton Chekhov, trans. Devorah Baron",
+          "level": "B2",
+          "words": null,
+          "blurb": "A sledge driver whose son has died spends a snowy night looking for someone who will listen. Translated by one of the best Hebrew stylists of her day.",
+          "links": [
+            {
+              "label": "Hebrew",
+              "url": "https://benyehuda.org/read/24804"
+            }
+          ]
+        },
+        {
+          "id": "baron-kritut",
+          "title": "כְּרִיתוּת",
+          "en": "Divorce",
+          "author": "Devorah Baron",
+          "level": "B2",
+          "words": null,
+          "blurb": "Ten years married and no child: by the law of the town the couple must part. Baron's women of the shtetl, told without a wasted word.",
+          "links": [
+            {
+              "label": "Hebrew",
+              "url": "https://benyehuda.org/read/24690"
+            }
+          ]
+        },
+        {
+          "id": "bialik-trumpet",
+          "title": "הַחֲצוֹצְרָה נִתְבַּיְּישָׁה",
+          "en": "The trumpet was ashamed",
+          "author": "H. N. Bialik",
+          "level": "B2",
+          "words": null,
+          "blurb": "A Jewish family in a Russian village, a decree against them, and a trumpet. Bialik's last story, and his plainest.",
+          "links": [
+            {
+              "label": "Hebrew",
+              "url": "https://benyehuda.org/read/6501"
+            }
+          ]
+        },
+        {
+          "id": "bialik-fence",
+          "title": "מֵאֲחוֹרֵי הַגָּדֵר",
+          "en": "Behind the fence",
+          "author": "H. N. Bialik",
+          "level": "B2",
+          "words": null,
+          "blurb": "Noah, a Jewish boy, and Marinka, the orphan girl in the yard next door, and the fence their families keep between them. Bialik's best known story.",
+          "links": [
+            {
+              "label": "Hebrew",
+              "url": "https://benyehuda.org/read/5279"
+            }
+          ]
+        },
+        {
+          "id": "bialik-sefiah",
+          "title": "סָפִיחַ",
+          "en": "Aftergrowth",
+          "author": "H. N. Bialik",
+          "level": "B2",
+          "words": null,
+          "blurb": "Bialik remembers being very small: the village, the forest, the first fears. Lyrical and slow, the hardest Bialik here.",
+          "links": [
+            {
+              "label": "Hebrew",
+              "url": "https://benyehuda.org/read/6377"
+            }
+          ]
+        },
+        {
+          "id": "barash-brewery",
+          "title": "תְּמוּנוֹת מִבֵּית מְבַשֵּׁל הַשֵּׁכָר",
+          "en": "Pictures from a brewery",
+          "author": "Asher Barash",
+          "level": "B2",
+          "words": null,
+          "blurb": "A Jewish woman runs the brewery of a small Galician town, and the town's whole life passes through her yard. A short novel in scenes.",
+          "links": [
+            {
+              "label": "Hebrew",
+              "url": "https://benyehuda.org/read/34577"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bible",
+      "title": "B2+: three Bible stories, side by side",
+      "note": "Archaic Hebrew: the vav that flips the tense, old words, old spelling. Read them for the stories Israelis quote, not as a model for your own Hebrew.",
+      "items": [
+        {
+          "id": "bible-jonah",
+          "title": "יוֹנָה",
+          "en": "Jonah",
+          "author": "The book of Jonah",
+          "level": "B2",
+          "words": 690,
+          "blurb": "A prophet runs from God, spends three days inside a fish, and sulks when the city he warned is spared. Four short chapters: the easiest whole book.",
+          "links": [
+            {
+              "label": "Side by side",
+              "url": "https://www.sefaria.org/Jonah.1?lang=bi"
+            },
+            {
+              "label": "Parallel, JPS 1917",
+              "url": "https://mechon-mamre.org/p/pt/pt1701.htm"
+            }
+          ]
+        },
+        {
+          "id": "bible-ruth",
+          "title": "רוּת",
+          "en": "Ruth",
+          "author": "The book of Ruth",
+          "level": "B2",
+          "words": 1300,
+          "blurb": "A widow follows her mother-in-law to Bethlehem: your people shall be my people. Mostly dialogue, and gentle.",
+          "links": [
+            {
+              "label": "Side by side",
+              "url": "https://www.sefaria.org/Ruth.1?lang=bi"
+            },
+            {
+              "label": "Parallel, JPS 1917",
+              "url": "https://mechon-mamre.org/p/pt/pt2901.htm"
+            }
+          ]
+        },
+        {
+          "id": "bible-david",
+          "title": "דָּוִד וְגוֹלְיָית",
+          "en": "David and Goliath",
+          "author": "1 Samuel 17",
+          "level": "B2",
+          "words": 1000,
+          "blurb": "A shepherd boy, five stones and a giant. Armour, insults and long speeches.",
+          "links": [
+            {
+              "label": "Side by side",
+              "url": "https://www.sefaria.org/I_Samuel.17?lang=bi"
+            },
+            {
+              "label": "Parallel, JPS 1917",
+              "url": "https://mechon-mamre.org/p/pt/pt08a17.htm"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "more": [
+    {
+      "label": "Nahum Gutman, all his books for children",
+      "url": "https://benyehuda.org/author/760"
+    },
+    {
+      "label": "Children's and young people's books on Project Ben-Yehuda",
+      "url": "https://benyehuda.org/tag/40"
+    },
+    {
+      "label": "Bialik, everything he wrote",
+      "url": "https://benyehuda.org/bialik"
+    },
+    {
+      "label": "Y. L. Peretz on Project Ben-Yehuda",
+      "url": "https://benyehuda.org/author/155"
+    },
+    {
+      "label": "Andersen in Hebrew, fifty tales",
+      "url": "https://benyehuda.org/author/237"
+    },
+    {
+      "label": "Israel Folktale Archives, University of Haifa",
+      "url": "https://ifa.haifa.ac.il/index.php/en/"
+    },
+    {
+      "label": "Free materials for Hebrew learners (World Zionist Organization)",
+      "url": "https://ivrit.wzo.org.il/materials/searchresult?tagid=66"
+    }
+  ]
+}
