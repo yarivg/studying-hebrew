@@ -1,0 +1,219 @@
+{
+  "id": "translate-story-08-ma-she-af-ekhad",
+  "passage": "story-08-ma-she-af-ekhad",
+  "title": "What nobody talked about",
+  "questions": [
+    {
+      "id": "translate-story-08-ma-she-af-ekhad-01",
+      "type": "translate",
+      "q": "This is the only letter she kept.",
+      "a": [
+        "זֶה הַמִּכְתָּב הַיָּחִיד שֶׁהִיא שָׁמְרָה.",
+        "[זה|זהו] המכתב היחיד [שהיא שמרה|ששמרה][ אותו|]"
+      ],
+      "hint": [
+        "הַיְּחִידָה"
+      ],
+      "why": "For a direct object the pronoun left behind is optional: שֶׁהִיא שָׁמְרָה and שֶׁהִיא שָׁמְרָה אוֹתוֹ are both right. The adjective repeats the article: הַמִּכְתָּב הַיָּחִיד."
+    },
+    {
+      "id": "translate-story-08-ma-she-af-ekhad-02",
+      "type": "translate",
+      "q": "Ruth knows the letter by heart.",
+      "a": [
+        "רוּת יוֹדַעַת אֶת הַמִּכְתָּב בְּעַל פֶּה.",
+        "רות [יודעת|זוכרת] את המכתב בעל פה",
+        "רות [יודעת|זוכרת] בעל פה את המכתב"
+      ],
+      "hint": [
+        "בְּעַל פֶּה"
+      ],
+      "why": "The phrase בְּעַל פֶּה, literally 'on the mouth', is Hebrew for 'by heart'. It goes with יוֹדַעַת or זוֹכֶרֶת, and the definite letter takes אֶת."
+    },
+    {
+      "id": "translate-story-08-ma-she-af-ekhad-03",
+      "type": "translate",
+      "q": "This is the chair Odelya sat on.",
+      "a": [
+        "זֶה הַכִּיסֵּא שֶׁאוֹדֶלְיָה יָשְׁבָה עָלָיו.",
+        "[זה|זהו] [הכיסא|הכסא] [שאודליה ישבה עליו|שעליו ישבה אודליה|שעליו אודליה ישבה]"
+      ],
+      "hint": [
+        "כִּיסֵּא",
+        "עָלָיו"
+      ],
+      "why": "After a preposition the pronoun left behind can never be dropped: שֶׁאוֹדֶלְיָה יָשְׁבָה עָלָיו, 'that Odelya sat on it'. A more formal sentence moves it forward: שֶׁעָלָיו יָשְׁבָה."
+    },
+    {
+      "id": "translate-story-08-ma-she-af-ekhad-04",
+      "type": "translate",
+      "q": "Ido did not come to argue, but to understand.",
+      "a": [
+        "עִידוֹ לֹא בָּא כְּדֵי לְהִתְוַוכֵּחַ, אֶלָּא כְּדֵי לְהָבִין.",
+        "עידו לא [בא|הגיע] [כדי |בשביל |]להתווכח אלא [כדי |בשביל |]להבין",
+        "עידו לא [בא|הגיע] [כדי |בשביל |]להתווכח הוא [בא|הגיע] [כדי |בשביל |]להבין"
+      ],
+      "hint": [
+        "אֶלָּא",
+        "כְּדֵי"
+      ],
+      "why": "After a negative, the 'but' that means 'but instead' is אֶלָּא, not אֲבָל: לֹא כְּדֵי לְהִתְוַוכֵּחַ אֶלָּא כְּדֵי לְהָבִין. The word אֲבָל adds a second fact; אֶלָּא replaces the first."
+    },
+    {
+      "id": "translate-story-08-ma-she-af-ekhad-05",
+      "type": "translate",
+      "q": "Ruth spoke quietly so that the neighbours would not hear.",
+      "a": [
+        "רוּת דִּיבְּרָה בְּשֶׁקֶט כְּדֵי שֶׁהַשְּׁכֵנִים לֹא יִשְׁמְעוּ.",
+        "רות דיברה [בשקט|בקול נמוך|חלש] כדי [שהשכנים לא ישמעו|שלא ישמעו השכנים|שהשכנים לא ישמעו אותה|שהשכנים לא ישמעו אותם|שלא ישמעו אותה השכנים]"
+      ],
+      "hint": [
+        "כְּדֵי שֶׁלֹּא"
+      ],
+      "why": "With a new subject, purpose is כְּדֵי שֶׁ plus the future, and the negative sits inside the clause: שֶׁהַשְּׁכֵנִים לֹא יִשְׁמְעוּ, or straight after שֶׁ: כְּדֵי שֶׁלֹּא יִשְׁמְעוּ."
+    },
+    {
+      "id": "translate-story-08-ma-she-af-ekhad-06",
+      "type": "translate",
+      "q": "Ruth shrugged and said she had no idea.",
+      "a": [
+        "רוּת מָשְׁכָה בַּכְּתֵפַיִים וְאָמְרָה שֶׁאֵין לָהּ מוּשָׂג.",
+        "רות משכה [בכתפיים|בכתפים|בכתפיה] ואמרה [שאין לה|שאין לה שום] מושג"
+      ],
+      "hint": [
+        "מָשְׁכָה בַּכְּתֵפַיִים",
+        "מוּשָׂג"
+      ],
+      "why": "Reported speech keeps the present she used, 'I have no idea': שֶׁאֵין לָהּ מוּשָׂג, not a backshifted לֹא הָיָה. Hebrew shrugs 'by the shoulders', with בְּ."
+    },
+    {
+      "id": "translate-story-08-ma-she-af-ekhad-07",
+      "type": "translate",
+      "q": "Ido held his breath while he was reading the letter.",
+      "a": [
+        "עִידוֹ עָצַר אֶת הַנְּשִׁימָה בִּזְמַן שֶׁהוּא קָרָא אֶת הַמִּכְתָּב.",
+        "עידו עצר את [הנשימה|נשימתו|הנשימה שלו] [בזמן שהוא קרא|בזמן שקרא|כשהוא קרא|כשקרא|כשהוא קורא|בזמן שהוא קורא] את המכתב",
+        "עידו עצר את [הנשימה|נשימתו|הנשימה שלו] [תוך כדי קריאת|בזמן קריאת|בשעת קריאת] המכתב"
+      ],
+      "hint": [
+        "עוֹצֵר אֶת הַנְּשִׁימָה"
+      ],
+      "why": "The word 'while' is בִּזְמַן שֶׁ or כְּשֶׁ, with a past verb or, from inside the moment, a present one. A verbal noun shortens it: תּוֹךְ כְּדֵי קְרִיאַת הַמִּכְתָּב."
+    },
+    {
+      "id": "translate-story-08-ma-she-af-ekhad-08",
+      "type": "translate",
+      "q": "Kiss the children for me.",
+      "a": [
+        "נַשְּׁקִי אֶת הַיְּלָדִים בִּשְׁבִילִי.",
+        "[נשק|נשקי|נשקו|תנשק|תנשקי|תנשקו] [את הילדים|לילדים] [בשבילי|ממני]"
+      ],
+      "hint": [
+        "נַשְּׁקִי"
+      ],
+      "why": "Written Hebrew gives orders with the imperative, נַשְּׁקִי; speech uses the future, תְּנַשְּׁקִי. The verb takes אֶת, or in older style לְ, as in the letter: נַשְּׁקִי לַיְּלָדִים."
+    },
+    {
+      "id": "translate-story-08-ma-she-af-ekhad-09",
+      "type": "translate",
+      "q": "Ruth spoke about it as if it had happened yesterday.",
+      "a": [
+        "רוּת דִּיבְּרָה עַל זֶה כְּאִילּוּ זֶה קָרָה אֶתְמוֹל.",
+        "רות דיברה על זה כאילו [זה קרה|קרה|זה היה] [|רק ]אתמול"
+      ],
+      "hint": [
+        "כְּאִילּוּ"
+      ],
+      "why": "The word כְּאִילּוּ, 'as if', takes an ordinary clause in the tense the event really has: כְּאִילּוּ זֶה קָרָה אֶתְמוֹל. Hebrew has no special verb form to switch to, and no past perfect."
+    },
+    {
+      "id": "translate-story-08-ma-she-af-ekhad-10",
+      "type": "translate",
+      "q": "Nobody asked the children; they decided for them.",
+      "a": [
+        "אַף אֶחָד לֹא שָׁאַל אֶת הַיְּלָדִים; הֶחְלִיטוּ בִּמְקוֹמָם.",
+        "[אף אחד|איש] לא שאל את הילדים [|ו|הם |והם ]החליטו [במקומם|בשבילם]"
+      ],
+      "hint": [
+        "הֶחְלִיטוּ",
+        "בִּמְקוֹמְכֶם"
+      ],
+      "why": "An impersonal 'they' is a plural verb with no subject: הֶחְלִיטוּ, meaning the adults. The word בִּמְקוֹם, 'instead of', takes the plural endings: בִּמְקוֹמָם, in their place."
+    },
+    {
+      "id": "translate-story-08-ma-she-af-ekhad-11",
+      "type": "translate",
+      "q": "Odelya chose a life that nobody in the family talked about.",
+      "a": [
+        "אוֹדֶלְיָה בָּחֲרָה בְּחַיִּים שֶׁאַף אֶחָד בַּמִּשְׁפָּחָה לֹא דִּיבֵּר עֲלֵיהֶם.",
+        "אודליה בחרה [ב|]חיים [שאף אחד|שאיש] במשפחה לא דיבר עליהם",
+        "אודליה בחרה [ב|]חיים שעליהם [אף אחד|איש] במשפחה לא דיבר"
+      ],
+      "hint": [
+        "בָּחַרְתְּ",
+        "עֲלֵיהֶם"
+      ],
+      "why": "The pronoun left behind agrees with what it stands for, and חַיִּים is plural, so עֲלֵיהֶם. Hebrew cannot end a clause on a bare preposition the way English ends on 'about'."
+    },
+    {
+      "id": "translate-story-08-ma-she-af-ekhad-12",
+      "type": "translate",
+      "q": "Odelya said that cowardice is worse than malice.",
+      "a": [
+        "אוֹדֶלְיָה אָמְרָה שֶׁפַּחְדָנוּת גְּרוּעָה יוֹתֵר מֵרוֹעַ.",
+        "אודליה אמרה ש[פחדנות|הפחדנות] [גרועה יותר|יותר גרועה|גרועה] [מרוע|מאשר רוע|מהרוע]"
+      ],
+      "hint": [
+        "פַּחְדָנִית",
+        "רוֹעַ"
+      ],
+      "why": "A noun ending in ־וּת is feminine, so the adjective is גְּרוּעָה. The word for 'than' is מִ, which turns into מֵ before ר: מֵרוֹעַ, and reported speech keeps her present tense."
+    },
+    {
+      "id": "translate-story-08-ma-she-af-ekhad-13",
+      "type": "translate",
+      "q": "Ido's grandmother did not answer any of the letters except one.",
+      "a": [
+        "סַבְתָּא שֶׁל עִידוֹ לֹא עָנְתָה עַל אַף אֶחָד מֵהַמִּכְתָּבִים חוּץ מֵאֶחָד.",
+        "[סבתא של עידו|סבתו של עידו] לא ענתה [על|ל]אף אחד מהמכתבים חוץ [מאחד|ממכתב אחד]",
+        "[סבתא של עידו|סבתו של עידו] לא ענתה [על|ל]אף מכתב חוץ [מאחד|ממכתב אחד]",
+        "[סבתא של עידו|סבתו של עידו] ענתה רק [על|ל][מכתב אחד|אחד מהמכתבים]"
+      ],
+      "hint": [
+        "אַף אֶחָד",
+        "עָנְתָה"
+      ],
+      "why": "The phrase 'not any' is לֹא on the verb with אַף אֶחָד מֵ after it: לֹא עָנְתָה עַל אַף אֶחָד מֵהַמִּכְתָּבִים. 'Except' is חוּץ מִ."
+    },
+    {
+      "id": "translate-story-08-ma-she-af-ekhad-14",
+      "type": "translate",
+      "q": "The children they wanted to protect were Ido and his sister.",
+      "a": [
+        "הַיְּלָדִים שֶׁרָצוּ לְהָגֵן עֲלֵיהֶם הָיוּ עִידוֹ וְהָאָחוֹת שֶׁלּוֹ.",
+        "הילדים [שהם רצו|שרצו] להגן עליהם היו עידו [והאחות שלו|ואחותו|ומיכל]",
+        "הילדים שעליהם [הם |]רצו להגן היו עידו [והאחות שלו|ואחותו|ומיכל]"
+      ],
+      "hint": [
+        "לְהָגֵן",
+        "עֲלֵיכֶם"
+      ],
+      "why": "The pronoun left behind belongs to the verb that needs it, לְהָגֵן עַל, and agrees with הַיְּלָדִים: עֲלֵיהֶם. The main verb is plural to match: הָיוּ."
+    },
+    {
+      "id": "translate-story-08-ma-she-af-ekhad-15",
+      "type": "translate",
+      "q": "What made the silence unbearable was the sentence about the children.",
+      "a": [
+        "מַה שֶּׁעָשָׂה אֶת הַשֶּׁקֶט בִּלְתִּי נִסְבָּל הָיָה הַמִּשְׁפָּט עַל הַיְּלָדִים.",
+        "מה שעשה את השקט [בלתי נסבל|לבלתי נסבל] [היה|זה היה|זה] המשפט על הילדים",
+        "מה שהפך את השקט לבלתי נסבל [היה|זה היה|זה] המשפט על הילדים",
+        "המשפט על הילדים [היה|זה] מה [שעשה את השקט בלתי נסבל|שעשה את השקט לבלתי נסבל|שהפך את השקט לבלתי נסבל]"
+      ],
+      "hint": [
+        "בִּלְתִּי נִסְבָּל"
+      ],
+      "why": "The phrase מַה שֶּׁ, 'what', opens a clause that serves as the subject, linked to the rest by הָיָה, or in speech by זֶה. The prefix בִּלְתִּי turns an adjective round: נִסְבָּל, bearable; בִּלְתִּי נִסְבָּל, unbearable."
+    }
+  ]
+}

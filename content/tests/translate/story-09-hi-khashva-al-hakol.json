@@ -1,0 +1,216 @@
+{
+  "id": "translate-story-09-hi-khashva-al-hakol",
+  "passage": "story-09-hi-khashva-al-hakol",
+  "title": "She thought of everything",
+  "questions": [
+    {
+      "id": "translate-story-09-hi-khashva-al-hakol-01",
+      "type": "translate",
+      "q": "Ido was not angry with his mother.",
+      "a": [
+        "עִידוֹ לֹא כָּעַס עַל אִימָּא שֶׁלּוֹ.",
+        "עידו לא כעס על [אימא שלו|אמו]",
+        "עידו לא כעס על אמו"
+      ],
+      "hint": [
+        "תִּכְעַס"
+      ],
+      "why": "Being angry is a verb in Hebrew, כָּעַס, so there is no word for 'was'. The person you are angry with takes עַל: כָּעַס עַל."
+    },
+    {
+      "id": "translate-story-09-hi-khashva-al-hakol-02",
+      "type": "translate",
+      "q": "The phone is ringing; that will be the lawyer.",
+      "a": [
+        "הַטֶּלֶפוֹן מְצַלְצֵל, זֶה יִהְיֶה עוֹרֵךְ הַדִּין.",
+        "הטלפון מצלצל [ו|][זה יהיה|זה בטח|זה ודאי|בטח זה|ודאי זה|זה כנראה|כנראה זה] [עורך הדין|שמיר|עורך הדין שמיר]"
+      ],
+      "hint": [
+        "יִהְיֶה",
+        "וַדַּאי"
+      ],
+      "why": "Hebrew can use the future for a guess about the present: זֶה יִהְיֶה עוֹרֵךְ הַדִּין, 'that will be the lawyer'. In speech בֶּטַח or וַדַּאי does the same job with no future at all."
+    },
+    {
+      "id": "translate-story-09-hi-khashva-al-hakol-03",
+      "type": "translate",
+      "q": "The flat was registered in Ido's name.",
+      "a": [
+        "הַדִּירָה נִרְשְׁמָה עַל שֵׁם עִידוֹ.",
+        "הדירה נרשמה על [שם עידו|שמו של עידו|השם של עידו]"
+      ],
+      "hint": [
+        "נִרְשַׁם"
+      ],
+      "why": "The verb נִרְשְׁמָה is nif'al, the passive of רָשַׁם, and it agrees like any verb: הַדִּירָה is feminine. 'In someone's name' is עַל שֵׁם."
+    },
+    {
+      "id": "translate-story-09-hi-khashva-al-hakol-04",
+      "type": "translate",
+      "q": "The document was signed in 1998.",
+      "a": [
+        "הַמִּסְמָךְ נֶחְתַּם בִּשְׁנַת 1998.",
+        "המסמך נחתם [בשנת |ב]1998",
+        "[בשנת |ב]1998 [נחתם המסמך|המסמך נחתם]"
+      ],
+      "hint": [
+        "נִכְתַּב"
+      ],
+      "why": "The verb נֶחְתַּם is the nif'al of חָתַם: the document did not sign, it was signed. Nif'al past starts with נִ, or with נֶ before a guttural such as ח."
+    },
+    {
+      "id": "translate-story-09-hi-khashva-al-hakol-05",
+      "type": "translate",
+      "q": "Ido hesitated before he picked up the phone.",
+      "a": [
+        "עִידוֹ הִיסֵּס לִפְנֵי שֶׁהֵרִים אֶת הַטֶּלֶפוֹן.",
+        "עידו היסס לפני [שהוא הרים|שהרים] את [הטלפון|השפופרת]",
+        "עידו היסס לפני [שהוא ענה|שענה][ לטלפון|]"
+      ],
+      "hint": [
+        "לְהַסֵּס",
+        "הֵרִים"
+      ],
+      "why": "The verb הִיסֵּס is pi'el, with the doubled middle letter and no ending for 'he'. After לִפְנֵי שֶׁ the second verb is a plain past: שֶׁהֵרִים."
+    },
+    {
+      "id": "translate-story-09-hi-khashva-al-hakol-06",
+      "type": "translate",
+      "q": "The papers were prepared by a lawyer.",
+      "a": [
+        "הַמִּסְמָכִים הוּכְנוּ עַל יְדֵי עוֹרֵךְ דִּין.",
+        "[המסמכים|הניירות] הוכנו [על ידי|עי] [עורך|עורכת] דין"
+      ],
+      "hint": [
+        "הוּכַן"
+      ],
+      "why": "The verb הוּכְנוּ is hof'al, the passive of הֵכִין, marked by the וּ after the first letter. After a passive, 'by' is עַל יְדֵי."
+    },
+    {
+      "id": "translate-story-09-hi-khashva-al-hakol-07",
+      "type": "translate",
+      "q": "Ido asked himself why Odelya had chosen him.",
+      "a": [
+        "עִידוֹ שָׁאַל אֶת עַצְמוֹ לָמָּה אוֹדֶלְיָה בָּחֲרָה בּוֹ.",
+        "עידו שאל את עצמו [למה|מדוע] אודליה בחרה [בו|דווקא בו|בו דווקא]"
+      ],
+      "hint": [
+        "עַצְמְךָ"
+      ],
+      "why": "The object 'himself' is אֶת עַצְמוֹ, with the ending for the person. The verb בָּחַר takes בְּ for the one chosen: בָּחֲרָה בּוֹ, and 'had chosen' is a plain past."
+    },
+    {
+      "id": "translate-story-09-hi-khashva-al-hakol-08",
+      "type": "translate",
+      "q": "After she closed the envelope, Odelya gave it to the lawyer.",
+      "a": [
+        "אַחֲרֵי שֶׁסָּגְרָה אֶת הַמַּעֲטָפָה, אוֹדֶלְיָה נָתְנָה אוֹתָהּ לְעוֹרֵךְ הַדִּין.",
+        "[אחרי|לאחר] [שהיא סגרה|שסגרה] את המעטפה אודליה נתנה אותה [לעורך הדין|לשמיר|לעורך הדין שמיר]",
+        "[אחרי|לאחר] שאודליה סגרה את המעטפה [היא |]נתנה אותה [לעורך הדין|לשמיר|לעורך הדין שמיר]",
+        "אודליה נתנה את המעטפה [לעורך הדין|לשמיר|לעורך הדין שמיר] [אחרי|לאחר] [שהיא סגרה|שסגרה] אותה"
+      ],
+      "hint": [
+        "אַחֲרֵי שֶׁ"
+      ],
+      "why": "Before a clause, 'after' is אַחֲרֵי שֶׁ; a bare אַחֲרֵי takes only a noun. The noun מַעֲטָפָה is feminine, so 'it' is אוֹתָהּ."
+    },
+    {
+      "id": "translate-story-09-hi-khashva-al-hakol-09",
+      "type": "translate",
+      "q": "Since the meeting with the lawyer, Ido has not slept well.",
+      "a": [
+        "מֵאָז הַפְּגִישָׁה עִם עוֹרֵךְ הַדִּין, עִידוֹ לֹא יָשַׁן טוֹב.",
+        "מאז הפגישה עם [עורך הדין|שמיר] עידו לא ישן [טוב|היטב|כמו שצריך]",
+        "עידו לא ישן [טוב|היטב|כמו שצריך] מאז הפגישה עם [עורך הדין|שמיר]"
+      ],
+      "hint": [
+        "מֵאָז",
+        "הַפְּגִישָׁה"
+      ],
+      "why": "Hebrew has no 'has not slept': after מֵאָז the verb is a plain past, יָשַׁן, or a present, יָשֵׁן, if the state goes on, and without points the two look the same. The word מֵאָז takes a noun as it is, or a clause with שֶׁ."
+    },
+    {
+      "id": "translate-story-09-hi-khashva-al-hakol-10",
+      "type": "translate",
+      "q": "Ido booked a ticket for the next day because the lawyer had a letter for him.",
+      "a": [
+        "עִידוֹ הִזְמִין כַּרְטִיס לְמָחֳרָת, כִּי לְעוֹרֵךְ הַדִּין הָיָה מִכְתָּב בִּשְׁבִילוֹ.",
+        "עידו הזמין כרטיס [למחרת|ליום שלמחרת|ליום המחרת] [כי |מפני ש|משום ש|כיוון ש|בגלל ש][לעורך הדין היה|היה לעורך הדין] מכתב [בשבילו|אליו|עבורו]"
+      ],
+      "hint": [
+        "הִזְמִין",
+        "לְמָחֳרָת"
+      ],
+      "why": "Possession in the past is הָיָה לְ, and הָיָה agrees with the thing owned: לְעוֹרֵךְ הַדִּין הָיָה מִכְתָּב. Cause is כִּי, or the more careful מִפְּנֵי שֶׁ, followed by a full clause."
+    },
+    {
+      "id": "translate-story-09-hi-khashva-al-hakol-11",
+      "type": "translate",
+      "q": "It all depends on what Ido decides.",
+      "a": [
+        "הַכֹּל תָּלוּי בְּמַה שֶּׁעִידוֹ יַחְלִיט.",
+        "[הכל|הכול] תלוי [במה שעידו יחליט|במה שעידו מחליט|במה שיחליט עידו|בהחלטה של עידו|בהחלטת עידו]"
+      ],
+      "hint": [
+        "תָּלוּי"
+      ],
+      "why": "The word תָּלוּי, literally 'hanging', takes בְּ, and before a whole clause the בְּ needs מַה שֶּׁ to hold on to: בְּמַה שֶּׁעִידוֹ יַחְלִיט. The decision is still to come, so the verb is future."
+    },
+    {
+      "id": "translate-story-09-hi-khashva-al-hakol-12",
+      "type": "translate",
+      "q": "The letter will stay in the drawer until Ido asks.",
+      "a": [
+        "הַמִּכְתָּב יִישָּׁאֵר בַּמְּגֵירָה עַד שֶׁעִידוֹ יִשְׁאַל.",
+        "המכתב [יישאר|ישאר] במגירה עד [שעידו ישאל|שישאל עידו]"
+      ],
+      "hint": [
+        "יִישָּׁאֵר",
+        "מְגֵירָה"
+      ],
+      "why": "The verb יִישָּׁאֵר is nif'al future, with a dagesh doubling the first root letter. After עַד שֶׁ, an event still to come takes the future where English uses the present: עַד שֶׁעִידוֹ יִשְׁאַל."
+    },
+    {
+      "id": "translate-story-09-hi-khashva-al-hakol-13",
+      "type": "translate",
+      "q": "Even if Ido wants to sell, he will not be able to do anything against Ruth.",
+      "a": [
+        "גַּם אִם עִידוֹ יִרְצֶה לִמְכּוֹר, הוּא לֹא יוּכַל לַעֲשׂוֹת שׁוּם דָּבָר נֶגֶד רוּת.",
+        "[גם|אפילו] אם עידו [ירצה|רוצה] למכור [הוא |]לא יוכל לעשות [כלום|שום דבר] נגד רות",
+        "[גם|אפילו] אם עידו [ירצה|רוצה] למכור [הוא |]לא יוכל לעשות נגד רות [כלום|שום דבר]"
+      ],
+      "hint": [
+        "תּוּכַל",
+        "נֶגְדָּהּ"
+      ],
+      "why": "The verb יָכוֹל has no future of its own and borrows יוּכַל: לֹא יוּכַל, 'will not be able'. 'Even if' is גַּם אִם or אֲפִילּוּ אִם, with the condition in the future."
+    },
+    {
+      "id": "translate-story-09-hi-khashva-al-hakol-14",
+      "type": "translate",
+      "q": "The document was worded so that no one would be able to cancel it.",
+      "a": [
+        "הַמִּסְמָךְ נוּסַּח כָּךְ שֶׁאַף אֶחָד לֹא יוּכַל לְבַטֵּל אוֹתוֹ.",
+        "המסמך נוסח [כך ש|באופן ש|כדי ש][אף אחד לא יוכל|איש לא יוכל|אי אפשר יהיה|לא יהיה אפשר] לבטל אותו"
+      ],
+      "hint": [
+        "נוּסְּחוּ"
+      ],
+      "why": "The verb נוּסַּח is pu'al, the passive of נִיסַּח: a וּ after the first letter and a doubled middle one. A result clause is כָּךְ שֶׁ, and the result lies ahead, so the verb is future: יוּכַל."
+    },
+    {
+      "id": "translate-story-09-hi-khashva-al-hakol-15",
+      "type": "translate",
+      "q": "Odelya did not gamble: she arranged everything and waited to see what Ido would do.",
+      "a": [
+        "אוֹדֶלְיָה לֹא הִימְּרָה: הִיא סִידְּרָה אֶת הַכֹּל וְחִיכְּתָה לִרְאוֹת מַה עִידוֹ יַעֲשֶׂה.",
+        "אודליה לא הימרה [היא |אלא |][סידרה|סדרה] את [הכל|הכול] וחיכתה לראות מה [עידו יעשה|יעשה עידו]"
+      ],
+      "hint": [
+        "מְהַמְּרִים",
+        "מְסַדְּרִים"
+      ],
+      "why": "A reported question keeps its own tense: 'what will Ido do?' stays future, מַה עִידוֹ יַעֲשֶׂה, inside a past sentence. Both הִימְּרָה and סִידְּרָה are pi'el, with a י after the first letter in full spelling."
+    }
+  ]
+}

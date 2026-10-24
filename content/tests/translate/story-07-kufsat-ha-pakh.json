@@ -1,0 +1,224 @@
+{
+  "id": "translate-story-07-kufsat-ha-pakh",
+  "passage": "story-07-kufsat-ha-pakh",
+  "title": "The biscuit tin",
+  "questions": [
+    {
+      "id": "translate-story-07-kufsat-ha-pakh-01",
+      "type": "translate",
+      "q": "Ruth took out the envelope that had come back.",
+      "a": [
+        "רוּת הוֹצִיאָה אֶת הַמַּעֲטָפָה שֶׁחָזְרָה.",
+        "רות הוציאה את המעטפה [שחזרה|שהוחזרה]"
+      ],
+      "hint": [
+        "הוֹצִיאָה",
+        "מַעֲטָפָה"
+      ],
+      "why": "Hebrew has no past perfect: 'had come back' is the plain past חָזְרָה inside the שֶׁ clause. The envelope is definite, so it takes אֶת."
+    },
+    {
+      "id": "translate-story-07-kufsat-ha-pakh-02",
+      "type": "translate",
+      "q": "Next time, let me know in advance.",
+      "a": [
+        "בַּפַּעַם הַבָּאָה תּוֹדִיעַ לִי מֵרֹאשׁ.",
+        "בפעם הבאה [תודיע|תודיעי|תודיעו|הודע|הודיעי|הודיעו] לי מראש",
+        "[תודיע|תודיעי|תודיעו|הודע|הודיעי|הודיעו] לי מראש בפעם הבאה"
+      ],
+      "hint": [
+        "לְהוֹדִיעַ",
+        "מֵרֹאשׁ"
+      ],
+      "why": "Spoken requests use the future, תּוֹדִיעַ, rather than the stiffer imperative הוֹדַע. The verb לְהוֹדִיעַ takes לְ for the person told: תּוֹדִיעַ לִי."
+    },
+    {
+      "id": "translate-story-07-kufsat-ha-pakh-03",
+      "type": "translate",
+      "q": "Ido asked whether Ruth had kept the letters.",
+      "a": [
+        "עִידוֹ שָׁאַל אִם רוּת שָׁמְרָה אֶת הַמִּכְתָּבִים.",
+        "עידו שאל [אם|האם] רות שמרה את המכתבים"
+      ],
+      "hint": [
+        "שָׁאֲלָה",
+        "מִכְתָּבִים"
+      ],
+      "why": "A reported yes-no question is joined with אִם, 'whether', never with שֶׁ. Hebrew keeps the tense of the question as asked, so 'had kept' is plain past: שָׁמְרָה."
+    },
+    {
+      "id": "translate-story-07-kufsat-ha-pakh-04",
+      "type": "translate",
+      "q": "Ruth listened without saying a word.",
+      "a": [
+        "רוּת הִקְשִׁיבָה בְּלִי לְהַגִּיד מִילָּה.",
+        "רות הקשיבה בלי [להגיד|לומר|להוציא] [|אף |שום ][מילה|מלה]",
+        "רות הקשיבה ולא [אמרה|הוציאה] [|אף |שום ][מילה|מלה]"
+      ],
+      "hint": [
+        "הִקְשִׁיבָה",
+        "בְּלִי"
+      ],
+      "why": "Where English has 'without' plus an -ing form, Hebrew has בְּלִי plus the infinitive: בְּלִי לְהַגִּיד. In speech לְהַגִּיד and לוֹמַר are the same verb, 'to say'."
+    },
+    {
+      "id": "translate-story-07-kufsat-ha-pakh-05",
+      "type": "translate",
+      "q": "It took Ruth an hour to find the box.",
+      "a": [
+        "לָקַח לְרוּת שָׁעָה לִמְצוֹא אֶת הַקּוּפְסָה.",
+        "[לקח|לקחה] לרות שעה[ אחת|] למצוא את [הקופסה|הקופסא]",
+        "לרות [לקח|לקחה] שעה[ אחת|] למצוא את [הקופסה|הקופסא]"
+      ],
+      "hint": [
+        "לָקַח",
+        "קוּפְסָה"
+      ],
+      "why": "Hebrew says 'it took to Ruth an hour': the verb is usually the impersonal לָקַח whatever the length of time, the person comes with לְ, and the action follows as an infinitive."
+    },
+    {
+      "id": "translate-story-07-kufsat-ha-pakh-06",
+      "type": "translate",
+      "q": "Ruth said that the letters were in a tin box.",
+      "a": [
+        "רוּת אָמְרָה שֶׁהַמִּכְתָּבִים נִמְצָאִים בְּקוּפְסַת פַּח.",
+        "רות אמרה שהמכתבים [נמצאים |]בקופסת פח",
+        "רות אמרה שהמכתבים [נמצאים |]בקופסה [מפח|של פח]"
+      ],
+      "hint": [
+        "קוּפְסַת פַּח"
+      ],
+      "why": "Reported speech keeps the tense the speaker used. Ruth said 'they are in a tin box', so Hebrew says נִמְצָאִים; הָיוּ would mean they had been there once."
+    },
+    {
+      "id": "translate-story-07-kufsat-ha-pakh-07",
+      "type": "translate",
+      "q": "Odelya never received an answer, but she went on writing.",
+      "a": [
+        "אוֹדֶלְיָה אַף פַּעַם לֹא קִיבְּלָה תְּשׁוּבָה, אֲבָל הִיא הִמְשִׁיכָה לִכְתּוֹב.",
+        "אודליה [אף פעם|מעולם] לא קיבלה [|אף |שום ]תשובה [אבל|אך] [היא |]המשיכה לכתוב"
+      ],
+      "hint": [
+        "קִיבְּלָה",
+        "הִמְשִׁיכָה"
+      ],
+      "why": "The Hebrew 'never' is two words working together: אַף פַּעַם or מֵעוֹלָם, with לֹא still on the verb. To go on doing something is הִמְשִׁיךְ plus the infinitive."
+    },
+    {
+      "id": "translate-story-07-kufsat-ha-pakh-08",
+      "type": "translate",
+      "q": "For years, nobody in the family answered her letters.",
+      "a": [
+        "בְּמֶשֶׁךְ שָׁנִים אַף אֶחָד בַּמִּשְׁפָּחָה לֹא עָנָה לַמִּכְתָּבִים שֶׁלָּהּ.",
+        "[במשך שנים|שנים] [אף אחד|איש] במשפחה לא ענה [למכתבים שלה|על המכתבים שלה|למכתביה|על מכתביה]",
+        "[אף אחד|איש] במשפחה לא ענה [למכתבים שלה|על המכתבים שלה|למכתביה|על מכתביה] [במשך שנים|שנים]"
+      ],
+      "hint": [
+        "בְּמֶשֶׁךְ",
+        "אַף אֶחָד"
+      ],
+      "why": "The word אַף אֶחָד, 'nobody', still needs לֹא on the verb. A stretch of time takes בְּמֶשֶׁךְ or stands bare, and a letter is answered with עַל in careful Hebrew, with לְ in everyday speech."
+    },
+    {
+      "id": "translate-story-07-kufsat-ha-pakh-09",
+      "type": "translate",
+      "q": "Ruth waited until Ido had finished reading.",
+      "a": [
+        "רוּת חִיכְּתָה עַד שֶׁעִידוֹ סִיֵּים לִקְרוֹא.",
+        "רות חיכתה עד שעידו [סיים|גמר] [לקרוא|את הקריאה]",
+        "רות חיכתה שעידו [יסיים|יגמור] לקרוא"
+      ],
+      "hint": [
+        "סִיֵּים"
+      ],
+      "why": "The word 'until' before a clause is עַד שֶׁ, and an event that is over takes the plain past: עַד שֶׁעִידוֹ סִיֵּים. 'Finish doing' is סִיֵּים plus an infinitive, or plus the verbal noun: סִיֵּים אֶת הַקְּרִיאָה."
+    },
+    {
+      "id": "translate-story-07-kufsat-ha-pakh-10",
+      "type": "translate",
+      "q": "Odelya asked when Ido would finish high school.",
+      "a": [
+        "אוֹדֶלְיָה שָׁאֲלָה מָתַי עִידוֹ יְסַיֵּים אֶת הַתִּיכוֹן.",
+        "אודליה שאלה מתי [עידו יסיים|יסיים עידו|עידו יגמור|יגמור עידו] את [התיכון|בית הספר]"
+      ],
+      "hint": [
+        "שָׁאֲלָה",
+        "סִיֵּים"
+      ],
+      "why": "A reported question keeps the tense it was asked in: 'when will he finish?' stays future, יְסַיֵּים, where English shifts to 'would'. The question word מָתַי does the joining, with no שֶׁ."
+    },
+    {
+      "id": "translate-story-07-kufsat-ha-pakh-11",
+      "type": "translate",
+      "q": "Ido asked Ruth whether Odelya had forgiven his grandmother.",
+      "a": [
+        "עִידוֹ שָׁאַל אֶת רוּת אִם אוֹדֶלְיָה סָלְחָה לְסַבְתָּא שֶׁלּוֹ.",
+        "עידו שאל את רות [אם|האם] אודליה סלחה [לסבתא שלו|לסבתו]"
+      ],
+      "hint": [
+        "לִסְלוֹחַ",
+        "סַבְתָּא"
+      ],
+      "why": "The person asked takes אֶת: שָׁאַל אֶת רוּת, and the question follows with אִם. The verb לִסְלוֹחַ takes לְ for the one forgiven: סָלְחָה לְסַבְתָּא."
+    },
+    {
+      "id": "translate-story-07-kufsat-ha-pakh-12",
+      "type": "translate",
+      "q": "In one of the letters, she wrote that she had been ill all winter.",
+      "a": [
+        "בְּאֶחָד מֵהַמִּכְתָּבִים הִיא כָּתְבָה שֶׁהִיא הָיְתָה חוֹלָה כָּל הַחוֹרֶף.",
+        "[באחד מהמכתבים|באחד המכתבים] [היא |]כתבה [שהיא הייתה|שהייתה] חולה [|במשך ]כל החורף",
+        "היא כתבה [באחד מהמכתבים|באחד המכתבים] [שהיא הייתה|שהייתה] חולה [|במשך ]כל החורף"
+      ],
+      "hint": [
+        "בְּאֶחָד מֵהֶם",
+        "חוֹרֶף"
+      ],
+      "why": "Hebrew has no past perfect, so 'had been' is plain הָיְתָה, the tense she wrote in. 'One of' is אֶחָד מֵ, masculine here because מִכְתָּב is."
+    },
+    {
+      "id": "translate-story-07-kufsat-ha-pakh-13",
+      "type": "translate",
+      "q": "These letters, Ruth kept for thirty years.",
+      "a": [
+        "אֶת הַמִּכְתָּבִים הָאֵלֶּה רוּת שָׁמְרָה שְׁלוֹשִׁים שָׁנָה.",
+        "את המכתבים [האלה|האלו] [רות שמרה|שמרה רות] [|במשך ][שלושים|30] [שנה|שנים]",
+        "רות שמרה את המכתבים [האלה|האלו] [|במשך ][שלושים|30] [שנה|שנים]"
+      ],
+      "hint": [
+        "שְׁלוֹשִׁים שָׁנָה"
+      ],
+      "why": "Fronting the object, with its אֶת, is how Hebrew stresses it; the rest of the sentence keeps its order. After a number from eleven up, שָׁנָה usually stays singular: שְׁלוֹשִׁים שָׁנָה."
+    },
+    {
+      "id": "translate-story-07-kufsat-ha-pakh-14",
+      "type": "translate",
+      "q": "Ruth said she would tell him what Odelya had told her.",
+      "a": [
+        "רוּת אָמְרָה שֶׁהִיא תַּגִּיד לוֹ מַה שֶּׁאוֹדֶלְיָה אָמְרָה לָהּ.",
+        "רות אמרה [שהיא תגיד|שתגיד|שהיא תספר|שתספר] לו [מה ש|את מה ש]אודליה אמרה לה"
+      ],
+      "hint": [
+        "אַגִּיד",
+        "מַה שֶּׁ"
+      ],
+      "why": "Ruth said 'I will tell you', so the reported verb stays future: שֶׁהִיא תַּגִּיד. 'What' in the middle of a sentence is מַה שֶּׁ, a question word joined to a clause."
+    },
+    {
+      "id": "translate-story-07-kufsat-ha-pakh-15",
+      "type": "translate",
+      "q": "Before she opened the box, Ruth asked if he wanted coffee.",
+      "a": [
+        "לִפְנֵי שֶׁפָּתְחָה אֶת הַקּוּפְסָה, רוּת שָׁאֲלָה אִם הוּא רוֹצֶה קָפֶה.",
+        "לפני [שהיא פתחה|שפתחה] את [הקופסה|הקופסא] רות שאלה [|אותו |את עידו ][אם|האם] [הוא|עידו] רוצה קפה",
+        "לפני שרות פתחה את [הקופסה|הקופסא] היא שאלה [|אותו |את עידו ][אם|האם] [הוא|עידו] רוצה קפה",
+        "רות שאלה [|אותו |את עידו ][אם|האם] [הוא|עידו] רוצה קפה לפני [שהיא פתחה|שפתחה] את [הקופסה|הקופסא]"
+      ],
+      "hint": [
+        "לִפְנֵי שֶׁ",
+        "שָׁאֲלָה"
+      ],
+      "why": "A reported question keeps the tense it was asked in: 'do you want coffee?' becomes אִם הוּא רוֹצֶה, present, though English says 'wanted'. After לִפְנֵי שֶׁ the verb is a plain past."
+    }
+  ]
+}

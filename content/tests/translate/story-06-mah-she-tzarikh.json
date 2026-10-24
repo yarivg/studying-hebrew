@@ -1,0 +1,229 @@
+{
+  "id": "translate-story-06-mah-she-tzarikh",
+  "passage": "story-06-mah-she-tzarikh",
+  "title": "What is required",
+  "questions": [
+    {
+      "id": "translate-story-06-mah-she-tzarikh-01",
+      "type": "translate",
+      "q": "Is Ido allowed to sell the flat?",
+      "a": [
+        "מוּתָּר לְעִידוֹ לִמְכּוֹר אֶת הַדִּירָה?",
+        "[האם |]מותר לעידו למכור את הדירה",
+        "[האם |]לעידו מותר למכור את הדירה",
+        "[האם |]עידו [יכול|רשאי] למכור את הדירה"
+      ],
+      "hint": [
+        "מוּתָּר",
+        "לִמְכּוֹר"
+      ],
+      "why": "Permission is impersonal: מוּתָּר never changes form, and the person allowed comes with לְ, so מוּתָּר לְעִידוֹ. A spoken yes-no question needs no extra word; הַאִם only makes it formal."
+    },
+    {
+      "id": "translate-story-06-mah-she-tzarikh-02",
+      "type": "translate",
+      "q": "There was nothing to explain.",
+      "a": [
+        "לֹא הָיָה מַה לְּהַסְבִּיר.",
+        "לא היה [מה|שום דבר|כלום] להסביר"
+      ],
+      "hint": [
+        "אֵין מַה",
+        "לְהַסְבִּיר"
+      ],
+      "why": "The pattern אֵין מַה plus an infinitive means 'there is nothing to'. Like every אֵין, its past is לֹא הָיָה: לֹא הָיָה מַה לְּהַסְבִּיר."
+    },
+    {
+      "id": "translate-story-06-mah-she-tzarikh-03",
+      "type": "translate",
+      "q": "You don't have to come every Friday.",
+      "a": [
+        "אַתָּה לֹא חַיָּיב לָבוֹא בְּכָל יוֹם שִׁישִׁי.",
+        "[אתה לא חייב|אתה לא צריך|את לא חייבת|את לא צריכה|אתם לא חייבים|אתם לא צריכים|אתן לא חייבות|אתן לא צריכות|אינך חייב|אינך חייבת|אינך צריך|אינך צריכה] לבוא [בכל יום שישי|כל יום שישי|בכל שישי|כל שישי]"
+      ],
+      "hint": [
+        "חַיָּיב"
+      ],
+      "why": "Unlike מוּתָּר, the word חַיָּיב is an adjective and agrees: חַיֶּיבֶת to a woman, חַיָּיבִים to several. 'Don't have to' is לֹא חַיָּיב; 'must not' would be אָסוּר."
+    },
+    {
+      "id": "translate-story-06-mah-she-tzarikh-04",
+      "type": "translate",
+      "q": "It is forbidden to talk about money at the table.",
+      "a": [
+        "אָסוּר לְדַבֵּר עַל כֶּסֶף לְיַד הַשּׁוּלְחָן.",
+        "אסור לדבר על כסף ליד השולחן",
+        "ליד השולחן אסור לדבר על כסף",
+        "אסור לדבר ליד השולחן על כסף"
+      ],
+      "hint": [
+        "אָסוּר",
+        "שׁוּלְחָן"
+      ],
+      "why": "With no person named, אָסוּר plus an infinitive is a general rule. Like מוּתָּר it never changes form; to name the person, add לְ: אָסוּר לִי."
+    },
+    {
+      "id": "translate-story-06-mah-she-tzarikh-05",
+      "type": "translate",
+      "q": "His sister recommended a lawyer from Haifa to him.",
+      "a": [
+        "הָאָחוֹת שֶׁלּוֹ הִמְלִיצָה לוֹ עַל עוֹרֶכֶת דִּין מֵחֵיפָה.",
+        "[האחות שלו|אחותו|מיכל] המליצה לו על [עורכת|עורך] דין מחיפה"
+      ],
+      "hint": [
+        "הִמְלִיצָה",
+        "עוֹרֶכֶת הַדִּין"
+      ],
+      "why": "The verb לְהַמְלִיץ takes two prepositions: לְ for the person advised, עַל for what is recommended. In the smichut עוֹרֶכֶת דִּין only the first noun shows that the lawyer is a woman."
+    },
+    {
+      "id": "translate-story-06-mah-she-tzarikh-06",
+      "type": "translate",
+      "q": "The dessert was disappointing, but Ido ate it anyway.",
+      "a": [
+        "הַקִּינּוּחַ הָיָה מְאַכְזֵב, אֲבָל עִידוֹ בְּכָל זֹאת אָכַל אוֹתוֹ.",
+        "הקינוח היה מאכזב [אבל |ו]עידו בכל זאת אכל אותו",
+        "הקינוח היה מאכזב [אבל |ו]בכל זאת עידו אכל אותו",
+        "הקינוח היה מאכזב [אבל |ו]עידו אכל אותו בכל זאת"
+      ],
+      "hint": [
+        "קִינּוּחַ",
+        "מְאַכְזֵב",
+        "בְּכָל זֹאת"
+      ],
+      "why": "The phrase בְּכָל זֹאת, 'all the same', carries the 'anyway', before the verb or at the end. The noun קִינּוּחַ is masculine, so 'it' is אוֹתוֹ."
+    },
+    {
+      "id": "translate-story-06-mah-she-tzarikh-07",
+      "type": "translate",
+      "q": "Although Ido is allowed to sell, he wants to wait.",
+      "a": [
+        "לַמְרוֹת שֶׁמּוּתָּר לְעִידוֹ לִמְכּוֹר, הוּא רוֹצֶה לְחַכּוֹת.",
+        "[למרות ש|אף על פי ש|אף ש|על אף ש]מותר לעידו למכור הוא רוצה לחכות",
+        "[למרות ש|אף על פי ש|אף ש|על אף ש]לעידו מותר למכור הוא רוצה לחכות",
+        "עידו רוצה לחכות [למרות ש|אף על פי ש|אף ש|על אף ש][מותר לו|הוא יכול] למכור"
+      ],
+      "hint": [
+        "מוּתָּר",
+        "לְחַכּוֹת"
+      ],
+      "why": "The word 'although' is לַמְרוֹת שֶׁ, or the more formal אַף עַל פִּי שֶׁ, with a full clause after it. The main clause still needs its own subject: הוּא רוֹצֶה."
+    },
+    {
+      "id": "translate-story-06-mah-she-tzarikh-08",
+      "type": "translate",
+      "q": "It is worth reading the document before you sign it.",
+      "a": [
+        "כְּדַאי לִקְרוֹא אֶת הַמִּסְמָךְ לִפְנֵי שֶׁחוֹתְמִים עָלָיו.",
+        "כדאי [לך |לכם |]לקרוא את המסמך לפני [שחותמים|שאתה חותם|שאת חותמת|שאתם חותמים|שתחתום|שתחתמי|שתחתמו] עליו",
+        "כדאי [לך |לכם |]לקרוא את המסמך לפני [החתימה|שחותמים]",
+        "לפני [שחותמים|שאתה חותם|שאת חותמת|שתחתום|שתחתמי] על המסמך כדאי [לך |]לקרוא אותו"
+      ],
+      "hint": [
+        "כְּדַאי",
+        "מִסְמָךְ"
+      ],
+      "why": "The word כְּדַאי plus an infinitive is advice, softer than צָרִיךְ. A general 'you' can be a plural present with no pronoun, שֶׁחוֹתְמִים, and חָתַם takes עַל, so 'sign it' is חוֹתְמִים עָלָיו."
+    },
+    {
+      "id": "translate-story-06-mah-she-tzarikh-09",
+      "type": "translate",
+      "q": "Ido's mother wanted him to stop asking.",
+      "a": [
+        "אִימָּא שֶׁל עִידוֹ רָצְתָה שֶׁהוּא יַפְסִיק לִשְׁאוֹל.",
+        "[אימא של עידו|אמו של עידו] רצתה [שהוא יפסיק|שיפסיק] לשאול[ שאלות|]"
+      ],
+      "hint": [
+        "רוֹצֶה",
+        "לִשְׁאוֹל"
+      ],
+      "why": "Hebrew cannot say 'wanted him to stop' with an infinitive. When the one who wants and the one who acts differ, רָצָה takes שֶׁ and a future: רָצְתָה שֶׁהוּא יַפְסִיק."
+    },
+    {
+      "id": "translate-story-06-mah-she-tzarikh-10",
+      "type": "translate",
+      "q": "When Ido asked about Odelya, his mother put down the knife.",
+      "a": [
+        "כְּשֶׁעִידוֹ שָׁאַל עַל אוֹדֶלְיָה, אִימָּא שֶׁלּוֹ הִנִּיחָה אֶת הַסַּכִּין.",
+        "[כשעידו|כאשר עידו] שאל על אודליה [אימא שלו|אמו] הניחה את הסכין",
+        "[אימא שלו|אמו] הניחה את הסכין [כשעידו|כאשר עידו] שאל על אודליה"
+      ],
+      "hint": [
+        "הִנִּיחָה",
+        "סַכִּין"
+      ],
+      "why": "The prefix כְּשֶׁ, 'when', glues onto the next word: כְּשֶׁעִידוֹ שָׁאַל, and the clause can come first or last. 'Put down' is one verb, הִנִּיחָה, with אֶת before the definite knife."
+    },
+    {
+      "id": "translate-story-06-mah-she-tzarikh-11",
+      "type": "translate",
+      "q": "I shouldn't have asked her at the table.",
+      "a": [
+        "לֹא הָיִיתִי צָרִיךְ לִשְׁאוֹל אוֹתָהּ לְיַד הַשּׁוּלְחָן.",
+        "[אני |]לא [הייתי צריך|הייתי צריכה] לשאול אותה ליד השולחן",
+        "ליד השולחן [אני |]לא [הייתי צריך|הייתי צריכה] לשאול אותה"
+      ],
+      "hint": [
+        "צָרִיךְ"
+      ],
+      "why": "Past obligation is הָיָה plus צָרִיךְ, and הָיָה carries the person: לֹא הָיִיתִי צָרִיךְ, 'I should not have'. A woman says הָיִיתִי צְרִיכָה."
+    },
+    {
+      "id": "translate-story-06-mah-she-tzarikh-12",
+      "type": "translate",
+      "q": "Ido may wait, provided he pays for the big repairs.",
+      "a": [
+        "עִידוֹ יָכוֹל לְחַכּוֹת, בִּתְנַאי שֶׁהוּא מְשַׁלֵּם עַל הַתִּיקּוּנִים הַגְּדוֹלִים.",
+        "[עידו יכול|מותר לעידו|לעידו מותר|עידו רשאי] לחכות בתנאי [שהוא משלם|שהוא ישלם|שישלם] [על|את] התיקונים הגדולים"
+      ],
+      "hint": [
+        "בִּתְנַאי שֶׁ",
+        "תִּיקּוּנִים"
+      ],
+      "why": "The phrase בִּתְנַאי שֶׁ, 'provided that', takes a full clause, present or future. The adjective repeats its noun's article: הַתִּיקּוּנִים הַגְּדוֹלִים."
+    },
+    {
+      "id": "translate-story-06-mah-she-tzarikh-13",
+      "type": "translate",
+      "q": "Daphna closed her bag so that Ido would understand the meeting was over.",
+      "a": [
+        "דַּפְנָה סָגְרָה אֶת הַתִּיק כְּדֵי שֶׁעִידוֹ יָבִין שֶׁהַפְּגִישָׁה נִגְמְרָה.",
+        "דפנה סגרה את התיק[ שלה|] כדי שעידו יבין שהפגישה [נגמרה|הסתיימה]"
+      ],
+      "hint": [
+        "כְּדֵי שֶׁ",
+        "סָגְרָה"
+      ],
+      "why": "With a new subject, purpose is כְּדֵי שֶׁ plus the future, even in a story told in the past: כְּדֵי שֶׁעִידוֹ יָבִין. The future marks the aim, not the time."
+    },
+    {
+      "id": "translate-story-06-mah-she-tzarikh-14",
+      "type": "translate",
+      "q": "If he finds a flaw in the document, he will be allowed to cancel it.",
+      "a": [
+        "אִם הוּא יִמְצָא פְּגָם בַּמִּסְמָךְ, יִהְיֶה מוּתָּר לוֹ לְבַטֵּל אוֹתוֹ.",
+        "אם [הוא |]ימצא [פגם במסמך|במסמך פגם] [יהיה מותר לו|יהיה לו מותר|מותר לו|הוא יוכל] לבטל אותו",
+        "[יהיה מותר לו|מותר לו|הוא יוכל] לבטל את המסמך אם [הוא |]ימצא בו פגם"
+      ],
+      "hint": [
+        "פְּגָם",
+        "לְבַטֵּל"
+      ],
+      "why": "Neither מוּתָּר nor צָרִיךְ has a future of its own, so the future comes from הָיָה: יִהְיֶה מוּתָּר לוֹ. After אִם, a condition still to come is in the future too: אִם יִמְצָא."
+    },
+    {
+      "id": "translate-story-06-mah-she-tzarikh-15",
+      "type": "translate",
+      "q": "His mother did nothing to stop her, because she was afraid.",
+      "a": [
+        "אִימָּא שֶׁלּוֹ לֹא עָשְׂתָה כְּלוּם כְּדֵי לַעֲצוֹר אוֹתָהּ, מִפְּנֵי שֶׁהִיא פָּחֲדָה.",
+        "[אימא שלו|אמו] לא עשתה [כלום|שום דבר] כדי לעצור אותה [מפני ש|כי |משום ש|כיוון ש|בגלל ש][היא |]פחדה"
+      ],
+      "hint": [
+        "לַעֲצוֹר",
+        "פָּחַדְתִּי"
+      ],
+      "why": "One sentence can hold a purpose and a cause: כְּדֵי plus the infinitive says what for, מִפְּנֵי שֶׁ or כִּי says why. With כְּלוּם, 'nothing', the verb still needs לֹא."
+    }
+  ]
+}

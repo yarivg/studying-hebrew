@@ -1,0 +1,229 @@
+{
+  "id": "translate-story-10-le-at-le-at",
+  "passage": "story-10-le-at-le-at",
+  "title": "Little by little",
+  "questions": [
+    {
+      "id": "translate-story-10-le-at-le-at-01",
+      "type": "translate",
+      "q": "Ido no longer needs a key to the flat.",
+      "a": [
+        "עִידוֹ כְּבָר לֹא צָרִיךְ מַפְתֵּחַ לַדִּירָה.",
+        "עידו כבר לא צריך מפתח [לדירה|של הדירה]",
+        "עידו לא צריך יותר מפתח [לדירה|של הדירה]",
+        "עידו לא צריך מפתח [לדירה|של הדירה] יותר"
+      ],
+      "hint": [
+        "מַפְתֵּחַ"
+      ],
+      "why": "The phrase 'no longer' is כְּבָר לֹא, in that order, in front of the verb; לֹא ... יוֹתֵר says the same. An indefinite object such as מַפְתֵּחַ takes no אֶת."
+    },
+    {
+      "id": "translate-story-10-le-at-le-at-02",
+      "type": "translate",
+      "q": "Little by little, Ido stopped being afraid of Ruth.",
+      "a": [
+        "לְאַט לְאַט עִידוֹ הִפְסִיק לְפַחֵד מֵרוּת.",
+        "לאט לאט [עידו הפסיק|הפסיק עידו|עידו חדל|חדל עידו] לפחד [מרות|מפני רות]",
+        "עידו [הפסיק|חדל] לאט לאט לפחד [מרות|מפני רות]"
+      ],
+      "hint": [
+        "לְאַט לְאַט",
+        "חָדַל"
+      ],
+      "why": "Everyday Hebrew stops with הִפְסִיק plus an infinitive; the book's חָדַל is the same idea in a higher register. Fear takes מִ, which becomes מֵ before ר: מֵרוּת."
+    },
+    {
+      "id": "translate-story-10-le-at-le-at-03",
+      "type": "translate",
+      "q": "Ruth will not give up her right to live in the flat.",
+      "a": [
+        "רוּת לֹא תְּוַותֵּר עַל הַזְּכוּת שֶׁלָּהּ לָגוּר בַּדִּירָה.",
+        "רות לא תוותר על [הזכות שלה לגור בדירה|זכותה לגור בדירה|הזכות לגור בדירה|זכות המגורים שלה|זכות המגורים]"
+      ],
+      "hint": [
+        "וִיתֵּר",
+        "זְכוּת"
+      ],
+      "why": "The verb לְוַותֵּר takes עַל for what is given up, where English adds 'up'. Its future keeps the doubled ו of full spelling: תְּוַותֵּר."
+    },
+    {
+      "id": "translate-story-10-le-at-le-at-04",
+      "type": "translate",
+      "q": "Two years ago, Ido did not know Ruth at all.",
+      "a": [
+        "לִפְנֵי שְׁנָתַיִים עִידוֹ בִּכְלָל לֹא הִכִּיר אֶת רוּת.",
+        "לפני [שנתיים|שנתים] עידו [בכלל לא הכיר את רות|לא הכיר את רות בכלל|לא הכיר בכלל את רות]",
+        "עידו [בכלל לא הכיר את רות|לא הכיר את רות בכלל|לא הכיר בכלל את רות] לפני [שנתיים|שנתים]"
+      ],
+      "hint": [
+        "לִפְנֵי שָׁנָה",
+        "בִּכְלָל"
+      ],
+      "why": "The word 'ago' is לִפְנֵי placed in front of the time: לִפְנֵי שְׁנָתַיִים, with the dual for two years. 'At all' with a negative is בִּכְלָל, before לֹא or at the end."
+    },
+    {
+      "id": "translate-story-10-le-at-le-at-05",
+      "type": "translate",
+      "q": "Ido has been coming to Jerusalem for a year.",
+      "a": [
+        "עִידוֹ עוֹלֶה לִירוּשָׁלַיִם כְּבָר שָׁנָה.",
+        "עידו [עולה|בא|מגיע] לירושלים [כבר שנה|מזה שנה]",
+        "עידו כבר שנה [עולה|בא|מגיע] לירושלים",
+        "כבר שנה [ש|]עידו [עולה|בא|מגיע] לירושלים"
+      ],
+      "hint": [
+        "לִירוּשָׁלַיִם",
+        "כְּבָר"
+      ],
+      "why": "Hebrew has no 'has been coming': a present verb with כְּבָר and the length of time says it, because the visits still go on. One goes up to Jerusalem: עוֹלֶה."
+    },
+    {
+      "id": "translate-story-10-le-at-le-at-06",
+      "type": "translate",
+      "q": "For a whole week they argued about the solar heater.",
+      "a": [
+        "בְּמֶשֶׁךְ שָׁבוּעַ שָׁלֵם הֵם הִתְוַוכְּחוּ עַל דּוּד הַשֶּׁמֶשׁ.",
+        "[במשך שבוע שלם|שבוע שלם|במשך שבוע] הם התווכחו על דוד השמש",
+        "הם התווכחו על דוד השמש [במשך שבוע שלם|שבוע שלם|במשך שבוע]"
+      ],
+      "hint": [
+        "בְּמֶשֶׁךְ",
+        "דּוּד הַשֶּׁמֶשׁ"
+      ],
+      "why": "A length of time takes בְּמֶשֶׁךְ, or stands bare: שָׁבוּעַ שָׁלֵם. In the smichut דּוּד הַשֶּׁמֶשׁ, 'the solar heater', only the second noun takes the article."
+    },
+    {
+      "id": "translate-story-10-le-at-le-at-07",
+      "type": "translate",
+      "q": "Since the funeral, they had not been to the cemetery.",
+      "a": [
+        "מֵאָז הַלְּוָויָה, הֵם לֹא הָיוּ בְּבֵית הַקְּבָרוֹת.",
+        "מאז [הלוויה|הלויה] הם לא [היו|ביקרו] בבית הקברות",
+        "הם לא [היו|ביקרו] בבית הקברות מאז [הלוויה|הלויה]"
+      ],
+      "hint": [
+        "מֵאָז",
+        "לְוָויָה"
+      ],
+      "why": "The word מֵאָז, 'since', takes a noun as it is: מֵאָז הַלְּוָויָה. Hebrew has no past perfect, so 'had not been' is plain לֹא הָיוּ, and בֵּית הַקְּבָרוֹת takes its article on the second noun."
+    },
+    {
+      "id": "translate-story-10-le-at-le-at-08",
+      "type": "translate",
+      "q": "Ruth hung up without saying goodbye.",
+      "a": [
+        "רוּת נִיתְּקָה בְּלִי לְהִיפָּרֵד.",
+        "רות [ניתקה|נתקה|סגרה את הטלפון|טרקה את הטלפון] בלי [להיפרד|להפרד|להגיד שלום|לומר שלום]"
+      ],
+      "hint": [
+        "נִיתְּקָה"
+      ],
+      "why": "In Hebrew you cut a call: נִיתְּקָה, the pi'el of נ.ת.ק. 'Without' plus a verb is בְּלִי and the infinitive, and 'say goodbye' is the single verb לְהִיפָּרֵד, or simply לְהַגִּיד שָׁלוֹם."
+    },
+    {
+      "id": "translate-story-10-le-at-le-at-09",
+      "type": "translate",
+      "q": "Apparently Ruth does not need the guarantee at all.",
+      "a": [
+        "כַּנִּרְאֶה רוּת בִּכְלָל לֹא צְרִיכָה אֶת הָעֲרוּבָּה.",
+        "[כנראה |כנראה ש]רות [בכלל לא צריכה|לא צריכה בכלל] את [הערובה|הערבות]",
+        "רות כנראה [בכלל לא צריכה|לא צריכה בכלל] את [הערובה|הערבות]"
+      ],
+      "hint": [
+        "כַּנִּרְאֶה",
+        "עֲרוּבָּה"
+      ],
+      "why": "The word כַּנִּרְאֶה, 'apparently', can open the sentence or follow the subject, and speech often adds שֶׁ after it. The verb-like צְרִיכָה takes אֶת before a definite object."
+    },
+    {
+      "id": "translate-story-10-le-at-le-at-10",
+      "type": "translate",
+      "q": "Ruth remarked to Ido that he was coming too often.",
+      "a": [
+        "רוּת הֶעִירָה לְעִידוֹ שֶׁהוּא בָּא יוֹתֵר מִדַּי.",
+        "רות העירה לעידו [שהוא בא|שהוא מגיע] [יותר מדי|לעיתים קרובות מדי|לעתים קרובות מדי|הרבה מדי|יותר מדי פעמים]"
+      ],
+      "hint": [
+        "הֶעִירָה",
+        "יוֹתֵר מִדַּי"
+      ],
+      "why": "The verb הֶעִירָה, 'remarked', takes לְ for the person. What she said stays in her own present, שֶׁהוּא בָּא, and 'too' is מִדַּי placed after its word: יוֹתֵר מִדַּי."
+    },
+    {
+      "id": "translate-story-10-le-at-le-at-11",
+      "type": "translate",
+      "q": "Show me, please, where she wrote in the margins.",
+      "a": [
+        "תַּרְאִי לִי, בְּבַקָּשָׁה, אֵיפֹה הִיא כָּתְבָה בַּשּׁוּלַיִים.",
+        "[תראה|תראי|תראו|הראה|הראי|הראו] לי [בבקשה |]איפה היא [כתבה|רשמה] [בשוליים|בשולים]",
+        "בבקשה [תראה|תראי|תראו|הראה|הראי|הראו] לי איפה היא [כתבה|רשמה] [בשוליים|בשולים]",
+        "[תראה|תראי|תראו|הראה|הראי|הראו] לי איפה היא [כתבה|רשמה] [בשוליים|בשולים] בבקשה"
+      ],
+      "hint": [
+        "תַּרְאִי",
+        "שׁוּלַיִים"
+      ],
+      "why": "Spoken Hebrew asks with the future, תַּרְאִי לִי; the imperative הַרְאִי sounds stiff. A question tucked inside a sentence needs no שֶׁ: אֵיפֹה הִיא כָּתְבָה follows straight on."
+    },
+    {
+      "id": "translate-story-10-le-at-le-at-12",
+      "type": "translate",
+      "q": "Instead of selling the flat, Ido signed a guarantee for Ruth.",
+      "a": [
+        "בִּמְקוֹם לִמְכּוֹר אֶת הַדִּירָה, עִידוֹ חָתַם עַל עֲרוּבָּה לְרוּת.",
+        "במקום למכור את [הדירה|הבעלות] עידו חתם על [ערובה|ערבות] [לרות|בשביל רות|עבור רות]",
+        "עידו חתם על [ערובה|ערבות] [לרות|בשביל רות|עבור רות] במקום למכור את [הדירה|הבעלות]"
+      ],
+      "hint": [
+        "בִּמְקוֹם",
+        "עֲרוּבָּה"
+      ],
+      "why": "The phrase 'instead of' plus a verb is בִּמְקוֹם and the infinitive: בִּמְקוֹם לִמְכּוֹר. To sign something is חָתַם עַל."
+    },
+    {
+      "id": "translate-story-10-le-at-le-at-13",
+      "type": "translate",
+      "q": "Odelya looked at the problem all night, but did not understand it any better.",
+      "a": [
+        "אוֹדֶלְיָה הִבִּיטָה בַּבְּעָיָה כָּל הַלַּיְלָה, אֲבָל לֹא הֵבִינָה אוֹתָהּ טוֹב יוֹתֵר.",
+        "אודליה [הביטה בבעיה|הסתכלה על הבעיה] [כל הלילה|במשך כל הלילה|לאורך כל הלילה] [אבל|אך] [היא |]לא הבינה אותה [טוב יותר|יותר טוב]"
+      ],
+      "hint": [
+        "בַּבְּעָיָה",
+        "טוֹב יוֹתֵר"
+      ],
+      "why": "The book's וַיַּבֵּט is the biblical form of today's הִבִּיט, which takes בְּ where הִסְתַּכֵּל takes עַל. Modern prose says אֲבָל where the old page says אַךְ."
+    },
+    {
+      "id": "translate-story-10-le-at-le-at-14",
+      "type": "translate",
+      "q": "It was the most important document he had ever signed.",
+      "a": [
+        "זֶה הָיָה הַמִּסְמָךְ הֲכִי חָשׁוּב שֶׁהוּא חָתַם עָלָיו אֵי פַּעַם.",
+        "[זה היה|זהו|זה] המסמך [הכי חשוב|החשוב ביותר] [שהוא חתם|שחתם] עליו[ אי פעם| מעולם|]",
+        "[זה היה|זהו|זה] המסמך [הכי חשוב|החשוב ביותר] [שהוא אי פעם חתם|שאי פעם חתם] עליו"
+      ],
+      "hint": [
+        "הֲכִי",
+        "אֵי פַּעַם"
+      ],
+      "why": "The superlative is הֲכִי before the adjective, or the formal הַ... בְּיוֹתֵר after it. Since חָתַם takes עַל, the relative clause keeps its preposition with a pronoun: שֶׁחָתַם עָלָיו."
+    },
+    {
+      "id": "translate-story-10-le-at-le-at-15",
+      "type": "translate",
+      "q": "Ido understood Ruth better than he understood his own mother.",
+      "a": [
+        "עִידוֹ הֵבִין אֶת רוּת טוֹב יוֹתֵר מִשֶּׁהֵבִין אֶת אִימָּא שֶׁלּוֹ.",
+        "עידו הבין את רות [טוב יותר|יותר טוב] [משהוא הבין|ממה שהוא הבין|ממה שהבין|משהבין] את [אימא שלו|אמו]",
+        "עידו הבין את רות [טוב יותר|יותר טוב] מאשר את [אימא שלו|אמו]"
+      ],
+      "hint": [
+        "טוֹב יוֹתֵר",
+        "מִשֶּׁעָשְׂתָה"
+      ],
+      "why": "The word 'than' before a whole clause is מִשֶּׁ or מִמַּה שֶּׁ: טוֹב יוֹתֵר מִשֶּׁהֵבִין. Before a noun that keeps its אֶת, it is מֵאֲשֶׁר: מֵאֲשֶׁר אֶת אִמּוֹ."
+    }
+  ]
+}
