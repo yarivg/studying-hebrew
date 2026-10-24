@@ -75,6 +75,21 @@ window.Test = (function () {
       .then(function (banks) { return banks.filter(Boolean); });
   }
 
+  // A translation drill belongs to a reading passage rather than a chapter:
+  // content/tests/translate/<passage id>.json, optional like any bank.
+  function loadTranslate(passageId) {
+    var path = 'content/tests/translate/' + passageId + '.json';
+    if (cache[path]) return Promise.resolve(cache[path]);
+    return Data.json(path)
+      .then(function (bank) {
+        if (!bank || !Array.isArray(bank.questions)) return null;
+        bank.questions.forEach(function (q) { q.ch = bank.id; q.chTitle = bank.title; });
+        cache[path] = bank;
+        return bank;
+      })
+      .catch(function () { return null; });
+  }
+
   function hasBank(ch) {
     // A HEAD request would bypass the offline cache, which only serves GET,
     // so ask for the bank itself -- it is cached, and loadChapter memoises it.
@@ -176,6 +191,162 @@ window.Test = (function () {
     });
   }
 
+  /* ------------------------------------------------------ translating */
+
+  // A sentence has more than one right translation, and a key that knows only
+  // one of them fails the learner for the key's own narrowness. So an answer
+  // in a translate bank is a pattern: [a|b] is either, [a|] is optional, and
+  // they combine. "[אני |]קם ב[שש|6]" is four sentences. Expansion is capped,
+  // because a careless pattern can multiply into the millions.
+  var EXPAND_MAX = 4000;
+
+  function expand(pattern) {
+    var out = [''];
+    var re = /\[([^\[\]]*)\]/g, last = 0, m;
+    pattern = String(pattern);
+    function times(opts) {
+      var next = [];
+      out.forEach(function (head) {
+        opts.forEach(function (o) { if (next.length < EXPAND_MAX) next.push(head + o); });
+      });
+      out = next;
+    }
+    while ((m = re.exec(pattern))) {
+      times([pattern.slice(last, m.index)]);
+      times(m[1].split('|'));
+      last = re.lastIndex;
+    }
+    times([pattern.slice(last)]);
+    return out;
+  }
+
+  // Spellings an Israeli writes either way, folded to one so that neither is
+  // marked down. Deliberately short: a pair that is two different words when
+  // unpointed, like אוהב and אהב, is a mistake worth seeing, not a variant.
+  var SPELLING = {
+    'מאד': 'מאוד', 'בקר': 'בוקר', 'אמא': 'אימא', 'כול': 'כל', 'עכשו': 'עכשיו',
+    'היתה': 'הייתה', 'עדין': 'עדיין', 'פתאם': 'פתאום', 'שלחן': 'שולחן',
+    'צהרים': 'צהריים', 'שתים': 'שתיים', 'מייד': 'מיד'
+  };
+
+  // What a sentence is compared as: no points, no punctuation anywhere, one
+  // spelling per word, and a prefix glued back onto a number (ב-6 is ב6).
+  function sentence(s) {
+    var t = Heb.plain(String(s == null ? '' : s).toLowerCase())
+      .replace(/[.,;:!?()«»\u2026]/g, ' ')
+      .replace(/\s+/g, ' ').trim()
+      .replace(/(^| )([\u05d1\u05d4\u05d5\u05dc\u05de\u05e9]) (?=\d)/g, '$1$2');
+    return t ? t.split(' ').map(function (w) { return SPELLING[w] || w; }) : [];
+  }
+
+  function lev(a, b) {
+    if (a === b) return 0;
+    var prev = [], cur, i, j;
+    for (j = 0; j <= b.length; j++) prev[j] = j;
+    for (i = 1; i <= a.length; i++) {
+      cur = [i];
+      for (j = 1; j <= b.length; j++) {
+        cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1,
+          prev[j - 1] + (a.charAt(i - 1) === b.charAt(j - 1) ? 0 : 1));
+      }
+      prev = cur;
+    }
+    return prev[b.length];
+  }
+
+  // How alike two words are, 0 to 1. A wrong final letter costs nothing,
+  // the way it does everywhere else, and a word less than half right is
+  // simply wrong rather than a little bit right.
+  function wordSim(a, b) {
+    a = bare(a); b = bare(b);
+    if (a === b) return 1;
+    var s = 1 - lev(a, b) / Math.max(a.length, b.length);
+    return s >= 0.5 ? s : 0;
+  }
+
+  // The best in-order pairing of your words with the key's, as a sum of
+  // likeness, with the pairs kept so the verdict can show which word is
+  // which. An unpaired word on either side earns nothing, which is what
+  // costs a missing word and an extra one alike.
+  function align(key, mine) {
+    var n = key.length, m = mine.length, dp = [], i, j;
+    for (i = 0; i <= n; i++) { dp[i] = []; for (j = 0; j <= m; j++) dp[i][j] = 0; }
+    for (i = 1; i <= n; i++) {
+      for (j = 1; j <= m; j++) {
+        var w = wordSim(key[i - 1], mine[j - 1]);
+        dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1], w ? dp[i - 1][j - 1] + w : 0);
+      }
+    }
+    var pairs = {};
+    for (i = n, j = m; i > 0 && j > 0;) {
+      var s = wordSim(key[i - 1], mine[j - 1]);
+      if (s && dp[i][j] === dp[i - 1][j - 1] + s) { pairs[j - 1] = { k: i - 1, s: s }; i--; j--; }
+      else if (dp[i][j] === dp[i - 1][j]) i--;
+      else j--;
+    }
+    return { sum: dp[n][m], pairs: pairs };
+  }
+
+  // The same words in another order is often still Hebrew, and often not:
+  // an adjective in front of its noun is wrong. So an order the key does
+  // not list keeps most of its credit and none of the certainty.
+  var SHUFFLED = 0.9;
+
+  function bagSum(key, mine) {
+    var used = [], sum = 0;
+    mine.forEach(function (w) {
+      var best = 0, at = -1;
+      key.forEach(function (k, i) {
+        if (used[i]) return;
+        var s = wordSim(k, w);
+        if (s > best) { best = s; at = i; }
+      });
+      if (at > -1) { used[at] = true; sum += best; }
+    });
+    return sum;
+  }
+
+  // Graded against every sentence the patterns allow, keeping the closest.
+  // Returns the credit, 0 to 1 in steps of 5%, with the closest key and how
+  // each of your words fared against it. Full marks are only ever an exact
+  // match to an accepted sentence; anything else tops out at 95%.
+  function gradeTranslate(q, given) {
+    var mine = sentence(given);
+    var keys = translateKeys(q);
+    if (!mine.length) return { credit: 0, key: keys[0] || [], pairs: {} };
+    var joined = mine.join(' '), flat = bare(joined), i, k;
+    for (i = 0; i < keys.length; i++) {
+      if (keys[i].join(' ') === joined) return { credit: 1, key: keys[i], pairs: null };
+    }
+    // Exact once the final letters are evened out: right, spelling aside.
+    for (i = 0; i < keys.length; i++) {
+      if (bare(keys[i].join(' ')) === flat) return { credit: 1, slip: true, key: keys[i], pairs: null };
+    }
+    var best = null;
+    for (i = 0; i < keys.length; i++) {
+      k = keys[i];
+      var a = align(k, mine);
+      var score = Math.max(a.sum, SHUFFLED * bagSum(k, mine)) / Math.max(k.length, mine.length);
+      if (!best || score > best.score) best = { score: score, key: k, pairs: a.pairs };
+    }
+    best.credit = Math.min(0.95, Math.round(best.score * 20) / 20);
+    return best;
+  }
+
+  var keyCache = {};
+  function translateKeys(q) {
+    var id = q.id + '\u0000' + q.a.join('\u0001');
+    if (keyCache[id]) return keyCache[id];
+    var seen = {}, out = [];
+    q.a.forEach(function (p) {
+      expand(p).forEach(function (s) {
+        var w = sentence(s), j = w.join(' ');
+        if (j && !seen[j]) { seen[j] = 1; out.push(w); }
+      });
+    });
+    return (keyCache[id] = out);
+  }
+
   function modelAnswer(q) {
     if (q.type === 'mcq') return q.choices[q.a];
     if (q.type === 'order') return q.a.join(' ');
@@ -227,7 +398,7 @@ window.Test = (function () {
             'title="Go back and answer it again (left arrow)">' +
             '<span class="test-back-arrow" aria-hidden="true">←</span>Back</button>' : '') +
           '<span>Question ' + (s.i + 1) + ' of ' + s.questions.length + '</span>' +
-          '<span>' + s.right + ' right</span>' +
+          '<span>' + fmt(s.right) + ' right</span>' +
         '</div>' +
       '</div>' +
       '<div class="test-card">' +
@@ -265,7 +436,7 @@ window.Test = (function () {
     s.i--;
     while (s.answered.length > s.i) {
       var a = s.answered.pop();
-      if (a.right) s.right--;
+      s.right -= a.credit;
       Progress.setEx(a.ch || s.id, 'test', a.id, null);
     }
     if (window.Speech) Speech.stop();
@@ -338,6 +509,53 @@ window.Test = (function () {
       if (e.key === 'Enter') { e.preventDefault(); enterStep(); }
     });
   };
+
+  BODY.translate = function (body, actions, q) {
+    body.innerHTML =
+      '<textarea class="test-input test-sentence" id="testIn" rows="2" autocomplete="off" autocapitalize="off" ' +
+      'spellcheck="false" dir="rtl" lang="he" placeholder="Write it in Hebrew"></textarea>' + keyBar() +
+      (q.hint && q.hint.length
+        ? '<details class="test-hint"><summary>Words from the story</summary><p lang="he" dir="rtl">' +
+          q.hint.map(function (w) { return escapeHtml(Heb.show(w)); }).join(' \u00b7 ') + '</p></details>'
+        : '');
+    var input = body.querySelector('#testIn');
+    bindKeys(body, input);
+    actions.innerHTML = '<button class="btn btn-primary btn-lg" data-act="check">Check</button>';
+    actions.addEventListener('click', function (e) {
+      if (!e.target.closest('[data-act="check"]')) return;
+      if (!input.value.trim()) return;
+      input.disabled = true;
+      var g = gradeTranslate(q, input.value);
+      settle(q, g.credit === 1 ? (g.slip ? 'slip' : true) : g.credit, input.value, g);
+    });
+    // Enter checks, as everywhere else; Shift-Enter is a new line, which a
+    // one-sentence answer never needs but a pasted one might.
+    input.addEventListener('keydown', function (e) {
+      if (e.key !== 'Enter' || e.shiftKey) return;
+      e.preventDefault();
+      enterStep();
+    });
+  };
+
+  // Your words against the closest accepted sentence: green where a word
+  // matched, amber where it was nearly that word, red where it was not
+  // there to be matched. The words you left out are listed after.
+  function diffHtml(g, given) {
+    var mine = sentence(given);
+    var hit = {};
+    var words = mine.map(function (w, j) {
+      var p = g.pairs && g.pairs[j];
+      if (p) hit[p.k] = true;
+      var cls = !p ? 'hw-miss' : p.s === 1 ? 'hw-ok' : 'hw-close';
+      return '<span class="hw ' + cls + '">' + escapeHtml(w) + '</span>';
+    });
+    var missing = g.key.filter(function (w, i) { return !hit[i]; });
+    return '<p class="test-heard" lang="he" dir="rtl">' + words.join(' ') + '</p>' +
+      (missing.length ? '<p class="test-note">Missing: <span lang="he" dir="rtl">' +
+        escapeHtml(missing.join(' \u00b7 ')) + '</span></p>' : '') +
+      '<p class="test-closest"><span>Closest accepted</span><span lang="he" dir="rtl">' +
+        escapeHtml(g.key.join(' ')) + '</span></p>';
+  }
 
   BODY.listen = function (body, actions, q) {
     if (!window.Say || !Say.supported()) {
@@ -691,31 +909,46 @@ window.Test = (function () {
 
   /* ---------------------------------------------------------- verdict */
 
+  // How much a verdict is worth. Most questions are right or wrong; a
+  // translation can be partly right, and says by how much.
+  function credit(right) {
+    if (typeof right === 'number') return right;
+    return right ? 1 : 0;
+  }
+
+  // A score with half points in it reads 7.5, and one without reads 7.
+  function fmt(n) { return String(Math.round(n * 10) / 10); }
+
   function settle(q, right, given, extra, selfMarked) {
     var s = run;
     if (!s) return;
-    if (right) s.right++;
+    var c = credit(right);
+    var partial = c > 0 && c < 1;
+    s.right += c;
     // The question itself is kept, not just its id: the summary lists what you
     // got wrong, and it needs the prompt and the model answer to do that.
     s.answered.push({
-      id: q.id, ch: q.ch, right: !!right, given: given || '', q: q, selfMarked: !!selfMarked
+      id: q.id, ch: q.ch, right: c === 1, credit: c, given: given || '', q: q, selfMarked: !!selfMarked
     });
 
     // Chapter exercises and tests share the same store, so a test answer
     // shows up in the chapter's accuracy too.
-    Progress.setEx(q.ch || s.id, 'test', q.id, right ? 'ok' : 'again');
+    Progress.setEx(q.ch || s.id, 'test', q.id, c === 1 ? 'ok' : 'again');
 
     // A final-letter slip is a pass, but the spelling is still worth seeing,
     // so it gets the model answer that a plain pass does not.
     var slip = right === 'slip';
     var v = s.host.querySelector('#testVerdict');
     v.hidden = false;
-    v.className = 'test-verdict ' + (right ? 'is-right' : 'is-wrong') + (slip ? ' is-slip' : '');
+    v.className = 'test-verdict ' + (c === 1 ? 'is-right' : partial ? 'is-partial' : 'is-wrong') +
+      (slip ? ' is-slip' : '');
     v.innerHTML =
-      '<strong>' + (right
+      '<strong>' + (c === 1
         ? (slip ? 'Correct, spelling aside' : selfMarked ? 'Marked as known' : 'Correct')
+        : partial ? (c >= 0.75 ? 'Nearly' : 'Partly right') + ': ' + Math.round(c * 100) + '%'
         : 'Not quite') + '</strong>' +
-      (slip || (!right && !selfMarked && q.type !== 'say')
+      (q.type === 'translate' && c < 1 && extra ? diffHtml(extra, given) : '') +
+      (slip || (c < 1 && !selfMarked && q.type !== 'say')
         ? '<p class="test-answer" dir="auto">' + escapeHtml(Heb.show(modelAnswer(q))) + '</p>' : '') +
       (slip ? '<p class="test-slip-note">A final letter was off: ' +
         '<span lang="he" dir="rtl">\u05da \u05dd \u05df \u05e3 \u05e5</span> ' +
@@ -738,8 +971,27 @@ window.Test = (function () {
       (q.type === 'say'
         ? '<button class="btn btn-lg btn-keyed" data-act="redo" data-key="1">' +
           key(1) + '🎤 Say it again</button>' : '') +
+      // A translation the key does not know can still be right. You are the
+      // judge of that, and the summary says which ones you judged.
+      (q.type === 'translate' && c < 1
+        ? '<button class="btn btn-lg btn-keyed" data-act="mine" data-key="1">' +
+          key(1) + 'Mine is right too</button>' : '') +
       '<button class="btn btn-primary btn-lg" data-act="next">' +
       (last ? 'See the score' : 'Next') + '</button>';
+
+    var mineOk = actions.querySelector('[data-act="mine"]');
+    if (mineOk) {
+      mineOk.addEventListener('click', function () {
+        var a = s.answered[s.answered.length - 1];
+        s.right += 1 - a.credit;
+        a.credit = 1; a.right = true; a.claimed = true;
+        Progress.setEx(q.ch || s.id, 'test', q.id, 'ok');
+        v.className = 'test-verdict is-right';
+        v.querySelector('strong').textContent = 'Counted as right, on your word';
+        mineOk.remove();
+        s.host.querySelector('.test-meta span:last-child').textContent = fmt(s.right) + ' right';
+      });
+    }
 
     var redo = actions.querySelector('[data-act="redo"]');
     if (redo) {
@@ -747,7 +999,7 @@ window.Test = (function () {
         // Undo the mark first, or a second go would count as a second
         // question and a lucky retry would inflate the score.
         var prev = s.answered.pop();
-        if (prev && prev.right) s.right--;
+        if (prev) s.right -= prev.credit;
         Progress.setEx(q.ch || s.id, 'test', q.id, null);
         render();
       });
@@ -767,7 +1019,7 @@ window.Test = (function () {
     // comparable - which questions came up, and which ones went wrong.
     Progress.recordTest(s.id, pct, {
       n: s.questions.length,
-      got: s.right,
+      got: Math.round(s.right * 10) / 10,
       asked: s.answered.map(function (a) { return a.id; }),
       wrong: s.answered.filter(function (a) { return !a.right; })
         .map(function (a) { return a.id; })
@@ -777,11 +1029,13 @@ window.Test = (function () {
     s.answered.forEach(function (a) {
       var c = byCh[a.ch] = byCh[a.ch] || { right: 0, total: 0 };
       c.total++;
-      if (a.right) c.right++;
+      c.right += a.credit;
     });
 
+    // A translation drill is one story, not a chapter, so there is no
+    // lesson to send you back to.
     var weak = Object.keys(byCh).filter(function (c) {
-      return byCh[c].right / byCh[c].total < 0.7;
+      return byCh[c].right / byCh[c].total < 0.7 && c.indexOf('translate-') !== 0;
     });
 
     var level = Progress.mastery(s.masteryKey).level;
@@ -789,13 +1043,14 @@ window.Test = (function () {
     s.host.innerHTML =
       '<div class="test-summary">' +
         '<div class="test-score ' + (pct >= 80 ? 'is-good' : pct >= 50 ? 'is-mid' : 'is-low') + '">' +
-          '<strong>' + pct + '%</strong><span>' + s.right + ' of ' + s.questions.length + '</span>' +
+          '<strong>' + pct + '%</strong><span>' + fmt(s.right) + ' of ' + s.questions.length + '</span>' +
         '</div>' +
         (weak.length
           ? '<p>Worth another look: ' + weak.map(function (c) {
               return '<a href="#/' + c + '">' + escapeHtml(c.replace(/-/g, ' ')) + '</a>';
             }).join(', ') + '.</p>'
           : '<p>Nothing stood out as weak.</p>') +
+        claimedHtml(s.answered) +
         wrongHtml(s.answered) +
         '<div class="mastery-box' + (level ? '' : ' is-todo') + '">' +
           '<h3>' + (level ? 'Your mark' : 'One thing left: mark it yourself') + '</h3>' +
@@ -859,7 +1114,8 @@ window.Test = (function () {
         var mine = String(a.given || '').trim();
         var model = modelAnswer(q);
         return '<li>' +
-          '<p class="tr-q" dir="auto">' + escapeHtml(Heb.show(q.q || '')) + '</p>' +
+          '<p class="tr-q" dir="auto">' + escapeHtml(Heb.show(q.q || '')) +
+            (a.credit > 0 ? ' <span class="tr-credit">' + Math.round(a.credit * 100) + '%</span>' : '') + '</p>' +
           // What the voice read out, unless that is the answer line as well.
           (q.type === 'listen' && q.say && q.say !== model
             ? '<p class="tr-said"><span>It said</span>' +
@@ -875,6 +1131,20 @@ window.Test = (function () {
           '<p class="tr-a" dir="auto"><span>Answer</span>' + escapeHtml(Heb.show(model)) + '</p>' +
           (q.why ? '<p class="tr-why" dir="auto">' + escapeHtml(Heb.show(q.why)) + '</p>' : '') +
           '</li>';
+      }).join('') + '</ol></div>';
+  }
+
+  // The answers you overrode, with what you wrote, so that a key that was
+  // too narrow can be widened, and so that a generous call stays visible.
+  function claimedHtml(answered) {
+    var mine = answered.filter(function (a) { return a.claimed; });
+    if (!mine.length) return '';
+    return '<div class="test-review test-claimed">' +
+      '<h3>Counted as right on your word <span>' + mine.length + '</span></h3>' +
+      '<ol>' + mine.map(function (a) {
+        return '<li><p class="tr-q">' + escapeHtml(a.q.q) + '</p>' +
+          '<p class="tr-mine" dir="auto"><span>You said</span>' + escapeHtml(a.given) + '</p>' +
+          '<p class="tr-a" dir="auto"><span>The key had</span>' + escapeHtml(Heb.show(modelAnswer(a.q))) + '</p></li>';
       }).join('') + '</ol></div>';
   }
 
@@ -915,8 +1185,10 @@ window.Test = (function () {
   return {
     loadGroups: loadGroups, findGroup: findGroup, loadGroupBanks: loadGroupBanks,
     loadChapter: loadChapter, loadPart: loadPart, hasBank: hasBank, pathFor: pathFor,
+    loadTranslate: loadTranslate,
     sample: sample, shuffle: shuffle, start: start, stop: stop,
     gradeText: gradeText, gradeOrder: gradeOrder, norm: norm, modelAnswer: modelAnswer,
+    gradeTranslate: gradeTranslate, expand: expand, translateKeys: translateKeys,
     keyBar: keyBar, bindKeys: bindKeys
   };
 })();

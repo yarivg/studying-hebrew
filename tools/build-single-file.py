@@ -79,6 +79,9 @@ def main():
             if entry.get("file") and os.path.exists(os.path.join(ROOT, rel)):
                 embedded[rel] = json.loads(read(rel))
                 passages += 1
+            drill = "content/tests/translate/%s.json" % entry.get("id", "")
+            if os.path.exists(os.path.join(ROOT, drill)):
+                embedded[drill] = json.loads(read(drill))
 
     if os.path.exists(os.path.join(ROOT, "content/library.json")):
         embedded["content/library.json"] = json.loads(read("content/library.json"))

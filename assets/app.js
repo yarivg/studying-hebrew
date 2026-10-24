@@ -11,6 +11,8 @@
      #/tests             every chapter and part test
      #/test/<slug>       one chapter's test
      #/test/part-<n>     a whole-part exam
+     #/test/translate-<passage id>   English to Hebrew, one story's words
+     #/test/translate-mix-<level>    the same, dealt across a level
      #/read              reading passages
      #/read/library      real stories to read elsewhere
      #/read/<id>         one passage
@@ -1493,6 +1495,7 @@
       '<p class="lead">A drill for each chapter, a longer exam for each part, and sets ' +
       'that cut across both. The score is automatic; whether you have actually got it is your call.</p>' +
       weakSpotHtml() +
+      '<div id="translateBlock"></div>' +
       '<div id="groupBlock"></div>';
 
     manifest.parts.forEach(function (part, pi) {
@@ -1526,7 +1529,60 @@
     });
 
     view.innerHTML = html;
+    paintTranslate();
     paintGroups();
+  }
+
+  // English into Hebrew, one drill per story, built from the words that
+  // story taught. Writing is the half the reading never practises.
+  var TRANSLATE_LEVELS = ['A1', 'A2', 'B1', 'B2'];
+
+  function loadTranslateSets() {
+    return Read.loadIndex().then(function (passages) {
+      return Promise.all(passages.map(function (p) { return Test.loadTranslate(p.id); }))
+        .then(function (banks) {
+          return passages.map(function (p, i) { return { p: p, bank: banks[i] }; })
+            .filter(function (x) { return x.bank; });
+        });
+    });
+  }
+
+  function paintTranslate() {
+    var host = document.getElementById('translateBlock');
+    if (!host) return;
+    loadTranslateSets().then(function (sets) {
+      if (!sets.length) return;
+      var total = sets.reduce(function (n, x) { return n + x.bank.questions.length; }, 0);
+      var tile = function (key, name, blurb, meta, he) {
+        var sc = Progress.testScore(key);
+        return '<a class="test-tile" href="#/test/' + key + '">' +
+          '<span class="test-tile-name"' + (he ? ' lang="he" dir="rtl"' : '') + '>' + escapeHtml(name) + '</span>' +
+          (blurb ? '<span class="test-tile-blurb">' + escapeHtml(blurb) + '</span>' : '') +
+          '<span class="test-tile-meta">' + (sc.runs ? 'best ' + sc.best + '%' : 'not taken') +
+            ' · ' + meta + '</span></a>';
+      };
+      var levels = TRANSLATE_LEVELS.filter(function (lv) {
+        return sets.some(function (x) { return x.p.level === lv; });
+      });
+      host.innerHTML = '<h2>Translate into Hebrew</h2>' +
+        '<p class="test-groupline">' + total + ' English sentences built from the words of the reading ' +
+        'passages. Many ways of saying it are accepted, and a sentence that is partly right gets ' +
+        'partly marked. If yours is right and the key disagrees, say so.</p>' +
+        '<div class="test-grid">' +
+        levels.map(function (lv) {
+          var n = sets.filter(function (x) { return x.p.level === lv; })
+            .reduce(function (k, x) { return k + x.bank.questions.length; }, 0);
+          return tile('translate-mix-' + lv, lv + ': a mix of 15', 'Dealt from every ' + lv + ' story.',
+            n + ' to draw from');
+        }).join('') +
+        '</div>' +
+        '<details class="test-stories"><summary>One story at a time</summary><div class="test-grid">' +
+        sets.map(function (x) {
+          return tile('translate-' + x.p.id, Heb.show(x.p.title), null,
+            x.p.level + ' · ' + x.bank.questions.length + ' sentences', true);
+        }).join('') +
+        '</div></details>';
+    });
   }
 
   // What you keep getting wrong, across every sitting. Only questions asked
@@ -1550,8 +1606,10 @@
     });
     var chips = Object.keys(byCh).map(function (slug) {
       var ch = bySlug[slug];
+      var story = slug.indexOf('translate-') === 0 && Read.byId(slug.slice(10));
       return '<a class="pill" href="#/test/' + slug + '">' +
-        escapeHtml(ch ? ch.title : slug.replace(/-/g, ' ')) + ' · ' + byCh[slug] + '</a>';
+        escapeHtml(ch ? ch.title : story ? 'Translate: ' + Heb.show(story.title) : slug.replace(/-/g, ' ')) +
+        ' · ' + byCh[slug] + '</a>';
     }).join(' ');
     return '<div class="test-weak"><h2>What keeps catching you</h2>' +
       '<p>' + weak.length + ' question' + (weak.length === 1 ? '' : 's') + ' you have got wrong ' +
@@ -1593,6 +1651,8 @@
     view.innerHTML = '<div class="loading">Loading the questions…</div>';
 
     if (key.indexOf('group-') === 0) return startGroupTest(key, key.slice(6));
+    if (key.indexOf('translate-mix-') === 0) return startTranslateMix(key, key.slice(14));
+    if (key.indexOf('translate-') === 0) return startTranslate(key, key.slice(10));
 
     var part = key.indexOf('part-') === 0 ? manifest.parts[Number(key.slice(5)) - 1] : null;
     if (part) return startPartTest(key, part);
@@ -1668,6 +1728,45 @@
           masteryKey: key,
           next: null
         });
+      });
+    });
+  }
+
+  function startTranslate(key, passageId) {
+    Promise.all([Read.loadIndex(), Test.loadTranslate(passageId)]).then(function (r) {
+      var p = Read.byId(passageId), bank = r[1];
+      if (!p || !bank) return notFound(key);
+      runTest({
+        id: key,
+        title: 'Translate: ' + bank.title,
+        eyebrow: p.level + ' · ' + bank.questions.length + ' sentences',
+        back: '#/read/' + passageId,
+        backLabel: 'Back to the story',
+        questions: Test.shuffle(bank.questions),
+        // Not a chapter, so a mark here must not tick one off as read.
+        masteryKey: 'translate:' + passageId,
+        next: null
+      });
+    });
+  }
+
+  function startTranslateMix(key, level) {
+    loadTranslateSets().then(function (sets) {
+      var banks = sets.filter(function (x) { return x.p.level === level; })
+        .map(function (x) { return x.bank; });
+      if (!banks.length) return notFound(key);
+      var all = banks.reduce(function (out, b) { return out.concat(b.questions); }, []);
+      var questions = Test.shuffle(all).slice(0, 15);
+      runTest({
+        id: key,
+        title: 'Translate: ' + level + ' mix',
+        eyebrow: banks.length + ' stories · ' + questions.length + ' sentences',
+        back: '#/tests',
+        backLabel: 'All tests',
+        questions: questions,
+        subtitle: 'part',          // shows which story each sentence came from
+        masteryKey: 'translate:mix-' + level,
+        next: null
       });
     });
   }

@@ -24,6 +24,7 @@ echo "  $(ls assets/*.js sw.js | wc -l | tr -d ' ') files"
 run "vocabulary"        python3 tools/build-vocab.py
 run "hebrew"            python3 tools/check-hebrew.py
 run "test banks"        python3 tools/check-tests.py
+run "translate drills"  python3 tools/check-translate.py
 run "bank grading"      node tools/check-grading.js
 run "reading passages"  python3 tools/check-reading.py
 run "gloss lookup"      node tools/check-gloss.js

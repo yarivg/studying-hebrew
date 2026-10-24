@@ -1,0 +1,220 @@
+{
+  "id": "translate-a1-01-ha-boker",
+  "passage": "a1-01-ha-boker",
+  "title": "Dana's morning",
+  "questions": [
+    {
+      "id": "translate-a1-01-ha-boker-01",
+      "type": "translate",
+      "q": "Dana gets up at seven.",
+      "a": [
+        "דָּנָה קָמָה בְּשֶׁבַע.",
+        "דנה קמה ב[|שעה ][שבע|7]"
+      ],
+      "hint": [
+        "קָמָה"
+      ],
+      "why": "The verb קָם is pa'al, and the feminine present adds ־ָה: קָמָה. An hour takes בְּ and needs no word for o'clock: בְּשֶׁבַע."
+    },
+    {
+      "id": "translate-a1-01-ha-boker-02",
+      "type": "translate",
+      "q": "The cat is always hungry.",
+      "a": [
+        "הֶחָתוּל תָּמִיד רָעֵב.",
+        "החתול [תמיד רעב|רעב תמיד]"
+      ],
+      "hint": [
+        "רָעֵב",
+        "תָּמִיד"
+      ],
+      "why": "No word for 'is' in the present: הֶחָתוּל רָעֵב is already a sentence. תָּמִיד can stand before or after the adjective."
+    },
+    {
+      "id": "translate-a1-01-ha-boker-03",
+      "type": "translate",
+      "q": "Dana washes and gets dressed.",
+      "a": [
+        "דָּנָה מִתְרַחֶצֶת וּמִתְלַבֶּשֶׁת.",
+        "דנה [מתרחצת|מתקלחת] ומתלבשת"
+      ],
+      "hint": [
+        "מִתְרַחֶצֶת",
+        "מִתְלַבֶּשֶׁת"
+      ],
+      "why": "Both are hitpa'el: the מִתְ in front, and an action you do to yourself. The feminine present ends in ־ֶת."
+    },
+    {
+      "id": "translate-a1-01-ha-boker-04",
+      "type": "translate",
+      "q": "I don't like to be late.",
+      "a": [
+        "אֲנִי לֹא אוֹהֵב לְאַחֵר.",
+        "אני לא [אוהב|אוהבת] [לאחר|להתאחר]"
+      ],
+      "hint": [
+        "לְאַחֵר"
+      ],
+      "why": "The negative לֹא goes before the verb, and 'to be late' is one word, the infinitive לְאַחֵר. A woman says אוֹהֶבֶת."
+    },
+    {
+      "id": "translate-a1-01-ha-boker-05",
+      "type": "translate",
+      "q": "He runs to the station.",
+      "a": [
+        "הוּא רָץ לַתַּחֲנָה.",
+        "הוא רץ [לתחנה|אל התחנה]"
+      ],
+      "hint": [
+        "רָץ",
+        "תַּחֲנָה"
+      ],
+      "why": "The verb רָץ is the masculine present of לָרוּץ; she would be רָצָה. לְ and הַתַּחֲנָה merge into לַתַּחֲנָה."
+    },
+    {
+      "id": "translate-a1-01-ha-boker-06",
+      "type": "translate",
+      "q": "The street is empty and there are no cars.",
+      "a": [
+        "הָרְחוֹב רֵיק וְאֵין מְכוֹנִיּוֹת.",
+        "הרחוב ריק [ו|]אין [מכוניות|אף מכונית]"
+      ],
+      "hint": [
+        "רֵיק",
+        "מְכוֹנִיּוֹת"
+      ],
+      "why": "'There are no' is אֵין, with no verb after it and no article on what is missing."
+    },
+    {
+      "id": "translate-a1-01-ha-boker-07",
+      "type": "translate",
+      "q": "Today is Saturday, and there is no bus.",
+      "a": [
+        "הַיּוֹם שַׁבָּת, וְאֵין אוֹטוֹבּוּס.",
+        "היום [|יום |זה ]שבת [ו|]אין [אוטובוס|אוטובוסים]"
+      ],
+      "hint": [
+        "שַׁבָּת",
+        "אוֹטוֹבּוּס"
+      ],
+      "why": "Hebrew says הַיּוֹם שַׁבָּת, today Saturday, with nothing for 'is'. אֵין covers 'there is no'."
+    },
+    {
+      "id": "translate-a1-01-ha-boker-08",
+      "type": "translate",
+      "q": "She is looking for the keys in the bag.",
+      "a": [
+        "הִיא מְחַפֶּשֶׂת אֶת הַמַּפְתְּחוֹת בַּתִּיק.",
+        "היא מחפשת [את המפתחות בתיק|בתיק את המפתחות]"
+      ],
+      "hint": [
+        "מְחַפֶּשֶׂת",
+        "מַפְתְּחוֹת",
+        "תִּיק"
+      ],
+      "why": "The keys are definite, so they take אֶת. בַּתִּיק is בְּ and הַתִּיק, the ה swallowed into the vowel."
+    },
+    {
+      "id": "translate-a1-01-ha-boker-09",
+      "type": "translate",
+      "q": "She takes off her coat.",
+      "a": [
+        "הִיא מוֹרִידָה אֶת הַמְּעִיל.",
+        "היא [מורידה|פושטת] את [המעיל|המעיל שלה]"
+      ],
+      "hint": [
+        "מוֹרִידָה",
+        "מְעִיל"
+      ],
+      "why": "Hebrew is happy with 'the coat' where English says 'her coat', and הַמְּעִיל שֶׁלָּהּ is right too. Definite, so אֶת."
+    },
+    {
+      "id": "translate-a1-01-ha-boker-10",
+      "type": "translate",
+      "q": "The cat is already asleep on the bed.",
+      "a": [
+        "הֶחָתוּל כְּבָר יָשֵׁן עַל הַמִּיטָּה.",
+        "החתול [כבר ישן|ישן כבר] [על המיטה|במיטה]"
+      ],
+      "hint": [
+        "כְּבָר",
+        "יָשֵׁן",
+        "מִיטָּה"
+      ],
+      "why": "The one word יָשֵׁן is 'sleeps', 'is sleeping' and 'is asleep': Hebrew has one present. כְּבָר usually comes before the verb."
+    },
+    {
+      "id": "translate-a1-01-ha-boker-11",
+      "type": "translate",
+      "q": "The cat is waiting for its breakfast.",
+      "a": [
+        "הֶחָתוּל מְחַכֶּה לַאֲרוּחַת הַבּוֹקֶר שֶׁלּוֹ.",
+        "החתול מחכה [לארוחת הבוקר|לארוחת בוקר|לארוחת הבוקר שלו]"
+      ],
+      "hint": [
+        "מְחַכֶּה",
+        "אֲרוּחַת הַבּוֹקֶר"
+      ],
+      "why": "The verb לְחַכּוֹת takes לְ for what you wait for. In smichut the article goes on the second noun: אֲרוּחַת הַבּוֹקֶר."
+    },
+    {
+      "id": "translate-a1-01-ha-boker-12",
+      "type": "translate",
+      "q": "The keys are under the newspaper, next to the phone.",
+      "a": [
+        "הַמַּפְתְּחוֹת מִתַּחַת לָעִיתּוֹן, לְיַד הַטֶּלֶפוֹן.",
+        "המפתחות [נמצאים |]מתחת [לעיתון|לעתון] [ו|]ליד הטלפון",
+        "המפתחות [נמצאים |]ליד הטלפון [ו|]מתחת [לעיתון|לעתון]"
+      ],
+      "hint": [
+        "מִתַּחַת לְ",
+        "עִיתּוֹן",
+        "לְיַד"
+      ],
+      "why": "The word מִתַּחַת takes לְ, and לְ with הָעִיתּוֹן becomes לָעִיתּוֹן. לְיַד takes its noun straight after it."
+    },
+    {
+      "id": "translate-a1-01-ha-boker-13",
+      "type": "translate",
+      "q": "In the kitchen she makes coffee and two slices of bread.",
+      "a": [
+        "בַּמִּטְבָּח הִיא עוֹשָׂה קָפֶה וּשְׁתֵּי פְּרוּסוֹת לֶחֶם.",
+        "[במטבח היא|היא במטבח] [עושה|מכינה] קפה ו[שתי|2] פרוסות לחם",
+        "היא [עושה|מכינה] קפה ו[שתי|2] פרוסות לחם במטבח"
+      ],
+      "hint": [
+        "מִטְבָּח",
+        "פְּרוּסוֹת"
+      ],
+      "why": "The noun פְּרוּסָה is feminine, so two is שְׁתֵּי, the form that sits in front of a noun. וְ before a sheva becomes וּ."
+    },
+    {
+      "id": "translate-a1-01-ha-boker-14",
+      "type": "translate",
+      "q": "Where are my keys? I can't find them.",
+      "a": [
+        "אֵיפֹה הַמַּפְתְּחוֹת שֶׁלִּי? אֲנִי לֹא מוֹצֵא אוֹתָם.",
+        "איפה המפתחות שלי אני לא [מוצא|מוצאת|מצליח למצוא|מצליחה למצוא|יכול למצוא|יכולה למצוא] אותם"
+      ],
+      "hint": [
+        "מוֹצֵא",
+        "מַפְתְּחוֹת"
+      ],
+      "why": "'Them' after a verb is אוֹתָם, the object marker with an ending. Where English says 'can't find', Hebrew is happy with plain לֹא מוֹצֵא."
+    },
+    {
+      "id": "translate-a1-01-ha-boker-15",
+      "type": "translate",
+      "q": "Finally she understands: today is Saturday.",
+      "a": [
+        "לְבַסּוֹף הִיא מְבִינָה: הַיּוֹם שַׁבָּת.",
+        "[לבסוף|בסוף|סוף סוף] היא מבינה [ש|]היום [|יום ]שבת"
+      ],
+      "hint": [
+        "לְבַסּוֹף",
+        "מְבִינָה"
+      ],
+      "why": "The verb מְבִינָה is the feminine present of לְהָבִין, a hif'il: the מְ in front is the sign. After 'understands' Hebrew may add שֶׁ, 'that'."
+    }
+  ]
+}

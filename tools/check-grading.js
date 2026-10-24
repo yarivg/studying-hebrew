@@ -90,6 +90,35 @@ function main() {
         }
       }
 
+      // A translation is a set of patterns. Every sentence they expand into
+      // must be marked fully right, the model answer must be one of them once
+      // the points are off, and leaving a word out must cost something
+      // without costing everything: that is the partial credit working.
+      if (q.type === 'translate') {
+        if (!Array.isArray(q.a) || !q.a.length) return;
+        var keys = Test.translateKeys(q);
+        checked++;
+        keys.forEach(function (k) {
+          var g = Test.gradeTranslate(q, k.join(' '));
+          if (g.credit !== 1) problems.push(where + ': the accepted sentence ' + k.join(' ') + ' grades ' + g.credit);
+        });
+        var bare = Test.gradeTranslate(q, Heb.strip(q.a[0]));
+        if (bare.credit !== 1) {
+          problems.push(where + ': the model answer with the nikud stripped grades ' + bare.credit +
+            '; it is probably written in defective spelling');
+        }
+        // The shortened sentence may itself be accepted, when the last word
+        // was optional; then there is nothing to learn from it.
+        var short = keys[0].slice(0, -1);
+        var accepted = keys.some(function (k) { return k.join(' ') === short.join(' '); });
+        if (keys[0].length > 2 && !accepted) {
+          var part = Test.gradeTranslate(q, short.join(' ')).credit;
+          if (!(part > 0 && part < 1)) {
+            problems.push(where + ': dropping the last word grades ' + part + ', not a partial mark');
+          }
+        }
+      }
+
       if (q.type === 'mcq') {
         checked++;
         if (!Array.isArray(q.choices) || !(q.a >= 0 && q.a < q.choices.length)) {

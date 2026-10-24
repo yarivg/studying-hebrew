@@ -15,6 +15,8 @@ assets/fonts/           two self-hosted OFL Hebrew faces, for nikud positioning
 content/manifest.json   the four parts and every chapter
 content/partN/*.md      lessons
 content/tests/          question banks, one JSON per chapter, plus groups.json
+content/tests/translate/  English-to-Hebrew drills, one JSON per reading passage
+content/library.json    the Library: real stories to read on other sites
 content/reading/        passages, plus index.json
 data/vocab-source.txt   the word list, hand written
 data/vocab.json         built from it by tools/build-vocab.py
@@ -60,6 +62,9 @@ fetches the lot for a flight.
 - Only teach what the course has already covered. `content/manifest.json` is
   the order of record.
 - Schemas: `content/tests/SCHEMA.md` and `content/reading/SCHEMA.md`.
+- **Translation keys are wide.** A drill answer lists every phrasing a native
+  speaker would accept, both genders where English does not say. See the
+  `translate` type in `content/tests/SCHEMA.md`.
 
 ## After editing
 
@@ -75,6 +80,7 @@ Individually:
 node --check assets/*.js            # after any JS change
 python3 tools/build-vocab.py        # after editing data/vocab-source.txt
 python3 tools/check-tests.py        # after editing a test bank
+python3 tools/check-translate.py    # after editing a translation drill
 python3 tools/check-reading.py      # after editing a passage
 python3 tools/check-hebrew.py       # after editing anything with Hebrew in it
 node tools/check-grading.js         # grades every bank answer with the real grader

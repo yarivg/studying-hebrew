@@ -218,11 +218,18 @@ window.Read = (function () {
         (passage.aloud && passage.aloud.length ? aloudHtml(passage) : '') +
         '<h2>Did you follow it?</h2>' +
         '<div id="rdQuiz"></div>' +
+        '<p class="rd-next" id="rdNext" hidden><a class="btn" href="#/test/translate-' + escapeAttr(passage.id) + '">' +
+          'Now write it: English sentences to put into Hebrew, with this story\'s words \u2192</a></p>' +
         (m.level ? '<p class="rd-mark">You marked this <strong>' +
           ['', 'shaky', 'confident'][m.level] + '</strong>.</p>' : '');
 
       bindText(host, passage, pairs);
       if (passage.aloud && passage.aloud.length) bindAloud(host, passage);
+      // Only a story that has a translation drill offers one.
+      Test.loadTranslate(passage.id).then(function (bank) {
+        var next = host.querySelector('#rdNext');
+        if (bank && next) next.hidden = false;
+      });
 
       Test.start(host.querySelector('#rdQuiz'), {
         id: 'read:' + passage.id,

@@ -16,7 +16,7 @@
    Bump CACHE_VERSION to force a full refetch.
    ============================================================ */
 
-var CACHE_VERSION = 'hamachberet-v7';
+var CACHE_VERSION = 'hamachberet-v8';
 var SHELL = [
   './',
   'index.html',
@@ -92,6 +92,7 @@ function buildFileList() {
       required.push('content/reading/index.json');
       (idx.passages || []).forEach(function (p) {
         if (p && p.file) required.push('content/reading/' + p.file);
+        if (p && p.id) optional.push('content/tests/translate/' + p.id + '.json');
       });
     })
     .catch(function () {});

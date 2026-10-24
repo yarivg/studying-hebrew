@@ -41,7 +41,7 @@ in `a`. The grader does not guess between them.
 | field | required | notes |
 |---|---|---|
 | `id` | yes | unique inside the file, e.g. `nikud-07`. Progress is keyed on it, so **never renumber an existing id** - add new ones at the end. |
-| `type` | yes | one of the six below |
+| `type` | yes | one of the six below, or `translate` in a translation drill |
 | `q` | yes | the prompt. English, usually, quoting Hebrew inside it. Plain text, no markdown. |
 | `why` | yes | one or two sentences explaining the answer, in English, quoting Hebrew with nikud. Shown after grading, right or wrong. This is the part that teaches, so make it worth reading. |
 | `tags` | no | array of extra strings, e.g. `["translit"]`, which is the one tag with a meaning: it lets a typed answer be Latin letters. |
@@ -136,6 +136,63 @@ anything. No `a` field.
   "why": "Endings are the only systematic handle on Hebrew gender; the rest is memory, and the paired body parts are the list worth memorising." }
 ```
 `a[0]` is the model answer, revealed when you ask for it. You grade yourself.
+
+### `translate` - English into Hebrew
+
+Used only by the translation drills in `content/tests/translate/`, one file
+per reading passage, named after it: `content/tests/translate/a1-01-ha-boker.json`.
+
+```json
+{
+  "id": "translate-a1-01-ha-boker",
+  "passage": "a1-01-ha-boker",
+  "title": "Dana's morning",
+  "questions": [
+    { "id": "translate-a1-01-ha-boker-01", "type": "translate",
+      "q": "Dana gets up at seven.",
+      "a": ["דָּנָה קָמָה בְּשֶׁבַע.", "דנה קמה ב[|שעה ][שבע|7]"],
+      "hint": ["קָמָה"],
+      "why": "קָם is pa'al; the feminine present adds ־ָה: קָמָה. An hour takes בְּ and needs no word for o'clock." }
+  ]
+}
+```
+
+`a[0]` is the model answer: one sentence, full nikud, no patterns. It is what
+the learner is shown. Every other entry is a **pattern**, written without
+nikud: `[a|b]` means either, `[a|]` means optional, and they combine, so
+`ב[|שעה ][שבע|7]` accepts בשבע, ב7, בשעה שבע and בשעה 7. No nesting. Spaces
+inside a group belong to it, so put an optional word's space inside the
+brackets: `[ו|]אין`, `[הוא |]רץ`.
+
+**Make the key wide.** A learner who writes a right sentence the key does not
+know has wasted the question, so list what a native speaker would accept:
+
+- both genders wherever English does not say, for "I", "you" and "we"
+  (`[אוהב|אוהבת]`, `[אתה|את|אתם]`), and the pronoun dropped wherever Hebrew
+  drops it (`[אני |]הלכתי`)
+- the other natural word orders, especially for time and place phrases
+- synonyms a speaker would really use (`[עושה|מכינה] קפה`)
+- digits for numbers and times
+- both spellings where both are common, beyond the ones the grader already
+  folds (מאוד/מאד, בוקר/בקר, הייתה/היתה, עדיין/עדין, שולחן/שלחן)
+
+Do not accept what is wrong: a missing `את`, the wrong gender for a named
+person, an adjective before its noun.
+
+Grading strips nikud and all punctuation. An exact match to any accepted
+sentence is 100%; a wrong final letter still is. Anything else is marked word
+by word against the closest accepted sentence, in steps of 5% and never above
+95%: a word nearly right counts in part, a missing or extra word costs its
+share. The learner sees which words matched and can overrule the key with
+"Mine is right too", which the summary lists so the key can be widened.
+
+`hint` is optional: the story's words the sentence needs, pointed, shown only
+if asked for. `why` names the grammar the sentence turns on.
+
+Drill rules: 12 to 15 sentences a story. Build them from that story's words,
+in new sentences rather than copied lines. Use only the grammar the story
+uses or the course taught before it: an A1 story's drill stays in the present
+tense. Order them easy to hard.
 
 ## Writing rules
 

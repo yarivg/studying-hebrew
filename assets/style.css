@@ -1490,6 +1490,20 @@ textarea.test-input { font-size: .95rem; line-height: 1.6; resize: vertical; }
 .test-verdict.is-slip strong { color: var(--or); }
 .test-answer { font-size: 1.05rem !important; color: var(--ink) !important; font-weight: 600; }
 
+/* A translation that is partly right: some credit, so neither red nor green. */
+.test-verdict.is-partial { border-left-color: var(--or); }
+.test-verdict.is-partial strong { color: var(--or); }
+.test-verdict .test-heard { margin-top: .6rem; font-family: var(--he-serif); font-size: 1.2rem; }
+.test-closest { display: flex; flex-wrap: wrap; gap: .5rem; align-items: baseline; }
+.test-closest span:first-child {
+  color: var(--muted); font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em;
+}
+.test-closest span[lang] { color: var(--ink); font-size: 1rem; }
+textarea.test-sentence { font-family: var(--he-serif); font-size: 1.25rem; line-height: 1.6; }
+.test-hint { margin-top: .7rem; font-size: .85rem; color: var(--muted); }
+.test-hint summary { cursor: pointer; }
+.test-hint p { margin: .4rem 0 0; font-family: var(--he-serif); font-size: 1.15rem; color: var(--ink); }
+
 .test-actions { display: flex; gap: .6rem; flex-wrap: wrap; margin-top: 1.1rem; }
 
 /* --- the score at the end */
@@ -1533,6 +1547,12 @@ textarea.test-input { font-size: .95rem; line-height: 1.6; resize: vertical; }
 .tr-a { color: var(--ink); font-weight: 600; }
 .tr-said { color: var(--muted); }
 .tr-why { color: var(--muted); font-size: .84rem !important; }
+.test-review .tr-credit {
+  min-width: 0; margin-left: .4rem; padding: 0 .4rem; border-radius: 999px;
+  background: var(--or-soft); color: var(--or); font-size: .74rem; letter-spacing: 0;
+}
+.test-claimed li { border-left-color: var(--or); }
+.test-claimed .tr-mine { color: var(--ink); }
 
 .mastery-box {
   padding: 1rem 1.2rem; margin: 1.2rem 0;
@@ -1830,3 +1850,11 @@ textarea.test-input { font-size: .95rem; line-height: 1.6; resize: vertical; }
   margin: 4px 0 2px;
   line-height: 1.4;
 }
+
+/* ---------------------------------------------------------- translate */
+
+.test-stories { margin: .2rem 0 1.4rem; }
+.test-stories summary { cursor: pointer; font-weight: 600; font-size: .92rem; margin-bottom: .6rem; }
+.test-stories .test-tile-name[lang="he"] { font-family: var(--he-serif); font-size: 1.15rem; }
+.rd-next { margin: 1.4rem 0 0; }
+.rd-next .btn { text-decoration: none; white-space: normal; text-align: left; }
