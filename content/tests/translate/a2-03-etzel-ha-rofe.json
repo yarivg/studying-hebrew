@@ -1,0 +1,223 @@
+{
+  "id": "translate-a2-03-etzel-ha-rofe",
+  "passage": "a2-03-etzel-ha-rofe",
+  "title": "At the doctor's",
+  "questions": [
+    {
+      "id": "translate-a2-03-etzel-ha-rofe-01",
+      "type": "translate",
+      "q": "I don't feel well today.",
+      "a": [
+        "אֲנִי לֹא מַרְגִּישׁ טוֹב הַיּוֹם.",
+        "אני לא [מרגיש|מרגישה] טוב היום",
+        "היום אני לא [מרגיש|מרגישה] טוב"
+      ],
+      "hint": [
+        "מַרְגִּישׁ"
+      ],
+      "why": "The verb מַרְגִּישׁ is hif'il: מַ in front and ־ִי־ in the stem, and a woman says מַרְגִּישָׁה. The negator לֹא sits right before the verb."
+    },
+    {
+      "id": "translate-a2-03-etzel-ha-rofe-02",
+      "type": "translate",
+      "q": "There are no newspapers in the waiting room.",
+      "a": [
+        "אֵין עִיתּוֹנִים בַּחֲדַר הַהַמְתָּנָה.",
+        "אין [עיתונים|עתונים] בחדר ההמתנה",
+        "בחדר ההמתנה אין [עיתונים|עתונים]"
+      ],
+      "hint": [
+        "חֲדַר הַהַמְתָּנָה",
+        "עִיתּוֹן"
+      ],
+      "why": "In smichut only the second noun takes the article: חֲדַר הַהַמְתָּנָה. The בְּ in front borrows the vowel of the ḥataf: בַּחֲדַר."
+    },
+    {
+      "id": "translate-a2-03-etzel-ha-rofe-03",
+      "type": "translate",
+      "q": "He hardly drinks water.",
+      "a": [
+        "הוּא כִּמְעַט לֹא שׁוֹתֶה מַיִם.",
+        "הוא [כמעט לא|כמעט ולא] שותה מים"
+      ],
+      "hint": [
+        "כִּמְעַט"
+      ],
+      "why": "Hardly is כִּמְעַט לֹא, 'almost not', with both words before the verb. The noun מַיִם is always plural in Hebrew."
+    },
+    {
+      "id": "translate-a2-03-etzel-ha-rofe-04",
+      "type": "translate",
+      "q": "How many hours do you sleep at night?",
+      "a": [
+        "כַּמָּה שָׁעוֹת אַתָּה יָשֵׁן בַּלַּיְלָה?",
+        "כמה שעות [אתה ישן|את ישנה|אתם ישנים|אתן ישנות] [בלילה|בלילות]"
+      ],
+      "hint": [
+        "כַּמָּה",
+        "בַּלַּיְלָה"
+      ],
+      "why": "The word כַּמָּה takes a bare plural right after it: כַּמָּה שָׁעוֹת. In the present the pronoun has to stay, since יָשֵׁן does not say who."
+    },
+    {
+      "id": "translate-a2-03-etzel-ha-rofe-05",
+      "type": "translate",
+      "q": "Nobody wants this newspaper.",
+      "a": [
+        "אַף אֶחָד לֹא רוֹצֶה אֶת הָעִיתּוֹן הַזֶּה.",
+        "[אף אחד|איש] לא רוצה את [העיתון|העתון] הזה"
+      ],
+      "hint": [
+        "אַף אֶחָד",
+        "עִיתּוֹן"
+      ],
+      "why": "Nobody is אַף אֶחָד with its own לֹא still in place. 'This newspaper' is definite, so it takes אֶת, and הַזֶּה repeats the article."
+    },
+    {
+      "id": "translate-a2-03-etzel-ha-rofe-06",
+      "type": "translate",
+      "q": "There's nothing to eat at home.",
+      "a": [
+        "אֵין מָה לֶאֱכוֹל בַּבַּיִת.",
+        "אין מה לאכול בבית",
+        "בבית אין מה לאכול",
+        "אין בבית מה לאכול"
+      ],
+      "hint": [
+        "אֵין",
+        "מָה"
+      ],
+      "why": "Hebrew's 'there is nothing to' is אֵין מָה with an infinitive, and no word for 'thing'. The positive works the same way: יֵשׁ מָה לֶאֱכוֹל."
+    },
+    {
+      "id": "translate-a2-03-etzel-ha-rofe-07",
+      "type": "translate",
+      "q": "I don't drink coffee in the evening any more.",
+      "a": [
+        "אֲנִי כְּבָר לֹא שׁוֹתֶה קָפֶה בָּעֶרֶב.",
+        "אני כבר לא שותה קפה בערב",
+        "בערב אני כבר לא שותה קפה",
+        "אני לא שותה יותר קפה [בערב|בערבים]",
+        "אני כבר לא שותה קפה בערבים",
+        "בערב אני [כבר לא שותה קפה|לא שותה יותר קפה]"
+      ],
+      "hint": [
+        "כְּבָר לֹא"
+      ],
+      "why": "Not any more is כְּבָר לֹא, both words before the verb, where עוֹד לֹא would mean 'not yet'. A woman says שׁוֹתָה, spelled like שׁוֹתֶה once the points are off."
+    },
+    {
+      "id": "translate-a2-03-etzel-ha-rofe-08",
+      "type": "translate",
+      "q": "The doctor asks Ido what's wrong.",
+      "a": [
+        "הָרוֹפֵא שׁוֹאֵל אֶת עִידוֹ מָה לֹא בְּסֵדֶר.",
+        "הרופא שואל את עידו [מה לא בסדר|מה הבעיה|מה הבעייה]"
+      ],
+      "hint": [
+        "שׁוֹאֵל",
+        "בְּסֵדֶר"
+      ],
+      "why": "The verb לִשְׁאוֹל takes אֶת, so a name after it needs one: שׁוֹאֵל אֶת עִידוֹ. The question follows in its own order: מָה לֹא בְּסֵדֶר."
+    },
+    {
+      "id": "translate-a2-03-etzel-ha-rofe-09",
+      "type": "translate",
+      "q": "She tells the doctor everything, and he listens to her.",
+      "a": [
+        "הִיא מְסַפֶּרֶת לָרוֹפֵא הַכֹּל, וְהוּא מַקְשִׁיב לָהּ.",
+        "היא מספרת [לרופא הכל|לרופא הכול|הכל לרופא|הכול לרופא|לרופא את הכל|לרופא את הכול|את הכל לרופא|את הכול לרופא] [ו|]הוא מקשיב לה"
+      ],
+      "hint": [
+        "מְסַפֵּר",
+        "מַקְשִׁיב"
+      ],
+      "why": "Both verbs take their person with לְ, so 'the doctor' becomes לָרוֹפֵא and 'her' becomes לָהּ. The feminine of pi'el מְסַפֵּר is מְסַפֶּרֶת."
+    },
+    {
+      "id": "translate-a2-03-etzel-ha-rofe-10",
+      "type": "translate",
+      "q": "The doctor asks her a question and gives her water.",
+      "a": [
+        "הָרוֹפֵא שׁוֹאֵל אוֹתָהּ שְׁאֵלָה וְנוֹתֵן לָהּ מַיִם.",
+        "הרופא שואל אותה שאלה [ו|]נותן לה מים"
+      ],
+      "hint": [
+        "שׁוֹאֵל",
+        "נוֹתֵן"
+      ],
+      "why": "Two verbs, two kinds of 'her': לִשְׁאוֹל takes אֶת, so אוֹתָהּ, and לָתֵת takes לְ, so לָהּ. English uses one word for both."
+    },
+    {
+      "id": "translate-a2-03-etzel-ha-rofe-11",
+      "type": "translate",
+      "q": "Ido has no medicine, only a page with three words.",
+      "a": [
+        "אֵין לְעִידוֹ תְּרוּפוֹת, רַק דַּף עִם שָׁלוֹשׁ מִילִּים.",
+        "[אין לעידו|לעידו אין] [תרופות|תרופה] רק דף עם [שלוש|3] [מילים|מלים]"
+      ],
+      "hint": [
+        "תְּרוּפוֹת",
+        "דַּף",
+        "מִילִּים"
+      ],
+      "why": "Not having is אֵין לְ with the owner joined on: אֵין לְעִידוֹ. The noun מִילָּה is feminine, so three is שָׁלוֹשׁ, the form without ־ָה."
+    },
+    {
+      "id": "translate-a2-03-etzel-ha-rofe-12",
+      "type": "translate",
+      "q": "I haven't been sleeping well since Sunday.",
+      "a": [
+        "אֲנִי לֹא יָשֵׁן טוֹב מִיּוֹם רִאשׁוֹן.",
+        "אני לא [ישן|ישנה] [טוב|היטב] מיום ראשון",
+        "מיום ראשון אני לא [ישן|ישנה] [טוב|היטב]"
+      ],
+      "hint": [
+        "מִיּוֹם שֵׁנִי"
+      ],
+      "why": "Where English says 'have not been ... since', Hebrew keeps the present and marks the start with מִ: מִיּוֹם רִאשׁוֹן. The מִ doubles the letter after it, hence the dagesh in יּ."
+    },
+    {
+      "id": "translate-a2-03-etzel-ha-rofe-13",
+      "type": "translate",
+      "q": "Ido sits next to a man who is reading a newspaper.",
+      "a": [
+        "עִידוֹ יוֹשֵׁב לְיַד אִישׁ שֶׁקּוֹרֵא עִיתּוֹן.",
+        "עידו יושב ליד [איש|גבר|בחור] ש[|הוא ]קורא [עיתון|עתון|בעיתון|בעתון]"
+      ],
+      "hint": [
+        "יוֹשֵׁב",
+        "לְיַד"
+      ],
+      "why": "The relative שֶׁ joins the clause to אִישׁ and stands for both 'who' and 'that'. It doubles the letter after it: שֶׁקּוֹרֵא."
+    },
+    {
+      "id": "translate-a2-03-etzel-ha-rofe-14",
+      "type": "translate",
+      "q": "Ido drinks coffee in the evening too, and that's the problem.",
+      "a": [
+        "עִידוֹ שׁוֹתֶה קָפֶה גַּם בָּעֶרֶב, וְזֹאת הַבְּעָיָיה.",
+        "עידו שותה קפה גם בערב [ו|][זאת|זו] [הבעיה|הבעייה]",
+        "גם בערב עידו שותה קפה [ו|][זאת|זו] [הבעיה|הבעייה]"
+      ],
+      "hint": [
+        "גַּם",
+        "בָּעֶרֶב"
+      ],
+      "why": "The word גַּם stands right before what it adds to: גַּם בָּעֶרֶב, 'in the evening too'. The pointer is זֹאת because בְּעָיָיה is feminine."
+    },
+    {
+      "id": "translate-a2-03-etzel-ha-rofe-15",
+      "type": "translate",
+      "q": "The doctor, who doesn't drink coffee, sleeps very well.",
+      "a": [
+        "הָרוֹפֵא, שֶׁלֹּא שׁוֹתֶה קָפֶה, יָשֵׁן טוֹב מְאוֹד.",
+        "הרופא ש[|הוא ]לא שותה קפה ישן [טוב מאוד|מאוד טוב|היטב]"
+      ],
+      "hint": [
+        "שׁוֹתֶה"
+      ],
+      "why": "A שֶׁ clause sits straight after its noun, even in mid-sentence, and is negated inside: שֶׁלֹּא שׁוֹתֶה. The main verb, יָשֵׁן, comes only once the clause is closed."
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "id": "translate-a2-02-ha-hodaa",
+  "passage": "a2-02-ha-hodaa",
+  "title": "The message",
+  "questions": [
+    {
+      "id": "translate-a2-02-ha-hodaa-01",
+      "type": "translate",
+      "q": "I will be at the station at ten.",
+      "a": [
+        "אֲנִי אֶהְיֶה בַּתַּחֲנָה בְּעֶשֶׂר.",
+        "[אני |]אהיה בתחנה ב[|שעה ][עשר|10]",
+        "[אני |]אהיה ב[|שעה ][עשר|10] בתחנה",
+        "ב[|שעה ][עשר|10] [אני |]אהיה בתחנה"
+      ],
+      "hint": [
+        "נִהְיֶה",
+        "תַּחֲנָה"
+      ],
+      "why": "The future of 'be' is regular: אֶהְיֶה, תִּהְיֶה, יִהְיֶה, נִהְיֶה, and the prefix א־ already says 'I', so אֲנִי is optional. An hour takes בְּ: בְּעֶשֶׂר."
+    },
+    {
+      "id": "translate-a2-02-ha-hodaa-02",
+      "type": "translate",
+      "q": "What will we eat tomorrow?",
+      "a": [
+        "מָה נֹאכַל מָחָר?",
+        "מה [אנחנו |]נאכל מחר",
+        "מחר מה [אנחנו |]נאכל"
+      ],
+      "hint": [
+        "נֹאכַל",
+        "מָחָר"
+      ],
+      "why": "The prefix נ־ marks 'we' in the future, and the root's א falls silent behind it: נֹאכַל, like אֹכַל for 'I will eat'. The question word comes first, as in English."
+    },
+    {
+      "id": "translate-a2-02-ha-hodaa-03",
+      "type": "translate",
+      "q": "Noa never sends pictures.",
+      "a": [
+        "נוֹעָה אַף פַּעַם לֹא שׁוֹלַחַת תְּמוּנוֹת.",
+        "נועה [אף פעם לא|לעולם לא] שולחת תמונות",
+        "נועה לא שולחת תמונות אף פעם"
+      ],
+      "hint": [
+        "אַף פַּעַם",
+        "תְּמוּנָה"
+      ],
+      "why": "Never is אַף פַּעַם, and like every Hebrew negative word it keeps its לֹא before the verb. The root ends in ח, which turns the feminine ending into two pataḥs: שׁוֹלַחַת, not שׁוֹלֶחֶת."
+    },
+    {
+      "id": "translate-a2-02-ha-hodaa-04",
+      "type": "translate",
+      "q": "Noa doesn't know who is writing to her.",
+      "a": [
+        "נוֹעָה לֹא יוֹדַעַת מִי כּוֹתֵב לָהּ.",
+        "נועה לא יודעת מי [כותב|שולח] לה"
+      ],
+      "hint": [
+        "כּוֹתֵב"
+      ],
+      "why": "A question word can open a clause inside a sentence with no change of order: לֹא יוֹדַעַת מִי כּוֹתֵב. 'To her' is the לְ with an ending: לָהּ."
+    },
+    {
+      "id": "translate-a2-02-ha-hodaa-05",
+      "type": "translate",
+      "q": "Will you come to Tel Aviv tomorrow?",
+      "a": [
+        "תָּבוֹא מָחָר לְתֵל אָבִיב?",
+        "[|אתה ]תבוא [מחר לתל אביב|לתל אביב מחר]",
+        "[|את ]תבואי [מחר לתל אביב|לתל אביב מחר]",
+        "[|אתם |אתן ]תבואו [מחר לתל אביב|לתל אביב מחר]",
+        "מחר [|אתה ]תבוא לתל אביב",
+        "מחר [|את ]תבואי לתל אביב",
+        "מחר [|אתם |אתן ]תבואו לתל אביב"
+      ],
+      "hint": [
+        "תָּבוֹאִי"
+      ],
+      "why": "The future 'you' is ת־ in front: תָּבוֹא to a man, תָּבוֹאִי to a woman, תָּבוֹאוּ to several. The prefix says who, so the pronoun can go."
+    },
+    {
+      "id": "translate-a2-02-ha-hodaa-06",
+      "type": "translate",
+      "q": "Do you know how to send a picture?",
+      "a": [
+        "אַתָּה יוֹדֵעַ לִשְׁלוֹחַ תְּמוּנָה?",
+        "[|האם ][אתה יודע|את יודעת|אתם יודעים|אתן יודעות] [|איך ]לשלוח תמונה"
+      ],
+      "hint": [
+        "לִשְׁלוֹחַ",
+        "תְּמוּנָה"
+      ],
+      "why": "Knowing how is יוֹדֵעַ with an infinitive straight after it, and no word for 'how' is needed: יוֹדֵעַ לִשְׁלוֹחַ. In the present the pronoun stays, because the verb does not say who."
+    },
+    {
+      "id": "translate-a2-02-ha-hodaa-07",
+      "type": "translate",
+      "q": "He will call her, like always.",
+      "a": [
+        "הוּא יִתְקַשֵּׁר לָהּ, כְּמוֹ תָּמִיד.",
+        "הוא יתקשר [לה|אליה] [כמו תמיד|כרגיל]"
+      ],
+      "hint": [
+        "יִתְקַשֵּׁר",
+        "כְּמוֹ תָּמִיד"
+      ],
+      "why": "Hitpa'el keeps its תְ after the future prefix: יִתְקַשֵּׁר. The person you call takes לְ, so 'her' is לָהּ."
+    },
+    {
+      "id": "translate-a2-02-ha-hodaa-08",
+      "type": "translate",
+      "q": "I won't say anything about the picture.",
+      "a": [
+        "אֲנִי לֹא אַגִּיד כְּלוּם עַל הַתְּמוּנָה.",
+        "[אני |]לא אגיד [כלום|שום דבר] על התמונה",
+        "[אני |]לא אגיד על התמונה [כלום|שום דבר]"
+      ],
+      "hint": [
+        "תַּגִּיד",
+        "כְּלוּם"
+      ],
+      "why": "The verb לְהַגִּיד is hif'il with its root's נ hidden in the dagesh: אַגִּיד, תַּגִּיד. After לֹא, the word כְּלוּם means 'anything'."
+    },
+    {
+      "id": "translate-a2-02-ha-hodaa-09",
+      "type": "translate",
+      "q": "Nobody will be at home tomorrow.",
+      "a": [
+        "מָחָר אַף אֶחָד לֹא יִהְיֶה בַּבַּיִת.",
+        "מחר אף אחד לא יהיה בבית",
+        "אף אחד לא יהיה [מחר בבית|בבית מחר]"
+      ],
+      "hint": [
+        "אַף אֶחָד"
+      ],
+      "why": "Nobody is אַף אֶחָד, and Hebrew keeps a לֹא beside the verb as well. It counts as one masculine person, so the verb is יִהְיֶה."
+    },
+    {
+      "id": "translate-a2-02-ha-hodaa-10",
+      "type": "translate",
+      "q": "Tomorrow there will be a lot of people at the station.",
+      "a": [
+        "מָחָר יִהְיוּ הַרְבֵּה אֲנָשִׁים בַּתַּחֲנָה.",
+        "מחר יהיו [הרבה|המון] אנשים בתחנה",
+        "מחר בתחנה יהיו [הרבה|המון] אנשים",
+        "יהיו [הרבה|המון] אנשים בתחנה מחר",
+        "בתחנה יהיו מחר [הרבה|המון] אנשים"
+      ],
+      "hint": [
+        "יִהְיֶה",
+        "הַרְבֵּה"
+      ],
+      "why": "The present יֵשׁ never changes, but its future agrees with what there will be: אֲנָשִׁים is plural, so יִהְיוּ."
+    },
+    {
+      "id": "translate-a2-02-ha-hodaa-11",
+      "type": "translate",
+      "q": "We won't have a car tomorrow.",
+      "a": [
+        "מָחָר לֹא תִּהְיֶה לָנוּ מְכוֹנִית.",
+        "מחר לא תהיה לנו מכונית",
+        "לא תהיה לנו מכונית מחר",
+        "מחר לא יהיה לנו אוטו",
+        "לא יהיה לנו אוטו מחר"
+      ],
+      "hint": [
+        "לָנוּ",
+        "יִהְיֶה"
+      ],
+      "why": "Future having is יִהְיֶה לְ, but the verb agrees with the thing had: מְכוֹנִית is feminine, so תִּהְיֶה. The לֹא goes in front of it."
+    },
+    {
+      "id": "translate-a2-02-ha-hodaa-12",
+      "type": "translate",
+      "q": "Tomorrow Grandpa will write to Noa, and she will answer him.",
+      "a": [
+        "מָחָר סַבָּא יִכְתּוֹב לְנוֹעָה, וְהִיא תַּעֲנֶה לוֹ.",
+        "[מחר סבא|סבא מחר] יכתוב לנועה [ו|]היא תענה לו",
+        "סבא יכתוב לנועה מחר [ו|]היא תענה לו"
+      ],
+      "hint": [
+        "כּוֹתֵב",
+        "עוֹנָה"
+      ],
+      "why": "Pa'al future has an o in its stem: יִכְתּוֹב. The root of עָנָה ends in ה, so its future ends in ־ֶה, תַּעֲנֶה, and it takes the person answered with לְ: לוֹ."
+    },
+    {
+      "id": "translate-a2-02-ha-hodaa-13",
+      "type": "translate",
+      "q": "Tomorrow I will see Grandpa at the station, and we will eat together.",
+      "a": [
+        "מָחָר אֲנִי אֶרְאֶה אֶת סַבָּא בַּתַּחֲנָה, וְנֹאכַל יַחַד.",
+        "מחר [אני |]אראה את סבא בתחנה [ו|ואנחנו ]נאכל [יחד|ביחד]",
+        "[אני |]אראה את סבא [מחר בתחנה|בתחנה מחר] [ו|ואנחנו ]נאכל [יחד|ביחד]"
+      ],
+      "hint": [
+        "תִּרְאֶה",
+        "נֹאכַל",
+        "יַחַד"
+      ],
+      "why": "Grandpa is a known person, so like any name he takes אֶת. The prefixes carry the person, א־ for 'I' and נ־ for 'we', so both pronouns are optional."
+    },
+    {
+      "id": "translate-a2-02-ha-hodaa-14",
+      "type": "translate",
+      "q": "When she sees the message, she will smile.",
+      "a": [
+        "כְּשֶׁהִיא תִּרְאֶה אֶת הַהוֹדָעָה, הִיא תְּחַיֵּיךְ.",
+        "כש[|היא ]תראה את ההודעה היא תחייך",
+        "היא תחייך כש[|היא ]תראה את ההודעה"
+      ],
+      "hint": [
+        "כְּשֶׁהִיא תִּרְאֶה",
+        "מְחַיֶּיכֶת"
+      ],
+      "why": "After כְּשֶׁ Hebrew uses the future where English uses the present: כְּשֶׁהִיא תִּרְאֶה is 'when she sees'. Both halves of the sentence are future."
+    },
+    {
+      "id": "translate-a2-02-ha-hodaa-15",
+      "type": "translate",
+      "q": "When I have time, I will call you.",
+      "a": [
+        "כְּשֶׁיִּהְיֶה לִי זְמַן, אֲנִי אֶתְקַשֵּׁר לְךָ.",
+        "כשיהיה לי זמן [אני |]אתקשר [לך|לכם|לכן|אליך|אליכם|אליכן]",
+        "[אני |]אתקשר [לך|לכם|לכן|אליך|אליכם|אליכן] כשיהיה לי זמן"
+      ],
+      "hint": [
+        "יִתְקַשֵּׁר",
+        "זְמַן"
+      ],
+      "why": "Having in the future is יִהְיֶה לִי, and after כְּשֶׁ it stays future where English says 'when I have'. The שֶׁ doubles the letter after it: כְּשֶׁיִּהְיֶה."
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "id": "translate-a2-01-sof-shavua",
+  "passage": "a2-01-sof-shavua",
+  "title": "Sara's weekend",
+  "questions": [
+    {
+      "id": "translate-a2-01-sof-shavua-01",
+      "type": "translate",
+      "q": "The garden was quiet in the morning.",
+      "a": [
+        "הַגַּן הָיָה שָׁקֵט בַּבּוֹקֶר.",
+        "[הגן היה שקט בבוקר|בבוקר הגן היה שקט]"
+      ],
+      "hint": [
+        "הָיָה",
+        "שָׁקֵט"
+      ],
+      "why": "The past of 'be' agrees with its subject: הַגַּן is masculine, so הָיָה, where a feminine noun would take הָיְתָה. Leave it out and the sentence is present: הַגַּן שָׁקֵט."
+    },
+    {
+      "id": "translate-a2-01-sof-shavua-02",
+      "type": "translate",
+      "q": "I got up late on Saturday.",
+      "a": [
+        "קַמְתִּי מְאוּחָר בְּשַׁבָּת.",
+        "[אני |]קמתי [מאוחר בשבת|בשבת מאוחר]",
+        "בשבת [אני |]קמתי מאוחר"
+      ],
+      "hint": [
+        "קָמָה",
+        "מְאוּחָר"
+      ],
+      "why": "In the past the ending ־תִּי already says 'I', so אֲנִי is optional. The root of קָם is hollow, and its stem shrinks to קַמְ־ before the ending."
+    },
+    {
+      "id": "translate-a2-01-sof-shavua-03",
+      "type": "translate",
+      "q": "My phone rang at noon.",
+      "a": [
+        "הַטֶּלֶפוֹן שֶׁלִּי צִלְצֵל בַּצָּהֳרַיִים.",
+        "הטלפון שלי צלצל בצהריים",
+        "בצהריים הטלפון שלי צלצל"
+      ],
+      "hint": [
+        "צִלְצֵל",
+        "בַּצָּהֳרַיִים"
+      ],
+      "why": "The verb צִלְצֵל has a four-letter root, צ-ל-צ-ל, and goes like pi'el. 'He' in the past is the bare stem with no ending at all."
+    },
+    {
+      "id": "translate-a2-01-sof-shavua-04",
+      "type": "translate",
+      "q": "Her brother came by train.",
+      "a": [
+        "הָאָח שֶׁלָּהּ בָּא בָּרַכֶּבֶת.",
+        "[האח שלה|אחיה] [בא|הגיע] ברכבת"
+      ],
+      "hint": [
+        "הָאָח שֶׁלָּהּ",
+        "רַכֶּבֶת"
+      ],
+      "why": "Hollow בָּא is both 'came' and 'comes'; in the feminine only the stress tells בָּאָה apart, on the first syllable in the past and the last in the present. Transport takes בְּ: בָּרַכֶּבֶת."
+    },
+    {
+      "id": "translate-a2-01-sof-shavua-05",
+      "type": "translate",
+      "q": "We walked to the big park.",
+      "a": [
+        "הָלַכְנוּ בָּרֶגֶל לַגַּן הַגָּדוֹל.",
+        "[אנחנו |]הלכנו [|ברגל ][לגן הגדול|עד הגן הגדול|לפארק הגדול|עד הפארק הגדול]",
+        "[אנחנו |]הלכנו [לגן הגדול|עד הגן הגדול|לפארק הגדול|עד הפארק הגדול] ברגל"
+      ],
+      "hint": [
+        "בָּרֶגֶל",
+        "גַּן"
+      ],
+      "why": "The ending ־נוּ is 'we' in the past, so אֲנַחְנוּ can go. Walking is going on foot, הָלַכְנוּ בָּרֶגֶל, and the adjective repeats the article: הַגַּן הַגָּדוֹל."
+    },
+    {
+      "id": "translate-a2-01-sof-shavua-06",
+      "type": "translate",
+      "q": "He put on a coat and went out.",
+      "a": [
+        "הוּא לָבַשׁ מְעִיל וְיָצָא.",
+        "הוא לבש מעיל [ויצא|ויצא החוצה]"
+      ],
+      "hint": [
+        "לָבְשָׁה",
+        "יָצְאָה"
+      ],
+      "why": "The masculine past is the bare root, לָבַשׁ and יָצָא. The feminine adds ־ָה and the middle vowel shrinks to a sheva: לָבְשָׁה, יָצְאָה."
+    },
+    {
+      "id": "translate-a2-01-sof-shavua-07",
+      "type": "translate",
+      "q": "Did you eat pizza in the evening?",
+      "a": [
+        "אָכַלְתָּ פִּיצָה בָּעֶרֶב?",
+        "[|האם ][|אתה |את ]אכלת פיצה בערב",
+        "[|האם ][|אתם ]אכלתם פיצה בערב",
+        "[|האם ][|אתן ]אכלתן פיצה בערב",
+        "בערב [|אתה |את ]אכלת פיצה",
+        "בערב [|אתם ]אכלתם פיצה",
+        "בערב [|אתן ]אכלתן פיצה"
+      ],
+      "hint": [
+        "אָכְלוּ",
+        "פִּיצָה"
+      ],
+      "why": "The ending names the person: אָכַלְתָּ to a man, אָכַלְתְּ to a woman, אֲכַלְתֶּם to several, so the pronoun may go. A yes-no question needs no extra word, only the rising voice."
+    },
+    {
+      "id": "translate-a2-01-sof-shavua-08",
+      "type": "translate",
+      "q": "I didn't answer the phone right away.",
+      "a": [
+        "לֹא עָנִיתִי לַטֶּלֶפוֹן מִיָּד.",
+        "[אני |]לא עניתי לטלפון [מיד|ישר]",
+        "[אני |]לא עניתי [מיד|ישר] לטלפון"
+      ],
+      "hint": [
+        "עָנְתָה",
+        "מִיָּד"
+      ],
+      "why": "The root of עָנָה ends in ה, which turns into ־ִי־ before the ending: עָנִיתִי. What you answer takes לְ: לַטֶּלֶפוֹן."
+    },
+    {
+      "id": "translate-a2-01-sof-shavua-09",
+      "type": "translate",
+      "q": "They came back home at ten at night.",
+      "a": [
+        "הֵם חָזְרוּ הַבַּיְתָה בְּעֶשֶׂר בַּלַּיְלָה.",
+        "הם חזרו הביתה ב[|שעה ][עשר|10] בלילה",
+        "ב[|שעה ][עשר|10] בלילה הם חזרו הביתה"
+      ],
+      "hint": [
+        "חָזְרָה",
+        "הַבַּיְתָה"
+      ],
+      "why": "The ending ־ָה on הַבַּיְתָה already means 'to', so it never takes a לְ as well. Hours count in the feminine: בְּעֶשֶׂר, with no word for o'clock."
+    },
+    {
+      "id": "translate-a2-01-sof-shavua-10",
+      "type": "translate",
+      "q": "First I drank coffee, then I read the newspaper.",
+      "a": [
+        "קוֹדֶם כֹּל שָׁתִיתִי קָפֶה, אַחַר כָּךְ קָרָאתִי אֶת הָעִיתּוֹן.",
+        "[קודם כל|קודם|בהתחלה] [אני |]שתיתי קפה [אחר כך|ואחר כך|ואז|אחרי זה|ואחרי זה] [אני |]קראתי את [העיתון|העתון]"
+      ],
+      "hint": [
+        "קוֹדֶם כֹּל",
+        "שָׁתְתָה",
+        "קָרְאָה"
+      ],
+      "why": "Two roots that end differently: the ה of שָׁתָה becomes ־ִי־ in שָׁתִיתִי, while the silent א of קָרָא stays put in קָרָאתִי. The order words, קוֹדֶם כֹּל and אַחַר כָּךְ, carry the sequence."
+    },
+    {
+      "id": "translate-a2-01-sof-shavua-11",
+      "type": "translate",
+      "q": "I told my brother about the book.",
+      "a": [
+        "סִיפַּרְתִּי לָאָח שֶׁלִּי עַל הַסֵּפֶר.",
+        "[אני |]סיפרתי [לאח שלי|לאחי] על הספר",
+        "[אני |]סיפרתי על הספר [לאח שלי|לאחי]"
+      ],
+      "hint": [
+        "סִיפְּרָה"
+      ],
+      "why": "The verb סִיפֵּר takes the listener with לְ and the topic with עַל: לָאָח, עַל הַסֵּפֶר. It is pi'el, so the past has ־ִי־ in its first syllable and a dagesh in the middle letter: סִיפַּרְתִּי."
+    },
+    {
+      "id": "translate-a2-01-sof-shavua-12",
+      "type": "translate",
+      "q": "Sara went to the station, but her brother wasn't there.",
+      "a": [
+        "שָׂרָה הָלְכָה לַתַּחֲנָה, אֲבָל הָאָח שֶׁלָּהּ לֹא הָיָה שָׁם.",
+        "שרה [הלכה|נסעה|באה] [לתחנה|לתחנת הרכבת] אבל [האח שלה|אחיה] לא היה שם"
+      ],
+      "hint": [
+        "תַּחֲנַת הָרַכֶּבֶת",
+        "הָיָה"
+      ],
+      "why": "Each verb agrees with its own subject: שָׂרָה הָלְכָה, but הָאָח is masculine, so הָיָה. The negator לֹא goes right before it."
+    },
+    {
+      "id": "translate-a2-01-sof-shavua-13",
+      "type": "translate",
+      "q": "We talked all afternoon and then went to the cinema.",
+      "a": [
+        "דִּיבַּרְנוּ כָּל אַחַר הַצָּהֳרַיִים, וְאַחַר כָּךְ הָלַכְנוּ לַקּוֹלְנוֹעַ.",
+        "[אנחנו |]דיברנו כל [אחר|אחרי] הצהריים [אחר כך|ואחר כך|ואז|אחרי זה|ואחרי זה] הלכנו [לקולנוע|לסרט]"
+      ],
+      "hint": [
+        "דִּיבְּרוּ",
+        "קוֹלְנוֹעַ"
+      ],
+      "why": "The verb דִּיבַּרְנוּ is pi'el: the doubled middle letter is the dagesh in בּ, and ־נוּ is 'we'. Before a stretch of time, כָּל means 'the whole': כָּל אַחַר הַצָּהֳרַיִים."
+    },
+    {
+      "id": "translate-a2-01-sof-shavua-14",
+      "type": "translate",
+      "q": "I finished the book that I started on Friday.",
+      "a": [
+        "גָּמַרְתִּי אֶת הַסֵּפֶר שֶׁהִתְחַלְתִּי בְּיוֹם שִׁישִּׁי.",
+        "[אני |][גמרתי|סיימתי] את הספר ש[|אני ]התחלתי ב[|יום ]שישי"
+      ],
+      "hint": [
+        "גָּמְרָה",
+        "הִתְחִילָה"
+      ],
+      "why": "The relative שֶׁ ties the clause to הַסֵּפֶר, and unlike English 'that' it can never be dropped. The verb הִתְחַלְתִּי is hif'il, and its הִ in front stays in every person of the past."
+    },
+    {
+      "id": "translate-a2-01-sof-shavua-15",
+      "type": "translate",
+      "q": "Why didn't you take the coat that was on the chair?",
+      "a": [
+        "לָמָּה לֹא לָקַחְתָּ אֶת הַמְּעִיל שֶׁהָיָה עַל הַכִּיסֵּא?",
+        "[למה|מדוע] [|אתה |את ]לא לקחת את המעיל ש[|היה ]על הכיסא",
+        "[למה|מדוע] [|אתם ]לא לקחתם את המעיל ש[|היה ]על הכיסא",
+        "[למה|מדוע] [|אתן ]לא לקחתן את המעיל ש[|היה ]על הכיסא"
+      ],
+      "hint": [
+        "לָקַחַת",
+        "מְעִיל"
+      ],
+      "why": "Inside the שֶׁ clause the past of 'be' agrees with מְעִיל: שֶׁהָיָה, though שֶׁעַל הַכִּיסֵּא alone is just as good. The ending ־תָּ or ־תְּ already says 'you', so the pronoun is optional."
+    }
+  ]
+}

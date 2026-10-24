@@ -1,0 +1,222 @@
+{
+  "id": "translate-a1-03-ha-kheder",
+  "passage": "a1-03-ha-kheder",
+  "title": "Teo's room",
+  "questions": [
+    {
+      "id": "translate-a1-03-ha-kheder-01",
+      "type": "translate",
+      "q": "There is a blue bed in the room.",
+      "a": [
+        "יֵשׁ מִיטָּה כְּחוּלָּה בַּחֶדֶר.",
+        "[יש מיטה כחולה בחדר|בחדר יש מיטה כחולה]"
+      ],
+      "hint": [
+        "מִיטָּה",
+        "כְּחוּלָּה"
+      ],
+      "why": "The adjective follows its noun and copies its gender: מִיטָּה is feminine, so כְּחוּלָּה. The word יֵשׁ stays the same for anything at all, one bed or ten."
+    },
+    {
+      "id": "translate-a1-03-ha-kheder-02",
+      "type": "translate",
+      "q": "My room is small and full of light.",
+      "a": [
+        "הַחֶדֶר שֶׁלִּי קָטָן וּמָלֵא אוֹר.",
+        "החדר שלי קטן ומלא [|ב]אור"
+      ],
+      "hint": [
+        "מָלֵא",
+        "אוֹר"
+      ],
+      "why": "Possession is שֶׁל with an ending, after a noun with the article: הַחֶדֶר שֶׁלִּי, mine, against הַחֶדֶר שֶׁלּוֹ, his. The וְ turns into וּ before מ: וּמָלֵא."
+    },
+    {
+      "id": "translate-a1-03-ha-kheder-03",
+      "type": "translate",
+      "q": "The lamp is old and yellow.",
+      "a": [
+        "הַמְּנוֹרָה יְשָׁנָה וּצְהוּבָּה.",
+        "המנורה [ישנה וצהובה|צהובה וישנה]"
+      ],
+      "hint": [
+        "מְנוֹרָה",
+        "צְהוּבָּה",
+        "יְשָׁנָה"
+      ],
+      "why": "Adjectives without the article after a definite noun make a sentence: הַמְּנוֹרָה יְשָׁנָה, 'the lamp is old'. With the article they only describe it: הַמְּנוֹרָה הַיְשָׁנָה, 'the old lamp'."
+    },
+    {
+      "id": "translate-a1-03-ha-kheder-04",
+      "type": "translate",
+      "q": "The chair is behind the door.",
+      "a": [
+        "הַכִּיסֵּא מֵאֲחוֹרֵי הַדֶּלֶת.",
+        "הכיסא [נמצא |]מאחורי הדלת"
+      ],
+      "hint": [
+        "מֵאֲחוֹרֵי"
+      ],
+      "why": "A thing already known needs no יֵשׁ: הַכִּיסֵּא מֵאֲחוֹרֵי הַדֶּלֶת is complete without 'is'. A new, indefinite thing gets יֵשׁ, usually with the place first: מֵאֲחוֹרֵי הַדֶּלֶת יֵשׁ כִּיסֵּא."
+    },
+    {
+      "id": "translate-a1-03-ha-kheder-05",
+      "type": "translate",
+      "q": "Teo's mother is looking for the cat.",
+      "a": [
+        "אִמָּא שֶׁל תֵּאוֹ מְחַפֶּשֶׂת אֶת הֶחָתוּל.",
+        "[|ה]אמא של תאו מחפשת את החתול"
+      ],
+      "hint": [
+        "מְחַפֵּשׂ",
+        "חָתוּל"
+      ],
+      "why": "The verb מְחַפֵּשׂ is pi'el, and its feminine ends in ־ֶת with a change of vowel before it: מְחַפֶּשֶׂת. The cat is definite, so it takes אֶת, and before ח the article is הֶ."
+    },
+    {
+      "id": "translate-a1-03-ha-kheder-06",
+      "type": "translate",
+      "q": "Is there a computer in your room?",
+      "a": [
+        "יֵשׁ מַחְשֵׁב בַּחֶדֶר שֶׁלְּךָ?",
+        "[|האם ]יש מחשב בחדר [שלך|שלכם|שלכן]",
+        "[|האם ]בחדר [שלך|שלכם|שלכן] יש מחשב"
+      ],
+      "hint": [
+        "מַחְשֵׁב"
+      ],
+      "why": "A yes-no question is the statement said with a rising voice, so יֵשׁ מַחְשֵׁב? is already a question. To a boy it is שֶׁלְּךָ and to a girl שֶׁלָּךְ, spelled alike once the points are off."
+    },
+    {
+      "id": "translate-a1-03-ha-kheder-07",
+      "type": "translate",
+      "q": "Teo, where are your clothes?",
+      "a": [
+        "תֵּאוֹ, אֵיפֹה הַבְּגָדִים שֶׁלְּךָ?",
+        "תאו איפה הבגדים שלך",
+        "איפה הבגדים שלך תאו"
+      ],
+      "hint": [
+        "בְּגָדִים",
+        "שֶׁלְּךָ"
+      ],
+      "why": "The word אֵיפֹה opens the question and nothing stands in for 'are'. Teo is a boy, so 'your' is שֶׁלְּךָ; to his sister it would be שֶׁלָּךְ."
+    },
+    {
+      "id": "translate-a1-03-ha-kheder-08",
+      "type": "translate",
+      "q": "The computer is on the table, next to the lamp.",
+      "a": [
+        "הַמַּחְשֵׁב עַל הַשּׁוּלְחָן, לְיַד הַמְּנוֹרָה.",
+        "המחשב [נמצא |]על השולחן [|ו]ליד המנורה",
+        "המחשב [נמצא |]ליד המנורה על השולחן"
+      ],
+      "hint": [
+        "שׁוּלְחָן",
+        "לְיַד"
+      ],
+      "why": "Both עַל and לְיַד take their noun straight after them, unlike מִתַּחַת, which needs לְ. Two place phrases can simply follow one another."
+    },
+    {
+      "id": "translate-a1-03-ha-kheder-09",
+      "type": "translate",
+      "q": "There is nothing under the bed.",
+      "a": [
+        "אֵין שׁוּם דָּבָר מִתַּחַת לַמִּיטָּה.",
+        "אין [שום דבר|כלום] מתחת למיטה",
+        "מתחת למיטה אין [שום דבר|כלום]"
+      ],
+      "hint": [
+        "שׁוּם דָּבָר",
+        "מִתַּחַת"
+      ],
+      "why": "Nothing is אֵין שׁוּם דָּבָר or אֵין כְּלוּם: the negative word sits inside an אֵין. The preposition מִתַּחַת takes לְ, which merges with the article: לַמִּיטָּה."
+    },
+    {
+      "id": "translate-a1-03-ha-kheder-10",
+      "type": "translate",
+      "q": "The family's cat sleeps on Teo's bed.",
+      "a": [
+        "הֶחָתוּל שֶׁל הַמִּשְׁפָּחָה יָשֵׁן עַל הַמִּיטָּה שֶׁל תֵּאוֹ.",
+        "החתול של המשפחה ישן [על המיטה|במיטה] של תאו",
+        "חתול המשפחה ישן [על המיטה|במיטה] של תאו"
+      ],
+      "hint": [
+        "מִשְׁפָּחָה",
+        "מִיטָּה"
+      ],
+      "why": "Each owner gets its own שֶׁל, after a noun with the article: הֶחָתוּל שֶׁל הַמִּשְׁפָּחָה, הַמִּיטָּה שֶׁל תֵּאוֹ. Without the points, יָשֵׁן 'sleeps' and the passage's יָשָׁן 'old' are spelled alike."
+    },
+    {
+      "id": "translate-a1-03-ha-kheder-11",
+      "type": "translate",
+      "q": "Teo comes in and looks under the bed.",
+      "a": [
+        "תֵּאוֹ נִכְנָס וּמִסְתַּכֵּל מִתַּחַת לַמִּיטָּה.",
+        "תאו נכנס [|לחדר ]ומסתכל מתחת למיטה"
+      ],
+      "hint": [
+        "נִכְנֶסֶת",
+        "מִסְתַּכֵּל"
+      ],
+      "why": "These are the masculine forms of the passage's נִכְנֶסֶת and מִסְתַּכֶּלֶת: נִכְנָס and מִסְתַּכֵּל. The וְ becomes וּ before מ."
+    },
+    {
+      "id": "translate-a1-03-ha-kheder-12",
+      "type": "translate",
+      "q": "The old plates are under the bed.",
+      "a": [
+        "הַצַּלָּחוֹת הַיְשָׁנוֹת מִתַּחַת לַמִּיטָּה.",
+        "הצלחות הישנות [נמצאות |]מתחת למיטה"
+      ],
+      "hint": [
+        "צַלָּחוֹת",
+        "יְשָׁנָה"
+      ],
+      "why": "With the article on the adjective as well, הַצַּלָּחוֹת הַיְשָׁנוֹת is one phrase, 'the old plates', and the place completes the sentence. The adjective copies the noun's feminine plural ־וֹת."
+    },
+    {
+      "id": "translate-a1-03-ha-kheder-13",
+      "type": "translate",
+      "q": "He has a computer, but he doesn't have a wardrobe.",
+      "a": [
+        "יֵשׁ לוֹ מַחְשֵׁב, אֲבָל אֵין לוֹ אָרוֹן.",
+        "יש לו מחשב אבל אין לו ארון",
+        "יש לו מחשב אבל ארון אין לו"
+      ],
+      "hint": [
+        "אָרוֹן"
+      ],
+      "why": "Hebrew has no verb 'to have': it says יֵשׁ לְ, 'there is to', and אֵין לְ for the negative. The owner is an ending on the לְ: לוֹ him, לָהּ her, לִי me."
+    },
+    {
+      "id": "translate-a1-03-ha-kheder-14",
+      "type": "translate",
+      "q": "There are two plates and an old book on the floor.",
+      "a": [
+        "עַל הָרִצְפָּה יֵשׁ שְׁתֵּי צַלָּחוֹת וְסֵפֶר יָשָׁן.",
+        "על הרצפה יש [שתי|2] צלחות וספר ישן",
+        "יש [שתי|2] צלחות וספר ישן על הרצפה"
+      ],
+      "hint": [
+        "רִצְפָּה",
+        "צַלָּחוֹת"
+      ],
+      "why": "The noun צַלַּחַת is feminine, so two is שְׁתֵּי, the short form used before a noun. Each adjective agrees with its own noun only: סֵפֶר יָשָׁן is masculine."
+    },
+    {
+      "id": "translate-a1-03-ha-kheder-15",
+      "type": "translate",
+      "q": "Teo doesn't see anything under the bed.",
+      "a": [
+        "תֵּאוֹ לֹא רוֹאֶה כְּלוּם מִתַּחַת לַמִּיטָּה.",
+        "תאו לא רואה [כלום|שום דבר] מתחת למיטה",
+        "מתחת למיטה תאו לא רואה [כלום|שום דבר]"
+      ],
+      "hint": [
+        "כְּלוּם"
+      ],
+      "why": "After לֹא, the word כְּלוּם means 'anything': Hebrew negates twice where English negates once. The verb רוֹאֶה is the masculine present of לִרְאוֹת."
+    }
+  ]
+}

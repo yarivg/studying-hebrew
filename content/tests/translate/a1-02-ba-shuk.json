@@ -1,0 +1,222 @@
+{
+  "id": "translate-a1-02-ba-shuk",
+  "passage": "a1-02-ba-shuk",
+  "title": "At the market",
+  "questions": [
+    {
+      "id": "translate-a1-02-ba-shuk-01",
+      "type": "translate",
+      "q": "Who is carrying the basket?",
+      "a": [
+        "מִי נוֹשֵׂא אֶת הַסַּל?",
+        "מי [נושא|סוחב|מחזיק] את הסל"
+      ],
+      "hint": [
+        "נוֹשֵׂא",
+        "סַל"
+      ],
+      "why": "A question with מִי keeps the order of a statement, and the basket is definite, so it takes אֶת. Until the answer is known, מִי takes the masculine: נוֹשֵׂא."
+    },
+    {
+      "id": "translate-a1-02-ba-shuk-02",
+      "type": "translate",
+      "q": "This cheese is very good.",
+      "a": [
+        "הַגְּבִינָה הַזֹּאת טוֹבָה מְאוֹד.",
+        "הגבינה [הזאת|הזו] [טובה מאוד|מאוד טובה]"
+      ],
+      "hint": [
+        "גְּבִינָה",
+        "הַזֹּאת"
+      ],
+      "why": "The noun גְּבִינָה is feminine, so 'this' is הַזֹּאת and the adjective is טוֹבָה. Put זֹאת first without its ה and it becomes a different sentence: זֹאת גְּבִינָה טוֹבָה, 'this is good cheese'."
+    },
+    {
+      "id": "translate-a1-02-ba-shuk-03",
+      "type": "translate",
+      "q": "The seller sells eggs, bread and cheese.",
+      "a": [
+        "הַמּוֹכֵר מוֹכֵר בֵּיצִים, לֶחֶם וּגְבִינָה.",
+        "המוכר מוכר ביצים [|ו]לחם וגבינה"
+      ],
+      "hint": [
+        "הַמּוֹכֵר"
+      ],
+      "why": "The same word twice: with the article, הַמּוֹכֵר is 'the seller', and without it מוֹכֵר is 'sells'. Before a letter with a sheva, וְ becomes וּ: וּגְבִינָה."
+    },
+    {
+      "id": "translate-a1-02-ba-shuk-04",
+      "type": "translate",
+      "q": "Yotam's mother is carrying the basket.",
+      "a": [
+        "אִמָּא שֶׁל יוֹתָם נוֹשֵׂאת אֶת הַסַּל.",
+        "[|ה]אמא של יותם [נושאת|סוחבת|מחזיקה] את הסל"
+      ],
+      "hint": [
+        "אִמָּא שֶׁל יוֹתָם",
+        "נוֹשֵׂא"
+      ],
+      "why": "The root of נוֹשֵׂא ends in א, so the feminine only adds ת: נוֹשֵׂאת, like קוֹרֵאת. Hebrew says 'mum of Yotam', אִמָּא שֶׁל יוֹתָם, usually with no article on אִמָּא."
+    },
+    {
+      "id": "translate-a1-02-ba-shuk-05",
+      "type": "translate",
+      "q": "These tomatoes are very big.",
+      "a": [
+        "הָעַגְבָנִיּוֹת הָאֵלֶּה גְּדוֹלוֹת מְאוֹד.",
+        "העגבניות [האלה|האלו] [גדולות מאוד|מאוד גדולות]"
+      ],
+      "hint": [
+        "עַגְבָנִיּוֹת",
+        "גְּדוֹלָה"
+      ],
+      "why": "Plural 'these' is הָאֵלֶּה for both genders, after the noun and with an article of its own. The adjective has no article, which makes it the predicate, and takes the feminine plural: גְּדוֹלוֹת."
+    },
+    {
+      "id": "translate-a1-02-ba-shuk-06",
+      "type": "translate",
+      "q": "We have bread, but we don't have eggs.",
+      "a": [
+        "יֵשׁ לָנוּ לֶחֶם, אֲבָל אֵין לָנוּ בֵּיצִים.",
+        "יש לנו לחם אבל אין לנו [ביצים|אף ביצה]",
+        "יש לנו לחם אבל ביצים אין לנו"
+      ],
+      "hint": [
+        "אֵין לָנוּ"
+      ],
+      "why": "Having is יֵשׁ לָנוּ and not having is אֵין לָנוּ; Hebrew never says לֹא יֵשׁ. The owner rides on the לְ as an ending: לִי, לוֹ, לָהּ, לָנוּ."
+    },
+    {
+      "id": "translate-a1-02-ba-shuk-07",
+      "type": "translate",
+      "q": "How many eggs are there in the basket?",
+      "a": [
+        "כַּמָּה בֵּיצִים יֵשׁ בַּסַּל?",
+        "כמה ביצים [יש |]בסל",
+        "כמה ביצים יש בתוך הסל"
+      ],
+      "hint": [
+        "בֵּיצִים",
+        "סַל"
+      ],
+      "why": "The word כַּמָּה takes a bare plural straight after it, with no 'of': כַּמָּה בֵּיצִים. Then come יֵשׁ and the place, where בְּ and הַסַּל merge into בַּסַּל."
+    },
+    {
+      "id": "translate-a1-02-ba-shuk-08",
+      "type": "translate",
+      "q": "Yotam counts the eggs again.",
+      "a": [
+        "יוֹתָם סוֹפֵר שׁוּב אֶת הַבֵּיצִים.",
+        "יותם סופר [שוב את הביצים|את הביצים שוב|עוד פעם את הביצים|את הביצים עוד פעם]",
+        "יותם [שוב|עוד פעם] סופר את הביצים"
+      ],
+      "hint": [
+        "סוֹפֵר",
+        "שׁוּב"
+      ],
+      "why": "The eggs are definite, so they need אֶת: סוֹפֵר אֶת הַבֵּיצִים. The adverb שׁוּב is free to stand before the verb, before the object or at the end."
+    },
+    {
+      "id": "translate-a1-02-ba-shuk-09",
+      "type": "translate",
+      "q": "There are a lot of people ahead of Yotam.",
+      "a": [
+        "לִפְנֵי יוֹתָם יֵשׁ הַרְבֵּה אֲנָשִׁים.",
+        "[לפני יותם יש|יש לפני יותם] [הרבה|המון] אנשים",
+        "יש [הרבה|המון] אנשים לפני יותם"
+      ],
+      "hint": [
+        "לִפְנֵי",
+        "הַרְבֵּה אֲנָשִׁים"
+      ],
+      "why": "The plural of אִישׁ is the irregular אֲנָשִׁים, and הַרְבֵּה stands in front of it with no 'of'. Hebrew likes the place first and יֵשׁ after it: לִפְנֵי יוֹתָם יֵשׁ."
+    },
+    {
+      "id": "translate-a1-02-ba-shuk-10",
+      "type": "translate",
+      "q": "The seller sells apples at five shekels a kilo.",
+      "a": [
+        "הַמּוֹכֵר מוֹכֵר תַּפּוּחִים בַּחֲמִישָּׁה שְׁקָלִים הַקִּילוֹ.",
+        "המוכר מוכר תפוחים ב[חמישה|5] שקלים [הקילו|לקילו]"
+      ],
+      "hint": [
+        "שְׁקָלִים",
+        "תַּפּוּחִים"
+      ],
+      "why": "Shekel is masculine, so five is חֲמִישָּׁה, the form with ־ָה. The price takes בְּ, which turns into בַּ before the ḥataf of חֲ, and 'a kilo' is הַקִּילוֹ, the kilo."
+    },
+    {
+      "id": "translate-a1-02-ba-shuk-11",
+      "type": "translate",
+      "q": "Yotam looks at his mother's list.",
+      "a": [
+        "יוֹתָם מִסְתַּכֵּל עַל הָרְשִׁימָה שֶׁל אִמָּא שֶׁלּוֹ.",
+        "יותם מסתכל [על הרשימה|ברשימה] של אמא[| שלו]"
+      ],
+      "hint": [
+        "מִסְתַּכֶּלֶת",
+        "רְשִׁימָה"
+      ],
+      "why": "The verb מִסְתַּכֵּל is hitpa'el and takes עַל for what you look at. Possession stacks one שֶׁל on another: הָרְשִׁימָה שֶׁל אִמָּא שֶׁלּוֹ, the list of his mum."
+    },
+    {
+      "id": "translate-a1-02-ba-shuk-12",
+      "type": "translate",
+      "q": "Three kilos of apples and two pieces of cheese, please.",
+      "a": [
+        "שְׁלוֹשָׁה קִילוֹ תַּפּוּחִים וּשְׁתֵּי חֲתִיכוֹת גְּבִינָה, בְּבַקָּשָׁה.",
+        "[שלושה|3] קילו תפוחים ו[שתי|2] חתיכות [|של ]גבינה בבקשה",
+        "בבקשה [שלושה|3] קילו תפוחים ו[שתי|2] חתיכות [|של ]גבינה"
+      ],
+      "hint": [
+        "קִילוֹ",
+        "חֲתִיכָה"
+      ],
+      "why": "Each number agrees with what it counts: קִילוֹ is masculine, so שְׁלוֹשָׁה, and חֲתִיכָה is feminine, so שְׁתֵּי. The measure sits in front of the food in smichut, with no word for 'of'."
+    },
+    {
+      "id": "translate-a1-02-ba-shuk-13",
+      "type": "translate",
+      "q": "The seller says: that's thirty-five shekels.",
+      "a": [
+        "הַמּוֹכֵר אוֹמֵר: זֶה שְׁלוֹשִׁים וַחֲמִישָּׁה שְׁקָלִים.",
+        "המוכר אומר [זה |]שלושים וחמישה שקלים",
+        "המוכר אומר [זה |]35 שקלים"
+      ],
+      "hint": [
+        "שְׁקָלִים"
+      ],
+      "why": "Tens come first and the unit follows with וְ, still agreeing with the masculine שְׁקָלִים: וַחֲמִישָּׁה, not וְחָמֵשׁ. The וְ turns into וַ before the ḥataf of חֲ."
+    },
+    {
+      "id": "translate-a1-02-ba-shuk-14",
+      "type": "translate",
+      "q": "Mum looks at Yotam's hand and smiles.",
+      "a": [
+        "אִמָּא מִסְתַּכֶּלֶת עַל הַיָּד שֶׁל יוֹתָם וּמְחַיֶּיכֶת.",
+        "אמא מסתכלת [על היד|ביד] של יותם ומחייכת"
+      ],
+      "hint": [
+        "מִסְתַּכֶּלֶת",
+        "מְחַיֶּיכֶת"
+      ],
+      "why": "Both verbs are feminine present ending in ־ֶת, one hitpa'el and one pi'el. The וְ becomes וּ in front of מ, as it does before בּ and פּ."
+    },
+    {
+      "id": "translate-a1-02-ba-shuk-15",
+      "type": "translate",
+      "q": "Yotam has a piece of cheese in his right hand.",
+      "a": [
+        "לְיוֹתָם יֵשׁ חֲתִיכַת גְּבִינָה בַּיָּד הַיְּמָנִית.",
+        "[ליותם יש|יש ליותם] [חתיכת גבינה|חתיכה של גבינה] [ביד הימנית|ביד הימנית שלו|ביד ימין]",
+        "[ביד הימנית|ביד הימנית שלו|ביד ימין] [יש ליותם|ליותם יש] [חתיכת גבינה|חתיכה של גבינה]",
+        "ביד הימנית של יותם יש [חתיכת גבינה|חתיכה של גבינה]"
+      ],
+      "hint": [
+        "חֲתִיכָה",
+        "יְמָנִית"
+      ],
+      "why": "In smichut a feminine noun swaps its ־ָה for ־ַת: חֲתִיכָה becomes חֲתִיכַת גְּבִינָה. Having is יֵשׁ לְ, and the לְ joins straight onto the name: לְיוֹתָם."
+    }
+  ]
+}
