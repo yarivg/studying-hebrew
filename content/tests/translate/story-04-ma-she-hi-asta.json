@@ -1,0 +1,218 @@
+{
+  "id": "translate-story-04-ma-she-hi-asta",
+  "passage": "story-04-ma-she-hi-asta",
+  "title": "What she did",
+  "questions": [
+    {
+      "id": "translate-story-04-ma-she-hi-asta-01",
+      "type": "translate",
+      "q": "The flat is on the third floor.",
+      "a": [
+        "הַדִּירָה בַּקּוֹמָה הַשְּׁלִישִׁית.",
+        "הדירה [נמצאת |]בקומה [השלישית|3]"
+      ],
+      "hint": [
+        "הַשְּׁלִישִׁית"
+      ],
+      "why": "Ordinals are adjectives: they follow the noun, agree with it and copy its article, so the feminine קוֹמָה gives בַּקּוֹמָה הַשְּׁלִישִׁית."
+    },
+    {
+      "id": "translate-story-04-ma-she-hi-asta-02",
+      "type": "translate",
+      "q": "Ido is thirty-four, and Ruth is seventy-three.",
+      "a": [
+        "עִידוֹ בֶּן שְׁלוֹשִׁים וְאַרְבַּע, וְרוּת בַּת שִׁבְעִים וְשָׁלוֹשׁ.",
+        "עידו בן [שלושים וארבע|34] [ו|]רות בת [שבעים ושלוש|73]"
+      ],
+      "hint": [
+        "בֶּן",
+        "בַּת"
+      ],
+      "why": "Age is בֶּן or בַּת, son or daughter of, followed by the number in its feminine counting form whoever is being counted: שְׁלוֹשִׁים וְאַרְבַּע."
+    },
+    {
+      "id": "translate-story-04-ma-she-hi-asta-03",
+      "type": "translate",
+      "q": "His handshake was dry.",
+      "a": [
+        "לְחִיצַת הַיָּד שֶׁלּוֹ הָיְתָה יְבֵשָׁה.",
+        "[לחיצת היד שלו|לחיצת ידו] הייתה יבשה"
+      ],
+      "hint": [
+        "לְחִיצַת יָד",
+        "יְבֵשָׁה"
+      ],
+      "why": "The verbal noun לְחִיצָה, a press, becomes לְחִיצַת in smichut, and the article and שֶׁלּוֹ belong to the pair as a whole. The verb agrees with the feminine head noun: הָיְתָה."
+    },
+    {
+      "id": "translate-story-04-ma-she-hi-asta-04",
+      "type": "translate",
+      "q": "The meeting with the lawyer was at twenty past two.",
+      "a": [
+        "הַפְּגִישָׁה עִם עוֹרֵךְ הַדִּין הָיְתָה בִּשְׁתַּיִים וְעֶשְׂרִים.",
+        "הפגישה [עם|אצל] עורך הדין הייתה ב[שתיים ועשרים|2:20|14:20][ אחר הצהריים|]"
+      ],
+      "hint": [
+        "פְּגִישָׁה",
+        "בִּשְׁתַּיִים"
+      ],
+      "why": "Minutes past the hour are added with וְ, שְׁתַּיִים וְעֶשְׂרִים, and the time takes בְּ. פְּגִישָׁה is feminine, so 'was' is הָיְתָה."
+    },
+    {
+      "id": "translate-story-04-ma-she-hi-asta-05",
+      "type": "translate",
+      "q": "The sale of the house took half a year.",
+      "a": [
+        "מְכִירַת הַבַּיִת לָקְחָה חֲצִי שָׁנָה.",
+        "[מכירת הבית|המכירה של הבית] [לקחה|נמשכה] חצי שנה"
+      ],
+      "hint": [
+        "מְכִירָה",
+        "חֲצִי שָׁנָה"
+      ],
+      "why": "The pa'al verbal noun has the shape of מְכִירָה, from מָכַר, to sell. In smichut its ־ָה turns into ־ַת: מְכִירַת הַבַּיִת."
+    },
+    {
+      "id": "translate-story-04-ma-she-hi-asta-06",
+      "type": "translate",
+      "q": "Ido signed the documents on the fifteenth of May.",
+      "a": [
+        "עִידוֹ חָתַם עַל הַמִּסְמָכִים בַּחֲמִישָּׁה עָשָׂר בְּמַאי.",
+        "עידו חתם על המסמכים [ב15|בחמישה עשר] במאי",
+        "[ב15|בחמישה עשר] במאי עידו חתם על המסמכים"
+      ],
+      "hint": [
+        "חָתְמָה עַל",
+        "מִסְמָךְ"
+      ],
+      "why": "You sign עַל a document. In a date the day is a masculine cardinal with the article, then בְּ and the month: בַּחֲמִישָּׁה עָשָׂר בְּמַאי."
+    },
+    {
+      "id": "translate-story-04-ma-she-hi-asta-07",
+      "type": "translate",
+      "q": "Odelia made the decision in 1998.",
+      "a": [
+        "אוֹדֶלְיָה קִיבְּלָה אֶת הַהַחְלָטָה בְּאֶלֶף תְּשַׁע מֵאוֹת תִּשְׁעִים וּשְׁמוֹנֶה.",
+        "אודליה [קיבלה את ההחלטה|החליטה] [ב1998|בשנת 1998|באלף תשע מאות תשעים ושמונה|בשנת אלף תשע מאות תשעים ושמונה]",
+        "[ב1998|בשנת 1998|באלף תשע מאות תשעים ושמונה|בשנת אלף תשע מאות תשעים ושמונה] אודליה [קיבלה את ההחלטה|החליטה]"
+      ],
+      "hint": [
+        "קִיבְּלָה",
+        "הַחְלָטָה"
+      ],
+      "why": "Hebrew 'receives' a decision: קִיבְּלָה הַחְלָטָה, pi'el past. A year is read as one plain number with the feminine counting forms: אֶלֶף תְּשַׁע מֵאוֹת תִּשְׁעִים וּשְׁמוֹנֶה."
+    },
+    {
+      "id": "translate-story-04-ma-she-hi-asta-08",
+      "type": "translate",
+      "q": "The rent is four thousand five hundred shekels a month.",
+      "a": [
+        "שְׂכַר הַדִּירָה הוּא אַרְבַּעַת אֲלָפִים וַחֲמֵשׁ מֵאוֹת שֶׁקֶל לְחוֹדֶשׁ.",
+        "שכר הדירה [הוא |]ארבעת אלפים וחמש מאות [שקל|שקלים] [לחודש|בחודש]",
+        "שכר הדירה [הוא |][4500|4,500] [שקל|שקלים|ש\"ח|₪] [לחודש|בחודש]"
+      ],
+      "hint": [
+        "שְׂכַר דִּירָה"
+      ],
+      "why": "From three to ten thousand, the number before אֲלָפִים takes its construct form: אַרְבַּעַת אֲלָפִים. From ten up, prices usually keep the singular שֶׁקֶל."
+    },
+    {
+      "id": "translate-story-04-ma-she-hi-asta-09",
+      "type": "translate",
+      "q": "Ido will pay the property tax and the repairs.",
+      "a": [
+        "עִידוֹ יְשַׁלֵּם אֶת הָאַרְנוֹנָה וְאֶת הַתִּיקּוּנִים.",
+        "עידו [ישלם|יצטרך לשלם] את הארנונה [ואת |ועל |ו]התיקונים"
+      ],
+      "hint": [
+        "אַרְנוֹנָה",
+        "תְּשַׁלֵּם"
+      ],
+      "why": "Pi'el future for 'he' opens with יְ over a sheva: יְשַׁלֵּם, as in the story's תְּשַׁלֵּם for 'you'. Each definite object can take its own אֶת."
+    },
+    {
+      "id": "translate-story-04-ma-she-hi-asta-10",
+      "type": "translate",
+      "q": "She asked him not to tell anybody.",
+      "a": [
+        "הִיא בִּיקְּשָׁה מִמֶּנּוּ לֹא לְסַפֵּר לְאַף אֶחָד.",
+        "היא ביקשה ממנו [לא לספר|שלא יספר|שלא לספר] [לאף אחד|לאיש]"
+      ],
+      "hint": [
+        "בִּיקְּשָׁה",
+        "לְאַף אֶחָד"
+      ],
+      "why": "You ask something of someone with מִ, בִּיקְּשָׁה מִמֶּנּוּ, and 'not to' is simply לֹא before the infinitive. After a negative, 'anybody' is אַף אֶחָד."
+    },
+    {
+      "id": "translate-story-04-ma-she-hi-asta-11",
+      "type": "translate",
+      "q": "He noticed that the lawyer was looking at him.",
+      "a": [
+        "הוּא שָׂם לֵב שֶׁעוֹרֵךְ הַדִּין מִסְתַּכֵּל עָלָיו.",
+        "הוא [שם לב|הבחין] שעורך הדין [מסתכל|מביט|הסתכל|הביט] עליו"
+      ],
+      "hint": [
+        "שָׂם לֵב"
+      ],
+      "why": "After verbs of noticing and saying, Hebrew keeps the tense of the moment itself: שָׂם לֵב שֶׁ ... מִסְתַּכֵּל, is looking, where English shifts back to 'was looking'."
+    },
+    {
+      "id": "translate-story-04-ma-she-hi-asta-12",
+      "type": "translate",
+      "q": "As long as Ruth is alive, nobody can rent out the flat.",
+      "a": [
+        "כָּל עוֹד רוּת בַּחַיִּים, אַף אֶחָד לֹא יָכוֹל לְהַשְׂכִּיר אֶת הַדִּירָה.",
+        "כל עוד רות [בחיים|חיה|חייה] [אף אחד|איש] לא יכול להשכיר את הדירה",
+        "[אף אחד|איש] לא יכול להשכיר את הדירה כל עוד רות [בחיים|חיה|חייה]"
+      ],
+      "hint": [
+        "כָּל עוֹד",
+        "לְהַשְׂכִּיר"
+      ],
+      "why": "The hif'il לְהַשְׂכִּיר is renting out to someone; the pa'al לִשְׂכּוֹר, from the same root, is renting from them. כָּל עוֹד, as long as, is followed by the present."
+    },
+    {
+      "id": "translate-story-04-ma-she-hi-asta-13",
+      "type": "translate",
+      "q": "Two months before her death, she came to the office with a letter.",
+      "a": [
+        "חוֹדְשַׁיִים לִפְנֵי מוֹתָהּ הִיא בָּאָה לַמִּשְׂרָד עִם מִכְתָּב.",
+        "[חודשיים|שני חודשים] לפני [מותה|המוות שלה] היא [באה|הגיעה] [למשרד|אל המשרד] עם מכתב",
+        "היא [באה|הגיעה] [למשרד|אל המשרד] עם מכתב [חודשיים|שני חודשים] לפני [מותה|המוות שלה]"
+      ],
+      "hint": [
+        "חוֹדְשַׁיִים",
+        "בָּאָה"
+      ],
+      "why": "Two of a time unit takes the dual ending ־ַיִים: חוֹדְשַׁיִים, like פַּעֲמַיִים and יוֹמַיִים. 'Her death' is מוֹתָהּ, the old possessive ending that writing still prefers."
+    },
+    {
+      "id": "translate-story-04-ma-she-hi-asta-14",
+      "type": "translate",
+      "q": "Ido asked if his grandmother knew, and the lawyer said that he had no idea.",
+      "a": [
+        "עִידוֹ שָׁאַל אִם סַבְתָּא שֶׁלּוֹ יָדְעָה, וְעוֹרֵךְ הַדִּין אָמַר שֶׁאֵין לוֹ מוּשָׂג.",
+        "עידו שאל [אם|האם] [סבתא שלו|סבתו] ידעה [ו|]עורך הדין [אמר|ענה] [שאין לו מושג|שהוא לא יודע]"
+      ],
+      "hint": [
+        "מוּשָׂג"
+      ],
+      "why": "A reported question is שָׁאַל אִם, and the answer keeps the tense he actually used: he said 'I have no idea', so שֶׁאֵין לוֹ מוּשָׂג, with no shift into the past."
+    },
+    {
+      "id": "translate-story-04-ma-she-hi-asta-15",
+      "type": "translate",
+      "q": "The lawyer will give him the letter on the day he asks the right question.",
+      "a": [
+        "עוֹרֵךְ הַדִּין יִמְסוֹר לוֹ אֶת הַמִּכְתָּב בַּיּוֹם שֶׁהוּא יִשְׁאַל אֶת הַשְּׁאֵלָה הַנְּכוֹנָה.",
+        "עורך הדין [ימסור|ייתן|יתן] לו את המכתב [רק |]ביום [שהוא ישאל|שישאל] את השאלה הנכונה"
+      ],
+      "hint": [
+        "אֶמְסוֹר",
+        "תִּשְׁאַל"
+      ],
+      "why": "Hebrew keeps the future inside a clause about the future: בַּיּוֹם שֶׁהוּא יִשְׁאַל, where English says 'asks'. The story's verb for handing over is מָסַר, future יִמְסוֹר."
+    }
+  ]
+}

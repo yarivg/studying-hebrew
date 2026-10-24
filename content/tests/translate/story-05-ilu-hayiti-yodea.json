@@ -1,0 +1,222 @@
+{
+  "id": "translate-story-05-ilu-hayiti-yodea",
+  "passage": "story-05-ilu-hayiti-yodea",
+  "title": "If I had known",
+  "questions": [
+    {
+      "id": "translate-story-05-ilu-hayiti-yodea-01",
+      "type": "translate",
+      "q": "Michal was right, as always.",
+      "a": [
+        "מִיכַל צָדְקָה, כְּמוֹ תָּמִיד.",
+        "[מיכל צדקה|מיכל הייתה צודקת] כמו תמיד",
+        "כמו תמיד [מיכל צדקה|מיכל הייתה צודקת]"
+      ],
+      "hint": [
+        "לִצְדּוֹק"
+      ],
+      "why": "Being right is a verb in Hebrew, לִצְדּוֹק: צָדְקָה, she was right. Its present, צוֹדֶקֶת, is how you say 'she is right'."
+    },
+    {
+      "id": "translate-story-05-ilu-hayiti-yodea-02",
+      "type": "translate",
+      "q": "The reception on the train was bad.",
+      "a": [
+        "הַקֶּלֶט בָּרַכֶּבֶת הָיָה גָּרוּעַ.",
+        "[הקלט ברכבת היה|ברכבת הקלט היה] [גרוע|רע]",
+        "[הקליטה ברכבת הייתה|ברכבת הקליטה הייתה] [גרועה|רעה]"
+      ],
+      "hint": [
+        "קֶלֶט",
+        "גָּרוּעַ"
+      ],
+      "why": "In the past, 'was' agrees with its subject: קֶלֶט is masculine, so הָיָה גָּרוּעַ. The ע at the end of גָּרוּעַ takes a patah slipped in before it."
+    },
+    {
+      "id": "translate-story-05-ilu-hayiti-yodea-03",
+      "type": "translate",
+      "q": "Will you sell the flat?",
+      "a": [
+        "אַתָּה תִּמְכּוֹר אֶת הַדִּירָה?",
+        "[האם |][אתה |]תמכור את הדירה",
+        "[האם |][את |]תמכרי את הדירה",
+        "[האם |][אתם |אתן |]תמכרו את הדירה"
+      ],
+      "hint": [
+        "לִמְכּוֹר"
+      ],
+      "why": "Pa'al future for 'you' is תִּמְכּוֹר, and the תִּ already says 'you', so the pronoun may go. Asking a woman, it is תִּמְכְּרִי."
+    },
+    {
+      "id": "translate-story-05-ilu-hayiti-yodea-04",
+      "type": "translate",
+      "q": "I will call you tomorrow from the train.",
+      "a": [
+        "אֲנִי אֶתְקַשֵּׁר אֵלֶיךָ מָחָר מֵהָרַכֶּבֶת.",
+        "[אני |]אתקשר [אליך|אלייך|אליכם|אליכן|לך|לכם|לכן] [מחר מהרכבת|מהרכבת מחר]",
+        "מחר [אני |]אתקשר [אליך|אלייך|אליכם|אליכן|לך|לכם|לכן] מהרכבת"
+      ],
+      "hint": [
+        "הִתְקַשֵּׁר",
+        "מָחָר"
+      ],
+      "why": "Hitpa'el future for 'I' opens with אֶ: אֶתְקַשֵּׁר. The prefix already says who, so אֲנִי may go, and 'to you' is אֵלֶיךָ or לְךָ."
+    },
+    {
+      "id": "translate-story-05-ilu-hayiti-yodea-05",
+      "type": "translate",
+      "q": "Michal thinks that her brother looks like Odelia.",
+      "a": [
+        "מִיכַל חוֹשֶׁבֶת שֶׁהָאָח שֶׁלָּהּ דּוֹמֶה לְאוֹדֶלְיָה.",
+        "מיכל חושבת [שהאח שלה|שאחיה] דומה לאודליה"
+      ],
+      "hint": [
+        "דּוֹמֶה לְ"
+      ],
+      "why": "Looking like someone is דּוֹמֶה לְ, an adjective-like present that agrees: he is דּוֹמֶה, she is דּוֹמָה. 'Thinks that' takes שֶׁ, glued to the next word."
+    },
+    {
+      "id": "translate-story-05-ilu-hayiti-yodea-06",
+      "type": "translate",
+      "q": "Michal said that she knew nothing.",
+      "a": [
+        "מִיכַל אָמְרָה שֶׁהִיא לֹא יוֹדַעַת כְּלוּם.",
+        "מיכל אמרה [שהיא לא יודעת|שאינה יודעת] [כלום|שום דבר|דבר]"
+      ],
+      "hint": [
+        "יוֹדַעַת"
+      ],
+      "why": "Reported speech keeps the tense of what was said: she said 'I know nothing', so שֶׁהִיא לֹא יוֹדַעַת, in the present. כְּלוּם needs the לֹא beside it."
+    },
+    {
+      "id": "translate-story-05-ilu-hayiti-yodea-07",
+      "type": "translate",
+      "q": "I can't bring myself to send her letters.",
+      "a": [
+        "אֲנִי לֹא מְסוּגָּל לִשְׁלוֹחַ לָהּ מִכְתָּבִים.",
+        "אני לא [מסוגל|מסוגלת] לשלוח לה מכתבים",
+        "אני לא [מצליח|מצליחה] [|להביא את עצמי ]לשלוח לה מכתבים"
+      ],
+      "hint": [
+        "מְסוּגָּל"
+      ],
+      "why": "The adjective מְסוּגָּל, capable, is how Hebrew says 'can bring myself to', and it takes an infinitive; a woman says מְסוּגֶּלֶת. The infinitive לִשְׁלוֹחַ slips a patah in before its final ח."
+    },
+    {
+      "id": "translate-story-05-ilu-hayiti-yodea-08",
+      "type": "translate",
+      "q": "If Ruth calls, I'll talk to her.",
+      "a": [
+        "אִם רוּת תִּתְקַשֵּׁר, אֲנִי אֲדַבֵּר אִיתָּהּ.",
+        "אם רות [תתקשר|מתקשרת] [אני |]אדבר [איתה|אליה]",
+        "[אני |]אדבר [איתה|אליה] אם רות [תתקשר|מתקשרת]"
+      ],
+      "hint": [
+        "אִם"
+      ],
+      "why": "A real condition takes the future after אִם, where English uses the present: אִם רוּת תִּתְקַשֵּׁר. The other half is future too: אֲדַבֵּר."
+    },
+    {
+      "id": "translate-story-05-ilu-hayiti-yodea-09",
+      "type": "translate",
+      "q": "Michal didn't know what to say, so she sighed.",
+      "a": [
+        "מִיכַל לֹא יָדְעָה מָה לְהַגִּיד, אָז הִיא נֶאֶנְחָה.",
+        "מיכל לא ידעה מה [להגיד|לומר] [אז |ולכן |לכן |ו][היא |]נאנחה"
+      ],
+      "hint": [
+        "נֶאֶנְחָה"
+      ],
+      "why": "A question word can take an infinitive straight after it: מָה לְהַגִּיד, what to say. The verb נֶאֶנְחָה is nif'al past, with a segol under the נֶ because of the guttural א that follows."
+    },
+    {
+      "id": "translate-story-05-ilu-hayiti-yodea-10",
+      "type": "translate",
+      "q": "If the train goes into a tunnel, the call will drop.",
+      "a": [
+        "אִם הָרַכֶּבֶת תִּיכָּנֵס לְמִנְהָרָה, הַשִּׂיחָה תִּיפּוֹל.",
+        "אם הרכבת [תיכנס|תכנס] [למנהרה|לתוך מנהרה] השיחה [תיפול|תפול|תתנתק|תיקטע|תקטע]",
+        "השיחה [תיפול|תפול|תתנתק|תיקטע|תקטע] אם הרכבת [תיכנס|תכנס] [למנהרה|לתוך מנהרה]",
+        "אם הרכבת נכנסת [למנהרה|לתוך מנהרה] השיחה [נופלת|מתנתקת|נקטעת]"
+      ],
+      "hint": [
+        "מִנְהָרָה",
+        "נָפְלָה"
+      ],
+      "why": "Both halves of a real condition take the future: תִּיכָּנֵס is nif'al, and תִּיפּוֹל is pa'al with its נ hidden in the dagesh of the פּ. A call 'falls' in Hebrew: הַשִּׂיחָה נָפְלָה."
+    },
+    {
+      "id": "translate-story-05-ilu-hayiti-yodea-11",
+      "type": "translate",
+      "q": "Mum would never believe a story like this.",
+      "a": [
+        "אִימָּא אַף פַּעַם לֹא הָיְתָה מַאֲמִינָה לְסִיפּוּר כָּזֶה.",
+        "אמא [אף פעם |בחיים |]לא הייתה מאמינה לסיפור כזה",
+        "אמא לא הייתה מאמינה אף פעם לסיפור כזה"
+      ],
+      "hint": [
+        "מַאֲמִין",
+        "כָּזֶה"
+      ],
+      "why": "English 'would' is הָיָה with the present form, both agreeing with the subject: הָיְתָה מַאֲמִינָה. You believe a person or a story with לְ; with בְּ it means believing in."
+    },
+    {
+      "id": "translate-story-05-ilu-hayiti-yodea-12",
+      "type": "translate",
+      "q": "If I were you, I would stop paying rent.",
+      "a": [
+        "אִילּוּ הָיִיתִי בִּמְקוֹמְךָ, הָיִיתִי מַפְסִיק לְשַׁלֵּם שְׂכַר דִּירָה.",
+        "[אילו|אלו|לו|אם] הייתי במקומך הייתי [מפסיק|מפסיקה] לשלם שכר דירה",
+        "[|אני ]במקומך הייתי [מפסיק|מפסיקה] לשלם שכר דירה"
+      ],
+      "hint": [
+        "מַפְסִיק",
+        "שְׂכַר דִּירָה"
+      ],
+      "why": "Hebrew says 'in your place', בִּמְקוֹמְךָ, and the advice after it is הָיִיתִי with the present form: הָיִיתִי מַפְסִיק. To stop doing something is הִפְסִיק plus an infinitive."
+    },
+    {
+      "id": "translate-story-05-ilu-hayiti-yodea-13",
+      "type": "translate",
+      "q": "If Mum had known about the letter, she would have called Ido.",
+      "a": [
+        "אִילּוּ אִימָּא הָיְתָה יוֹדַעַת עַל הַמִּכְתָּב, הִיא הָיְתָה מִתְקַשֶּׁרֶת לְעִידוֹ.",
+        "[אילו|אלו|לו|אם] אמא הייתה יודעת על המכתב [היא |]הייתה מתקשרת לעידו",
+        "[אילו|אלו|לו] אמא ידעה על המכתב [היא |]הייתה מתקשרת לעידו",
+        "אמא הייתה מתקשרת לעידו [אילו|אלו|לו|אם] [היא |]הייתה יודעת על המכתב"
+      ],
+      "hint": [
+        "יוֹדַעַת"
+      ],
+      "why": "An unreal condition puts הָיָה and the present form in both halves: הָיְתָה יוֹדַעַת, הָיְתָה מִתְקַשֶּׁרֶת. The same shape serves for 'if she knew' and 'if she had known'."
+    },
+    {
+      "id": "translate-story-05-ilu-hayiti-yodea-14",
+      "type": "translate",
+      "q": "If Ruth had not lived in the flat, Ido would have sold it.",
+      "a": [
+        "אִילּוּ רוּת לֹא הָיְתָה גָּרָה בַּדִּירָה, עִידוֹ הָיָה מוֹכֵר אוֹתָהּ.",
+        "[אילו|אלו|לו|אם] רות לא הייתה גרה בדירה עידו היה מוכר [אותה|את הדירה]",
+        "עידו היה מוכר את הדירה [אילו|אלו|לו|אם] רות לא הייתה גרה בה"
+      ],
+      "hint": [
+        "מוֹכֵר"
+      ],
+      "why": "Each half agrees with its own subject: רוּת ... הָיְתָה גָּרָה, עִידוֹ הָיָה מוֹכֵר. The לֹא goes in front of הָיָה, not in front of the second verb."
+    },
+    {
+      "id": "translate-story-05-ilu-hayiti-yodea-15",
+      "type": "translate",
+      "q": "If Ido had asked twenty years ago, maybe his mother would have told him.",
+      "a": [
+        "אִילּוּ עִידוֹ הָיָה שׁוֹאֵל לִפְנֵי עֶשְׂרִים שָׁנָה, אוּלַי אִימָּא שֶׁלּוֹ הָיְתָה מְסַפֶּרֶת לוֹ.",
+        "[אילו|אלו|לו|אם] עידו היה שואל לפני [עשרים|20] [שנה|שנים] אולי [אמא שלו|אמו] הייתה מספרת לו",
+        "[אילו|אלו|לו|אם] עידו היה שואל לפני [עשרים|20] [שנה|שנים] [אמא שלו|אמו] אולי הייתה מספרת לו"
+      ],
+      "hint": [
+        "אוּלַי"
+      ],
+      "why": "Time ago is לִפְנֵי plus the amount, לִפְנֵי עֶשְׂרִים שָׁנָה, with שָׁנָה singular as usual after numbers above ten. Both halves still take הָיָה with the present form."
+    }
+  ]
+}

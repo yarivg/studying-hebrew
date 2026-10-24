@@ -1,0 +1,220 @@
+{
+  "id": "translate-story-03-ha-shkhena",
+  "passage": "story-03-ha-shkhena",
+  "title": "The neighbour",
+  "questions": [
+    {
+      "id": "translate-story-03-ha-shkhena-01",
+      "type": "translate",
+      "q": "She drank her coffee without sugar.",
+      "a": [
+        "הִיא שָׁתְתָה אֶת הַקָּפֶה שֶׁלָּהּ בְּלִי סוּכָּר.",
+        "היא שתתה את הקפה [שלה |]בלי סוכר"
+      ],
+      "hint": [
+        "סוּכָּר"
+      ],
+      "why": "Roots ending in ה swap it for ת before the feminine past ending: שָׁתָה, שָׁתְתָה. Her coffee is definite, so it takes אֶת."
+    },
+    {
+      "id": "translate-story-03-ha-shkhena-02",
+      "type": "translate",
+      "q": "Ruth poured him a cup of coffee.",
+      "a": [
+        "רוּת מָזְגָה לוֹ סֵפֶל קָפֶה.",
+        "רות מזגה לו [ספל|כוס] קפה"
+      ],
+      "hint": [
+        "מָזְגָה",
+        "סֵפֶל"
+      ],
+      "why": "The verb מָזְגָה is pa'al past, feminine: the stress moves onto the ending and the middle vowel shrinks to a sheva. 'A cup of coffee' is two nouns side by side: סֵפֶל קָפֶה."
+    },
+    {
+      "id": "translate-story-03-ha-shkhena-03",
+      "type": "translate",
+      "q": "What was the aunt's name?",
+      "a": [
+        "אֵיךְ קָרְאוּ לַדּוֹדָה?",
+        "[איך קראו לדודה|מה היה השם של הדודה|מה היה שמה של הדודה]"
+      ],
+      "hint": [
+        "קָרְאוּ לָהּ"
+      ],
+      "why": "Hebrew asks a name with אֵיךְ, 'how', and a plural verb with no subject: אֵיךְ קָרְאוּ לָהּ, how did they call her. The answer has the same shape: קָרְאוּ לָהּ אוֹדֶלְיָה."
+    },
+    {
+      "id": "translate-story-03-ha-shkhena-04",
+      "type": "translate",
+      "q": "His story sounded strange to her.",
+      "a": [
+        "הַסִּיפּוּר שֶׁלּוֹ נִשְׁמַע לָהּ מוּזָר.",
+        "[הסיפור שלו|סיפורו] נשמע לה מוזר"
+      ],
+      "hint": [
+        "נִשְׁמָע",
+        "מוּזָר"
+      ],
+      "why": "Nif'al gives 'to sound', literally 'to be heard': past נִשְׁמַע, present נִשְׁמָע, the same letters with one vowel changed. Whoever hears it takes לְ: נִשְׁמַע לָהּ."
+    },
+    {
+      "id": "translate-story-03-ha-shkhena-05",
+      "type": "translate",
+      "q": "The kitchen was narrower than the corridor.",
+      "a": [
+        "הַמִּטְבָּח הָיָה צַר יוֹתֵר מֵהַמִּסְדְּרוֹן.",
+        "המטבח היה [צר יותר|יותר צר] [מהמסדרון|מן המסדרון]"
+      ],
+      "hint": [
+        "צַר",
+        "יוֹתֵר"
+      ],
+      "why": "Comparison puts יוֹתֵר beside the adjective, before or after it, and 'than' is מִ, which becomes מֵ in front of the article: מֵהַמִּסְדְּרוֹן."
+    },
+    {
+      "id": "translate-story-03-ha-shkhena-06",
+      "type": "translate",
+      "q": "The taxi to Jerusalem cost more than the train.",
+      "a": [
+        "הַמּוֹנִית לִירוּשָׁלַיִם עָלְתָה יוֹתֵר מֵהָרַכֶּבֶת.",
+        "המונית לירושלים עלתה יותר [מהרכבת|מן הרכבת|מאשר הרכבת]"
+      ],
+      "hint": [
+        "מוֹנִית",
+        "עָלָה"
+      ],
+      "why": "The verb עָלָה, to go up, also means to cost, and with the feminine מוֹנִית it is עָלְתָה. After a verb, 'more than' is יוֹתֵר מִ, just as after an adjective."
+    },
+    {
+      "id": "translate-story-03-ha-shkhena-07",
+      "type": "translate",
+      "q": "Ido asked her what Odelia was like.",
+      "a": [
+        "עִידוֹ שָׁאַל אוֹתָהּ אֵיךְ הָיְתָה אוֹדֶלְיָה.",
+        "עידו שאל אותה איך [הייתה אודליה|אודליה הייתה]"
+      ],
+      "hint": [
+        "אֵיךְ"
+      ],
+      "why": "English 'what was she like' is אֵיךְ, how, in Hebrew, never מָה: אֵיךְ הִיא הָיְתָה. The person asked takes אֶת: שָׁאַל אוֹתָהּ."
+    },
+    {
+      "id": "translate-story-03-ha-shkhena-08",
+      "type": "translate",
+      "q": "Odelia was funnier than Ruth, but less nice.",
+      "a": [
+        "אוֹדֶלְיָה הָיְתָה מַצְחִיקָה יוֹתֵר מֵרוּת, אֲבָל פָּחוֹת נֶחְמָדָה.",
+        "אודליה הייתה [מצחיקה יותר|יותר מצחיקה] מרות [אבל|אך] [פחות נחמדה|נחמדה פחות]"
+      ],
+      "hint": [
+        "מַצְחִיקָה",
+        "פָּחוֹת"
+      ],
+      "why": "The word for 'than' is מִ glued to the noun, and before ר, which never doubles, it lengthens to מֵ: מֵרוּת. פָּחוֹת works exactly like יוֹתֵר."
+    },
+    {
+      "id": "translate-story-03-ha-shkhena-09",
+      "type": "translate",
+      "q": "Ruth has been making coffee with a pinch of salt for years.",
+      "a": [
+        "רוּת מְכִינָה קָפֶה עִם קוֹרְטוֹב מֶלַח כְּבָר שָׁנִים.",
+        "רות [מכינה|עושה] קפה עם קורטוב מלח כבר [שנים|הרבה שנים]",
+        "רות כבר [שנים|הרבה שנים] [מכינה|עושה] קפה עם קורטוב מלח",
+        "כבר [שנים|הרבה שנים] רות [מכינה|עושה] קפה עם קורטוב מלח"
+      ],
+      "hint": [
+        "קוֹרְטוֹב",
+        "כְּבָר"
+      ],
+      "why": "Something that began in the past and is still going on takes the present in Hebrew, usually with כְּבָר: מְכִינָה ... כְּבָר שָׁנִים, where English says 'has been making'."
+    },
+    {
+      "id": "translate-story-03-ha-shkhena-10",
+      "type": "translate",
+      "q": "I never managed to make coffee like hers.",
+      "a": [
+        "אַף פַּעַם לֹא הִצְלַחְתִּי לְהָכִין קָפֶה כְּמוֹ שֶׁלָּהּ.",
+        "[אני |][אף פעם לא הצלחתי|לא הצלחתי אף פעם|מעולם לא הצלחתי] [להכין|לעשות] קפה כמו [שלה|הקפה שלה]"
+      ],
+      "hint": [
+        "הִצְלַחְתִּי",
+        "לְהָכִין"
+      ],
+      "why": "The ending ־תִּי already means 'I', so אֲנִי is optional: הִצְלַחְתִּי, hif'il past. 'Like hers' is כְּמוֹ שֶׁלָּהּ, with no word for 'one'."
+    },
+    {
+      "id": "translate-story-03-ha-shkhena-11",
+      "type": "translate",
+      "q": "Ido did not argue with her; he only listened.",
+      "a": [
+        "עִידוֹ לֹא הִתְוַוכֵּחַ אִיתָּהּ, הוּא רַק הִקְשִׁיב.",
+        "עידו לא התווכח איתה [הוא רק הקשיב|רק הקשיב|אלא רק הקשיב|הוא רק הקשיב לה|רק הקשיב לה]"
+      ],
+      "hint": [
+        "לְהִתְוַוכֵּחַ",
+        "הִקְשִׁיב"
+      ],
+      "why": "In hitpa'el the ח at the end takes a patah slipped in before it: הִתְוַוכֵּחַ. 'With her' is עִם with an ending, which comes out as אִיתָּהּ."
+    },
+    {
+      "id": "translate-story-03-ha-shkhena-12",
+      "type": "translate",
+      "q": "After that night she didn't see her sister any more.",
+      "a": [
+        "אַחֲרֵי הַלַּיְלָה הַהוּא הִיא לֹא רָאֲתָה אֶת אֲחוֹתָהּ יוֹתֵר.",
+        "[אחרי|מאז] הלילה ההוא [היא |]לא [ראתה|פגשה] את [אחותה|האחות שלה] יותר",
+        "[אחרי|מאז] הלילה ההוא [היא |]כבר לא [ראתה|פגשה] את [אחותה|האחות שלה]"
+      ],
+      "hint": [
+        "רָאֲתָה",
+        "יוֹתֵר"
+      ],
+      "why": "Not any more is לֹא with יוֹתֵר at the end, or כְּבָר לֹא before the verb. 'That night', looking back, is הַלַּיְלָה הַהוּא, with the article on both words."
+    },
+    {
+      "id": "translate-story-03-ha-shkhena-13",
+      "type": "translate",
+      "q": "Every Friday the two women used to go to the market together.",
+      "a": [
+        "בְּכָל יוֹם שִׁישִּׁי שְׁתֵּי הַנָּשִׁים הָיוּ הוֹלְכוֹת יַחַד לַשּׁוּק.",
+        "[בכל|כל] יום שישי שתי הנשים [היו הולכות|הלכו] [יחד לשוק|לשוק יחד|ביחד לשוק|לשוק ביחד]",
+        "שתי הנשים [היו הולכות|הלכו] [יחד לשוק|לשוק יחד|ביחד לשוק|לשוק ביחד] [בכל|כל] יום שישי"
+      ],
+      "hint": [
+        "יוֹם שִׁישִּׁי",
+        "יַחַד"
+      ],
+      "why": "A past habit is הָיָה with the present form, here feminine plural: הָיוּ הוֹלְכוֹת, used to go. 'The two women' puts the number first and the article on the noun: שְׁתֵּי הַנָּשִׁים."
+    },
+    {
+      "id": "translate-story-03-ha-shkhena-14",
+      "type": "translate",
+      "q": "This is the chair that she sat on every morning.",
+      "a": [
+        "זֶה הַכִּיסֵּא שֶׁהִיא יָשְׁבָה עָלָיו כָּל בּוֹקֶר.",
+        "זה [הכיסא|הכסא] שהיא [ישבה|הייתה יושבת] עליו [כל|בכל] בוקר",
+        "זה [הכיסא|הכסא] [שעליו היא|שעליו] [ישבה|הייתה יושבת] [כל|בכל] בוקר",
+        "זה [הכיסא|הכסא] [שישבה עליו|שהייתה יושבת עליו] [כל|בכל] בוקר"
+      ],
+      "hint": [
+        "כִּיסֵּא",
+        "עָלָיו"
+      ],
+      "why": "Hebrew leaves a pronoun behind in the relative clause: הַכִּיסֵּא שֶׁהִיא יָשְׁבָה עָלָיו, the chair that she sat on it. כִּיסֵּא is masculine, so the pronoun is עָלָיו."
+    },
+    {
+      "id": "translate-story-03-ha-shkhena-15",
+      "type": "translate",
+      "q": "Ido still didn't know why they had thrown her out of the house.",
+      "a": [
+        "עִידוֹ עֲדַיִין לֹא יָדַע לָמָּה זָרְקוּ אוֹתָהּ מֵהַבַּיִת.",
+        "עידו [עדיין לא ידע|לא ידע עדיין|עוד לא ידע] [למה|מדוע] זרקו אותה [מהבית|מן הבית]"
+      ],
+      "hint": [
+        "זָרְקוּ",
+        "עֲדַיִין"
+      ],
+      "why": "With no particular 'they' in mind, Hebrew uses a bare plural verb: זָרְקוּ אוֹתָהּ, exactly like קָרְאוּ לָהּ. One past covers both 'threw' and 'had thrown'."
+    }
+  ]
+}

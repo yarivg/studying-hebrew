@@ -1,0 +1,217 @@
+{
+  "id": "translate-story-02-ha-dira",
+  "passage": "story-02-ha-dira",
+  "title": "The flat",
+  "questions": [
+    {
+      "id": "translate-story-02-ha-dira-01",
+      "type": "translate",
+      "q": "It was raining in Jerusalem.",
+      "a": [
+        "יָרַד גֶּשֶׁם בִּירוּשָׁלַיִם.",
+        "[ירד גשם בירושלים|בירושלים ירד גשם|היה גשם בירושלים|בירושלים היה גשם|ירד גשם על ירושלים]"
+      ],
+      "hint": [
+        "יָרַד גֶּשֶׁם"
+      ],
+      "why": "Hebrew has no dummy 'it': rain simply came down, יָרַד גֶּשֶׁם, usually verb first. English 'was raining' is a plain past here."
+    },
+    {
+      "id": "translate-story-02-ha-dira-02",
+      "type": "translate",
+      "q": "The blue door was open.",
+      "a": [
+        "הַדֶּלֶת הַכְּחוּלָּה הָיְתָה פְּתוּחָה.",
+        "הדלת הכחולה הייתה פתוחה"
+      ],
+      "hint": [
+        "כְּחוּלָּה"
+      ],
+      "why": "In the past 'was' comes back and agrees: דֶּלֶת is feminine, so הָיְתָה. The adjective of a definite noun takes the article as well: הַדֶּלֶת הַכְּחוּלָּה."
+    },
+    {
+      "id": "translate-story-02-ha-dira-03",
+      "type": "translate",
+      "q": "The tourists stop in the middle of the street.",
+      "a": [
+        "הַתַּיָּירִים עוֹצְרִים בְּאֶמְצַע הָרְחוֹב.",
+        "[התיירים עוצרים באמצע הרחוב|באמצע הרחוב התיירים עוצרים|באמצע הרחוב עוצרים התיירים]"
+      ],
+      "hint": [
+        "תַּיָּירִים",
+        "בָּאֶמְצַע"
+      ],
+      "why": "In smichut the first noun stays bare and the article goes on the second: בְּאֶמְצַע הָרְחוֹב, in the middle of the street. The plural present of עָצַר is עוֹצְרִים."
+    },
+    {
+      "id": "translate-story-02-ha-dira-04",
+      "type": "translate",
+      "q": "Michal drove home in the rain.",
+      "a": [
+        "מִיכַל נָסְעָה הַבַּיְתָה בַּגֶּשֶׁם.",
+        "מיכל נסעה [הביתה בגשם|בגשם הביתה|לביתה בגשם|בגשם לביתה]",
+        "בגשם מיכל נסעה הביתה"
+      ],
+      "hint": [
+        "נָסַע",
+        "הָעִירָה"
+      ],
+      "why": "The ending ־ָה on a place means 'towards': הַבַּיְתָה, home, like the story's הָעִירָה. Hebrew drives with נָסַע, the verb for travelling in any vehicle."
+    },
+    {
+      "id": "translate-story-02-ha-dira-05",
+      "type": "translate",
+      "q": "He went up the stairs to the top floor.",
+      "a": [
+        "הוּא עָלָה בַּמַּדְרֵגוֹת לַקּוֹמָה הָעֶלְיוֹנָה.",
+        "הוא עלה במדרגות [ל|עד ה]קומה [העליונה|האחרונה]",
+        "הוא עלה [ל|עד ה]קומה [העליונה|האחרונה] במדרגות"
+      ],
+      "hint": [
+        "מַדְרֵגוֹת",
+        "הָעֶלְיוֹנָה"
+      ],
+      "why": "The root ע־ל־ה ends in a weak ה: עָלָה for him, עָלְתָה for her, עָלוּ for them. You go up בַּמַּדְרֵגוֹת, by the stairs."
+    },
+    {
+      "id": "translate-story-02-ha-dira-06",
+      "type": "translate",
+      "q": "The keys aren't with me; they're with the lawyer.",
+      "a": [
+        "הַמַּפְתְּחוֹת לֹא אֶצְלִי, הֵם אֵצֶל עוֹרֵךְ הַדִּין.",
+        "המפתחות [לא|אינם] אצלי [הם |אלא |]אצל עורך הדין"
+      ],
+      "hint": [
+        "אֵצֶל"
+      ],
+      "why": "With an ending, אֵצֶל changes its vowel: אֶצְלִי, אֶצְלוֹ, אֶצְלָהּ. Hebrew says a thing is 'at' someone's, where English says who has it."
+    },
+    {
+      "id": "translate-story-02-ha-dira-07",
+      "type": "translate",
+      "q": "Are you looking for the flat on the top floor?",
+      "a": [
+        "אַתָּה מְחַפֵּשׂ אֶת הַדִּירָה בַּקּוֹמָה הָעֶלְיוֹנָה?",
+        "[האם |][אתה מחפש|את מחפשת|אתם מחפשים|אתן מחפשות] את הדירה [ב|שב]קומה העליונה"
+      ],
+      "hint": [
+        "מְחַפֵּשׂ"
+      ],
+      "why": "A yes-no question is the statement with a rising voice, and the definite flat still takes אֶת. The verb מְחַפֵּשׂ ends in שׂ, sin, not shin."
+    },
+    {
+      "id": "translate-story-02-ha-dira-08",
+      "type": "translate",
+      "q": "On the second floor someone put a big potted plant next to the window.",
+      "a": [
+        "בַּקּוֹמָה הַשְּׁנִיָּיה מִישֶׁהוּ שָׂם עָצִיץ גָּדוֹל לְיַד הַחַלּוֹן.",
+        "בקומה [השנייה|השניה] מישהו [שם|הניח] [עציץ גדול ליד החלון|ליד החלון עציץ גדול]",
+        "מישהו [שם|הניח] עציץ גדול ליד החלון בקומה [השנייה|השניה]"
+      ],
+      "hint": [
+        "עָצִיץ",
+        "מִישֶׁהוּ"
+      ],
+      "why": "Ordinals follow the noun like any adjective and agree with it: קוֹמָה is feminine, so הַשְּׁנִיָּיה. Opening with the place, as the story often does, is ordinary Hebrew order."
+    },
+    {
+      "id": "translate-story-02-ha-dira-09",
+      "type": "translate",
+      "q": "The bicycles are in the courtyard, next to the letterboxes.",
+      "a": [
+        "הָאוֹפַנַּיִים בֶּחָצֵר, לְיַד תֵּיבוֹת הַדּוֹאַר.",
+        "האופניים [נמצאים |]בחצר [ליד|על יד] תיבות הדואר",
+        "האופניים [נמצאים |]ליד תיבות הדואר בחצר"
+      ],
+      "hint": [
+        "חָצֵר",
+        "תֵּיבַת דּוֹאַר"
+      ],
+      "why": "In a plural smichut the article goes on the second noun: תֵּיבוֹת הַדּוֹאַר. Before ח the article is הֶ, and בְּ takes over its vowel: בֶּחָצֵר."
+    },
+    {
+      "id": "translate-story-02-ha-dira-10",
+      "type": "translate",
+      "q": "She looked at them from behind the door.",
+      "a": [
+        "הִיא הִסְתַּכְּלָה עֲלֵיהֶם מֵאֲחוֹרֵי הַדֶּלֶת.",
+        "היא [הסתכלה|הביטה] עליהם מאחורי הדלת",
+        "מאחורי הדלת היא [הסתכלה|הביטה] עליהם"
+      ],
+      "hint": [
+        "הִסְתַּכְּלָה",
+        "מֵאֲחוֹרֶיהָ"
+      ],
+      "why": "Looking at is הִסְתַּכֵּל עַל, and עַל takes the endings that look plural: עָלָיו for him, עֲלֵיהֶם for them. מֵאֲחוֹרֵי, from behind, belongs to the same family: מֵאֲחוֹרֶיהָ."
+    },
+    {
+      "id": "translate-story-02-ha-dira-11",
+      "type": "translate",
+      "q": "The flat is his, but the old woman lives in it.",
+      "a": [
+        "הַדִּירָה שֶׁלּוֹ, אֲבָל הָאִישָּׁה הַזְּקֵנָה גָּרָה בָּהּ.",
+        "הדירה [היא |]שלו [אבל|אך] [האישה|האשה] הזקנה גרה בה"
+      ],
+      "hint": [
+        "גָּרָה"
+      ],
+      "why": "Living somewhere is גָּר בְּ, and the place comes back as an ending: גָּרָה בָּהּ, lives in it. 'His' as a predicate is plain שֶׁלּוֹ, with no word for 'is'."
+    },
+    {
+      "id": "translate-story-02-ha-dira-12",
+      "type": "translate",
+      "q": "He meant to go down to the market, but it started to rain.",
+      "a": [
+        "הוּא הִתְכַּוֵּון לָרֶדֶת לַשּׁוּק, אֲבָל הִתְחִיל לָרֶדֶת גֶּשֶׁם.",
+        "הוא התכוון לרדת לשוק [אבל|אך] [התחיל לרדת גשם|התחיל גשם|ירד גשם]"
+      ],
+      "hint": [
+        "הִתְכַּוֵּון",
+        "לָרֶדֶת"
+      ],
+      "why": "The root י־ר־ד loses its first letter in the infinitive: לָרֶדֶת, like לָשֶׁבֶת and לָלֶכֶת. Rain 'starts to come down', הִתְחִיל לָרֶדֶת גֶּשֶׁם, with nothing standing for 'it'."
+    },
+    {
+      "id": "translate-story-02-ha-dira-13",
+      "type": "translate",
+      "q": "There were two names on the letterbox, and one of them meant nothing to him.",
+      "a": [
+        "עַל תֵּיבַת הַדּוֹאַר הָיוּ שְׁנֵי שֵׁמוֹת, וְאֶחָד מֵהֶם לֹא אָמַר לוֹ כְּלוּם.",
+        "על תיבת הדואר היו [שני|2] שמות [ו|]אחד מהם לא אמר לו [כלום|דבר|שום דבר]",
+        "[שני|2] שמות היו על תיבת הדואר [ו|]אחד מהם לא אמר לו [כלום|דבר|שום דבר]"
+      ],
+      "hint": [
+        "תֵּיבַת דּוֹאַר",
+        "כְּלוּם"
+      ],
+      "why": "The noun שֵׁם is masculine though its plural ends in ־וֹת, so 'two' is שְׁנֵי and 'were' is הָיוּ. A name that means nothing to you, in Hebrew, 'says nothing to you': לֹא אָמַר לוֹ כְּלוּם."
+    },
+    {
+      "id": "translate-story-02-ha-dira-14",
+      "type": "translate",
+      "q": "A woman of seventy-something opened the door and asked him what he wanted.",
+      "a": [
+        "אִישָּׁה בַּת שִׁבְעִים וּמַשֶּׁהוּ פָּתְחָה אֶת הַדֶּלֶת וְשָׁאֲלָה אוֹתוֹ מָה הוּא רוֹצֶה.",
+        "[אישה|אשה] בת [שבעים|70] ומשהו פתחה את הדלת ושאלה [אותו |]מה הוא רוצה"
+      ],
+      "hint": [
+        "בַּת",
+        "שָׁאֲלָה"
+      ],
+      "why": "A reported question keeps the speaker's own tense: she asked 'what do you want?', so מָה הוּא רוֹצֶה, where English moves back to 'wanted'. A woman's age takes בַּת."
+    },
+    {
+      "id": "translate-story-02-ha-dira-15",
+      "type": "translate",
+      "q": "He said that he was family: her sister's grandson.",
+      "a": [
+        "הוּא אָמַר שֶׁהוּא מִשְׁפָּחָה, הַנֶּכֶד שֶׁל הָאָחוֹת שֶׁלָּהּ.",
+        "הוא אמר שהוא [|בן ]משפחה [|ה]נכד של [האחות שלה|אחותה]"
+      ],
+      "hint": [
+        "נֶכֶד"
+      ],
+      "why": "Reported speech keeps the tense of the words actually said, so אָמַר שֶׁהוּא מִשְׁפָּחָה has no הָיָה. 'Her sister's' becomes הָאָחוֹת שֶׁלָּהּ, with the article on the noun before שֶׁל."
+    }
+  ]
+}

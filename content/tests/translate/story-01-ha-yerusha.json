@@ -1,0 +1,202 @@
+{
+  "id": "translate-story-01-ha-yerusha",
+  "passage": "story-01-ha-yerusha",
+  "title": "The inheritance",
+  "questions": [
+    {
+      "id": "translate-story-01-ha-yerusha-01",
+      "type": "translate",
+      "q": "The letter arrived on Tuesday.",
+      "a": [
+        "הַמִּכְתָּב הִגִּיעַ בְּיוֹם שְׁלִישִׁי.",
+        "ביום שלישי [הגיע המכתב|המכתב הגיע]"
+      ],
+      "hint": [
+        "הִגִּיעַ"
+      ],
+      "why": "The verb הִגִּיעַ is hif'il past, with the הִ in front as its sign. A day takes בְּ, just like an hour: בְּיוֹם שְׁלִישִׁי."
+    },
+    {
+      "id": "translate-story-01-ha-yerusha-02",
+      "type": "translate",
+      "q": "In the morning he smelled the bread.",
+      "a": [
+        "בַּבּוֹקֶר הוּא הֵרִיחַ אֶת הַלֶּחֶם.",
+        "הוא [הריח את הלחם בבוקר|הריח בבוקר את הלחם|בבוקר הריח את הלחם]"
+      ],
+      "hint": [
+        "הֵרִיחַ"
+      ],
+      "why": "The bread is definite, so it takes אֶת. The verb הֵרִיחַ is hif'il from a hollow root, which opens with הֵ rather than the usual הִ."
+    },
+    {
+      "id": "translate-story-01-ha-yerusha-03",
+      "type": "translate",
+      "q": "Ido lived in a small flat above a bakery.",
+      "a": [
+        "עִידוֹ גָּר בְּדִירָה קְטַנָּה מֵעַל מַאֲפִיָּיה.",
+        "עידו [|היה ]גר בדירה קטנה מעל [|ל][מאפייה|מאפיה]"
+      ],
+      "hint": [
+        "מֵעַל",
+        "מַאֲפִיָּיה"
+      ],
+      "why": "For a hollow root like ג־ו־ר, the past and present 'he' forms are the same word, גָּר, so only the story dates it. The adjective follows its noun and agrees: דִּירָה קְטַנָּה."
+    },
+    {
+      "id": "translate-story-01-ha-yerusha-04",
+      "type": "translate",
+      "q": "Nobody in the family mentioned her.",
+      "a": [
+        "אַף אֶחָד בַּמִּשְׁפָּחָה לֹא הִזְכִּיר אוֹתָהּ.",
+        "[אף אחד|איש] [במשפחה|מהמשפחה] לא הזכיר אותה",
+        "במשפחה [אף אחד|איש] לא הזכיר אותה"
+      ],
+      "hint": [
+        "הִזְכִּיר"
+      ],
+      "why": "Hebrew needs both negatives: אַף אֶחָד, and לֹא before the verb. 'Her' as an object is אוֹתָהּ, the object marker with her ending."
+    },
+    {
+      "id": "translate-story-01-ha-yerusha-05",
+      "type": "translate",
+      "q": "His sister called him on Thursday.",
+      "a": [
+        "הָאָחוֹת שֶׁלּוֹ הִתְקַשְּׁרָה לוֹ בְּיוֹם חֲמִישִׁי.",
+        "[האחות שלו|אחותו] [התקשרה|צלצלה] [לו|אליו] ביום חמישי",
+        "ביום חמישי [האחות שלו|אחותו] [התקשרה|צלצלה] [לו|אליו]"
+      ],
+      "hint": [
+        "הִתְקַשֵּׁר"
+      ],
+      "why": "Hitpa'el past is הִתְקַשֵּׁר for him and הִתְקַשְּׁרָה for her, the middle vowel shrinking to a sheva before the ending. You call 'to' someone, so it is לוֹ."
+    },
+    {
+      "id": "translate-story-01-ha-yerusha-06",
+      "type": "translate",
+      "q": "The secretary asked for his phone number.",
+      "a": [
+        "הַמַּזְכִּירָה בִּיקְּשָׁה אֶת מִסְפַּר הַטֶּלֶפוֹן שֶׁלּוֹ.",
+        "המזכירה ביקשה [ממנו |]את [מספר הטלפון שלו|מספר הטלפון]"
+      ],
+      "hint": [
+        "מַזְכִּירָה",
+        "בִּיקְּשָׁה"
+      ],
+      "why": "In smichut the article goes on the second noun only, מִסְפַּר הַטֶּלֶפוֹן, and שֶׁלּוֹ follows the whole pair. The phrase is definite, so it takes אֶת."
+    },
+    {
+      "id": "translate-story-01-ha-yerusha-07",
+      "type": "translate",
+      "q": "He didn't open the envelope until the evening.",
+      "a": [
+        "הוּא פָּתַח אֶת הַמַּעֲטָפָה רַק בָּעֶרֶב.",
+        "הוא [פתח את המעטפה רק בערב|פתח רק בערב את המעטפה|לא פתח את המעטפה עד הערב|לא פתח את המעטפה לפני הערב]",
+        "רק בערב הוא פתח את המעטפה"
+      ],
+      "hint": [
+        "מַעֲטָפָה",
+        "רַק"
+      ],
+      "why": "Where English says 'not until the evening', Hebrew usually says 'only in the evening': פָּתַח ... רַק בָּעֶרֶב. The negative לֹא פָּתַח עַד הָעֶרֶב is right too."
+    },
+    {
+      "id": "translate-story-01-ha-yerusha-08",
+      "type": "translate",
+      "q": "Michal never complained about her work.",
+      "a": [
+        "מִיכַל אַף פַּעַם לֹא הִתְלוֹנְנָה עַל הָעֲבוֹדָה שֶׁלָּהּ.",
+        "מיכל [אף פעם לא התלוננה|לא התלוננה אף פעם|מעולם לא התלוננה] על [העבודה שלה|עבודתה]"
+      ],
+      "hint": [
+        "לְהִתְלוֹנֵן"
+      ],
+      "why": "This is hitpa'el past, feminine: הִתְלוֹנְנָה. You complain עַל something, and 'never' is אַף פַּעַם with לֹא as well."
+    },
+    {
+      "id": "translate-story-01-ha-yerusha-09",
+      "type": "translate",
+      "q": "He remembered only the old woman in the green coat.",
+      "a": [
+        "הוּא זָכַר רַק אֶת הָאִישָּׁה הַזְּקֵנָה בַּמְּעִיל הַיָּרוֹק.",
+        "הוא [זכר רק|רק זכר] את [האישה|האשה] הזקנה [במעיל הירוק|עם המעיל הירוק]"
+      ],
+      "hint": [
+        "זָכַר",
+        "מְעִיל"
+      ],
+      "why": "When a noun is definite, its adjective takes the article too: הָאִישָּׁה הַזְּקֵנָה, בַּמְּעִיל הַיָּרוֹק. A definite object of זָכַר takes אֶת."
+    },
+    {
+      "id": "translate-story-01-ha-yerusha-10",
+      "type": "translate",
+      "q": "The flat that she left him is in Jerusalem.",
+      "a": [
+        "הַדִּירָה שֶׁהִיא הִשְׁאִירָה לוֹ נִמְצֵאת בִּירוּשָׁלַיִם.",
+        "הדירה [שהיא |ש]השאירה לו [נמצאת |היא |]בירושלים"
+      ],
+      "hint": [
+        "הִשְׁאִירָה"
+      ],
+      "why": "One letter, שֶׁ, does the work of 'that', glued to the next word: שֶׁהִיא. The present needs no 'is', though נִמְצֵאת, 'is located', is often added for a place."
+    },
+    {
+      "id": "translate-story-01-ha-yerusha-11",
+      "type": "translate",
+      "q": "He asked his mother about her, but she changed the subject.",
+      "a": [
+        "הוּא שָׁאַל אֶת אִימָּא שֶׁלּוֹ עָלֶיהָ, אֲבָל הִיא שִׁינְּתָה נוֹשֵׂא.",
+        "הוא שאל את [אמא שלו|אמו] עליה [אבל|אך] היא שינתה [נושא|את הנושא]",
+        "הוא שאל עליה את [אמא שלו|אמו] [אבל|אך] היא שינתה [נושא|את הנושא]"
+      ],
+      "hint": [
+        "שִׁינְּתָה נוֹשֵׂא"
+      ],
+      "why": "You ask a person with אֶת and about a topic with עַל: שָׁאַל אֶת אִימָּא שֶׁלּוֹ עָלֶיהָ. Changing the subject is שִׁינָּה נוֹשֵׂא, usually with no article."
+    },
+    {
+      "id": "translate-story-01-ha-yerusha-12",
+      "type": "translate",
+      "q": "Michal remembered something terrible that their mother had told her.",
+      "a": [
+        "מִיכַל זָכְרָה מַשֶּׁהוּ נוֹרָא שֶׁאִימָּא שֶׁלָּהֶם סִיפְּרָה לָהּ.",
+        "מיכל זכרה משהו נורא [שאמא שלהם|שאמא|שאמם] סיפרה לה"
+      ],
+      "hint": [
+        "נוֹרָא",
+        "סִיפְּרָה"
+      ],
+      "why": "Hebrew has one past for 'told' and 'had told': סִיפְּרָה. The relative שֶׁ joins the clause to מַשֶּׁהוּ נוֹרָא, and the adjective sits straight after its noun."
+    },
+    {
+      "id": "translate-story-01-ha-yerusha-13",
+      "type": "translate",
+      "q": "For the first time, he had something that was his.",
+      "a": [
+        "בַּפַּעַם הָרִאשׁוֹנָה הָיָה לוֹ מַשֶּׁהוּ שֶׁהָיָה שֶׁלּוֹ.",
+        "[בפעם הראשונה|לראשונה] היה לו משהו [שהיה שלו|שהוא שלו|משלו]",
+        "היה לו [בפעם הראשונה|לראשונה] משהו [שהיה שלו|שהוא שלו|משלו]"
+      ],
+      "hint": [
+        "שֶׁלּוֹ"
+      ],
+      "why": "Possession in the past is הָיָה לוֹ, the past of יֵשׁ לוֹ, and הָיָה agrees with the thing owned, not with the owner. 'His' standing on its own is just שֶׁלּוֹ."
+    },
+    {
+      "id": "translate-story-01-ha-yerusha-14",
+      "type": "translate",
+      "q": "The next day he took a day off, because the lawyer preferred to explain in person.",
+      "a": [
+        "לְמָחֳרָת הוּא לָקַח יוֹם חוּפְשָׁה, כִּי עוֹרֵךְ הַדִּין הֶעֱדִיף לְהַסְבִּיר בְּעַצְמוֹ.",
+        "למחרת הוא לקח יום [חופשה|חופש] [כי |מפני ש|בגלל ש]עורך הדין העדיף להסביר [|לו ][בעצמו|באופן אישי]",
+        "הוא לקח למחרת יום [חופשה|חופש] [כי |מפני ש|בגלל ש]עורך הדין העדיף להסביר [|לו ][בעצמו|באופן אישי]"
+      ],
+      "hint": [
+        "לְמָחֳרָת",
+        "יוֹם חוּפְשָׁה",
+        "מַעֲדִיף"
+      ],
+      "why": "The verb הֶעֱדִיף is hif'il past: under the guttural ע the sheva becomes a hataf, and the הִ opens to הֶ to match. Preferring takes a plain infinitive: הֶעֱדִיף לְהַסְבִּיר."
+    }
+  ]
+}
